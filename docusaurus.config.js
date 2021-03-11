@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Talawa',
   tagline: 'Community Organization Management Software',
-  url: 'https://palisadoesfoundation.github.io',
+  url: 'https://palisadoesfoundation.github.io/talawa-docs',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
