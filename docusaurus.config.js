@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Talawa',
   tagline: 'Community Organization Management Software',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://palisadoesfoundation.github.io',
+  baseUrl: 'https://github.com/PalisadoesFoundation/talawa-docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'talawa', // Usually your repo name.
+  organizationName: 'PalisadoesFoundation', // Usually your GitHub org/user name.
+  projectName: 'talawa-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Talawa',
