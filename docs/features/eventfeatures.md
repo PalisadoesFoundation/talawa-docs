@@ -1,6 +1,7 @@
-# Event Features
-
-![](RackMultipart20210316-4-8de5m7_html_237499165a11f2b9.gif)
+---
+id: eventfeatures
+title: Event
+---
 
 [Overall Guidance](#_hqgxp4vhui04)
 
@@ -56,8 +57,6 @@
 
 [Tasks and Timeline](#_vbzuurar0jxe)
 
-![](RackMultipart20210316-4-8de5m7_html_237499165a11f2b9.gif)
-
 ## Overall Guidance
 
 These are events created by a co-ordinator or an Administrator. They are time bound and can include tasks to be achieved before the scheduled date arrives. These tasks can be assigned by the co-ordinator or the administrator to other members of the organisation.
@@ -78,14 +77,14 @@ Out of Scope
 
 _Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
 
-This feature aims to_ **improve the event viewing options** _ by _ **allowing users to group different types of events** _.
+This feature aims to* **improve the event viewing options** * by _ **allowing users to group different types of events** _.
 
 ## Overview
 
 ### Problem
 
 1. **All events in the organisation is currently displayed ungrouped :** Ideally, the user should be able to
-  1. Toggle between their subscribed events or all events in the organization
+1. Toggle between their subscribed events or all events in the organization
 
 ### Goals
 
@@ -111,12 +110,12 @@ NA
 ### Use Cases
 
 1. **Members want to:**
-  1. **Toggle the view of their events** between their subscribed events and all events in the organisation for which they have permission to view (public events and private ones they have been accepted to).
-2. **Admins want to** :
-  1. **Toggle view of all events** between public or private
-  2. **View all members&#39; personal events**
-3. Coordinators want to:
-  1. **Toggle view of their events:** between their coordinated events and all organization&#39;s events.
+1. **Toggle the view of their events** between their subscribed events and all events in the organisation for which they have permission to view (public events and private ones they have been accepted to).
+1. **Admins want to** :
+1. **Toggle view of all events** between public or private
+1. **View all members&#39; personal events**
+1. Coordinators want to:
+1. **Toggle view of their events:** between their coordinated events and all organization&#39;s events.
 
 ## Proposal/Solution
 
@@ -149,8 +148,8 @@ This feature aims to _ **streamline member event subscription** _ by _ **simplif
 ### Problem
 
 1. **Currently the user cannot subscribe to or sign up as an attendee of an event :**
-  1. All events in the organization are presented ungrouped to the user
-  2. The user cannot subscribe/ sign up for an event
+1. All events in the organization are presented ungrouped to the user
+1. The user cannot subscribe/ sign up for an event
 
 ### Goals
 
@@ -176,12 +175,12 @@ The following are the primary roles foreseen in the development of this feature
 
 1. **Members want to:**
 
-  1. **Subscribe to Events** : enabling them to receive notifications, view updates and be marked as an attendee to this event.
+1. **Subscribe to Events** : enabling them to receive notifications, view updates and be marked as an attendee to this event.
 1. **Admins want to** :
-  1. **View attendee list for events** : once a member subscribes for an event, they are listed as an attendee and can be viewed as an attendee from the admin portal.
-  2. **View the number of subscribers/ attendees for events:**
-2. **Coordinators want to** :
-  1. **View attendee/ subscription lists for events:** allowing them to assign these members to tasks under the event.
+1. **View attendee list for events** : once a member subscribes for an event, they are listed as an attendee and can be viewed as an attendee from the admin portal.
+1. **View the number of subscribers/ attendees for events:**
+1. **Coordinators want to** :
+1. **View attendee/ subscription lists for events:** allowing them to assign these members to tasks under the event.
 
 ## Proposal/Solution
 
