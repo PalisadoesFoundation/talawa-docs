@@ -1,8 +1,8 @@
 module.exports = {
   someSidebar: {
-    "Getting Started": ["doc1"],
+    "Getting Started": ["about-talawa", "about"],
     Applications: [ "applications/architecture-overview", "applications/api-overview", "applications/app-overview", "applications/admin-overview" ],
-    Features: ["features/adminfeatures", {
+    'Desired Features': ["features/adminfeatures", {
       Chat: [
         "features/chat/chat-overview",
       ],
