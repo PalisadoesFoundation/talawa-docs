@@ -1,10 +1,10 @@
 # Event Features
 
-![](RackMultipart20210317-4-6989ql_html_237499165a11f2b9.gif)
+![](RackMultipart20210317-4-jkqiz9_html_237499165a11f2b9.gif)
 
-[Overall Guidance](#_hqgxp4vhui04)
+[Overall Guidance](#_9isu1nb38liu)
 
-[Feature 01: Group personal events vs organization wide events](#_agnpktdt1sng)
+[Feature EVT001: Group personal events vs organization wide events](#_agnpktdt1sng)
 
 [Overview](#_oykielwb06ys)
 
@@ -30,7 +30,7 @@
 
 [Tasks and Timeline](#_wbydpnqvxyz1)
 
-[Feature 02: Event signup and subscription](#_yvgk6hih47jw)
+[Feature EVT002: Event signup and subscription](#_yvgk6hih47jw)
 
 [Overview](#_vm8wcml4afdt)
 
@@ -56,7 +56,33 @@
 
 [Tasks and Timeline](#_vbzuurar0jxe)
 
-![](RackMultipart20210317-4-6989ql_html_237499165a11f2b9.gif)
+[Feature EVT003: Assign Roles and Responsibilities in an Event](#_pw66mdskyrvb)
+
+[Overview](#_ro8oa0tiput1)
+
+[Problem](#_1e7yv6wuzw0q)
+
+[Goals](#_u9lmxz2e7b9r)
+
+[Out of Scope](#_638eyjdqvgdt)
+
+[People and Roles](#_fy1obl2ruyui)
+
+[Context](#_i3y01k66iwd1)
+
+[Use Cases](#_o9fexnm85d56)
+
+[Proposal/Solution](#_8auagexum0e8)
+
+[User Experience](#_w3fxboad74qe)
+
+[Important Details To Capture](#_f3gu56v852r3)
+
+[Future Work](#_lc4itrtwpxdz)
+
+[Tasks and Timeline](#_6f08xndrgpki)
+
+![](RackMultipart20210317-4-jkqiz9_html_237499165a11f2b9.gif)
 
 ## Overall Guidance
 
