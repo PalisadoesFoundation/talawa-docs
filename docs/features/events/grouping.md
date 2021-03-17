@@ -3,7 +3,7 @@ id: event-grouping
 title: Grouping
 ---
 
-## Code: EVT 002
+## Code: EVT-002
 
 
 _Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _

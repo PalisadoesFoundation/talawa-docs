@@ -3,7 +3,7 @@ id: event-signup
 title: Signup and Subscription 
 ---
 
-## Code: EVT 001
+## Code: EVT-001
 
 
 _Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
