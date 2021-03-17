@@ -3,64 +3,11 @@ id: adminfeatures
 title: Admin
 ---
 
-[Overall Guidance](#_hqgxp4vhui04)
+:::caution
 
-[Feature 01: Send Messages to all members in an Organization](#_agnpktdt1sng)
+This section is a work in progress.
 
-[Overview](#_oykielwb06ys)
-
-[Problem](#_w984sna6ff01)
-
-[Goals](#_pquetcmhwmwg)
-
-[Out of Scope](#_va6roaj8u12w)
-
-[People and Roles](#_pnh5wubj3217)
-
-[Context](#_vstx7cqnw537)
-
-[Use Cases](#_3eht9g8h2uri)
-
-[Proposal/Solution](#_mbridisnpp09)
-
-[User Experience](#_ijyfmzkek5lw)
-
-[Important Details To Capture](#_xjuwjki34f0t)
-
-[Future Work](#_dxy7ati54bb4)
-
-[Tasks and Timeline](#_wbydpnqvxyz1)
-
-[Feature 02: Creating organizational events](#_k1u0em3catez)
-
-[Overview](#_gonyqfly4tko)
-
-[Problem](#_585o6ctyhc16)
-
-[Goals](#_ogyeqt34m6gn)
-
-[Out of Scope](#_if1nidgsuxm5)
-
-[People and Roles](#_97wogo7goyfc)
-
-[Context](#_efqmwo66l7av)
-
-[Use Cases](#_yblk2cpouzvo)
-
-[Proposal/Solution](#_n116rw78tv8u)
-
-[User Experience](#_cl1pkc8nvqxi)
-
-[Important Details To Capture](#_gsytfet2m7rk)
-
-[Future Work](#_hnqeggoi821k)
-
-[Tasks and Timeline](#_120rsfyb6wle)
-
-[Feature 02: Creating organizational events](#_azvs8tu5yucz)
-
-[Overview](#_k4uz4wh4dr9z)
-
+:::
 ## Overall Guidance
 
 We will assume that at least one person in the organization has access to a traditional computer device with a non-mobile size screen to help them do administrative tasks via the portal.
