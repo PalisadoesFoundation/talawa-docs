@@ -27,3 +27,9 @@ Calico is modeled on the Google Summer of Code. In 2021 The Palisadoes Foundatio
    
    
 ```
+
+## Indices and tables
+
+- <a href = "../about.md#id1"> :ref:\`genindex\` </a>
+- <a href = "../about.md#id3"> :ref:\`modindex\` </a>
+- <a href = "../about.md#id5"> :ref:\`search\` </a>
