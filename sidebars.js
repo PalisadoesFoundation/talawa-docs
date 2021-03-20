@@ -2,11 +2,19 @@ module.exports = {
   someSidebar: {
     "Getting Started": ["about-talawa", "about"],
     Applications: [ "applications/architecture-overview", "applications/api-overview", "applications/app-overview", "applications/admin-role-overview" ],
-    'Desired Features': ["features/adminfeatures", {
-      Chat: [
+    'Desired Features': [{
+      Installation: [
+        "features/installation/installation-overview",
+      ],
+      'Chat and Messaging': [
         "features/messaging-and-chat/messaging-and-chat-overview",
       ],
-      'Donations': [
+      Admin: [
+        "features/admin-role/admin-role-overview",
+        "features/admin-role/admin-messaging",
+        "features/admin-role/admin-events"
+      ],
+      Donations: [
         "features/donations/donations-overview",
       ],
       Events: [
@@ -23,7 +31,7 @@ module.exports = {
         'features/members/members-banning',
         'features/members/members-recovery'
       ],
-      'News feed': [
+      'News Feed': [
         "features/news feed/news-feed-overview",
       ],
       Notifications: [

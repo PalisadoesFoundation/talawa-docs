@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3bdbf6-bd63-483e-a407-a6c6734eabff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/talawa-docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/talawa-docs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/admin-role/create-events.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/features/admin-role/create-events.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/events/grouping.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/features/events/grouping.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/installation/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/features/installation/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/features/messaging-and-chat/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/features/messaging-and-chat/overview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +55,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1prc1Pg9JQLnpP7naEnsoDpNzHe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,10 +64,24 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="/usr/lib/dart/bin" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/../talawa/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9c3bdbf6-bd63-483e-a407-a6c6734eabff" name="Default Changelist" comment="" />
@@ -38,12 +92,16 @@
       <workItem from="1615944434317" duration="2831000" />
       <workItem from="1616025451192" duration="912000" />
       <workItem from="1616120420779" duration="878000" />
-      <workItem from="1616262125118" duration="341000" />
+      <workItem from="1616262125118" duration="2486000" />
+      <workItem from="1616265894995" duration="394000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -56,5 +114,39 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="829" y="766" width="251" height="273" key="#Notifications" timestamp="1616265699521">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state x="829" y="766" width="251" height="273" key="#Notifications/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616265699521" />
+    <state x="418" y="557" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616265204679">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state x="418" y="557" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616265204679" />
+    <state x="743" y="660" width="424" height="491" key="FileChooserDialogImpl" timestamp="1616266214038">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state x="743" y="660" width="424" height="491" key="FileChooserDialogImpl/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266214038" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1616266824612">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1616266824612">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.center/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1616266824612">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.left/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1616266824612">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="284" key="GridCell.Tab.0.right/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
+    <state x="449" y="534" width="1022" height="737" key="SettingsEditor" timestamp="1616266284446">
+      <screen x="0" y="359" width="1920" height="1080" />
+    </state>
+    <state x="449" y="534" width="1022" height="737" key="SettingsEditor/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266284446" />
   </component>
 </project>

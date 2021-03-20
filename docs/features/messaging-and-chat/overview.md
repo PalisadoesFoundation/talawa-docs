@@ -1,5 +1,5 @@
 ---
-id: chat-overview
+id: messaging-and-chat-overview
 title: Overview
 ---
 
