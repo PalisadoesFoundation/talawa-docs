@@ -36,14 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c3bdbf6-bd63-483e-a407-a6c6734eabff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/talawa-docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/talawa-docs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/features/messaging-and-chat/overview.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/features/messaging-and-chat/overview.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sidebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/sidebars.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,22 +121,22 @@
       <screen x="0" y="359" width="1920" height="1080" />
     </state>
     <state x="743" y="660" width="424" height="491" key="FileChooserDialogImpl/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266214038" />
-    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1616266824612">
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1616266898502">
       <screen x="0" y="359" width="1920" height="1080" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.bottom/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
-    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1616266824612">
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266898502" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1616266898501">
       <screen x="0" y="359" width="1920" height="1080" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.center/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
-    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1616266824612">
+    <state width="1874" height="284" key="GridCell.Tab.0.center/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266898501" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1616266898500">
       <screen x="0" y="359" width="1920" height="1080" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.left/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
-    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1616266824612">
+    <state width="1874" height="284" key="GridCell.Tab.0.left/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266898500" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1616266898501">
       <screen x="0" y="359" width="1920" height="1080" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.right/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266824612" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right/1920.0.2880.1620/0.359.1920.1080@0.359.1920.1080" timestamp="1616266898501" />
     <state x="449" y="534" width="1022" height="737" key="SettingsEditor" timestamp="1616266284446">
       <screen x="0" y="359" width="1920" height="1080" />
     </state>

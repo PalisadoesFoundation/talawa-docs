@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     "Getting Started": ["about-talawa", "about"],
-    Applications: [ "applications/architecture-overview", "applications/api-overview", "applications/app-overview", "applications/admin-role-overview" ],
+    Applications: [ "applications/architecture-overview", "applications/api-overview", "applications/app-overview", "applications/admin-overview" ],
     'Desired Features': [{
       Installation: [
         "features/installation/installation-overview",
