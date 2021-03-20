@@ -1,6 +1,6 @@
 ---
 id: admin-events
-title: Admin Created Events
+title: Create Events
 ---
 
 :::caution
@@ -14,18 +14,18 @@ _Authored by_ _ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
 
 This feature aims to _ **enhance the admin portal** _ by _ **allowing admin users to create events under an organization** _.
 
-## Overview
+### Overview
 
-### Problem
+#### Problem
 
 1. **All persons can create an event:**
   1. proposed Only administrators should be able to create events under the organization.
 
-### Goals
+#### Goals
 
 1. **An organization&#39;s administrator must be able to create an event:** This will form the basis of interactions between users.
 
-### Out of Scope
+#### Out of Scope
 
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
@@ -37,23 +37,23 @@ The following are aspects of this feature which have been considered but are out
   1. Display colours to indicate nearing due date for tasks
 2. **Review and Delete members&#39; personal events:** the admin may have need to delete members&#39; personal events under the organization. This will remove the event and all its tasks and send a notification to the co-ordinator that the event was deleted
 
-### People and Roles
+#### People and Roles
 
 The following are the primary roles foreseen in the development of this feature
 
 1. **Feature Lead** : will review proposed solutions, acceptance and close feature
 
-## Context
+#### Context
 
 NA
 
-### Use Cases
+#### Use Cases
 
 NA
 
-## Proposal/Solution
+### Proposal/Solution
 
-### User Experience
+#### User Experience
 
 1. From the admin portal in the web client and the mobile app, a button is presented to create an event.
 2. The admin specifies if it is a private or public event
@@ -68,14 +68,14 @@ NA
     1. Notification is sent to co-ordinator of completed task
 6. Push notification sent to all members on attendee list once event date and time arrives
 
-### Important Details To Capture
+#### Important Details To Capture
 
 NA
 
-### Future Work
+#### Future Work
 
 Items mentioned in the Out of scope section will form the basis for future work to be done on this feature
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 TBD
