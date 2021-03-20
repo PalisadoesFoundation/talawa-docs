@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Talawa",
+  title: "Welcome to the Talawa Project for the Palisadoes Foundation",
   tagline: "Community Organization Management Software",
   url: "https://palisadoesfoundation.github.io",
   baseUrl: "/talawa-docs/",
@@ -11,6 +11,10 @@ module.exports = {
   projectName: "talawa-docs", // Usually your repo name.
   onBrokenLinks: "ignore",
   themeConfig: {
+    logo: {
+      alt: "Palisadoes Logo",
+      src: "img/logo-main.png",
+    },
     navbar: {
       title: "Talawa",
       logo: {
