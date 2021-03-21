@@ -25,9 +25,11 @@ module.exports = {
       ],
       'News feed': [
         "features/news feed/news-feed-overview",
+        "features/news feed/tagging-support"
       ],
       Notifications: [
         "features/notifications/notifications-overview",
+        "features/notifications/follow-tag-support"
       ],
       Organisation: [
         "features/organisations/organisations-overview",
