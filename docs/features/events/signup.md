@@ -3,6 +3,12 @@ id: event-signup
 title: Signup and Subscription 
 ---
 
+:::caution
+
+This section is a work in progress.
+
+:::
+
 ## Code: EVT-001
 
 

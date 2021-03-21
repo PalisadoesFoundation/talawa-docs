@@ -17,7 +17,9 @@ module.exports = {
       Events: [
         "features/events/event-overview",
         'features/events/event-signup',
-        'features/events/event-grouping'
+        'features/events/event-grouping',
+        'features/events/event-roles',
+        'features/events/event-attendee-roster'
       ],
       Members: [
         "features/members/members-overview",
