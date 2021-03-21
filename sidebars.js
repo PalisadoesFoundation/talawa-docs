@@ -14,9 +14,6 @@ module.exports = {
         "features/admin-role/admin-messaging",
         "features/admin-role/admin-events"
       ],
-      Donations: [
-        "features/donations/donations-overview",
-      ],
       Events: [
         "features/events/event-overview",
         'features/events/event-signup',
@@ -31,6 +28,9 @@ module.exports = {
         'features/members/members-banning',
         'features/members/members-recovery'
       ],
+      Donations: [
+                "features/donations/donations-overview",
+              ],
       'News Feed': [
         "features/news feed/news-feed-overview",
       ],
