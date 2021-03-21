@@ -8,6 +8,11 @@ module.exports = {
       ],
       'Chat and Messaging': [
         "features/messaging-and-chat/messaging-and-chat-overview",
+        "features/messaging-and-chat/message-chat",
+        "features/messaging-and-chat/message-messaging",
+        "features/messaging-and-chat/message-voice-messaging",
+        "features/messaging-and-chat/message-notifications",
+
       ],
       Admin: [
         "features/admin-role/admin-role-overview",
@@ -19,7 +24,8 @@ module.exports = {
         'features/events/event-signup',
         'features/events/event-grouping',
         'features/events/event-roles',
-        'features/events/event-attendee-roster'
+        'features/events/event-attendee-roster',
+        'features/events/event-paid-donation'
       ],
       Members: [
         "features/members/members-overview",

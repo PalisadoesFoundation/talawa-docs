@@ -17,6 +17,7 @@ These are events created by a co-ordinator or an Administrator. They are time bo
 2. Event signup and subscription
 3. Roles and responsibilities
 4. Attendee List/ Roster
+5. Create paid/ donation based event
 
 ## Out of Scope
 

@@ -19,7 +19,8 @@ This feature aims to _ **enhance the admin portal** _ by _ **allowing admin user
 #### Problem
 
 1. **All persons can create an event:**
-  1. proposed Only administrators should be able to create events under the organization.
+   
+    1. proposed Only administrators should be able to create events under the organization.
 
 #### Goals
 
@@ -34,7 +35,7 @@ The following are aspects of this feature which have been considered but are out
 3. **Invite specific members to the event:** This may eventually include sending external invitations to download the app.
 
 1. **Task calendar:** This may be useful for members involved in different events. Their tasks displayed on a calendar according to the due date for the task and its related events
-  1. Display colours to indicate nearing due date for tasks
+    1. Display colours to indicate nearing due date for tasks
 2. **Review and Delete members&#39; personal events:** the admin may have need to delete members&#39; personal events under the organization. This will remove the event and all its tasks and send a notification to the co-ordinator that the event was deleted
 
 #### People and Roles
@@ -59,13 +60,13 @@ NA
 2. The admin specifies if it is a private or public event
 3. Basic details such as the date, time and venue for the event is specified
 4. An event co-ordinator is selected and assigned from the member list for the organization
-  1. A task list can be specified by the admin or the event co-ordinator.
+    1. A task list can be specified by the admin or the event co-ordinator.
 5. A checklist of required tasks for the event is optional with due date relative to the event
-  1. Assignment of these tasks to members of the organization
-  2. Notification is sent to the member that a task is assigned to them
-  3. Tasks assigned to the member is updated in their personal task list
-  4. As the member completes the task and checks it as complete
-    1. Notification is sent to co-ordinator of completed task
+    1. Assignment of these tasks to members of the organization
+    2. Notification is sent to the member that a task is assigned to them
+    3. Tasks assigned to the member is updated in their personal task list
+    4. As the member completes the task and checks it as complete
+        1. Notification is sent to co-ordinator of completed task
 6. Push notification sent to all members on attendee list once event date and time arrives
 
 #### Important Details To Capture
