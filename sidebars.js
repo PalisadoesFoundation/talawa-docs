@@ -3,6 +3,9 @@ module.exports = {
     "Getting Started": ["about-talawa", "about"],
     Applications: [ "applications/architecture-overview", "applications/api-overview", "applications/app-overview", "applications/admin-overview" ],
     'Desired Features': ["features/adminfeatures", {
+      Advertising: [
+        "features/advertising/ads-overview",
+      ],
       Chat: [
         "features/chat/chat-overview",
       ],
@@ -25,6 +28,7 @@ module.exports = {
       ],
       'News feed': [
         "features/news feed/news-feed-overview",
+        "features/news feed/pinned-posts"
       ],
       Notifications: [
         "features/notifications/notifications-overview",
