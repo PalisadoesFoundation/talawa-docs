@@ -1,6 +1,6 @@
 ---
 id: message-notifications
-title: In-App Message
+title: App Notifications
 ---
 
 :::caution

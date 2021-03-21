@@ -1,6 +1,6 @@
 ---
 id: message-voice-messaging
-title: In-App Message
+title: Voice Messaging
 ---
 
 :::caution

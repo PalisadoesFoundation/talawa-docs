@@ -1,6 +1,6 @@
 ---
 id: message-messaging
-title: In-App Message
+title: In-App Messaging
 ---
 
 :::caution
