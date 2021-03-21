@@ -20,8 +20,8 @@ This feature aims to _ **enhance the admin role** _ by _ **allowing admin users 
 #### Problem
 
 1. **Messaging can now be sent only directly from one user to another :**
-  1. The admins in an organization can only send direct messages
-  2. The need exists to communicate instantly with all members of an organisation
+    1. The admins in an organization can only send direct messages
+    2. The need exists to communicate instantly with all members of an organisation
 
 #### Goals
 

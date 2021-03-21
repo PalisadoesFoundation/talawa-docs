@@ -27,8 +27,8 @@ This section is a work in progress.
 ### Problem
 
 1. **Currently the user cannot subscribe to or sign up as an attendee of an event :**
-1. All events in the organization are presented ungrouped to the user
-1. The user cannot subscribe/ sign up for an event
+    1. All events in the organization are presented ungrouped to the user
+    2. The user cannot subscribe/ sign up for an event
 
 ### Goals
 
@@ -53,13 +53,12 @@ The following are the primary roles foreseen in the development of this feature
 ### Use Cases
 
 1. **Members want to:**
-
-1. **Subscribe to Events** : enabling them to receive notifications, view updates and be marked as an attendee to this event.
+    1. **Subscribe to Events** : enabling them to receive notifications, view updates and be marked as an attendee to this event.
 1. **Admins want to** :
-1. **View attendee list for events** : once a member subscribes for an event, they are listed as an attendee and can be viewed as an attendee from the admin portal.
-1. **View the number of subscribers/ attendees for events:**
+    1. **View attendee list for events** : once a member subscribes for an event, they are listed as an attendee and can be viewed as an attendee from the admin portal.
+    2. **View the number of subscribers/ attendees for events:**
 1. **Coordinators want to** :
-1. **View attendee/ subscription lists for events:** allowing them to assign these members to tasks under the event.
+    1. **View attendee/ subscription lists for events:** allowing them to assign these members to tasks under the event.
 
 ## Proposal/Solution
 
