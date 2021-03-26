@@ -15,7 +15,7 @@ module.exports = {
       title: "Talawa",
       logo: {
         alt: "Talawa Logo",
-        src: "img/talawa-logo-lite-200x200.png",
+        src: "img/talawa-logo-lite-200x200-transparent.png",
       },
       items: [
         {
