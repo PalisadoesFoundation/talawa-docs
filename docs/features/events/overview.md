@@ -9,7 +9,7 @@ This section is a work in progress.
 
 :::
 
-## Overall Guidance
+# Overall Guidance
 
 These are events created by a co-ordinator or an Administrator. They are time bound and can include tasks to be achieved before the scheduled date arrives. These tasks can be assigned by the co-ordinator or the administrator to other members of the organisation.
 

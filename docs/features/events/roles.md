@@ -9,15 +9,15 @@ This section is a work in progress.
 
 :::
 
-## Code: EVT-003
+# Code: EVT-003
 
 _Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 16, 2021** _
 
 This feature aims to _ **enhance event management options** _ by _ **allowing coordinators to assign tasks to other members of the organization** _.
 
-### Overview
+## Overview
 
-#### Problem
+### Problem
 
 1. **There currently exists only one role:** there is a need for allowed activities to be governed by the users&#39; role in the organization
     1. Administrator
@@ -25,25 +25,25 @@ This feature aims to _ **enhance event management options** _ by _ **allowing co
     3. Member
 2. **Tasks currently cannot be assigned based on role**
 
-#### Goals
+### Goals
 
 1. **Implement framework to facilitate multiple roles in application:** This will facilitate the different allowed activities
 
-#### Out of Scope
+### Out of Scope
 
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
 1. **Create groups:** members will in future want to create groups to which they can send group messages, assign to tasks and target other communication
 
-#### People and Roles
+## People and Roles
 
 The following are the primary roles foreseen in the development of this feature
 
 1. **Feature Lead** : will review proposed solutions, acceptance and close feature.
 
-### Context
+## Context
 
-#### Use Cases
+### Use Cases
 
 1. **Admins want to** :
     1. **Promote members to coordinators** : adding coordinators to an organization helps the admin to manage members and content. This should be done via a desktop/web client, and mobile.
@@ -51,9 +51,9 @@ The following are the primary roles foreseen in the development of this feature
     1. **Remove inappropriate posts** : members may add posts that are inappropriate and the coordinator must have the ability to remove them at a moment&#39;s notice via mobile application.
     2. **Assign event tasks to other members and groups** to members and groups
 
-#### Proposal/Solution
+## Proposal/Solution
 
-##### User Experience
+### User Experience
 
 **Promote members to coordinators:**
 
@@ -77,14 +77,14 @@ The following are the primary roles foreseen in the development of this feature
     3. After selecting the members or groups to assign to the tasks the user should be able to commit their changes and is redirected to the task detail where the users assigned to the task are displayed
     4. The option must also be available to remove an assigned member or group from the task and commit the changes
 
-#### Important Details To Capture
+### Important Details To Capture
 
 NA
 
-#### Future Work
+### Future Work
 
 Items mentioned in the Out of scope section will form the basis for future work to be done on this feature
 
-#### Tasks and Timeline
+## Tasks and Timeline
 
 TBD

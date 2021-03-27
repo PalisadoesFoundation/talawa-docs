@@ -9,7 +9,7 @@ This section is a work in progress.
 
 :::
 
-## Overall Guidance
+# Overall Guidance
 
 We will assume that at least one person in the organization has access to a traditional computer device with a non-mobile size screen to help them do administrative tasks via the portal.
 
