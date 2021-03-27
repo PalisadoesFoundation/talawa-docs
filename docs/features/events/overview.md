@@ -16,8 +16,12 @@ These are events created by a co-ordinator or an Administrator. They are time bo
 1. Group personal events vs organization wide events
 2. Event signup and subscription
 3. Roles and responsibilities
+4. Attendee List/ Roster
+5. Create paid/ donation based event
+6. Comment on Events 
+   1. Thumbs up/down
 
-## Out of Scope
+### Out of Scope
 
 1. Project Management/ Goals Tracking
 2. Event Management
