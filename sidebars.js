@@ -48,6 +48,7 @@ module.exports = {
       Notifications: [
         "features/notifications/notifications-overview",
       ],
+<<<<<<< HEAD
       'Data Management': [
         "features/data-management/data-management-overview",
         "features/data-management/data-management-compression",
@@ -56,7 +57,14 @@ module.exports = {
         "features/data-management/data-management-distribution",
       ],
       Organisation: [
+=======
+      Organisations: [
+>>>>>>> efbbfde56c8886d6bbe631e0588083706087e56d
         "features/organisations/organisations-overview",
+        "features/organisations/organisations-onboarding",
+      ],
+      Plugins: [
+        "features/plugins/plugins-overview",
       ],
       Misc: [
         "features/misc/misc-overview",
