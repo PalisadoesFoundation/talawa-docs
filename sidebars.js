@@ -2,7 +2,7 @@ module.exports = {
   someSidebar: {
     "Getting Started": ["about-talawa", "about"],
     Applications: [ "applications/architecture-overview", "applications/api-overview", "applications/app-overview", "applications/admin-overview" ],
-    'Desired Features': [{
+    "Desired Features": [{
       Installation: [
         "features/installation/installation-overview",
       ],
@@ -53,5 +53,6 @@ module.exports = {
         'features/misc/misc-language-support',
       ]
     }],
+    "Brand Assets": ["branding/logos", "branding/color-palette", "branding/typography", "branding/patterns-illustrations"],
   },
 };
