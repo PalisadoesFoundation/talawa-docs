@@ -1,6 +1,6 @@
 ---
 id: data-management-compression
-title: Overview
+title: Data Compression
 ---
 
 :::caution

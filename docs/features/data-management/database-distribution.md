@@ -1,6 +1,6 @@
 ---
 id: data-management-distribution
-title: Overview
+title: Database Distribution
 ---
 
 :::caution
