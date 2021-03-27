@@ -67,5 +67,6 @@ module.exports = {
         'features/misc/misc-language-support',
       ]
     }],
+    GSoC: [ 'gsoc/gsoc-ideas' ],
   },
 };
