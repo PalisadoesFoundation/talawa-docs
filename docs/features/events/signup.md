@@ -9,18 +9,13 @@ This section is a work in progress.
 
 :::
 
-# Code: EVT-001
+## Code: EVT-001
 
 
 _Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
 
 This feature aims to _ **streamline member event subscription** _ by _ **simplifying how members elect to join/ subscribe to events** _.
 
-:::caution
-
-This section is a work in progress.
-
-:::
 
 ## Overview
 

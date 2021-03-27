@@ -1,20 +1,23 @@
 ---
 id: event-grouping
 title: Event Grouping
+
 ---
-
-# Code: EVT-002
-
-
-_Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
-
-This feature aims to* **improve the event viewing options** * by _ **allowing users to group different types of events** _.
 
 :::caution
 
 This section is a work in progress.
 
 :::
+
+## Code: EVT-002
+
+
+_Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
+
+This feature aims to* **improve the event viewing options** * by _ **allowing users to group different types of events** _.
+
+
 
 ## Overview
 

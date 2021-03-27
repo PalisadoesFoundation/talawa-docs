@@ -9,7 +9,7 @@ This section is a work in progress.
 
 :::
 
-# Code: EVT-006
+## Code: EVT-006
 _Authored by_ _ **Shannika Jackson** __. Last updated on_ _ **March 27,2021** _
 
 This feature aims to _ **enhance event creation process** _ by _ ** enabling additional options based on the type of role that creates the event** _.
