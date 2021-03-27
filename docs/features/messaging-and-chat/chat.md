@@ -14,38 +14,38 @@ _Authored by_ _ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
 
 This feature aims to _ **enhance in app communication** _ by _ **allowing users to chat instantly within the app** _.
 
-### Overview
+## Overview
 
-#### Problem
+### Problem
 
-#### Goals
+### Goals
 
 1. **Start a chat:** Any user should be able to start a direct one-on one chat with another member of the organization or a group chat.
 
-#### Out of Scope
+### Out of Scope
 
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
 1. 
 
-#### People and Roles
+### People and Roles
 
 The following are the primary roles foreseen in the development of this feature
 
 1. **Feature Lead** : will review proposed solutions, acceptance and close feature
 
-#### Context
+## Context
 
 NA
 
-#### Use Cases
+### Use Cases
 
 
 NA
 
-### Proposal/Solution
+## Proposal/Solution
 
-#### User Experience
+### User Experience
 
 1. From the member listing screen any user should be presented with additional options when they click on a member. 
     1. Options should include 
@@ -55,14 +55,14 @@ NA
         1. Once the user selects all the members to chat with 
         2. The user is prompted to enter details of the group such as group name and display picture
    
-#### Important Details To Capture
+## Important Details To Capture
 
 NA
 
-#### Future Work
+### Future Work
 NA
 
 
-#### Tasks and Timeline
+### Tasks and Timeline
 
 TBD
