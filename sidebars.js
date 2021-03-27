@@ -45,8 +45,12 @@ module.exports = {
       Notifications: [
         "features/notifications/notifications-overview",
       ],
-      Organisation: [
+      Organisations: [
         "features/organisations/organisations-overview",
+        "features/organisations/organisations-onboarding",
+      ],
+      Plugins: [
+        "features/plugins/plugins-overview",
       ],
       Misc: [
         "features/misc/misc-overview",
