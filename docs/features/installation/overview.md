@@ -8,7 +8,7 @@ This section is a work in progress.
 
 :::
 
-# Overall Guidance
+## Overall Guidance
 
 We need to ensure that the app, the API and the admin portal install flawlessly, ideally with a single click. The only parameters that should be required are:
 
@@ -18,8 +18,8 @@ We need to ensure that the app, the API and the admin portal install flawlessly,
 
 Use the ease of installation of other social media apps like LinkedIn, Instagram and WhatsApp as a guide.
 
-# Code: INS-001
-## Single Click Installation Mobile App
+## Code: INS-001
+### Single Click Installation Mobile App
 
 _Authored by_ _ **Shannika Jackson** __. Last updated on_ _ **March 16,2021** _
 

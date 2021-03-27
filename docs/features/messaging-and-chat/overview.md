@@ -9,7 +9,7 @@ This section is a work in progress.
 
 :::
 
-# Overall Guidance
+## Overall Guidance
 
 1. Any user should be able to create a group chat.
 2. Events should automatically have a group chat with all confirmed attendees
