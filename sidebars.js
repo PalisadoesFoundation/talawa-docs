@@ -12,12 +12,15 @@ module.exports = {
         "features/messaging-and-chat/message-messaging",
         "features/messaging-and-chat/message-voice-messaging",
         "features/messaging-and-chat/message-notifications",
-
       ],
-      Admin: [
+      'Admin Capabilities': [
         "features/admin-role/admin-role-overview",
         "features/admin-role/admin-messaging",
-        "features/admin-role/admin-events"
+        "features/admin-role/admin-manage-members",
+        "features/admin-role/admin-newsfeed"
+      ],
+      'Coordinator Capabilities': [
+        "features/coordinator-role/coordinator-role-overview",
       ],
       Events: [
         "features/events/event-overview",
@@ -45,14 +48,26 @@ module.exports = {
       Notifications: [
         "features/notifications/notifications-overview",
       ],
-      Organisation: [
+      'Data Management': [
+        "features/data-management/data-management-overview",
+        "features/data-management/data-management-compression",
+        "features/data-management/data-management-retention",
+        "features/data-management/data-management-storage",
+        "features/data-management/data-management-distribution",
+      ],
+      Organisations: [
         "features/organisations/organisations-overview",
+        "features/organisations/organisations-onboarding",
+      ],
+      Plugins: [
+        "features/plugins/plugins-overview",
       ],
       Misc: [
         "features/misc/misc-overview",
         'features/misc/misc-language-support',
       ]
     }],
+    GSoC: [ 'gsoc/gsoc-ideas' ],
     "Brand Assets": ["branding/logos", "branding/color-palette", "branding/typography", "branding/patterns-illustrations"],
   },
 };
