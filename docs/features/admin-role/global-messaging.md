@@ -11,7 +11,7 @@ This section is a work in progress.
 
 ## Code: ADM-001 
 
-_Authored by_ _ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
+_Authored by__ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
 
 This feature aims to _ **enhance the admin role** _ by _ **allowing admin users to send messages to an entire organization** _.
 
