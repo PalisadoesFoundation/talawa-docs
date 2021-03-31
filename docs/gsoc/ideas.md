@@ -47,7 +47,7 @@ GSoC Proposal Tags: talawa-api, plugins
 
 We need someone to go through and evaluate the UI workflow. In some cases, such as the creation of events, it isn’t easy to see what the next steps are such as assigning persons to roles, responsibilities and target deadlines. The bright yellow color scheme is not attractive, and a dark mode option would be useful. Older people may need the ability to adjust the size of fonts in the settings to be able to see without glasses. An option for larger icons would be useful for similar reasons. If people are not fully literate, then we'll need the ability for them to easily send audio and/or video messages which will need to be incorporated in the UI. The UI/UX will need to be able to support multilingual capabilities which is has a more detailed description in another section. A thorough review needs to be done and the resulting improvements implemented in code.
 
-The application will be used in many countries by people from different cultures, religious and political beliefs, and geographic regions. The color scheme will need to be as globally neutral as possible. It will be best to consider a low colors. The pallette will need to easily blend with the current logo.
+The application will be used in many countries by people from different cultures, religious and political beliefs, and geographic regions. The color scheme will need to be as globally neutral as possible. It will be best to limit the color palette and remember that it must easily blend with the current logo.
 
 GSoC Proposal Tags: talawa, documentation
 
