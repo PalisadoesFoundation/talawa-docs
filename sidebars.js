@@ -24,6 +24,7 @@ module.exports = {
       ],
       Events: [
         "features/events/event-overview",
+        'features/events/event-create-events',
         'features/events/event-signup',
         'features/events/event-grouping',
         'features/events/event-roles',
