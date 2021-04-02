@@ -35,3 +35,40 @@ This section outlines all you need to know about getting involved with the Palis
        ![img](/img/mentors.png)
 
 Good luck!
+
+### Palisadoes Foundation GSoC 2021 Timeline
+
+Below is a timeline of events for The Palisadoes Foundation's involvement in GSoC. Unless otherwise stated deadlines are 24:00 UTC on the date indicated.
+
+#### Student Application and Selection
+
+1. 2021-03-30: Student applications start
+1. 2021-04-13 18:00 UTC: Student applications deadline
+1. 2021-04-01: Proposals to Palisadoes Foundation projects must be reviewed roughly and have a potential mentor so that we know how many slots to request. Proposals that don’t have a mentor at this point will be down-rated.
+1. 2021-05-05: Proposal scoring must be completed. Proposals without a score will be rejected, no exceptions.
+1. 2021-05-18: Accepted student proposals announced on the Google Summer of Code site.
+
+#### GSoC is Underway
+
+1. 2021-05-18: Community bonding start
+1. 2021-06-08: Community bonding end
+1. 2021-06-08: Coding start
+1. 2021-07-13: Midterm evaluations can be submitted
+1. 2021-07-16: Midterm evaluations deadline
+
+#### Wind Down
+
+1. 2021-08-17: Coding deadline and final evaluations can be submitted
+1. 2021-08-24: Palisadoes Foundation Mentors evaluations can be submitted
+1. 2021-08-30: Palisadoes Foundation Mentors final evaluations deadline
+1. 2021-09-01: Results announced
+
+### Other Useful Links
+
+Here are some resources you can use to learn more about GSoC
+
+1. [Google Summer of Code Home](https://summerofcode.withgoogle.com/)
+1. [Official Google Summer of Code 2021 Timeline, FAQs](https://summerofcode.withgoogle.com/how-it-works/#timeline)
+1. [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
+1. [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations)
+1. #gsoc on Freenode
