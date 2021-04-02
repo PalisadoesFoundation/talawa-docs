@@ -1,3 +1,8 @@
+---
+id: gsoc-application-process
+title: Applying to GSoC
+---
+
 Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.
 
 In order to apply we ask that you create:
