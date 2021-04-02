@@ -35,7 +35,7 @@ The following are aspects of this feature which have been considered but are out
 
 1. **Create groups:** members will in future want to create groups to which they can send group messages, assign to tasks and target other communication
 
-## People and Roles
+### People and Roles
 
 The following are the primary roles foreseen in the development of this feature
 

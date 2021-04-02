@@ -9,6 +9,8 @@ There are some well known areas of improvement that we have listed below. It is 
 
 In general we would like to reduce the learning curve for new sysadmins. Our API documentation needs to be clearer, especially as we hope to launch an alpha version of the software this year. It is important that our online documentation is updated as any part of the project.
 
+Please review our "Desired Features" section of this website for further necessary information.
+
 ## Primary Areas
 
 We have many areas in which we need good ideas. This section highlights some primary areas of focus.
@@ -43,9 +45,19 @@ GSoC Proposal Tags: talawa-api, plugins
 
 ### Improved UI design
 
-We need someone to go through and evaluate the UI workflow. In some cases, such as the creation of events, it isn’t easy to see what the next steps are such as assigning persons to roles, responsibilities and target deadlines. The bright yellow color scheme is not attractive, and a dark mode option would be useful. A thorough review needs to be done and the resulting improvements implemented in code.
+We need someone to go through and evaluate the UI workflow. In some cases, such as the creation of events, it isn’t easy to see what the next steps are such as assigning persons to roles, responsibilities and target deadlines. The bright yellow color scheme is not attractive, and a dark mode option would be useful. Older people may need the ability to adjust the size of fonts in the settings to be able to see without glasses. An option for larger icons would be useful for similar reasons. If people are not fully literate, then we'll need the ability for them to easily send audio and/or video messages which will need to be incorporated in the UI. The UI/UX will need to be able to support multilingual capabilities which is has a more detailed description in another section. A thorough review needs to be done and the resulting improvements implemented in code.
+
+The application will be used in many countries by people from different cultures, religious and political beliefs, and geographic regions. The color scheme will need to be as globally neutral as possible. It will be best to limit the color palette and remember that it must easily blend with the current logo.
 
 GSoC Proposal Tags: talawa, documentation
+
+### Multilingual Support
+
+The mobile app and admin portal only support English at the moment. We will need ways for persons to easily switch between languages at installation, on login, on registration and at any time during the operation of the software. A thorough review of how this and more could be implemented will be required.
+
+### Operational Considerations
+
+Many community hosting their own solution won't have the funds to pay for additional services. They will be using slower, older equipment with limited storage. There will be low technical ability too. In many cases the users may not have completed schooling. Ideas on how to resolve these issues will be helpful.
 
 ### Membership Management
 

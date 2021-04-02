@@ -24,6 +24,7 @@ module.exports = {
       ],
       Events: [
         "features/events/event-overview",
+        'features/events/event-create-events',
         'features/events/event-signup',
         'features/events/event-grouping',
         'features/events/event-roles',
@@ -67,7 +68,7 @@ module.exports = {
         'features/misc/misc-language-support',
       ]
     }],
-    GSoC: [ 'gsoc/gsoc-ideas' ],
-    "Brand Assets": ["branding/logos", "branding/color-palette", "branding/typography", "branding/patterns-illustrations"],
+    GSoC: [ 'gsoc/gsoc-ideas', 'gsoc/selection-criteria'],
+    "Branding": ["branding/logos", "branding/color-palette", "branding/typography", "branding/patterns-illustrations"],
   },
 };
