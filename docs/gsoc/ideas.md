@@ -23,7 +23,7 @@ This a relatively simple idea and will need to be paired with others.
 
 GSoC Proposal Tags: talawa-api, documentation
 
-### Mulitsite
+### Multisite
 
 Talawa has two components. The mobile app and the backend API. After installing the mobile app, the end user needs to enter the API’s main URL to gain access to Talawa’s features. There are no meaningful limits to mobile app users as there is currently no backend management portal. This means that after installing the Talawa API server, anyone with the mobile app installed and the API server’s URL can create organizations. Similarly anyone with the API URL can create user accounts. There needs to be a way to create a management portal to limit the creation of new organizations, and only allow preapproved users to gain access to the apps.
 
