@@ -1,5 +1,5 @@
 ---
-id: selection-criteria
+id: gsoc-selection-criteria
 title: Selection Criteria
 ---
 
