@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[41],{111:function(a){a.exports=JSON.parse('{"allTagsPath":"/talawa-docs/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/talawa-docs/blog/tags/hola"}')}}]);
