@@ -66,11 +66,11 @@ $ yarn run start
 
 By default, a browser window will open at http://localhost:3000.
 
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+
 ## Using NPM
 
 Insert documentation here.
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
 # Building Static HTML Pages
 
