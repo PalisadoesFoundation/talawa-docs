@@ -68,6 +68,11 @@ module.exports = {
         'features/misc/misc-language-support',
       ]
     }],
-    GSoC: [ 'gsoc/gsoc-application-process', 'gsoc/gsoc-application-template', 'gsoc/gsoc-selection-criteria', 'gsoc/gsoc-ideas'],
+    GSoC: [
+        'gsoc/gsoc-introduction',
+        'gsoc/gsoc-application-process',
+        'gsoc/gsoc-application-template',
+        'gsoc/gsoc-selection-criteria',
+        'gsoc/gsoc-ideas'],
   },
 };
