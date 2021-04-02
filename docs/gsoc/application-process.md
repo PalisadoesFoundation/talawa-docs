@@ -22,8 +22,12 @@ Persons who have engaged with a meaningful pull request (PR) will be given a pre
 
 We may give shortlisted candidates short code challenges to confirm our final decisions.
 
-Get feedback on your draft applications at:
+### Feedback on Your Draft Proposal
+
+Get feedback on your draft application proposal at:
 
 ![img](/img/draft-submissions.png)
+
+### Submitting Your Final Proposal
 
 Submit your final applications via the GSoC website.
