@@ -5,6 +5,8 @@ title: Applying to GSoC
 
 Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.
 
+## Introduction
+
 In order to apply we ask that you create:
 
 1. a list of deliverables, quantifiable results for the Palisadoes community,
