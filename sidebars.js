@@ -68,6 +68,7 @@ module.exports = {
         'features/misc/misc-language-support',
       ]
     }],
+    Branding: [ 'branding/branding-introduction', 'branding/branding-logos' ],
     GSoC: [
         'gsoc/gsoc-introduction',
         'gsoc/gsoc-application-process',
