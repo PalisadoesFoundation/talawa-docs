@@ -4,7 +4,7 @@ Thank you for your interest in contributing to Talawa Docs. Regardless of the si
 If you are new to contributing to open source, please read the Open Source Guides on [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/).
 
 ## Ways to Contribute
-If you are ready to start contributing code right away, we have a list of [good first issues]https://github.com/PalisadoesFoundation/talawa-docs/labels/good%20first%20issue) that contain issues with a limited scope. 
+If you are ready to start contributing code right away, we have a list of [good first issues](https://github.com/PalisadoesFoundation/talawa-docs/labels/good%20first%20issue) that contain issues with a limited scope. 
 
 ## Quicklinks
 
