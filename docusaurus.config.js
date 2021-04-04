@@ -19,7 +19,7 @@ module.exports = {
       title: "Talawa",
       logo: {
         alt: "Talawa Logo",
-        src: "img/logo.svg",
+        src: "img/logos/talawa-logo-200x200.png",
       },
       items: [
         {
@@ -56,16 +56,16 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Facebook",
+              href: "https://www.facebook.com/palisadoesproject",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Slack",
+              href: "https://thepalisadoes-dyb6419.slack.com",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/palisadoesorg",
             },
           ],
         },
@@ -78,7 +78,11 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/palisadoesfoundation",
+            },
+            {
+              label: "Youtube",
+              href: "https://www.youtube.com/c/palisadoesorganization",
             },
           ],
         },

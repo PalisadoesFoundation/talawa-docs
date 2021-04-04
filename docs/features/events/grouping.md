@@ -1,14 +1,8 @@
 ---
 id: event-grouping
-title: Grouping
+title: Event Grouping
+
 ---
-
-## Code: EVT 002
-
-
-_Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
-
-This feature aims to* **improve the event viewing options** * by _ **allowing users to group different types of events** _.
 
 :::caution
 
@@ -16,12 +10,20 @@ This section is a work in progress.
 
 :::
 
+## Code: EVT-002
+
+
+_Authored by__ **Shannika Jackson** __Last updated on_ _ **March 13, 2021** _
+
+This feature aims to* **improve the event viewing options** * by _ **allowing users to group different types of events** _.
+
+
+
 ## Overview
 
 ### Problem
 
-1. **All events in the organisation is currently displayed ungrouped :** Ideally, the user should be able to
-1. Toggle between their subscribed events or all events in the organization
+1. **All events in the organisation is currently displayed ungrouped :** Ideally, the user should be able to toggle between their subscribed events or all events in the organization
 
 ### Goals
 
@@ -47,12 +49,12 @@ NA
 ### Use Cases
 
 1. **Members want to:**
-1. **Toggle the view of their events** between their subscribed events and all events in the organisation for which they have permission to view (public events and private ones they have been accepted to).
-1. **Admins want to** :
-1. **Toggle view of all events** between public or private
-1. **View all members&#39; personal events**
-1. Coordinators want to:
-1. **Toggle view of their events:** between their coordinated events and all organization&#39;s events.
+   1. **Toggle the view of their events** between their subscribed events and all events in the organisation for which they have permission to view (public events and private ones they have been accepted to).
+1. **Admins want to:**
+   1. **Toggle view of all events** between public or private
+   1. **View all members&#39; personal events**
+1. **Coordinators want to:**
+   1. **Toggle view of their events:** between their coordinated events and all organization&#39;s events.
 
 ## Proposal/Solution
 
