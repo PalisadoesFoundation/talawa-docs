@@ -19,7 +19,7 @@ This section outlines all you need to know about getting involved with the Palis
 1. Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE) for students.
 1. [Review the Talawa website](https://palisadoesfoundation.github.io/talawa.github.io/).
 1. [Read our presentation for 2021 GSoC students](http://www.palisadoes.org/wp-content/uploads/2021/03/gsoc-2021-talawa.pdf)
-1. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=Z4l5r3lcfe8&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6).
+1. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=Z4l5r3lcfe8&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6&index=1).
 1. Examine the list of available [Palisadoes Foundation GSoC ideas](http://www.palisadoes.org/gsoc/ideas/).
 1. Research the GitHub issue trackers for the projects at:
     1. Talawa: [https://github.com/PalisadoesFoundation/talawa/issues](https://github.com/PalisadoesFoundation/talawa/issues)
