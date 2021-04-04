@@ -55,25 +55,27 @@ TBD.
 
 ### User Experience
 
-1. Solution 1:
-    1. Admins will have access to a list of registered numbers from the admin dashboard.
-    2. Admins will be able to select a number from the list and approve/deny access.
-    3. Members will receive an email/ in app notification once granted access.
+**NB:** Only one of the solutions outlined below should be implemented
 
-1. Solution 2:
-    1. Admins will have access to a screen containing a unique QR code.
-    2. Admins will have the ability to regenerate the QR code (to be discussed)
-    3. Member&#39;s will have access to a QR code scanner upon opening the app.
+#### Solution 1:
+  1. Admins will have access to a list of registered numbers from the admin dashboard.
+  2. Admins will be able to select a number from the list and approve/deny access.
+  3. Members will receive an email/ in app notification once granted access.
 
-2. Solution 3:
-    1. Admins will have access to a list of registered numbers.
-    2. Admins will be able to select a number from the list and generate a unique token/password for a member.
-    3. Admins will have access to a share button for sending the token/password to a member&#39;s email/whatsapp/phone number.
-    4. Member&#39;s will be required to enter the info from the previous step after registering for an organization.
+#### Solution 2:
+  1. Admins will have access to a screen containing a unique QR code.
+  2. Admins will have the ability to regenerate the QR code (to be discussed)
+  3. Member&#39;s will have access to a QR code scanner upon opening the app.
 
-OR
-
-Member&#39;s will be required to enter the provided token while registering for an organization.
+#### Solution 3:
+  1. Admins will have access to a list of registered numbers.
+  2. Admins will be able to select a number from the list and generate a unique token/password for a member.
+  3. Admins will have access to a share button for sending the token/password to a member&#39;s email/whatsapp/phone number.
+  4. Member&#39;s will be required to enter the info from the previous step after registering for an organization.
+    
+    <center> OR </center>
+    
+    Member&#39;s will be required to enter the provided token while registering for an organization.
 
 ### Important Details To Capture
 
