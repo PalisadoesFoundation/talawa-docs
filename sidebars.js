@@ -45,6 +45,7 @@ module.exports = {
       ],
       Donations: [
         'features/donations/donations-overview',
+        'features/donations/donation-fees'
       ],
       'News feed': [
         "features/news feed/news-feed-overview",
