@@ -1,6 +1,6 @@
 ---
 id: notifications-overview
-title: Overview
+title: Notifications
 ---
 
 :::caution

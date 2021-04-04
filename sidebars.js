@@ -48,10 +48,12 @@ module.exports = {
       ],
       'News feed': [
         "features/news feed/news-feed-overview",
+        "features/news feed/tagging-support",
         "features/news feed/pinned-posts"
       ],
       Notifications: [
-        'features/notifications/notifications-overview',
+        "features/notifications/notifications-overview",
+        "features/notifications/follow-tag-support"
       ],
       'Data Management': [
         'features/data-management/data-management-overview',
