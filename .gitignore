@@ -7,6 +7,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+.package-lock.json
 
 # Misc
 .DS_Store
@@ -14,6 +15,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.idea
 
 npm-debug.log*
 yarn-debug.log*
