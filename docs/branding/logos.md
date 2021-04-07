@@ -9,7 +9,6 @@ This page contains information pertaining to how we use our logos.
 
 You can find the various file formats of our logos in [our official logo repository](https://github.com/PalisadoesFoundation/talawa-docs/tree/master/static/img/logos)
 
-
 ## Design Elements
 
 This section describes the various design elements for the Talawa logo.
