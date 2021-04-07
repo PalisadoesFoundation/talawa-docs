@@ -3,31 +3,40 @@ id: branding-logos
 title: Talawa Logos
 ---
 
-We have centralized the location of all the files we use to create our logos.
+This page contains information pertaining to how we use our logos.
 
-[Our official logo formats](https://github.com/PalisadoesFoundation/talawa-docs/tree/master/static/img/logos) can be found here.
-## Idea
-Our logo is made up of 2 shapes, circle & rectangle, it represents,
+## Logo Repository
 
-1. "**Talawa**" in the Jamaican dialect means "**Strong**", and there is a saying "**Little, but Talawa**", which translates to "**Little, but Strong**".
-2. We used Palisadoes Foundation logo's elements and colors to preserve the core ideologies.
+You can find the various file formats of our logos in [our official logo repository](https://github.com/PalisadoesFoundation/talawa-docs/tree/master/static/img/logos)
 
-## Clear space
+
+## Design Elements
+
+This section describes the various design elements for the Talawa logo.
+
+### Concept
+
+This section describes the significance of the logo.
+
+![Small Logo](/img/logos/talawa-logo-200x200.png)
+
+1. The logo is an abstract representation of a small human being. 'Talawa' in the Jamaican dialect means 'strong', and the logo symbolizes the a well known saying on the island 'Little, but Talawa'.
+1. It is made up of 2 shapes. A circle resting upon diagonally angled rectangles.
+1. The colors and shapes used are based on those of the Palisadoes Foundation's logo elements.
+
+### Clear Space
 The logo needs to have clear space, free of text, pictures, and other elements.
 
-![Clear Space](./assets/logo-guidelines.png)
+![Clear Space](/img/logos/talawa-logo-clear-space.png)
 
-## Color
-**Dark Background** or **White Background** logos can be used and in-case they are not suitable, **Transparent** ones can be used without altering the clear space rules.
-The primary colors of our logo are,
+### Color
+
+The logo is suitable for both light and dark backgrounds which facilitates its use in most design scenarios. The logos in the repository all conform with the clear space rules.
+
+The logo colors are:
 
  - #31BB6B - Medium Sea Green
  - #FEBC59 - Max Yellow Red
  - #737373 - Sonic Silver
 
-### Color Palette
-
-![ColorPalette](./assets/colorcodes-names-s.png)
-
-![Color Palette Large](./assets/colorcodes.png)
-
+![ColorPalette](/img/logos/talawa-logo-colors.png)
