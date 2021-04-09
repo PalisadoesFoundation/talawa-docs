@@ -6,9 +6,14 @@ module.exports = {
       "applications/app-overview",
       "applications/admin-overview",
     ],
-    Api: [
+    "Talawa Api": [
+      "talawaApi/api-overview",
       {
-        Overview: ["talawaApi/api-overview"],
+        "Base Constraints": [
+          "talawaApi/constraints/admin",
+          "talawaApi/constraints/user",
+          "talawaApi/constraints/organization",
+        ],
       },
     ],
     "Desired Features": [
