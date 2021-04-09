@@ -1,5 +1,10 @@
 module.exports = {
-  talawaApiSlidebar: {
-    "Getting Started": ["about-talawa-api"],
+  apiSidebar: {
+    Overview: ["about-talawa-api"],
+    Features: [
+      {
+        Functionality: ["features/functionality"],
+      },
+    ],
   },
 };
