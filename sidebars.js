@@ -3,9 +3,13 @@ module.exports = {
     "Getting Started": ["about-talawa", "about"],
     Applications: [
       "applications/architecture-overview",
-      "applications/api-overview",
       "applications/app-overview",
       "applications/admin-overview",
+    ],
+    Api: [
+      {
+        Overview: ["talawaApi/api-overview"],
+      },
     ],
     "Desired Features": [
       {

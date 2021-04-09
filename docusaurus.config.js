@@ -28,12 +28,6 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        {
-          to: "talawaApi/",
-          activeBasePath: "talawaApi",
-          label: "Talawa Api",
-          position: "left",
-        },
         // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: "https://github.com/PalisadoesFoundation",
@@ -109,11 +103,6 @@ module.exports = {
           showReadingTime: true,
           editUrl:
             "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/website/blog/",
-        },
-        talawaApi: {
-          sidebarPath: require.resolve("./apiSlidebar.js"),
-          editUrl:
-            "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
