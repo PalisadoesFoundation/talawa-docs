@@ -15,6 +15,8 @@ module.exports = {
           "talawaApi/constraints/organization",
         ],
       },
+      "talawaApi/functionality",
+      "talawaApi/expectations",
     ],
     "Desired Features": [
       {
