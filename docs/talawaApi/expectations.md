@@ -3,7 +3,7 @@ id: expectations
 title: Expectations
 ---
 
-## API Expectations
+## API Primary Expectations
 
 The API is expected to:
 

@@ -15,6 +15,7 @@ module.exports = {
           "talawaApi/constraints/admin",
         ],
       },
+      "talawaApi/authentication",
       "talawaApi/functionality",
       "talawaApi/expectations",
     ],
