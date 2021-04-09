@@ -15,18 +15,18 @@ He/She can create `Group Chats`, `Events` ,can make `Posts` that show up on the 
 
 ## `User` Model
 
-- image: `string`
-- tokenVersion: `number`
-- firstName: `string`
-- lastName: `string`
-- email: `string`
-- password: `string`
-- createdOrganizations: `[Organization]`
-- createdEvents: `[Event]`
-- joinedOrganizations: `[Organization]`
-- registeredEvents: `[Event]`
-- eventAdmin: `[Event]`
-- adminFor: `[Event]`
-- membershipRequests: `[MembershipRequest]`
-- organizationsBlockBy: `[Organization]`
-- organizationUserBelongsTo: `[Organization]`
+    image: string
+    tokenVersion: number
+    firstName: string
+    lastName: string
+    email: string
+    password: string
+    createdOrganizations: [Organization]
+    createdEvents: [Event]
+    joinedOrganizations: [Organization]
+    registeredEvents: [Event]
+    eventAdmin: [Event]
+    adminFor: [Event]
+    membershipRequests: [MembershipRequest]
+    organizationsBlockBy: [Organization]
+    organizationUserBelongsTo: [Organization]

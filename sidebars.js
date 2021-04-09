@@ -10,9 +10,9 @@ module.exports = {
       "talawaApi/api-overview",
       {
         "Base Constraints": [
-          "talawaApi/constraints/admin",
           "talawaApi/constraints/user",
           "talawaApi/constraints/organization",
+          "talawaApi/constraints/admin",
         ],
       },
       "talawaApi/functionality",

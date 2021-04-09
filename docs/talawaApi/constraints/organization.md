@@ -20,16 +20,16 @@ An organization is simply a body of one or more people. This includes but isn't 
 
 ## `Organization` Model
 
-- apiUrl: `string`
-- image: `string`
-- name: `string`
-- description: `string`
-- isPublic: `string`
-- creator: `string`
-- members: `[User]`
-- admins: `[User]`
-- groupChats: `[Message]`
-- posts: `[Post]`
-- membershipRequest: `[MembershipRequest]`
-- blockedUser: `[User]`
-- visibleInSearch: `boolean`
+    apiUrl: string
+    image: string
+    name: string
+    description: string
+    isPublic: string
+    creator: string
+    members: [User]
+    admins: [User]
+    groupChats: [Message]
+    posts: [Post]
+    membershipRequest: [MembershipRequest]
+    blockedUser: [User]
+    visibleInSearch: boolean
