@@ -11,13 +11,16 @@ title: Overview
 
 Following are the technologies which are accumulated together to build a reliable Api
 
-    Node js
-    Graphql
-    Docker
-    Express
-    Mongoose
-    Jest
-    cors
+1. Node js
+2. Graphql
+3. Docker
+4. Express
+5. Mongoose
+6. Jest
+7. cors
+
+:::note
 
 This is the link to the other packages packages and libraries
 https://github.com/PalisadoesFoundation/talawa-api/blob/master/package.json
+:::
