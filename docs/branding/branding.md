@@ -3,4 +3,4 @@ id: branding-introduction
 title: Introduction
 ---
 
-This is a placeholder to be updated shortly.
+Our brand uses the guidelines in this section to create a consistent user experience.
