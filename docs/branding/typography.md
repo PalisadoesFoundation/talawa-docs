@@ -1,6 +1,6 @@
 ---
 id: branding-typography
-title: typography
+title: Typography
 ---
 
 This section outlines how we use typography with our branding.
