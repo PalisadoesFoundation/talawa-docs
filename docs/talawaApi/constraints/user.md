@@ -11,7 +11,10 @@ A member of an organization would be similar to a congregation member in a relig
 
 ## What tasks can be performed by a `User` ?
 
-He/She can create `Group Chats`, `Events` ,can make `Posts` that show up on the `Organization`, create `Tasks` for events and can `Comment` on posts.
+1. They can create `Organizations` and `Events`.
+2. They can create `Posts` that show up on the `Organization`.
+3. They can `Comment` on `Posts` that show up on the `Organization`.
+4. They can create `Tasks` for the `Event`.
 
 ## `User` Model
 

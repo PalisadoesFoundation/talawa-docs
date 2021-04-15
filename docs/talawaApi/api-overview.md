@@ -3,7 +3,7 @@ id: api-overview
 title: Overview
 ---
 
-> ### Talawa Api is the backend for the application talawa written in `javascript`. It is the base of all the functionalities offered to Users and Organizatios that sign up at talawa .In upcoming sections you will get to know all the useful functions performed by the Api. _Stay tuned!_
+> ### Talawa Api is the backend for the application talawa written in `javascript`. It is the base of all the functionalities offered to Users and Organizations that sign up at talawa. In upcoming sections you will get to know all the useful functions performed by the Api. _Stay tuned!_
 
 <b></b>
 

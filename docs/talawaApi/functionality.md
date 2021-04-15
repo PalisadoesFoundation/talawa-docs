@@ -9,7 +9,7 @@ title: Functionality
 
 <b></b>
 
-### _Following are the list of functionalities offered by Talawa Api_
+### _The list of functionalities offered by Talawa Api are as follows_
 
 ### Post
 

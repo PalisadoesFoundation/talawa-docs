@@ -9,7 +9,7 @@ Administrators are users who have the ability to manage organizations.
 
 They can change organization details, remove members from public organizations and moderate membership for private organizations, meaning they can accept or reject membership requests.
 
-Administrators can remove any event, group chat or post belonging to the organization their responsible for.
+Administrators can remove any event, group chat or post belonging to the organization they're responsible for.
 
 An administrator for an organization would be similar to a pastor for a church or the manager of a business.
 

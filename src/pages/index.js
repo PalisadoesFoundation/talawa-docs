@@ -12,8 +12,8 @@ const features = [
     imageUrl: "img/group_chat.svg",
     description: (
       <>
-        Talk to your own community groups on Talawa, our app makes it simple and
-        secure to use.
+        Talk to your own community groups on Talawa.<br></br> Our app makes it
+        simple and secure to use.
       </>
     ),
   },
@@ -22,8 +22,9 @@ const features = [
     imageUrl: "img/teams.svg",
     description: (
       <>
-        Schedule, create and view your upcoming community events on Talawa,
-        start your own or register for exisiting one.
+        Schedule, create and view your upcoming community events on Talawa.
+        <br></br>
+        Start your own or register for exisiting one.
       </>
     ),
   },
@@ -32,8 +33,8 @@ const features = [
     imageUrl: "img/teams_1.svg",
     description: (
       <>
-        Create and manage multiple organizations with Talawa, start your
-        community and watch it grow.
+        Create and manage multiple organizations with Talawa.<br></br> Start
+        your community and watch it grow.
       </>
     ),
   },

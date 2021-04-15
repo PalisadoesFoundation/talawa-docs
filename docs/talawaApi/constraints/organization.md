@@ -9,9 +9,9 @@ An organization is simply a body of one or more people. This includes but isn't 
 
 ## How to create `Organization` ?
 
-1. A user should create an account by signing up by their credentials. Steps for signing up are given on previous page.
+1. A user should create an account by signing up with their credentials. Steps for signing up are given [here](../authentication#sign-up).
 
-2. Upon creating an account the use information would get stored in the `databse`. Now to create an `Organization` a request should be send to api having given fields.
+2. Upon creating an account the necessary information would get stored in the `Database`. Now to create an `Organization` a request should be send to api having given fields.
 
    1. Organisation Name,
    2. Privacy Settings (Public Or Private)

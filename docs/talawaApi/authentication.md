@@ -3,7 +3,7 @@ id: authentication
 title: Authentication
 ---
 
-### How a `User` can Authenticate?
+### How can a `User` Authenticate?
 
 > ### `Sign Up`
 >
