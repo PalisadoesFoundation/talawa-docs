@@ -81,11 +81,19 @@ module.exports = {
         'branding/branding-logos',
         'branding/branding-typography',
       ],
-    GSoC: [
-        'gsoc/gsoc-introduction',
-        'gsoc/gsoc-application-process',
-        'gsoc/gsoc-application-template',
-        'gsoc/gsoc-selection-criteria',
-        'gsoc/gsoc-ideas'],
+    Internships:[{
+        GitHub: [
+            'internships/github/github-introduction',
+            'internships/github/github-application-process',
+            'internships/github/github-application-template',
+            'internships/github/github-selection-criteria',
+            'internships/github/github-ideas'],        
+        GSoC: [
+            'internships/gsoc/gsoc-introduction',
+            'internships/gsoc/gsoc-application-process',
+            'internships/gsoc/gsoc-application-template',
+            'internships/gsoc/gsoc-selection-criteria',
+            'internships/gsoc/gsoc-ideas'],
+    }],
   },
 };
