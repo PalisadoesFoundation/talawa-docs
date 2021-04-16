@@ -1,6 +1,6 @@
 ---
 id: gsoc-application-process
-title: Applying to GSoC
+title: Applying
 ---
 
 Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.

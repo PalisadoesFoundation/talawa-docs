@@ -1,6 +1,6 @@
 ---
 id: gsoc-application-template
-title: GSoC Application Template
+title: Application Template
 ---
 
 This is just a suggested template, feel free to add and remove sections as appropriate. Be brief, don’t write a large essay!

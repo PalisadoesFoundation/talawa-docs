@@ -1,6 +1,6 @@
 ---
 id: gsoc-ideas
-title: GSoC Ideas
+title: Ideas
 ---
 
 ## Interesting Ideas
