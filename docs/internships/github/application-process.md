@@ -1,6 +1,6 @@
 ---
-id: gsoc-application-process
-title: Applying to GSoC
+id: github-application-process
+title: Applying
 ---
 
 Details are announced now and we are in the project discussion phase. We encourage you to discuss you application with the project community.
@@ -14,7 +14,7 @@ In order to apply we ask that you create:
 1. an approach,
 1. an approximate schedule and
 1. something of a background text.
-1. We also need you to let us know what other commitments you have for the period of GSoC, for example, do you have any exams or a part time job? In other words &#8211; sell yourselves, as if this was an actual job.
+1. We also need you to let us know what other commitments you have for the coding period, for example, do you have any exams or a part time job? In other words &#8211; sell yourselves, as if this was an actual job.
 
 In drawing up your proposal you should work with your chosen projects community.
 
@@ -32,4 +32,6 @@ Get feedback on your draft application proposal at:
 
 ### Submitting Your Final Proposal
 
-Submit your final applications via the GSoC website.
+Submit your final applications at:
+
+![img](/img/submissions.png)

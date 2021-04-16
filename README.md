@@ -43,12 +43,12 @@ Intallation will vary depending on whether you use the `yarn` or `npm` packages.
 The steps are simple:
 
 1. Clone this repository
-2. Install `yarn` on your system
+2. [Install `yarn` on your system using these instructions](https://classic.yarnpkg.com/en/docs/install)
+3. Follow these steps next
 
 ```console
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs
 $ cd talawa-docs
-$ sudo apt-get -y install yarn
 $ yarn add docusaurus
 ```
 
