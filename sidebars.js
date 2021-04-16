@@ -1,7 +1,7 @@
 module.exports = {
   someSidebar: {
     'Getting Started': ['about-talawa', 'about'],
-    Applications: [ 'applications/architecture-overview', 'applications/api-overview', 'applications/app-overview', 'applications/admin-overview' ],      
+    Applications: [ 'applications/architecture-overview', 'applications/api-overview', 'applications/app-overview', 'applications/admin-overview' ],
     'Desired Features': [{
       Installation: [
         'features/installation/installation-overview',
@@ -45,6 +45,7 @@ module.exports = {
       ],
       Donations: [
         'features/donations/donations-overview',
+        'features/donations/donation-fees'
       ],
       'News feed': [
         "features/news feed/news-feed-overview",
@@ -74,7 +75,12 @@ module.exports = {
         'features/misc/misc-language-support',
       ]
     }],
-    Branding: [ 'branding/branding-introduction', 'branding/branding-logos' ],
+    Branding: [
+        'branding/branding-introduction',
+        'branding/branding-color-palette',
+        'branding/branding-logos',
+        'branding/branding-typography',
+      ],
     GSoC: [
         'gsoc/gsoc-introduction',
         'gsoc/gsoc-application-process',
