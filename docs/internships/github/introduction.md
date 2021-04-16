@@ -3,7 +3,7 @@ id: github-introduction
 title: Introduction
 ---
 
-IncubateIND is sponsoring the [2021 GitHub Externship](https://github-externships.github.io/externship/index.html) and [The Palisadoes Foundation](http://www.palisadoes.org) has applied as a participating organization. This page is your entry point to our program. Please watch this page for updates concerning our participating in 2021.
+IncubateIND is sponsoring the [2021 GitHub Externship](https://github-externships.github.io/externship/index.html) and [The Palisadoes Foundation](http://www.palisadoes.org) has applied as a participating organization. (We are awaiting confirmation. These GitHub Externship pages are preparatory.) This page is your entry point to our program. Please watch this page for updates concerning our participating in 2021.
 
 ### About Talawa
 

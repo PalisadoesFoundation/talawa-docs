@@ -3,7 +3,7 @@ id: gsoc-introduction
 title: Introduction
 ---
 
-Google is sponsoring the [2021 Summer of Code](https://summerofcode.withgoogle.com/) and [The Palisadoes Foundation](http://www.palisadoes.org) registered as a mentoring organization. This page is your entry point to the Palisadoes Foundation GSoC program. Please watch this page for updates concerning our participating in 2021.
+Google is sponsoring the [2021 Summer of Code](https://summerofcode.withgoogle.com/) and [The Palisadoes Foundation](http://www.palisadoes.org) is registered as a mentoring organization. This page is your entry point to the Palisadoes Foundation GSoC program. Please watch this page for updates concerning our participating in 2021.
 
 ### About Talawa
 
