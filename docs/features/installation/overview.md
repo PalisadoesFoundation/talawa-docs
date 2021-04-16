@@ -2,6 +2,7 @@
 id: installation-overview
 title: Overview
 ---
+
 :::caution
 
 This section is a work in progress.
@@ -19,8 +20,9 @@ We need to ensure that the app, the API and the admin portal install flawlessly,
 Use the ease of installation of other social media apps like LinkedIn, Instagram and WhatsApp as a guide.
 
 ## Code: INS-001
+
 ### Single Click Installation Mobile App
 
-_Authored by_ _ **Shannika Jackson** __. Last updated on_ _ **March 16,2021** _
+_Authored by_ _ **Shannika Jackson** \_\_. Last updated on_ _ **March 16,2021** _
 
 This feature aims to _ **enhance user experience** _ by _ **simplifying the installation process** _.
