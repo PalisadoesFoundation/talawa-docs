@@ -19,6 +19,7 @@ module.exports = {
       "talawaApi/functionality",
       "talawaApi/expectations",
     ],
+    "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
       {
         Installation: ["features/installation/installation-overview"],
