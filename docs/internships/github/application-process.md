@@ -32,4 +32,4 @@ Get feedback on your draft application proposal at:
 
 ### Submitting Your Final Proposal
 
-Submit your final applications on the GitHub Externship web site.
+Submit your final applications on the GitHub Externship website.
