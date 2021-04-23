@@ -7,7 +7,8 @@ module.exports = {
       "applications/admin-overview",
     ],
     Talawa: [
-      "talawa/talawa-introduction"
+      "talawa/talawa-introduction",
+      "talawa/talawa-developer-environment"
     ],
     "Talawa API": [
       "talawa-api/api-overview",
