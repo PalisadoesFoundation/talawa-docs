@@ -19,9 +19,17 @@ module.exports = {
       "talawaApi/functionality",
       "talawaApi/expectations",
     ],
+    "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
       {
         Installation: ["features/installation/installation-overview"],
+        "Admin Portal":["features/admin-portal/admin-portal-overview"],
+        "Admin Capabilities": [
+          "features/admin-role/admin-role-overview",
+          "features/admin-role/admin-messaging",
+          "features/admin-role/admin-manage-members",
+          "features/admin-role/admin-newsfeed",
+        ],
         Advertising: ["features/advertising/ads-overview"],
         "Chat and Messaging": [
           "features/messaging-and-chat/messaging-and-chat-overview",
@@ -29,12 +37,6 @@ module.exports = {
           "features/messaging-and-chat/message-messaging",
           "features/messaging-and-chat/message-voice-messaging",
           "features/messaging-and-chat/message-notifications",
-        ],
-        "Admin Capabilities": [
-          "features/admin-role/admin-role-overview",
-          "features/admin-role/admin-messaging",
-          "features/admin-role/admin-manage-members",
-          "features/admin-role/admin-newsfeed",
         ],
         "Coordinator Capabilities": [
           "features/coordinator-role/coordinator-role-overview",

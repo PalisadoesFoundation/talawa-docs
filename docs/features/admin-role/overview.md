@@ -13,6 +13,7 @@ This section is a work in progress.
 
 We will assume that at least one person in the organization has access to a traditional computer device with a non-mobile size screen to help them do administrative tasks via the portal.
 
+### Functions from App
 Administrators will also need to be able to do some portal tasks from their phones such as:
 
 1. Add/ remove members
@@ -28,3 +29,11 @@ Administrators will also need to be able to do some portal tasks from their phon
     1. Mute people
     2. Enable/ disable commenting on posts
     3. Thumbs up/down
+   
+### Functions from Admin Portal
+1. Determine whether membership to the organization is public or private
+2. Add or remove members
+3. Add or remove other organizational admins
+4. Add or remove group chats
+5. Add, remove or edit events
+6. Add or remove posts
