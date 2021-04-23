@@ -6,18 +6,24 @@ module.exports = {
       "applications/app-overview",
       "applications/admin-overview",
     ],
+    Talawa: [
+      "talawa/talawa-introduction"
+    ],
     "Talawa API": [
-      "talawaApi/api-overview",
+      "talawa-api/api-overview",
       {
         "Base Constraints": [
-          "talawaApi/constraints/user",
-          "talawaApi/constraints/organization",
-          "talawaApi/constraints/admin",
+          "talawa-api/constraints/user",
+          "talawa-api/constraints/organization",
+          "talawa-api/constraints/admin",
         ],
       },
-      "talawaApi/authentication",
-      "talawaApi/functionality",
-      "talawaApi/expectations",
+      "talawa-api/authentication",
+      "talawa-api/functionality",
+      "talawa-api/expectations",
+    ],
+    "Talawa Admin": [
+      "talawa-admin/talawa-admin-introduction"
     ],
     "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
