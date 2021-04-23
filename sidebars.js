@@ -6,7 +6,7 @@ module.exports = {
       "applications/app-overview",
       "applications/admin-overview",
     ],
-    "Talawa Api": [
+    "Talawa API": [
       "talawaApi/api-overview",
       {
         "Base Constraints": [
