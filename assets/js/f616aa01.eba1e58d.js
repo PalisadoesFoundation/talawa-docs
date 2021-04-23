@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[97],{166:function(l){l.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/talawa-docs/blog/welcome"},{"title":"Hello","permalink":"/talawa-docs/blog/hello-world"},{"title":"Hola","permalink":"/talawa-docs/blog/hola"}]}')}}]);
