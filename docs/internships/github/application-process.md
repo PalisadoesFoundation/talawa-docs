@@ -28,7 +28,7 @@ We may give shortlisted candidates short code challenges to confirm our final de
 
 Get feedback on your draft application proposal at:
 
-![img](/img/draft-submissions.png)
+![img](/img/email/draft-submissions.png)
 
 ### Submitting Your Final Proposal
 

@@ -99,6 +99,9 @@ module.exports = {
     ],
     Branding: ["branding/branding-introduction", "branding/branding-logos"],
     Internships:[{
+      Talawa: [
+          'internships/talawa/talawa-introduction'
+        ],      
         GitHub: [
             'internships/github/github-introduction',
             'internships/github/github-application-process',
