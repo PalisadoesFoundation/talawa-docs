@@ -97,11 +97,12 @@ module.exports = {
         ],
       },
     ],
+    Design: ["design/ux/ux-talawa"],
     Branding: ["branding/branding-introduction", "branding/branding-logos"],
     Internships:[{
       Talawa: [
           'internships/talawa/talawa-introduction'
-        ],      
+        ],
         GitHub: [
             'internships/github/github-introduction',
             'internships/github/github-application-process',
