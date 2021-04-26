@@ -9,7 +9,7 @@ There are some well known areas of improvement that we have listed below. It is 
 
 In general we would like to reduce the learning curve for new sysadmins. Our API documentation needs to be clearer, especially as we hope to launch an alpha version of the software this year. It is important that our online documentation is updated as any part of the project.
 
-Please review our "Desired Features" section of this website for *even more ideas* and further necessary information.
+Please review our "Desired Features" section of this website for **even more ideas** and further necessary information.
 
 ## Primary Areas
 
