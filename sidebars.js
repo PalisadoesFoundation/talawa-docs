@@ -97,7 +97,7 @@ module.exports = {
         ],
       },
     ],
-    Design: ["design/ux/ux-talawa"],
+    Design: ["design/ux/ux-talawa","design/ux/ux-design-system"],
     Branding: ["branding/branding-introduction", "branding/branding-logos"],
     Internships:[{
       Talawa: [
