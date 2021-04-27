@@ -28,8 +28,8 @@ module.exports = {
     ],
     "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
+      "features/features-introduction",
       {
-        "features/features-introduction",
         Installation: ["features/installation/installation-overview"],
         "Admin Portal":["features/admin-portal/admin-portal-overview"],
         "Admin Capabilities": [
