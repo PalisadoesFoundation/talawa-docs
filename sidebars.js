@@ -28,6 +28,7 @@ module.exports = {
     ],
     "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
+      "features/features-introduction",
       {
         Installation: ["features/installation/installation-overview"],
         "Admin Portal":["features/admin-portal/admin-portal-overview"],
@@ -97,8 +98,15 @@ module.exports = {
         ],
       },
     ],
-    Design: ["design/ux/ux-talawa","design/ux/ux-design-system"],
-    Branding: ["branding/branding-introduction", "branding/branding-logos"],
+    Design: [
+            "design/ux/ux-talawa",
+            "design/ux/ux-design-system"],
+    Branding: [
+            "branding/branding-introduction",
+            "branding/branding-logos",
+            "branding/branding-color-palette",
+            "branding/branding-typography"
+    ],
     Internships:[{
       Talawa: [
           'internships/talawa/talawa-introduction'
