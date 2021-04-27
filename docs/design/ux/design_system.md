@@ -7,3 +7,4 @@ title: Design System
 
 ![DesignSystem](/img/design_system.png)
 
+[Figma](https://www.figma.com/file/AS4aqeG1oLRZAXrGwLADKj/Talawa-Design-System?node-id=0%3A286)
