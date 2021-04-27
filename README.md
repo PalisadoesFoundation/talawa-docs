@@ -65,7 +65,11 @@ To preview your changes as you edit the files, you can run a local development s
 Follow these steps:
 
 ```console
+$ sudo apt-get -y install npm
+$ sudo npm install --global yarn
 $ cd talawa-docs
+$ npm install node
+$ yarn add docusaurus
 $ yarn run start
 ```
 
