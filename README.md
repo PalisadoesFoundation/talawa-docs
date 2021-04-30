@@ -64,8 +64,13 @@ To preview your changes as you edit the files, you can run a local development s
 
 Follow these steps:
 
+**Note:** Install the latest stable version of Nodejs on your system if you get a `The engine "node" is incompatible with this module. Expected version` message during the procedure below. You may need to use a custom repository for this.
+
 ```console
+$ sudo apt-get -y install npm
+$ sudo npm install --global yarn
 $ cd talawa-docs
+$ yarn add docusaurus
 $ yarn run start
 ```
 
