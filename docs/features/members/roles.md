@@ -50,7 +50,7 @@ This feature aims to _ **introduce application roles** _ by _ **defining how the
 #### Predefined Roles
 
 1. **Administrator** - Allow access to features to **ALL** features of the application
-2. **Deputy** - Allow elevated access to specific administrative features as defined per feature throughout the application.
+2. **Coordinator** - Allow elevated access to specific administrative features as defined per feature throughout the application.
 3. **Member** - Allow general usage and access to the application.
 
 #### Admin Portal
