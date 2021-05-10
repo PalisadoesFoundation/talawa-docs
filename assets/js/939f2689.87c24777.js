@@ -1,0 +1,1 @@
+(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[2730],{3716:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/talawa-docs/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/talawa-docs/blog/tags/docusaurus"}')}}]);

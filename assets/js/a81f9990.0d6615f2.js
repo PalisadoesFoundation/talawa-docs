@@ -1,0 +1,1 @@
+(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[6390],{8150:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/talawa-docs/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/talawa-docs/blog/tags/hello"}')}}]);
