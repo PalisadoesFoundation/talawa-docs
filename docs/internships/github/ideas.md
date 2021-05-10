@@ -49,7 +49,13 @@ We don't have a consistent integration into automated testing systems. We want a
 
 ### Improved UI design
 
-We are currently working on UI/UX proposals for the Talawa mobile app and admin portal. This is not in scope.
+We are currently working on UI/UX proposals for a complete redesign of Talawa mobile app and admin portal. This is not in scope.
+
+Adjustments to the UI/UX to accommodate new features are in scope.
+
+### Improved Talawa Functionality
+
+Think of new areas of functionality for the mobile app. How could it be better for both the end user and administrators?
 
 ### Multilingual Support
 
