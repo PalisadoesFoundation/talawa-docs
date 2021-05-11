@@ -91,7 +91,7 @@ module.exports = {
           "features/organisations/organisations-overview",
           "features/organisations/organisations-onboarding",
         ],
-        Plugins: ["features/plugins/plugins-overview"],
+        Plugins: ["features/plugins/plugins-overview", "features/plugins/plugins-billing"],
         Misc: [
           "features/misc/misc-overview",
           "features/misc/misc-language-support",
