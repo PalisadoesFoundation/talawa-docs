@@ -11,10 +11,7 @@ Though software applications exist for these types of organizations (eg. Breeze 
 ​
 
 Talawa has three main components. A mobile application with social media features, a web based portal to be used by the organization’s administrative team, and finally an API providing access to data and features.
-​
-
-Talawa originally allowed any mobile application user to create their own community organization, one or many times. They would automatically be the administrator. We thought this would be unmanageable, and decided to remove the feature. In our updated design, mobile users can log into the organization of their choice, one at a time, with administration being done through the web portal. Administrators may also have limited access to management features through the mobile application.
-​
+​​
 
 The Palisadoes Foundation wants to eventually host Talawa as a cloud service to help finance its education outreach.
 ​
