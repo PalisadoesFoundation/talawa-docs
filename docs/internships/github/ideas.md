@@ -47,6 +47,12 @@ This will greatly help the developer experience. Different people format their c
 
 We don't have a consistent integration into automated testing systems. We want all submitted code to have associated tests and for the pull request process to reject code that does not. Ways to verify the existence of test code and files will need to be found for all repos.
 
+### Removing the Ability to Create Organizations in the Mobile App
+
+Talawa originally allowed any mobile application user to create their own community organization, one or many times. They would automatically be the administrator. We thought this would be unmanageable, and decided to remove the feature. In our updated design, mobile users can log into the organization of their choice, one at a time, with administration being done through the web portal. Administrators may also have limited access to management features through the mobile application.​
+
+This will have a variety of implications for the mobile app and API. It will also provide many new opportunities for features. Let us know your thoughts.
+
 ### Improved UI design
 
 We are currently working on UI/UX proposals for a complete redesign of Talawa mobile app and admin portal. This is not in scope.
