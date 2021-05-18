@@ -31,7 +31,7 @@ This is the ability to register in the app with an organisation. Once the user i
 1. Users are able using their email and password.
 2. After logging in for the first time the user can search for the organization he wishes to join 
 3. After membership to the organisation is verified the user is able to join the organization
-4. An adminis trator is able to create an organisation when he logs in for the first time
+4. An administrator is able to create an organisation when he logs in for the first time
 
 ## Events
 ### Description
@@ -40,7 +40,7 @@ These are scheduled events managed by cooordinators and administrators of an org
 1. Organisation list
 2. Events list screen
 3. User is able to create single and recurring events with primary contacts as well as users with other responsibilities assigned to them
-4. User if ale to register for an event, if necessary
+4. User should be able to register for an event, if necessary
 5. User is able to create projects related to any event
     1. Create tasks for any of the event roles
     2. Set deadlines for completing assigned tasks
