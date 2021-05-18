@@ -29,9 +29,9 @@ We are particularly interested in adding features to our software that makes it:
 
 ## Schedule
 
-The application period for summer internships is open. Deadline for applications: May 7, 2021.
+The application period for summer internships is open. Deadline for applications: May 31, 2021.
 
-Each position lasts for one twelve-week term, starting June 7. There can be some flexibility with start and end dates if necessary.
+Each position lasts for one twelve-week term, starting June 15. There can be some flexibility with start and end dates if necessary.
 
 Work during the term can be either full time (forty hours per week) or part-time (twenty hours per week) positions. We will prefer candidates able to work full time, particularly during the summer term.
 
