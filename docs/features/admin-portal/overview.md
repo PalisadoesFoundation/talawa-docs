@@ -27,14 +27,15 @@ The portal should be able to support the creation of multiple organizations to a
 ***Organizational Admin*** - Added by the Creator. Has privilege to the rest of admin privilege.
 
 ### Front End
-1. Screen and functionality for an OCA to add an organizational admin 
-2. Screen and functionality for an OCA to remove an organizational admin 
-3. Screen and functionality for an OCA to delete organization
-4. Screen and functionality that allows admins to accept or decline requests to join organizations
-5. Screen and functionality that allows admins to remove members from the organization
-6. Screen and functionality allowing admins to  remove group chats
-7. Screen and functionality allowing  admins to remove events
-8. Screen and functionality allowing admins to  remove posts
+1. Ability to Create a new Organization[Issue #19](https://github.com/PalisadoesFoundation/talawa-admin/issues/19)
+2. Screen and functionality for an OCA to add an organizational admin [Issue #20](https://github.com/PalisadoesFoundation/talawa-admin/issues/20)
+3. Screen and functionality for an OCA to remove an organizational admin [Issue #21](https://github.com/PalisadoesFoundation/talawa-admin/issues/21)
+4. Screen and functionality for an OCA to delete organization [Issue #22](https://github.com/PalisadoesFoundation/talawa-admin/issues/22)
+5. Screen and functionality that allows admins to accept or decline requests to join organizations
+6. Screen and functionality that allows admins to remove members from the organization
+7. Screen and functionality allowing admins to  remove group chats
+8. Screen and functionality allowing  admins to remove events
+9. Screen and functionality allowing admins to  remove posts
 
 ### Back End
 1. Allow users to send requests to join private organizations
