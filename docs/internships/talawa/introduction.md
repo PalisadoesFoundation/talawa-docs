@@ -19,7 +19,7 @@ Our volunteers are dispersed globally, so all internships will be remote.
 
 These positions are unpaid. TPF will provide any appropriate documentation you might need to receive funding and school credit from outside sources. We place an emphasis on providing educational opportunities for interns in which they work closely with our volunteer mentors. Take a look at our past interns (Add link).
 
-We are particularly interested in adding features to our software that makes it:
+We are especially interested in adding features to our software that makes it:
 
 1. More intuitive to use
 1. Support multiple organizations as a cloud service
