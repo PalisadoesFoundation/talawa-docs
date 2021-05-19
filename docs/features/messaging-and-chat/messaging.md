@@ -12,7 +12,7 @@ This section is a work in progress.
 ## Code: MSG-002
 _Authored by__ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
 
-This feature aims to _ **enhance in-app communication** _ by _ **allowing users send messages directly to other members' inbox** _.
+This feature aims to _ **enhance in-app communication** _ by _ **allowing users to send messages directly to other members' inbox** _.
 
 ## Overview
 
@@ -20,7 +20,7 @@ This feature aims to _ **enhance in-app communication** _ by _ **allowing users 
 
 ### Goals
 
-1. **Create and send a message:** Any user should be able to create and send a message to be delivered to the recievers' inbox.
+1. **Create and send a messages:** Any user should be able to create and send a messages deliverable to the receivers' inbox.
 
 ### Out of Scope
 
@@ -41,7 +41,7 @@ NA
 ### Use Cases
 
 1. **Admins want to** :
-    1. **Send organisation wide messages** : This will facilitate organisation wide notices and othe rimportant updates
+    1. **Send organisation wide messages** : This will facilitate organisation wide notices and other important updates
 2. **Coordinators want to** :
     1. **Send messages to an event working group** : This facilitates the sending of official notices related to the event.
 

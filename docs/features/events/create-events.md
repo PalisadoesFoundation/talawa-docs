@@ -53,8 +53,8 @@ NA
 1. **Members want to:**
    1. **Create an event** When a member creates an event they are automatically made coordinator of that event.
 1. **Coordinators want to:**
-   1. **Create tasks for an event:** Each event will have a checlist of tasks/ activities to be done before teh scheduled event.
-   2. **Assign tasks to organisation members:** Some notification must be sent to the member once they are assigned a task.
+   1. **Create tasks for an event:** Each event will have a checklist of tasks/ activities to be done before the scheduled event.
+   2. **Assign tasks to organisation members:** Some notification must be sent to the member once they are assigned any task.
    3. ** Mark a task for events as complete **  This could possibly update an overall progress bar for event tasks.
 1. **Admins want to:**
    1. **Elevate members to coordinators** This will enable multiple coordinators for an event
@@ -65,8 +65,8 @@ NA
 ### User Experience
 
 1. From the Home screen in the mobile app or from the admin portal in the web client,
-   a button is presented to create an event.
-2. Basic details such as whether is is a public or private event,
+   a button is present to create an event.
+2. Basic details such as whether it is a public or private event,
    the date, time and venue for the event are specified
 3. If a member is creating the event, they are automatically made coordinator for the event.
     1. If an admin is creating the event they are asked to also select coordinator(s) for the event from a list of members of the organisation.
@@ -77,7 +77,7 @@ NA
    4. Tasks assigned to the member is updated in their personal task list 
    5. The member assigned to the task can check it as complete
       1. Notification is sent to co-ordinator of completed task
-      2. Event progress bar is updated to refect percentage complete
+      2. Event progress bar is updated to reflect percentage completion
 
 ### Important Details To Capture
 
