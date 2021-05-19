@@ -11,7 +11,7 @@ This section is a work in progress.
 
 ## Code: ADM-001 
 
-_Authored by__ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
+_Authored by__ **Shannika Jackson** __. Last updated on_ _ **May 18,2021** _
 
 This feature aims to _ **enhance the admin role** _ by _ **allowing admin users to send messages to an entire organization** _.
 
@@ -19,7 +19,7 @@ This feature aims to _ **enhance the admin role** _ by _ **allowing admin users 
 
 ### Problem
 
-1. **Messaging can now be sent only directly from one user to another :**
+1. **Messages can now be sent only directly from one user to another :**
     1. The admins in an organization can only send direct messages
     2. The need exists to communicate instantly with all members of an organisation
 

@@ -33,8 +33,8 @@ This feature aims to _ **streamline member event subscription** _ by _ **simplif
 
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
-1. **Invite non-app users to events :** Prompting then to install the app and join the organization and subscribe for the event.
-2. **View assigned tasks from the event screen/page:** User is able to select an event and see all tasks assigned to then for that event
+1. **Invite non-app users to events :** Prompting them to install the app and join the organization and subscribe for the event.
+2. **View assigned tasks from the event screen/page:** User is able to select an event and see all tasks assigned to them for that event
 3. **Volunteer for tasks under an event :** From the events screen/page the user is able volunteer for the listed tasks under the event
 
 ### People and Roles

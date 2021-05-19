@@ -33,7 +33,7 @@ This feature aims to _ **enhance event management options** _ by _ **allowing co
 
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
-1. **Create groups:** members will in future want to create groups to which they can send group messages, assign to tasks and target other communication
+1. **Create groups:** members in future want to create groups to which they can send group messages, assign to tasks and target other communication
 
 ### People and Roles
 
@@ -49,7 +49,7 @@ The following are the primary roles foreseen in the development of this feature
     1. **Promote members to coordinators** : adding coordinators to an organization helps the admin to manage members and content. This should be done via a desktop/web client, and mobile.
 2. **Coordinators want to** :
     1. **Remove inappropriate posts** : members may add posts that are inappropriate and the coordinator must have the ability to remove them at a moment&#39;s notice via mobile application.
-    2. **Assign event tasks to other members and groups** to members and groups
+    2. **Assign event tasks to other members and groups**
 
 ## Proposal/Solution
 
