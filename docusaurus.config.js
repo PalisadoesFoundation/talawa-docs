@@ -11,6 +11,10 @@ module.exports = {
   projectName: "talawa-docs", // Usually your repo name.
   onBrokenLinks: "ignore",
   themeConfig: {
+    algolia: {
+        apiKey: '47ecd3b21be71c5822571b9f59e52544',
+        indexName: 'docusaurus-2',
+    },      
     logo: {
       alt: "Palisadoes Logo",
       src: "img/logo-main.png",
