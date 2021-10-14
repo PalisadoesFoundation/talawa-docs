@@ -22,6 +22,7 @@ module.exports = {
       "talawa-api/authentication",
       "talawa-api/functionality",
       "talawa-api/expectations",
+      "talawa-api/installation",
     ],
     "Talawa Admin": [
       "talawa-admin/talawa-admin-introduction"
