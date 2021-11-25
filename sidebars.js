@@ -115,14 +115,15 @@ module.exports = {
             'internships/github/github-introduction',
             'internships/github/github-application-process',
             'internships/github/github-application-template',
-            'internships/github/github-selection-criteria',
-            'internships/github/github-ideas'],
+            'internships/github/github-selection-criteria'],
         GSoC: [
             'internships/gsoc/gsoc-introduction',
             'internships/gsoc/gsoc-application-process',
             'internships/gsoc/gsoc-application-template',
-            'internships/gsoc/gsoc-selection-criteria',
-            'internships/gsoc/gsoc-ideas'],
+            'internships/gsoc/gsoc-selection-criteria'],
+        Ideas: [
+            'internships/ideas'
+        ],
     }],
   },
 };
