@@ -3,8 +3,6 @@ id: ideas
 title: Ideas
 ---
 
-## Interesting Ideas
-
 There are some well known areas of improvement that we have listed below. It is really important that we complete these over the summer and we would also welcome any other ideas that could use these as a foundation.
 
 In general we would like to reduce the learning curve for new sysadmins. Our API documentation needs to be clearer, especially as we hope to launch an alpha version of the software this year. It is important that our online documentation is updated as any part of the project.
