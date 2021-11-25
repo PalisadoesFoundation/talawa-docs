@@ -108,7 +108,10 @@ module.exports = {
             "branding/branding-typography"
     ],
     Internships:[{
-      Talawa: [
+        Ideas: [
+            'internships/ideas'
+        ],
+        Talawa: [
           'internships/talawa/talawa-introduction'
         ],
         GitHub: [
@@ -121,9 +124,6 @@ module.exports = {
             'internships/gsoc/gsoc-application-process',
             'internships/gsoc/gsoc-application-template',
             'internships/gsoc/gsoc-selection-criteria'],
-        Ideas: [
-            'internships/ideas'
-        ],
     }],
   },
 };
