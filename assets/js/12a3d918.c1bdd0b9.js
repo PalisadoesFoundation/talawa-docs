@@ -1,1 +1,0 @@
-(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[5278],{242:function(a){"use strict";a.exports=JSON.parse('{"allTagsPath":"/talawa-docs/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/talawa-docs/blog/tags/facebook"}')}}]);
