@@ -3,7 +3,7 @@ id: github-introduction
 title: Introduction
 ---
 
-IncubateIND is sponsoring the [2021 GitHub Externship](https://github-externships.github.io/externship/index.html) and [The Palisadoes Foundation](http://www.palisadoes.org) has applied as a participating organization. (We are awaiting confirmation. These GitHub Externship pages are preparatory.) This page is your entry point to our program. Please watch this page for updates concerning our participating in 2021.
+Github India in association with Reskilll sponsoring the [2021 GitHub Externship](https://externship.github.in/) and [The Palisadoes Foundation](http://www.palisadoes.org) has applied as a participating organization. (We are awaiting confirmation. These GitHub Externship pages are preparatory.) This page is your entry point to our program. Please watch this page for updates concerning our participating in 2021.
 
 ### About Talawa
 
@@ -13,8 +13,8 @@ The Palisadoes Foundation has been sponsoring work on this open-source project f
 
 This section outlines all you need to know about getting involved with the program:
 
-1. Learn [about GitHub Externships](https://github-externships.github.io/externship/about.html).
-1. Decide if you are [eligible for GitHub Externships](https://github-externships.github.io/externship/apply.html).
+1. Learn [about GitHub Externships](https://externship.github.in/about).
+1. Decide if you are [eligible for GitHub Externships](https://externship.github.in/apply).
 1. [Review the Talawa website](https://palisadoesfoundation.github.io/talawa.github.io/).
 1. [Read our 2021 Talawa internship presentation](http://www.palisadoes.org/wp-content/uploads/2021/05/github-externship-2021-talawa-1.pdf)
 1. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=jo7RwU4GEkE&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6&index=2).
