@@ -39,4 +39,5 @@ Get feedback on your draft application proposal at:
 
 ### Submitting Your Final Proposal
 
-Submit your final applications on the GitHub Externship website.
+Submit your final applications to this email address:
+![img](/img/email/submissions.png)
