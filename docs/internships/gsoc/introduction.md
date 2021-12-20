@@ -15,6 +15,7 @@ This section outlines all you need to know about getting involved with the Palis
 
 1. Learn [about GSoC](https://summerofcode.withgoogle.com/about/).
 1. Decide if you are [eligible for GSoC](https://summerofcode.withgoogle.com/get-started/).
+1. Read more about the [changes in the eligibilty criteria for GSoC 2022](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html).
 1. Review the [Advice for Students](https://opensource.googleblog.com/2011/03/dos-and-donts-of-google-summer-of-code.html) to make sure you really want to apply to GSoC.
 1. Watch [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE) for students.
 1. [Review the Talawa website](https://palisadoesfoundation.github.io/talawa.github.io/).
@@ -33,7 +34,6 @@ This section outlines all you need to know about getting involved with the Palis
 1. The `Ideas list` is manually updated, please contact our mentors if the page is not being updated.
 1. Mentors can be contacted on our slack channel or at:
        ![img](/img/email/mentors.png)
-1. Read more about the [changes in the eligibilty criteria for GSoC 2022](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html#:~:text=Expanding%20Google%20Summer%20of%20Code%20in%202022%20Wednesday%2C,source%20contributors%20into%20OSS%20communities%20big%20and%20small.).
 
 Good luck!
 
