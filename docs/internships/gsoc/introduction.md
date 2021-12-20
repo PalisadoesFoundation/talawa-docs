@@ -33,6 +33,7 @@ This section outlines all you need to know about getting involved with the Palis
 1. The `Ideas list` is manually updated, please contact our mentors if the page is not being updated.
 1. Mentors can be contacted on our slack channel or at:
        ![img](/img/email/mentors.png)
+1. Read more about the [changes in the eligibilty criteria for GSoC 2022](https://opensource.googleblog.com/2021/11/expanding-google-summer-of-code-in-2022.html#:~:text=Expanding%20Google%20Summer%20of%20Code%20in%202022%20Wednesday%2C,source%20contributors%20into%20OSS%20communities%20big%20and%20small.).
 
 Good luck!
 
