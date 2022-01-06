@@ -1,6 +1,6 @@
 ---
-id: talawa-introduction
-title: Talawa Unpaid Internship
+id: palisadoes-introduction
+title: Palisadoes Unpaid Internship
 ---
 
 ## Intern at The Palisadoes Foundation
