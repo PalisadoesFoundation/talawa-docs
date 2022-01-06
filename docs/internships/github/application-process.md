@@ -31,6 +31,14 @@ We may limit the number of issues assigned to you to allow others to participate
 
 We may give shortlisted candidates short code challenges to confirm our final decisions.
 
+## Your Proposal
+
+It is important to review the following online documents in this section when creating your proposal.
+
+1. Review the `Ideas List` we have for inspiration. If you have other ideas, let us know!
+1. Take a look at the `Selection Criteria` we use and ensure your proposal matches our needs.
+1. Take guidance on the format and content of your proposal from the `Application Template`.
+
 ### Feedback on Your Draft Proposal
 
 Get feedback on your draft application proposal at:

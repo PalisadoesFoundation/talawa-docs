@@ -1,5 +1,5 @@
 ---
-id: github-application-template
+id: internship-application-template
 title: Application Template
 ---
 
@@ -26,6 +26,15 @@ This is just a suggested template, feel free to add and remove sections as appro
 1. *Investigate REST client libraries*
 1. *Develop JavaScript functions for browsing files (optional)*
 1. *Integrate with Palisadoes Foo’s request system (essential)*
+
+*It is not sufficient to just provide a list of general tasks. Priority will be given to proposals that:*
+
+1. *Evaluate the pros and cons of alternative solutions*
+1. *Illustrate key concerns and concepts of the idea with pseudocode, diagrams or other means*
+1. *Consider the long term implications of the proposal such as:*
+   1. *The degree of disruption to be implemented*
+   1. *The hidden costs in terms of money, latency, complexity, intuitiveness, support, obsolescence mitigation and more*
+   1. *The maturity of suggested libraries to be used*
 
 ### Results for the Palisadoes Community
 

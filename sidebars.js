@@ -108,22 +108,21 @@ module.exports = {
             "branding/branding-typography"
     ],
     Internships:[{
-        Ideas: [
-            'internships/ideas'
-        ],
-        Talawa: [
-          'internships/talawa/talawa-introduction'
+        Overview: [
+            'internships/internship-ideas',
+            'internships/internship-application-template',
+            'internships/internship-selection-criteria',
         ],
         GitHub: [
             'internships/github/github-introduction',
             'internships/github/github-application-process',
-            'internships/github/github-application-template',
-            'internships/github/github-selection-criteria'],
-        GSoC: [
+        ],
+        GSoC: [ 
             'internships/gsoc/gsoc-introduction',
-            'internships/gsoc/gsoc-application-process',
-            'internships/gsoc/gsoc-application-template',
-            'internships/gsoc/gsoc-selection-criteria'],
+            'internships/gsoc/gsoc-application-process',],
+        Palisadoes: [
+          'internships/palisadoes/palisadoes-introduction'
+        ],
     }],
   },
 };

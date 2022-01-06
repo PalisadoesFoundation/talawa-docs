@@ -1,12 +1,12 @@
 ---
-id: github-selection-criteria
+id: internship-selection-criteria
 title: Selection Criteria
 ---
 
 
 #### Each applicant to The Palisadoes Foundation’s Talawa programs will be assessed using the following criteria
 
-- Previous Contributions to Talawa
+- Previous Contributions to the Talawa repositories
     - This includes contribution before the selection period officially starts
 - Communication Skills
 - Technical Knowledge & Skill
@@ -16,6 +16,7 @@ title: Selection Criteria
 - Previous Contributions to Talawa
     - Quality of Issues and Pull requests
     - Low quality Issues and PRs will be ignored when assessing students
+- The quality of any submitted proposal 
 - Communication Skills
     - Behaviour and Attitude toward mentors and other contributors
         - Were students respectful when interacting with others?
@@ -49,19 +50,23 @@ title: Selection Criteria
 
 #### Areas of focus for our application. Students must clearly outline which areas they are interested in under the following. Students will be assessed on multiple areas of focus
 
-- Talawa Backend
+- Talawa Front End
+    - UI/UX designs & reviews
+    - Development of UI
+    - Development of Features & Functions
+- Talawa API Backend
     - MongoDB Database
     - NodeJS
+    - GraphQL
+    - Security
+- Talawa Admin Web Portal
+    - TypeScript
     - GraphQL
     - Security
 - DevOps
     - Deployment of Front and Back End
     - CI/CD Pipeline for Front and Back end
     - QA
-- Talawa Front End
-    - UI/UX designs & reviews
-    - Development of UI
-    - Development of Features & Functions
 
 _NB: Students will have to work on multiple aspects of the application, but breaking it down will give everyone a more “clear cut” role when they’re deciding what to work on. (i.e. A student won’t be accepted if they're only willing to do UI/UX designs and reviews. If a student would like to work on all areas related to the front end, that would be fine.)_
 
