@@ -15,7 +15,7 @@ Please review the "Desired Features" section of this website for **even more ide
 
 The test percent code coverage requirement will incrementally rise with each pull request. In some cases you may have to write a few extra tests for code you may not have updated. We hope this will be rare.
 
-## Primary Areas
+## Primary Idea Areas
 
 Here are the features we'd like to implement in the coming months.
 
@@ -103,7 +103,7 @@ New organizations can only be created using the Talawa-Admin portal. We need to 
 
 GSoC Proposal Tags: multisite
 
-## Secondary Areas
+## Secondary Idea Areas
 
 We have other areas that need good ideas. This section highlights some primary areas of focus.
 
