@@ -9,6 +9,12 @@ In general we would like to reduce the learning curve for new sysadmins. Our API
 
 Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
+## Important Note on Testing
+
+**All code submitted must be tested.** We are working towards getting to 100% test code coverage on all Talawa repositories. This will mean that you will have to write tests for new code you write or modify.
+
+The test percent code coverage requirement will incrementally rise with each pull request. In some cases you may have to write a few extra tests for code you may not have updated. We hope this will be rare.
+
 ## Primary Areas
 
 Here are the features we'd like to implement in the coming months.
