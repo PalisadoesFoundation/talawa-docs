@@ -9,23 +9,33 @@ In general we would like to reduce the learning curve for new sysadmins. Our API
 
 Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
-## Primary Areas
+## Important Note on Testing
+
+**All code submitted must be tested.** We are working towards getting to 100% test code coverage on all Talawa repositories. This will mean that you will have to write tests for new code you write or modify.
+
+The test percent code coverage requirement will incrementally rise with each pull request. In some cases you may have to write a few extra tests for code you may not have updated. We hope this will be rare.
+
+## Primary Idea Areas
 
 Here are the features we'd like to implement in the coming months.
 
-### Portal Plugin Architecture
+### Cloud Service Capability
+
+Talawa needs to be cloud capable to be universally accepted. This means we'll need to add suitable features to meet this goal. This section outlines some important focus areas.
+
+#### Portal Plugin Architecture
 
 We need the ability to control the functionality of the API, and by extension the mobile app, via plugins. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action.
 
 The plugins would need to be:
 
 1. Easy to install and remove either online or the uploading of code
-1. Easy to configure in the Talawa-Admin portal
-1. Easy to be activated for all or some organizations served by the API
+1. Able to be installed, activated and configured at the global and/or per-organization level served by the API.
+1. Easy to configure in the Talawa-Admin portal.
 
 We need to create a working architecture to do this.
 
-#### Desired Plugins
+##### Desired Plugins
 
 We also need specific standard plugins to be created:
 
@@ -37,7 +47,7 @@ GSoC Proposal Tags: talawa-api, plugins
 
 We have many areas in which we need good ideas. This section highlights some primary areas of focus.
 
-### API Multi-tennancy
+#### API Multi-tennancy
 
 As the talawa app will be used by a number of different individuals, it is worth asking: how best can we separate different user instances to best optimise resources? This is at the heart of a concept called Multitenancy. There are in general two ways to go about doing this, namely, instance replication and data segregation. We want to focus on the data segregation method.
 
@@ -97,7 +107,7 @@ New organizations can only be created using the Talawa-Admin portal. We need to 
 
 GSoC Proposal Tags: multisite
 
-## Secondary Areas
+## Secondary Idea Areas
 
 We have other areas that need good ideas. This section highlights some primary areas of focus.
 
