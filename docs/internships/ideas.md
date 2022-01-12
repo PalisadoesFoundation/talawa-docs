@@ -37,6 +37,20 @@ GSoC Proposal Tags: talawa-api, plugins
 
 We have many areas in which we need good ideas. This section highlights some primary areas of focus.
 
+### API Dataloaders
+
+The Talawa API uses a GraphQL API to interact with a MongoDB database. GraphQL has a well-known issue with making repetitive database queries. This is known as `the N+1 problem`. A common solution is to use Dataloaders. These increase efficiency by batching queries and optionally caching the results.
+
+We need to find a way to adjust all our GraphQL resolvers to take advantage of this feature and cache the results where appropriate.
+
+Here are some good resources that provide more background.
+
+1. [GraphQL N+1 Problem](https://www.youtube.com/watch?v=uCbFMZYQbxE)
+1. [Using dataloaders](https://sayasuhendra.github.io/graphql-js/7-using-data-loaders/)
+1. [GraphQL DataLoader with Node.js](https://www.youtube.com/watch?v=2cSVIWDUSn4)
+1. [What is the N+1 Problem in GraphQL?](https://medium.com/the-marcy-lab-school/what-is-the-n-1-problem-in-graphql-dd4921cb3c1a)
+1. [How to use DataLoaders in GraphQL](https://medium.com/the-marcy-lab-school/how-to-use-dataloader-js-9727c527efd0)
+
 ### API Multi-tennancy
 
 As the talawa app will be used by a number of different individuals, it is worth asking: how best can we separate different user instances to best optimise resources? This is at the heart of a concept called Multitenancy. There are in general two ways to go about doing this, namely, instance replication and data segregation. We want to focus on the data segregation method.
