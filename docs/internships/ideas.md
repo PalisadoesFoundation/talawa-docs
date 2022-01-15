@@ -67,6 +67,15 @@ As the talawa app will be used by a number of different individuals, it is worth
 
 In the data segregation model, the application is shared between tenants but the data of each tenant is stored in separate data stores. Separate data stores could be separate databases or separate schema within the same database. How would you implement this?
 
+### Enhanced Chat Functionality
+
+We are working on a chat feature, but it has limited functionality. We need to improve it in these ways:
+
+1. Reply to a message
+1. Delete a message
+1. Sharing image, file and video objects with others in chat
+1. Any other ideas?
+
 ### Event Management
 
 Community organizations often have many events that need to be managed. Here are some small ideas of what could be done. Expand on these if you can.
