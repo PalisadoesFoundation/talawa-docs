@@ -3,17 +3,35 @@ id: internship-ideas
 title: Ideas List
 ---
 
-There are some well known areas of improvement that we have listed below. It is really important that we complete these over the summer and we would also welcome any other ideas that could use these as a foundation.
+## Introduction
 
-In general we would like to reduce the learning curve for new sysadmins. Our API documentation needs to be clearer, especially as we hope to launch an alpha version of the software this year. It is important that our online documentation is updated as any part of the project.
+Welcome to our ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
 
-Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
+### General Considerations
 
-## Important Note on Testing
+This is not an exhaustive list of ideas, but they are the ones we feel need the most attention over the next 12 months.
 
-**All code submitted must be tested.** We are working towards getting to 100% test code coverage on all Talawa repositories. This will mean that you will have to write tests for new code you write or modify.
+We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
+
+### Documentation
+
+We need to reduce the learning curve of contributors and sysadmins alike. Project work needs to be well documented in our code so that tools can eventually automatically add it to our documentation websites.
+
+### Testing
+
+All code submitted must be tested. We are working towards getting to 100% test code coverage on all Talawa repositories. This will mean that you will have to write tests for new code you write or modify.
 
 The test percent code coverage requirement will incrementally rise with each pull request. In some cases you may have to write a few extra tests for code you may not have updated. We hope this will be rare.
+
+### Repository Languages and Skills
+
+Here is a list of basic skills that will be required for each repository.
+
+1. **Talawa:** Flutter / Dart, GraphQL
+1. **Talawa-API:** Node.js, GraphQL, MongoDB
+1. **Talawa-Admin Portal:** TypeScript, Node.js
+
+There are others, but these are the primary ones that will guide your contributions.
 
 ## Primary Idea Areas
 
@@ -23,112 +41,170 @@ Here are the features we'd like to implement in the coming months.
 
 Talawa needs to be cloud capable to be universally accepted. This means we'll need to add suitable features to meet this goal. This section outlines some important focus areas.
 
-#### Portal Plugin Architecture
+### Admin Portal Plugin Architecture
 
-We need the ability to control the functionality of the API, and by extension the mobile app, via plugins. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action.
+1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities.
+1. **Expected Outcomes:**
+    1. Easy to install and remove either online or the uploading of code
+    1. Able to be installed, activated and configured at the global and/or per-organization level served by the API.
+    1. Easy to configure in the Talawa-Admin portal.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:** Hard
+1. **Definition:**
 
-The plugins would need to be:
+### Plugin - Newsfeed Advertising
 
-1. Easy to install and remove either online or the uploading of code
-1. Able to be installed, activated and configured at the global and/or per-organization level served by the API.
-1. Easy to configure in the Talawa-Admin portal.
+1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed.
+1. **Expected Outcomes:**
+    1. Organization admins must be able to install and enable the plugin.
+    1. The best types of content and ways to upload and display it must be considered.
+    1. The plugin must track the most important advertising campaign metrics and have various means of ending campaigns.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** Admin Portal Plugin Architecture
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-We need to create a working architecture to do this.
+### Plugin - Donations, Member Fees and Paid Events
 
-##### Desired Plugins
+1. **Description:** Community organizations often rely on donations and member fees to support local businesses.
+1. **Expected Outcomes:**
+    1. Organization admins must be able to install and enable the plugin.
+    1. Allow organizations to receive payments for different types of services and activities.
+    1. Consider ways to accept payments for organizations in any part of the world.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** Admin Portal Plugin Architecture
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-We also need specific standard plugins to be created:
+### API Multi-Tennancy
 
-1. A plugin to allow organization administrators to create advertising from local companies and add it to the mobile app news feed. This would require ways to launch and track simple campaigns for fixed periods of time for advertising customers.
-1. A plugin to accept donations or membership fees via the mobile app.
-1. If Talawa were to be launched as a cloud service, then the ability to install a plugin to define and enforce tiers of service with associated billing would be needed.
+1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
+1. **Expected Outcomes:**
+    1. Research and suggest a preferred way of implementing this strategy.
+    1. Implement the strategy so that it is transparent to the mobile app.
+    1. Code ways to configure this solution simply via the Admin portal.
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-GSoC Proposal Tags: talawa-api, plugins
+### Event and Venue Management
 
-We have many areas in which we need good ideas. This section highlights some primary areas of focus.
+1. **Description:** Community organizations host events and venues that must be managed. Talawa offers a way to help coordinate these services better.
+1. **Expected Outcomes:**
+    1. Create ways for volunteers and/or attendees have checked-in for events for better coordination.
+    1. Implement ways to limit the number of event attendees.
+    1. Allow venues to be reserved from being used for other events.
+    1. Create ways for attendees to register for events with or without an invitation.
+    1. Activate various combinations of ways to notify users of this feature.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-### API Dataloaders
+### Enhanced Chat
 
-The Talawa API uses a GraphQL API to interact with a MongoDB database. GraphQL has a well-known issue with making repetitive database queries. This is known as `the N+1 problem`. A common solution is to use Dataloaders. These increase efficiency by batching queries and optionally caching the results.
+1. **Description:** The encrypted chat feature being developed only allows persons to add their comments to the end of a thread. There are many ways in which this could be made more useful.
+1. **Expected Outcomes:**
+    1. Create ways for users to reply to any historical comment.
+    1. Implement ways for users to upload and share content in chats.
+    1. Allow administrators to respond in various ways to complaints about chats.
+    1. Activate various combinations of ways to notify users of this feature.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-We need to find a way to adjust all our GraphQL resolvers to take advantage of this feature and cache the results where appropriate.
+### New Member Management
 
-Here are some good resources that provide more background.
+1. **Description:** Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
+1. **Expected Outcomes:**
+    1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
+    1. The solution should ideally not require the use of third party services that require payment.
+    1. There must be a way to allow only certain organization members to approve new members.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-1. [GraphQL N+1 Problem](https://www.youtube.com/watch?v=uCbFMZYQbxE)
-1. [Using dataloaders](https://sayasuhendra.github.io/graphql-js/7-using-data-loaders/)
-1. [GraphQL DataLoader with Node.js](https://www.youtube.com/watch?v=2cSVIWDUSn4)
-1. [What is the N+1 Problem in GraphQL?](https://medium.com/the-marcy-lab-school/what-is-the-n-1-problem-in-graphql-dd4921cb3c1a)
-1. [How to use DataLoaders in GraphQL](https://medium.com/the-marcy-lab-school/how-to-use-dataloader-js-9727c527efd0)
+### Improved API Backend Performance
 
-### API Multi-tennancy
+1. **Description:** The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
+1. **Expected Outcomes:**
+    1. Research and implement ways to batch queries for optimization.
+    1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
+    1. Update the mobile app to take advantage of these new features.
+1. **Repos to update:** Talawa, Talawa-API
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-As the talawa app will be used by a number of different individuals, it is worth asking: how best can we separate different user instances to best optimise resources? This is at the heart of a concept called Multitenancy. There are in general two ways to go about doing this, namely, instance replication and data segregation. We want to focus on the data segregation method.
+### Multilingual Support for the Admin Portal
 
-In the data segregation model, the application is shared between tenants but the data of each tenant is stored in separate data stores. Separate data stores could be separate databases or separate schema within the same database. How would you implement this?
+1. **Description:** The Admin Portal only supports English. Other languages need to be included.
+1. **Expected Outcomes:**
+    1. Research and implement ways for users to select a preferred language.
+    1. The languages supported must match those of the mobile app.
+1. **Repos to update:** Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-### Enhanced Chat Functionality
+### Organization Wide Notifications
 
-We are working on a chat feature, but it has limited functionality. We need to improve it in these ways:
+1. **Description:** Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events.
+1. **Expected Outcomes:**
+    1. Implement a notification scheme that is suitable for major forseeable use cases.
+    1. Notifications for organization wide notifications should be done via the Admin portal
+1. **Repos to update:** Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
-1. Reply to a message
-1. Delete a message
-1. Sharing image, file and video objects with others in chat
-1. Any other ideas?
+### Enhanced API Security
 
-### Event Management
-
-Community organizations often have many events that need to be managed. Here are some small ideas of what could be done. Expand on these if you can.
-
-#### Volunteer and Attendee Checkins for Events
-
-An organization may rely on volunteers for manage events. It would be good to have a simple system for users to be able to let the event coordinators know that they are on site and available.
-
-The system could also be used to have attendees confirm that they are actually at the event. This would help with capacity planning.
-
-#### Event Registrations
-
-There could be a need to limit the number of persons attending an event by setting a maximum number for registrations when they are created. Event organizers would then know who to admit to the event if space were limited.
-
-#### Facilities Registrations
-
-Just like with event registrations, there may be a need to reserve a room, building, hall or field for an event. Reserving these areas would be an interesting feature to consider.
-
-### Membership Management
-
-There needs to be a way to add members to a group in a trusted way. Many persons in developing regions don't have access to email services, and the organizations may not have the funds to invest in a text based authentication scheme. Also, person may not be literate enough to read detailed instructions. There needs to be a way, that is universally available on all modern feature and smart phones, to allow persons to authenticate themselves when joining an organization. Some mobile apps use a QR code system for example, there could be other methods too.
-
-### Groups Management
-
-Groups won't be just for chats and communication. They may also arrange activities and events together. There should be a way to help them do this. For example, automatically inviting all members of a group to a group event. There are many other areas for improvement
-
-### Notifications and Reminders
-
-It would be good to be able to send notifications and reminders to selected groups of persons such as:
-
-1. All members of an organization
-1. All persons registered for an event
-1. All members of a group
-
-These could be sent directly and/or part of their news feed.
-
-### Talawa-Admin Multilingual Support
-
-We need to ensure that all the functionality in the admin portal have multilingual support. We will need ways for persons to easily switch between languages at installation, on login, on registration and at any time during the operation of the software. A thorough review of how this and more could be implemented will be required.
-
-A thorough review of the mobile app is needed to make sure that all screens have multilingual support.
-
-### Donation and Membership Fee Management
-
-Organizations may need simple ways to track donations and membership fees
-
-### Multisite Security
-
-New organizations can only be created using the Talawa-Admin portal. We need to think of ways that this:
-1. Can only be done by super-administrator users
-1. Can only be done using the Talawa-Admin portal
-
-GSoC Proposal Tags: multisite
+1. **Description:** The API allows anyone to do updates, the only security present is capabilities are not presented to the user. This allows for malicious actors to adversely affect organizations.
+1. **Expected Outcomes:**
+    1. Implement ways to encrypt all PII information exchanged with the API and stored on disk.
+    1. Ensure that Talawa-Admin functions in the API are only accessible and authorized by the Talawa-Admin web app, independent of the Talawa-Admin user who is logged in.
+1. **Repos to update:** Talawa-API
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
 
 ## Secondary Idea Areas
 
