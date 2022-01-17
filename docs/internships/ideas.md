@@ -37,10 +37,6 @@ There are others, but these are the primary ones that will guide your contributi
 
 Here are the features we'd like to implement in the coming months.
 
-### Cloud Service Capability
-
-Talawa needs to be cloud capable to be universally accepted. This means we'll need to add suitable features to meet this goal. This section outlines some important focus areas.
-
 ### Admin Portal Plugin Architecture
 
 1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities.
@@ -199,6 +195,20 @@ Talawa needs to be cloud capable to be universally accepted. This means we'll ne
     1. Implement ways to encrypt all PII information exchanged with the API and stored on disk.
     1. Ensure that Talawa-Admin functions in the API are only accessible and authorized by the Talawa-Admin web app, independent of the Talawa-Admin user who is logged in.
 1. **Repos to update:** Talawa-API
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:**
+1. **Rating:**
+1. **Definition:**
+
+### Automated Documentation
+
+1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
+1. **Expected Outcomes:**
+    1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
+    1. Find and implement a way to automatically create user and engineer documentation from our code files.
+1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
