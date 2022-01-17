@@ -9,7 +9,7 @@ Welcome to our ideas page! Get familiar with our general philosophy by reading t
 
 ### General Considerations
 
-This is not an exhaustive list of ideas, but they are the ones we feel need the most attention over the next 12 months. 
+This is not an exhaustive list of ideas, but they are the ones we feel need the most attention over the next 12 months.
 
 We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
@@ -58,10 +58,10 @@ Talawa needs to be cloud capable to be universally accepted. This means we'll ne
 
 ### Plugin - Newsfeed Advertising
 
-1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed. 
+1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed.
 1. **Expected Outcomes:**
-    1. Organization admins must be able to install and enable the plugin. 
-    1. The best types of content and ways to upload and display it must be considered. 
+    1. Organization admins must be able to install and enable the plugin.
+    1. The best types of content and ways to upload and display it must be considered.
     1. The plugin must track the most important advertising campaign metrics and have various means of ending campaigns.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
@@ -73,9 +73,9 @@ Talawa needs to be cloud capable to be universally accepted. This means we'll ne
 
 ### Plugin - Donations, Member Fees and Paid Events
 
-1. **Description:** Community organizations often rely on donations and member fees to support local businesses. 
+1. **Description:** Community organizations often rely on donations and member fees to support local businesses.
 1. **Expected Outcomes:**
-    1. Organization admins must be able to install and enable the plugin. 
+    1. Organization admins must be able to install and enable the plugin.
     1. Allow organizations to receive payments for different types of services and activities.
     1. Consider ways to accept payments for organizations in any part of the world.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
