@@ -8,6 +8,7 @@ This is just a suggested template, feel free to add and remove sections as appro
 ### About me
 
 *What relevant experience have you got, including university, work and hobby activities?*
+- *Include a copy of your GitHub profile avatar icon to help us identify you easier. No more than 48px by 48px, the same size as seen in issue and pull request comments.*
 
 ### Background
 

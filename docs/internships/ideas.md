@@ -33,6 +33,16 @@ Here is a list of basic skills that will be required for each repository.
 
 There are others, but these are the primary ones that will guide your contributions.
 
+### Impact Definition
+
+We have categorized the various ideas according to the degree of impact they will have to the project. Use these definitions to understand how each idea will affect our overall project goals.
+
+1. **Low-hanging fruit:** These projects require minimal familiarity with the codebase and basic technical knowledge. They are relatively short, with clear goals.
+1. **Risky/Exploratory:** These projects push the scope boundaries of our development efforts. They might require expertise in an area not covered by our current development team. They might take advantage of a new technology. There is a reasonable chance that the project might be less successful, but the potential rewards make it worth the attempt.
+1. **Fun/Peripheral:** These projects might not be related to the current core development focus, but create new innovations and new perspective for our project.
+1. **Core development:** These projects derive from the ongoing work from the core of our development team. The list of features and bugs is never-ending, and help is always welcome.
+1. **Infrastructure/Automation:** These projects are the code that our organization uses to get our development work done; for example, projects that improve the automation of releases, regression tests and automated builds. This is a category in which a contributor can be really helpful, doing work that the development team has been putting off while they focus on core development.
+
 ## Primary Idea Areas
 
 Here are the features we'd like to implement in the coming months.
@@ -48,9 +58,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:** Hard
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Plugin - Newsfeed Advertising
 
@@ -63,9 +73,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** Admin Portal Plugin Architecture
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development
 
 ### Plugin - Donations, Member Fees and Paid Events
 
@@ -78,9 +88,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** Admin Portal Plugin Architecture
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development
 
 ### API Multi-Tennancy
 
@@ -93,9 +103,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Event and Venue Management
 
@@ -110,25 +120,25 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development, Low-hanging fruit
 
 ### Enhanced Chat
 
 1. **Description:** The encrypted chat feature being developed only allows persons to add their comments to the end of a thread. There are many ways in which this could be made more useful.
 1. **Expected Outcomes:**
     1. Create ways for users to reply to any historical comment.
-    1. Implement ways for users to upload and share content in chats.
+    1. Implement ways for users to manage content in chats.
     1. Allow administrators to respond in various ways to complaints about chats.
     1. Activate various combinations of ways to notify users of this feature.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development
 
 ### New Member Management
 
@@ -141,9 +151,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Risky/Exploratory
 
 ### Improved API Backend Performance
 
@@ -156,9 +166,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Multilingual Support for the Admin Portal
 
@@ -170,9 +180,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development, Low-hanging fruit
 
 ### Organization Wide Notifications
 
@@ -184,9 +194,9 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development
 
 ### Enhanced API Security
 
@@ -198,23 +208,24 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Core development
 
 ### Automated Documentation
 
 1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
 1. **Expected Outcomes:**
     1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
-    1. Find and implement a way to automatically create user and engineer documentation from our code files.
+    1. Find and implement a way to automatically create user and engineer documentation from our code files in all repos.
+    1. Document what developers must do to generate as much of our documentation directly from the code base as possible
 1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:**
-1. **Rating:**
-1. **Definition:**
+1. **Possible Mentors:** TBD
+1. **Difficulty:**
+1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
 ## Secondary Idea Areas
 
