@@ -57,7 +57,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
@@ -72,7 +72,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** Admin Portal Plugin Architecture
-1. **Project Size:** 350 hours
+1. **Project Size:** 88 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development
@@ -84,10 +84,11 @@ Here are the features we'd like to implement in the coming months.
     1. Organization admins must be able to install and enable the plugin.
     1. Allow organizations to receive payments for different types of services and activities.
     1. Consider ways to accept payments for organizations in any part of the world.
+    1. One or more plugins may need to be created to accommodate different payment gateways available in various countries.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** Admin Portal Plugin Architecture
-1. **Project Size:** 350 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development
@@ -119,7 +120,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development, Low-hanging fruit
@@ -135,7 +136,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development
@@ -150,7 +151,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 88 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Risky/Exploratory
@@ -165,7 +166,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa, Talawa-API
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development, Risky/Exploratory
@@ -179,7 +180,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 88 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development, Low-hanging fruit
@@ -193,7 +194,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 88 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development
@@ -207,7 +208,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa-API
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development
@@ -222,7 +223,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 88 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
