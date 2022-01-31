@@ -43,54 +43,57 @@ We have categorized the various ideas according to the degree of impact they wil
 1. **Core development:** These projects derive from the ongoing work from the core of our development team. The list of features and bugs is never-ending, and help is always welcome.
 1. **Infrastructure/Automation:** These projects are the code that our organization uses to get our development work done; for example, projects that improve the automation of releases, regression tests and automated builds. This is a category in which a contributor can be really helpful, doing work that the development team has been putting off while they focus on core development.
 
+### Difficulty
+
+Most of our project ideas require knowledge of two or more programming languages. Meaningful PRs that prove your understanding of the repos will always be beneficial. We have created testing issues specifically for this purpose.
+
+1. **Hard:** Requires dominion of the language used by the repo most affected by the project. A good working knowledge of the languages used by other affected repositories will be needed.
+1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed. 
+1. **Easy:** A beginner's level knowledge of the languages is sufficient.
+
 ## Primary Idea Areas
 
 Here are the features we'd like to implement in the coming months.
 
 ### Admin Portal Plugin Architecture
 
-1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities.
+1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities. This project has two parts: 
+    1. The design and development of the plugin architecture
+    1. The creation of a donations plugin to prove the concept
 1. **Expected Outcomes:**
-    1. Easy to install and remove either online or the uploading of code
-    1. Able to be installed, activated and configured at the global and/or per-organization level served by the API.
-    1. Easy to configure in the Talawa-Admin portal.
+    1. _Architectural Design_
+        1. Easy to install, enable and remove either online or by the uploading of code
+        1. Able to be installed, activated and configured at the global and/or per-organization level served by the API.
+        1. Easy to configure in the Talawa-Admin portal.
+    1. _Plugin - Donations, Member Fees and Paid Events_
+        1. Organization admins must be able to install and enable the plugin.
+        1. Allow organizations to receive payments for different types of customizable services and activities, both one time or recurring.
+        1. Consider ways to accept payments for organizations in any part of the world using multiple payment gateways.
+        1. Mobile app users must be able to select their preferred payment method in an easy intuitive way.
+        1. The mobile app must be plugin aware
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
+1. **Project Size:** 350 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Plugin - Newsfeed Advertising
 
-1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed.
+1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed. The plugin must consider both unsophisticated advertisers who will only provide an image or video, and those who are experienced users of online platforms.
 1. **Expected Outcomes:**
     1. Organization admins must be able to install and enable the plugin.
-    1. The best types of content and ways to upload and display it must be considered.
-    1. The plugin must track the most important advertising campaign metrics and have various means of ending campaigns.
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** Admin Portal Plugin Architecture
-1. **Project Size:** 88 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:**
-1. **Impact Definition:** Core development
-
-### Plugin - Donations, Member Fees and Paid Events
-
-1. **Description:** Community organizations often rely on donations and member fees to support local businesses.
-1. **Expected Outcomes:**
-    1. Organization admins must be able to install and enable the plugin.
-    1. Allow organizations to receive payments for different types of services and activities.
-    1. Consider ways to accept payments for organizations in any part of the world.
-    1. One or more plugins may need to be created to accommodate different payment gateways available in various countries.
+    1. The best types of content and ways to upload and display it (placement) must be considered.
+    1. The plugin must provide a comprehensive set of advertising campaign features.
+    1. The mobile app must be plugin aware.
+    1. Integration with well known mobile advertising platforms should be considered.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** Admin Portal Plugin Architecture
 1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
-1. **Difficulty:**
+1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
 ### API Multi-Tennancy
@@ -105,7 +108,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** TBD
-1. **Difficulty:**
+1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Event and Venue Management
@@ -141,91 +144,88 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:**
 1. **Impact Definition:** Core development
 
-### New Member Management
+### Improved Member Management
 
-1. **Description:** Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
+1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example: 
+    1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
+    1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events.
 1. **Expected Outcomes:**
-    1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
-    1. The solution should ideally not require the use of third party services that require payment.
-    1. There must be a way to allow only certain organization members to approve new members.
+    1. _New Members_
+        1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
+        1. The solution should ideally not require the use of third party services that require payment.
+        1. There must be a way to allow only certain organization members to approve new members.
+        1. This feature needs to be managed via the Talawa-Admin portal
+    1. _Notifications_
+        1. Implement a notification scheme that is suitable for major forseeable use cases.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 88 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
-1. **Difficulty:**
+1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Improved API Backend Performance
+### Improved API Backend Performance and Security
 
-1. **Description:** The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
+1. **Description:** The backend has some known deficiencies that need to be addressed.
+    1. The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
+    1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
+    1. Data is insufficiently encrypted 
+    1. There needs to be a way for Talawa mobile apps to have interoperability with older versions of the API. It is very possible that users will download the latest version of Talawa to work with a much older version of the API. The opposite could also be true after an upgrade of the API, with older versions of the mobile apps needing to communicate with a newer version of the API.
 1. **Expected Outcomes:**
-    1. Research and implement ways to batch queries for optimization.
-    1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
-    1. Update the mobile app to take advantage of these new features.
-1. **Repos to update:** Talawa, Talawa-API
+    1. _GraphQL_
+        1. Research and implement ways to batch queries for optimization.
+        1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
+        1. Update the mobile app to take advantage of these new features.
+    1. _Access Security_
+        1. Implement roles tied to access and refresh token keys
+    1. _Encryption_
+        1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal. 
+        1. Implement ways to encrypt PII data stored on disk.
+    1. _Versioning_
+        1. An API upgrade must not affect users of the Talawa mobile app which may be older.
+        1. Differing ways of achieving this must be considered and evaluated for practicality.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
-1. **Difficulty:**
+1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Multilingual Support for the Admin Portal
+### Admin Portal New Features Support
 
-1. **Description:** The Admin Portal only supports English. Other languages need to be included.
+1. **Description:** The Admin portal needs to be redesigned to intuitively accommodate the many new features needed by the other projects. Work on this project will be continuous as new features are required from other project ideas.
+    1. The Admin Portal only supports English. Other languages need to be included.
 1. **Expected Outcomes:**
-    1. Research and implement ways for users to select a preferred language.
-    1. The languages supported must match those of the mobile app.
+    1. _Redesign_
+        1. Create a new modern, reactive, intuitive design following our "clean look" design standards that can be found on this site.
+        1. New screens need to be created to support the new features of other projects
+    1. _Multilingual_
+        1. Research and implement ways for users to select a preferred language.
+        1. The languages supported must match those of the mobile app.
 1. **Repos to update:** Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 88 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:**
-1. **Impact Definition:** Core development, Low-hanging fruit
-
-### Organization Wide Notifications
-
-1. **Description:** Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events.
-1. **Expected Outcomes:**
-    1. Implement a notification scheme that is suitable for major forseeable use cases.
-    1. Notifications for organization wide notifications should be done via the Admin portal
-1. **Repos to update:** Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 88 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:**
-1. **Impact Definition:** Core development
-
-### Enhanced API Security
-
-1. **Description:** The API allows anyone to do updates, the only security present is capabilities are not presented to the user. This allows for malicious actors to adversely affect organizations.
-1. **Expected Outcomes:**
-    1. Implement ways to encrypt all PII information exchanged with the API and stored on disk.
-    1. Ensure that Talawa-Admin functions in the API are only accessible and authorized by the Talawa-Admin web app, independent of the Talawa-Admin user who is logged in.
-1. **Repos to update:** Talawa-API
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
-1. **Difficulty:**
-1. **Impact Definition:** Core development
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Low-hanging fruit
 
-### Automated Documentation
+### Automated Documentation (Google Season of Docs only)
 
 1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
 1. **Expected Outcomes:**
     1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
     1. Find and implement a way to automatically create user and engineer documentation from our code files in all repos.
     1. Document what developers must do to generate as much of our documentation directly from the code base as possible
+    1. Complete in-code documentation for all Talawa repositories. This may require interaction with Google Summer of Code participants.
 1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 88 hours
+1. **Project Size:** 175 hours
 1. **Possible Mentors:** TBD
-1. **Difficulty:**
+1. **Difficulty:** Medium
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
 ## Secondary Idea Areas

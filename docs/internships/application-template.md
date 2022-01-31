@@ -38,11 +38,11 @@ This is just a suggested template, feel free to add and remove sections as appro
    1. *The maturity of suggested libraries to be used*
 1. *When in doubt, make sure your design answers these basic questions for all the stakeholders and technical solutions:*
     1. *Who?*
-    1. *What?*
     1. *When?*
     1. *Where?*
     1. *Why?*
-    1. *How?*
+    1. *What? - Very important*
+    1. *How? - Very, very important*
 
 ### Results for the Palisadoes Community
 
