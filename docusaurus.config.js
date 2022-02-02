@@ -10,7 +10,7 @@ module.exports = {
   organizationName: "PalisadoesFoundation", // Usually your GitHub org/user name.
   projectName: "talawa-docs", // Usually your repo name.
   onBrokenLinks: "ignore",
-  themeConfig: {     
+  themeConfig: {
     logo: {
       alt: "Palisadoes Logo",
       src: "img/logo-main.png",
@@ -28,7 +28,6 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: "https://github.com/PalisadoesFoundation",
           label: "GitHub",
@@ -72,10 +71,10 @@ module.exports = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/palisadoesfoundation",
@@ -99,11 +98,11 @@ module.exports = {
           editUrl:
             "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/website/",
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/website/blog/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/website/blog/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
