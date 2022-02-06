@@ -96,6 +96,56 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
+### API Content Uploads Support
+
+1. **Description:** The API does not have any media management controls that would be useful for the mobile app or Talawa admin portal. This functionality is sorely needed. 
+1. **Expected Outcomes:**
+    1. Must support events, posts, ads, and chats.
+    1. Unnecessary duplication of objects must be avoided in all cases. Examples include:
+        1. Uploads of identical filenames and / or files
+        1. Message forwards or replies
+    1. If necessary the solution must support multiple cloud providers. 
+        1. There must be an option for limited local storage for those who cannot use the cloud. (eg. some talawa developers and organizations who cannot use the cloud for various reasons)
+        1. At this time support for only one methodology at a time is required. 
+    1. Content must only be deleted from storage when no one else needs it.
+    1. Must have a unique identifier system independent of the backend storage methododology used.
+        1. It must support a future where multiple backends could be used. 
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+### Improved API Backend Performance and Security
+
+1. **Description:** The backend has some known deficiencies that need to be addressed.
+    1. The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
+    1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
+    1. Data is insufficiently encrypted 
+    1. There needs to be a way for Talawa mobile apps to have interoperability with older versions of the API. It is very possible that users will download the latest version of Talawa to work with a much older version of the API. The opposite could also be true after an upgrade of the API, with older versions of the mobile apps needing to communicate with a newer version of the API.
+1. **Expected Outcomes:**
+    1. _GraphQL_
+        1. Research and implement ways to batch queries for optimization.
+        1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
+        1. Update the mobile app to take advantage of these new features.
+    1. _Access Security_
+        1. Implement roles tied to access and refresh token keys
+    1. _Encryption_
+        1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal. 
+        1. Implement ways to encrypt PII data stored on disk.
+    1. _Versioning_
+        1. An API upgrade must not affect users of the Talawa mobile app which may be older.
+        1. Differing ways of achieving this must be considered and evaluated for practicality.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Risky/Exploratory
+
 ### API Multi-Tennancy
 
 1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
@@ -164,34 +214,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
-
-### Improved API Backend Performance and Security
-
-1. **Description:** The backend has some known deficiencies that need to be addressed.
-    1. The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
-    1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
-    1. Data is insufficiently encrypted 
-    1. There needs to be a way for Talawa mobile apps to have interoperability with older versions of the API. It is very possible that users will download the latest version of Talawa to work with a much older version of the API. The opposite could also be true after an upgrade of the API, with older versions of the mobile apps needing to communicate with a newer version of the API.
-1. **Expected Outcomes:**
-    1. _GraphQL_
-        1. Research and implement ways to batch queries for optimization.
-        1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
-        1. Update the mobile app to take advantage of these new features.
-    1. _Access Security_
-        1. Implement roles tied to access and refresh token keys
-    1. _Encryption_
-        1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal. 
-        1. Implement ways to encrypt PII data stored on disk.
-    1. _Versioning_
-        1. An API upgrade must not affect users of the Talawa mobile app which may be older.
-        1. Differing ways of achieving this must be considered and evaluated for practicality.
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Admin Portal New Features Support
 
