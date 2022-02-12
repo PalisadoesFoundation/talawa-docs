@@ -13,6 +13,16 @@ This is not an exhaustive list of ideas, but they are the ones we feel need the 
 
 We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
+### Internship Participants
+
+Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship).
+
+1. Make sure to read the relevant `Introduction` and `Applying` pages first.
+1. Review the [Acceptance Criteria](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-application-template) to ensure you meet all the requirements for a good proposal.
+1. Use the [Application Template](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-selection-criteria) as a guide to formatting your application. The tips on this page are very important.
+
+Good luck!
+
 ### Documentation
 
 We need to reduce the learning curve of contributors and sysadmins alike. Project work needs to be well documented in our code so that tools can eventually automatically add it to our documentation websites.
