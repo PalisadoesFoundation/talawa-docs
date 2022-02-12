@@ -13,6 +13,16 @@ This is not an exhaustive list of ideas, but they are the ones we feel need the 
 
 We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
+### Internship Participants
+
+Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship).
+
+1. Make sure to read the relevant `Introduction` and `Applying` pages first.
+1. Review the [Acceptance Criteria](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-application-template) to ensure you meet all the requirements for a good proposal.
+1. Use the [Application Template](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-selection-criteria) as a guide to formatting your application. The tips on this page are very important.
+
+Good luck!
+
 ### Documentation
 
 We need to reduce the learning curve of contributors and sysadmins alike. Project work needs to be well documented in our code so that tools can eventually automatically add it to our documentation websites.
@@ -48,7 +58,7 @@ We have categorized the various ideas according to the degree of impact they wil
 Most of our project ideas require knowledge of two or more programming languages. Meaningful PRs that prove your understanding of the repos will always be beneficial. We have created testing issues specifically for this purpose.
 
 1. **Hard:** Requires dominion of the language used by the repo most affected by the project. A good working knowledge of the languages used by other affected repositories will be needed.
-1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed. 
+1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed.
 1. **Easy:** A beginner's level knowledge of the languages is sufficient.
 
 ## Primary Idea Areas
@@ -57,7 +67,7 @@ Here are the features we'd like to implement in the coming months.
 
 ### Admin Portal Plugin Architecture
 
-1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities. This project has two parts: 
+1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities. This project has two parts:
     1. The design and development of the plugin architecture
     1. The creation of a donations plugin to prove the concept
 1. **Expected Outcomes:**
@@ -98,18 +108,18 @@ Here are the features we'd like to implement in the coming months.
 
 ### API Content Uploads Support
 
-1. **Description:** The API does not have any media management controls that would be useful for the mobile app or Talawa admin portal. This functionality is sorely needed. 
+1. **Description:** The API does not have any media management controls that would be useful for the mobile app or Talawa admin portal. This functionality is sorely needed.
 1. **Expected Outcomes:**
     1. Must support events, posts, ads, and chats.
     1. Unnecessary duplication of objects must be avoided in all cases. Examples include:
         1. Uploads of identical filenames and / or files
         1. Message forwards or replies
-    1. If necessary the solution must support multiple cloud providers. 
+    1. If necessary the solution must support multiple cloud providers.
         1. There must be an option for limited local storage for those who cannot use the cloud. (eg. some talawa developers and organizations who cannot use the cloud for various reasons)
-        1. At this time support for only one methodology at a time is required. 
+        1. At this time support for only one methodology at a time is required.
     1. Content must only be deleted from storage when no one else needs it.
     1. Must have a unique identifier system independent of the backend storage methododology used.
-        1. It must support a future where multiple backends could be used. 
+        1. It must support a future where multiple backends could be used.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -123,7 +133,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Description:** The backend has some known deficiencies that need to be addressed.
     1. The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
     1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
-    1. Data is insufficiently encrypted 
+    1. Data is insufficiently encrypted
     1. There needs to be a way for Talawa mobile apps to have interoperability with older versions of the API. It is very possible that users will download the latest version of Talawa to work with a much older version of the API. The opposite could also be true after an upgrade of the API, with older versions of the mobile apps needing to communicate with a newer version of the API.
 1. **Expected Outcomes:**
     1. _GraphQL_
@@ -133,7 +143,7 @@ Here are the features we'd like to implement in the coming months.
     1. _Access Security_
         1. Implement roles tied to access and refresh token keys
     1. _Encryption_
-        1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal. 
+        1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal.
         1. Implement ways to encrypt PII data stored on disk.
     1. _Versioning_
         1. An API upgrade must not affect users of the Talawa mobile app which may be older.
@@ -196,7 +206,7 @@ Here are the features we'd like to implement in the coming months.
 
 ### Improved Member Management
 
-1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example: 
+1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
     1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
     1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events.
 1. **Expected Outcomes:**
@@ -223,6 +233,9 @@ Here are the features we'd like to implement in the coming months.
     1. _Redesign_
         1. Create a new modern, reactive, intuitive design following our "clean look" design standards that can be found on this site.
         1. New screens need to be created to support the new features of other projects
+        1. As with our other repositories:
+            1. Consolidate test, image and CSS files in separate dedicated directory trees outside of the code tree.
+            1. Create a standardized file and directory naming convention in keeping with that of our other repositories.
     1. _Multilingual_
         1. Research and implement ways for users to select a preferred language.
         1. The languages supported must match those of the mobile app.
