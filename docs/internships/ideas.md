@@ -65,7 +65,7 @@ Most of our project ideas require knowledge of two or more programming languages
 
 Here are the features we'd like to implement in the coming months.
 
-### Admin Portal Plugin Architecture
+### Admin Web Portal: Plugin Architecture
 
 1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities. This project has two parts:
     1. The design and development of the plugin architecture
@@ -89,7 +89,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Plugin - Newsfeed Advertising
+### Admin Web Portal: Plugin - Newsfeed Advertising
 
 1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed. The plugin must consider both unsophisticated advertisers who will only provide an image or video, and those who are experienced users of online platforms.
 1. **Expected Outcomes:**
@@ -106,7 +106,29 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
-### API Content Uploads Support
+### Admin Web Portal: New Features Support
+
+1. **Description:** The Admin portal needs to be redesigned to intuitively accommodate the many new features needed by the other projects. Work on this project will be continuous as new features are required from other project ideas.
+    1. The Admin Portal only supports English. Other languages need to be included.
+1. **Expected Outcomes:**
+    1. _Redesign_
+        1. Create a new modern, reactive, intuitive design following our "clean look" design standards that can be found on this site.
+        1. New screens need to be created to support the new features of other projects
+        1. As with our other repositories:
+            1. Consolidate test, image and CSS files in separate dedicated directory trees outside of the code tree.
+            1. Create a standardized file and directory naming convention in keeping with that of our other repositories.
+    1. _Multilingual_
+        1. Research and implement ways for users to select a preferred language.
+        1. The languages supported must match those of the mobile app.
+1. **Repos to update:** Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Low-hanging fruit
+
+### API: Content Uploads Support
 
 1. **Description:** The API does not have any media management controls that would be useful for the mobile app or Talawa admin portal. This functionality is sorely needed.
 1. **Expected Outcomes:**
@@ -128,7 +150,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Improved API Backend Performance and Security
+### API: Improved Backend Performance and Security
 
 1. **Description:** The backend has some known deficiencies that need to be addressed.
     1. The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
@@ -156,7 +178,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### API Multi-Tennancy
+### API: Multi-Tennancy
 
 1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
 1. **Expected Outcomes:**
@@ -171,7 +193,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Event and Venue Management
+### Mobile App: Event and Venue Management
 
 1. **Description:** Community organizations host events and venues that must be managed. Talawa offers a way to help coordinate these services better.
 1. **Expected Outcomes:**
@@ -188,7 +210,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:**
 1. **Impact Definition:** Core development, Low-hanging fruit
 
-### Enhanced Chat
+### Mobile App: Enhanced Chat
 
 1. **Description:** The encrypted chat feature being developed only allows persons to add their comments to the end of a thread. There are many ways in which this could be made more useful.
 1. **Expected Outcomes:**
@@ -204,7 +226,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:**
 1. **Impact Definition:** Core development
 
-### Improved Member Management
+### Mobile App: Improved Member Management
 
 1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
     1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
@@ -224,28 +246,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
-
-### Admin Portal New Features Support
-
-1. **Description:** The Admin portal needs to be redesigned to intuitively accommodate the many new features needed by the other projects. Work on this project will be continuous as new features are required from other project ideas.
-    1. The Admin Portal only supports English. Other languages need to be included.
-1. **Expected Outcomes:**
-    1. _Redesign_
-        1. Create a new modern, reactive, intuitive design following our "clean look" design standards that can be found on this site.
-        1. New screens need to be created to support the new features of other projects
-        1. As with our other repositories:
-            1. Consolidate test, image and CSS files in separate dedicated directory trees outside of the code tree.
-            1. Create a standardized file and directory naming convention in keeping with that of our other repositories.
-    1. _Multilingual_
-        1. Research and implement ways for users to select a preferred language.
-        1. The languages supported must match those of the mobile app.
-1. **Repos to update:** Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Low-hanging fruit
 
 ### Automated Documentation (Google Season of Docs only)
 
