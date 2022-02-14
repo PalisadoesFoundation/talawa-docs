@@ -18,7 +18,11 @@ This section outlines all you need to know about getting involved with the progr
 1. [Review the Talawa website](https://palisadoesfoundation.github.io/talawa-docs/docs/).
 1. [Read our 2021 Talawa internship presentation](http://www.palisadoes.org/wp-content/uploads/2021/05/github-externship-2021-talawa-1.pdf)
 1. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=jo7RwU4GEkE&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6&index=2).
-1. Examine the list of available [Palisadoes Foundation GitHub Externship ideas](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-ideas/).
+1. Get familiar with important GitHub Externship documentation on this site:
+    1. Examine the list of available [Palisadoes Foundation ideas](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-ideas/).
+    1. [Read our Externship application guide](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/github/github-application-process).
+    1. [Get familiar with our selection criteria](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-selection-criteria).
+    1. [Consider using our application template for your submission](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-application-template).
 1. Research the GitHub issue trackers for the projects at:
     1. Talawa: [https://github.com/PalisadoesFoundation/talawa/issues](https://github.com/PalisadoesFoundation/talawa/issues)
     1. Talawa-API: [https://github.com/PalisadoesFoundation/talawa-api/issues](https://github.com/PalisadoesFoundation/talawa-api/issues)
