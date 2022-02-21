@@ -19,7 +19,7 @@ This section outlines all you need to know about getting involved with the Palis
 1. Review the [Advice for Students](https://opensource.googleblog.com/2011/03/dos-and-donts-of-google-summer-of-code.html) to make sure you really want to apply to GSoC.
 1. Watch the [GSoC video presentation](https://www.youtube.com/watch?v=S6IP_6HG2QE).
 1. [Review the Talawa website](https://palisadoesfoundation.github.io/talawa-docs/docs/).
-1. [Read our presentation for GSoC students](http://www.palisadoes.org/wp-content/uploads/2021/03/gsoc-2021-talawa.pdf)
+1. [Read our presentation for GSoC students](http://www.palisadoes.org/wp-content/uploads/2022/02/GSoC-2022-Talawa.pdf)
 1. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=hKLeU3MlGwY&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6).
 1. Get familiar with important GSoC documentation on this site:
     1. **Examine the list of available [Palisadoes Foundation GSoC ideas](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-ideas/).**
