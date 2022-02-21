@@ -147,7 +147,9 @@ Here are the features we'd like to implement in the coming months.
         1. At this time support for only one methodology at a time is required.
     1. Content must only be deleted from storage when no one else needs it.
     1. Must have a unique identifier system independent of the backend storage methododology used.
-        1. It must support a future where multiple backends could be used.
+        1. It must support a future where multiple backends could be used. Simple data migration between backends would be a plus.
+    1. Cost Considerations
+        1. The cost of using third party services must be borne by the end user organization, not The Palisadoes Foundation
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -220,14 +222,21 @@ Here are the features we'd like to implement in the coming months.
 
 1. **Description:** The encrypted chat feature being developed only allows persons to add their comments to the end of a thread. There are many ways in which this could be made more useful.
 1. **Expected Outcomes:**
-    1. Create ways for users to reply to any historical comment.
-    1. Implement ways for users to manage content in chats.
-    1. Allow administrators to respond in various ways to complaints about chats.
-    1. Activate various combinations of ways to notify users of this feature.
+    1. _User Features_
+        1. Create ways for users to reply to any historical comment.
+        1. Implement ways for users to manage content in chats.
+        1. Allow administrators to respond in various ways to complaints about chats.
+        1. Activate various combinations of ways to notify chat users.
+        1. Implement encrypted group chat.
+    1. _Scalability features_
+        1. The Talawa mobile app currently uses graphql subscription for its chat feature. We need a highly scalable solution.
+        1. Data migration between multiple backend data storage systems must be easy.
+    1. _Cost Considerations_
+        1. The cost of using third party services must be borne by the end user organization, not The Palisadoes Foundation
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
+1. **Depends on Project:** `API: Content Uploads Support`
+1. **Project Size:** 350 hours
 1. **Possible Mentors:** TBD
 1. **Difficulty:**
 1. **Impact Definition:** Core development
