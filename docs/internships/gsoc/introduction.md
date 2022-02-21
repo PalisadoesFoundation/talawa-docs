@@ -22,7 +22,7 @@ This section outlines all you need to know about getting involved with the Palis
 1. [Read our presentation for GSoC students](http://www.palisadoes.org/wp-content/uploads/2022/02/GSoC-2022-Talawa.pdf)
 1. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=hKLeU3MlGwY&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6).
 1. Get familiar with important GSoC documentation on this site:
-    1. **Examine the list of available [Palisadoes Foundation GSoC ideas](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-ideas/).**
+    1. **Review our Ideas List: [The Palisadoes Foundation's GSoC Ideas List](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-ideas/).**
     1. [Read our GSoC application guide](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/gsoc/gsoc-application-process).
     1. [Get familiar with our selection criteria](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-selection-criteria).
     1. [Consider using our application template for your submission](https://palisadoesfoundation.github.io/talawa-docs/docs/internships/internship-application-template).
