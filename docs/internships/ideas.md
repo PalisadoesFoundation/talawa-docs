@@ -91,7 +91,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -108,7 +108,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** Admin Portal Plugin Architecture
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
@@ -130,7 +130,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Low-hanging fruit
 
@@ -154,7 +154,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -182,7 +182,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -197,7 +197,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -214,8 +214,8 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:**
+1. **Possible Mentors:** Brandon Chung, Delton Phillips, Sagar Utekar, Troy Anderson
+1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Low-hanging fruit
 
 ### Mobile App: Enhanced Chat
@@ -237,7 +237,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `API: Content Uploads Support`
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Brandon Chung, Delton Phillips, Sagar Utekar, Troy Anderson
 1. **Difficulty:**
 1. **Impact Definition:** Core development
 
@@ -258,7 +258,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Brandon Chung, Delton Phillips, Sagar Utekar, Troy Anderson
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
@@ -274,7 +274,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Shannika Jackson
 1. **Difficulty:** Medium
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
