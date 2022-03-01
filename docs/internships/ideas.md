@@ -186,6 +186,24 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
+### API: Simplify the Codebase
+
+1. **Description:** Our backend code needs better structure. The approach has introduced these challenges:
+    1. Code complexity creates instability. It also makes trouble shooting, testing and scalability difficult.
+    1. The exclusive use of functions means the code is reused inefficiently.
+1. **Expected Outcomes:**
+    1. Research and suggest a preferred way of fixing these challenges.
+    1. The solution must:
+        1. Make it easier for people to contribute to more than one of our repos.
+        1. Implement a strategy that is transparent to the Talawa mobile app and Talawa-Admin.
+1. **Repos to update:** Talawa-API
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
+
 ### API: Multi-Tennancy
 
 1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
