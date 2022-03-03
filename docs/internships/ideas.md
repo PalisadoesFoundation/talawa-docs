@@ -192,7 +192,7 @@ Here are the features we'd like to implement in the coming months.
     1. Code complexity creates instability. It also makes trouble shooting, testing and scalability difficult.
     1. The exclusive use of functions means the code is reused inefficiently.
 1. **Expected Outcomes:**
-    1. Research and suggest a preferred way of fixing these challenges.
+    1. Research and suggest a preferred way of fixing these challenges. Suggesting paradigms to restructure the code under.This should be discussed with a mentor first to create a code style consistent with our standards.
     1. The solution must:
         1. Make it easier for people to contribute to more than one of our repos.
         1. Implement a strategy that is transparent to the Talawa mobile app and Talawa-Admin.
