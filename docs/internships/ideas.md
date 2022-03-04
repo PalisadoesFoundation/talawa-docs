@@ -196,10 +196,11 @@ Here are the features we'd like to implement in the coming months.
     1. The solution must:
         1. Make it easier for people to contribute to more than one of our repos.
         1. Implement a strategy that is transparent to the Talawa mobile app and Talawa-Admin.
+        1. Achieve full test code coverage for maximum reliability
 1. **Repos to update:** Talawa-API
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
+1. **Project Size:** 350 hours
 1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
