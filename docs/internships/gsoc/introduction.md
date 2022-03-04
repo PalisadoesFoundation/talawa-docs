@@ -9,7 +9,7 @@ Google is sponsoring the [Google Summer of Code](https://summerofcode.withgoogle
 
 The Palisadoes Foundation has been sponsoring work on this open-source project for a number of years. We hope to launch it in alpha at the end of the summer. Talawa is a modular open source project to help community-based organizations such as clubs, neighborhood groups, volunteer associations, non-profits and small religious institutions manage their daily activities. Most user interaction is via a mobile app.
 
-### Participants Read This (Ideas and More)
+### Project Ideas and More
 
 This section outlines all you need to know about getting involved with the Palisadoes Foundation's GSoC program:
 
