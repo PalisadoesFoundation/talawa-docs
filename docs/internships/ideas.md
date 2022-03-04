@@ -194,8 +194,8 @@ Here are the features we'd like to implement in the coming months.
 1. **Expected Outcomes:**
     1. Research and suggest a preferred way of fixing these challenges. Suggesting paradigms to restructure the code under.This should be discussed with a mentor first to create a code style consistent with our standards.
     1. The solution must:
-        1. Make it easier for people to contribute to more than one of our repos.
-        1. Implement a strategy that is transparent to the Talawa mobile app and Talawa-Admin.
+        1. Limit the need for contributors to learn new technologies. In other words it must be easy to contribute to more than one of our repos based on existing knowledge.
+        1. Implement a strategy that requires no changes to the Talawa mobile app and Talawa-Admin.
         1. Achieve full test code coverage for maximum reliability
 1. **Repos to update:** Talawa-API
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
