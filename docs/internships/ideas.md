@@ -134,6 +134,23 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Low-hanging fruit
 
+### Admin Web Portal: Spam Mitigation
+
+1. **Description:** Detect whether a a user is spamming organization chat and news feed messages.
+1. **Expected Outcomes:**
+    1. A reliable method to intercept new messages
+    1. An accurate subsystem to evaluate the `spaminess` of messages using both implied and explicit triggers.
+    1. Notification of the Talawa-Admin users of potential spam
+    1. Creation of ways to ban both infringing and related users.
+    1. This should ideally be a plugin so that administrators can eventually select the anti-SPAM engine of their choice.
+1. **Repos to update:** Talawa-Admin, Talawa-API
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** `Admin Web Portal: Plugin Architecture`
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Low-hanging fruit
+
 ### API: Content Uploads Support
 
 1. **Description:** The API does not have any media management controls that would be useful for the mobile app or Talawa admin portal. This functionality is sorely needed.
