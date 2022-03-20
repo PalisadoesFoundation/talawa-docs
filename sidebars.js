@@ -117,9 +117,13 @@ module.exports = {
             'internships/github/github-introduction',
             'internships/github/github-application-process',
         ],
-        GSoC: [ 
+        GSoC: [
             'internships/gsoc/gsoc-introduction',
-            'internships/gsoc/gsoc-application-process',],
+            'internships/gsoc/gsoc-application-process',
+        ],
+        GSoD: [
+            'internships/gsod/gsod-ideas',
+        ],
         Palisadoes: [
           'internships/palisadoes/palisadoes-introduction'
         ],
