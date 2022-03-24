@@ -25,40 +25,54 @@ Here is a list of basic skills that will useful for documenting each repository.
 
 There are others, but these are the primary ones that will guide your contributions.
 
-### Impact Definition
-
-We have categorized the various ideas according to the degree of impact they will have to the project. Use these definitions to understand how each idea will affect our overall project goals.
-
-1. **Low-hanging fruit:** These projects require minimal familiarity with the codebase and basic technical knowledge. They are relatively short, with clear goals.
-1. **Risky/Exploratory:** These projects push the scope boundaries of our development efforts. They might require expertise in an area not covered by our current development team. They might take advantage of a new technology. There is a reasonable chance that the project might be less successful, but the potential rewards make it worth the attempt.
-1. **Fun/Peripheral:** These projects might not be related to the current core development focus, but create new innovations and new perspective for our project.
-1. **Core development:** These projects derive from the ongoing work from the core of our development team. The list of features and bugs is never-ending, and help is always welcome.
-1. **Infrastructure/Automation:** These projects are the code that our organization uses to get our development work done; for example, projects that improve the automation of releases, regression tests and automated builds. This is a category in which a contributor can be really helpful, doing work that the development team has been putting off while they focus on core development.
-
-### Difficulty
-
-Most of our project ideas require knowledge of two or more programming languages. Meaningful PRs that prove your understanding of the repos will always be beneficial. We have created testing issues specifically for this purpose.
-
-1. **Hard:** Requires dominion of the language used by the repo most affected by the project. A good working knowledge of the languages used by other affected repositories will be needed.
-1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed.
-1. **Easy:** A beginner's level knowledge of the languages is sufficient.
-
 ## Ideas List
 
 Here are the features we'd like to implement in the coming months.
 
-### Automated Documentation
+### Add Base Documentation for each Repository (Talawa, Talawa-API and Talawa-Admin)
 
-1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
-1. **Expected Outcomes:**
-    1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
-    1. Find and implement a way to automatically create user and engineer documentation from our code files in all repos.
-    1. Document what developers must do to generate as much of our documentation directly from the code base as possible
-    1. Complete in-code documentation for all Talawa repositories. This may require interaction with Google Summer of Code participants.
-1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Shannika Jackson
-1. **Difficulty:** Medium
-1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
+Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows:
+
+1. Whenever a pull request is made, a GitHub Action checks whether the Javascript/Dart files being pushed have comments of a specified form.
+1. If a pull request is successful, another GitHub Action runs a command such as jsdoc or dartdoc to generate a static HTML file that contains the documentation from the comments and then sent to the `Talawa-Docs` repo.
+1. Finally, a GitHub Action collates and organises the HTML files within a prespecificed template containing the documentation.
+
+[![alt text](/img/gsod-2022.jpg)](http://wordpress.com/ 'GSoD 2022 Workflow')
+
+The issue is that since this pipeline has been put in place there has not been much activity on the bulk of the older files, leaving most of the three codebases lacking in documentation. The goal of this task is to add comments on all of the methods, events and namespaces of all the classes within the Talawa and Talawa API.
+
+* **Repos to update:** Talawa-API, Talawa, Talawa-Admin
+* **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
+
+### Create How-To Guides and Tutorials for getting started with Talawa, Talawa API and Talawa-Admin
+
+Currently, there exists no truly detailed guide on how to get setup and become productive within the basic ecosystems of Talawa, Talawa-API and Talawa-Admin. There are a number of resources available, such as videos demonstrating features from merged pull requests in the respective repositories as well as notes that need to be structured and organised in a meaningful way for a prospective user to be productive with the codebase.
+
+Ideally, we aim to have the following accomplished (though this list is not exhaustive):
+
+1. Improve documentation readability by ensuring the language is accessible by individuals regardless of their language background. This can consist of separating it into two distinct levels, namely: beginners and advanced.
+1. Construct a guide and style format for new technical writers/contributors, to keep the documentation up to date and adhering to the standards.
+1. Teaching beginners how to document code optimally and effectively with best practices. In addition to this, include detailed videos and tutorials on using the application, connecting to the API etc.
+
+Additional information follows:
+
+* **Repos to update:** Talawa-API, Talawa, Talawa-Admin
+* **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
+
+### Create visualisations for various GraphQL Schema and Queries
+
+The Talawa API has a number of GraphQL queries which are undocumented and have become  increasingly complex and interlinked. We need a way to package these details in a more fitting manner for anyone interested in working on this. We require creating written documentation punctuated with code snippets to give a top level overview of the use and functionality of these schema and queries and then using graphical software such as [GraphViz](https://graphviz.org/) to highlight the relationships between these various queries and schema.   
+
+* **Repos to update:** Talawa-API
+* **Skills Required:** The ideal candidate should be familiar with Node.js; GraphQL is not a strict requirement, but they must be willing to learn. Additionally, they need to be comfortable with using Git/Github. Experience in Illustration or graphic design is a plus
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
+
+### Revamp and Restructure the Current Documentation Page
+
+The website that currently hosts the documentation is rather simplistic and has not evolved from when the Talawa application was more refined than it is now. It no longer takes into consideration the needs of contributing to a complex, multi-layered application, and as such it needs to be remodelled and redesigned to account for a number of changes that have and are currently taking place. Remodelling involves re-writing much of the documentation already in place on the site, as well as, working with a candidate that may be adding to the documentation and ensuring that templates are in place such that the look and feel of the site is cogent and consistent. Note: it is possible to work on this task in conjunction with another one of the aforementioned tasks here..
+
+* **Repos to update:** Talawa-API
+* **Skills Required:** HTML, Javascript, CSS. Any design skills would be a plus. Must also be comfortable using Github to submit changes.
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
