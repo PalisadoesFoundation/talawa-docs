@@ -314,6 +314,22 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
+### Automated Documentation
+
+1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
+1. **Expected Outcomes:**
+    1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
+    1. Find and implement a way to automatically create user and engineer documentation from our code files in all repos.
+    1. Document what developers must do to generate as much of our documentation directly from the code base as possible
+    1. Complete in-code documentation for all Talawa repositories. This may require interaction with Google Summer of Code participants.
+1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
+1. **Difficulty:** Medium
+1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
+
 ## Secondary Idea Areas
 
 We have other areas that need good ideas. This section highlights some primary areas of focus.
