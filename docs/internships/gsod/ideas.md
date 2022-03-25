@@ -36,6 +36,12 @@ The Talawa project aims to:
 
 * Assess where within the documentation would benefit from the addition of a diagram or illustration of complex relationships such as GraphQL schema and queries. 
 
+* Maintaining a public log of all progress/hundles made/encountered and writing up a summary of any disparity between the expect and actual project outcome
+
+* Coordinating with others on partially automated conversion from HTML to pdf and Markdown, and vice-versa, using pandoc
+
+* Coordinating with others on any feedback and issues identified
+
 
 ### Measuring the project's success
 
@@ -53,12 +59,12 @@ After the new documentation has been published we will consider the project a su
 
 The project itself will take around six months to complete. Once the tech writer(s) are hired, we'll spend a month getting them up to speed on the state of the documentation, the workflows we use for creating documentation and then move onto the audit and friction log with the possible mentors, and spend the remaining months focusing on creating the documentation.
 
-| Dates            | Action items                                                                                                         |
-|------------------|----------------------------------------------------------------------------------------------------------------------|
-| May              | Orientation                                                                                                          |
-| June-July        | Audit current documentation; note the pain points with mentor input; highlight were would benefit from illustrations |
-| August - October | Begin working on documenting Talawa                                                                                  |
-| November         | Project completion and final report due                                                                                                                 
+| Dates            | Action items                                                                                                                                         |
+|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| May              | Orientation                                                                                                                                          |
+| June-July        | Audit current documentation; note the pain points with mentor input; highlight where in the existing infrastructure would benefit from illustrations |
+| August - October | Begin working on documenting Talawa                                                                                                                  |
+| November         | Project completion and final report due                                                                                                             |                                                        
 
 ### Budget
 
