@@ -3,6 +3,8 @@ id: gsod-ideas
 title: GSoD Project Proposal and Ideas Page
 ---
 
+### Revamping and restructuring the Talawa Docs 
+
 ## Introduction
 
 Welcome to our project proposal and ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
