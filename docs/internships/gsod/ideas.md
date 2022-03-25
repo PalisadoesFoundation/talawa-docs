@@ -107,8 +107,6 @@ Here are the features we'd like to implement in the coming months.
 
 ### Add Base Documentation for each Repository (Talawa, Talawa-API and Talawa-Admin)
 
-Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows:
-
 Since the introduction of the CI/CD pipeline for automating documentation, there has not been much activity on the bulk of the older files, leaving most of the three codebases lacking in documentation. The goal of this task is to add comments on all of the existing methods, events and namespaces of all the classes within the Talawa, Talawa-Admin and Talawa API.
 
 * **Repos to update:** Talawa-API, Talawa, Talawa-Admin
