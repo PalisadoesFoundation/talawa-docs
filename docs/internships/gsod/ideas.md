@@ -12,7 +12,7 @@ Welcome to our project proposal and ideas page! Get familiar with our general ph
 We need to reduce the learning curve of contributors and sysadmins alike. Our documentation projects make our main repositories easier to use and therefore help us meet this goal.
 
 ### Our Project's Problem
-Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows, which is illustrated by the proceeding figure:
+Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows, and is illustrated by the proceeding figure:
 
 
 1. Whenever a pull request is made, a GitHub Action checks whether Javascript/Dart files being pushed have comments of a specified form.
