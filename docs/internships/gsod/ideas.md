@@ -11,19 +11,21 @@ We need to reduce the learning curve of contributors and sysadmins alike. Our do
 
 ### General Considerations
 
-This is not an exhaustive list of ideas, but they are the ones we feel need the most attention over the next 12 months.
+This is not an exhaustive list of ideas, but they are the ones we currently feel need the most attention.
 
 We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
 ### Repository Languages and Skills
 
-Here is a list of basic skills that will useful for documenting each repository.
+We are looking for motivated candidates with a history of strong, demonstratable technical writing skills that can provide structure and organization to our codebases. It is not necessary to be well-versed in the tech slack being used for a given repository though some familiarity would be seen as a positive. Our mentors will provide ample support in a 'learn as you go' fashion.
+
+The following lists the primary tech stack being used for each respective repository which is helpful for the purpose of documenting each repository:
 
 1. **Talawa:** Flutter / Dart, GraphQL
 1. **Talawa-API:** Node.js, GraphQL, MongoDB
 1. **Talawa-Admin Portal:** TypeScript, Node.js
 
-There are others, but these are the primary ones that will guide your contributions.
+There are others, but these are the main ones that will guide your contributions.
 
 ## Ideas List
 
@@ -52,8 +54,8 @@ Currently, there exists no truly detailed guide on how to get setup and become p
 Ideally, we aim to have the following accomplished (though this list is not exhaustive):
 
 1. Improve documentation readability by ensuring the language is accessible by individuals regardless of their language background. This can consist of separating it into two distinct levels, namely: beginners and advanced.
-1. Construct a guide and style format for new technical writers/contributors, to keep the documentation up to date and adhering to the standards.
-1. Teaching beginners how to document code optimally and effectively with best practices. In addition to this, include detailed videos and tutorials on using the application, connecting to the API etc.
+1. Construct a guide and style format for new technical writers/contributors, to keep the documentation organic with the codebase, up to date and adhering to our standards.
+1. Teaching beginners how to document code optimally and effectively with best practices. In addition to this, include detailed videos and tutorials on using the application, connecting to the API, etc.
 
 Additional information follows:
 
