@@ -115,7 +115,7 @@ Since the introduction of the CI/CD pipeline for automating documentation, there
 * **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
 * **How we measure sucess:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used. 
 * **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
-* **Contact details:** Send your CV along with at least two technical writing samples to peter@palisadoes.com
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create How-To Guides and Tutorials for getting started with Talawa, Talawa API and Talawa-Admin
 
@@ -133,7 +133,7 @@ Additional information follows:
 * **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
 * **How we measure sucess:** The creation of tutorials and hot-to guides in different forms (static HTML pages, pdfs, etc). 
 * **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
-* **Contact details:** Send your CV along with at least two technical writing samples to peter@palisadoes.com
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create visualisations for various GraphQL Schema and Queries
 
@@ -143,7 +143,7 @@ The Talawa API has a number of GraphQL queries which are undocumented and have b
 * **Skills Required:** The ideal candidate should be familiar with Node.js; GraphQL is not a strict requirement, but they must be willing to learn. Additionally, they need to be comfortable with using Git/Github. Experience in Illustration or graphic design is a plus.
 * **How we measure sucess:** Visualisations present through the base documentation and any new documentation generated from this program.
 * **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
-* **Contact details:** Send your CV along with at least two technical writing samples to peter@palisadoes.com
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Revamp and Restructure the Current Documentation Page
 
@@ -153,4 +153,4 @@ The website that currently hosts the documentation is rather simplistic and has 
 * **Skills Required:** HTML, Javascript, CSS. Any design skills would be a plus. Must also be comfortable using Github to submit changes.
 * **How we measure sucess:** A website structured in a completely different manner, which is more efficient and effective in providing the information for a user wishing contribute to Talawa. This can be measured by the increase in new contributors via pull requests.
 * **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
-* **Contact details:** Send your CV along with at least two technical writing samples to peter@palisadoes.com
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
