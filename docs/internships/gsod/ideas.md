@@ -36,11 +36,11 @@ The Talawa project aims to:
 
 * Assess where within the documentation would benefit from the addition of a diagram or illustration of complex relationships such as GraphQL schema and queries. 
 
-* Maintaining a public log of all progress/hundles made/encountered and writing up a summary of any disparity between the expect and actual project outcome
+* Maintaining a public log of all progress/hurdles made/encountered and write up a summary of any disparity between the expected and actual project outcomes.
 
-* Coordinating with others on partially automated conversion from HTML to pdf and Markdown, and vice-versa, using pandoc
+* Coordinating with others on partially automated conversion from HTML to pdf and Markdown, and vice-versa, using pandoc.
 
-* Coordinating with others on any feedback and issues identified
+* Coordinating with others on any feedback and issues identified.
 
 
 ### Measuring the project's success
@@ -66,6 +66,8 @@ The project itself will take around six months to complete. Once the tech writer
 | August - October | Begin working on documenting Talawa                                                                                                                  |
 | November         | Project completion and final report due                                                                                                             |                                                        
 
+This timeline, especially within the May-July period, is not strict and has some room for unforeseen circumstances that may arise. However, it is expected that you'll complete all the requiste tasks within the intervals posted and have everything completed by the November deadline.
+
 ### Budget
 
 | Item                                                                           | Amount | Running total | Notes                             |
@@ -79,7 +81,7 @@ The project itself will take around six months to complete. Once the tech writer
 
 Additional information
 
-* The Palisadoes Foundation was selected for Google Summer of Code (GSo) 2022, and was previously selected for GSoC in 2021. We were able to make a number of leaps and bounds during the 2021 editions which resulted in a large codebase that is severely undocumented. During this time, The Palisadoes Foundation was also selected for the Github externship on three separate occasions.
+* The Palisadoes Foundation was selected for Google Summer of Code (GSoC) 2022, and was previously selected for GSoC in 2021. We were able to make a number of leaps and bounds during the 2021 editions which resulted in a massive codebase that is severely undocumented. During this time, the Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions.
 
 
 ### General Considerations
