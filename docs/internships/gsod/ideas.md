@@ -10,7 +10,7 @@ Welcome to our project proposal and ideas page! Get familiar with our general ph
 We need to reduce the learning curve of contributors and sysadmins alike. Our documentation projects make our main repositories easier to use and therefore help us meet this goal.
 
 ### Our Project's Problem
-Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows, which is iluustrated by the proceeding figure:
+Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows, which is illustrated by the proceeding figure:
 
 
 1. Whenever a pull request is made, a GitHub Action checks whether Javascript/Dart files being pushed have comments of a specified form.
@@ -43,9 +43,9 @@ After the new documentation has been published we will consider the project a su
 
 1. The number of pull requests on any and/or all of three repos increases by 30% more than it is currently from dedicated users.
 
-1. If we see a significant uptick on the number of new users contributing to the repositories, around 30-40%.
+1.  We see a significant uptick on the number of new users contributing to the repositories, around 30-40%.
 
-1. If the number of documentation related pull requests increase by ~20%.
+1. The number of documentation related pull requests increase by ~20%.
 
 ### Timeline
 
@@ -56,7 +56,23 @@ The project itself will take around six months to complete. Once the tech writer
 | May              | Orientation                                                                                                          |
 | June-July        | Audit current documentation; note the pain points with mentor input; highlight were would benefit from illustrations |
 | August - October | Begin working on documenting Talawa                                                                                  |
-| November         | Project completion and final report due                                                                                                                  |   
+| November         | Project completion and final report due                                                                                                                 
+
+### Budget
+
+| Item                                                                           | Amount | Running total | Notes                             |
+|--------------------------------------------------------------------------------|--------|---------------|-----------------------------------|
+| Technical Writers (x2)                                                         | 10000  | 10000         |                                   |
+| Volunteer Stipends                                                             | 2000   | 12000         | 4 volunteer stipends at $500 each |
+| Graphic design - architecture diagrams, and visuals to accompany documentation | 1000   | 13000         |                                   |
+| Printed Palisadoes Foundation T-shirts (10 T-shirts)                           | 120    | 13120         |                                   |
+| Sundry expenses                                                                | 394    | 13514         | 3% payment processing  fees       |
+
+
+Additional information
+
+* The Palisadoes Foundation was selected for Google Summer of Code (GSo) 2022, and was previously selected for GSoC in 2021. We were able to make a number of leaps and bounds during the 2021 editions which resulted in a large codebase that is severely undocumented. During this time, The Palisadoes Foundation was also selected for the Github externship on three separate occasions.
+
 
 ### General Considerations
 
@@ -66,7 +82,7 @@ We also welcome any other ideas that we could use. Please review the "Desired Fe
 
 ### Repository Languages and Skills
 
-We are looking for motivated candidates with a history of strong, demonstratable technical writing skills that can provide structure and organization to our codebases. It is not necessary to be well-versed in the tech slack being used for a given repository though some familiarity would be seen as a positive. Our mentors will provide ample support in a 'learn as you go' fashion.
+We are looking for motivated candidates with a history of strong, demonstratable technical writing skills that can provide structure and organization to our codebases. It is not necessary to be well-versed in the tech stack being used for a given repository though some familiarity would be seen as a positive. Our mentors will provide ample support in a 'learn as you go' fashion.
 
 The following lists the primary tech stack being used for each respective repository which is helpful for the purpose of documenting each repository (but you are not required to know them):
 
@@ -84,12 +100,7 @@ Here are the features we'd like to implement in the coming months.
 
 Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows:
 
-1. Whenever a pull request is made, a GitHub Action checks whether the Javascript/Dart files being pushed have comments of a specified form.
-1. If a pull request is successful, another GitHub Action runs a command such as jsdoc or dartdoc to generate a static HTML file that contains the documentation from the comments and then sent to the `Talawa-Docs` repo.
-1. Finally, a GitHub Action collates and organises the HTML files within a prespecificed template containing the documentation.
-
-
-The issue is that since this pipeline has been put in place there has not been much activity on the bulk of the older files, leaving most of the three codebases lacking in documentation. The goal of this task is to add comments on all of the methods, events and namespaces of all the classes within the Talawa and Talawa API.
+Since the introduction of the CI/CD pipeline for automating documentation, there has not been much activity on the bulk of the older files, leaving most of the three codebases lacking in documentation. The goal of this task is to add comments on all of the existing methods, events and namespaces of all the classes within the Talawa, Talawa-Admin and Talawa API.
 
 * **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 * **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
