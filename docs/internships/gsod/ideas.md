@@ -45,8 +45,7 @@ The Talawa project aims to:
 
 ### Measuring the project's success
 
-Ideally, if the majority of our files containing code have adequate documentation in the form of comments which can be parsed by the documentation generating libraries we use (jsdoc, dartdoc, etc) then this would give us a rough estimate of the total coverage we have for documentation for a given repository. We have scripts in place to measure how much of the code is documented in the form that we desire. Additionally, as these are able to update the documentation on the fly from 
-
+Ideally, if the majority of our files containing code have adequate documentation in the form of comments which can be parsed by the documentation generating libraries we use (jsdoc, dartdoc, etc) then this would give us a rough estimate of the total coverage we have for documentation for a given repository. We have scripts in place to measure how much of the code is documented in the form that we desire.
 After the new documentation has been published we will consider the project a success if :
 
 1. The number of pull requests on any and/or all of three repos increases by 30% more than it is currently from dedicated users.
