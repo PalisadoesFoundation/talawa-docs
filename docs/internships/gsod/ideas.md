@@ -42,6 +42,8 @@ The Talawa project aims to:
 
 * Coordinating with others on any feedback and issues identified.
 
+Outside of this project's scope is modifying the existing automation architecture and/or any form of testing and verification.
+
 
 ### Measuring the project's success
 
