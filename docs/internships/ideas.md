@@ -326,7 +326,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
+1. **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue, Tasneem Koushar 
 1. **Difficulty:** Medium
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
