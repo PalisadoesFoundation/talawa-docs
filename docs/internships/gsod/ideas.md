@@ -131,7 +131,7 @@ Additional information follows:
 
 * **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 * **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
-* **How we measure sucess:** The creation of tutorials and hot-to guides in different forms (static HTML pages, pdfs, etc). 
+* **How we measure sucess:** The creation of tutorials and how-to guides in different forms (static HTML pages, pdfs, etc). 
 * **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue
 * **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
