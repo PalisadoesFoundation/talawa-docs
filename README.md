@@ -54,7 +54,11 @@ $ yarn add docusaurus
 
 ## Using NPM
 
-Insert documentation here.
+```console
+$ git clone https://github.com/PalisadoesFoundation/talawa-docs
+$ cd talawa-docs
+$ npm add docusaurus
+```
 
 # Running the Development Server
 
@@ -80,7 +84,12 @@ This command starts a local development server and open up a browser window. Mos
 
 ## Using NPM
 
-Insert documentation here.
+```console
+$ sudo apt-get -y install npm
+$ cd talawa-docs
+$ npm add docusaurus
+$ npm start
+```
 
 # Building Static HTML Pages
 
