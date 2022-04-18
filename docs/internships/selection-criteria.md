@@ -16,7 +16,8 @@ title: Selection Criteria
 - Previous Contributions to Talawa
     - Quality of Issues and Pull requests
     - Low quality Issues and PRs will be ignored when assessing students
-- The quality of any submitted proposal 
+    - We prioritize merged PRs in our evaluations
+- The quality of any submitted proposal
 - Communication Skills
     - Behaviour and Attitude toward mentors and other contributors
         - Were students respectful when interacting with others?
