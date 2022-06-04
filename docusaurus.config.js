@@ -11,7 +11,6 @@ module.exports = {
   projectName: "talawa-docs", // Usually your repo name.
   onBrokenLinks: "ignore",
   themeConfig: {
-    hideableSidebar: true,
     logo: {
       alt: "Palisadoes Logo",
       src: "img/logo-main.png",
