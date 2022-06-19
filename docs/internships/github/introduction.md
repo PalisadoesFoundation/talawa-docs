@@ -31,10 +31,10 @@ This section outlines all you need to know about getting involved with the progr
 1. If you do not see any interesting projects from the proposed ideas or issues, we encourage you to contact the Palisadoes Foundation’s mailing list and propose a new idea. The Palisadoes Foundation does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Palisadoes projects.
     1. You can subscribe to our list at [https://www.freelists.org/list/palisadoes](https://www.freelists.org/list/palisadoes).  
     1. You can send queries to:
-           ![img](/img/email/freelists.png)
+           ```palisadoes@freelists.org```
 1. The `Ideas list` is manually updated, please contact our mentors if the page is not being updated.
 1. Mentors can be contacted on our slack channel or at:
-       ![img](/img/email/mentors.png)
+       ```mentors@palisadoes.org```
 1. Add an avatar to your GitHub profile. It will make it easier to associate your proposal to your work.
 
 Good luck!
