@@ -29,6 +29,12 @@ module.exports = {
           position: "left",
         },
         {
+          to: "talawa/index.html",
+          target:"_blank",
+          label: "Talawa",
+          position: "left",
+        },
+        {
           href: "https://github.com/PalisadoesFoundation",
           label: "GitHub",
           position: "right",
