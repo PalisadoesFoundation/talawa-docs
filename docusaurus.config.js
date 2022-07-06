@@ -92,7 +92,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/website/",
+            "https://github.com/PalisadoesFoundation/talawa-docs/edit/master/",
         },
         // blog: {
         //   showReadingTime: true,
