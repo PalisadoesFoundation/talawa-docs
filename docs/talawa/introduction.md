@@ -1,6 +1,6 @@
 ---
 id: talawa-introduction
-title: Introduction
+title: Talawa
 ---
 
 <center>
