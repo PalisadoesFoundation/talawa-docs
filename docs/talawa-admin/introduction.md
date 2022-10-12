@@ -1,8 +1,8 @@
 ---
 id: talawa-admin-introduction
-title: Talawa Admin
+title: Overview
 ---
-
+### Talawa Admin
 #### Talawa is a modular open source project to manage group activities of both non-profit organizations and businesses. `Talawa Admin` part of Talwa Application Suite. It works as an admin dashboard for for `Talawa` .
 
 ### Core features:
