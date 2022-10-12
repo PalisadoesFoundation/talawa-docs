@@ -2,7 +2,9 @@
 id: talawa-admin-introduction
 title: Overview
 ---
+
 ### Talawa Admin
+
 #### Talawa is a modular open source project to manage group activities of both non-profit organizations and businesses. `Talawa Admin` part of Talwa Application Suite. It works as an admin dashboard for for `Talawa` .
 
 ### Core features:
@@ -47,3 +49,7 @@ title: Overview
 - The `talawa-admin` documentation can be found [here](https://palisadoesfoundation.github.io/talawa-docs/talawa-admin).
 - Want to contribute? Look at [Contributing Guide](https://github.com/PalisadoesFoundation/talawa-admin/blob/develop/CONTRIBUTING.md) to get started.
 - Visit the [Talawa-Docs GitHub](https://github.com/PalisadoesFoundation/talawa-docs) to see the code.
+
+## Community
+
+[💬 Join the community on Slack](https://join.slack.com/t/thepalisadoes-dyb6419/shared_invite/zt-1gkkn2kpt-zHhYXpS8cYHNdS~v4o2jWQ)
