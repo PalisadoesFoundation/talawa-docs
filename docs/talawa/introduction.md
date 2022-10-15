@@ -1,7 +1,8 @@
 ---
 id: talawa-introduction
-title: Introduction
+title: Overview
 ---
+### Talawa
 
 <center>
 
@@ -9,7 +10,7 @@ title: Introduction
 
 </center>
 
-Talawa is a modular open source project to manage group activities of both non-profit organizations and businesses.
+#### Talawa is a modular open source project to manage group activities of both non-profit organizations and businesses.
 
 ## Core features include:
 
