@@ -70,6 +70,12 @@ const config = {
             position: "left",
           },
           {
+            href : "http://localhost:3000/talawa-docs/talawa-api/schema/index.html",
+            target : "_self",
+            label: "Talawa Api",
+            position: "left",
+          },
+          {
             href : "http://localhost:3000/talawa-docs/talawa/index.html",
             target : "_self",
             label: "Talawa",
