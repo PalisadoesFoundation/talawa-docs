@@ -1,0 +1,287 @@
+{
+	"create_time": "2020-10-08T18:35:58.000Z",
+	"display_name": "PayString Tracking Plan",
+	"name": "workspaces/ripplex/tracking-plans/rs_1ibhNXCFfrXSwj4y7YNiWCRf27l",
+	"rules": {
+		"events": [
+			{
+				"name": "Account Registered",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"labels": {
+					},
+					"properties": {
+						"context": {
+						},
+						"properties": {
+							"properties": {
+								"github_id": {
+									"description": "",
+									"type": "string"
+								},
+								"type": {
+									"description": "",
+									"type": "string"
+								}
+							},
+							"required": [
+								"type",
+								"github_id"
+							],
+							"type": "object"
+						},
+						"traits": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": 1
+			},
+			{
+				"name": "Documentation Viewed",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"labels": {
+					},
+					"properties": {
+						"context": {
+						},
+						"properties": {
+							"properties": {
+								"category": {
+									"description": "",
+									"type": "string"
+								},
+								"title": {
+									"description": "",
+									"type": "string"
+								}
+							},
+							"required": [
+								"title"
+							],
+							"type": "object"
+						},
+						"traits": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": 1
+			},
+			{
+				"name": "Form Submitted",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"labels": {
+					},
+					"properties": {
+						"context": {
+						},
+						"properties": {
+							"properties": {
+								"company": {
+									"description": "",
+									"type": "string"
+								},
+								"email": {
+									"description": "",
+									"type": "string"
+								},
+								"first_name": {
+									"description": "",
+									"type": "string"
+								},
+								"form_name": {
+									"description": "",
+									"type": "string"
+								},
+								"implementing_payid": {
+									"description": "",
+									"type": "string"
+								},
+								"last_name": {
+									"description": "",
+									"type": "string"
+								},
+								"message": {
+									"description": "",
+									"type": "string"
+								},
+								"notify_future_developer_events": {
+									"description": "",
+									"type": "string"
+								},
+								"role": {
+									"description": "",
+									"type": "string"
+								}
+							},
+							"required": [
+								"email"
+							],
+							"type": "object"
+						},
+						"traits": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": 1
+			},
+			{
+				"name": "Github Navigation",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"labels": {
+					},
+					"properties": {
+						"context": {
+						},
+						"properties": {
+							"properties": {
+								"text": {
+									"description": "",
+									"type": "string"
+								},
+								"type": {
+									"description": "",
+									"type": "string"
+								},
+								"url": {
+									"description": "",
+									"type": "string"
+								}
+							},
+							"required": [
+								"type",
+								"url"
+							],
+							"type": "object"
+						},
+						"traits": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": 1
+			},
+			{
+				"name": "Logged In",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"labels": {
+					},
+					"properties": {
+						"context": {
+						},
+						"properties": {
+							"properties": {
+								"type": {
+									"description": "",
+									"type": "string"
+								}
+							},
+							"required": [
+								"type"
+							],
+							"type": "object"
+						},
+						"traits": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": 1
+			},
+			{
+				"name": "Sandbox Created",
+				"rules": {
+					"$schema": "http://json-schema.org/draft-07/schema#",
+					"labels": {
+					},
+					"properties": {
+						"context": {
+						},
+						"properties": {
+							"properties": {
+								"domain": {
+									"description": "",
+									"type": "string"
+								},
+								"sandbox_id": {
+									"description": "",
+									"type": "string"
+								}
+							},
+							"required": [
+								"domain",
+								"sandbox_id"
+							],
+							"type": "object"
+						},
+						"traits": {
+							"type": "object"
+						}
+					},
+					"required": [
+						"properties"
+					],
+					"type": "object"
+				},
+				"version": 1
+			}
+		],
+		"group_traits": [
+		],
+		"identify": {
+			"$schema": "http://json-schema.org/draft-07/schema#",
+			"properties": {
+				"context": {
+				},
+				"properties": {
+				},
+				"traits": {
+					"properties": {
+						"email": {
+							"type": [
+								"string"
+							]
+						}
+					},
+					"required": [
+						"email"
+					],
+					"type": "object"
+				}
+			},
+			"required": [
+				"traits"
+			],
+			"type": "object"
+		},
+		"identify_traits": [
+		]
+	},
+	"update_time": "2020-10-15T18:01:59.000Z"
+}
