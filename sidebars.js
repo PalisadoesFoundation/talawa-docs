@@ -1,14 +1,10 @@
 module.exports = {
   someSidebar: {
     "Getting Started": ["about-talawa", "about"],
-    Applications: [
-      "applications/architecture-overview",
-      "applications/app-overview",
-      "applications/admin-overview",
-    ],
     Talawa: [
       "talawa/talawa-introduction",
-      "talawa/talawa-developer-environment"
+      "talawa/talawa-developer-environment",
+      { type: 'link', label: 'Talawa(Docs)', href: 'http://base_url/talawa-docs/talawa/index.html',},
     ],
     "Talawa API": [
       "talawa-api/api-overview",
@@ -22,9 +18,15 @@ module.exports = {
       "talawa-api/authentication",
       "talawa-api/functionality",
       "talawa-api/expectations",
+      { type: 'link', label: 'API-Schema(Docs)', href: 'http://base_url/talawa-docs/talawa-api/schema/index.html',},
     ],
     "Talawa Admin": [
       "talawa-admin/talawa-admin-introduction"
+    ],
+    Applications: [
+      "applications/architecture-overview",
+      "applications/app-overview",
+      "applications/admin-overview",
     ],
     "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
