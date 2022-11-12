@@ -49,6 +49,21 @@ Plugin : {
 }
 ```
 
+### Talawa
+
+Plugin in the mobile App are mainly focused for the features on the navbar.but other functionalities can also be also implemented as plugins using the `TalawaPluginProvider` Flutter Widget.  
+![Talawa Mobile App ](/img/plugin/talawa.PNG)
+
 ## Plugin Store
 
 ## Installing and Uninstalling Plugins
+
+The Following video showcases process of installing the plugin. We are uninstalling `Events` feature from the talawa app.
+
+:::note
+
+Admin portal and talwa app must be of same organizations
+
+:::
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lrf9LApT37U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
