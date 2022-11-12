@@ -8,7 +8,7 @@ module.exports = {
     ],
     Talawa: [
       "talawa/talawa-introduction",
-      "talawa/talawa-developer-environment"
+      "talawa/talawa-developer-environment",
     ],
     "Talawa API": [
       "talawa-api/api-overview",
@@ -23,15 +23,16 @@ module.exports = {
       "talawa-api/functionality",
       "talawa-api/expectations",
     ],
-    "Talawa Admin": [
-      "talawa-admin/talawa-admin-introduction"
+    "Talawa Admin": ["talawa-admin/talawa-admin-introduction"],
+    "Existing Features": [
+      "functionalities/core-functionalities",
+      "functionalities/plugin-architecture",
     ],
-    "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
       "features/features-introduction",
       {
         Installation: ["features/installation/installation-overview"],
-        "Admin Portal":["features/admin-portal/admin-portal-overview"],
+        "Admin Portal": ["features/admin-portal/admin-portal-overview"],
         "Admin Capabilities": [
           "features/admin-role/admin-role-overview",
           "features/admin-role/admin-messaging",
@@ -91,42 +92,41 @@ module.exports = {
           "features/organisations/organisations-overview",
           "features/organisations/organisations-onboarding",
         ],
-        Plugins: ["features/plugins/plugins-overview", "features/plugins/plugins-billing"],
+        Plugins: [
+          "features/plugins/plugins-overview",
+          "features/plugins/plugins-billing",
+        ],
         Misc: [
           "features/misc/misc-overview",
           "features/misc/misc-language-support",
         ],
       },
     ],
-    Design: [
-            "design/ux/ux-talawa",
-            "design/ux/ux-design-system"],
+    Design: ["design/ux/ux-talawa", "design/ux/ux-design-system"],
     Branding: [
-            "branding/branding-introduction",
-            "branding/branding-logos",
-            "branding/branding-color-palette",
-            "branding/branding-typography"
+      "branding/branding-introduction",
+      "branding/branding-logos",
+      "branding/branding-color-palette",
+      "branding/branding-typography",
     ],
-    Internships:[{
+    Internships: [
+      {
         Overview: [
-            'internships/internship-ideas',
-            'internships/internship-application-template',
-            'internships/internship-selection-criteria',
+          "internships/internship-ideas",
+          "internships/internship-application-template",
+          "internships/internship-selection-criteria",
         ],
         GitHub: [
-            'internships/github/github-introduction',
-            'internships/github/github-application-process',
+          "internships/github/github-introduction",
+          "internships/github/github-application-process",
         ],
         GSoC: [
-            'internships/gsoc/gsoc-introduction',
-            'internships/gsoc/gsoc-application-process',
+          "internships/gsoc/gsoc-introduction",
+          "internships/gsoc/gsoc-application-process",
         ],
-        GSoD: [
-            'internships/gsod/gsod-ideas',
-        ],
-        Palisadoes: [
-          'internships/palisadoes/palisadoes-introduction'
-        ],
-    }],
+        GSoD: ["internships/gsod/gsod-ideas"],
+        Palisadoes: ["internships/palisadoes/palisadoes-introduction"],
+      },
+    ],
   },
 };
