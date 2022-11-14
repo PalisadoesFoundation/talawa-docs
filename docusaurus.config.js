@@ -59,18 +59,18 @@ const config = {
             label: "Docs",
             position: "left",
           },
-          {
-            href : "http://localhost:3000/talawa-docs/talawa-api/schema/index.html",
-            target : "_self",
-            label: "Talawa Api",
-            position: "left",
-          },
-          {
-            href : "http://localhost:3000/talawa-docs/talawa/index.html",
-            target : "_self",
-            label: "Talawa",
-            position: "left",
-          },
+          // {
+          //   href : "base_url/talawa-docs/talawa-api/schema/index.html",
+          //   target : "_self",
+          //   label: "Talawa Api",
+          //   position: "left",
+          // },
+          // {
+          //   href : "base_url/talawa-docs/talawa/index.html",
+          //   target : "_self",
+          //   label: "Talawa",
+          //   position: "left",
+          // },
           {
             href: 'https://github.com/PalisadoesFoundation',
             label: 'GitHub',

@@ -1,14 +1,10 @@
 module.exports = {
   someSidebar: {
     "Getting Started": ["about-talawa", "about"],
-    Applications: [
-      "applications/architecture-overview",
-      "applications/app-overview",
-      "applications/admin-overview",
-    ],
     Talawa: [
       "talawa/talawa-introduction",
-      "talawa/talawa-developer-environment"
+      "talawa/talawa-developer-environment",
+      { type: 'link', label: 'Talawa(Docs)', href: 'http://base_url/talawa-docs/talawa/index.html',},
     ],
     "Talawa API": [
       "talawa-api/api-overview",
@@ -22,9 +18,42 @@ module.exports = {
       "talawa-api/authentication",
       "talawa-api/functionality",
       "talawa-api/expectations",
+      { type: 'link', label: 'API-Schema(Docs)', href: 'http://base_url/talawa-docs/talawa-api/schema/index.html',},
     ],
     "Talawa Admin": [
-      "talawa-admin/talawa-admin-introduction"
+      "talawa-admin/talawa-admin-introduction",
+      "talawa-admin/index",
+      "talawa-admin/my-app.accept_organization_request_mutation",
+      "talawa-admin/my-app.add_admin_mutation",
+      "talawa-admin/my-app.admin_list",
+      "talawa-admin/my-app.block_user_mutation",
+      "talawa-admin/my-app.check_auth",
+      "talawa-admin/my-app.create_event_mutation",
+      "talawa-admin/my-app.create_organization_mutation",
+      "talawa-admin/my-app.create_post_mutation",
+      "talawa-admin/my-app.delete_event_mutation",
+      "talawa-admin/my-app.delete_organization_mutation",
+      "talawa-admin/my-app.delete_post_mutation",
+      "talawa-admin/my-app.login_mutation",
+      "talawa-admin/my-app",
+      "talawa-admin/my-app.members_list",
+      "talawa-admin/my-app.organization_event_list",
+      "talawa-admin/my-app.organization_post_list",
+      "talawa-admin/my-app.organizations_list",
+      "talawa-admin/my-app.reject_organization_request_mutation",
+      "talawa-admin/my-app.remove_admin_mutation",
+      "talawa-admin/my-app.remove_member_mutation",
+      "talawa-admin/my-app.signup_mutation",
+      "talawa-admin/my-app.unblock_user_mutation",
+      "talawa-admin/my-app.update_organization_mutation",
+      "talawa-admin/my-app.update_user_mutation",
+      "talawa-admin/my-app.user_list",
+      "talawa-admin/my-app.user_organization_list",
+    ],
+    Applications: [
+      "applications/architecture-overview",
+      "applications/app-overview",
+      "applications/admin-overview",
     ],
     "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
