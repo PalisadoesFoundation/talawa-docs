@@ -27,6 +27,7 @@ module.exports = {
     "Existing Features": [
       "functionalities/core-functionalities",
       "functionalities/plugin-architecture",
+      "functionalities/implementing-plugins"
     ],
     "Desired Features": [
       "features/features-introduction",
