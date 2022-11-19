@@ -39,6 +39,8 @@ Now let's see how we can implement a Donation feature as plugin and seeing it in
                 )
 ```
 
+To see the entire file go [here](https://github.com/Palisadoesfoundation/talawa/blob/2a14faa4363ca26426fb2f9a8b39082c08e6597b/lib/views/after_auth_screens/profile/profile_page.dart)
+
 It is a simple list option that says " Donate Us " and upon clicking that you get dialog with text "Help us to develop for you" for doing the payment.
 
 Now let's follow the steps.
@@ -94,6 +96,6 @@ This is how the code will look like
 
 ---
 
-Congrats! yove've successfully converted your feature to a plugin. Now you toggle the install/uninstall from the admin panel to see the plugin UI becoming visible if it's installed for that organization otherwise hidden.
+Congrats! yove've successfully converted your feature to a plugin. Now you can  install/uninstall  `Donation`  plugin fromc the  `Plugin Store`  of the  [Talawa Admin](https://github.com/PalisadoesFoundation/talawa-admin) to see the plugin UI becoming visible if it's installed for that organization otherwise hidden.
 
 For developement puprposes to see the plugin even if it's uninstalled you can set the `serverVisible` property to `true`
