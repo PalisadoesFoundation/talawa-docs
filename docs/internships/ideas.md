@@ -73,7 +73,7 @@ Here are the features we'd like to implement in the coming months.
 
 ### Creating new features and refactoring existing features into Plugins 
 
-1. **Description:** There are a number of features that while useful are not absolutely necessary for the base Talawa app and would be better suited as plugins. The goal of this task is to refactor the existing plugins such as Newsfeed Advertising, Spam Mitigation, Inter-group Messaging, Analytics Integration, Check-ins functionality, etc. We recommended that you use our (Plugin Guide)[https://palisadoesfoundation.github.io/talawa-docs/docs/functionalities/plugin-architecture]. The scope of the Newsfeed Advertising and Spam Mitigation are given below. They can act as a template for the any additional plugins you wish to discuss with the mentors.
+1. **Description:** There are a number of features that while useful are not absolutely necessary for the base Talawa app and would be better suited as plugins. The goal of this task is to refactor the existing plugins such as Newsfeed Advertising, Spam Mitigation, Inter-group Messaging, Analytics Integration, Check-ins functionality, etc. We recommended that you use our [Plugin Guide](https://palisadoesfoundation.github.io/talawa-docs/docs/functionalities/plugin-architecture). The scope of the Newsfeed Advertising and Spam Mitigation are given below. They can act as a template for the any additional plugins you wish to discuss with the mentors.
     1. **Newsfeed Advertising**: 
         1. Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile application newsfeed. The plugin must consider both inexperienced advertisers who will only provide an image or video, and those who are more experienced users of online platforms.
         1. **Features**
@@ -185,7 +185,7 @@ Here are the features we'd like to implement in the coming months.
         1. If an uncommented file is worked on by a contributer and then is pushed to the repository the user would be prompted to add comments to the corresponding commented file. Ideally the files should have a degree of modularity to ensure that this does not become too onerus for one to contribute.   
     1. Currently an unwiedly amount of HTML files are generated as artifacts in the documentation pipeline. This can cause performance  issues in the future if unaddressed. A method needs to be implemented to bundle or collate the HTML files into chunks in such a way that the documentation website can have fast load times. 
     1. Better indexing for the search features for documentation website. We currently use Algolia search to index the relevant data. We need better heurstics for greater searchability. 
-    1. Support/Integration for/with the creation of easy-to-create diagrams via [Typoporia][https://support.typora.io/Draw-Diagrams-With-Markdown/] and/or (js-sequence-diagrams)[https://bramp.github.io/js-sequence-diagrams/] to enhance the comprehensiveness of the existing documenation.
+    1. Support/Integration for/with the creation of easy-to-create diagrams via [Typoporia](https://support.typora.io/Draw-Diagrams-With-Markdown/) and/or [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/) to enhance the comprehensiveness of the existing documenation.
 1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
