@@ -33,7 +33,6 @@ module.exports = {
     "Desired Features": [
       "features/features-introduction",
       {
-        Installation: ["features/installation/installation-overview"],
         "Admin Portal": ["features/admin-portal/admin-portal-overview"],
         "Admin Capabilities": [
           "features/admin-role/admin-role-overview",
@@ -41,7 +40,6 @@ module.exports = {
           "features/admin-role/admin-manage-members",
           "features/admin-role/admin-newsfeed",
         ],
-        Advertising: ["features/advertising/ads-overview"],
         "Chat and Messaging": [
           "features/messaging-and-chat/messaging-and-chat-overview",
           "features/messaging-and-chat/message-chat",
@@ -93,14 +91,6 @@ module.exports = {
         Organisations: [
           "features/organisations/organisations-overview",
           "features/organisations/organisations-onboarding",
-        ],
-        Plugins: [
-          "features/plugins/plugins-overview",
-          "features/plugins/plugins-billing",
-        ],
-        Misc: [
-          "features/misc/misc-overview",
-          "features/misc/misc-language-support",
         ],
       },
     ],
