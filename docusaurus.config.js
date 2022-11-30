@@ -82,7 +82,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `This site is owned and operated by Dominic Mills-Howell. Copyright © ${new Date().getFullYear()} Talawa. Built with Docusaurus.`,
+      copyright: `This site is owned and operated by Michael Roy Lue. Copyright © ${new Date().getFullYear()} Talawa. Built with Docusaurus.`,
     },
   },
   presets: [
