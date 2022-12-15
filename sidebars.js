@@ -4,7 +4,7 @@ module.exports = {
     Talawa: [
       "talawa/talawa-introduction",
       "talawa/talawa-developer-environment",
-      { type: 'link', label: 'Talawa(Docs)', href: 'http://base_url/talawa-docs/talawa/index.html',},
+      // { type: 'link', label: 'Talawa(Docs)', href: 'http://base_url/talawa-docs/talawa/index.html',},
     ],
     "Talawa API": [
       "talawa-api/api-overview",
@@ -18,7 +18,7 @@ module.exports = {
       "talawa-api/authentication",
       "talawa-api/functionality",
       "talawa-api/expectations",
-      { type: 'link', label: 'API-Schema(Docs)', href: 'http://base_url/talawa-docs/talawa-api/schema/index.html',},
+      // { type: 'link', label: 'API-Schema(Docs)', href: 'http://base_url/talawa-docs/talawa-api/schema/index.html',},
     ],
     "Talawa Admin": [
       "talawa-admin/talawa-admin-introduction",
