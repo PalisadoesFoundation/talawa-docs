@@ -9,7 +9,7 @@ const config = {
   title: 'Welcome to the Talawa Project for the Palisadoes Foundation',
   tagline: 'Community Organization Management Software',
   url: 'https://palisadoesfoundation.github.io',
-  baseUrl: '/talawa-docs/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -56,21 +56,21 @@ const config = {
           {
             to: "docs/",
             activeBasePath: "docs",
-            label: "Docs",
+            label: "About",
             position: "left",
           },
-          // {
-          //   href : "base_url/talawa-docs/talawa-api/schema/index.html",
-          //   target : "_self",
-          //   label: "Talawa Api",
-          //   position: "left",
-          // },
-          // {
-          //   href : "base_url/talawa-docs/talawa/index.html",
-          //   target : "_self",
-          //   label: "Talawa",
-          //   position: "left",
-          // },
+          {
+            href : 'http://localhost:3000/talawa/index.html',
+            target : "_self",
+            label: "Talawa",
+            position: "left",
+          },
+          {
+            href : 'http://localhost:3000/talawa-api/schema/index.html',
+            target : "_self",
+            label: "Talawa Api",
+            position: "left",
+          },
           {
             href: 'https://github.com/PalisadoesFoundation',
             label: 'GitHub',
