@@ -60,13 +60,15 @@ const config = {
             position: "left",
           },
           {
-            href : 'http://localhost:3000/talawa/index.html',
+            // Provide Base_URL below
+            href : 'https://base_url/talawa/index.html',
             target : "_self",
             label: "Talawa",
             position: "left",
           },
           {
-            href : 'http://localhost:3000/talawa-api/schema/index.html',
+            // Provide Base_URL below
+            href : 'https://base_url/talawa-api/schema/index.html',
             target : "_self",
             label: "Talawa Api",
             position: "left",
