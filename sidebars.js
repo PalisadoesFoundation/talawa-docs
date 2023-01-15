@@ -1,10 +1,14 @@
 module.exports = {
   someSidebar: {
     "Getting Started": ["about-talawa", "about"],
+    Applications: [
+      "applications/architecture-overview",
+      "applications/app-overview",
+      "applications/admin-overview",
+    ],
     Talawa: [
       "talawa/talawa-introduction",
       "talawa/talawa-developer-environment",
-      // { type: 'link', label: 'Talawa(Docs)', href: 'http://base_url/talawa-docs/talawa/index.html',},
     ],
     "Talawa API": [
       "talawa-api/api-overview",
@@ -18,56 +22,24 @@ module.exports = {
       "talawa-api/authentication",
       "talawa-api/functionality",
       "talawa-api/expectations",
-      // { type: 'link', label: 'API-Schema(Docs)', href: 'http://base_url/talawa-docs/talawa-api/schema/index.html',},
     ],
-    "Talawa Admin": [
-      "talawa-admin/talawa-admin-introduction",
-      "talawa-admin/index",
-      "talawa-admin/my-app.accept_organization_request_mutation",
-      "talawa-admin/my-app.add_admin_mutation",
-      "talawa-admin/my-app.admin_list",
-      "talawa-admin/my-app.block_user_mutation",
-      "talawa-admin/my-app.check_auth",
-      "talawa-admin/my-app.create_event_mutation",
-      "talawa-admin/my-app.create_organization_mutation",
-      "talawa-admin/my-app.create_post_mutation",
-      "talawa-admin/my-app.delete_event_mutation",
-      "talawa-admin/my-app.delete_organization_mutation",
-      "talawa-admin/my-app.delete_post_mutation",
-      "talawa-admin/my-app.login_mutation",
-      "talawa-admin/my-app",
-      "talawa-admin/my-app.members_list",
-      "talawa-admin/my-app.organization_event_list",
-      "talawa-admin/my-app.organization_post_list",
-      "talawa-admin/my-app.organizations_list",
-      "talawa-admin/my-app.reject_organization_request_mutation",
-      "talawa-admin/my-app.remove_admin_mutation",
-      "talawa-admin/my-app.remove_member_mutation",
-      "talawa-admin/my-app.signup_mutation",
-      "talawa-admin/my-app.unblock_user_mutation",
-      "talawa-admin/my-app.update_organization_mutation",
-      "talawa-admin/my-app.update_user_mutation",
-      "talawa-admin/my-app.user_list",
-      "talawa-admin/my-app.user_organization_list",
+    "Talawa Admin": ["talawa-admin/talawa-admin-introduction"],
+    "Existing Features": [
+      "functionalities/core-functionalities",
+      "functionalities/plugin-architecture",
+      "functionalities/implementing-plugins",
+      "functionalities/implementing-plugins-example"
     ],
-    Applications: [
-      "applications/architecture-overview",
-      "applications/app-overview",
-      "applications/admin-overview",
-    ],
-    "Existing Features": ["functionalities/core-functionalities"],
     "Desired Features": [
       "features/features-introduction",
       {
-        Installation: ["features/installation/installation-overview"],
-        "Admin Portal":["features/admin-portal/admin-portal-overview"],
+        "Admin Portal": ["features/admin-portal/admin-portal-overview"],
         "Admin Capabilities": [
           "features/admin-role/admin-role-overview",
           "features/admin-role/admin-messaging",
           "features/admin-role/admin-manage-members",
           "features/admin-role/admin-newsfeed",
         ],
-        Advertising: ["features/advertising/ads-overview"],
         "Chat and Messaging": [
           "features/messaging-and-chat/messaging-and-chat-overview",
           "features/messaging-and-chat/message-chat",
@@ -120,42 +92,33 @@ module.exports = {
           "features/organisations/organisations-overview",
           "features/organisations/organisations-onboarding",
         ],
-        Plugins: ["features/plugins/plugins-overview", "features/plugins/plugins-billing"],
-        Misc: [
-          "features/misc/misc-overview",
-          "features/misc/misc-language-support",
-        ],
       },
     ],
-    Design: [
-            "design/ux/ux-talawa",
-            "design/ux/ux-design-system"],
+    Design: ["design/ux/ux-talawa", "design/ux/ux-design-system"],
     Branding: [
-            "branding/branding-introduction",
-            "branding/branding-logos",
-            "branding/branding-color-palette",
-            "branding/branding-typography"
+      "branding/branding-introduction",
+      "branding/branding-logos",
+      "branding/branding-color-palette",
+      "branding/branding-typography",
     ],
-    Internships:[{
+    Internships: [
+      {
         Overview: [
-            'internships/internship-ideas',
-            'internships/internship-application-template',
-            'internships/internship-selection-criteria',
+          "internships/internship-ideas",
+          "internships/internship-application-template",
+          "internships/internship-selection-criteria",
         ],
         GitHub: [
-            'internships/github/github-introduction',
-            'internships/github/github-application-process',
+          "internships/github/github-introduction",
+          "internships/github/github-application-process",
         ],
         GSoC: [
-            'internships/gsoc/gsoc-introduction',
-            'internships/gsoc/gsoc-application-process',
+          "internships/gsoc/gsoc-introduction",
+          "internships/gsoc/gsoc-application-process",
         ],
-        GSoD: [
-            'internships/gsod/gsod-ideas',
-        ],
-        Palisadoes: [
-          'internships/palisadoes/palisadoes-introduction'
-        ],
-    }],
+        GSoD: ["internships/gsod/gsod-ideas"],
+        Palisadoes: ["internships/palisadoes/palisadoes-introduction"],
+      },
+    ],
   },
 };
