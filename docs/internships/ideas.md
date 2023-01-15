@@ -249,8 +249,8 @@ Here are the features we'd like to implement in the coming months.
    1. Implement the strategy so that it is transparent to the mobile app.
    1. Code ways to configure this solution simply via the Admin portal.
    1. Think of: 
-       1. New levels of authorization and security that may be required
-       1. Interesting features that would be required for this to be implemented
+       1. New levels of authorization and security that may be required.
+       1. Interesting features that would be required for this to be implemented.
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
