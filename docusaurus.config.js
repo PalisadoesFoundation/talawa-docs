@@ -61,14 +61,14 @@ const config = {
           },
           {
             // Provide Base_URL below
-            href : 'https://base_url/talawa/index.html',
+            href : 'http://docs.talawa.io/talawa/index.html',
             target : "_self",
             label: "Talawa",
             position: "left",
           },
           {
             // Provide Base_URL below
-            href : 'https://base_url/talawa-api/schema/index.html',
+            href : 'http://docs.talawa.io/talawa-api/schema/index.html',
             target : "_self",
             label: "Talawa Api",
             position: "left",
