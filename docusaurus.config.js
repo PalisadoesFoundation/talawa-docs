@@ -3,7 +3,7 @@ module.exports = {
   title: "Welcome to the Talawa Project for the Palisadoes Foundation",
   tagline: "Community Organization Management Software",
   url: "https://palisadoesfoundation.github.io",
-  baseUrl: "/talawa-docs/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
