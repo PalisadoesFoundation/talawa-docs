@@ -153,7 +153,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Mobile App: -----
+### Mobile App: Ability to Share Posts & Customized Theme Options
 
 1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts acorss other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. Also, Currently the mobile app only has 2 color theme options light & dark. Multiple & customizable themes options can be added having pre-selected fix colors range.
 1. **Expected Outcomes:**
