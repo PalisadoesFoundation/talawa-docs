@@ -35,6 +35,6 @@ Fixes #<!--Add related issue number here.-->
 
 <!--Add extra information about this PR here-->
 
-**Have you read the [contributing guide](https://github.com/PalisadoesFoundation/talawa-docs/blob/master/CONTRIBUTING.md)?**
+**Have you read the [contributing guide](https://github.com/PalisadoesFoundation/talawa-docs/blob/develop/CONTRIBUTING.md)?**
 
 <!--Yes or No-->
