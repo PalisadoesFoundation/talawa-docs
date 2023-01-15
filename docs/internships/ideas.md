@@ -71,11 +71,23 @@ Most of our project ideas require knowledge of two or more programming languages
 
 Here are the features we'd like to implement in the coming months.
 
-### Admin Web Portal: Plugin Architecture
+### Creating new features and refactoring existing features into Plugins 
 
-1. **Description:** Latent features in the mobile app should be enabled by installing plugins via the Admin web portal. The API would need to detect the existence of a plugin, and automatically query the plugin for authorization to do some action. When authorized, the mobile app will display new capabilities. This project has two parts:
-    1. The design and development of the plugin architecture
-    1. The creation of a donations plugin to prove the concept
+1. **Description:** There are a number of features that while useful are not absolutely necessary for the base Talawa app and would be better suited as plugins. The goal of this task is to refactor the existing plugins such as Newsfeed Advertising, Spam Mitigation, Inter-group Messaging, Analytics Integration, Check-ins functionality, etc. We recommended that you use our [Plugin Guide](https://palisadoesfoundation.github.io/talawa-docs/docs/functionalities/plugin-architecture). The scope of the Newsfeed Advertising and Spam Mitigation are given below. They can act as a template for the any additional plugins you wish to discuss with the mentors.
+    1. **Newsfeed Advertising**: 
+        1. Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile application newsfeed. The plugin must consider both inexperienced advertisers who will only provide an image or video, and those who are more experienced users of online platforms.
+        1. **Features**
+            1. The type of content and ways to upload and display it (product placement) must be considered.
+            1. The plugin must provide a comprehensive set of advertising campaign features.
+            1. Integration with other advertising platforms should be considered.
+    2. **Spam Mitigation**:
+        1. Detect whether a a user is spamming organization chat and news feed messages.
+        2. **Expected Outcomes:**
+            1. A reliable method to intercept new messages
+            1. An accurate subsystem to evaluate the `spaminess` of messages using both implied and explicit triggers.
+            1. Notification of the Talawa-Admin users of potential spam
+            1. Creation of ways to ban both infringing and related users.
+            1. This should ideally be a plugin so that administrators can eventually select the anti-SPAM engine of their choice.
 1. **Expected Outcomes:**
     1. _Architectural Design_
         1. Easy to install, enable and remove either online or by the uploading of code
@@ -83,97 +95,16 @@ Here are the features we'd like to implement in the coming months.
         1. Easy to configure in the Talawa-Admin portal.
     1. _Plugin - Donations, Member Fees and Paid Events_
         1. Organization admins must be able to install and enable the plugin.
-        1. Allow organizations to receive payments for different types of customizable services and activities, both one time or recurring.
-        1. Consider ways to accept payments for organizations in any part of the world using multiple payment gateways.
-        1. Mobile app users must be able to select their preferred payment method in an easy intuitive way.
+        1. Allow organizations exopsure to different types of customizable services and activities, which can be both one time or recurring.
+        1. Mobile app users must be able to select their preferred options in an easy and intuitive way.
         1. The mobile app must be plugin aware
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
-
-### Admin Web Portal: Plugin - Newsfeed Advertising
-
-1. **Description:** Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile app news feed. The plugin must consider both unsophisticated advertisers who will only provide an image or video, and those who are experienced users of online platforms.
-1. **Expected Outcomes:**
-    1. Organization admins must be able to install and enable the plugin.
-    1. The best types of content and ways to upload and display it (placement) must be considered.
-    1. The plugin must provide a comprehensive set of advertising campaign features.
-    1. The mobile app must be plugin aware.
-    1. Integration with well known mobile advertising platforms should be considered.
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** Admin Portal Plugin Architecture
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
+1. **Possible Mentors:** Dominic Mills, Michael Lue, Tasneem Koushar
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
-
-### Admin Web Portal: New Features Support
-
-1. **Description:** The Admin portal needs to be redesigned to intuitively accommodate the many new features needed by the other projects. Work on this project will be continuous as new features are required from other project ideas.
-    1. The Admin Portal only supports English. Other languages need to be included.
-1. **Expected Outcomes:**
-    1. _Redesign_
-        1. Create a new modern, reactive, intuitive design following our "clean look" design standards that can be found on this site.
-        1. New screens need to be created to support the new features of other projects
-        1. As with our other repositories:
-            1. Consolidate test, image and CSS files in separate dedicated directory trees outside of the code tree.
-            1. Create a standardized file and directory naming convention in keeping with that of our other repositories.
-    1. _Multilingual_
-        1. Research and implement ways for users to select a preferred language.
-        1. The languages supported must match those of the mobile app.
-1. **Repos to update:** Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Low-hanging fruit
-
-### Admin Web Portal: Spam Mitigation
-
-1. **Description:** Detect whether a a user is spamming organization chat and news feed messages.
-1. **Expected Outcomes:**
-    1. A reliable method to intercept new messages
-    1. An accurate subsystem to evaluate the `spaminess` of messages using both implied and explicit triggers.
-    1. Notification of the Talawa-Admin users of potential spam
-    1. Creation of ways to ban both infringing and related users.
-    1. This should ideally be a plugin so that administrators can eventually select the anti-SPAM engine of their choice.
-1. **Repos to update:** Talawa-Admin, Talawa-API
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** `Admin Web Portal: Plugin Architecture`
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Jason Gayle, Yasharth Dubey, Gareth Thomas
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Low-hanging fruit
-
-### API: Content Uploads Support
-
-1. **Description:** The API does not have any media management controls that would be useful for the mobile app or Talawa admin portal. This functionality is sorely needed.
-1. **Expected Outcomes:**
-    1. Must support events, posts, ads, and chats.
-    1. Unnecessary duplication of objects must be avoided in all cases. Examples include:
-        1. Uploads of identical filenames and / or files
-        1. Message forwards or replies
-    1. If necessary the solution must support multiple cloud providers.
-        1. There must be an option for limited local storage for those who cannot use the cloud. (eg. some talawa developers and organizations who cannot use the cloud for various reasons)
-        1. At this time support for only one methodology at a time is required.
-    1. Content must only be deleted from storage when no one else needs it.
-    1. Must have a unique identifier system independent of the backend storage methododology used.
-        1. It must support a future where multiple backends could be used. Simple data migration between backends would be a plus.
-    1. Cost Considerations
-        1. The cost of using third party services must be borne by the end user organization, not The Palisadoes Foundation
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### API: Improved Backend Performance and Security
 
@@ -222,60 +153,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### API: Multi-Tennancy
-
-1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
-1. **Expected Outcomes:**
-    1. Research and suggest a preferred way of implementing this strategy.
-    1. Implement the strategy so that it is transparent to the mobile app.
-    1. Code ways to configure this solution simply via the Admin portal.
-1. **Repos to update:** Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
-
-### Mobile App: Event and Venue Management
-
-1. **Description:** Community organizations host events and venues that must be managed. Talawa offers a way to help coordinate these services better.
-1. **Expected Outcomes:**
-    1. Create ways for volunteers and/or attendees have checked-in for events for better coordination.
-    1. Implement ways to limit the number of event attendees.
-    1. Allow venues to be reserved from being used for other events.
-    1. Create ways for attendees to register for events with or without an invitation.
-    1. Activate various combinations of ways to notify users of this feature.
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Brandon Chung, Delton Phillips, Sagar Utekar, Troy Anderson
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Low-hanging fruit
-
-### Mobile App: Enhanced Chat
-
-1. **Description:** The encrypted chat feature being developed only allows persons to add their comments to the end of a thread. There are many ways in which this could be made more useful.
-1. **Expected Outcomes:**
-    1. _User Features_
-        1. Create ways for users to reply to any historical comment.
-        1. Implement ways for users to manage content in chats.
-        1. Allow administrators to respond in various ways to complaints about chats.
-        1. Activate various combinations of ways to notify chat users.
-        1. Implement encrypted group chat.
-    1. _Scalability features_
-        1. The Talawa mobile app currently uses graphql subscription for its chat feature. We need a highly scalable solution.
-        1. Data migration between multiple backend data storage systems must be easy.
-    1. _Cost Considerations_
-        1. The cost of using third party services must be borne by the end user organization, not The Palisadoes Foundation
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** `API: Content Uploads Support`
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Brandon Chung, Delton Phillips, Sagar Utekar, Troy Anderson
-1. **Difficulty:**
-1. **Impact Definition:** Core development
 
 ### Mobile App: Improved Member Management
 
@@ -298,37 +175,55 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Automated Documentation (Google Season of Docs only)
 
-1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
+### Improvements for the Automated Documentation Pipeline
+
+1. **Description:** The Talawa, Talawa-API and Talawa-Admin repositories use pipelines to create documentation by coverting the comments from the files via a markdown language like TSDoc, DartDoc, etc in the respective repositories, and then add it to the Talawa Docs repo. This creates a seamless workflow for the creation of documentation that is automatically checked and added to the documentation website on the fly. However, there still needs to be some additional modifications to truely make this process more tenable. 
 1. **Expected Outcomes:**
-    1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
-    1. Find and implement a way to automatically create user and engineer documentation from our code files in all repos.
-    1. Document what developers must do to generate as much of our documentation directly from the code base as possible
-    1. Complete in-code documentation for all Talawa repositories. This may require interaction with Google Summer of Code participants.
+    1. Develop a mechanism that enables users to choose between the commented and uncommented versions of the code when pulling it down from the repository. We are open to suggestions about how this could be implemented, but here are a few ways in which we think this could be done:
+        1. With a [CLI](https://en.wikipedia.org/wiki/Command-line_interface) tool that uses a flag to pick whether the commented or uncommented version should be chosen or using a [configuration system](https://en.wikipedia.org/wiki/Configuration_management) such as ectd or Apache Zookepper. The uncommented files could be stored in a cache such as Redis for quick access. This [repository](https://github.com/jameshaydon/diff-check) might provide some inspiration about how one would go about implementing this.
+        1. If an uncommented file is worked on by a contributer and then is pushed to the repository the user would be prompted to add comments to the corresponding commented file. Ideally the files should have a degree of modularity to ensure that this does not become too onerus for one to contribute.   
+    1. Currently an unwiedly amount of HTML files are generated as artifacts in the documentation pipeline. This can cause performance  issues in the future if unaddressed. A method needs to be implemented to bundle or collate the HTML files into chunks in such a way that the documentation website can have fast load times. 
+    1. Better indexing for the search features for documentation website. We currently use Algolia search to index the relevant data. We need better heurstics for greater searchability. 
+    1. Support/Integration for/with the creation of easy-to-create diagrams via [Typoporia](https://support.typora.io/Draw-Diagrams-With-Markdown/) and/or [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/) to enhance the comprehensiveness of the existing documenation.
 1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Shannika Jackson
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Dominic Mills, Michael Lue, Tasneem Koushar 
 1. **Difficulty:** Medium
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
-### Automated Documentation
+### Functionality to allows external links to be used within the Talawa application
 
-1. **Description:** We need to find ways to automate the creation of our documentation using the content of our code repositories. This needs to be automatically included in our existing documentation website.
+1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising. 
 1. **Expected Outcomes:**
-    1. Find and implement a way to automatically create API usage documentation from our GraphQL schema.
-    1. Find and implement a way to automatically create user and engineer documentation from our code files in all repos.
-    1. Document what developers must do to generate as much of our documentation directly from the code base as possible
-    1. Complete in-code documentation for all Talawa repositories. This may require interaction with Google Summer of Code participants.
-1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
+    1. Research and suggest a preferred way of implementing this strategy.
+    1. Implement the strategy so that it is transparent to the mobile app.
+    1. Code ways to configure this solution simply via the Admin portal.
+1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue, Tasneem Koushar 
-1. **Difficulty:** Medium
-1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Dominic Mills, Michael Lue, Kevonia Tomlinson 
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+
+### API: Multi-Tennancy
+
+1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
+1. **Expected Outcomes:**
+    1. Research and suggest a preferred way of implementing this strategy.
+    1. Implement the strategy so that it is transparent to the mobile app.
+    1. Code ways to configure this solution simply via the Admin portal.
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
 
 ## Secondary Idea Areas
 
