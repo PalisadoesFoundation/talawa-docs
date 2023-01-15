@@ -102,7 +102,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Michael Lue, Tasneem Koushar
+1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
@@ -130,7 +130,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
+1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -149,7 +149,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
+1. **Possible Mentors:** Tasneem Koushar (GitHub: tasneemkoushar)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -168,7 +168,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
+1. **Possible Mentors:** Kukade Siddhesh (GitHub: SiddheshKukade)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -189,7 +189,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
-1. **Possible Mentors:** Brandon Chung, Delton Phillips, Sagar Utekar, Troy Anderson
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
@@ -207,11 +207,11 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Michael Lue, Tasneem Koushar
+1. **Possible Mentors:** Anwer Sayeed (GitHub: anwersayeed)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
-### Functionality to allows external links to be used within the Talawa application
+### Functionality to Allow External Links to be Used Within the Talawa Application
 
 1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
 1. **Expected Outcomes:**
@@ -222,7 +222,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Michael Lue, Kevonia Tomlinson
+1. **Possible Mentors:** Anwer Sayeed (GitHub: anwersayeed)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -237,7 +237,25 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills, Xavier Bryson, Shannika Jackson
+1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken)
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+### Admin: Multi-Tennancy (Cloud)
+
+1. **Description:** Create a way to easily manage multiple instances of Talawa-API from a single Talawa-Admin panel. This would provide control over multiple parent organizations and their respective child organizations.
+1. **Expected Outcomes:**
+   1. Research and suggest a preferred way of implementing this strategy.
+   1. Implement the strategy so that it is transparent to the mobile app.
+   1. Code ways to configure this solution simply via the Admin portal.
+   1. Think of: 
+       1. New levels of authorization and security that may be required
+       1. Interesting features that would be required for this to be implemented
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** TBD
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
