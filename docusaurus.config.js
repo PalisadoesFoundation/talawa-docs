@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Welcome to the Talawa Project for the Palisadoes Foundation',
   tagline: 'Community Organization Management Software',
-  url: 'https://palisadoesfoundation.github.io',
+  url: 'https://docs.talawa.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
