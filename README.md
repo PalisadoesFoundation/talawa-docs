@@ -28,13 +28,13 @@ Core features include:
 
 # Documentation
 
-- The `talawa` documentation can be found [here](https://palisadoesfoundation.github.io/talawa-docs/).
+- The `talawa` documentation can be found [here](https://docs.talawa.io/).
 - Want to contribute? Look at [CONTRIBUTING.md](https://github.com/PalisadoesFoundation/talawa-docs/blob/master/CONTRIBUTING.md) to get started.
 - Visit the [Talawa-Docs GitHub Repository](https://github.com/PalisadoesFoundation/talawa) to see the code.
 
 # Installation
 
-The contents of the `talawa-docs` repo is used to automatically create [the talawa documentation website](https://palisadoesfoundation.github.io/talawa-docs/). The automation uses [Docusaurus](https://docusaurus.io/docs/), a modern static website generator.
+The contents of the `talawa-docs` repo is used to automatically create [the talawa documentation website](https://docs.talawa.io/). The automation uses [Docusaurus](https://docusaurus.io/docs/), a modern static website generator.
 
 Intallation will vary depending on whether you use the `yarn` or `npm` packages. Visit the [Docusaurus installation web page](https://docusaurus.io/docs/installation) if you have any difficulties with the steps below.
 

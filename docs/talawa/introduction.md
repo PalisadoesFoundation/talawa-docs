@@ -35,7 +35,7 @@ title: Overview
 
 - Read our [Talawa Mobile App
   er installation guide](INSTALLATION.md) to get setup quickly.
-- The complete talawa documentation set can be found [here](https://palisadoesfoundation.github.io/talawa-docs/).
+- The complete talawa documentation set can be found [here](https://docs.talawa.io/).
 - Want to contribute? Look at [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 - Visit the [Talawa GitHub](https://github.com/PalisadoesFoundation/talawa) to see the code.
 
