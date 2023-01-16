@@ -46,7 +46,7 @@ title: Overview
 
 ### Documentation
 
-- The `talawa-admin` documentation can be found [here](https://palisadoesfoundation.github.io/talawa-docs/talawa-admin).
+- The `talawa-admin` documentation can be found [here](https://docs.talawa.io/talawa-admin).
 - Want to contribute? Look at [Contributing Guide](https://github.com/PalisadoesFoundation/talawa-admin/blob/develop/CONTRIBUTING.md) to get started.
 - Visit the [Talawa-Docs GitHub](https://github.com/PalisadoesFoundation/talawa-docs) to see the code.
 
