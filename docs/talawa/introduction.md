@@ -33,10 +33,9 @@ title: Overview
 
 ## Documentation
 
-- Read our [Talawa Mobile App
-  er installation guide](INSTALLATION.md) to get setup quickly.
+- Read our [INSTALLATION.md](https://github.com/PalisadoesFoundation/talawa) located in the root directory of the repository to get setup quickly.
 - The complete talawa documentation set can be found [here](https://docs.talawa.io/).
-- Want to contribute? Look at [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+- Want to contribute? Look at [CONTRIBUTING.md](https://github.com/PalisadoesFoundation/talawa) located in the root directory of the repository to get started.
 - Visit the [Talawa GitHub](https://github.com/PalisadoesFoundation/talawa) to see the code.
 
 ## Community
