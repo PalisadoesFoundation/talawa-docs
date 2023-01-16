@@ -13,8 +13,6 @@ The API is expected to:
 4. Allow centralized configuration for all external service dependencies such as the email service and the database.
 5. Support multi tenancy at its core
 
-## TypeScript Rewrite
+## Better TypeScript Workflow
 
-The current code base for talawa api uses Node.js. This poses several problems with scalability and stability. Firstly the codebase is written in javascript, thus adding new features will make it unstable and more prone to breaks. Moving to Typescript will bring a level of stability and better developer experience that’s not currently in the API. We recommend using NestJS https://nestjs.com/.
-
-> Nest (NestJS) is a framework for building efficient, scalable Node.js server side applications. It uses progressive JavaScript, is built with and fully supports TypeScript (yet still enables developers to code in pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
+Any improvements to the already existing typescript workflow are greatly appreciated. We want the contributers and developers to have good experience when working on the project. The improvements should try to automate as much stuff as possible so that there is less manual work required to work within the typescript environment.
