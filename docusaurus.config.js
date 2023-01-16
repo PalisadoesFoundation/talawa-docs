@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Welcome to the Talawa Project for the Palisadoes Foundation',
-  tagline: 'Community Organization Management Software',
+  title: 'Talawa Project Documentation',
+  tagline: 'Open Source Software for Managing Community Based Organizations',
   url: 'https://docs.talawa.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -60,14 +60,14 @@ const config = {
             position: "left",
           },
           {
-            href : 'https://docs.talawa.io/talawa/index.html',
-            target : "_self",
+            href: 'https://docs.talawa.io/talawa/index.html',
+            target: "_self",
             label: "Talawa",
             position: "left",
           },
           {
-            href : 'https://docs.talawa.io/talawa-api/schema/index.html',
-            target : "_self",
+            href: 'https://docs.talawa.io/talawa-api/schema/index.html',
+            target: "_self",
             label: "Talawa Api",
             position: "left",
           },
