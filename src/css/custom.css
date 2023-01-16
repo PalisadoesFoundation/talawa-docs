@@ -1,4 +1,3 @@
-/* stylelint-disable docusaurus/copyright-header */
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -7,15 +6,114 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  --ifm-color-primary: #f7912d;
+  --ifm-color-primary-dark: #cc4a00;
+  --ifm-color-primary-darker: #993800;
+  --ifm-color-primary-darkest: #662500;
+  --ifm-color-primary-light: #ff7d33;
+  --ifm-color-primary-lighter: #ff9e66;
+  --ifm-color-primary-lightest: #ffbe99;
+
+  --ifm-color-gray-100: #e3e3e6;
+  --ifm-color-gray-200: #c9c9cc;
+  --ifm-color-gray-300: #b0b0b3;
+  --ifm-color-gray-400: #979799;
+  --ifm-color-gray-500: #7e7e80;
+  --ifm-color-gray-600: #656566;
+  --ifm-color-gray-700: #4c4c4d;
+  --ifm-color-gray-800: #323233;
+  --ifm-color-gray-900: #19191a;
+
+  --ifm-background-surface-color: var(--ifm-color-white);
+
+  --ifm-menu-color: var(--ifm-color-gray-600);
+  --ifm-toc-link-color: var(--ifm-color-gray-600);
+
+  --ifm-code-font-size: 95%;
+  --ifm-toc-border-color: transparent;
+
+  --ifm-code-background: #e5ecff;
+  --ifm-code-color: #0087ff;
+
+  --ifm-color-content: #000e33;
+
+  --ifm-heading-line-height: 1.5;
+  --ifm-h1-font-size: 2.25rem;
+  --ifm-h2-font-size: 1.875rem;
+
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-search-input-background-color: var(--ifm-color-gray-100);
+  --ifm-navbar-search-input-color: var(--ifm-color-content);
+
+  --ifm-table-stripe-background: #efeff2;
+  --ifm-font-family-base: Inter, system-ui, -apple-system, Segoe UI, Roboto,
+    Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI',
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  --ifm-font-family-monospace: 'IBM Plex Mono', SFMono-Regular, Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #000e33;
+  --ifm-background-surface-color: var(--ifm-background-color);
+
+  --ifm-menu-color: var(--ifm-color-gray-200);
+  --ifm-toc-link-color: var(--ifm-color-gray-200);
+
+  --ifm-code-background: #001b66;
+  --ifm-color-content: var(--ifm-color-white);
+
+  --ifm-navbar-search-input-background-color: #001b66;
+  --ifm-table-stripe-background: #001242;
+  --ifm-navbar-search-input-placeholder-color: var(--ifm-color-gray-200);
+  --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23C9C9CC" alt="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+/* .menu--responsive > .menu__list > .menu__list-item:not(:last-of-type):not(.menu__list-item--collapsed) {
+  margin-bottom: 3rem;
+}
+
+.table-of-contents > li:not(:last-of-type) > ul {
+  margin-bottom: 1.5rem;
+} */
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -24,11 +122,138 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-:root .hero__img{
-  margin: 48px 0;
-  height: 32px;
+.table-of-contents {
+  font-size: 0.75rem;
 }
 
-:root .hero__title{
-  font-size: 2.5rem;
+h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
+  font-size: var(--ifm-h1-font-size);
+  margin-bottom: 1.5rem;
 }
+
+.menu__link {
+  line-height: 1.5;
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 1.875rem;
+  margin-bottom: 1.5rem;
+  margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * 1rem);
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * 1rem);
+}
+
+.navbar__items--right > .navbar__item:not(:first-of-type) {
+  margin-left: 2.75rem;
+}
+
+.markdown {
+  --ifm-h1-vertical-rhythm-top: 3;
+  --ifm-h2-vertical-rhythm-top: 4.5;
+  --ifm-h3-vertical-rhythm-top: 2.5;
+  --ifm-heading-vertical-rhythm-top: 1.25;
+  --ifm-h1-vertical-rhythm-bottom: 1.25;
+}
+
+.header-github-link:hover {
+  opacity: 0.6;
+}
+
+.github-button {
+  background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
+  border: none;
+  border-radius: 4px;
+  padding: 7px 21px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  margin-right: 2.75rem;
+}
+
+.github-button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-github-link:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: flex;
+  background: url('/img/github.svg') no-repeat;
+  position: relative;
+  right: 8px;
+  top: 1px;
+}
+
+.markdown > button {
+  background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
+  border: none;
+  border-radius: 5px;
+  padding: 16.8px 32px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.8s;
+  font-size: 16px;
+}
+
+.markdown > button:hover {
+  background: linear-gradient(90deg, #ff3600 30%, #ff8100 78%);
+}
+
+@media (max-width: 996px) {
+  .navbar__item.github-button {
+    display: none;
+  }
+
+  .github-button {
+    margin: var(--ifm-menu-link-padding-vertical)
+      var(--ifm-menu-link-padding-horizontal);
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar__items--right > .navbar__item:not(:first-of-type) {
+    margin-left: 0.25rem;
+  }
+
+  .github-button {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 1149px) and (min-width: 1050px) {
+  .navbar__items--right > .navbar__item:not(:first-of-type) {
+    margin-left: 1.5rem;
+  }
+
+  .github-button {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 1049px) and (min-width: 1001px) {
+  .navbar__items--right > .navbar__item:not(:first-of-type) {
+    margin-left: 0.5rem;
+  }
+
+  .github-button {
+    margin-right: 0.5rem;
+  }
+}
+
+/* html[data-theme='dark'] .header-github-link:before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' fill='#ffffff'%3E%3Cpath d='M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12'/%3E%3C/svg%3E")
+    no-repeat;
+} */
