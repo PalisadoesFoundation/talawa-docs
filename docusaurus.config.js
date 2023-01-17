@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
+  deploymentBranch: 'develop',
   organizationName: 'PalisadoesFoundation',
   projectName: 'talawa-docs',
   i18n: {
