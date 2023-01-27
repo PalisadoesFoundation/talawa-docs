@@ -8,7 +8,6 @@ module.exports = {
     ],
     Talawa: [
       "talawa/talawa-introduction",
-      "talawa/talawa-developer-environment",
     ],
     "Talawa API": [
       "talawa-api/api-overview",
