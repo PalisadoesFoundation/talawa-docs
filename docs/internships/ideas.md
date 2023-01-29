@@ -82,7 +82,7 @@ Here are the features we'd like to implement in the coming months.
          1. Integration with other advertising platforms should be considered.
    2. **Spam Mitigation**:
       1. Detect whether a a user is spamming organization chat and news feed messages.
-      2. **Expected Outcomes:**
+      2. **Features:**
          1. A reliable method to intercept new messages
          1. An accurate subsystem to evaluate the `spaminess` of messages using both implied and explicit triggers.
          1. Notification of the Talawa-Admin users of potential spam
@@ -184,6 +184,29 @@ Here are the features we'd like to implement in the coming months.
    1. _Notifications_
       1. Implement a notification scheme that is suitable for major forseeable use cases.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 175 hours
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Difficulty:** Medium
+1. **Impact Definition:** Risky/Exploratory
+
+### Admin: Checkins
+
+1. **Description:** We need a way for users to track who attended what event and when. This is important for many reasons:
+   1. Security: Some organizations have events that provide child care.
+   1. Management: The ability to track attendance trends and investigate ways to improve it.
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
+    1. Attendance registration for care givers and those they care for
+    1. The ability to print sticky labels for attendees
+    1. Safeguards to make sure parents of children are easily matched
+    1. An event dashboard listing attendees and contact details
+    1. Attendance reporting over date ranges
+    1. Notifications when people stop attending
+    1. The ability to limit volunteers using Admin to only the checkin screens
+    1. Usability on a variety of screen sizes
+    1. Any others you can think of!
+1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 175 hours
