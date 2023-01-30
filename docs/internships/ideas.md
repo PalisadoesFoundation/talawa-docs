@@ -193,7 +193,7 @@ Here are the features we'd like to implement in the coming months.
 
 ### Admin: Checkins
 
-1. **Description:** We need a way for users to track who attended what event and when. This is important for many reasons:
+1. **Description:** We need a way for Admin users to track who attended what event and when. Administrators cannot depend on people using their phones to do this, so it will need to be done by volunteers using Talawa-Admin. This is important for many reasons:
    1. Security: Some organizations have events that provide child care.
    1. Management: The ability to track attendance trends and investigate ways to improve it.
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
@@ -205,14 +205,36 @@ Here are the features we'd like to implement in the coming months.
     1. Notifications when people stop attending
     1. The ability to limit volunteers using Admin to only the checkin screens
     1. Usability on a variety of screen sizes
+    1. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
     1. Any others you can think of!
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Project Size:** TBD
+1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
+
+### Admin: Volunteer Event Management
+
+1. **Description:** The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. The ability to:
+    1. Easily add custom role tags to members of the organization
+    1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
+    1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
+    1. See all scheduled events in an organization wide calendar.
+    1. Assign volunteers to any event.
+    1. Assign leaders to any event.
+    1. Reference links (1)
+    1. Any others you can think of!    
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** TBD
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Risky/Exploratory
+
 
 ### Improvements for the Automated Documentation Pipeline
 
