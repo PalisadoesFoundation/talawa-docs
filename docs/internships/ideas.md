@@ -225,7 +225,7 @@ Here are the features we'd like to implement in the coming months.
     1. See all scheduled events in an organization wide calendar.
     1. Assign volunteers to any event.
     1. Assign leaders to any event.
-    1. Reference links (1)
+    1. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
     1. Any others you can think of!    
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
