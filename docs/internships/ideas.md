@@ -174,7 +174,7 @@ Here are the features we'd like to implement in the coming months.
 
 1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
    1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
-   1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events.
+   1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events. Similarly, mobile app users should be able to notify administrators of inappropriate posts with the administrator having the ability to alert and eventually disable accounts from the Admin panel.
 1. **Expected Outcomes:**
    1. _New Members_
       1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
