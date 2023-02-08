@@ -134,25 +134,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### API: Simplify the Codebase
-
-1. **Description:** Our backend code needs better structure. The approach has introduced these challenges:
-   1. Code complexity creates instability. It also makes trouble shooting, testing and scalability difficult.
-   1. The exclusive use of functions means the code is reused inefficiently.
-1. **Expected Outcomes:**
-   1. Research and suggest a preferred way of fixing these challenges. Suggesting paradigms to restructure the code under.This should be discussed with a mentor first to create a code style consistent with our standards.
-   1. The solution must:
-      1. Limit the need for contributors to learn new technologies. In other words it must be easy to contribute to more than one of our repos based on existing knowledge.
-      1. Implement a strategy that requires no changes to the Talawa mobile app and Talawa-Admin.
-      1. Achieve full test code coverage for maximum reliability
-1. **Repos to update:** Talawa-API
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Tasneem Koushar (GitHub: tasneemkoushar)
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
-
 ### Mobile App: Ability to Share Posts & Deep Linking
 
 1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts acorss other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. And also we need to implement deeplinking and dynamic link in the Talawa app, Deep linking provides you with a web browser link that points to a specific part of an app that is already installed. These links can also be set to navigate users to specific content pages like events, news updates, and more for better understanding go through [this blog](https://medium.flutterdevs.com/explore-deep-linking-in-flutter-26ad4301a99).
@@ -234,25 +215,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
-
-
-### Improvements for the Automated Documentation Pipeline
-
-1. **Description:** The Talawa, Talawa-API and Talawa-Admin repositories use pipelines to create documentation by coverting the comments from the files via a markdown language like TSDoc, DartDoc, etc in the respective repositories, and then add it to the Talawa Docs repo. This creates a seamless workflow for the creation of documentation that is automatically checked and added to the documentation website on the fly. However, there still needs to be some additional modifications to truely make this process more tenable.
-1. **Expected Outcomes:**
-   1. Develop a mechanism that enables users to choose between the commented and uncommented versions of the code when pulling it down from the repository. We are open to suggestions about how this could be implemented, but here are a few ways in which we think this could be done:
-      1. With a [CLI](https://en.wikipedia.org/wiki/Command-line_interface) tool that uses a flag to pick whether the commented or uncommented version should be chosen or using a [configuration system](https://en.wikipedia.org/wiki/Configuration_management) such as ectd or Apache Zookepper. The uncommented files could be stored in a cache such as Redis for quick access. This [repository](https://github.com/jameshaydon/diff-check) might provide some inspiration about how one would go about implementing this.
-      1. If an uncommented file is worked on by a contributer and then is pushed to the repository the user would be prompted to add comments to the corresponding commented file. Ideally the files should have a degree of modularity to ensure that this does not become too onerus for one to contribute.
-   1. Currently an unwiedly amount of HTML files are generated as artifacts in the documentation pipeline. This can cause performance issues in the future if unaddressed. A method needs to be implemented to bundle or collate the HTML files into chunks in such a way that the documentation website can have fast load times.
-   1. Better indexing for the search features for documentation website. We currently use Algolia search to index the relevant data. We need better heurstics for greater searchability.
-   1. Support/Integration for/with the creation of easy-to-create diagrams via [Typoporia](https://support.typora.io/Draw-Diagrams-With-Markdown/) and/or [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/) to enhance the comprehensiveness of the existing documenation.
-1. **Repos to update:** Talawa-API, Talawa, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anwer Sayeed (GitHub: anwersayeed)
-1. **Difficulty:** Medium
-1. **Impact Definition:** Infrastructure/Automation, Low-hanging fruit
 
 ### Functionality to Allow External Links to be Used Within the Talawa Application
 
