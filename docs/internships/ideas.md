@@ -147,11 +147,11 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Kukade Siddhesh (GitHub: SiddheshKukade)
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Mobile App: Improved Member Management
+### Mobile App: Improved Member Management and News Feed
 
 1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
    1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
@@ -161,13 +161,22 @@ Here are the features we'd like to implement in the coming months.
       1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
       1. The solution should ideally not require the use of third party services that require payment.
       1. There must be a way to allow only certain organization members to approve new members.
-      1. This feature needs to be managed via the Talawa-Admin portal
+      1. This feature needs to be managed via the Talawa-Admin portal.
+      2. Make sure the app does not have any admin features.
    1. _Notifications_
-      1. Implement a notification scheme that is suitable for major forseeable use cases.
+      1. Implement in-app notification scheme that is suitable for major forseeable use cases.
+   1. _Posts Improvement_
+      1. Improved user interface.
+      1. Abilty to report posts and people. 
+      1. Ability to tag people se they can be notified.
+      1. Ability to use #hashtags.
+      1. User can delete a post.
+      1. Feature to repost a post for better reach.
+      1. Enable various reactions to a post (currently user can only like the post).
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
+1. **Project Size:** 350 hours
 1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
@@ -186,13 +195,14 @@ Here are the features we'd like to implement in the coming months.
     1. Notifications when people stop attending
     1. The ability to limit volunteers using Admin to only the checkin screens
     1. Usability on a variety of screen sizes
-    1. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
-    1. Any others you can think of!
+    2. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
+    3. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
+    4. Any others you can think of!
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** TBD
-1. **Possible Mentors:** TBD
+1. **Project Size:** 350
+1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
@@ -206,13 +216,15 @@ Here are the features we'd like to implement in the coming months.
     1. See all scheduled events in an organization wide calendar.
     1. Assign volunteers to any event.
     1. Assign leaders to any event.
-    1. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
-    1. Any others you can think of!    
-1. **Repos to update:** Talawa-API, Talawa-Admin
+    2. Mobile app notification when someone has been added as "Volunteer".
+    3. Upcoming events for volunteers in mobile app.
+    4. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
+    5. Any others you can think of!    
+1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** TBD
-1. **Possible Mentors:** TBD
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Anthony (GitHub: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
