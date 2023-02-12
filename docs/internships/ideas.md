@@ -109,27 +109,38 @@ Here are the features we'd like to implement in the coming months.
 ### API: Improved Backend Performance and Security
 
 1. **Description:** The backend has some known deficiencies that need to be addressed.
-   1. The GraphQL interface used by the API and mobile app is prone to over-fetching data. This is also known as the `N+1 problem`. It also does not store data re-use in an optimal way.
+   1. The current graphQL implementation uses many anti-graphQL patterns. The root Query field should be used sparingly. All the data required by the client which is relational should be queriable under a single query field. Relay's node interface pattern needs to be introduced to make querying data objects which implement the node interface at any level therefore reducing the use of root Query field unnecessarily.
+   1. The resolvers need to be batched to avoid N+1 query problem in graphQL.
+   1. Computationally expensive relation fields in schema should be smartly resolved only when the clients specifically ask for those fields in their queries. Also circular references should be avoided whereever possible. The relation flow should always strive to go from the parent objects to child objects and not the other way around.
+   1. There needs to be a query cost analysis system which makes sure that clients can't make an enormously big query that could take down the database itself because of computational cost.
+   1. There needs to be strict input validation system which enforces certain conditions on the clients regarding the input they're sending through their queries. These checks would make sure that the incoming input from the clients is within the expected range of what the business layer expects.
    1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
    1. Data is insufficiently encrypted
-   1. There needs to be a way for Talawa mobile apps to have interoperability with older versions of the API. It is very possible that users will download the latest version of Talawa to work with a much older version of the API. The opposite could also be true after an upgrade of the API, with older versions of the mobile apps needing to communicate with a newer version of the API.
+   1. There needs to be a proper system in place to monitor changes in the graphQL schema. The schema should not introduce breaking changes without prior notice to the clients. Clients should be aware of all the changes happening in the schema so that they're able to migrate their code to work with the newer schema easily. Most of the times deprecated fields in the schema can be supported for long durations of time because graphQL gives us this flexibility.
 1. **Expected Outcomes:**
    1. _GraphQL_
+      1. Implement ways to resolve relational data whereever possible within a single query reducing the need to introduce fields on root Query type unnecessarily.
       1. Research and implement ways to batch queries for optimization.
+      1. Implement ways to prevent resolving certain computationally expensive fields unless the clients explicitly asks for them.
+      1. Implement a system for query cost analysis for incoming graphQL queries.
       1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
-      1. Update the mobile app to take advantage of these new features.
+      1. Update the client apps to make use of graphQL's data normalization feature.
+   1. _Input Validation_
+      1. Research and implement ways to valdate user input.
+      1. Implement a functionality to return proper errors to the clients describing exactly the problems their input has. A certain level of immutability should be present so that the clients designing their UI behaviours according to these errors don't have to deal with their UI implementations breaking because of changes in returned errors.
+      1. The strategy should take type-safety and code reuse into consideration.
    1. _Access Security_
       1. Implement roles tied to access and refresh token keys
    1. _Encryption_
       1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal.
       1. Implement ways to encrypt PII data stored on disk.
-   1. _Versioning_
-      1. An API upgrade must not affect users of the Talawa mobile app which may be older.
-      1. Differing ways of achieving this must be considered and evaluated for practicality.
+   1. _GraphQL schema monitoring_
+      1. Implment ways to monitor different level of changes in the graphQL schema.
+      1. Implement ways to inform clients of newly added, deprecated or removed fields from the graphQL schema.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 175 hours
+1. **Project Size:** 350 hours
 1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
@@ -155,19 +166,19 @@ Here are the features we'd like to implement in the coming months.
 
 1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
    1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
-   1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events. Similarly, mobile app users should be able to notify administrators of [inappropriate behavior](https://github.com/PalisadoesFoundation/talawa-api/issues/237) with the administrator having the ability to alert and eventually take disabling actions from the Admin panel. 
+   1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events. Similarly, mobile app users should be able to notify administrators of [inappropriate behavior](https://github.com/PalisadoesFoundation/talawa-api/issues/237) with the administrator having the ability to alert and eventually take disabling actions from the Admin panel.
 1. **Expected Outcomes:**
    1. _New Members_
       1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
       1. The solution should ideally not require the use of third party services that require payment.
       1. There must be a way to allow only certain organization members to approve new members.
       1. This feature needs to be managed via the Talawa-Admin portal.
-      2. Make sure the app does not have any admin features.
+      1. Make sure the app does not have any admin features.
    1. _Notifications_
       1. Implement in-app notification scheme that is suitable for major forseeable use cases.
    1. _Posts Improvement_
       1. Improved user interface.
-      1. Abilty to report posts and people. 
+      1. Abilty to report posts and people.
       1. Ability to tag people se they can be notified.
       1. Ability to use #hashtags.
       1. User can delete a post.
@@ -187,17 +198,17 @@ Here are the features we'd like to implement in the coming months.
    1. Security: Some organizations have events that provide child care.
    1. Management: The ability to track attendance trends and investigate ways to improve it.
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
-    1. Attendance registration for care givers and those they care for
-    1. The ability to print sticky labels for attendees
-    1. Safeguards to make sure parents of children are easily matched
-    1. An event dashboard listing attendees and contact details
-    1. Attendance reporting over date ranges
-    1. Notifications when people stop attending
-    1. The ability to limit volunteers using Admin to only the checkin screens
-    1. Usability on a variety of screen sizes
-    2. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
-    3. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
-    4. Any others you can think of!
+   1. Attendance registration for care givers and those they care for
+   1. The ability to print sticky labels for attendees
+   1. Safeguards to make sure parents of children are easily matched
+   1. An event dashboard listing attendees and contact details
+   1. Attendance reporting over date ranges
+   1. Notifications when people stop attending
+   1. The ability to limit volunteers using Admin to only the checkin screens
+   1. Usability on a variety of screen sizes
+   1. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
+   1. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
+   1. Any others you can think of!
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -210,16 +221,16 @@ Here are the features we'd like to implement in the coming months.
 
 1. **Description:** The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. The ability to:
-    1. Easily add custom role tags to members of the organization
-    1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
-    1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
-    1. See all scheduled events in an organization wide calendar.
-    1. Assign volunteers to any event.
-    1. Assign leaders to any event.
-    2. Mobile app notification when someone has been added as "Volunteer".
-    3. Upcoming events for volunteers in mobile app.
-    4. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
-    5. Any others you can think of!    
+   1. Easily add custom role tags to members of the organization
+   1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
+   1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
+   1. See all scheduled events in an organization wide calendar.
+   1. Assign volunteers to any event.
+   1. Assign leaders to any event.
+   1. Mobile app notification when someone has been added as "Volunteer".
+   1. Upcoming events for volunteers in mobile app.
+   1. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
+   1. Any others you can think of!
 1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -230,7 +241,7 @@ Here are the features we'd like to implement in the coming months.
 
 ### Functionality to Allow External Links to be Used Within the Talawa Application
 
-1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising. 
+1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
 1. **Expected Outcomes:**
    1. Research and suggest a preferred way of implementing this strategy.
    1. Implement the strategy so that it is transparent to the mobile app.
@@ -265,9 +276,9 @@ Here are the features we'd like to implement in the coming months.
    1. Research and suggest a preferred way of implementing this strategy.
    1. Implement the strategy so that it is transparent to the mobile app.
    1. Code ways to configure this solution simply via the Admin portal.
-   1. Think of: 
-       1. New levels of authorization and security that may be required.
-       1. Interesting features that would be required for this to be implemented.
+   1. Think of:
+      1. New levels of authorization and security that may be required.
+      1. Interesting features that would be required for this to be implemented.
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
