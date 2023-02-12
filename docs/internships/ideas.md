@@ -239,7 +239,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anwer Sayeed (GitHub: anwersayeed)
+1. **Possible Mentors:** Tasneem Koushar (Github: tasneemkoushar), Anwer Sayeed (GitHub: anwersayeed)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
