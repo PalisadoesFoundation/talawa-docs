@@ -67,9 +67,9 @@ Most of our project ideas require knowledge of two or more programming languages
 1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed.
 1. **Easy:** A beginner's level knowledge of the languages is sufficient.
 
-## Primary Idea Areas
+## Mobile App - Primary Idea Areas
 
-Here are the features we'd like to implement in the coming months.
+This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app
 
 ### Mobile App: Creating new features and refactoring existing features into Plugins
 
@@ -105,6 +105,88 @@ Here are the features we'd like to implement in the coming months.
 1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
+
+### Mobile App: Ability to Share Posts & Deep Linking
+
+1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts acorss other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. And also we need to implement deeplinking and dynamic link in the Talawa app, Deep linking provides you with a web browser link that points to a specific part of an app that is already installed. These links can also be set to navigate users to specific content pages like events, news updates, and more for better understanding go through [this blog](https://medium.flutterdevs.com/explore-deep-linking-in-flutter-26ad4301a99).
+1. **Expected Outcomes:**
+   1. Design public posts API and data models.
+      1. Ability to make posts public via Admin Portal.
+      1. Ability to share them to others apps via Mobile app.
+      1. Implementing logic for built-in SEO for the post.
+   1. Implement deeplinking and dynamic links in the mobile app.
+1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+### Mobile App: Improved Member Management and News Feed
+
+1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
+   1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
+   1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events. Similarly, mobile app users should be able to notify administrators of [inappropriate behavior](https://github.com/PalisadoesFoundation/talawa-api/issues/237) with the administrator having the ability to alert and eventually take disabling actions from the Admin panel.
+1. **Expected Outcomes:**
+   1. _New Members_
+      1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
+      1. The solution should ideally not require the use of third party services that require payment.
+      1. There must be a way to allow only certain organization members to approve new members.
+      1. This feature needs to be managed via the Talawa-Admin portal.
+      1. Make sure the app does not have any admin features.
+   1. _Notifications_
+      1. Implement in-app notification scheme that is suitable for major forseeable use cases.
+   1. _Posts Improvement_
+      1. Improved user interface.
+      1. Abilty to report posts and people.
+      1. Ability to tag people so they can be notified.
+      1. Ability to use #hashtags.
+      1. User can delete a post.
+      1. Feature to repost a post for better reach.
+      1. Enable various reactions to a post (currently user can only like the post).
+      1. Evaluate whether we need newsfeed posts with titles
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Difficulty:** Medium
+1. **Impact Definition:** Risky/Exploratory
+
+### Mobile App: Functionality to Allow External Links to be Used Within the Talawa Application
+
+1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
+1. **Expected Outcomes:**
+   1. Research and suggest a preferred way of implementing this strategy.
+   1. Implement the strategy so that it is transparent to the mobile app.
+   1. Code ways to configure this solution simply via the Admin portal.
+1. **Repos to update:** Talawa-API, Talawa-Admin.
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Tasneem Koushar (Github: tasneemkoushar), Anwer Sayeed (GitHub: anwersayeed)
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+## API - Primary Idea Areas
+
+This section outlines the primary features we'd like to implement in the coming months for Talawa API
+
+### API: Multi-Tennancy
+
+1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
+1. **Expected Outcomes:**
+   1. Research and suggest a preferred way of implementing this strategy.
+   1. Implement the strategy so that it is transparent to the mobile app.
+   1. Code ways to configure this solution simply via the Admin portal.
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken)
+1. **Difficulty:** Hard
+1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### API: Improved Backend Performance and Security
 
@@ -145,70 +227,80 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### Mobile App: Ability to Share Posts & Deep Linking
+## Admin - Primary Idea Areas
 
-1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts acorss other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. And also we need to implement deeplinking and dynamic link in the Talawa app, Deep linking provides you with a web browser link that points to a specific part of an app that is already installed. These links can also be set to navigate users to specific content pages like events, news updates, and more for better understanding go through [this blog](https://medium.flutterdevs.com/explore-deep-linking-in-flutter-26ad4301a99).
-1. **Expected Outcomes:**
-   1. Design public posts API and data models.
-      1. Ability to make posts public via Admin Portal.
-      1. Ability to share them to others apps via Mobile app.
-      1. Implementing logic for built-in SEO for the post.
-   1. Implement deeplinking and dynamic links in the mobile app.
-1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
+This section outlines the primary features we'd like to implement in the coming months for Talawa Admin
 
-### Mobile App: Improved Member Management and News Feed
+### Admin: UI Redesign
 
-1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
-   1. Community organizations will not want to have open membership. At the moment anyone knowing the Talawa-API URL can join an organization. This could create opportunities for malicious actors.
-   1. Community organizations need to be able to send notifications to all, or groups of members. This could be required for natural disasters, fundraisers, functions or other significant events. Similarly, mobile app users should be able to notify administrators of [inappropriate behavior](https://github.com/PalisadoesFoundation/talawa-api/issues/237) with the administrator having the ability to alert and eventually take disabling actions from the Admin panel.
-1. **Expected Outcomes:**
-   1. _New Members_
-      1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
-      1. The solution should ideally not require the use of third party services that require payment.
-      1. There must be a way to allow only certain organization members to approve new members.
-      1. This feature needs to be managed via the Talawa-Admin portal.
-      1. Make sure the app does not have any admin features.
-   1. _Notifications_
-      1. Implement in-app notification scheme that is suitable for major forseeable use cases.
-   1. _Posts Improvement_
-      1. Improved user interface.
-      1. Abilty to report posts and people.
-      1. Ability to tag people se they can be notified.
-      1. Ability to use #hashtags.
-      1. User can delete a post.
-      1. Feature to repost a post for better reach.
-      1. Enable various reactions to a post (currently user can only like the post).
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
-1. **Difficulty:** Medium
-1. **Impact Definition:** Risky/Exploratory
-
-### Admin: Checkins
-
-1. **Description:** We need a way for Admin users to track who attended what event and when. Administrators cannot depend on people using their phones to do this, so it will need to be done by volunteers using Talawa-Admin. This is important for many reasons:
-   1. Security: Some organizations have events that provide child care.
-   1. Management: The ability to track attendance trends and investigate ways to improve it.
+1. **Description:** The current Talawa-Admin design is insufficiently intuitive. There are also many buttons that are unused without any indication that they are disabled. We need a UI that considers the users perspective. This should be done with the following general considerations
+   1. Deployment: We want to avoid the size of any required initial monolithic change. Changes must be incremental, possibly one screen at a time. All tests must pass with each change.
+   1. Layouts: Layouts will need to be created for use by other members to implement features
+   1. Timeliness: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
+   1. Placeholders: We want placeholder links for all planned features as a reminder that they need to be implemented. These unused placeholders should be greyed out.
+   1. Coding: We expect the layouts to be coded in Typescript by the person assigned this idea
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
-   1. Attendance registration for care givers and those they care for
-   1. The ability to print sticky labels for attendees
-   1. Safeguards to make sure parents of children are easily matched
-   1. An event dashboard listing attendees and contact details
-   1. Attendance reporting over date ranges
-   1. Notifications when people stop attending
-   1. The ability to limit volunteers using Admin to only the checkin screens
-   1. Usability on a variety of screen sizes
-   1. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
-   1. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
-   1. Any others you can think of!
+   1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events and plugins
+   1. Intuitive layouts and workflows for:
+       1. Managing multiple organizations
+       1. Doing CRUD activities for people, tags and events
+       1. Filtering people and tags
+       1. Viewing organization events
+       1. Requesting volunteers at events
+       1. Doing event checkins
+   1. Any others you can think of!   
+   1. Reference Links: 
+      - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+      - [Inspiration demo site](https://www.breezechms.com/)
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development
+
+### Admin: Improved Event Management
+There are many ways in which event management could be improved. Here are some considerations.
+
+1. **Description:** 
+   1. **Volunteer Management**: The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
+   1. **Checkins**: We need a way for Admin users to track who attended what event and when. Administrators cannot depend on people using their phones to do this, so it will need to be done by volunteers using Talawa-Admin. This is important for many reasons:
+       1. Security: Some organizations have events that provide child care.
+       1. Management: The ability to track attendance trends and investigate ways to improve it.
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
+   1. **Event Calendar**:
+      1. The organization's event calendar needs to more closely resemble a calendar.
+   1. **Volunteer Management**:
+      1. Easily add custom role tags to members of the organization
+      1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
+      1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
+      1. See all scheduled events in an organization wide calendar.
+      1. Assign volunteers to any event.
+      1. Assign leaders to any event.
+      1. Mobile app notification when someone has been added as "Volunteer".
+      1. Upcoming events for volunteers in mobile app.
+      1. Any others you can think of!   
+      1. Reference links:
+         - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+         - [Inspiration demo site](https://www.breezechms.com/)
+         - [Similar functionality on YouTube #1](https://www.youtube.com/watch?v=0NFze2bM5eE)
+   1. **Checkins**
+      1. Attendance registration for care givers and those they care for
+      1. The ability to print sticky labels for attendees
+      1. Safeguards to make sure parents of children are easily matched
+      1. An event dashboard listing attendees and contact details
+      1. Attendance reporting over date ranges
+      1. Notifications when people stop attending
+      1. The ability to limit volunteers using Admin to only the checkin screens
+      1. Usability on a variety of screen sizes
+      1. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
+      1. Any others you can think of!
+      1. Reference links: 
+         - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+         - [Inspiration demo site](https://www.breezechms.com/)
+         - [Similar functionality on YouTube #2](https://www.youtube.com/watch?v=TOxBoMVWaF4)
+         - [Similar functionality on YouTube #3](https://www.youtube.com/watch?v=PqAfFs30-vY)
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -217,57 +309,28 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Admin: Volunteer Event Management
+### Admin: Improved People and Newsfeed Management
 
-1. **Description:** The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
-1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. The ability to:
-   1. Easily add custom role tags to members of the organization
-   1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
-   1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
-   1. See all scheduled events in an organization wide calendar.
-   1. Assign volunteers to any event.
-   1. Assign leaders to any event.
-   1. Mobile app notification when someone has been added as "Volunteer".
-   1. Upcoming events for volunteers in mobile app.
-   1. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
+1. **Description:** The Talawa admin panel does not intuitively manage people assigned to an organization. We need:
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. 
+   1. **People and Tags**: The ability to easily:
+      1. see listings of users
+      1. search and filter for users by assigned tag or profile characteristic
+      1. implement CRUD management for all 
+   1. **Newsfeed**: The ability to easily:
+      1. view and post to the talawa newsfeed
+      1. respond to reported newsfeed posts and take appropriate action
    1. Any others you can think of!
+   1. Reference links
+      - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+      - [Similar functionality on YouTube](https://www.breezechms.com/)
 1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anthony (GitHub: tonythegr8)
+1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
-
-### Mobile App: Functionality to Allow External Links to be Used Within the Talawa Application
-
-1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
-1. **Expected Outcomes:**
-   1. Research and suggest a preferred way of implementing this strategy.
-   1. Implement the strategy so that it is transparent to the mobile app.
-   1. Code ways to configure this solution simply via the Admin portal.
-1. **Repos to update:** Talawa-API, Talawa-Admin.
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Tasneem Koushar (Github: tasneemkoushar), Anwer Sayeed (GitHub: anwersayeed)
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
-
-### API: Multi-Tennancy
-
-1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
-1. **Expected Outcomes:**
-   1. Research and suggest a preferred way of implementing this strategy.
-   1. Implement the strategy so that it is transparent to the mobile app.
-   1. Code ways to configure this solution simply via the Admin portal.
-1. **Repos to update:** Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken)
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Admin: Multi-Tennancy (Cloud)
 
