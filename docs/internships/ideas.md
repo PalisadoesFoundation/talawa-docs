@@ -140,11 +140,12 @@ This section outlines the primary features we'd like to implement in the coming 
    1. _Posts Improvement_
       1. Improved user interface.
       1. Abilty to report posts and people.
-      1. Ability to tag people se they can be notified.
+      1. Ability to tag people so they can be notified.
       1. Ability to use #hashtags.
       1. User can delete a post.
       1. Feature to repost a post for better reach.
       1. Enable various reactions to a post (currently user can only like the post).
+      1. Evaluate whether we need newsfeed posts with titles
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -308,13 +309,17 @@ There are many ways in which event management could be improved. Here are some c
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Admin: Improved People Management
+### Admin: Improved People and Newsfeed Management
 
 1. **Description:** The Talawa admin panel does not intuitively manage people assigned to an organization. We need:
-1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. The ability to easily:
-   1. see listings of users
-   1. search and filter for users
-   1. implement CRUD management for all 
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. 
+   1. **People and Tags**: The ability to easily:
+      1. see listings of users
+      1. search and filter for users by assigned tag or profile characteristic
+      1. implement CRUD management for all 
+   1. **Newsfeed**: The ability to easily:
+      1. view and post to the talawa newsfeed
+      1. respond to reported newsfeed posts and take appropriate action
    1. Any others you can think of!
    1. Reference links
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
