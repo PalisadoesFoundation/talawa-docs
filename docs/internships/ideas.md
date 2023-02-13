@@ -67,9 +67,9 @@ Most of our project ideas require knowledge of two or more programming languages
 1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed.
 1. **Easy:** A beginner's level knowledge of the languages is sufficient.
 
-## Primary Idea Areas
+## Mobile App - Primary Idea Areas
 
-Here are the features we'd like to implement in the coming months.
+This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app
 
 ### Mobile App: Creating new features and refactoring existing features into Plugins
 
@@ -105,45 +105,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
-
-### API: Improved Backend Performance and Security
-
-1. **Description:** The backend has some known deficiencies that need to be addressed.
-   1. The current graphQL implementation uses many anti-graphQL patterns. The root Query field should be used sparingly. All the data required by the client which is relational should be queriable under a single query field. Relay's node interface pattern needs to be introduced to make querying data objects which implement the node interface at any level therefore reducing the use of root Query field unnecessarily.
-   1. The resolvers need to be batched to avoid N+1 query problem in graphQL.
-   1. Computationally expensive relation fields in schema should be smartly resolved only when the clients specifically ask for those fields in their queries. Also circular references should be avoided whereever possible. The relation flow should always strive to go from the parent objects to child objects and not the other way around.
-   1. There needs to be a query cost analysis system which makes sure that clients can't make an enormously big query that could take down the database itself because of computational cost.
-   1. There needs to be strict input validation system which enforces certain conditions on the clients regarding the input they're sending through their queries. These checks would make sure that the incoming input from the clients is within the expected range of what the business layer expects.
-   1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
-   1. Data is insufficiently encrypted
-   1. There needs to be a proper system in place to monitor changes in the graphQL schema. The schema should not introduce breaking changes without prior notice to the clients. Clients should be aware of all the changes happening in the schema so that they're able to migrate their code to work with the newer schema easily. Most of the times deprecated fields in the schema can be supported for long durations of time because graphQL gives us this flexibility.
-1. **Expected Outcomes:**
-   1. _GraphQL_
-      1. Implement ways to resolve relational data whereever possible within a single query reducing the need to introduce fields on root Query type unnecessarily.
-      1. Research and implement ways to batch queries for optimization.
-      1. Implement ways to prevent resolving certain computationally expensive fields unless the clients explicitly asks for them.
-      1. Implement a system for query cost analysis for incoming graphQL queries.
-      1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
-      1. Update the client apps to make use of graphQL's data normalization feature.
-   1. _Input Validation_
-      1. Research and implement ways to valdate user input.
-      1. Implement a functionality to return proper errors to the clients describing exactly the problems their input has. A certain level of immutability should be present so that the clients designing their UI behaviours according to these errors don't have to deal with their UI implementations breaking because of changes in returned errors.
-      1. The strategy should take type-safety and code reuse into consideration.
-   1. _Access Security_
-      1. Implement roles tied to access and refresh token keys
-   1. _Encryption_
-      1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal.
-      1. Implement ways to encrypt PII data stored on disk.
-   1. _GraphQL schema monitoring_
-      1. Implment ways to monitor different level of changes in the graphQL schema.
-      1. Implement ways to inform clients of newly added, deprecated or removed fields from the graphQL schema.
-1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
-1. **Difficulty:** Medium
-1. **Impact Definition:** Core development, Risky/Exploratory
 
 ### Mobile App: Ability to Share Posts & Deep Linking
 
@@ -192,53 +153,6 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Admin: Checkins
-
-1. **Description:** We need a way for Admin users to track who attended what event and when. Administrators cannot depend on people using their phones to do this, so it will need to be done by volunteers using Talawa-Admin. This is important for many reasons:
-   1. Security: Some organizations have events that provide child care.
-   1. Management: The ability to track attendance trends and investigate ways to improve it.
-1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
-   1. Attendance registration for care givers and those they care for
-   1. The ability to print sticky labels for attendees
-   1. Safeguards to make sure parents of children are easily matched
-   1. An event dashboard listing attendees and contact details
-   1. Attendance reporting over date ranges
-   1. Notifications when people stop attending
-   1. The ability to limit volunteers using Admin to only the checkin screens
-   1. Usability on a variety of screen sizes
-   1. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
-   1. Reference links ([1](https://www.youtube.com/watch?v=TOxBoMVWaF4)), ([2](https://www.youtube.com/watch?v=PqAfFs30-vY))
-   1. Any others you can think of!
-1. **Repos to update:** Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350
-1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
-1. **Difficulty:** Medium
-1. **Impact Definition:** Risky/Exploratory
-
-### Admin: Volunteer Event Management
-
-1. **Description:** The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
-1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. The ability to:
-   1. Easily add custom role tags to members of the organization
-   1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
-   1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
-   1. See all scheduled events in an organization wide calendar.
-   1. Assign volunteers to any event.
-   1. Assign leaders to any event.
-   1. Mobile app notification when someone has been added as "Volunteer".
-   1. Upcoming events for volunteers in mobile app.
-   1. Reference links ([1](https://www.youtube.com/watch?v=0NFze2bM5eE))
-   1. Any others you can think of!
-1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anthony (GitHub: tonythegr8)
-1. **Difficulty:** Medium
-1. **Impact Definition:** Risky/Exploratory
-
 ### Mobile App: Functionality to Allow External Links to be Used Within the Talawa Application
 
 1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
@@ -254,6 +168,10 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
+## API - Primary Idea Areas
+
+This section outlines the primary features we'd like to implement in the coming months for Talawa API
+
 ### API: Multi-Tennancy
 
 1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
@@ -268,6 +186,146 @@ Here are the features we'd like to implement in the coming months.
 1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
+
+### API: Improved Backend Performance and Security
+
+1. **Description:** The backend has some known deficiencies that need to be addressed.
+   1. The current graphQL implementation uses many anti-graphQL patterns. The root Query field should be used sparingly. All the data required by the client which is relational should be queriable under a single query field. Relay's node interface pattern needs to be introduced to make querying data objects which implement the node interface at any level therefore reducing the use of root Query field unnecessarily.
+   1. The resolvers need to be batched to avoid N+1 query problem in graphQL.
+   1. Computationally expensive relation fields in schema should be smartly resolved only when the clients specifically ask for those fields in their queries. Also circular references should be avoided whereever possible. The relation flow should always strive to go from the parent objects to child objects and not the other way around.
+   1. There needs to be a query cost analysis system which makes sure that clients can't make an enormously big query that could take down the database itself because of computational cost.
+   1. There needs to be strict input validation system which enforces certain conditions on the clients regarding the input they're sending through their queries. These checks would make sure that the incoming input from the clients is within the expected range of what the business layer expects.
+   1. The API allows anyone to do updates. There is security by obfuscation where capabilities are not presented to the user, but are still available. This allows for malicious actors to adversely affect organizations.
+   1. Data is insufficiently encrypted
+   1. There needs to be a proper system in place to monitor changes in the graphQL schema. The schema should not introduce breaking changes without prior notice to the clients. Clients should be aware of all the changes happening in the schema so that they're able to migrate their code to work with the newer schema easily. Most of the times deprecated fields in the schema can be supported for long durations of time because graphQL gives us this flexibility.
+1. **Expected Outcomes:**
+   1. _GraphQL_
+      1. Implement ways to resolve relational data whereever possible within a single query reducing the need to introduce fields on root Query type unnecessarily.
+      1. Research and implement ways to batch queries for optimization.
+      1. Implement ways to prevent resolving certain computationally expensive fields unless the clients explicitly asks for them.
+      1. Implement a system for query cost analysis for incoming graphQL queries.
+      1. Evaluate and code ways to selectively cache data for reuse depending on the use case.
+      1. Update the client apps to make use of graphQL's data normalization feature.
+   1. _Input Validation_
+      1. Research and implement ways to valdate user input.
+      1. Implement a functionality to return proper errors to the clients describing exactly the problems their input has. A certain level of immutability should be present so that the clients designing their UI behaviours according to these errors don't have to deal with their UI implementations breaking because of changes in returned errors.
+      1. The strategy should take type-safety and code reuse into consideration.
+   1. _Access Security_
+      1. Implement roles tied to access and refresh token keys
+   1. _Encryption_
+      1. Implement ways to encrypt all information exchanged between the API, the mobile app and the Talawa Admin portal.
+      1. Implement ways to encrypt PII data stored on disk.
+   1. _GraphQL schema monitoring_
+      1. Implment ways to monitor different level of changes in the graphQL schema.
+      1. Implement ways to inform clients of newly added, deprecated or removed fields from the graphQL schema.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+## Admin - Primary Idea Areas
+
+This section outlines the primary features we'd like to implement in the coming months for Talawa Admin
+
+### Admin: UI Redesign
+
+1. **Description:** The current Talawa-Admin design is insufficiently intuitive. There are also many buttons that are unused without any indication that they are disabled. We need a UI that considers the users perspective. This should be done with the following general considerations
+   1. Deployment: We want to avoid the size of any required initial monolithic change. Changes must be incremental, possibly one screen at a time. All tests must pass with each change.
+   1. Layouts: Layouts will need to be created for use by other members to implement features
+   1. Timeliness: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
+   1. Placeholders: We want placeholder links for all planned features as a reminder that they need to be implemented. These unused placeholders should be greyed out.
+   1. Coding: We expect the layouts to be coded in Typescript by the person assigned this idea
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
+   1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events
+   1. Intuitive layouts and workflows for:
+       1. Managing multiple organizations
+       1. Doing CRUD activities for people, tags and events
+       1. Filtering people and tags
+       1. Viewing organization events
+       1. Requesting volunteers at events
+       1. Doing event checkins
+   1. Any others you can think of!   
+   1. Reference Links: 
+      - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+      - [Inspiration demo site](https://www.breezechms.com/)
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development
+
+### Admin: Improved Event Management
+There are many ways in which event management could be improved. Here are some considerations.
+
+1. **Description:** 
+   1. **Volunteer Management**: The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
+   1. **Checkins**: We need a way for Admin users to track who attended what event and when. Administrators cannot depend on people using their phones to do this, so it will need to be done by volunteers using Talawa-Admin. This is important for many reasons:
+       1. Security: Some organizations have events that provide child care.
+       1. Management: The ability to track attendance trends and investigate ways to improve it.
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
+   1. **Event Calendar**:
+      1. The organization's event calendar needs to more closely resemble a calendar.
+   1. **Volunteer Management**:
+      1. Easily add custom role tags to members of the organization
+      1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
+      1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
+      1. See all scheduled events in an organization wide calendar.
+      1. Assign volunteers to any event.
+      1. Assign leaders to any event.
+      1. Mobile app notification when someone has been added as "Volunteer".
+      1. Upcoming events for volunteers in mobile app.
+      1. Any others you can think of!   
+      1. Reference links:
+         - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+         - [Inspiration demo site](https://www.breezechms.com/)
+         - [Similar functionality on YouTube #1](https://www.youtube.com/watch?v=0NFze2bM5eE)
+   1. **Checkins**
+      1. Attendance registration for care givers and those they care for
+      1. The ability to print sticky labels for attendees
+      1. Safeguards to make sure parents of children are easily matched
+      1. An event dashboard listing attendees and contact details
+      1. Attendance reporting over date ranges
+      1. Notifications when people stop attending
+      1. The ability to limit volunteers using Admin to only the checkin screens
+      1. Usability on a variety of screen sizes
+      1. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
+      1. Any others you can think of!
+      1. Reference links: 
+         - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+         - [Inspiration demo site](https://www.breezechms.com/)
+         - [Similar functionality on YouTube #2](https://www.youtube.com/watch?v=TOxBoMVWaF4)
+         - [Similar functionality on YouTube #3](https://www.youtube.com/watch?v=PqAfFs30-vY)
+1. **Repos to update:** Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350
+1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
+1. **Difficulty:** Medium
+1. **Impact Definition:** Risky/Exploratory
+
+### Admin: Improved People Management
+
+1. **Description:** The Talawa admin panel does not intuitively manage people assigned to an organization. We need:
+1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. The ability to easily:
+   1. see listings of users
+   1. search and filter for users
+   1. implement CRUD management for all 
+   1. Any others you can think of!
+   1. Reference links
+      - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
+      - [Similar functionality on YouTube](https://www.breezechms.com/)
+1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Risky/Exploratory
 
 ### Admin: Multi-Tennancy (Cloud)
 
