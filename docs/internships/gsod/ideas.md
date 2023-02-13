@@ -109,16 +109,16 @@ There are others, but these are the main ones that will guide your contributions
 
 Here are the features we'd like to implement in the coming months.
 
-### Add Base Documentation to **Talawa** Repository
+### Add Base Documentation to **Talawa**, and **Talawa-admin** Repositories
 
 Since the introduction of the CI/CD pipeline for automating documentation, there has not been much activity on the bulk of the older files, leaving most of the codebase lacking in documentation. The goal of this task is to add comments on all of the existing methods, events and namespaces of all the classes within the Talawa repository.
 
-The previous Google Season of Docs (Gsod 2022) covered the rest two repositories: Talawa-admin, and Talawa-API.
+The previous Google Season of Docs (Gsod 2022) covered the repository: Talawa-API.
 
-* **Repo to update:** Talawa
-* **Skills Required:** The ideal candidate should be familiar with Typescript and in particular Node.js. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
+* **Repos to update:** Talawa, Talawa-admin.
+* **Skills Required:** The ideal candidate should be familiar with Typescript and in particular Node.js. They also need to be comfortable with using Git/Github and to update the documentation via pull requests. Additionally, knowledge of TSDocs is also required.
 * **How we measure sucess:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used. 
-* **Possible Mentors:** Eva Sharma  
+* **Possible Mentors:** Yet to be decided.
 * **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create Video Tutorials for **Talawa**, **Talawa API** and **Talawa-Admin**
@@ -140,7 +140,7 @@ Additional information follows:
 * **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 * **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
 * **How we measure sucess:** The creation of tutorials and how-to guides in different forms. 
-* **Possible Mentors:** Eva Sharma 
+* **Possible Mentors:** Yet to be decided. 
 * **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create testing guides for **Talawa**, **Talawa API** and **Talawa-Admin**
@@ -155,7 +155,7 @@ Additional information follows:
 * **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 * **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
 * **How we measure sucess:** The creation of tutorials and hot-to guides in different forms. 
-* **Possible Mentors:** Eva Sharma 
+* **Possible Mentors:** Yet to be decided.
 * **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create visualisations for various GraphQL Schema and Queries
@@ -165,6 +165,6 @@ The Talawa API has a number of GraphQL queries which are undocumented and have b
 * **Repos to update:** Talawa-API
 * **Skills Required:** The ideal candidate should be familiar with Node.js; GraphQL is not a strict requirement, but they must be willing to learn. Additionally, they need to be comfortable with using Git/Github. Experience in Illustration or graphic design is a plus.
 * **How we measure sucess:** Visualisations present through the base documentation and any new documentation generated from this program.
-* **Possible Mentors:** Eva Sharma 
+* **Possible Mentors:** Yet to be decided. 
 * **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
