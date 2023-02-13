@@ -240,7 +240,7 @@ This section outlines the primary features we'd like to implement in the coming 
    1. Placeholders: We want placeholder links for all planned features as a reminder that they need to be implemented. These unused placeholders should be greyed out.
    1. Coding: We expect the layouts to be coded in Typescript by the person assigned this idea
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
-   1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events
+   1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events and plugins
    1. Intuitive layouts and workflows for:
        1. Managing multiple organizations
        1. Doing CRUD activities for people, tags and events
