@@ -71,7 +71,7 @@ Most of our project ideas require knowledge of two or more programming languages
 
 Here are the features we'd like to implement in the coming months.
 
-### Creating new features and refactoring existing features into Plugins
+### Mobile App: Creating new features and refactoring existing features into Plugins
 
 1. **Description:** There are a number of features that while useful are not absolutely necessary for the base Talawa app and would be better suited as plugins. The goal of this task is to refactor the existing plugins such as Newsfeed Advertising, Spam Mitigation, Inter-group Messaging, Analytics Integration, Check-ins functionality, etc. We recommended that you use our [Plugin Guide](https://docs.talawa.io/docs/functionalities/plugin-architecture). The scope of the Newsfeed Advertising and Spam Mitigation are given below. They can act as a template for the any additional plugins you wish to discuss with the mentors.
    1. **Newsfeed Advertising**:
@@ -239,7 +239,7 @@ Here are the features we'd like to implement in the coming months.
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Functionality to Allow External Links to be Used Within the Talawa Application
+### Mobile App: Functionality to Allow External Links to be Used Within the Talawa Application
 
 1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
 1. **Expected Outcomes:**
