@@ -44,8 +44,8 @@ The test percent code coverage requirement will incrementally rise with each pul
 Here is a list of basic skills that will be required for each repository.
 
 1. **Talawa:** Flutter / Dart, GraphQL
-1. **Talawa-API:** Node.js, GraphQL, MongoDB
-1. **Talawa-Admin Portal:** TypeScript, Node.js
+1. **Talawa-API:** Typescript, GraphQL, MongoDB
+1. **Talawa-Admin Portal:** TypeScript
 
 There are others, but these are the primary ones that will guide your contributions.
 
@@ -66,6 +66,10 @@ Most of our project ideas require knowledge of two or more programming languages
 1. **Hard:** Requires dominion of the language used by the repo most affected by the project. A good working knowledge of the languages used by other affected repositories will be needed.
 1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed.
 1. **Easy:** A beginner's level knowledge of the languages is sufficient.
+
+### Research
+
+Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you and we suggest you research Church and/or Temple Management Software as a starting point. Talawa needs to have a broader reach and your addtions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
 
 ## Mobile App - Primary Idea Areas
 
@@ -249,9 +253,15 @@ This section outlines the primary features we'd like to implement in the coming 
        1. Requesting volunteers at events
        1. Doing event checkins
    1. Any others you can think of!   
-   1. Reference Links: 
+   1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
       - [Inspiration demo site](https://www.breezechms.com/)
+      - [YouTube Inspiration #1](https://www.youtube.com/@breezechms/videos)
+      - [YouTube Inspiration #2](https://www.youtube.com/@ChurchTracSoftware/videos)
+      - [YouTube Inspiration #3](https://www.youtube.com/@faithteams)
+      - [YouTube Inspiration #4](https://www.youtube.com/@ChurchTracSoftware/videos)
+      - [YouTube Inspiration #5](https://www.youtube.com/watch?v=pK4R2-8iPJE)
+
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -281,10 +291,12 @@ There are many ways in which event management could be improved. Here are some c
       1. Mobile app notification when someone has been added as "Volunteer".
       1. Upcoming events for volunteers in mobile app.
       1. Any others you can think of!   
-      1. Reference links:
+      1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
          - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
          - [Inspiration demo site](https://www.breezechms.com/)
-         - [Similar functionality on YouTube #1](https://www.youtube.com/watch?v=0NFze2bM5eE)
+         - [YouTube Inspiration #1](https://www.youtube.com/watch?v=0NFze2bM5eE)
+         - [YouTube Inspiration #2](https://www.youtube.com/watch?v=C36muVg39XU)
+      
    1. **Checkins**
       1. Attendance registration for care givers and those they care for
       1. The ability to print sticky labels for attendees
@@ -294,13 +306,15 @@ There are many ways in which event management could be improved. Here are some c
       1. Notifications when people stop attending
       1. The ability to limit volunteers using Admin to only the checkin screens
       1. Usability on a variety of screen sizes
-      1. Way to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
+      1. Ability to send notification directly on mobile app (example: any urgent information to be circulated while onging event).
+      1. Dashboards showing attendance stats for single and recurring events
       1. Any others you can think of!
-      1. Reference links: 
+      1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
          - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
          - [Inspiration demo site](https://www.breezechms.com/)
-         - [Similar functionality on YouTube #2](https://www.youtube.com/watch?v=TOxBoMVWaF4)
-         - [Similar functionality on YouTube #3](https://www.youtube.com/watch?v=PqAfFs30-vY)
+         - [YouTube Inspiration #1](https://www.youtube.com/watch?v=TOxBoMVWaF4)
+         - [YouTube Inspiration #2](https://www.youtube.com/watch?v=PqAfFs30-vY)
+         - [YouTube Inspiration #3](https://www.youtube.com/watch?v=m7QuswGy0v4)
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
@@ -321,9 +335,11 @@ There are many ways in which event management could be improved. Here are some c
       1. view and post to the talawa newsfeed
       1. respond to reported newsfeed posts and take appropriate action
    1. Any others you can think of!
-   1. Reference links
+   1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
-      - [Similar functionality on YouTube](https://www.breezechms.com/)
+      - [YouTube Inspiration #1](https://www.breezechms.com/)
+      - [YouTube Inspiration #2](https://www.youtube.com/watch?v=m7QuswGy0v4)
+      - [YouTube Inspiration #3](https://www.youtube.com/watch?v=uqPCLMYB8DA)
 1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
