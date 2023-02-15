@@ -269,7 +269,7 @@ This section outlines the primary features we'd like to implement in the coming 
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Anwer Sayeed (Github: anwersayeed)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development
 
