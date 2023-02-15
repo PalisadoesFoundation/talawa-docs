@@ -165,6 +165,6 @@ The Talawa API has a number of GraphQL queries which are undocumented and have b
 * **Repos to update:** Talawa-API
 * **Skills Required:** The ideal candidate should be familiar with Node.js; GraphQL is not a strict requirement, but they must be willing to learn. Additionally, they need to be comfortable with using Git/Github. Experience in Illustration or graphic design is a plus.
 * **How we measure sucess:** Visualisations present through the base documentation and any new documentation generated from this program.
-* **Possible Mentors:** Yet to be decided. 
+* **Possible Mentors:** Anwer Sayeed (Github: anwersayeed)
 * **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
