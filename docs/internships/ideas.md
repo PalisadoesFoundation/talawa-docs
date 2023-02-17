@@ -348,7 +348,7 @@ There are many ways in which event management could be improved. Here are some c
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Anthony (github: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
