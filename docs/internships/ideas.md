@@ -118,6 +118,7 @@ This section outlines the primary features we'd like to implement in the coming 
       1. Ability to make posts public via Admin Portal.
       1. Ability to share them to others apps via Mobile app.
       1. Implementing logic for built-in SEO for the post.
+      1. Admin should be able to make posts to the newsfeed.
    1. Implement deeplinking and dynamic links in the mobile app.
 1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
@@ -347,7 +348,7 @@ There are many ways in which event management could be improved. Here are some c
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Anthony (github: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
