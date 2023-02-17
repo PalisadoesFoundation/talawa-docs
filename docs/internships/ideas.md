@@ -205,7 +205,7 @@ This section outlines the primary features we'd like to implement in the coming 
    1. There needs to be a proper system in place to monitor changes in the graphQL schema. The schema should not introduce breaking changes without prior notice to the clients. Clients should be aware of all the changes happening in the schema so that they're able to migrate their code to work with the newer schema easily. Most of the times deprecated fields in the schema can be supported for long durations of time because graphQL gives us this flexibility.
 1. **Expected Outcomes:**
    1. _Dependencies_
-      1. We need to ensure that all dependencies are up to date. Some of the packages used are deprecated. 
+      1. We need to ensure that all dependencies are up to date. Some of the packages used are deprecated, some are not being actively maintained. If not fixed, this will put all future changes to the repository at risk. Don't just consider upgrades, also think of what packages are best for the long term viability of Talawa-API and why.
       1. Research and implement ways to ensure that pull requests are automatically generated whenever dependencies need to be updated.
    1. _GraphQL_
       1. Implement ways to resolve relational data whereever possible within a single query reducing the need to introduce fields on root Query type unnecessarily.
