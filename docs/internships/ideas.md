@@ -241,6 +241,8 @@ This section outlines the primary features we'd like to implement in the coming 
 
 ### Admin: UI Redesign
 
+We always need intuitive layouts and workflows. This applies to both existing features that could be improved or made functional in this area and brand new ones you consider. Any lists in this section should be viewed as inspiration, much more could be done!
+
 1. **Description:** The current Talawa-Admin design is insufficiently intuitive. There are also many buttons that are unused without any indication that they are disabled. We need a UI that considers the users perspective. This should be done with the following general considerations
    1. Deployment: We want to avoid the size of any required initial monolithic change. Changes must be incremental, possibly one screen at a time. All tests must pass with each change.
    1. Layouts: Layouts will need to be created for use by other members to implement features
@@ -249,13 +251,14 @@ This section outlines the primary features we'd like to implement in the coming 
    1. Coding: We expect the layouts to be coded in Typescript by the person assigned this idea
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
    1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events and plugins
-   1. Intuitive layouts and workflows for:
+   1. Improved intuitive layouts and workflows for:
        1. Managing multiple organizations
        1. Doing CRUD activities for people, tags and events
        1. Filtering people and tags
        1. Viewing organization events
        1. Requesting volunteers at events
        1. Doing event checkins
+   1. Any existing non-functioning features in these areas will need to be resolved.
    1. Any others you can think of!   
    1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
@@ -275,9 +278,10 @@ This section outlines the primary features we'd like to implement in the coming 
 1. **Impact Definition:** Core development
 
 ### Admin: Improved Event Management
-There are many ways in which event management could be improved. Here are some considerations.
 
-1. **Description:** 
+We always need intuitive layouts and workflows. This applies to both existing features that could be improved or made functional in this area and brand new ones you consider. Any lists in this section should be viewed as inspiration, much more could be done!
+
+1. **Description:** There are many ways in which event management could be improved for the benefit of administrators who are constantly having to manage their volunteers and track the successes of the events they manage.
    1. **Volunteer Management**: The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
    1. **Checkins**: We need a way for Admin users to track who attended what event and when. Administrators cannot depend on people using their phones to do this, so it will need to be done by volunteers using Talawa-Admin. This is important for many reasons:
        1. Security: Some organizations have events that provide child care.
@@ -285,7 +289,7 @@ There are many ways in which event management could be improved. Here are some c
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added:
    1. **Event Calendar**:
       1. The organization's event calendar needs to more closely resemble a calendar.
-   1. **Volunteer Management**:
+   1. **Volunteer Management**: 
       1. Easily add custom role tags to members of the organization
       1. Create groups and sub-groups of member tags for ease of categorization. (eg. Cooks. Barbeque cooks)
       1. Manually add members to an organization and match them to existing mobile users if they exist. (Not all members will use phones)
@@ -329,7 +333,9 @@ There are many ways in which event management could be improved. Here are some c
 
 ### Admin: Improved People and Newsfeed Management
 
-1. **Description:** The Talawa admin panel does not intuitively manage people assigned to an organization. We need:
+We always need intuitive layouts and workflows. This applies to both existing features that could be improved or made functional in this area and brand new ones you consider. Any lists in this section should be viewed as inspiration, much more could be done!
+
+1. **Description:**  The Talawa admin panel does not intuitively manage people assigned to an organization. We need:
 1. **Expected Outcomes:** This is a sub-set of the features we feel could be added. 
    1. **People and Tags**: The ability to easily:
       1. see listings of users
