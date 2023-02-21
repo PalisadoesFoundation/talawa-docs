@@ -3,7 +3,7 @@ id: schemas
 title: Schemas
 ---
 
-## Type Structures(Schemas)
+## Type Structures (Schemas)
 
 These type structures and inputs have been used in the queries, mutations and subscriptions listed below.
 
