@@ -18,6 +18,8 @@ module.exports = {
           "talawa-api/constraints/admin",
         ],
       },
+      "talawa-api/mutations",
+      "talawa-api/schemas",
       "talawa-api/authentication",
       "talawa-api/functionality",
       "talawa-api/expectations",
