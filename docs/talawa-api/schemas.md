@@ -703,7 +703,7 @@ id: ID
 
 ***Description***: It fetches a single event.
 
-Argumments:
+***Arguments***:
 
 1. id: ID - This lets you identify an object(event) uniquely.
 
