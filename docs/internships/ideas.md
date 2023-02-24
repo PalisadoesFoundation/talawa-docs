@@ -71,11 +71,21 @@ Most of our project ideas require knowledge of two or more programming languages
 
 Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you and we suggest you research Church and/or Temple Management Software as a starting point. Talawa needs to have a broader reach and your addtions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
 
+Your solution should ideally consider the:
+
+1. ability of typical small community organizations with limited resources to:
+   1. get tech support to maintain the application
+   1. have tech-savvy users
+   1. afford long term costs 
+   1. need all membership information completely under their control
+   1. manage services outside the applications
+1. impact of using third party services
+1. performance / usability tradeoffs
+1. potential data residency law requirements
+
 ## General - Primary Idea Areas
 
 This section outlines the primary features we'd like to implement in the coming months with impacts on all the applications.
-
-Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### General: Basic Functionality
 
@@ -111,8 +121,6 @@ There are some fundamental features that the Talawa suite of applications needs 
 ## Mobile App - Primary Idea Areas
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app.
-
-Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### Mobile App: Creating new features and refactoring existing features into Plugins
 
@@ -216,8 +224,6 @@ Your solution should ideally not require the use of third party services that re
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa API.
 
-Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
-
 ### API: Multi-Tennancy
 
 1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
@@ -278,8 +284,6 @@ Your solution should ideally not require the use of third party services that re
 ## Admin - Primary Idea Areas
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa Admin.
-
-Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### Admin: UI Redesign
 
