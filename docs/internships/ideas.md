@@ -73,7 +73,9 @@ Talawa is a suite of applications that are aimed at managing the memberships of 
 
 ## General - Primary Idea Areas
 
-This section outlines the primary features we'd like to implement in the coming months for Talawa Admin
+This section outlines the primary features we'd like to implement in the coming months with impacts on all the applications.
+
+Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### General: Basic Functionality
 
@@ -108,7 +110,9 @@ There are some fundamental features that the Talawa suite of applications needs 
 
 ## Mobile App - Primary Idea Areas
 
-This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app
+This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app.
+
+Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### Mobile App: Creating new features and refactoring existing features into Plugins
 
@@ -171,7 +175,6 @@ This section outlines the primary features we'd like to implement in the coming 
 1. **Expected Outcomes:**
    1. _New Members_
       1. There needs to be a way for pre-approved persons to join an organization with their mobile app.
-      1. The solution should ideally not require the use of third party services that require payment.
       1. There must be a way to allow only certain organization members to approve new members.
       1. This feature needs to be managed via the Talawa-Admin portal.
       1. Make sure the app does not have any admin features.
@@ -211,7 +214,9 @@ This section outlines the primary features we'd like to implement in the coming 
 
 ## API - Primary Idea Areas
 
-This section outlines the primary features we'd like to implement in the coming months for Talawa API
+This section outlines the primary features we'd like to implement in the coming months for Talawa API.
+
+Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### API: Multi-Tennancy
 
@@ -272,7 +277,9 @@ This section outlines the primary features we'd like to implement in the coming 
 
 ## Admin - Primary Idea Areas
 
-This section outlines the primary features we'd like to implement in the coming months for Talawa Admin
+This section outlines the primary features we'd like to implement in the coming months for Talawa Admin.
+
+Your solution should ideally not require the use of third party services that require payment unless you feel the price/performace benefit is worthwhile for the typical small non-profit that could use this feature. Consider the long term costs such as fees and tech support.
 
 ### Admin: UI Redesign
 
