@@ -109,10 +109,6 @@ module.exports = {
           "internships/internship-application-template",
           "internships/internship-selection-criteria",
         ],
-        GitHub: [
-          "internships/github/github-introduction",
-          "internships/github/github-application-process",
-        ],
         GSoC: [
           "internships/gsoc/gsoc-introduction",
           "internships/gsoc/gsoc-application-process",
