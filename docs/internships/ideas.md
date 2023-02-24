@@ -75,8 +75,10 @@ Your solution should ideally consider the:
 
 1. ability of typical small community organizations with limited resources to:
    1. get tech support to maintain the application
+   1. have tech-savvy users
    1. afford long term costs 
    1. need all membership information completely under their control
+   1. manage services outside the applications
 1. impact of using third party services
 1. performance / usability tradeoffs
 1. potential data residency law requirements
