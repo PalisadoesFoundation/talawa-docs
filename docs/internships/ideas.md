@@ -71,6 +71,41 @@ Most of our project ideas require knowledge of two or more programming languages
 
 Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you and we suggest you research Church and/or Temple Management Software as a starting point. Talawa needs to have a broader reach and your addtions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
 
+## General - Primary Idea Areas
+
+This section outlines the primary features we'd like to implement in the coming months for Talawa Admin
+
+### General: Basic Functionality
+
+There are some fundamental features that the Talawa suite of applications needs to have. We provide some insights into possible actions here. Any lists in this section should be viewed as inspiration, much more could be done!
+
+1. **Description:** Recent projects have focused on creating major improvements in the backend functionality to the detriment of fixing basic functionality in the user facing repos namely Talawa and Talawa-Admin. Our improved testing code coverage means that we get few fatal crashes, but many expected UX features don't respond as expected. For example:
+   1. _Links_: Clicked links and icons are frequently unresponsive 
+   1. _Event Management_: We used to be able to assign tasks to persons invited to events and those assigned tasks would be visible in the mobile app. This no longer happens. It would also be good for all persons assigned tasks at an event to see each other's assignments. This needs to be addressed from the mobile app end user's perspective and that of the Admin panel.
+   1. _Image Management_: Image uploads don't function as expected.
+   1. _Layouts_: Not all elements in the mobile app respond to changes between from light to dark modes.
+   1. _Updates_: Many menus don't allow updates or don't allow you to edit all the fields added when the menu item was created.
+   1. _Newsfeed_: The layout of the mobile app newsfeed is not intuitive. Adding items to this newsfeed needs to function like other well known mobile apps with this feature.
+   1. _Chat_: Creating new chats in the mobile app causes it to crash. Persons invited to events should be automatically added to the event chat groups, but this does not occur. 
+   1. _Errors_: Though we have a standard error widget in the mobile app, it is not used for all error reporting, nor does the widget log to console for troubleshooting.
+   1. _Testing_: Test code coverage in the mobile app lags that of the other Talawa apps. It should ideally be above 90%
+   1. _Timeliness_: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
+1. **Expected Outcomes:** 
+   1. We have documented many other areas of potential improvements in the reference links below. After reviewing the videos there, we decided to create issues to rectify some of our concerns, but soon realized that this warrants a GSoc idea of its own as some solutions to the issues will require great coordination and time.
+   1. Consider any other ways of making the obviously desired  functionality of Talawa and Talawa Admin work!   
+   1. We have created issues to fix some of these obvious de
+   1. _**Reference links**_: These videos will be valuable in identifying obvious bugs in the functionality, and should provide you with inspiration for other simple features to be added.
+      - [Talawa-Admin Video: Functionality Review 2023](https://www.youtube.com/watch?v=Rp2Juid1Qus)
+      - [Talawa Video: Functionality Review 2023](https://www.youtube.com/watch?v=ix3eSReJj2k)
+
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** `Admin: UI Redesign`. Many of the projects below will have some impact and you will need to coordinate with the assigned mentees for this.
+1. **Project Size:** 350
+1. **Possible Mentors:** TBD
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development
+
 ## Mobile App - Primary Idea Areas
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app
@@ -271,7 +306,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** `General: Basic Functionality`
 1. **Project Size:** 350
 1. **Possible Mentors:** Anwer Sayeed (Github: anwersayeed)
 1. **Difficulty:** Medium
@@ -325,7 +360,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
          - [YouTube Inspiration #3](https://www.youtube.com/watch?v=m7QuswGy0v4)
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350
 1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Medium
@@ -352,7 +387,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
       - [YouTube Inspiration #3](https://www.youtube.com/watch?v=uqPCLMYB8DA)
 1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** Anthony (github: tonythegr8)
 1. **Difficulty:** Medium
