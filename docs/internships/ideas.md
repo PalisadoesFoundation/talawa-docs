@@ -83,9 +83,35 @@ Your solution should ideally consider the:
 1. performance / usability tradeoffs
 1. potential data residency law requirements
 
+#### Events
+
+Event management is a big part of community organization management apps. This is how it often works using the Talawa terminology of `member` who is a `user` who has access to the mobile app:
+
+1. Some people may attend events regularly and never use a mobile app (`user`), but administrators will want to track their attendance.
+1. More tech-savvy people may want to prove their attendance via the app (`member`)
+1. _Event registration_ is for the purpose of events that need an RSVP
+1. _Event invitations_ are for the purpose events that are closed to invitees
+1. _Private events_ only show up in the mobile app calendars of invitees
+1. There are often standardized ways to track attendance to all types of events:
+   1. registered
+   1. invitation only
+   1. private
+   1. public / open. In other words anyone can attend and can walk in off the street
+1. There is often the ability to add users to the organization if they turn up to an event.
+1. It is easy way to convert users to members when they attend an event.
+
+Talawa shares these goals but also includes:
+1. The ability of members invited or registered to an event to automatically be added to a group chat.
+1. The ability of members attending events to be assigned tasks/roles that can be tracked in their app.
+
+#### Other
+We will not support administrative functions in the mobile app.
+
 ## General - Primary Idea Areas
 
 This section outlines the primary features we'd like to implement in the coming months with impacts on all the applications.
+
+Please read the `Research` section of this document for background information
 
 ### General: Basic Functionality
 
@@ -121,6 +147,8 @@ There are some fundamental features that the Talawa suite of applications needs 
 ## Mobile App - Primary Idea Areas
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa mobile app.
+
+Please read the `Research` section of this document for background information
 
 ### Mobile App: Creating new features and refactoring existing features into Plugins
 
@@ -224,6 +252,8 @@ This section outlines the primary features we'd like to implement in the coming 
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa API.
 
+Please read the `Research` section of this document for background information
+
 ### API: Multi-Tennancy
 
 1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimise resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required.
@@ -285,6 +315,8 @@ This section outlines the primary features we'd like to implement in the coming 
 
 This section outlines the primary features we'd like to implement in the coming months for Talawa Admin.
 
+Please read the `Research` section of this document for background information
+
 ### Admin: UI Redesign
 
 We always need intuitive layouts and workflows. This applies to both existing features that could be improved or made functional in this area and brand new ones you consider. Any lists in this section should be viewed as inspiration, much more could be done!
@@ -304,6 +336,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
        1. Viewing organization events
        1. Requesting volunteers at events
        1. Doing event checkins
+   1. A properly documented design system and style guide added to the Talawa-Docs repository
    1. Any existing non-functioning features in these areas will need to be resolved.
    1. Any others you can think of!   
    1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
@@ -325,7 +358,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 
 ### Admin: Improved Event Management
 
-We always need intuitive layouts and workflows. This applies to both existing features that could be improved or made functional in this area and brand new ones you consider. Any lists in this section should be viewed as inspiration, much more could be done!
+We always need intuitive layouts and workflows. This applies to both existing features that could be improved or made functional in this area and brand new ones you consider. Any lists in this section should be viewed as inspiration, much more could be done! 
 
 1. **Description:** There are many ways in which event management could be improved for the benefit of administrators who are constantly having to manage their volunteers and track the successes of the events they manage.
    1. **Volunteer Management**: The mobile app allows people to create calendars and add volunteers for specific roles. This is good for creating adhoc events by organization members. There needs to be a way for the organization's administrators to manage event volunteers:
