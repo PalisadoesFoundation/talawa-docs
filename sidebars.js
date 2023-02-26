@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    "Getting Started": ["about-talawa", "about"],
+    "Introduction": ["about"],
     Applications: [
       "applications/architecture-overview",
       "applications/app-overview",
@@ -26,6 +26,7 @@ module.exports = {
     ],
     "Talawa Admin": ["talawa-admin/talawa-admin-introduction"],
     "Existing Features": [
+      "functionalities/overview",
       "functionalities/core-functionalities",
       "functionalities/plugin-architecture",
       "functionalities/implementing-plugins",
@@ -95,13 +96,7 @@ module.exports = {
         ],
       },
     ],
-    Design: ["design/ux/ux-talawa", "design/ux/ux-design-system"],
-    Branding: [
-      "branding/branding-introduction",
-      "branding/branding-logos",
-      "branding/branding-color-palette",
-      "branding/branding-typography",
-    ],
+    Design: ["design/branding","design/ux/ux-talawa", "design/ux/ux-design-system"],
     Internships: [
       {
         Overview: [
