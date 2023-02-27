@@ -127,13 +127,18 @@ There are some fundamental features that the Talawa suite of applications needs 
    1. _Layouts_: Not all elements in the mobile app respond to changes between from light to dark modes.
    1. _Updates_: Many menus don't allow updates or don't allow you to edit all the fields added when the menu item was created.
    1. _Newsfeed_: The layout of the mobile app newsfeed is not intuitive. Adding items to this newsfeed needs to function like other well known mobile apps with this feature.
-   1. _Chat_: Creating new chats in the mobile app causes it to crash. Persons invited to events should be automatically added to the event chat groups, but this does not occur. 
+   1. _Chat_: 
+       1. Creating new chats in the mobile app causes it to crash.
+       1. Persons invited to events should be automatically added to the event chat groups, but this does not occur.
+       1. Verify and correct if necessary whether removing someone from an event invitee list removes them from the group chat.
    1. _Errors_: Though we have a standard error widget in the mobile app, it is not used for all error reporting, nor does the widget log to console for troubleshooting.
    1. _Testing_: Test code coverage in the mobile app lags that of the other Talawa apps. It should ideally be above 90%
    1. _Timeliness_: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
 1. **Expected Outcomes:** 
    1. We have documented many other areas of potential improvements in the reference links below. After reviewing the videos there, we decided to create issues to rectify some of our concerns, but soon realized that this warrants a GSoc idea of its own as some solutions to the issues will require great coordination and time.
-   1. Consider any other ways of making the obviously desired  functionality of Talawa and Talawa Admin work!   
+   1. In addition to fixing the bugs above, consider any other ways of making the obviously desired  functionality of Talawa and Talawa Admin work! 
+      1. This document highlights many sites and videos to aid your research.
+      1. Any new features you plan to add as part of this project must be **_incremental_**, so that they can be completed in a week. We are certain that there are many opportunities to include these mini projects.
    1. We have created issues to fix some of these obvious de
    1. _**Reference links**_: These videos will be valuable in identifying obvious bugs in the functionality, and should provide you with inspiration for other simple features to be added.
       - [Talawa-Admin Video: Functionality Review 2023](https://www.youtube.com/watch?v=Rp2Juid1Qus)
@@ -427,6 +432,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
    1. **Newsfeed**: The ability to easily:
       1. view and post to the talawa newsfeed
       1. respond to reported newsfeed posts and take appropriate action
+      1. pin posts to the top of the newsfeed 
    1. Any others you can think of!
    1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
