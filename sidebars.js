@@ -10,7 +10,6 @@ module.exports = {
         Talawa: [
             "developers/talawa/talawa-introduction",
         ],
-    
       },
       {
         "Talawa API": [
@@ -27,9 +26,9 @@ module.exports = {
           "developers/talawa-api/authentication",
           "developers/talawa-api/functionality",
           "developers/talawa-api/expectations",]
-      },
+      },      
       {
-        "Talawa Admin": ["talawa-admin/talawa-admin-introduction"],
+        "Talawa Admin": ["developers/talawa-admin/talawa-admin-introduction"],
       }
     ],    
 
