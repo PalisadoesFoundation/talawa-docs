@@ -1,32 +1,39 @@
 module.exports = {
   someSidebar: {
     "Introduction": ["about"],
-    Applications: [
+    "Technical Overview": [
       "applications/architecture-overview",
-      "applications/app-overview",
-      "applications/admin-overview",
+      "applications/overview",
     ],
-    Talawa: [
-      "talawa/talawa-introduction",
-    ],
-    "Talawa API": [
-      "talawa-api/api-overview",
+    "Developer Resources": [
       {
-        "Base Constraints": [
-          "talawa-api/constraints/user",
-          "talawa-api/constraints/organization",
-          "talawa-api/constraints/admin",
+        Talawa: [
+            "developers/talawa/talawa-introduction",
         ],
+    
       },
-      "talawa-api/mutations",
-      "talawa-api/schemas",
-      "talawa-api/authentication",
-      "talawa-api/functionality",
-      "talawa-api/expectations",
-    ],
-    "Talawa Admin": ["talawa-admin/talawa-admin-introduction"],
-    "Existing Features": [
-      "functionalities/overview",
+      {
+        "Talawa API": [
+          "developers/talawa-api/api-overview",
+          {
+            "Base Constraints": [
+              "developers/talawa-api/constraints/user",
+              "developers/talawa-api/constraints/organization",
+              "developers/talawa-api/constraints/admin",
+            ],
+          },
+          "developers/talawa-api/mutations",
+          "developers/talawa-api/schemas",
+          "developers/talawa-api/authentication",
+          "developers/talawa-api/functionality",
+          "developers/talawa-api/expectations",]
+      },
+      {
+        "Talawa Admin": ["talawa-admin/talawa-admin-introduction"],
+      }
+    ],    
+
+      "Existing Features": [
       "functionalities/core-functionalities",
       "functionalities/plugin-architecture",
       "functionalities/implementing-plugins",
@@ -96,7 +103,7 @@ module.exports = {
         ],
       },
     ],
-    Design: ["design/branding","design/ux/ux-talawa", "design/ux/ux-design-system"],
+    "UI/UX Design": ["design/branding","design/ux/ux-talawa", "design/ux/ux-design-system"],
     Internships: [
       {
         Overview: [
