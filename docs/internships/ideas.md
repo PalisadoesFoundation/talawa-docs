@@ -119,7 +119,10 @@ There are some fundamental features that the Talawa suite of applications needs 
 
 1. **Description:** Recent projects have focused on creating major improvements in the backend functionality to the detriment of fixing basic functionality in the user facing repos namely Talawa and Talawa-Admin. Our improved testing code coverage means that we get few fatal crashes, but many expected UX features don't respond as expected. For example:
    1. _Links_: Clicked links and icons are frequently unresponsive 
-   1. _Event Management_: We used to be able to assign tasks to persons invited to events and those assigned tasks would be visible in the mobile app. This no longer happens. It would also be good for all persons assigned tasks at an event to see each other's assignments. This needs to be addressed from the mobile app end user's perspective and that of the Admin panel.
+   1. _Event Management_: 
+      1. We used to be able to assign tasks to persons invited to events and those assigned tasks would be visible in the mobile app. This no longer happens. 
+      1. It would also be good for all persons assigned tasks at an event to see each other's assignments. This needs to be addressed from the mobile app end user's perspective and that of the Admin panel.
+      1. Events are currently listed as sortalbe tiles. A calendar view option could be considered.
    1. _Image Management_: Image uploads don't function as expected.
    1. _Layouts_: Not all elements in the mobile app respond to changes between from light to dark modes.
    1. _Updates_: Many menus don't allow updates or don't allow you to edit all the fields added when the menu item was created.
@@ -336,6 +339,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
        1. Viewing organization events
        1. Requesting volunteers at events
        1. Doing event checkins
+       1. Managing pinned posts on the newsfeed
    1. A properly documented design system and style guide added to the Talawa-Docs repository
    1. Any existing non-functioning features in these areas will need to be resolved.
    1. Any others you can think of!   
