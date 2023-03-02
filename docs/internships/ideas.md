@@ -233,6 +233,7 @@ Please read the `Research` section of this document for background information
       1. Feature to repost a post for better reach.
       1. Enable various reactions to a post (currently user can only like the post).
       1. Evaluate whether we need newsfeed posts with titles
+      1. Think of new ways of handling the pinned posts feature
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
