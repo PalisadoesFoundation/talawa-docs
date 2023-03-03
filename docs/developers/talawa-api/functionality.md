@@ -24,6 +24,7 @@ _Post Model_
     organization: Organization
     likedBy: [User]
     comments: [Comment]
+    pinned: Boolean
 
 ### Comment
 
