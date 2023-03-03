@@ -28,6 +28,7 @@ These are the Mutations exclusive to the `SUPERADMIN` type. Please note that a f
 5. `removeAdmin`
 6. `removeOrganization`
 7. `updateUserType`
+8. `togglePinnedPost`
 
 #### `ADMIN` -
 
@@ -38,15 +39,15 @@ An Admin of an organization is permitted to make the following Mutations in that
 3. `addUserToGroupChat`
 4. `adminRemoveEvent`
 5. `adminRemoveGroup`
-6. `adminRemovePost`
-7. `blockUser`
-8. `rejectMemberShipRequests`
-9. `removeDirectChat`
-10. `removeMember`
-11. `removeOrganizationImage`
-12. `removeUserFromGroupChat`
-13. `unblockUser`
-14. `updateOrganization`
+6. `blockUser`
+7. `rejectMemberShipRequests`
+8. `removeDirectChat`
+9.  `removeMember`
+10. `removeOrganizationImage`
+11. `removeUserFromGroupChat`
+12. `unblockUser`
+13. `updateOrganization`
+14. `togglePinnedPost`
 
 #### USER -
 

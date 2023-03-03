@@ -199,6 +199,7 @@ These type structures and inputs have been used in the queries, mutations and su
         imageUrl: String
         videoUrl:String
         organizationId: ID!
+        pinned: Boolean
     }
 
     type Comment {
@@ -250,6 +251,7 @@ These type structures and inputs have been used in the queries, mutations and su
         blockedUsers: [User]
         visibleInSearch: Boolean!
         apiUrl:String!
+        pinnedPosts: [Post]
     }
 
     input OrganizationInput {
@@ -1207,7 +1209,6 @@ type Mutation {
 
     removeMember (data: MultipleUsersAndOrganizationInput!) : Organization!
 
-    adminRemovePost(organizationId: ID!, postId:ID!):Post!
     adminRemoveEvent(eventId: ID!): Event!
     adminRemoveGroup(groupId:ID!):Message!
 
@@ -1215,6 +1216,7 @@ type Mutation {
     removePost(id:ID!): Post
     likePost(id:ID!): Post
     unlikePost(id:ID!): Post
+    togglePinnedPost(id:ID!): Post
 
     createComment(postId:ID!, data: CommentInput!): Comment
     removeComment(id:ID!): Comment
