@@ -1216,7 +1216,7 @@ type Mutation {
     removePost(id:ID!): Post
     likePost(id:ID!): Post
     unlikePost(id:ID!): Post
-    togglePinnedPost(id:ID!): Post
+    togglePostPin(id:ID!): Post
 
     createComment(postId:ID!, data: CommentInput!): Comment
     removeComment(id:ID!): Comment
