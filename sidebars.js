@@ -128,7 +128,7 @@ module.exports = {
           'internships/gsoc/gsoc-introduction',
           'internships/gsoc/gsoc-application-process'
         ],
-        GSoD: ['internships/gsod/gsod-ideas'],
+        GSoD: ['internships/gsod/gsod-ideas', 'internships/gsod/gsod-ideas-2022'],
         Palisadoes: ['internships/palisadoes/palisadoes-introduction']
       }
     ]
