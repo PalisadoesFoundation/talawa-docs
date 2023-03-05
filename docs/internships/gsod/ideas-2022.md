@@ -1,6 +1,6 @@
 ---
-id: gsod-ideas
-title: GSoD 2023
+id: gsod-ideas-2022
+title: GSoD 2022
 ---
 
 ## Introduction
