@@ -66,6 +66,7 @@ The steps are simple:
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs.git
 $ cd talawa-docs
 $ npm i docusaurus
+```
 
 # Running the Development Server
 
@@ -91,10 +92,12 @@ This command starts a local development server and open up a browser window. Mos
 
 ## Using NPM
 
+```console
 $ npm install -g npm
 $ cd talawa-docs
 $ npm i docusaurus
 $ npm run start 
+```
 
 By default, a browser window will open at http://localhost:3000.
 
