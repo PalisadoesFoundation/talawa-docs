@@ -13,7 +13,7 @@ We know you are ready to start contributing code right away! Hers is a list of [
     * [Pull Requests](#pull-requests)
     * [Git Flow](#git-flow)
 * [Contributing Code](#contributing-code)
-* [GSoC](#gsoc)
+* [Internshhips](#internships)
 * [Community](#community)
 
 
@@ -56,8 +56,8 @@ The process of proposing a change to Talawa Docs can be summarized as:
 10. Ensure the test suite passes, either locally or on CI once a PR has been created.
 11. Review and address comments on your pull request if requested.
 
-### GSoC
-If you are participating in the 2021 Summer of Code, please read more about us and our processes [here](http://www.palisadoes.org/gsoc/)
+### Internships
+If you are participating in any of the various internship programs we ar members of then please read the [introduction guides on our documentation website](https://docs.talawa.io/docs/).
 
 ## Community
 There are many ways to communicate with the community.
