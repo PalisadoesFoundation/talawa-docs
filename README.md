@@ -31,7 +31,7 @@ Core features include:
 # Documentation
 
 - The `talawa` documentation can be found [here](https://docs.talawa.io/).
-- Want to contribute? Look at [CONTRIBUTING.md](https://github.com/PalisadoesFoundation/talawa-docs/blob/master/CONTRIBUTING.md) to get started.
+- Want to contribute? Look at [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 - Visit the [Talawa-Docs GitHub Repository](https://github.com/PalisadoesFoundation/talawa) to see the code.
 
 # Installation
