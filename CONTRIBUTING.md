@@ -13,7 +13,7 @@ We know you are ready to start contributing code right away! Hers is a list of [
     * [Pull Requests](#pull-requests)
     * [Git Flow](#git-flow)
 * [Contributing Code](#contributing-code)
-* [GSoC](#gsoc)
+* [Internshhips](#internships)
 * [Community](#community)
 
 
@@ -22,10 +22,10 @@ We know you are ready to start contributing code right away! Hers is a list of [
 We utilize GitHub issues and pull requests to keep track of issues and contributions from the community.
 
 #### Issues
-Make sure you are following [issue report guidelines](https://github.com/PalisadoesFoundation/talawa/blob/master/issue-guidelines.md) available here before creating any new issues on Talawa API project.
+Make sure you are following [issue report guidelines](ISSUE_GUIDELINES.md) available here before creating any new issues on Talawa API project.
 
 #### Pull Requests
-[Pull Request guidelines](https://github.com/PalisadoesFoundation/talawa/blob/master/PR-guidelines.md) is best resource to follow to start working on open issues.
+[Pull Request guidelines](PR_GUIDELINES.md) is best resource to follow to start working on open issues.
 
 #### Git Flow
 For Talawa Docs, we utilize the GitFlow branching model. GitFlow is geared towards efficiently tracking development and managing releases. The model makes parallel development efforts easy and safe by isolating new development efforts from completed work.
@@ -56,8 +56,8 @@ The process of proposing a change to Talawa Docs can be summarized as:
 10. Ensure the test suite passes, either locally or on CI once a PR has been created.
 11. Review and address comments on your pull request if requested.
 
-### GSoC
-If you are participating in the 2021 Summer of Code, please read more about us and our processes [here](http://www.palisadoes.org/gsoc/)
+### Internships
+If you are participating in any of the various internship programs we ar members of then please read the [introduction guides on our documentation website](https://docs.talawa.io/docs/).
 
 ## Community
 There are many ways to communicate with the community.
