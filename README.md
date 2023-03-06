@@ -56,7 +56,16 @@ $ yarn add docusaurus
 
 ## Using NPM
 
-Insert documentation here.
+The steps are simple:
+
+1. Clone this repository
+2. [Install `NPM` on your system using these instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+3. Follow these steps next
+
+```console
+$ git clone https://github.com/PalisadoesFoundation/talawa-docs.git
+$ cd talawa-docs
+$ npm i docusaurus
 
 # Running the Development Server
 
@@ -82,7 +91,14 @@ This command starts a local development server and open up a browser window. Mos
 
 ## Using NPM
 
-Insert documentation here.
+$ npm install -g npm
+$ cd talawa-docs
+$ npm i docusaurus
+$ npm run start 
+
+By default, a browser window will open at http://localhost:3000.
+
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
 # Building Static HTML Pages
 
