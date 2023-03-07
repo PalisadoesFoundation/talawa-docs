@@ -25,7 +25,7 @@ Our app makes it simple and secure to use.
     description: (
       <>
         Schedule, create and view your upcoming community events on Talawa.
-Start your own or register for exisiting one.
+Start your own or register for existing one.
       </>
     ),
   },

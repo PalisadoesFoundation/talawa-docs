@@ -195,7 +195,7 @@ Please read the `Research` section of this document for background information
 
 ### Mobile App: Ability to Share Posts & Deep Linking
 
-1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts acorss other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. And also we need to implement deeplinking and dynamic link in the Talawa app, Deep linking provides you with a web browser link that points to a specific part of an app that is already installed. These links can also be set to navigate users to specific content pages like events, news updates, and more for better understanding go through [this blog](https://medium.flutterdevs.com/explore-deep-linking-in-flutter-26ad4301a99).
+1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. And also we need to implement deeplinking and dynamic link in the Talawa app, Deep linking provides you with a web browser link that points to a specific part of an app that is already installed. These links can also be set to navigate users to specific content pages like events, news updates, and more for better understanding go through [this blog](https://medium.flutterdevs.com/explore-deep-linking-in-flutter-26ad4301a99).
 1. **Expected Outcomes:**
    1. Design public posts API and data models.
       1. Ability to make posts public via Admin Portal.
@@ -223,7 +223,7 @@ Please read the `Research` section of this document for background information
       1. This feature needs to be managed via the Talawa-Admin portal.
       1. Make sure the app does not have any admin features.
    1. _Notifications_
-      1. Implement in-app notification scheme that is suitable for major forseeable use cases.
+      1. Implement in-app notification scheme that is suitable for major foreseeable use cases.
    1. _Posts Improvement_
       1. Improved user interface.
       1. Abilty to report posts and people.
@@ -244,7 +244,7 @@ Please read the `Research` section of this document for background information
 
 ### Mobile App: Functionality to Allow External Links to be Used Within the Talawa Application
 
-1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to nagivating to an external site. This makes the application more accomodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
+1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to navigating to an external site. This makes the application more accommodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
 1. **Expected Outcomes:**
    1. Research and suggest a preferred way of implementing this strategy.
    1. Implement the strategy so that it is transparent to the mobile app.

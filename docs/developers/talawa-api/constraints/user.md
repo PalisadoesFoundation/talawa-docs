@@ -7,7 +7,7 @@ title: User
 
 A User is anyone who has created an account for the application. Users can both create and join organizations. After joining an organization users become members of that organization.
 
-A member of an organization would be similar to a congregation member in a religious instituion or an employee working for a business.
+A member of an organization would be similar to a congregation member in a religious institution or an employee working for a business.
 
 ## What tasks can be performed by a `User` ?
 

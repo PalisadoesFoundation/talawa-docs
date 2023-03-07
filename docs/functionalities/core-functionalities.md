@@ -35,7 +35,7 @@ This is the ability to register in the app with an organisation. Once the user i
 
 ## Events
 ### Description
-These are scheduled events managed by cooordinators and administrators of an organisation. Information related to events in the organisation are monitored via the organisation's newsfeed by members of the organisation. 
+These are scheduled events managed by coordinators and administrators of an organisation. Information related to events in the organisation are monitored via the organisation's newsfeed by members of the organisation. 
 ### Front End
 1. Organisation list
 2. Events list screen
@@ -73,7 +73,7 @@ Users can belong to multiple organizations, however they cannot create their own
 2. Create or join organisation screen  
 
 ### Back End
-**The follwing functionalities are allowed via routes** 
+**The following functionalities are allowed via routes** 
 1. Change the current organization for the user
 2. Get information regarding current organization
 

@@ -15,4 +15,4 @@ The API is expected to:
 
 ## Better TypeScript Workflow
 
-Any improvements to the already existing typescript workflow are greatly appreciated. We want the contributers and developers to have good experience when working on the project. The improvements should try to automate as much stuff as possible so that there is less manual work required to work within the typescript environment.
+Any improvements to the already existing typescript workflow are greatly appreciated. We want the contributors and developers to have good experience when working on the project. The improvements should try to automate as much stuff as possible so that there is less manual work required to work within the typescript environment.
