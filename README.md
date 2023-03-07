@@ -60,7 +60,8 @@ The steps are simple:
 
 1. Clone this repository
 2. [Install `npm` on your system using these instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-3. Follow these steps next
+3. If you have previously installed npm on your local device run npm -v to confirm
+4. Follow these steps next
 
 ```console
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs
@@ -76,7 +77,7 @@ To preview your changes as you edit the files, you can run a local development s
 
 Follow these steps:
 
-**Note:** Install the latest stable version of Node.js on your system if you get a `The engine "node" is incompatible with this module. Expected version` message during the procedure below. You may need to use a custom repository for this.
+**Note:** Install the latest stable version of Node.js on your system if you get a `The engine "node" is incompatible with this module. Expected version` message during the procedure below. You may need to use a custom repository for this. If you have previously installed node on your local device run node -v, npm -v to confirm.
 
 ```console
 $ sudo apt-get -y install npm
@@ -94,7 +95,8 @@ This command starts a local development server and open up a browser window. Mos
 
 Follow these steps:
 
-**Note:** Install the latest Node.js on your system to run the development server. You can install Node.js from [here](https://nodejs.org/en/download/)
+**Note:** Install the latest Node.js on your system to run the development server. You can install Node.js from [here](https://nodejs.org/en/download/).
+If you have previously installed node on your local device run node -v, npm -v to confirm.
 
 ```console
 $ npm install -g npm
