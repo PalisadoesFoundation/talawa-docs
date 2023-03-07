@@ -104,7 +104,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/docs/about',
+                to: '/docs/#about',
               },
               {
                 label: 'GitHub',
