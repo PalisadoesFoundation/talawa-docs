@@ -13,7 +13,7 @@ To implement features as plugins or to convert existing features into plugins, f
 
 ### 1. Plugin Registration
 
-- Plugins have to be registered first before even they are created from the Plugin store in the `Talawa Admin` portal. This can be done by devloper by creating an account in the admin portal and going to `Plugin Store`.
+- Plugins have to be registered first before even they are created from the Plugin store in the `Talawa Admin` portal. This can be done by developer by creating an account in the admin portal and going to `Plugin Store`.
 - Plugin Store can be accessed from navbar
 
 ![Plugin Store Option in Navbar](/img/plugin/plugin-store-navbar.PNG)
@@ -44,25 +44,25 @@ Based on where the feature UI is there are currently 2 ways to implement your fe
 
 - For the features in the navbar we have maintained a list of them in [main_scree.dart](https://github.com/PalisadoesFoundation/talawa/blob/develop/lib/views/main_screen.dart) file.It has detailed comments to help you understand the operations.
 
-- `renderBottomNavBarPlugins` method combines current features and plugins in navbar and genrates an array containing `navBarItems` and `navbarClasses` and then it is returned to `children` property of the navbar UI code.
+- `renderBottomNavBarPlugins` method combines current features and plugins in navbar and generates an array containing `navBarItems` and `navbarClasses` and then it is returned to `children` property of the navbar UI code.
 - Let's understand some important variables before understanding the process of conversion.
 
 :::caution
 
-The `Name` of property provided to any of the below varaibles should the exactly same for that feature only without any trailing spaces. Duplicate or Exisiting plugin names shouldn't be used keep the application consistent and predictable.
+The `Name` of property provided to any of the below variables should the exactly same for that feature only without any trailing spaces. Duplicate or Existing plugin names shouldn't be used keep the application consistent and predictable.
 
 :::
 
 1. `navBarItems`
    - Type `[ BottomNavigationBarItem() ]`
    - contains list of `BottomNavigationBarItem` widget to show `icon` and `text` to the navbar options.
-   - if you're feature is not a plugin it should be added to this array.
+   - if your feature is not a plugin it should be added to this array.
 2. `navBarClasses`
    - Type `[Widgets]`
    - Array that contains the Widgets to be rendered on the navbar
 3. `navNameClasses`
    - Type ` Map<dynamic, dynamic>`
-   - Maps the feature names with thier proper Icons and Widgets (named as `class`) used in navbar.
+   - Maps the feature names with their proper Icons and Widgets (named as `class`) used in navbar.
 4. `navNameIcon`
    - Type `Map<String, Widgets>`
    - Contains a key value pair of the feature name in the navbar and it's corresponding plugin.
@@ -97,7 +97,7 @@ The `Name` of property provided to any of the below varaibles should the exactly
 
 <u>
 
-#### Additional properties : [For Developement Purpose Only]
+#### Additional properties : [For Development Purpose Only]
 
 </u>
 
@@ -105,7 +105,7 @@ The `Name` of property provided to any of the below varaibles should the exactly
 
    - Type `Boolean`
    - True will make all plugins visible if set to `true` otherwise `false` won't change anything.
-   - This property is accessible for the developers only as it can be only set during developement phase. We can see that it is defined in build method of the widget.
+   - This property is accessible for the developers only as it can be only set during development phase. We can see that it is defined in build method of the widget.
 
    ```js
         Widget build(BuildContext context) {

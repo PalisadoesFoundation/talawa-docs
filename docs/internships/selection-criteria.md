@@ -71,4 +71,4 @@ title: Selection Criteria
 
 _NB: Students will have to work on multiple aspects of the application, but breaking it down will give everyone a more “clear cut” role when they’re deciding what to work on. (i.e. A student won’t be accepted if they're only willing to do UI/UX designs and reviews. If a student would like to work on all areas related to the front end, that would be fine.)_
 
-Mentors may at any point decide to hold an interview with any applicant to decide whether or not they are suitable for selection. This is completely optional, so students may be accepted without participating in an interview.
+Mentors may at any point decide to hold an interview with any applicant to decide whether they are suitable for selection. This is completely optional, so students may be accepted without participating in an interview.

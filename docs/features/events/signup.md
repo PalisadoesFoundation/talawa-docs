@@ -35,7 +35,7 @@ The following are aspects of this feature which have been considered but are out
 
 1. **Invite non-app users to events :** Prompting them to install the app and join the organization and subscribe for the event.
 2. **View assigned tasks from the event screen/page:** User is able to select an event and see all tasks assigned to them for that event
-3. **Volunteer for tasks under an event :** From the events screen/page the user is able volunteer for the listed tasks under the event
+3. **Volunteer for tasks under an event :** From the events screen/page the user is able to volunteer for the listed tasks under the event
 
 ### People and Roles
 

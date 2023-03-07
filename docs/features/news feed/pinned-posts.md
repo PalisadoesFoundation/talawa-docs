@@ -26,7 +26,7 @@ The pinning of posts will therefore prevent such information from being lost wit
 ### Goals
 
 1. **Provide a section at the top of the news feed for displaying multiple pinned posts** :
-If multiple posts are pinned, the area will cycle through each by manner of a carousel. Indicators of carousel funtionality such as manual cycling and slide count should be present.
+If multiple posts are pinned, the area will cycle through each by manner of a carousel. Indicators of carousel functionality such as manual cycling and slide count should be present.
 
 ### Out of Scope
 
@@ -41,7 +41,7 @@ N/A
 ### Use Cases
 
 1. **A user should be to:**
-    * **Cycle through each slide/post manually** : having an gesture/button for users to move through all pinned posts allows for easy and quick consumption of crucial information.
+    * **Cycle through each slide/post manually** : having a gesture/button for users to move through all pinned posts allows for easy and quick consumption of crucial information.
 
 ## Proposal/Solution
 

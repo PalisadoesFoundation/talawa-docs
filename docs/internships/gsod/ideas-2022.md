@@ -89,7 +89,7 @@ We also welcome any other ideas that we could use. Please review the "Desired Fe
 
 ### Repository Languages and Skills
 
-We are looking for motivated candidates with a history of strong, demonstratable technical writing skills that can provide structure and organization to our codebases. It is not necessary to be well-versed in the tech stack being used for a given repository though some familiarity would be seen as a positive. Our mentors will provide ample support in a 'learn as you go' fashion.
+We are looking for motivated candidates with a history of strong, demonstration technical writing skills that can provide structure and organization to our codebases. It is not necessary to be well-versed in the tech stack being used for a given repository though some familiarity would be seen as a positive. Our mentors will provide ample support in a 'learn as you go' fashion.
 
 The following lists the primary tech stack being used for each respective repository which is helpful for the purpose of documenting each repository (but you are not required to know them):
 
@@ -111,7 +111,7 @@ The previous Google Season of Docs (Gsod 2022) covered the repository: Talawa-AP
 
 - **Repos to update:** Talawa, Talawa-admin.
 - **Skills Required:** The ideal candidate should be familiar with Typescript and in particular Node.js. They also need to be comfortable with using Git/Github and to update the documentation via pull requests. Additionally, knowledge of TSDocs is also required.
-- **How we measure sucess:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used.
+- **How we measure success:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used.
 - **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
@@ -132,7 +132,7 @@ Additional information follows:
 
 - **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 - **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
-- **How we measure sucess:** The creation of tutorials and how-to guides in different forms.
+- **How we measure success:** The creation of tutorials and how-to guides in different forms.
 - **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
@@ -148,7 +148,7 @@ Additional information follows:
 
 - **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 - **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
-- **How we measure sucess:** The creation of tutorials and hot-to guides in different forms.
+- **How we measure success:** The creation of tutorials and hot-to guides in different forms.
 - **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
@@ -158,6 +158,6 @@ The Talawa API has a number of GraphQL queries which are undocumented and have b
 
 - **Repos to update:** Talawa-API
 - **Skills Required:** The ideal candidate should be familiar with Node.js; GraphQL is not a strict requirement, but they must be willing to learn. Additionally, they need to be comfortable with using Git/Github. Experience in Illustration or graphic design is a plus.
-- **How we measure sucess:** Visualisations present through the base documentation and any new documentation generated from this program.
+- **How we measure success:** Visualisations present through the base documentation and any new documentation generated from this program.
 - **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)

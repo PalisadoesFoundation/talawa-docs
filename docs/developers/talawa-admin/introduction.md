@@ -7,7 +7,7 @@ title: Overview
 
 ### Core features:
 
-#### 1. Admin Dasboard
+#### 1. Admin Dashboard
 
 - Dashboard Provides Overview about the Admin's Organization.
 - Displays Statistics like number of Members, Admins, Blocked Users & Membership Requests,etc.
@@ -19,7 +19,7 @@ title: Overview
 
 #### 3. `Events` Page
 
-- This shows list of active `Events` in the organization.
+- These shows list of active `Events` in the organization.
 - Admins can also post new events from this page.
 
 #### 4. `Contributions` Page

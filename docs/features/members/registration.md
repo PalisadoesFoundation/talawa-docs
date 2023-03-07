@@ -30,7 +30,7 @@ N/A
 ### Out of Scope
 
 1. **SMS OTP** : to avoid costs within the application, this feature will be omitted as a paid third-party service is required .
-2. **Email Registration:** A common issue faced by users is that access to their emails is non existent as they do not own one or it is done so on a need to basis.
+2. **Email Registration:** A common issue faced by users is that access to their emails is non-existent as they do not own one, or it is done so on a need to basis.
 
 ### People and Roles
 

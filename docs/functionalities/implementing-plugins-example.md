@@ -4,7 +4,7 @@ title: Implementing Plugins Example
 ---
 
 :::note
-Pre-Requsites :
+Pre-Requisites :
 
 1. [Plugin Architecture ](./plugin-architecture.md)
 2. [Implementing Plugins](./implementing-plugins.md)
@@ -96,6 +96,6 @@ This is how the code will look like
 
 ---
 
-Congrats! yove've successfully converted your feature to a plugin. Now you can  install/uninstall  `Donation`  plugin fromc the  `Plugin Store`  of the  [Talawa Admin](https://github.com/PalisadoesFoundation/talawa-admin) to see the plugin UI becoming visible if it's installed for that organization otherwise hidden.
+Congrats! you've successfully converted your feature to a plugin. Now you can  install/uninstall  `Donation`  plugin from the  `Plugin Store`  of the  [Talawa Admin](https://github.com/PalisadoesFoundation/talawa-admin) to see the plugin UI becoming visible if it's installed for that organization otherwise hidden.
 
-For developement puprposes to see the plugin even if it's uninstalled you can set the `serverVisible` property to `true`
+For development purposes to see the plugin even if it's uninstalled you can set the `serverVisible` property to `true`

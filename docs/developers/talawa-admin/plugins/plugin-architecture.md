@@ -13,7 +13,7 @@ Plugin Architecture provides talawa projects an ability to control latent [Talaw
 
 A Plugin is a feature in Talawa Mobile App that is controlled by the Admins of that organization. By having the control admins can decide the accessibility of that feature for the organization members.
 
-Programmatically the logic of this Plugin is stored in the mobile app but it's inaccessible to the users untill the admin of the organization installs that plugin.
+Programmatically the logic of this Plugin is stored in the mobile app but it's inaccessible to the users until the admin of the organization installs that plugin.
 
 You first have to be register the Plugins from the `Plugin store` in order to install them from the Talawa Admin.
 
@@ -23,7 +23,7 @@ Let's discuss the role of the different apps to make the plugin architecture wor
 
 ### Talawa Admin
 
-Admin Provides `Plugin Store` where has following functionalities:
+Admin Provides `Plugin Store` where has the following functionalities:
 
 - Ability to install or uninstall the plugins.
 - Ability to Toggle list of installed and available plugins.
@@ -35,7 +35,7 @@ Admin Provides `Plugin Store` where has following functionalities:
 
 ### Talawa API
 
-It is a nodeJS API that is used to interface with the database containing list of the plugins with thier different attributes.
+It is a nodeJS API that is used to interface with the database containing list of the plugins with their different attributes.
 
 A sample Plugin Model can have the below properties.
 
@@ -51,7 +51,7 @@ Plugin : {
 
 ### Talawa
 
-Plugin in the mobile App are mainly focused for the features on the navbar.but other functionalities can also be also implemented as plugins using the `TalawaPluginProvider` Flutter Widget.  
+Plugin in the mobile App are mainly focused for the features on the navbar.but other functionalities can also be implemented as plugins using the `TalawaPluginProvider` Flutter Widget.  
 ![Talawa Mobile App ](/img/plugin/talawa.PNG)
 
 ## Plugin Store

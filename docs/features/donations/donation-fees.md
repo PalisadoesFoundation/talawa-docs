@@ -24,12 +24,12 @@ This feature aims to _ **manage privileged access** _ by _ **use of fees associa
 
 ### Goals
 
-1. **Allow for a secure method of receiving dontations online** :
- Through the use of a payment gateway for ease of managment and integrations, we can allow members to offer secure payments on fees to access exclusive events/features.
+1. **Allow for a secure method of receiving donations online** :
+ Through the use of a payment gateway for ease of management and integrations, we can allow members to offer secure payments on fees to access exclusive events/features.
 2. **Differentiate the various fees associated with features/terms of use** :
  Currently, there are three main categories for fees within the application, namely: Donations and Membership Fees. 
     - Donations: These are fees that can be contributed at any time by members/participants of an organization.
-    - Membership Fees: Similar to donations, membership fees can be contributed at any time or can be associated with a certain event. These fees can also be one-time or reccuring.
+    - Membership Fees: Similar to donations, membership fees can be contributed at any time or can be associated with a certain event. These fees can also be one-time or recurring.
     - Plugin Fees: These are payments made to grant access to certain features of the application.
 
 ### Out of Scope

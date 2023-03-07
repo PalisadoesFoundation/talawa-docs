@@ -66,14 +66,14 @@ The following are the primary roles foreseen in the development of this feature
 
 1. From the mobile app or the web client a coordinator or an admin show see additional options for each post.
     1. They should be able to select remove post from these additional options
-    2. The post must then be removed from the news feed of all members and a message sent to the author of the post that is was removed
+    2. The post must then be removed from the news feed of all members and a message sent to the author of the post that it was removed
 
 **Assigning members to event tasks:**
 
 1. From events detail view or the create event view a coordinator or an admin user must be presented with the option to create task list
 2. Once the create task list option is selected, the user is prompted to enter basic details for the task eg. print flyers
     1. Additionally the user must be presented with the option to assign the task to a member
-    2. Once this option is selected a list of the members in the organisation or the groups are presented with muli-select option
+    2. Once this option is selected a list of the members in the organisation or the groups are presented with multi-select option
     3. After selecting the members or groups to assign to the tasks the user should be able to commit their changes and is redirected to the task detail where the users assigned to the task are displayed
     4. The option must also be available to remove an assigned member or group from the task and commit the changes
 

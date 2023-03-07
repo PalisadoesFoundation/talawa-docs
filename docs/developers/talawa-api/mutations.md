@@ -23,7 +23,7 @@ These are the Mutations exclusive to the `SUPERADMIN` type. Please note that a f
 
 1. `blockPluginCreationBySuperadmin`
 2. `createAdmin`
-3. `createOrganization` - When a superadmin creates and organization , he/she will aso be one of the `admins` and `creator` of that Organization. Therefore the Mutations in the next Sections also applies to Super Admin.  
+3. `createOrganization` - When a superadmin creates and organization , he/she will aso be one of the `admins` and `creator` of that Organization. Therefore, the Mutations in the next Sections also applies to Super Admin.  
 4. `rejectAdmin`
 5. `removeAdmin`
 6. `removeOrganization`

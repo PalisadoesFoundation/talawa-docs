@@ -27,6 +27,6 @@ Some prominent packages used in the project are:-
 
 :::note
 
-This is the link to the other packages packages and libraries
+This is the link to the other packages and libraries
 https://github.com/PalisadoesFoundation/talawa-api/blob/develop/package.json
 :::

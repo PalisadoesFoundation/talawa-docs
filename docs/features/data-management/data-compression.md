@@ -30,7 +30,7 @@ This feature aims to _ **enforce a data compression strategy** _ by _ ** detaili
 ### Out of Scope
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
-1. **Allowing an adminstrator to select the type of encoding algorithm to be used to compress and store app data:** for example z standard, gzip 
+1. **Allowing an administrator to select the type of encoding algorithm to be used to compress and store app data:** for example z standard, gzip 
 
 ### People and Roles
 

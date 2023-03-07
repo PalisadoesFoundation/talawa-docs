@@ -22,9 +22,9 @@ There are many types of people who use Talawa either directly, or indirectly:
     1. For example: People who may attend an event tracked in Talawa and have their information entered into the system as part of the attendance process. 
 1. **Members**: These are people who directly use Talawa either with the mobile app, or as an administrator with Talawa Admin. 
     1. Members may register their Talawa mobile app with an organization within a society once the appropriate approvals have been given.
-1. **Admin**: These are members who use use Talawa Admin to managage the people in an organization.
+1. **Admin**: These are members who use use Talawa Admin to manage the people in an organization.
      1. Super Admins can promote Users and Members to Admin status
-1. **Super Admin**: These are members who use use Talawa Admin to managage all organizations in a society.
+1. **Super Admin**: These are members who use use Talawa Admin to manage all organizations in a society.
      1. Super Admins can promote Users and Members to Admin or Super Admin status
 
 ## Events
@@ -36,7 +36,7 @@ Event management is a major Talawa component.
 Here are some important terminologies used in Talawa event management:
 
 1. **Open Event**: Events that are open to everyone
-1. **Registerable Event**: An open event that requires the additional step of event registration. These events would typically have limited capacity and therefore would require members to register beforehand.
+1. **Registrable Event**: An open event that requires the additional step of event registration. These events would typically have limited capacity and therefore would require members to register beforehand.
 1. **Closed Events**: These are events that are by invitation only.
     1. **Private events**: Closed events that only show up in the mobile app calendars of invitees
 
