@@ -24,7 +24,7 @@ title: Overview
 
 #### 4. `Contributions` Page
 
-- This shows a list of Members of `Contributors` who've donated to the Organization.
+- These shows a list of Members of `Contributors` who've donated to the Organization.
 - Donations can be made from `Talawa` app and can be recurring or One time.
 
 #### 5. `Posts` Page

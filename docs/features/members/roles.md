@@ -20,7 +20,7 @@ This feature aims to _ **introduce application roles** _ by _ **defining how the
 
 ### Problem
 
-1. **Members need to be assigned roles :** in order to provide a tailored an experience for each user so that application features are not arbitrarily available to all users of the application
+1. **Members need to be assigned roles :** in order to provide a tailored experience for each user so that application features are not arbitrarily available to all users of the application
 
 ### Goals
 
