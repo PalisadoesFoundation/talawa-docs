@@ -100,20 +100,37 @@ const config = {
             items: [
               {
                 label: 'Slack',
-                href: 'https://github.com/PalisadoesFoundation/talawa#readme',
+                to: 'https://github.com/PalisadoesFoundation/talawa#readme',
+              },
+              {
+                label: 'Twitter',
+                to: 'https://twitter.com/palisadoesorg?lang=en',
+              },
+              {
+                label: 'News',
+                to: '/docs/features/news%20feed/news-feed-overview',
+              },
+              {
+                label: 'Contact Us',
+                to: 'https://www.palisadoes.org/contact/',
               }
             ],
           },
           {
-            title: 'More',
+            title: 'Development',
             items: [
-              {
-                label: 'Blog',
-                to: '/docs/#about',
-              },
+              
               {
                 label: 'GitHub',
-                href: 'https://github.com/PalisadoesFoundation',
+                to: 'https://github.com/PalisadoesFoundation',
+              },
+              {
+                label: 'Opportunities',
+                to: '/docs/internships/internship-ideas',
+              },
+              {
+                label: 'Team',
+                to: '/docs/features/members/members-overview',
               },
             ],
           },
