@@ -45,85 +45,7 @@ Installation will vary depending on whether you use the `yarn` or `npm` packages
 The steps are simple:
 
 1. Clone this repository
-2. Install Yarn on your system following these instructions
-
-### Install Yarn on Windows Using NPM
-
-- [Download the Windows installer](https://nodejs.org/en/download/)
-- After choosing the path, double-click to install. Then give access to run the application
-- Install Yarn by running the following command
-
-```terminal
-$ npm install --global yarn
-```
-
-- Check Yarn installation
-
-```terminal
-$ yarn -version
-```
-
-### Install Yarn on Windows Using msi File
-
-- [Download the Windows installer](https://classic.yarnpkg.com/en/docs/install#windows-stable)
-- After choosing the path, double-click to install. Then give access to run the application
-
-- Check Yarn installation
-
-```terminal
-$ yarn -version
-```
-
-### Install Yarn on macOS Using NPM
-
-- [Click on the macOS Installer option to download the .pkg installer](https://nodejs.org/en/download/)
-- Run the Node.js installer
-- Verify Node.js Installation by running the following command in your terminal
-
-```terminal
-$ node -v
-$ npm -v
-```
-- Run the following command to install Yarn
-
-```terminal
-$ sudo npm install --global yarn
-```
-
-- Verify Yarn Installation
-
-```terminal
-$ yarn --version
-```
-
-### Install Yarn on macOS Using Homebrew
-
-- Install Yarn by running the given command in your terminal
-
-```terminal
-$ brew install yarn
-```
-
-### Install Yarn on Linux Using NPM
-
-- Run the following command in your terminal to install Node and NPM respectively. [Confirm your Linux distro and it's command prompt](https://linuxconfig.org/install-npm-on-linux)
-
-```terminal
-$ sudo apt install nodejs
-$ sudo apt install npm
-```
-- Verify installation 
-
-```terminal
-$ node -v
-$ npm -v
-```
-
-- Install Yarn with the following command
-
-```terminal
-npm install --global yarn
-```
+2. Install Yarn on your system using the instructions given below
 3. If you have previously installed yarn on your local device run the following command to confirm
 
 ```terminal
@@ -131,75 +53,104 @@ $ yarn -version
 ```
 4. Follow these steps next
 
+**Note:** Please bear in mind that to install docusaurus your system, a Node.js version 16.14 or above (which can be checked by running node -v) is required. Other requirements that pertains to the installation of docusaurus can be found [here](https://docusaurus.io/docs/installation)
+
 ```console
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs
 $ cd talawa-docs
 $ yarn add docusaurus
 ```
 
-## Using NPM
+### Install Yarn on Windows Using NPM
+NPM (Node Package Manager) is a package manager included with the Node.js installation. It is used for developing and sharing JavaScript code, but it also provides another method of installing Yarn
 
-The steps are simple:
+1. [Download the Node Windows installer](https://nodejs.org/en/download/)
+1. After choosing the path, double-click to install. Then give access to run the application
+1. Install Yarn by running the following command
 
-1. Clone this repository
-2. Install NPM on your system using these instructions
+```terminal
+$ npm install --global yarn
+```
 
-### Install NPM on Windows
+4. Check Yarn installation
 
-- [Download the Windows installer](https://nodejs.org/en/download/)
-- After choosing the path, double-click to install. Then give access to run the application
-- Check Node.js and NPM version by running the following command in your terminal
+```terminal
+$ yarn -version
+```
+
+### Install Yarn on Windows Using msi File
+Here’s how to install the Yarn package manager on Windows
+
+1. [Download the Yarn Windows installer](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+1. After choosing the path, double-click to install. Then give access to run the application
+
+1. Check Yarn installation
+
+```terminal
+$ yarn -version
+```
+
+### Install Yarn on macOS Using NPM
+The .pkg installer can be used to install Yarn on macOS. Using the .pkg installer also helps resolve dependencies since it does not require a command line to install Node.js
+
+1. [Click on the macOS Installer option to download the .pkg installer](https://nodejs.org/en/download/)
+2. Run the Node.js installer
+3. Verify Node.js Installation by running the following command in your terminal
 
 ```terminal
 $ node -v
 $ npm -v
 ```
-
-### Install NPM on macOS Using .pkg Installer
-
-- [Click on the macOS Installer option to download the .pkg installer](https://nodejs.org/en/download/)
-- Run the Node.js installer
-- Verify Node.js Installation by running the following command in your terminal
+4. Run the following command to install Yarn
 
 ```terminal
-$ node -v
-$ npm -v
+$ sudo npm install --global yarn
 ```
-- Update your NPM version
+
+5. Verify Yarn Installation
 
 ```terminal
-$ sudo npm install npm --global
+$ yarn --version
 ```
 
-### Install NPM on macOS Using Homebrew
+### Install Yarn on macOS Using Homebrew
+One of the easiest way to install Yarn on macOS is to use the command line installer
 
-- Install Node and NPM by running the given command in your terminal
+1. Install Yarn by running the given command in your terminal
 
 ```terminal
-$ brew install node
-```
-- Verify Node and NPM installation. Homebrew will update the version of Node and NPM you have installed
-
-```terminal
-$ node -v
-$ npm -v
+$ brew install yarn
 ```
 
-### Install NPM on Linux
+### Install Yarn on Linux Using NPM
+Installing Yarn on Linux through NPM can be done via command line installer, this doesn't automatically install Node.js
 
-- Run the following command in your terminal to install Node and NPM respectively. [Confirm your Linux distro and it's command prompt](https://linuxconfig.org/install-npm-on-linux)
+1. Run the following command in your terminal to install Node and NPM respectively. [Confirm your Linux distro and it's command prompt](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
 
 ```terminal
 $ sudo apt install nodejs
 $ sudo apt install npm
 ```
-- Verify installation 
+2. Verify installation 
 
 ```terminal
 $ node -v
 $ npm -v
 ```
 
+3. Install Yarn with the following command
+
+```terminal
+npm install --global yarn
+```
+
+
+## Using NPM
+
+The steps are simple:
+
+1. Clone this repository
+2. Install NPM on your system using the instructions given below
 3. If you have previously installed NPM on your local device run the following command to confirm
 
 ```terminal
@@ -208,11 +159,75 @@ $ npm -v
 ```
 4. Follow these steps next
 
+**Note:** Please bear in mind that to install docusaurus your system, a Node.js version 16.14 or above (which can be checked by running node -v) is required. Other requirements that pertains to the installation of docusaurus can be found [here](https://docusaurus.io/docs/installation)
+
+
 ```console
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs
 $ cd talawa-docs
 $ npm install docusaurus
 ```
+
+### Install NPM on Windows
+Here’s how to install the Node package manager on Windows
+
+1. [Download the Node Windows installer](https://nodejs.org/en/download/)
+2. After choosing the path, double-click to install. Then give access to run the application
+3. Check Node.js and NPM version by running the following command in your terminal
+
+```terminal
+$ node -v
+$ npm -v
+```
+
+### Install NPM on macOS Using .pkg Installer
+The .pkg installer can be used to install NPM on macOS. Using the .pkg installer also helps resolve dependencies since it does not require a command line to install Node.js except when updating the NPM version
+
+1. [Click on the macOS Installer option to download the .pkg installer](https://nodejs.org/en/download/)
+2. Run the Node.js installer
+3. Verify Node.js Installation by running the following command in your terminal
+
+```terminal
+$ node -v
+$ npm -v
+```
+4. Update your NPM version
+
+```terminal
+$ sudo npm install npm --global
+```
+
+### Install NPM on macOS Using Homebrew
+Homebrew is an open-source and free software package management system, simplifying the installation process on macOS and Linux. It installs packages to their directory and their files into /usr/local
+
+1. Install Node and NPM by running the given command in your terminal
+
+```terminal
+$ brew install node
+```
+2. Verify Node and NPM installation. Homebrew will update the version of Node and NPM you have installed
+
+```terminal
+$ node -v
+$ npm -v
+```
+
+### Install NPM on Linux
+Installing NPM on Linux can be done via command line installer, this doesn't automatically install Node.js
+
+1. Run the following command in your terminal to install Node and NPM respectively. [Confirm your Linux distro and it's command prompt](https://linuxconfig.org/install-npm-on-linux)
+
+```terminal
+$ sudo apt install nodejs
+$ sudo apt install npm
+```
+2. Verify installation 
+
+```terminal
+$ node -v
+$ npm -v
+```
+
 
 # Running the Development Server
 
@@ -223,6 +238,7 @@ To preview your changes as you edit the files, you can run a local development s
 Follow these steps:
 
 **Note:** Install the latest stable version of Node.js on your system if you get a `The engine "node" is incompatible with this module. Expected version` message during the procedure below. You may need to use a custom repository for this.
+- Please bear in mind that to install docusaurus your system, a Node.js version 16.14 or above (which can be checked by running node -v) is required. Other requirements that pertains to the installation of docusaurus can be found [here](https://docusaurus.io/docs/installation)
 
 ```console
 $ sudo apt-get -y install npm
@@ -241,6 +257,7 @@ This command starts a local development server and open up a browser window. Mos
 Follow these steps:
 
 **Note:** Install the latest Node.js on your system to run the development server. You can install Node.js from [here](https://nodejs.org/en/download/) following the installation steps above
+- Please bear in mind that to install docusaurus your system, a Node.js version 16.14 or above (which can be checked by running node -v) is required. Other requirements that pertains to the installation of docusaurus can be found [here](https://docusaurus.io/docs/installation)
 
 ```console
 $ npm install -g npm
