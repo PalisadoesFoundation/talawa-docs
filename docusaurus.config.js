@@ -6,8 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Talawa Project Documentation',
-  tagline: 'Open Source Software for Managing Community Based Organizations',
+  title: 'Welcome to Talawa!',
+  // Changed the title to give a more welcoming perspective, building the users interest and providing a sense of belonging
+  tagline: 'The ultimate open source solution for efficient community based organizations management',
+  //A more persuasive statement for potential users highlighting the key benefits of the documentation.
   url: 'https://docs.talawa.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',

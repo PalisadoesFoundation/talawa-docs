@@ -85,6 +85,7 @@
     'Segoe UI Symbol';
   --ifm-font-family-monospace: 'IBM Plex Mono', SFMono-Regular, Menlo, Monaco,
     Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ifm-font-family-display: 'Clash Display', sans-serif;
 }
 
 html[data-theme='dark'] {
@@ -105,7 +106,7 @@ html[data-theme='dark'] {
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/clash-display?styles=106288,106285,106286,106287,106289,106284');
 /* .menu--responsive > .menu__list > .menu__list-item:not(:last-of-type):not(.menu__list-item--collapsed) {
   margin-bottom: 3rem;
 }
@@ -189,6 +190,10 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   position: relative;
   right: 8px;
   top: 1px;
+}
+
+.hero__title{
+  font-family: var(--ifm-font-family-display) ;
 }
 
 .markdown>button {
