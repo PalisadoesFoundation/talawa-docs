@@ -26,7 +26,7 @@ This feature aims to _ **enhance in app communication** _ by _ **allowing users 
 
 The following are aspects of this feature which have been considered but are outside of the scope for the current project:
 
-1. 
+1.NA
 
 ### People and Roles
 

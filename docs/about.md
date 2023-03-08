@@ -3,8 +3,8 @@ id: about
 title: About Us
 slug: /
 ---
-
-Here is a brief introduction to who we are and the Talawa projects.
+<!-- Added a link to Talawa projects for direct navigation to Talawa projects -->
+Here is a brief introduction to who we are and the [Talawa projects](https://docs.talawa.io/docs/applications/architecture-overview/#talawa-apii).
 ### About Palisadoes
 
 The Palisadoes Foundation aims to provide new avenues of promoting Jamaica’s technology talent through a series of programs which create increased awareness of the island’s abilities in the global marketplace. It was founded by Jamaicans living in the United States.

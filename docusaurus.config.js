@@ -57,11 +57,12 @@ const config = {
           alt: 'Talawa Logo',
           src: 'img/logo.png',
         },
-        items: [
+        // Changed the label About to About Us-- Its more descriptive
+         items: [
           {
             to: "docs/",
             activeBasePath: "docs",
-            label: "About",
+            label: "About Us",  
             position: "left",
           },
           {
