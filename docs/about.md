@@ -21,7 +21,7 @@ Talawa was created to help community based organizations collaborate with their 
 ​
 Though software applications exist for these types of organizations (eg. Breeze ChMS, The Realm) they assume their memberships are fully literate and have access to email. We wanted to create a system that would work for countries with similar technology and education challenges as Jamaica.
 ​
-Talawa has three main components. A mobile application with social media features, a web based portal to be used by the organization’s administrative team, and finally an API providing access to data and features.
+Talawa has three main components. A mobile application with socidwdqal media features, a web based portal to be used by the organization’s administrative team, and finally an API providing access to data and features.
 ​​
 The Palisadoes Foundation wants to eventually host Talawa as a cloud service to help finance its education outreach.
 ​
