@@ -45,8 +45,91 @@ Installation will vary depending on whether you use the `yarn` or `npm` packages
 The steps are simple:
 
 1. Clone this repository
-2. [Install `yarn` on your system using these instructions](https://classic.yarnpkg.com/en/docs/install)
-3. Follow these steps next
+2. Install Yarn on your system following these instructions
+
+### Install Yarn on Windows Using NPM
+
+- [Download the Windows installer](https://nodejs.org/en/download/)
+- After choosing the path, double-click to install. Then give access to run the application
+- Install Yarn by running the following command
+
+```terminal
+$ npm install --global yarn
+```
+
+- Check Yarn installation
+
+```terminal
+$ yarn -version
+```
+
+### Install Yarn on Windows Using msi File
+
+- [Download the Windows installer](https://classic.yarnpkg.com/en/docs/install#windows-stable)
+- After choosing the path, double-click to install. Then give access to run the application
+
+- Check Yarn installation
+
+```terminal
+$ yarn -version
+```
+
+### Install Yarn on macOS Using NPM
+
+- [Click on the macOS Installer option to download the .pkg installer](https://nodejs.org/en/download/)
+- Run the Node.js installer
+- Verify Node.js Installation by running the following command in your terminal
+
+```terminal
+$ node -v
+$ npm -v
+```
+- Run the following command to install Yarn
+
+```terminal
+$ sudo npm install --global yarn
+```
+
+- Verify Yarn Installation
+
+```terminal
+$ yarn --version
+```
+
+### Install Yarn on macOS Using Homebrew
+
+- Install Yarn by running the given command in your terminal
+
+```terminal
+$ brew install yarn
+```
+
+### Install Yarn on Linux Using NPM
+
+- Run the following command in your terminal to install Node and NPM respectively. [Confirm your Linux distro and it's command prompt](https://linuxconfig.org/install-npm-on-linux)
+
+```terminal
+$ sudo apt install nodejs
+$ sudo apt install npm
+```
+- Verify installation 
+
+```terminal
+$ node -v
+$ npm -v
+```
+
+- Install Yarn with the following command
+
+```terminal
+npm install --global yarn
+```
+3. If you have previously installed yarn on your local device run the following command to confirm
+
+```terminal
+$ yarn -version
+```
+4. Follow these steps next
 
 ```console
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs
@@ -59,8 +142,71 @@ $ yarn add docusaurus
 The steps are simple:
 
 1. Clone this repository
-2. [Install `npm` on your system using these instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-3. Follow these steps next
+2. Install NPM on your system using these instructions
+
+### Install NPM on Windows
+
+- [Download the Windows installer](https://nodejs.org/en/download/)
+- After choosing the path, double-click to install. Then give access to run the application
+- Check Node.js and NPM version by running the following command in your terminal
+
+```terminal
+$ node -v
+$ npm -v
+```
+
+### Install NPM on macOS Using .pkg Installer
+
+- [Click on the macOS Installer option to download the .pkg installer](https://nodejs.org/en/download/)
+- Run the Node.js installer
+- Verify Node.js Installation by running the following command in your terminal
+
+```terminal
+$ node -v
+$ npm -v
+```
+- Update your NPM version
+
+```terminal
+$ sudo npm install npm --global
+```
+
+### Install NPM on macOS Using Homebrew
+
+- Install Node and NPM by running the given command in your terminal
+
+```terminal
+$ brew install node
+```
+- Verify Node and NPM installation. Homebrew will update the version of Node and NPM you have installed
+
+```terminal
+$ node -v
+$ npm -v
+```
+
+### Install NPM on Linux
+
+- Run the following command in your terminal to install Node and NPM respectively. [Confirm your Linux distro and it's command prompt](https://linuxconfig.org/install-npm-on-linux)
+
+```terminal
+$ sudo apt install nodejs
+$ sudo apt install npm
+```
+- Verify installation 
+
+```terminal
+$ node -v
+$ npm -v
+```
+
+3. If you have previously installed NPM on your local device run the following command to confirm
+
+```terminal
+$ node -v
+$ npm -v
+```
+4. Follow these steps next
 
 ```console
 $ git clone https://github.com/PalisadoesFoundation/talawa-docs
@@ -94,7 +240,7 @@ This command starts a local development server and open up a browser window. Mos
 
 Follow these steps:
 
-**Note:** Install the latest Node.js on your system to run the development server. You can install Node.js from [here](https://nodejs.org/en/download/)
+**Note:** Install the latest Node.js on your system to run the development server. You can install Node.js from [here](https://nodejs.org/en/download/) following the installation steps above
 
 ```console
 $ npm install -g npm
