@@ -107,6 +107,15 @@ const config = {
                 to: 'https://twitter.com/palisadoesorg?lang=en',
               },
               {
+                label: 'Facebook',
+                to: 'https://www.facebook.com/palisadoesproject/',
+              },
+              {
+                label: 'Instagram',
+                to: 'https://www.instagram.com/palisadoes/?hl=en',
+              },
+              
+              {
                 label: 'News',
                 to: '/docs/features/news%20feed/news-feed-overview',
               },
