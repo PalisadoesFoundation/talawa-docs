@@ -135,8 +135,9 @@ const config = {
                 to: '/docs/internships/internship-ideas',
               },
               {
+                // Changed the link to a more related page
                 label: 'Team',
-                to: '/docs/features/members/members-overview',
+                to: 'https://github.com/orgs/PalisadoesFoundation/people',
               },
             ],
           },
