@@ -28,6 +28,5 @@ These are events created by a co-ordinator or an Administrator. They are time bo
 ### Out of Scope
 
 1. Project Management/ Goals Tracking
-2. 
 
 
