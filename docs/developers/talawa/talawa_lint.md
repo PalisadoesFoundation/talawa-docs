@@ -54,6 +54,12 @@ documentation, or the documentation is not in the right format. Something like t
 Run `flutter pub run custom_lint` in `talawa` root directory to analyze all of the files
 for custom lint rules.
 
+#### Logs
+
+Logs are generated for our custom lint analysis in the file named `custom_lint.log`. This file
+exists under both `talawa` and `talawa_lint` directories. You can find any error related to 
+`talawa_lint` integration in these logs. This comes handy while troubleshooting.
+
 ## Talawa Lint Rules
 
 For now, we enforce two custom lint rules to our codebase, which should be strictly followed
