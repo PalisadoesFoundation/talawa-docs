@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Group Chats',
+    title: 'Enhance Community Communication',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Talk to your own community groups on Talawa.
-Our app makes it simple and secure to use.
+        Connect with Your Community Groups Effortlessly with Talawa's Secure Group Chats.
       </>
     ),
   },
   {
-    title: 'Event calendars',
+    title: 'Streamline Community Event Planning',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Schedule, create and view your upcoming community events on Talawa.
-Start your own or register for existing one.
+        Manage, Create, and Participate in Community Events with Talawa's Event Calendars. Start your own or register for an existing one.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Build Strong Communities',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Create and manage multiple organizations with Talawa.
-Start your community and watch it grow.
+        Empower Your Organization with Talawa's React-Powered Platform for Managing Multiple Communities.
       </>
     ),
   },
