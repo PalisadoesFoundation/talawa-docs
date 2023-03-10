@@ -28,9 +28,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: ({docPath}) => {
+            return (`https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`)
+          }
         },
         blog: {
           showReadingTime: true,
+          editUrl: 'https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -82,15 +86,6 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
