@@ -16,7 +16,9 @@ Inorder to be part of outreachy internship,
 1. You must be available for a full-time internship. Outreachy interns work 30 hours per week.
 1. You must not be a past Outreachy intern.
 1. You must not be a past Outreach Program for Women intern. 
-To find out more eligibility criteria find out [here](https://www.outreachy.org/docs/applicant/)
+
+
+Find out more about the [eligibility](https://www.outreachy.org/docs/applicant/) criteria of outreachy internship.
 
 ### some useful links
 
