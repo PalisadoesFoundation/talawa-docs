@@ -6,6 +6,35 @@
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+   border-radius: 30%;
+   object-fit: cover;
 }
+.desc{
+   
+  padding: 0 20px 0 20px;
+  text-align: center;
+  font-weight: 300;
+  background-color: green;
+  color: white;
+ }
+ .container{
+   color: white;
+   display: flex;
+   flex-direction: column;
+   background-color: green !important;
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+ .TitleandImg{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 10px;
+ }
+ .box .active{
+   display: block;
+ }
+ 

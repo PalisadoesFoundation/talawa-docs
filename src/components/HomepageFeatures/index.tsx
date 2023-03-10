@@ -44,12 +44,19 @@ Start your community and watch it grow.
 function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
+      <div className={styles.container}>
+        <div className={styles.TitleandImg}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+      </div>
+      </div>
+      <div className={styles.desc}>
+      <p>{description}</p>
+      </div>
+      
       </div>
     </div>
   );
