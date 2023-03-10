@@ -1,43 +1,44 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Talawa Project Documentation',
-  tagline: 'Open Source Software for Managing Community Based Organizations',
-  url: 'https://docs.talawa.io',
-  baseUrl: '/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  deploymentBranch: 'gh-pages',
-  organizationName: 'PalisadoesFoundation',
-  projectName: 'talawa-docs',
+  title: "Talawa Project Documentation",
+  tagline: "Open Source Software for Managing Community Based Organizations",
+  url: "https://docs.talawa.io",
+  baseUrl: "/",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  deploymentBranch: "gh-pages",
+  organizationName: "PalisadoesFoundation",
+  projectName: "talawa-docs",
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: ({docPath}) => {
-            return (`https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`)
-          }
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: ({ docPath }) => {
+            return `https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs',
+          editUrl:
+            "https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -52,10 +53,10 @@ const config = {
         },
       },
       navbar: {
-        title: 'Talawa',
+        title: "Talawa",
         logo: {
-          alt: 'Talawa Logo',
-          src: 'img/logo.png',
+          alt: "Talawa Logo",
+          src: "img/logo.png",
         },
         items: [
           {
@@ -65,76 +66,80 @@ const config = {
             position: "left",
           },
           {
-            href: 'https://docs.talawa.io/talawa/index.html',
+            href: "https://docs.talawa.io/talawa/index.html",
             target: "_self",
             label: "Talawa",
             position: "left",
           },
           {
-            href: 'https://docs.talawa.io/talawa-api/schema/index.html',
+            href: "https://docs.talawa.io/talawa-api/schema/index.html",
             target: "_self",
             label: "Talawa Api",
             position: "left",
           },
           {
-            href: 'https://github.com/PalisadoesFoundation',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/PalisadoesFoundation",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Slack',
-                to: 'https://github.com/PalisadoesFoundation/talawa#readme',
+                label: "Slack",
+                to: "https://github.com/PalisadoesFoundation/talawa#readme",
               },
               {
-                label: 'Twitter',
-                to: 'https://twitter.com/palisadoesorg?lang=en',
+                label: "News",
+                to: "/docs/features/news%20feed/news-feed-overview",
               },
               {
-                label: 'Facebook',
-                to: 'https://www.facebook.com/palisadoesproject/',
+                label: "Opportunities",
+                to: "/docs/internships/internship-ideas",
               },
               {
-                label: 'Instagram',
-                to: 'https://www.instagram.com/palisadoes/?hl=en',
+                label: "Contact Us",
+                to: "https://www.palisadoes.org/contact/",
               },
-              
-              {
-                label: 'News',
-                to: '/docs/features/news%20feed/news-feed-overview',
-              },
-              {
-                label: 'Contact Us',
-                to: 'https://www.palisadoes.org/contact/',
-              }
             ],
           },
           {
-            title: 'Development',
+            title: "Socials",
             items: [
-              
               {
-                label: 'GitHub',
-                to: 'https://github.com/PalisadoesFoundation',
+                label: "Twitter",
+                to: "https://twitter.com/palisadoesorg?lang=en",
               },
               {
-                label: 'Opportunities',
-                to: '/docs/internships/internship-ideas',
+                label: "Facebook",
+                to: "https://www.facebook.com/palisadoesproject/",
               },
               {
-                label: 'Team',
-                to: '/docs/features/members/members-overview',
+                label: "Instagram",
+                to: "https://www.instagram.com/palisadoes/?hl=en",
+              },
+            ],
+          },
+          {
+            title: "Development",
+            items: [
+              {
+                label: "GitHub",
+                to: "https://github.com/PalisadoesFoundation",
+              },
+              {
+                label: "Team",
+                to: "/docs/features/members/members-overview",
               },
             ],
           },
         ],
+
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
