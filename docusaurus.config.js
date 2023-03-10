@@ -28,13 +28,13 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({docPath}) => {
+            return (`https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`)
+          }
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -87,33 +87,50 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
                 label: 'Slack',
-                href: 'https://github.com/PalisadoesFoundation/talawa#readme',
+                to: 'https://github.com/PalisadoesFoundation/talawa#readme',
+              },
+              {
+                label: 'Twitter',
+                to: 'https://twitter.com/palisadoesorg?lang=en',
+              },
+              {
+                label: 'Facebook',
+                to: 'https://www.facebook.com/palisadoesproject/',
+              },
+              {
+                label: 'Instagram',
+                to: 'https://www.instagram.com/palisadoes/?hl=en',
+              },
+              
+              {
+                label: 'News',
+                to: '/docs/features/news%20feed/news-feed-overview',
+              },
+              {
+                label: 'Contact Us',
+                to: 'https://www.palisadoes.org/contact/',
               }
             ],
           },
           {
-            title: 'More',
+            title: 'Development',
             items: [
-              {
-                label: 'Blog',
-                to: '/docs/#about',
-              },
+              
               {
                 label: 'GitHub',
-                href: 'https://github.com/PalisadoesFoundation',
+                to: 'https://github.com/PalisadoesFoundation',
+              },
+              {
+                label: 'Opportunities',
+                to: '/docs/internships/internship-ideas',
+              },
+              {
+                label: 'Team',
+                to: '/docs/features/members/members-overview',
               },
             ],
           },

@@ -7,7 +7,10 @@ module.exports = {
     ],
     'Developer Resources': [
       {
-        Talawa: ['developers/talawa/talawa-introduction']
+        Talawa: [
+          'developers/talawa/talawa-introduction',
+          'developers/talawa/talawa-lint',
+        ]
       },
       {
         'Talawa API': [
