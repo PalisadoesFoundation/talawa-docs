@@ -23,4 +23,5 @@ To find out more eligibility criteria find out [here](https://www.outreachy.org/
 here are some links to get you started 
 1. [Applying for outreachy internship](https://www.outreachy.org/apply/)
 1. [Internship guide](https://www.outreachy.org/docs/internship/)
+1. [Why apply to outreachy?](https://www.outreachy.org/apply/)
 
