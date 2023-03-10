@@ -84,7 +84,7 @@ main {
   flex: 0 1 230px;
   order: 1;
   overflow-y: scroll;
-  padding: 20px 0 15px 30px;
+  padding: 10px 0 10px 10px;
   margin: 5px 20px 0 0;
   visibility: hidden; /* shown by Javascript after scroll position restore */
 }
