@@ -43,4 +43,4 @@ Pull request guidelines are stated here and should be followed to the letter. Th
 The readme file basically contains a summary of what the project is about, how to install dependencies using different package managers on different operating systems, links to our documentation and major software components.
 
 
-Visit our [FAQ page](docs/FAQ/faq.md) as it addresses the frequently asked questions. From there you can learn more about us and how to contribute in our projects.
+Visit our [FAQ page](docs/faq/faq.md) as it addresses the frequently asked questions. From there you can learn more about us and how to contribute in our projects.
