@@ -30,4 +30,8 @@ This diagram outlines how the three Talawa components interact
 
 ![img](/img/Talawa.jpg)
 
+### Choosing the Right Stack
+
+TypeScript's statically-typed nature and enhanced tooling capabilities provide increased reliability and maintainability to the codebase. Flutter's hot-reload feature allows for faster iteration and development of high-performance mobile applications with a native-like experience. Additionally, its support for both iOS and Android platforms makes it a versatile choice for cross-platform development. MongoDB's flexible document data model and scalability features make it a suitable choice for applications that require efficient data handling and storage. Its support for sharding and replication ensures high availability and data redundancy. Overall, the combination of TypeScript, Flutter, and MongoDB provides a robust and efficient stack for building modern and scalable applications.
+
 
