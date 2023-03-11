@@ -78,8 +78,9 @@ const config = {
           },
           {
             href: 'https://github.com/PalisadoesFoundation',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
