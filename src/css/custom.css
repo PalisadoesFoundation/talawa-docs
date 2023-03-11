@@ -212,6 +212,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     .center {
         text-align: center;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -220,6 +221,9 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     }
     .github-button {
         margin-right: 0.5rem;
+    }
+    .hero__title {
+        font-size: 2rem;
     }
 }
 
