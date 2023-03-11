@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is.
+A clear and concise description of what the problem is. *At this time, we are not making any FOOTER changes.*
 
 **Describe the solution you'd like**
 A clear and concise description of what you want to happen.

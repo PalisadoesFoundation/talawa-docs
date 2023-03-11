@@ -132,7 +132,9 @@ There are some fundamental features that the Talawa suite of applications needs 
        1. Persons invited to events should be automatically added to the event chat groups, but this does not occur.
        1. Verify and correct if necessary whether removing someone from an event invitee list removes them from the group chat.
    1. _Errors_: Though we have a standard error widget in the mobile app, it is not used for all error reporting, nor does the widget log to console for troubleshooting.
-   1. _Testing_: Test code coverage in the mobile app lags that of the other Talawa apps. It should ideally be above 90%
+   1. _Testing_: 
+       1. Test code coverage in the mobile app lags that of the other Talawa apps. It should ideally be above 90%
+       1. We need an automated end to end testing regime for all three Talawa code repositories.
    1. _Timeliness_: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
 1. **Expected Outcomes:** 
    1. We have documented many other areas of potential improvements in the reference links below. After reviewing the videos there, we decided to create issues to rectify some of our concerns, but soon realized that this warrants a GSoc idea of its own as some solutions to the issues will require great coordination and time.
