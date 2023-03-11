@@ -24,6 +24,8 @@ If you personally know anyone in the Palisadoes Foundation GitHub community who 
 3. Review your pull requests
 4. Merge your pull requests
 
+We also err on the side of caution and therefore apply these criteria to persons currently attending the same educational institutions and/or working with the same companies.
+
 It's important that all candidates are evaluated on the merit of their contributions and proposals as objectively as possible.
 
 ### Mentors
