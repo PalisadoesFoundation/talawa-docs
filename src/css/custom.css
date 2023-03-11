@@ -204,6 +204,69 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     top: 1px;
 }
 
+.footer__icon {
+    margin: 0;
+    padding: 2px;
+    color: #fff;
+}
+
+.footer__icon:before {
+    content: "";
+    display: inline-flex;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+}
+
+.footer__icon:hover:before {
+    background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.footer__github:before {
+    mask: url(/img/github.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__slack:before {
+    mask: url(/img/slack.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__facebook:before {
+    mask: url(/img/facebook.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__instagram:before {
+    mask: url(/img/instagram.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__twitter:before {
+    mask: url(/img/twitter.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__news:before {
+    mask: url(/img/source.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__contact:before {
+    mask: url(/img/source.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__opportunities:before {
+    mask: url(/img/opportunities.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__team:before {
+    mask: url(/img/team.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
 .markdown>button {
     background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
     border: none;
@@ -230,6 +293,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     .center {
         text-align: center;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -238,6 +302,9 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     }
     .github-button {
         margin-right: 0.5rem;
+    }
+    .hero__title {
+        font-size: 2rem;
     }
 }
 
