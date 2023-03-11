@@ -15,15 +15,15 @@ Inorder to be part of outreachy internship,
 1. You must be 18 years of age or older by May 29, 2023
 1. You must be available for a full-time internship. Outreachy interns work 30 hours per week.
 1. You must not be a past Outreachy intern.
-1. You must not be a past Outreach Program for Women intern. 
 
+Find out more about the [eligibility](https://www.outreachy.org/docs/applicant/) of outreachy internship.
 
-Find out more about the [eligibility](https://www.outreachy.org/docs/applicant/) criteria of outreachy internship.
-
-### some useful links
+### Some Useful Links
 
 here are some links to get you started 
-1. [Applying for outreachy internship](https://www.outreachy.org/apply/)
-1. [Internship guide](https://www.outreachy.org/docs/internship/)
-1. [Why apply to outreachy?](https://www.outreachy.org/apply/)
+1. [Eligibility Criteria](https://www.outreachy.org/docs/applicant/#eligibility)
+1. [Applying for Outreachy Internship](https://www.outreachy.org/apply/)
+1. [Internship Guide](https://www.outreachy.org/docs/internship/)
+1. [Why Apply to Outreachy?](https://www.outreachy.org/apply/)
+
 
