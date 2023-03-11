@@ -33,7 +33,7 @@ export default function NotFound() {
                   The page you are looking for does not exist. Check if you have a typo in the URL. You can click the button below to go back to the homepage.
                 </Translate>
               </p>
-              <a href="/" className="flex-center">
+              <a href="/" className="flex-center clean-link">
                 <button className="btn text-center">
                   <Translate
                     id="theme.NotFound.button"

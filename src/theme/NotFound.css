@@ -1,5 +1,5 @@
 .btn {
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     background-color: #1fa386;
     font-weight: bold;
@@ -22,4 +22,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.clean-link {
+    text-decoration: none;
 }
