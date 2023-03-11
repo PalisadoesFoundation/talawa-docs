@@ -34,3 +34,22 @@ Talawa’s desired main features are:
 1. Donation acceptance
 1. Service provider level multi-organization capability
 1. Plugin support for administration services such as billing
+
+### Technologies Used
+
+Technology plays an increasingly significant role in improving access to education for people living in impoverished areas and developing countries. Some of the technologies that are being used by Talawa are:
+
+
+1. Front-end Technologies: HTML, CSS, Flutter, TypeScript and JavaScript is used to create the website's front-end user interface.
+
+2. Back-end Technologies: Talawa uses server-side scripting languages like GraphQL, React and Node.js to handle the website's back-end functionality.
+
+3. Database Management System: Talawa uses database management system like Python SQLAlchemy as an ORM(Object–relational mapping) and MongoDB is used to store and manage the website's data.
+
+4. Security: Talawa uses security technology like SSL (Secure Socket Layer) which helps to create a secure encrypted connection between the server(our project) and the client and protects Talawa from hacking and other security threats.
+
+5. Payment Processing: Talawa use payment processing technology like Razorpay to handle payments.
+
+6. Cloud Hosting: The foundation may use a cloud hosting service like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP) to host Talawa.
+
+7. Content Management System (CMS): Talawa is built on a CMS like WordPress, Joomla, or Drupal to manage and update its content.
