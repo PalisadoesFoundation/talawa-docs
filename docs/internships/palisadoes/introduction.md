@@ -7,7 +7,7 @@ title: Palisadoes Unpaid Internship
 
 This is an educational opportunity to work with the organization that sponsors the Talawa projects.
 
-As an intern, you will work closely with the Palisadoes Foundation (TPF) volunteers in your area of interest, such as UX/UI design, systems administration, Talawa project support, or GitHub software development, and technical writing.
+As an intern, you will work closely with the Palisadoes Foundation (TPF) volunteers in your area of interest, such as UX/UI design, systems administration, Talawa project support, GitHub software development, and technical writing.
 
 All applicants must be:
 
@@ -29,11 +29,11 @@ We are especially interested in adding features to our software that makes it:
 
 ## Schedule
 
-The application period for summer internships is open. Deadline for applications: May 31, 2021.
+The application period for summer internships is open. Deadline for applications: May 31, 2023.
 
 Each position lasts for one twelve-week term, starting June 15. There can be some flexibility with start and end dates if necessary.
 
-Work during the term can be either full time (forty hours per week) or part-time (twenty hours per week) positions. We will prefer candidates able to work full time, particularly during the summer term.
+Work during the term can be either full time (40 hours per week) or part-time (20 hours per week) positions. We will prefer candidates able to work full time, particularly during the summer term.
 
 ## How to Apply
 
