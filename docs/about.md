@@ -39,17 +39,16 @@ Talawa’s desired main features are:
 
 Technology plays an increasingly significant role in improving access to education for people living in impoverished areas and developing countries. Some of the technologies that are being used by Talawa are:
 
+1. Front-end Technologies: HTML, CSS, and JavaScript (React) is used to create the website's front-end user interface. And, Flutter is used to create the mobile application. 
 
-1. Front-end Technologies: HTML, CSS, Flutter, TypeScript and JavaScript is used to create the website's front-end user interface.
+2. Back-end Technologies: Talawa uses server-side scripting languages like GraphQL and TypeScript to handle the website's back-end functionality.
 
-2. Back-end Technologies: Talawa uses server-side scripting languages like GraphQL, React and Node.js to handle the website's back-end functionality.
+3. Database Management System: Talawa API uses database management system like MongoDB with the mongoose ORM (Object–relational mapping) which is used to store and manage the website's data.
 
-3. Database Management System: Talawa uses database management system like Python SQLAlchemy as an ORM(Object–relational mapping) and MongoDB is used to store and manage the website's data.
+4. Security: Talawa uses various encryption technologies to protect sensitive data like SSL (Secure Socket Layer) which helps to create a secure encrypted connection between the server(our project) and the client and protects Talawa from hacking and other security threats.
 
-4. Security: Talawa uses security technology like SSL (Secure Socket Layer) which helps to create a secure encrypted connection between the server(our project) and the client and protects Talawa from hacking and other security threats.
-
-5. Payment Processing: Talawa use payment processing technology like Razorpay to handle payments.
+5. Payment Processing: Talawa uses payment processing technology like Razorpay to handle payments. Talawa is also planning to have plugins that will interact with payment processing gateways. Plugins will interact with payment processing gateways by integrating the gateway's API into the plugin. This will allow the plugin to communicate with the payment gateway and process payments securely.
 
 6. Cloud Hosting: The foundation may use a cloud hosting service like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP) to host Talawa.
 
-7. Content Management System (CMS): Talawa is built on a CMS like WordPress, Joomla, or Drupal to manage and update its content.
+7. Content Management System (CMS): Talawa uses Docusaurus which is a powerful tool for creating and managing supporting documentation. It uses Markdown as its syntax, which enables users to write formatted content in a readable syntax. Additionally, it supports custom fields such as OpenAPI specs, making it an ideal choice for API documentation. It also has a style guide that ensures consistency across documents, and an offline/local search feature to make finding information easier.
