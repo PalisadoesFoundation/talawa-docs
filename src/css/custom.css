@@ -86,7 +86,7 @@
 /* Dak mode css */
 
 html[data-theme='dark'] {
-    --ifm-background-color: #000e33;
+    --ifm-background-color: #020712;
     --ifm-background-surface-color: var(--ifm-background-color);
     --ifm-menu-color: var(--ifm-color-gray-200);
     --ifm-toc-link-color: var(--ifm-color-gray-200);
