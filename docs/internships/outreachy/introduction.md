@@ -20,7 +20,7 @@ Find out more about the [eligibility](https://www.outreachy.org/docs/applicant/)
 
 ### Some Useful Links
 
-here are some links to get you started 
+Here are some links to get you started 
 1. [Eligibility Criteria](https://www.outreachy.org/docs/applicant/#eligibility)
 1. [Applying for Outreachy Internship](https://www.outreachy.org/apply/)
 1. [Internship Guide](https://www.outreachy.org/docs/internship/)
