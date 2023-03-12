@@ -150,7 +150,7 @@ There are some fundamental features that the Talawa suite of applications needs 
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`. Many of the projects below will have some impact and you will need to coordinate with the assigned mentees for this.
 1. **Project Size:** 350
-1. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake)
+1. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), AdityaBirangal (@AdityaBirangal)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development
 
