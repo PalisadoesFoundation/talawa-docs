@@ -30,7 +30,9 @@ const config = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: ({ docPath }) => {
                         return (`https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`)
-                    }
+                    },
+                    showLastUpdateAuthor: true,
+                    showLastUpdateTime: true
                 },
                 blog: {
                     showReadingTime: true,
