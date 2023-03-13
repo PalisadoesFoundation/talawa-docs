@@ -226,7 +226,7 @@ Please read the `Research` section of this document for background information
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Mobile App: Share data outside/inside Talawa to/from other applications
+### Mobile App: Share data between Talawa and other application suites
 
 1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. We also need other applications to be able to share data to talawa from where users can share content from applications like whatsapp, telegram etc. to users on talawa via chat. We really want that talawa users should also be able to have a preview of links atleast from some predefined types stated in Extected Outcomes. We it comes to user retentions we would really like to have a floating PIP mode for the links that have playable video links similar to what telegram and whatsapp have fro youtube videos.
 1. **Expected Outcomes:**
