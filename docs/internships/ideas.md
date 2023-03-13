@@ -150,7 +150,7 @@ There are some fundamental features that the Talawa suite of applications needs 
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`. Many of the projects below will have some impact and you will need to coordinate with the assigned mentees for this.
 1. **Project Size:** 350
-1. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake)
+1. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), AdityaBirangal (@AdityaBirangal)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development
 
@@ -195,24 +195,6 @@ Please read the `Research` section of this document for background information
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
-### Mobile App: Ability to Share Posts & Deep Linking
-
-1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. And also we need to implement deeplinking and dynamic link in the Talawa app, Deep linking provides you with a web browser link that points to a specific part of an app that is already installed. These links can also be set to navigate users to specific content pages like events, news updates, and more for better understanding go through [this blog](https://medium.flutterdevs.com/explore-deep-linking-in-flutter-26ad4301a99).
-1. **Expected Outcomes:**
-   1. Design public posts API and data models.
-      1. Ability to make posts public via Admin Portal.
-      1. Ability to share them to others apps via Mobile app.
-      1. Implementing logic for built-in SEO for the post.
-      1. Admin should be able to make posts to the newsfeed.
-   1. Implement deeplinking and dynamic links in the mobile app.
-1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
-
 ### Mobile App: Improved Member Management and News Feed
 
 1. **Description:** We need to generally improve the way the apps interact with the general membership through the use of the Talawa-Admin portal. For example:
@@ -244,19 +226,31 @@ Please read the `Research` section of this document for background information
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
-### Mobile App: Functionality to Allow External Links to be Used Within the Talawa Application
+### Mobile App: Share data between Talawa and other application suites
 
-1. **Description:** Applications such as Telegram and Whatsapp allow users, for example, to watch YouTube videos within the application itself without needing to navigating to an external site. This makes the application more accommodating for the users and provides a greater utility within the application itself. We need a similar functionality for the Talawa app. Inspiration of how this can be done can be taken from [this blog](https://abhinavsarkar.net/about/) where the owner of said blog uses a webhooks in the form of a Go library that gathers comments from Twitter, Reddit, GoodReads, etc. Adapt their methods of our purposes and develop a proof of concept for how this can be done using the YouTube example before generalising.
+1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like Whatsapp, Twitter,etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. We also need other applications to be able to share data to talawa from where users can share content from applications like whatsapp, telegram etc. to users on talawa via chat. We really want that talawa users should also be able to have a preview of links atleast from some predefined types stated in Extected Outcomes. We it comes to user retentions we would really like to have a floating PIP mode for the links that have playable video links similar to what telegram and whatsapp have fro youtube videos.
 1. **Expected Outcomes:**
-   1. Research and suggest a preferred way of implementing this strategy.
-   1. Implement the strategy so that it is transparent to the mobile app.
-   1. Code ways to configure this solution simply via the Admin portal.
-1. **Repos to update:** Talawa-API, Talawa-Admin.
+   1. Design public posts API and data models.
+      1. Ability to make posts public via Admin Portal.
+      1. Ability to share them to others apps via Mobile app.
+      1. Implementing logic for built-in SEO for the post.
+      1. Admin should be able to make posts to the newsfeed.
+   1. Implement data sharing to/from talawa.
+      1. Ability to share post from talawa to other applications.
+      2. Post shared should open directly inside app if installed similar to invite feature implemented.
+      3. Ability to share plain text, images or both to talawa users in chat from other applicatio similar to telegram, whatsapp, stack have.
+      4. This might also require updating changes in chat schema.
+      5. Ablity to have a link preview of all the links.(Open for who you want to implement this)
+      6. Have a PIP mode for videos to be played inside Talawa when app is in forground or background state.
+      7. Links which have a playable video file like youtube etc should have a PIP compatibility.
+      8. Links should open inside in-app browser or the dedicated application if installed.
+      9. Link preview should also be available for posts on platform and any potential place.
+1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Tasneem Koushar (Github: tasneemkoushar), Anwer Sayeed (GitHub: anwersayeed)
-1. **Difficulty:** Hard
+1. **Possible Mentors:** To be decided
+1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
 ## API - Primary Idea Areas
@@ -320,6 +314,28 @@ Please read the `Research` section of this document for background information
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
+1. **Impact Definition:** Core development, Risky/Exploratory
+
+### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-Api.
+
+1. **Description:** Currently passwords from frontend are sent on plain text format to the server which is not good to have since these can we tracked by tracing HTTP calls over the network. We want to improve this and send password in SHA256 format before hand to discourage such tracing and minimise direct acctacks on server. We also want that our server's should only respond to authorised cliend hence we figured out to implement SSL pining. In our case we cannot do this by hardcoding the certificated in our client rather we would have to do is dynamically by publically sending a signed certificate only when the user is authorised added he can only download that once per login. This require changes to be made on Talawa graphQL client and in the talawa-api to be able to send signed certificate. Followed by this we want our users to not think of there privacy just focus on sharing text to there peers by making there chat private to them only.
+1. **Expected Outcomes:**
+   1. Design changes in API.
+      1. Makeing login and signup mutations only public mutution which work without SSL pining.
+      2. Make a new mutation/query to allow download of signed certificate on talawa.
+      3. Ability to store/retrieve chats in E2E encryted form.
+   2. Implement E2E in talawa.
+      1. Passwords in login and signup mutations should be sent to server after undergoing a SHA256 encryption only.
+      2. Soon after successful authorisation signed certificate needs to be downloaded which is needed to be attached with every call except login, signup and reset password.
+      3. Ability to make E2E for one to one chat in the initial phase. Followed by group chats.
+   3. Implement E2E in talawa-admin
+      1. Send password in SHA256 format rather then sending them in plain text format. Also SSL pining in admin portal can we done in the conventional way by added a presigned certificate before deploying. Making things easier on admin side.
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin.
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** None
+1. **Project Size:** 350 hours
+1. **Possible Mentors:** To be decided
+1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
 ## Admin - Primary Idea Areas
