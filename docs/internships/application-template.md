@@ -8,17 +8,17 @@ This is just a suggested template, feel free to add and remove sections as appro
 ### About me
 
 *What relevant experience have you got, including university, work and hobby activities?*
-- *Include a copy of your GitHub profile avatar icon to help us identify you easier. No more than 48px by 48px, the same size as seen in issue and pull request comments.*
+- *Include a copy of your GitHub profile avatar icon to help us identify you easier. No more than 48px by 48px, the same size as seen in the issue and pull request comments.*
 
 ### Background
 
-*What exists already? What is the identified need? What can you reuse, what needs to he replaced?*
+*What exists already? What is the identified need? What can you reuse, and what needs to be replaced?*
 
 *Example: Palisadoes Foo has already got support for HTTP client requests, but this does not work well with OAuth-based services. The main interface for requests can be reused, but this project proposes to replace the backend code with a modular approach based on Palisadoes Bar.*
 
 ### Design and Description of Work
 
-*Brief list of things you will do / create, in some rough chronological order.*
+*Brief list of things you will do/create, in some rough chronological order.*
 
 *Show which bits are essential, and which are optional. Highlight what is new, what are modifications, and how your work fits into the existing architecture.*
 
@@ -32,7 +32,7 @@ This is just a suggested template, feel free to add and remove sections as appro
 
 1. *Evaluate the pros and cons of alternative solutions*
 1. *Illustrate key concerns and concepts of the idea with pseudocode, diagrams or other means*
-1. *Consider the long term implications of the proposal such as:*
+1. *Consider the long-term implications of the proposal such as:*
    1. *The degree of disruption to be implemented*
    1. *The hidden costs in terms of money, latency, complexity, intuitiveness, support, obsolescence mitigation and more*
    1. *The maturity of suggested libraries to be used*
@@ -50,20 +50,20 @@ This is just a suggested template, feel free to add and remove sections as appro
 
 ### Deliverables
 
-Including milestones, components, documentation, tests.
+Including milestones, components, documentation, and tests.
 
 ### Scheduling
 
-*Not too detailed, but some milestones and checkpoints. Rough estimates per work item (weeks/days). Remember to leave time for slack and bugfixing!*
+*Not too detailed, but some milestones and checkpoints. Rough estimates per work item (weeks/days). Remember to leave time for slack and bug fixing!*
 
 ### Other Commitments
 
-*Exams, part time work, holidays, lectures.*
+*Exams, part-time work, holidays, lectures.*
 
 ### Community Engagement
 
-*In particular with Palisadoes $Project, including project mailing lists, wikis, issue trackers, test systems.*
+*In particular with Palisadoes $Project, including project mailing lists, wikis, issue trackers, and test systems.*
 
-*This should show a rough understanding of working with open source communities. You should be engaged with the rest of the community both before coding start (e.g. to develop this proposal) and during the project.*
+*This should show a rough understanding of working with open source communities. You should be engaged with the rest of the community both before coding starts (e.g. to develop this proposal) and during the project.*
 
-*Include any planned user testing, prototypes, code review.*
+*Include any planned user testing, prototypes, and code review.*

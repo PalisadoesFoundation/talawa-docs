@@ -4,13 +4,13 @@ title: Introduction
 ---
 
 Outreachy is a paid, remote internship program. Outreachy's goal is to support people from groups underrepresented in tech. We help newcomers to free software and open source make their first contributions.
-Outreachy provides internships to work open source. People apply from all around the world. Interns work remotely, and are not required to move. [Outreachy internship](https://www.outreachy.org/) projects may include programming, user experience or documentation.
+Outreachy provides internships to work open source. People apply from all around the world. Interns work remotely and are not required to move. [Outreachy internship](https://www.outreachy.org/) projects may include programming, user experience or documentation.
 
 The outreachy internship application has two phases, the first stage is called [initial application](https://www.outreachy.org/docs/applicant/#initial-application) and the second stage is called the [contribution period](https://www.outreachy.org/docs/applicant/#application-prep). 
 
 ### Eligibility Criteria
 
-Inorder to be part of outreachy internship,
+In order to be part of outreachy internship,
 
 1. You must be 18 years of age or older by May 29, 2023
 1. You must be available for a full-time internship. Outreachy interns work 30 hours per week.

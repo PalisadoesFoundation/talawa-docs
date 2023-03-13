@@ -7,7 +7,7 @@ title: Palisadoes Unpaid Internship
 
 This is an educational opportunity to work with the organization that sponsors the Talawa projects.
 
-As an intern, you will work closely with the Palisadoes Foundation (TPF) volunteers in your area of interest, such as UX/UI design, systems administration, Talawa project support, or GitHub software development, and technical writing.
+As an intern, you will work closely with the Palisadoes Foundation (TPF) volunteers in your area of interest, such as UX/UI design, systems administration, Talawa project support, GitHub software development, and technical writing.
 
 All applicants must be:
 
@@ -17,9 +17,9 @@ All applicants must be:
 
 Our volunteers are dispersed globally, so all internships will be remote.
 
-These positions are unpaid. TPF will provide any appropriate documentation you might need to receive funding and school credit from outside sources. We place an emphasis on providing educational opportunities for interns in which they work closely with our volunteer mentors. [Take a look at our past interns](https://www.palisadoes.org).
+These positions are unpaid. TPF will provide any appropriate documentation you might need to receive funding and school credit from outside sources. We emphasize providing educational opportunities for interns in which they work closely with our volunteer mentors. [Take a look at our past interns](https://www.palisadoes.org).
 
-We are especially interested in adding features to our software that makes it:
+We are especially interested in adding features to our software that make it:
 
 1. More intuitive to use
 1. Support multiple organizations as a cloud service
@@ -33,7 +33,7 @@ The application period for summer internships is open. Deadline for applications
 
 Each position lasts for one twelve-week term, starting June 15. There can be some flexibility with start and end dates if necessary.
 
-Work during the term can be either full-time (40 hours per week) or part-time (20 hours per week) positions. We will prefer candidates that are able to work full time, particularly during the summer term.
+Work during the term can be either full-time (40 hours per week) or part-time (20 hours per week) positions. We will prefer candidates that are able to work full-time, particularly during the summer term.
 
 ## How to Apply
 
@@ -41,7 +41,7 @@ Send a letter of interest and resume with two references by email to:
 
 ![img](/img/email/submissions.png)
 
-Make sure that your materials are in free software friendly formats (PDF and plain text work well), and include "Internship" in your subject line. If you can, please include links to sites you've made (personal blogs are okay!) designs or code you've done, and relevant writing. Please include these as URLs, though email attachments in free formats are acceptable, too.
+Make sure that your materials are in free software friendly formats (PDF and plain text work well), and include "Internship" in your subject line. If you can, please include links to sites you've made (personal blogs are okay!) designs or code you've done and relevant writing. Please include these as URLs, though email attachments in free formats are acceptable, too.
 
 Please direct any questions about the program to:
 
