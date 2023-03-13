@@ -518,7 +518,7 @@ We cannot think of everything, so we encourage you to think of ideas that will h
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6.  **Project Size:** 350
-7.  **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), AdityaBirangal (@AdityaBirangal)
+7.  **Possible Mentors:** TBD
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Risky/Exploratory
 
