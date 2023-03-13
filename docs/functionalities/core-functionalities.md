@@ -4,8 +4,9 @@ title: Core Functionalities
 ---
 
 
-> ### The current Talawa app is functional but does not meet many best practices. We need to refactor the code to be internationally acceptable. 
-> ### Before we can add any new functionality. The refactored app needs to meet these basic requirements on which the original application was based.
+>The current Talawa app is functional but does not meet many best practices. We need to refactor the code to be internationally acceptable. 
+
+> Before we can add any new functionality. The refactored app needs to meet these basic requirements on which the original application was based.
 
 ## User Registration
 ### Description
