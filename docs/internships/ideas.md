@@ -9,7 +9,25 @@ Welcome to our ideas page! Get familiar with our general philosophy by reading t
 
 ### General Considerations
 
-This is not an exhaustive list of ideas, but they are the ones we feel need the most attention over the next 12 months.
+This is not an exhaustive list of ideas, but they broadly classify the types of features on which we'd like to focus our attentions.
+
+You are open to propose your own solutions. 
+1. We encourage candidates to think laterally. 
+1. Take the initiative and consider something hybrid taking thoughts from various ideas posted here or something totally new.
+
+We want ideas that will have a material impact on the project
+
+Remember, the ideas list is just a guide for what we feel could be achieved, and not a strict list of requirements. Think of the overall goal of making a better product. Picking a subset of suggestions and expanding them beyond our expectations shows your initiaitive.
+
+**NOTE:** If you feel the project ideas will take too much time as stated, then:
+1. Add that to your proposal
+1. Include what you think a reasonable scope should be. 
+
+We need your ideas to be completed on time with 100% test cases with each PR.
+1. Brittle code that breaks easily does not help the project
+1. Incomplete functionality is not acceptable unless specifically stated.
+
+The project is so much in its infancy that we'll accept any good idea that users will want or will facilitate that they could want. They must significantly advance our goal of having an MVP within the year.
 
 We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
 
@@ -38,6 +56,8 @@ We need to reduce the learning curve of contributors and sysadmins alike. Projec
 All code submitted must be tested. We are working towards getting to 100% test code coverage on all Talawa repositories. This will mean that you will have to write tests for new code you write or modify.
 
 The test percent code coverage requirement will incrementally rise with each pull request. In some cases, you may have to write a few extra tests for code you may not have updated. We hope this will be rare.
+
+We want code that will work in the long term. We do not want brittle code that will easily break.
 
 ### Repository Languages and Skills
 
@@ -231,27 +251,27 @@ Please read the `Research` section of this document for background information
 1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via the mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like Whatsapp, Twitter, etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. We also need other applications to be able to share data to talawa from where users can share content from applications like whatsapp, telegram etc. to users on talawa via chat. We want that talawa users should also be able to have a preview of links at least from some predefined types stated in Expected Outcomes. When it comes to user retention we would like to have a floating PIP mode for the links that have playable video links similar to what telegram and whatsapp have for youtube videos.
 1. **Expected Outcomes:**
    1. Design public posts API and data models.
-      1. Ability to make posts public via Admin Portal.
-      1. Ability to share them with other apps via Mobile app.
-      1. Implementing logic for built-in SEO for the post.
-      1. Admin should be able to make posts to the newsfeed.
-   1. Implement data sharing to/from talawa.
-      1. Ability to share a post from talawa to other applications.
-      2. Post shared should open directly inside the app if installed similar to the invite feature implemented.
-      3. Ability to share plain text, images or both to talawa users in chat from other applications similar to telegram, whatsapp, stack have.
-      4. This might also require updating changes in the chat schema.
-      5. Ability to have a link preview of all the links.(Open for whom you want to implement this)
-      6. Have a PIP mode for videos to be played inside Talawa when the app is in the foreground or background state.
-      7. Links which have a playable video file like youtube etc should have PIP compatibility.
-      8. Links should open inside the in-app browser or the dedicated application if installed.
-      9. Link preview should also be available for posts on the platform and any potential place.
-1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
-1. **Skills Required:** Code stacks related to repos above. See the introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** To be decided
-1. **Difficulty:** Medium/Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
+
+      1. Ability to share them to others apps via Mobile app.
+      2. Implementing logic for built-in SEO for the post.
+   2. Implement data sharing to/from talawa.
+      1. Ability to share post from talawa to other applications.
+      2. Post shared should open directly inside app if installed similar to invite feature implemented.
+      3. Ability to share plain text, images or both to talawa users in chat from other applicatio similar to telegram, whatsapp, stack have.
+      4. This might also require updating changes in chat schema.
+      5. Ablity to have a link preview of all the links.(Open for who you want to implement this)
+      6. Have a PIP mode for videos to be played inside Talawa when app is in forground or background state.
+      7. Links which have a playable video file like youtube etc should have a PIP compatibility.
+      8. Links should open inside in-app browser or the dedicated application if installed.
+      9. Link preview should also be available for posts on platform and any potential place.
+2. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
+3. **Skills Required:** Code stacks related to repos above. See introduction section.
+4. **Depends on Project:** None
+5. **Project Size:** 350 hours
+6. **Possible Mentors:** To be decided
+7. **Difficulty:** Medium/Hard
+8. **Impact Definition:** Core development, Risky/Exploratory
+
 
 ## API - Primary Idea Areas
 
@@ -483,6 +503,26 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Possible Mentors:** TBD
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
+
+## Hybrid Innovation
+
+We cannot think of everything, so we encourage you to think of ideas that will have a material impact on the Talawa environment. 
+
+### Hybrid: Hybrid Innovation
+
+1. **Description:** Do the ideas need something more? Can you think of ways to blend elements of the ideas together? What completely new thoughts could be applied to the projects? If you have answers to these questions then this section is for 
+2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
+   1. Build on previously stated ideas and include some overlap with thier general objectives.
+      1. **Note:** Your proposal must state the project ideas above from which you got your inspiration.**
+   2. Create features that users will want or facilitate new features that will be the goundwork for features that they would want.
+   3. Justify 350 hours of work.
+3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** N/A
+6.  **Project Size:** 350
+7.  **Possible Mentors:** TBD
+8.  **Difficulty:** Medium
+9.  **Impact Definition:** Risky/Exploratory
 
 ## Secondary Idea Areas
 
