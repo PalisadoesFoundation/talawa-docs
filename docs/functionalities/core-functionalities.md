@@ -13,7 +13,7 @@ This is the ability to register in the app with an organisation. Once the user i
 
 ### Front End
 1. Login Screen
-2. Registration screen: the user can specify an organization ID and/or servername
+2. Registration screen: the user can specify an organization ID and/or server-name
 3. Display of existing organizations based on a registration URL
 4. Currently organizations can be created in the app
    
@@ -28,14 +28,14 @@ This is the ability to register in the app with an organisation. Once the user i
 
 **The following functionalities presently exist:**
 
-1. Users are able using their email and password.
+1. Users are able to use their email and password.
 2. After logging in for the first time the user can search for the organization he wishes to join 
 3. After membership to the organisation is verified the user is able to join the organization
 4. An administrator is able to create an organisation when he logs in for the first time
 
 ## Events
 ### Description
-These are scheduled events managed by coordinators and administrators of an organisation. Information related to events in the organisation are monitored via the organisation's newsfeed by members of the organisation. 
+These are scheduled events managed by coordinators and administrators of an organisation. Information related to events in the organisation is monitored via the organisation's newsfeed by members of the organisation. 
 ### Front End
 1. Organisation list
 2. Events list screen
@@ -45,7 +45,7 @@ These are scheduled events managed by coordinators and administrators of an orga
     1. Create tasks for any of the event roles
     2. Set deadlines for completing assigned tasks
 6. User can view the event and  project details
-    1. Automatic group chat is created for persons within an event
+    1. An Automatic group chat is created for persons within an event
 
 ## General News Feed
 ### Description
@@ -65,7 +65,7 @@ This is the ability to chat from within the Talawa app with multiple members of 
 
 ## Switch Between Organizations
 ### Description
-Users can belong to multiple organizations, however they cannot create their own. This is an admin feature. This is the ability for users to create their own organizations needs to be removed.
+Users can belong to multiple organizations, however, they cannot create their own. This is an admin feature. Thus the ability for users to create their own organizations needs to be removed.
 
 ### Front End
 1. Organisation list screen 
@@ -75,7 +75,7 @@ Users can belong to multiple organizations, however they cannot create their own
 ### Back End
 **The following functionalities are allowed via routes** 
 1. Change the current organization for the user
-2. Get information regarding current organization
+2. Get information regarding the current organization
 
 
 
