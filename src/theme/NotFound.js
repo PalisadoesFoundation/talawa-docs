@@ -35,10 +35,11 @@ export default function NotFound() {
               </p>
               <a href="/" className="flex-center clean-link">
                 <button className="btn text-center">
+                  <img src="favicon.ico" alt="Company Logo"/>
                   <Translate
                     id="theme.NotFound.button"
                     description="Button on the 404 page that redirects to the Homepage">
-                    HOME PAGE
+                    HOME
                   </Translate>
                 </button>
               </a>
