@@ -24,6 +24,8 @@ If you personally know anyone in the Palisadoes Foundation GitHub community who 
 3. Review your pull requests
 4. Merge your pull requests
 
+We also err on the side of caution and therefore apply these criteria to persons currently attending the same educational institutions and/or working with the same companies.
+
 It's important that all candidates are evaluated on the merit of their contributions and proposals as objectively as possible.
 
 ### Mentors
@@ -31,9 +33,9 @@ It's important that all candidates are evaluated on the merit of their contribut
 All mentors: 
 
 1. Are aware of the candidate guidelines above and will abide by them or have their GitHub privileges revoked.
-2. Have been instructed to inform all other mentors of any potential conflicts and recuse themselves from the candidate activies above.
+2. Have been instructed to inform all other mentors of any potential conflicts and recuse themselves from the candidate activities above.
 
 Our volunteers want everyone to feel accepted into the community on these terms of integrity.
 
 ## Reporting
-The administrators of the repositories are committed to these goals. Let them know of any concerns you have via our community forums, email or the Palisadoes Foundation website.
+The administrators of the repositories are committed to these goals. Let them know of any concerns you have via our community forums, email or the Palisadoes Foundation website. We will handle the matter with confidentiality.

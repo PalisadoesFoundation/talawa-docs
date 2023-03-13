@@ -103,54 +103,34 @@ There are others, but these are the main ones that will guide your contributions
 
 Here are the features we'd like to implement in the coming months.
 
-### Add Base Documentation to **Talawa**, and **Talawa-admin** Repositories
+### Add Base Documentation for each Repository (Talawa, Talawa-API and Talawa-Admin)
 
-Since the introduction of the CI/CD pipeline for automating documentation, there has not been much activity on the bulk of the older files, leaving most of the codebase lacking in documentation. The goal of this task is to add comments on all of the existing methods, events and namespaces of all the classes within the Talawa repository.
+Since the introduction of the CI/CD pipeline for automating documentation, there has not been much activity on the bulk of the older files, leaving most of the three codebases lacking in documentation. The goal of this task is to add comments on all of the existing methods, events and namespaces of all the classes within the Talawa, Talawa-Admin and Talawa API.
 
-The previous Google Season of Docs (Gsod 2022) covered the repository: Talawa-API.
+* **Repos to update:** Talawa-API, Talawa, Talawa-Admin
+* **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
+* **How we measure sucess:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used. 
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue, Tasneem Koushar  
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
-- **Repos to update:** Talawa, Talawa-admin.
-- **Skills Required:** The ideal candidate should be familiar with Typescript and in particular Node.js. They also need to be comfortable with using Git/Github and to update the documentation via pull requests. Additionally, knowledge of TSDocs is also required.
-- **How we measure success:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
-- **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
+### Create How-To Guides and Tutorials for getting started with Talawa, Talawa API and Talawa-Admin
 
-### Create Video Tutorials for **Talawa**, **Talawa API** and **Talawa-Admin**
-
-Currently, there exists no visual guide on how to get started and become productive within the basic ecosystems of Talawa, Talawa-API and Talawa-Admin.
-In the Gsod 2022, we covered _How-To Guides_ for the three repositories in text formats.
-
-This year, we aim further, with **video tutorials**.
+Currently, there exists no truly detailed guide on how to get setup and become productive within the basic ecosystems of Talawa, Talawa-API and Talawa-Admin. There are a number of resources available, such as videos demonstrating features from merged pull requests in the respective repositories as well as notes that need to be structured and organised in a meaningful way for a prospective user to be productive with the codebase.
 
 Ideally, we aim to have the following accomplished (though this list is not exhaustive):
 
-1. Create video tutorials to make the user experience easier and further enhance the user understanding about the three repositories. The guides should be accessible to the individuals despite of their technical backgrounds. This can consist of separating it into two distinct levels, namely: beginners and advanced.
-2. Construct visual guides and style formats for new technical writers/contributors, to keep the documentation organic with the codebase, up to date and adhering to our standards.
-3. Instruct beginners on how to document code optimally and effectively with best practices. In addition to this, include detailed videos and tutorials on using the application, connecting to the API, etc.
+1. Improve documentation readability by ensuring the language is accessible by individuals regardless of their language background. This can consist of separating it into two distinct levels, namely: beginners and advanced.
+1. Construct a guide and style format for new technical writers/contributors, to keep the documentation organic with the codebase, up to date and adhering to our standards.
+1. Teaching beginners how to document code optimally and effectively with best practices. In addition to this, include detailed videos and tutorials on using the application, connecting to the API, etc.
 
 Additional information follows:
 
-- **Repos to update:** Talawa-API, Talawa, Talawa-Admin
-- **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
-- **How we measure success:** The creation of tutorials and how-to guides in different forms.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
-- **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
+* **Repos to update:** Talawa-API, Talawa, Talawa-Admin
+* **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
+* **How we measure sucess:** The creation of tutorials and hot-to guides in different forms (static HTML pages, pdfs, etc). 
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue, Tasneem Koushar 
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
-### Create testing guides for **Talawa**, **Talawa API** and **Talawa-Admin**
-
-If a developer writes some new code, or modifies an existing code, he might have to test it. Thus, writing tests becomes a part of his job.
-The test percent code coverage requirement will incrementally rise with each pull request. In some cases the developer may have to write a few extra tests for the code he may not have updated.
-
-Currently, there are no guides on how to write test codes.
-Thus, the goal of this task is to create proper _How-to guides_ on writing test codes to make the developers' jobs easier.
-
-Additional information follows:
-
-- **Repos to update:** Talawa-API, Talawa, Talawa-Admin
-- **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
-- **How we measure success:** The creation of tutorials and hot-to guides in different forms.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
-- **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create visualisations for various GraphQL Schema and Queries
 
@@ -161,3 +141,13 @@ The Talawa API has a number of GraphQL queries which are undocumented and have b
 - **How we measure success:** Visualisations present through the base documentation and any new documentation generated from this program.
 - **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
+
+### Revamp and Restructure the Current Documentation Page
+
+The website that currently hosts the documentation is rather simplistic and has not evolved from when the Talawa application was more refined than it is now. It no longer takes into consideration the needs of contributing to a complex, multi-layered application, and as such it needs to be remodelled and redesigned to account for a number of changes that have and are currently taking place. Remodelling involves re-writing much of the documentation already in place on the site, as well as, working with a candidate that may be adding to the documentation and ensuring that templates are in place such that the look and feel of the site is cogent and consistent. Note: it is possible to work on this task in conjunction with another one of the aforementioned tasks here..
+
+* **Repos to update:** Talawa-API
+* **Skills Required:** HTML, Javascript, CSS. Any design skills would be a plus. Must also be comfortable using Github to submit changes.
+* **How we measure sucess:** A website structured in a completely different manner, which is more efficient and effective in providing the information for a user wishing contribute to Talawa. This can be measured by the increase in new contributors via pull requests.
+* **Possible Mentors:** Shannika Jackson, Dominic Mills, Michael Lue, Tasneem Koushar 
+* **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
