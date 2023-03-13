@@ -1,8 +1,10 @@
 .btn {
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
     background-color: #1fa386;
     font-weight: bold;
+    font-family: serif;
+    border: none;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -12,6 +14,7 @@
 
 .btn:hover {
     cursor: pointer;
+    box-shadow: rgb(255, 189, 89) 5px 5px 7px;
 }
 
 .text-center {
