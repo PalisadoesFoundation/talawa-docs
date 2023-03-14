@@ -44,6 +44,8 @@ A brief introduction to all of the Technologies used by Talawa and the Github re
 * [Talawa-Admin](https://github.com/PalisadoesFoundation/talawa-admin): Talawa-Admin uses CSS, TypeScript, TSX, YAML, Shell JSON, GraphQL and JavaScript technologies.
 * [Talawa-Docs](https://github.com/PalisadoesFoundation/talawa-docs): Talawa-docs uses technologies like HTML, CSS, YAML, SVG, TSX, SCSS, JSON and JavaScript.
 
+Below is the list of various technologies used:
+
 1. Front-end Technologies: HTML, CSS, and JavaScript (React) is used to create the website's front-end user interface. And, Flutter is used to create the mobile application.
 2. Back-end Technologies: Talawa uses server-side scripting languages like GraphQL and TypeScript to handle the website's back-end functionality.
 3. Database Management System: Talawa API uses database management system like MongoDB with the mongoose ORM (Object–relational mapping) which is used to store and manage the website's data.
