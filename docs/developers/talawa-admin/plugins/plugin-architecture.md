@@ -62,7 +62,7 @@ The Following video showcases process of installing the plugin. We are uninstall
 
 :::note
 
-Admin portal and talwa app must be of same organizations
+Admin portal and Talawa app must be of same organizations
 
 :::
 
