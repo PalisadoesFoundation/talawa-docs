@@ -50,4 +50,3 @@ Here are some resources you can use to learn more about GSoC
 1. [Official Google Summer of Code Timeline](https://developers.google.com/open-source/gsoc/timeline)
 1. [GSoC discussion list](https://groups.google.com/group/google-summer-of-code-discuss)
 1. [Python notes on expectations](https://wiki.python.org/moin/SummerOfCode/Expectations).
-1. #gsoc on Freenode

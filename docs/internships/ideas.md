@@ -27,6 +27,8 @@ We need your ideas to be completed on time with 100% test cases with each PR.
 1. Brittle code that breaks easily does not help the project
 1. Incomplete functionality is not acceptable unless specifically stated.
 
+If there are any dependencies on other project ideas, then state it. Also include additional or alternative things that you would do if the dependencies are not completed in your desired timeframe
+
 The project is so much in its infancy that we'll accept any good idea that users will want or will facilitate that they could want. They must significantly advance our goal of having an MVP within the year.
 
 We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
@@ -268,7 +270,7 @@ Please read the `Research` section of this document for background information
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
 4. **Depends on Project:** None
 5. **Project Size:** 350 hours
-6. **Possible Mentors:** To be decided
+6. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake)
 7. **Difficulty:** Medium/Hard
 8. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -354,7 +356,7 @@ Please read the `Research` section of this document for background information
 1. **Skills Required:** Code stacks related to repos above. See the introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** To be decided
+1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
