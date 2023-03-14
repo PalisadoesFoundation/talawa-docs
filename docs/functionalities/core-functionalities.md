@@ -46,7 +46,7 @@ These are scheduled events managed by coordinators and administrators of an orga
     1. Create tasks for any of the event roles
     2. Set deadlines for completing assigned tasks
 6. User can view the event and  project details
-    1. An Automatic group chat is created for persons within an event
+    1. An automatic group chat is created for persons within an event
 
 ## General News Feed
 ### Description
