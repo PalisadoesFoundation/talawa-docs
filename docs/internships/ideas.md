@@ -269,7 +269,7 @@ Please read the `Research` section of this document for background information
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
 4. **Depends on Project:** None
 5. **Project Size:** 350 hours
-6. **Possible Mentors:** To be decided
+6. **Possible Mentors:** TBD
 7. **Difficulty:** Medium/Hard
 8. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -354,7 +354,7 @@ Please read the `Research` section of this document for background information
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** To be decided
+1. **Possible Mentors:** TBD
 1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
