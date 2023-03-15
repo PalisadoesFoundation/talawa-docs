@@ -488,21 +488,22 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 
 ### Admin: Multi-Tennancy (Cloud)
 
-1. **Description:** Create a way to easily manage multiple instances of Talawa-API from a single Talawa-Admin panel. This would provide control over multiple parent organizations and their respective child organizations.
-1. **Expected Outcomes:**
+1. **Description:** Create a way to easily manage multiple instances of Talawa-API from a single Talawa-Admin panel. This would provide control over multiple communities (parent organizations) and their respective (child) organizations.
+2. **Expected Outcomes:**
    1. Research and suggest a preferred way of implementing this strategy.
-   1. Implement the strategy so that it is transparent to the mobile app.
-   1. Code ways to configure this solution simply via the Admin portal.
-   1. Think of:
+   2. Implement the strategy so that it is transparent to the mobile app.
+   3. Code ways to configure this solution simply via the Admin portal.
+   4. Think of:
       1. New levels of authorization and security that may be required.
-      1. Interesting features that would be required for this to be implemented.
-1. **Repos to update:** Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Eva Sharma (@evasharma12)
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
+      2. Architectures that would facilitate moving a community from one server to another on a completely different set of infrastructure.
+      3. Interesting features that would be required for this to be implemented. 
+3. **Repos to update:** Talawa-API, Talawa-Admin
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** None
+6. **Project Size:** 350 hours
+7. **Possible Mentors:** Eva Sharma (@evasharma12)
+8. **Difficulty:** Hard
+9. **Impact Definition:** Core development, Risky/Exploratory
 
 ## Hybrid Innovation
 
