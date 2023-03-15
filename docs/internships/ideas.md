@@ -482,7 +482,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anthony (github: tonythegr8)
+1. **Possible Mentors:** Anthony Brown (github: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
@@ -500,7 +500,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** Eva Sharma (@evasharma12)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -520,7 +520,7 @@ We cannot think of everything, so we encourage you to think of ideas that will h
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6.  **Project Size:** 350
-7.  **Possible Mentors:** TBD
+7.  **Possible Mentors:** Sumitra Saksham (@sumitra19jha)
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Risky/Exploratory
 
