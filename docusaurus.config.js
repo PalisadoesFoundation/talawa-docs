@@ -64,19 +64,19 @@ const config = {
                     position: "left",
                 },
                 {
-                    href: 'https://docs.talawa.io/talawa/index.html',
+                    to: 'https://docs.talawa.io/talawa/index.html',
                     target: "_blank",
                     label: "Talawa",
                     position: "left",
                 },
                 {
-                    href: 'https://docs.talawa.io/talawa-api/schema/index.html',
+                    to: 'https://docs.talawa.io/talawa-api/schema/index.html',
                     target: "_blank",
                     label: "Talawa Api",
                     position: "left",
                 },
                 {
-                    href: 'https://github.com/PalisadoesFoundation',
+                    to: 'https://github.com/PalisadoesFoundation',
                     label: 'GitHub',
                     position: 'right',
                 },
