@@ -330,7 +330,7 @@ Please read the `Research` section of this document for background information
       1. Implement ways to inform clients of newly added, deprecated or removed fields from the graphQL schema.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** "API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API"
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
@@ -360,7 +360,7 @@ Please read the `Research` section of this document for background information
 9.  **Difficulty:** Hard
 10. **Impact Definition:** Risky/Exploratory
 
-### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-Api.
+### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API.
 
 1. **Description:** Currently passwords from frontend are sent on plain text format to the server which is not good to have since these can we tracked by tracing HTTP calls over the network. We want to improve this and send password in SHA256 format before hand to discourage such tracing and minimise direct acctacks on server. We also want that our server's should only respond to authorised cliend hence we figured out to implement SSL pining. In our case we cannot do this by hardcoding the certificated in our client rather we would have to do is dynamically by publically sending a signed certificate only when the user is authorised added he can only download that once per login. This require changes to be made on Talawa graphQL client and in the talawa-api to be able to send signed certificate. Followed by this we want our users to not think of there privacy just focus on sharing text to there peers by making there chat private to them only.
 1. **Expected Outcomes:**
@@ -376,7 +376,7 @@ Please read the `Research` section of this document for background information
       1. Send password in SHA256 format rather then sending them in plain text format. Also SSL pining in admin portal can we done in the conventional way by added a presigned certificate before deploying. Making things easier on admin side.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** "API: Improved Backend Performance and Security"
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** TBD - Md Noman Khan (GitHub: noman2002)
 1. **Difficulty:** Medium/Hard
