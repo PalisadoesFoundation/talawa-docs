@@ -65,13 +65,13 @@ const config = {
                 },
                 {
                     href: 'https://docs.talawa.io/talawa/index.html',
-                    target: "_self",
+                    target: "_blank",
                     label: "Talawa",
                     position: "left",
                 },
                 {
                     href: 'https://docs.talawa.io/talawa-api/schema/index.html',
-                    target: "_self",
+                    target: "_blank",
                     label: "Talawa Api",
                     position: "left",
                 },
@@ -142,7 +142,7 @@ const config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Talawa, Inc. Built with Docusaurus.`,
         },
         prism: {
             theme: lightCodeTheme,
