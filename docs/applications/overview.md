@@ -42,8 +42,9 @@ The VP doesn’t want the branch managers to manage the members who have joined 
 
 It is for this reason that we have two types of administrators. Admins and Super Admins.
 
-1. **Admin**: These are members who use use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. Admins can only manage one organization at a time and cannot access any data from other organizations.
+1. **Admin**: These are members who use use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. 
 
+   1. Admins can only manage a single organization and cannot access any data from other organizations. Expanding this capability is a long term goal.
    1. Admins can promote Users and Members to Admin status for their organization only
 
 1. **Super Admin**: These are members who use use Talawa Admin to manage all organizations in a community.
