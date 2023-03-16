@@ -330,13 +330,37 @@ Please read the `Research` section of this document for background information
       1. Implement ways to inform clients of newly added, deprecated or removed fields from the graphQL schema.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** "API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API"
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-Api.
+### API: Translations and Microservices
+
+1. **Description:** Our proposed project aims to enhance our existing app by allowing users to add language JSON files of their choice, breaking APIs, pub sub, and consumers as separate services, and handling big async processes using Kafka Consumers. Currently, we have a monolithic service that uses GraphQL APIs and pub sub. This project will help us create a more modular and scalable architecture for our app, making it easier to maintain and add new features.
+   1. To implement this project, we will first create a language management system that allows users to upload JSON files with translations for the app's content. These translations will then be integrated into the app, enabling users to access the app's content in their preferred language.
+   2. Next, we will create separate services for APIs, sockets, and consumers. Breaking these services apart will enable us to manage them more efficiently, as well as allow us to scale and add new features more easily.
+   3. To handle big async processes, we will use Kafka Consumers. Kafka Consumers will allow us to process large amounts of data efficiently and handle high traffic volumes, improving the app's performance and reliability.
+2. **Expected Outcomes:**
+   1. Our proposed project will build on previously stated ideas and include some overlap with their general objectives. We will create new features that users will want, including the ability to add language files, improve app performance, and create a more scalable architecture.
+   2. The project will justify 350 hours of work, as it involves significant changes to the app's architecture and the creation of new features.
+   3. To implement this project, we will require skills in the code stacks related to Talawa, Talawa-API, and Talawa-Admin. Specifically, we will need expertise in GraphQL, Kafka, Python and Sockets.
+3. **Instructions:** To implement this project, we recommend the following steps:
+    1. Develop a language management system that allows users to upload JSON files with translations for the app's content.
+    2. Break the APIs, sockets, and consumers into separate services.
+    3. Use Kafka Consumers to handle big async processes.
+    4. Test and deploy all the services.
+    5. Throughout the implementation process, it will be essential to take care of internal server calls and ensure that the app's performance and reliability are not impacted by the changes. We recommend testing each component thoroughly before deployment.
+4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+5. **Skills Required:** Code stacks related to repos above. See introduction section.
+6. **Depends on Project:** None
+7. **Project Size:** 350 hours
+8. **Possible Mentors:** Sumitra Saksham (@sumitra19jha)
+9.  **Difficulty:** Hard
+10. **Impact Definition:** Risky/Exploratory
+
+### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API.
 
 1. **Description:** Currently passwords from frontend are sent on plain text format to the server which is not good to have since these can we tracked by tracing HTTP calls over the network. We want to improve this and send password in SHA256 format before hand to discourage such tracing and minimise direct acctacks on server. We also want that our server's should only respond to authorised cliend hence we figured out to implement SSL pining. In our case we cannot do this by hardcoding the certificated in our client rather we would have to do is dynamically by publically sending a signed certificate only when the user is authorised added he can only download that once per login. This require changes to be made on Talawa graphQL client and in the talawa-api to be able to send signed certificate. Followed by this we want our users to not think of there privacy just focus on sharing text to there peers by making there chat private to them only.
 1. **Expected Outcomes:**
@@ -352,7 +376,7 @@ Please read the `Research` section of this document for background information
       1. Send password in SHA256 format rather then sending them in plain text format. Also SSL pining in admin portal can we done in the conventional way by added a presigned certificate before deploying. Making things easier on admin side.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** "API: Improved Backend Performance and Security"
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** TBD - Md Noman Khan (GitHub: noman2002)
 1. **Difficulty:** Medium/Hard
@@ -501,7 +525,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** None
 6. **Project Size:** 350 hours
-7. **Possible Mentors:** Eva Sharma (@evasharma12)
+7. **Possible Mentors:** Sumitra Saksham (@sumitra19jha), Eva Sharma (@evasharma12)
 8. **Difficulty:** Hard
 9. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -521,7 +545,7 @@ We cannot think of everything, so we encourage you to think of ideas that will h
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6.  **Project Size:** 350
-7.  **Possible Mentors:** Sumitra Saksham (@sumitra19jha)
+7.  **Possible Mentors:** TBD
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Risky/Exploratory
 
