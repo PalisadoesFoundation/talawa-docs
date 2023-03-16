@@ -113,7 +113,7 @@ Talawa Mobile App users only get news on their newsfeed for the organization tha
 
 ### Admin Panel Newsfeed
 
-Administrators will use Talawa Admin to administer an organization's newsfeed. They will get a filtered version of the feed that only includes exceptional content that requires attention.This includes:
+Administrators will use Talawa Admin to administer an organization's newsfeed. At a minimum they will get a filtered version of the feed that only includes exceptional content that requires attention.This includes:
 
 1. **Pinned Posts**: The management of pinned posts that they use to alert all members of the organization of some activity. These posts are [always visible at the top of the newsfeed](https://github.com/PalisadoesFoundation/talawa-api/issues/1096). Pinned posts can only be created by Admins.
 2. **Reported Posts**: Mobile App users may want Admins to take action on posts that don't match the organization's values. Admins can use the newsfeed to manage these reports.
