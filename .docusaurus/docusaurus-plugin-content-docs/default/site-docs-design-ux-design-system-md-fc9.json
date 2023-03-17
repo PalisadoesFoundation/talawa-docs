@@ -1,0 +1,27 @@
+{
+  "unversionedId": "design/ux/ux-design-system",
+  "id": "design/ux/ux-design-system",
+  "title": "Design System",
+  "description": "Design Guidlines",
+  "source": "@site/docs/design/ux/design_system.md",
+  "sourceDirName": "design/ux",
+  "slug": "/design/ux/ux-design-system",
+  "permalink": "/docs/design/ux/ux-design-system",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/design/ux/design_system.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ux-design-system",
+    "title": "Design System"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Talawa UI/UX",
+    "permalink": "/docs/design/ux/ux-talawa"
+  },
+  "next": {
+    "title": "Ideas List",
+    "permalink": "/docs/internships/internship-ideas"
+  }
+}

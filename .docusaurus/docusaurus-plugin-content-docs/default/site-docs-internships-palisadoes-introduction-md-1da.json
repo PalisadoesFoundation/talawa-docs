@@ -1,0 +1,23 @@
+{
+  "unversionedId": "internships/palisadoes/palisadoes-introduction",
+  "id": "internships/palisadoes/palisadoes-introduction",
+  "title": "Palisadoes Unpaid Internship",
+  "description": "Intern at The Palisadoes Foundation",
+  "source": "@site/docs/internships/palisadoes/introduction.md",
+  "sourceDirName": "internships/palisadoes",
+  "slug": "/internships/palisadoes/palisadoes-introduction",
+  "permalink": "/docs/internships/palisadoes/palisadoes-introduction",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/palisadoes/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "palisadoes-introduction",
+    "title": "Palisadoes Unpaid Internship"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "GSoD 2022",
+    "permalink": "/docs/internships/gsod/gsod-ideas-2022"
+  }
+}

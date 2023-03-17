@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-registration",
+  "id": "features/members/members-registration",
+  "title": "Registration",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/registration.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-registration",
+  "permalink": "/docs/features/members/members-registration",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/registration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-registration",
+    "title": "Registration"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Pre-Approvals",
+    "permalink": "/docs/features/members/members-preapprovals"
+  },
+  "next": {
+    "title": "Access Banning",
+    "permalink": "/docs/features/members/members-banning"
+  }
+}

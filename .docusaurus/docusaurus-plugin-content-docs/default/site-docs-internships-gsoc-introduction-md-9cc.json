@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/gsoc/gsoc-introduction",
+  "id": "internships/gsoc/gsoc-introduction",
+  "title": "Introduction",
+  "description": "Google is sponsoring the Google Summer of Code and The Palisadoes Foundation is registered as a mentoring organization. This page is your entry point to the Palisadoes Foundation GSoC program. Please watch this page for updates concerning our participating this year.",
+  "source": "@site/docs/internships/gsoc/introduction.md",
+  "sourceDirName": "internships/gsoc",
+  "slug": "/internships/gsoc/gsoc-introduction",
+  "permalink": "/docs/internships/gsoc/gsoc-introduction",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsoc/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gsoc-introduction",
+    "title": "Introduction"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Conflicts of Interest",
+    "permalink": "/docs/internships/conflicts-of-interest"
+  },
+  "next": {
+    "title": "Applying",
+    "permalink": "/docs/internships/gsoc/gsoc-application-process"
+  }
+}

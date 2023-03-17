@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/events/event-roles",
+  "id": "features/events/event-roles",
+  "title": "Assign Event Roles",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/events/roles.md",
+  "sourceDirName": "features/events",
+  "slug": "/features/events/event-roles",
+  "permalink": "/docs/features/events/event-roles",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/roles.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "event-roles",
+    "title": "Assign Event Roles"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Event Grouping",
+    "permalink": "/docs/features/events/event-grouping"
+  },
+  "next": {
+    "title": "View Attendee List",
+    "permalink": "/docs/features/events/event-attendee-roster"
+  }
+}

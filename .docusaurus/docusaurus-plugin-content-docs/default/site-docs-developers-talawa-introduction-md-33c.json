@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa/talawa-introduction",
+  "id": "developers/talawa/talawa-introduction",
+  "title": "Overview",
+  "description": "Talawa",
+  "source": "@site/docs/developers/talawa/introduction.md",
+  "sourceDirName": "developers/talawa",
+  "slug": "/developers/talawa/talawa-introduction",
+  "permalink": "/docs/developers/talawa/talawa-introduction",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "talawa-introduction",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Core Concepts",
+    "permalink": "/docs/applications/overview"
+  },
+  "next": {
+    "title": "Talawa Lint Ecosystem",
+    "permalink": "/docs/developers/talawa/talawa-lint"
+  }
+}

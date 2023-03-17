@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/data-management/data-management-retention",
+  "id": "features/data-management/data-management-retention",
+  "title": "Data Retention",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/data-management/data-retention.md",
+  "sourceDirName": "features/data-management",
+  "slug": "/features/data-management/data-management-retention",
+  "permalink": "/docs/features/data-management/data-management-retention",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/data-retention.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "data-management-retention",
+    "title": "Data Retention"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Data Compression",
+    "permalink": "/docs/features/data-management/data-management-compression"
+  },
+  "next": {
+    "title": "Data Storage",
+    "permalink": "/docs/features/data-management/data-management-storage"
+  }
+}

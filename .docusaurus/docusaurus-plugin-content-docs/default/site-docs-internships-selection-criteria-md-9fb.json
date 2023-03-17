@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/internship-selection-criteria",
+  "id": "internships/internship-selection-criteria",
+  "title": "Selection Criteria",
+  "description": "Each applicant to The Palisadoes Foundation’s Talawa programs will be assessed using the following criteria",
+  "source": "@site/docs/internships/selection-criteria.md",
+  "sourceDirName": "internships",
+  "slug": "/internships/internship-selection-criteria",
+  "permalink": "/docs/internships/internship-selection-criteria",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/selection-criteria.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "internship-selection-criteria",
+    "title": "Selection Criteria"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Application Template",
+    "permalink": "/docs/internships/internship-application-template"
+  },
+  "next": {
+    "title": "Conflicts of Interest",
+    "permalink": "/docs/internships/conflicts-of-interest"
+  }
+}

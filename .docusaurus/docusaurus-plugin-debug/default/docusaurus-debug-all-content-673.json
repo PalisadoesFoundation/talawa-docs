@@ -1,0 +1,2675 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\Salil\\Desktop\\talawa-docs\\sidebars.js",
+          "contentPath": "C:\\Users\\Salil\\Desktop\\talawa-docs\\docs",
+          "contentPathLocalized": "C:\\Users\\Salil\\Desktop\\talawa-docs\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "about",
+              "id": "about",
+              "title": "About Us",
+              "description": "Here is a brief introduction to who we are and the Talawa projects.",
+              "source": "@site/docs/about.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/docs/",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/about.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "about",
+                "title": "About Us",
+                "slug": "/"
+              },
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Applications",
+                "permalink": "/docs/applications/architecture-overview"
+              }
+            },
+            {
+              "unversionedId": "applications/architecture-overview",
+              "id": "applications/architecture-overview",
+              "title": "Applications",
+              "description": "The suite of Talawa applications make the management of community based organizations easier. There are three major components.",
+              "source": "@site/docs/applications/architecture.md",
+              "sourceDirName": "applications",
+              "slug": "/applications/architecture-overview",
+              "permalink": "/docs/applications/architecture-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/applications/architecture.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "architecture-overview",
+                "title": "Applications"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "About Us",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Core Concepts",
+                "permalink": "/docs/applications/overview"
+              }
+            },
+            {
+              "unversionedId": "applications/overview",
+              "id": "applications/overview",
+              "title": "Core Concepts",
+              "description": "This page outlines some key concepts of the various Talawa applications.",
+              "source": "@site/docs/applications/overview.md",
+              "sourceDirName": "applications",
+              "slug": "/applications/overview",
+              "permalink": "/docs/applications/overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/applications/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "overview",
+                "title": "Core Concepts"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Applications",
+                "permalink": "/docs/applications/architecture-overview"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/developers/talawa/talawa-introduction"
+              }
+            },
+            {
+              "unversionedId": "design/branding",
+              "id": "design/branding",
+              "title": "Branding",
+              "description": "Our brand uses the guidelines in this section to create a consistent user experience.",
+              "source": "@site/docs/design/talawa-branding.md",
+              "sourceDirName": "design",
+              "slug": "/design/branding",
+              "permalink": "/docs/design/branding",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/design/talawa-branding.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "branding",
+                "title": "Branding"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Onboarding",
+                "permalink": "/docs/features/organisations/organisations-onboarding"
+              },
+              "next": {
+                "title": "Talawa UI/UX",
+                "permalink": "/docs/design/ux/ux-talawa"
+              }
+            },
+            {
+              "unversionedId": "design/ux/ux-design-system",
+              "id": "design/ux/ux-design-system",
+              "title": "Design System",
+              "description": "Design Guidlines",
+              "source": "@site/docs/design/ux/design_system.md",
+              "sourceDirName": "design/ux",
+              "slug": "/design/ux/ux-design-system",
+              "permalink": "/docs/design/ux/ux-design-system",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/design/ux/design_system.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "ux-design-system",
+                "title": "Design System"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Talawa UI/UX",
+                "permalink": "/docs/design/ux/ux-talawa"
+              },
+              "next": {
+                "title": "Ideas List",
+                "permalink": "/docs/internships/internship-ideas"
+              }
+            },
+            {
+              "unversionedId": "design/ux/ux-talawa",
+              "id": "design/ux/ux-talawa",
+              "title": "Talawa UI/UX",
+              "description": "Introduction",
+              "source": "@site/docs/design/ux/talawa.md",
+              "sourceDirName": "design/ux",
+              "slug": "/design/ux/ux-talawa",
+              "permalink": "/docs/design/ux/ux-talawa",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/design/ux/talawa.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "ux-talawa",
+                "title": "Talawa UI/UX"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Branding",
+                "permalink": "/docs/design/branding"
+              },
+              "next": {
+                "title": "Design System",
+                "permalink": "/docs/design/ux/ux-design-system"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-admin/plugins/implementing-plugins",
+              "id": "developers/talawa-admin/plugins/implementing-plugins",
+              "title": "Plugin Implementation",
+              "description": "Plugins are existing features that are wrapped with some special logic or widgets to make them controllable.",
+              "source": "@site/docs/developers/talawa-admin/plugins/implementing-plugins.md",
+              "sourceDirName": "developers/talawa-admin/plugins",
+              "slug": "/developers/talawa-admin/plugins/implementing-plugins",
+              "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/plugins/implementing-plugins.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "implementing-plugins",
+                "title": "Plugin Implementation"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Plugin Architecture",
+                "permalink": "/docs/developers/talawa-admin/plugins/plugin-architecture"
+              },
+              "next": {
+                "title": "Plugin Examples",
+                "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins-example"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-admin/plugins/implementing-plugins-example",
+              "id": "developers/talawa-admin/plugins/implementing-plugins-example",
+              "title": "Plugin Examples",
+              "description": "Pre-Requisites :",
+              "source": "@site/docs/developers/talawa-admin/plugins/implementing-plugins-example.md",
+              "sourceDirName": "developers/talawa-admin/plugins",
+              "slug": "/developers/talawa-admin/plugins/implementing-plugins-example",
+              "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins-example",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/plugins/implementing-plugins-example.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "implementing-plugins-example",
+                "title": "Plugin Examples"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Plugin Implementation",
+                "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins"
+              },
+              "next": {
+                "title": "Core Functionalities",
+                "permalink": "/docs/functionalities/core-functionalities"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-admin/plugins/plugin-architecture",
+              "id": "developers/talawa-admin/plugins/plugin-architecture",
+              "title": "Plugin Architecture",
+              "description": "Plugin Architecture provides talawa projects an ability to control latent Talawa Mobile App features from the Talawa Admin Web Portal.",
+              "source": "@site/docs/developers/talawa-admin/plugins/plugin-architecture.md",
+              "sourceDirName": "developers/talawa-admin/plugins",
+              "slug": "/developers/talawa-admin/plugins/plugin-architecture",
+              "permalink": "/docs/developers/talawa-admin/plugins/plugin-architecture",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/plugins/plugin-architecture.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "plugin-architecture",
+                "title": "Plugin Architecture"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/developers/talawa-admin/talawa-admin-introduction"
+              },
+              "next": {
+                "title": "Plugin Implementation",
+                "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-admin/talawa-admin-introduction",
+              "id": "developers/talawa-admin/talawa-admin-introduction",
+              "title": "Overview",
+              "description": "Talawa Admin is the web based administrative dashboard for the Talawa mobile app.",
+              "source": "@site/docs/developers/talawa-admin/introduction.md",
+              "sourceDirName": "developers/talawa-admin",
+              "slug": "/developers/talawa-admin/talawa-admin-introduction",
+              "permalink": "/docs/developers/talawa-admin/talawa-admin-introduction",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "talawa-admin-introduction",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Expectations",
+                "permalink": "/docs/developers/talawa-api/expectations"
+              },
+              "next": {
+                "title": "Plugin Architecture",
+                "permalink": "/docs/developers/talawa-admin/plugins/plugin-architecture"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/api-overview",
+              "id": "developers/talawa-api/api-overview",
+              "title": "Overview",
+              "description": "### Talawa Api is the backend for the application talawa written in typescript. It is the base of all the functionalities offered to Users and Organizations that sign up at talawa. In upcoming sections you will get to know all the useful functions performed by the Api. Stay tuned!",
+              "source": "@site/docs/developers/talawa-api/api-overview.md",
+              "sourceDirName": "developers/talawa-api",
+              "slug": "/developers/talawa-api/api-overview",
+              "permalink": "/docs/developers/talawa-api/api-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/api-overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "api-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Talawa Lint Ecosystem",
+                "permalink": "/docs/developers/talawa/talawa-lint"
+              },
+              "next": {
+                "title": "User",
+                "permalink": "/docs/developers/talawa-api/constraints/user"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/authentication",
+              "id": "developers/talawa-api/authentication",
+              "title": "Authentication",
+              "description": "How can a User Authenticate?",
+              "source": "@site/docs/developers/talawa-api/authentication.md",
+              "sourceDirName": "developers/talawa-api",
+              "slug": "/developers/talawa-api/authentication",
+              "permalink": "/docs/developers/talawa-api/authentication",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/authentication.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "authentication",
+                "title": "Authentication"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Schemas",
+                "permalink": "/docs/developers/talawa-api/schemas"
+              },
+              "next": {
+                "title": "Functionality",
+                "permalink": "/docs/developers/talawa-api/functionality"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/constraints/admin",
+              "id": "developers/talawa-api/constraints/admin",
+              "title": "Admin",
+              "description": "Who Is An Administrator (Admin)?",
+              "source": "@site/docs/developers/talawa-api/constraints/admin.md",
+              "sourceDirName": "developers/talawa-api/constraints",
+              "slug": "/developers/talawa-api/constraints/admin",
+              "permalink": "/docs/developers/talawa-api/constraints/admin",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/constraints/admin.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin",
+                "title": "Admin"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Organization",
+                "permalink": "/docs/developers/talawa-api/constraints/organization"
+              },
+              "next": {
+                "title": "Mutations",
+                "permalink": "/docs/developers/talawa-api/mutations"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/constraints/organization",
+              "id": "developers/talawa-api/constraints/organization",
+              "title": "Organization",
+              "description": "What Is An Organization?",
+              "source": "@site/docs/developers/talawa-api/constraints/organization.md",
+              "sourceDirName": "developers/talawa-api/constraints",
+              "slug": "/developers/talawa-api/constraints/organization",
+              "permalink": "/docs/developers/talawa-api/constraints/organization",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/constraints/organization.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "organization",
+                "title": "Organization"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "User",
+                "permalink": "/docs/developers/talawa-api/constraints/user"
+              },
+              "next": {
+                "title": "Admin",
+                "permalink": "/docs/developers/talawa-api/constraints/admin"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/constraints/user",
+              "id": "developers/talawa-api/constraints/user",
+              "title": "User",
+              "description": "Who Is A User?",
+              "source": "@site/docs/developers/talawa-api/constraints/user.md",
+              "sourceDirName": "developers/talawa-api/constraints",
+              "slug": "/developers/talawa-api/constraints/user",
+              "permalink": "/docs/developers/talawa-api/constraints/user",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/constraints/user.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "user",
+                "title": "User"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/developers/talawa-api/api-overview"
+              },
+              "next": {
+                "title": "Organization",
+                "permalink": "/docs/developers/talawa-api/constraints/organization"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/expectations",
+              "id": "developers/talawa-api/expectations",
+              "title": "Expectations",
+              "description": "API Primary Expectations",
+              "source": "@site/docs/developers/talawa-api/expectations.md",
+              "sourceDirName": "developers/talawa-api",
+              "slug": "/developers/talawa-api/expectations",
+              "permalink": "/docs/developers/talawa-api/expectations",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/expectations.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "expectations",
+                "title": "Expectations"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Functionality",
+                "permalink": "/docs/developers/talawa-api/functionality"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/developers/talawa-admin/talawa-admin-introduction"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/functionality",
+              "id": "developers/talawa-api/functionality",
+              "title": "Functionality",
+              "description": "### Talawa Api offers various functionalities which will ultimately help in endorsing the relationship between the members of an organization.",
+              "source": "@site/docs/developers/talawa-api/functionality.md",
+              "sourceDirName": "developers/talawa-api",
+              "slug": "/developers/talawa-api/functionality",
+              "permalink": "/docs/developers/talawa-api/functionality",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/functionality.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "functionality",
+                "title": "Functionality"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Authentication",
+                "permalink": "/docs/developers/talawa-api/authentication"
+              },
+              "next": {
+                "title": "Expectations",
+                "permalink": "/docs/developers/talawa-api/expectations"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/mutations",
+              "id": "developers/talawa-api/mutations",
+              "title": "Mutations",
+              "description": "Mutations According to Roles",
+              "source": "@site/docs/developers/talawa-api/mutations.md",
+              "sourceDirName": "developers/talawa-api",
+              "slug": "/developers/talawa-api/mutations",
+              "permalink": "/docs/developers/talawa-api/mutations",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/mutations.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mutations",
+                "title": "Mutations"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Admin",
+                "permalink": "/docs/developers/talawa-api/constraints/admin"
+              },
+              "next": {
+                "title": "Schemas",
+                "permalink": "/docs/developers/talawa-api/schemas"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa-api/schemas",
+              "id": "developers/talawa-api/schemas",
+              "title": "Schemas",
+              "description": "Type Structures (Schemas)",
+              "source": "@site/docs/developers/talawa-api/schemas.md",
+              "sourceDirName": "developers/talawa-api",
+              "slug": "/developers/talawa-api/schemas",
+              "permalink": "/docs/developers/talawa-api/schemas",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/schemas.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "schemas",
+                "title": "Schemas"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Mutations",
+                "permalink": "/docs/developers/talawa-api/mutations"
+              },
+              "next": {
+                "title": "Authentication",
+                "permalink": "/docs/developers/talawa-api/authentication"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa/talawa-introduction",
+              "id": "developers/talawa/talawa-introduction",
+              "title": "Overview",
+              "description": "Talawa",
+              "source": "@site/docs/developers/talawa/introduction.md",
+              "sourceDirName": "developers/talawa",
+              "slug": "/developers/talawa/talawa-introduction",
+              "permalink": "/docs/developers/talawa/talawa-introduction",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "talawa-introduction",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Core Concepts",
+                "permalink": "/docs/applications/overview"
+              },
+              "next": {
+                "title": "Talawa Lint Ecosystem",
+                "permalink": "/docs/developers/talawa/talawa-lint"
+              }
+            },
+            {
+              "unversionedId": "developers/talawa/talawa-lint",
+              "id": "developers/talawa/talawa-lint",
+              "title": "Talawa Lint Ecosystem",
+              "description": "Talawa Lint",
+              "source": "@site/docs/developers/talawa/talawa-lint.md",
+              "sourceDirName": "developers/talawa",
+              "slug": "/developers/talawa/talawa-lint",
+              "permalink": "/docs/developers/talawa/talawa-lint",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa/talawa-lint.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "talawa-lint",
+                "title": "Talawa Lint Ecosystem"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/developers/talawa/talawa-introduction"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/developers/talawa-api/api-overview"
+              }
+            },
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "title": "Style Guide",
+              "description": "You can write content using GitHub-flavored Markdown syntax.",
+              "source": "@site/docs/style-guide.md",
+              "sourceDirName": ".",
+              "slug": "/doc1",
+              "permalink": "/docs/doc1",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/style-guide.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc1",
+                "title": "Style Guide",
+                "sidebar_label": "Style Guide"
+              }
+            },
+            {
+              "unversionedId": "features/admin-portal/admin-portal-overview",
+              "id": "features/admin-portal/admin-portal-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/admin-portal/overview.md",
+              "sourceDirName": "features/admin-portal",
+              "slug": "/features/admin-portal/admin-portal-overview",
+              "permalink": "/docs/features/admin-portal/admin-portal-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-portal/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin-portal-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/features/features-introduction"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/admin-role/admin-role-overview"
+              }
+            },
+            {
+              "unversionedId": "features/admin-role/admin-manage-members",
+              "id": "features/admin-role/admin-manage-members",
+              "title": "Manage Members",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/admin-role/manage-members.md",
+              "sourceDirName": "features/admin-role",
+              "slug": "/features/admin-role/admin-manage-members",
+              "permalink": "/docs/features/admin-role/admin-manage-members",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/manage-members.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin-manage-members",
+                "title": "Manage Members"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Global Messaging",
+                "permalink": "/docs/features/admin-role/admin-messaging"
+              },
+              "next": {
+                "title": "Moderate Newsfeed",
+                "permalink": "/docs/features/admin-role/admin-newsfeed"
+              }
+            },
+            {
+              "unversionedId": "features/admin-role/admin-messaging",
+              "id": "features/admin-role/admin-messaging",
+              "title": "Global Messaging",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/admin-role/global-messaging.md",
+              "sourceDirName": "features/admin-role",
+              "slug": "/features/admin-role/admin-messaging",
+              "permalink": "/docs/features/admin-role/admin-messaging",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/global-messaging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin-messaging",
+                "title": "Global Messaging"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/admin-role/admin-role-overview"
+              },
+              "next": {
+                "title": "Manage Members",
+                "permalink": "/docs/features/admin-role/admin-manage-members"
+              }
+            },
+            {
+              "unversionedId": "features/admin-role/admin-newsfeed",
+              "id": "features/admin-role/admin-newsfeed",
+              "title": "Moderate Newsfeed",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/admin-role/moderate-newsfeed.md",
+              "sourceDirName": "features/admin-role",
+              "slug": "/features/admin-role/admin-newsfeed",
+              "permalink": "/docs/features/admin-role/admin-newsfeed",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/moderate-newsfeed.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin-newsfeed",
+                "title": "Moderate Newsfeed"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Manage Members",
+                "permalink": "/docs/features/admin-role/admin-manage-members"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/messaging-and-chat/messaging-and-chat-overview"
+              }
+            },
+            {
+              "unversionedId": "features/admin-role/admin-role-overview",
+              "id": "features/admin-role/admin-role-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/admin-role/overview.md",
+              "sourceDirName": "features/admin-role",
+              "slug": "/features/admin-role/admin-role-overview",
+              "permalink": "/docs/features/admin-role/admin-role-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "admin-role-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/admin-portal/admin-portal-overview"
+              },
+              "next": {
+                "title": "Global Messaging",
+                "permalink": "/docs/features/admin-role/admin-messaging"
+              }
+            },
+            {
+              "unversionedId": "features/coordinator-role/coordinator-role-overview",
+              "id": "features/coordinator-role/coordinator-role-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/coordinator-role/overview.md",
+              "sourceDirName": "features/coordinator-role",
+              "slug": "/features/coordinator-role/coordinator-role-overview",
+              "permalink": "/docs/features/coordinator-role/coordinator-role-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/coordinator-role/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "coordinator-role-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "App Notifications",
+                "permalink": "/docs/features/messaging-and-chat/message-notifications"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/events/event-overview"
+              }
+            },
+            {
+              "unversionedId": "features/data-management/data-management-compression",
+              "id": "features/data-management/data-management-compression",
+              "title": "Data Compression",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/data-management/data-compression.md",
+              "sourceDirName": "features/data-management",
+              "slug": "/features/data-management/data-management-compression",
+              "permalink": "/docs/features/data-management/data-management-compression",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/data-compression.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "data-management-compression",
+                "title": "Data Compression"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/data-management/data-management-overview"
+              },
+              "next": {
+                "title": "Data Retention",
+                "permalink": "/docs/features/data-management/data-management-retention"
+              }
+            },
+            {
+              "unversionedId": "features/data-management/data-management-distribution",
+              "id": "features/data-management/data-management-distribution",
+              "title": "Database Distribution",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/data-management/database-distribution.md",
+              "sourceDirName": "features/data-management",
+              "slug": "/features/data-management/data-management-distribution",
+              "permalink": "/docs/features/data-management/data-management-distribution",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/database-distribution.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "data-management-distribution",
+                "title": "Database Distribution"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Data Storage",
+                "permalink": "/docs/features/data-management/data-management-storage"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/organisations/organisations-overview"
+              }
+            },
+            {
+              "unversionedId": "features/data-management/data-management-overview",
+              "id": "features/data-management/data-management-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/data-management/overview.md",
+              "sourceDirName": "features/data-management",
+              "slug": "/features/data-management/data-management-overview",
+              "permalink": "/docs/features/data-management/data-management-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "data-management-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Follow Tag Support",
+                "permalink": "/docs/features/notifications/follow-tag-support"
+              },
+              "next": {
+                "title": "Data Compression",
+                "permalink": "/docs/features/data-management/data-management-compression"
+              }
+            },
+            {
+              "unversionedId": "features/data-management/data-management-retention",
+              "id": "features/data-management/data-management-retention",
+              "title": "Data Retention",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/data-management/data-retention.md",
+              "sourceDirName": "features/data-management",
+              "slug": "/features/data-management/data-management-retention",
+              "permalink": "/docs/features/data-management/data-management-retention",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/data-retention.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "data-management-retention",
+                "title": "Data Retention"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Data Compression",
+                "permalink": "/docs/features/data-management/data-management-compression"
+              },
+              "next": {
+                "title": "Data Storage",
+                "permalink": "/docs/features/data-management/data-management-storage"
+              }
+            },
+            {
+              "unversionedId": "features/data-management/data-management-storage",
+              "id": "features/data-management/data-management-storage",
+              "title": "Data Storage",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/data-management/data-storage.md",
+              "sourceDirName": "features/data-management",
+              "slug": "/features/data-management/data-management-storage",
+              "permalink": "/docs/features/data-management/data-management-storage",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/data-storage.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "data-management-storage",
+                "title": "Data Storage"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Data Retention",
+                "permalink": "/docs/features/data-management/data-management-retention"
+              },
+              "next": {
+                "title": "Database Distribution",
+                "permalink": "/docs/features/data-management/data-management-distribution"
+              }
+            },
+            {
+              "unversionedId": "features/donations/donation-fees",
+              "id": "features/donations/donation-fees",
+              "title": "Donations & Fees",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/donations/donation-fees.md",
+              "sourceDirName": "features/donations",
+              "slug": "/features/donations/donation-fees",
+              "permalink": "/docs/features/donations/donation-fees",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/donations/donation-fees.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "donation-fees",
+                "title": "Donations & Fees"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/donations/donations-overview"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/news feed/news-feed-overview"
+              }
+            },
+            {
+              "unversionedId": "features/donations/donations-overview",
+              "id": "features/donations/donations-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/donations/overview.md",
+              "sourceDirName": "features/donations",
+              "slug": "/features/donations/donations-overview",
+              "permalink": "/docs/features/donations/donations-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/donations/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "donations-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Access Recovery",
+                "permalink": "/docs/features/members/members-recovery"
+              },
+              "next": {
+                "title": "Donations & Fees",
+                "permalink": "/docs/features/donations/donation-fees"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-attendee-roster",
+              "id": "features/events/event-attendee-roster",
+              "title": "View Attendee List",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/attendee-roster.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-attendee-roster",
+              "permalink": "/docs/features/events/event-attendee-roster",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/attendee-roster.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-attendee-roster",
+                "title": "View Attendee List"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Assign Event Roles",
+                "permalink": "/docs/features/events/event-roles"
+              },
+              "next": {
+                "title": "Create Paid Event",
+                "permalink": "/docs/features/events/event-paid-donation"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-create-events",
+              "id": "features/events/event-create-events",
+              "title": "Create Events",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/create-events.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-create-events",
+              "permalink": "/docs/features/events/event-create-events",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/create-events.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-create-events",
+                "title": "Create Events"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/events/event-overview"
+              },
+              "next": {
+                "title": "Signup and Subscription",
+                "permalink": "/docs/features/events/event-signup"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-grouping",
+              "id": "features/events/event-grouping",
+              "title": "Event Grouping",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/grouping.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-grouping",
+              "permalink": "/docs/features/events/event-grouping",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/grouping.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-grouping",
+                "title": "Event Grouping"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Signup and Subscription",
+                "permalink": "/docs/features/events/event-signup"
+              },
+              "next": {
+                "title": "Assign Event Roles",
+                "permalink": "/docs/features/events/event-roles"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-overview",
+              "id": "features/events/event-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/overview.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-overview",
+              "permalink": "/docs/features/events/event-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/coordinator-role/coordinator-role-overview"
+              },
+              "next": {
+                "title": "Create Events",
+                "permalink": "/docs/features/events/event-create-events"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-paid-donation",
+              "id": "features/events/event-paid-donation",
+              "title": "Create Paid Event",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/paid-event.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-paid-donation",
+              "permalink": "/docs/features/events/event-paid-donation",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/paid-event.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-paid-donation",
+                "title": "Create Paid Event"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "View Attendee List",
+                "permalink": "/docs/features/events/event-attendee-roster"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/members/members-overview"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-roles",
+              "id": "features/events/event-roles",
+              "title": "Assign Event Roles",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/roles.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-roles",
+              "permalink": "/docs/features/events/event-roles",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/roles.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-roles",
+                "title": "Assign Event Roles"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Event Grouping",
+                "permalink": "/docs/features/events/event-grouping"
+              },
+              "next": {
+                "title": "View Attendee List",
+                "permalink": "/docs/features/events/event-attendee-roster"
+              }
+            },
+            {
+              "unversionedId": "features/events/event-signup",
+              "id": "features/events/event-signup",
+              "title": "Signup and Subscription",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/events/signup.md",
+              "sourceDirName": "features/events",
+              "slug": "/features/events/event-signup",
+              "permalink": "/docs/features/events/event-signup",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/signup.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "event-signup",
+                "title": "Signup and Subscription"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Create Events",
+                "permalink": "/docs/features/events/event-create-events"
+              },
+              "next": {
+                "title": "Event Grouping",
+                "permalink": "/docs/features/events/event-grouping"
+              }
+            },
+            {
+              "unversionedId": "features/features-introduction",
+              "id": "features/features-introduction",
+              "title": "Introduction",
+              "description": "This section provides our list of desired Talawa features. Click on the sub-headings for more details.",
+              "source": "@site/docs/features/introduction.md",
+              "sourceDirName": "features",
+              "slug": "/features/features-introduction",
+              "permalink": "/docs/features/features-introduction",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "features-introduction",
+                "title": "Introduction"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Core Functionalities",
+                "permalink": "/docs/functionalities/core-functionalities"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/admin-portal/admin-portal-overview"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-access",
+              "id": "features/members/members-access",
+              "title": "Access",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/management.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-access",
+              "permalink": "/docs/features/members/members-access",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/management.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-access",
+                "title": "Access"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/members/members-overview"
+              },
+              "next": {
+                "title": "Roles",
+                "permalink": "/docs/features/members/members-roles"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-banning",
+              "id": "features/members/members-banning",
+              "title": "Access Banning",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/banning.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-banning",
+              "permalink": "/docs/features/members/members-banning",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/banning.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-banning",
+                "title": "Access Banning"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Registration",
+                "permalink": "/docs/features/members/members-registration"
+              },
+              "next": {
+                "title": "Access Recovery",
+                "permalink": "/docs/features/members/members-recovery"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-overview",
+              "id": "features/members/members-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/overview.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-overview",
+              "permalink": "/docs/features/members/members-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Create Paid Event",
+                "permalink": "/docs/features/events/event-paid-donation"
+              },
+              "next": {
+                "title": "Access",
+                "permalink": "/docs/features/members/members-access"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-preapprovals",
+              "id": "features/members/members-preapprovals",
+              "title": "Pre-Approvals",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/preapprovals.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-preapprovals",
+              "permalink": "/docs/features/members/members-preapprovals",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/preapprovals.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-preapprovals",
+                "title": "Pre-Approvals"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Roles",
+                "permalink": "/docs/features/members/members-roles"
+              },
+              "next": {
+                "title": "Registration",
+                "permalink": "/docs/features/members/members-registration"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-recovery",
+              "id": "features/members/members-recovery",
+              "title": "Access Recovery",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/recovery.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-recovery",
+              "permalink": "/docs/features/members/members-recovery",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/recovery.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-recovery",
+                "title": "Access Recovery"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Access Banning",
+                "permalink": "/docs/features/members/members-banning"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/donations/donations-overview"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-registration",
+              "id": "features/members/members-registration",
+              "title": "Registration",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/registration.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-registration",
+              "permalink": "/docs/features/members/members-registration",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/registration.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-registration",
+                "title": "Registration"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Pre-Approvals",
+                "permalink": "/docs/features/members/members-preapprovals"
+              },
+              "next": {
+                "title": "Access Banning",
+                "permalink": "/docs/features/members/members-banning"
+              }
+            },
+            {
+              "unversionedId": "features/members/members-roles",
+              "id": "features/members/members-roles",
+              "title": "Roles",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/members/roles.md",
+              "sourceDirName": "features/members",
+              "slug": "/features/members/members-roles",
+              "permalink": "/docs/features/members/members-roles",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/roles.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "members-roles",
+                "title": "Roles"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Access",
+                "permalink": "/docs/features/members/members-access"
+              },
+              "next": {
+                "title": "Pre-Approvals",
+                "permalink": "/docs/features/members/members-preapprovals"
+              }
+            },
+            {
+              "unversionedId": "features/messaging-and-chat/message-chat",
+              "id": "features/messaging-and-chat/message-chat",
+              "title": "In-App Chat",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/messaging-and-chat/chat.md",
+              "sourceDirName": "features/messaging-and-chat",
+              "slug": "/features/messaging-and-chat/message-chat",
+              "permalink": "/docs/features/messaging-and-chat/message-chat",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/chat.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "message-chat",
+                "title": "In-App Chat"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/messaging-and-chat/messaging-and-chat-overview"
+              },
+              "next": {
+                "title": "In-App Messaging",
+                "permalink": "/docs/features/messaging-and-chat/message-messaging"
+              }
+            },
+            {
+              "unversionedId": "features/messaging-and-chat/message-messaging",
+              "id": "features/messaging-and-chat/message-messaging",
+              "title": "In-App Messaging",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/messaging-and-chat/messaging.md",
+              "sourceDirName": "features/messaging-and-chat",
+              "slug": "/features/messaging-and-chat/message-messaging",
+              "permalink": "/docs/features/messaging-and-chat/message-messaging",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/messaging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "message-messaging",
+                "title": "In-App Messaging"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "In-App Chat",
+                "permalink": "/docs/features/messaging-and-chat/message-chat"
+              },
+              "next": {
+                "title": "Voice Messaging",
+                "permalink": "/docs/features/messaging-and-chat/message-voice-messaging"
+              }
+            },
+            {
+              "unversionedId": "features/messaging-and-chat/message-notifications",
+              "id": "features/messaging-and-chat/message-notifications",
+              "title": "App Notifications",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/messaging-and-chat/notification.md",
+              "sourceDirName": "features/messaging-and-chat",
+              "slug": "/features/messaging-and-chat/message-notifications",
+              "permalink": "/docs/features/messaging-and-chat/message-notifications",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/notification.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "message-notifications",
+                "title": "App Notifications"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Voice Messaging",
+                "permalink": "/docs/features/messaging-and-chat/message-voice-messaging"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/coordinator-role/coordinator-role-overview"
+              }
+            },
+            {
+              "unversionedId": "features/messaging-and-chat/message-voice-messaging",
+              "id": "features/messaging-and-chat/message-voice-messaging",
+              "title": "Voice Messaging",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/messaging-and-chat/voice-messaging.md",
+              "sourceDirName": "features/messaging-and-chat",
+              "slug": "/features/messaging-and-chat/message-voice-messaging",
+              "permalink": "/docs/features/messaging-and-chat/message-voice-messaging",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/voice-messaging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "message-voice-messaging",
+                "title": "Voice Messaging"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "In-App Messaging",
+                "permalink": "/docs/features/messaging-and-chat/message-messaging"
+              },
+              "next": {
+                "title": "App Notifications",
+                "permalink": "/docs/features/messaging-and-chat/message-notifications"
+              }
+            },
+            {
+              "unversionedId": "features/messaging-and-chat/messaging-and-chat-overview",
+              "id": "features/messaging-and-chat/messaging-and-chat-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/messaging-and-chat/overview.md",
+              "sourceDirName": "features/messaging-and-chat",
+              "slug": "/features/messaging-and-chat/messaging-and-chat-overview",
+              "permalink": "/docs/features/messaging-and-chat/messaging-and-chat-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "messaging-and-chat-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Moderate Newsfeed",
+                "permalink": "/docs/features/admin-role/admin-newsfeed"
+              },
+              "next": {
+                "title": "In-App Chat",
+                "permalink": "/docs/features/messaging-and-chat/message-chat"
+              }
+            },
+            {
+              "unversionedId": "features/news feed/news-feed-overview",
+              "id": "features/news feed/news-feed-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/news feed/overview.md",
+              "sourceDirName": "features/news feed",
+              "slug": "/features/news feed/news-feed-overview",
+              "permalink": "/docs/features/news feed/news-feed-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/news feed/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "news-feed-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Donations & Fees",
+                "permalink": "/docs/features/donations/donation-fees"
+              },
+              "next": {
+                "title": "Hashtag Support",
+                "permalink": "/docs/features/news feed/tagging-support"
+              }
+            },
+            {
+              "unversionedId": "features/news feed/pinned-posts",
+              "id": "features/news feed/pinned-posts",
+              "title": "Pinned Posts",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/news feed/pinned-posts.md",
+              "sourceDirName": "features/news feed",
+              "slug": "/features/news feed/pinned-posts",
+              "permalink": "/docs/features/news feed/pinned-posts",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/news feed/pinned-posts.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "pinned-posts",
+                "title": "Pinned Posts"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Hashtag Support",
+                "permalink": "/docs/features/news feed/tagging-support"
+              },
+              "next": {
+                "title": "Notifications",
+                "permalink": "/docs/features/notifications/notifications-overview"
+              }
+            },
+            {
+              "unversionedId": "features/news feed/tagging-support",
+              "id": "features/news feed/tagging-support",
+              "title": "Hashtag Support",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/news feed/tagging.md",
+              "sourceDirName": "features/news feed",
+              "slug": "/features/news feed/tagging-support",
+              "permalink": "/docs/features/news feed/tagging-support",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/news feed/tagging.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "tagging-support",
+                "title": "Hashtag Support"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/news feed/news-feed-overview"
+              },
+              "next": {
+                "title": "Pinned Posts",
+                "permalink": "/docs/features/news feed/pinned-posts"
+              }
+            },
+            {
+              "unversionedId": "features/notifications/follow-tag-support",
+              "id": "features/notifications/follow-tag-support",
+              "title": "Follow Tag Support",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/notifications/follow-tag.md",
+              "sourceDirName": "features/notifications",
+              "slug": "/features/notifications/follow-tag-support",
+              "permalink": "/docs/features/notifications/follow-tag-support",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/notifications/follow-tag.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "follow-tag-support",
+                "title": "Follow Tag Support"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Notifications",
+                "permalink": "/docs/features/notifications/notifications-overview"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/features/data-management/data-management-overview"
+              }
+            },
+            {
+              "unversionedId": "features/notifications/notifications-overview",
+              "id": "features/notifications/notifications-overview",
+              "title": "Notifications",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/notifications/overview.md",
+              "sourceDirName": "features/notifications",
+              "slug": "/features/notifications/notifications-overview",
+              "permalink": "/docs/features/notifications/notifications-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/notifications/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "notifications-overview",
+                "title": "Notifications"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Pinned Posts",
+                "permalink": "/docs/features/news feed/pinned-posts"
+              },
+              "next": {
+                "title": "Follow Tag Support",
+                "permalink": "/docs/features/notifications/follow-tag-support"
+              }
+            },
+            {
+              "unversionedId": "features/organisations/organisations-onboarding",
+              "id": "features/organisations/organisations-onboarding",
+              "title": "Onboarding",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/organisations/onboarding.md",
+              "sourceDirName": "features/organisations",
+              "slug": "/features/organisations/organisations-onboarding",
+              "permalink": "/docs/features/organisations/organisations-onboarding",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/organisations/onboarding.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "organisations-onboarding",
+                "title": "Onboarding"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/features/organisations/organisations-overview"
+              },
+              "next": {
+                "title": "Branding",
+                "permalink": "/docs/design/branding"
+              }
+            },
+            {
+              "unversionedId": "features/organisations/organisations-overview",
+              "id": "features/organisations/organisations-overview",
+              "title": "Overview",
+              "description": "This section is a work in progress.",
+              "source": "@site/docs/features/organisations/overview.md",
+              "sourceDirName": "features/organisations",
+              "slug": "/features/organisations/organisations-overview",
+              "permalink": "/docs/features/organisations/organisations-overview",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/organisations/overview.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "organisations-overview",
+                "title": "Overview"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Database Distribution",
+                "permalink": "/docs/features/data-management/data-management-distribution"
+              },
+              "next": {
+                "title": "Onboarding",
+                "permalink": "/docs/features/organisations/organisations-onboarding"
+              }
+            },
+            {
+              "unversionedId": "functionalities/core-functionalities",
+              "id": "functionalities/core-functionalities",
+              "title": "Core Functionalities",
+              "description": "### The current Talawa app is functional but does not meet many best practices. We need to refactor the code to be internationally acceptable.",
+              "source": "@site/docs/functionalities/core-functionalities.md",
+              "sourceDirName": "functionalities",
+              "slug": "/functionalities/core-functionalities",
+              "permalink": "/docs/functionalities/core-functionalities",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/core-functionalities.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "core-functionalities",
+                "title": "Core Functionalities"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Plugin Examples",
+                "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins-example"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/features/features-introduction"
+              }
+            },
+            {
+              "unversionedId": "functionalities/implementing-plugins",
+              "id": "functionalities/implementing-plugins",
+              "title": "Implementing Plugins",
+              "description": "Plugins are existing features that are wrapped with some special logic or widgets to make them controllable.",
+              "source": "@site/docs/functionalities/implementing-plugins.md",
+              "sourceDirName": "functionalities",
+              "slug": "/functionalities/implementing-plugins",
+              "permalink": "/docs/functionalities/implementing-plugins",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/implementing-plugins.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "implementing-plugins",
+                "title": "Implementing Plugins"
+              }
+            },
+            {
+              "unversionedId": "functionalities/implementing-plugins-example",
+              "id": "functionalities/implementing-plugins-example",
+              "title": "Implementing Plugins Example",
+              "description": "Pre-Requisites :",
+              "source": "@site/docs/functionalities/implementing-plugins-example.md",
+              "sourceDirName": "functionalities",
+              "slug": "/functionalities/implementing-plugins-example",
+              "permalink": "/docs/functionalities/implementing-plugins-example",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/implementing-plugins-example.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "implementing-plugins-example",
+                "title": "Implementing Plugins Example"
+              }
+            },
+            {
+              "unversionedId": "functionalities/plugin-architecture",
+              "id": "functionalities/plugin-architecture",
+              "title": "Plugin Architecture",
+              "description": "Plugin Architecture provides talawa projects an ability to control latent Talawa Mobile App features from the Talawa Admin Web Portal.",
+              "source": "@site/docs/functionalities/plugin-architecture.md",
+              "sourceDirName": "functionalities",
+              "slug": "/functionalities/plugin-architecture",
+              "permalink": "/docs/functionalities/plugin-architecture",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/plugin-architecture.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "plugin-architecture",
+                "title": "Plugin Architecture"
+              }
+            },
+            {
+              "unversionedId": "internships/conflicts-of-interest",
+              "id": "internships/conflicts-of-interest",
+              "title": "Conflicts of Interest",
+              "description": "We pride ourselves on being fair, both in actions and perception.",
+              "source": "@site/docs/internships/conflicts-of-interest.md",
+              "sourceDirName": "internships",
+              "slug": "/internships/conflicts-of-interest",
+              "permalink": "/docs/internships/conflicts-of-interest",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/conflicts-of-interest.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "conflicts-of-interest",
+                "title": "Conflicts of Interest"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Selection Criteria",
+                "permalink": "/docs/internships/internship-selection-criteria"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/internships/gsoc/gsoc-introduction"
+              }
+            },
+            {
+              "unversionedId": "internships/gsoc/gsoc-application-process",
+              "id": "internships/gsoc/gsoc-application-process",
+              "title": "Applying",
+              "description": "Details are announced now, and we are in the project discussion phase. We encourage you to discuss you application with the project community.",
+              "source": "@site/docs/internships/gsoc/application-process.md",
+              "sourceDirName": "internships/gsoc",
+              "slug": "/internships/gsoc/gsoc-application-process",
+              "permalink": "/docs/internships/gsoc/gsoc-application-process",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsoc/application-process.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "gsoc-application-process",
+                "title": "Applying"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/internships/gsoc/gsoc-introduction"
+              },
+              "next": {
+                "title": "Introduction",
+                "permalink": "/docs/internships/outreachy/outreachy-introduction"
+              }
+            },
+            {
+              "unversionedId": "internships/gsoc/gsoc-introduction",
+              "id": "internships/gsoc/gsoc-introduction",
+              "title": "Introduction",
+              "description": "Google is sponsoring the Google Summer of Code and The Palisadoes Foundation is registered as a mentoring organization. This page is your entry point to the Palisadoes Foundation GSoC program. Please watch this page for updates concerning our participating this year.",
+              "source": "@site/docs/internships/gsoc/introduction.md",
+              "sourceDirName": "internships/gsoc",
+              "slug": "/internships/gsoc/gsoc-introduction",
+              "permalink": "/docs/internships/gsoc/gsoc-introduction",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsoc/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "gsoc-introduction",
+                "title": "Introduction"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Conflicts of Interest",
+                "permalink": "/docs/internships/conflicts-of-interest"
+              },
+              "next": {
+                "title": "Applying",
+                "permalink": "/docs/internships/gsoc/gsoc-application-process"
+              }
+            },
+            {
+              "unversionedId": "internships/gsod/gsod-ideas",
+              "id": "internships/gsod/gsod-ideas",
+              "title": "GSoD 2023",
+              "description": "Introduction",
+              "source": "@site/docs/internships/gsod/ideas.md",
+              "sourceDirName": "internships/gsod",
+              "slug": "/internships/gsod/gsod-ideas",
+              "permalink": "/docs/internships/gsod/gsod-ideas",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsod/ideas.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "gsod-ideas",
+                "title": "GSoD 2023"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/docs/internships/outreachy/getting-starteds"
+              },
+              "next": {
+                "title": "GSoD 2022",
+                "permalink": "/docs/internships/gsod/gsod-ideas-2022"
+              }
+            },
+            {
+              "unversionedId": "internships/gsod/gsod-ideas-2022",
+              "id": "internships/gsod/gsod-ideas-2022",
+              "title": "GSoD 2022",
+              "description": "Introduction",
+              "source": "@site/docs/internships/gsod/ideas-2022.md",
+              "sourceDirName": "internships/gsod",
+              "slug": "/internships/gsod/gsod-ideas-2022",
+              "permalink": "/docs/internships/gsod/gsod-ideas-2022",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsod/ideas-2022.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "gsod-ideas-2022",
+                "title": "GSoD 2022"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "GSoD 2023",
+                "permalink": "/docs/internships/gsod/gsod-ideas"
+              },
+              "next": {
+                "title": "Palisadoes Unpaid Internship",
+                "permalink": "/docs/internships/palisadoes/palisadoes-introduction"
+              }
+            },
+            {
+              "unversionedId": "internships/internship-application-template",
+              "id": "internships/internship-application-template",
+              "title": "Application Template",
+              "description": "This is just a suggested template, feel free to add and remove sections as appropriate. Be brief, don’t write a large essay!",
+              "source": "@site/docs/internships/application-template.md",
+              "sourceDirName": "internships",
+              "slug": "/internships/internship-application-template",
+              "permalink": "/docs/internships/internship-application-template",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/application-template.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "internship-application-template",
+                "title": "Application Template"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Ideas List",
+                "permalink": "/docs/internships/internship-ideas"
+              },
+              "next": {
+                "title": "Selection Criteria",
+                "permalink": "/docs/internships/internship-selection-criteria"
+              }
+            },
+            {
+              "unversionedId": "internships/internship-ideas",
+              "id": "internships/internship-ideas",
+              "title": "Ideas List",
+              "description": "Introduction",
+              "source": "@site/docs/internships/ideas.md",
+              "sourceDirName": "internships",
+              "slug": "/internships/internship-ideas",
+              "permalink": "/docs/internships/internship-ideas",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/ideas.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "internship-ideas",
+                "title": "Ideas List"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Design System",
+                "permalink": "/docs/design/ux/ux-design-system"
+              },
+              "next": {
+                "title": "Application Template",
+                "permalink": "/docs/internships/internship-application-template"
+              }
+            },
+            {
+              "unversionedId": "internships/internship-selection-criteria",
+              "id": "internships/internship-selection-criteria",
+              "title": "Selection Criteria",
+              "description": "Each applicant to The Palisadoes Foundation’s Talawa programs will be assessed using the following criteria",
+              "source": "@site/docs/internships/selection-criteria.md",
+              "sourceDirName": "internships",
+              "slug": "/internships/internship-selection-criteria",
+              "permalink": "/docs/internships/internship-selection-criteria",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/selection-criteria.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "internship-selection-criteria",
+                "title": "Selection Criteria"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Application Template",
+                "permalink": "/docs/internships/internship-application-template"
+              },
+              "next": {
+                "title": "Conflicts of Interest",
+                "permalink": "/docs/internships/conflicts-of-interest"
+              }
+            },
+            {
+              "unversionedId": "internships/outreachy/contribution-process",
+              "id": "internships/outreachy/contribution-process",
+              "title": "Contribution Process",
+              "description": "Introduction",
+              "source": "@site/docs/internships/outreachy/contribution.md",
+              "sourceDirName": "internships/outreachy",
+              "slug": "/internships/outreachy/contribution-process",
+              "permalink": "/docs/internships/outreachy/contribution-process",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/outreachy/contribution.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "contribution-process",
+                "title": "Contribution Process",
+                "sidebar_label": "Contribution Process"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/internships/outreachy/outreachy-introduction"
+              },
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/docs/internships/outreachy/getting-starteds"
+              }
+            },
+            {
+              "unversionedId": "internships/outreachy/getting-starteds",
+              "id": "internships/outreachy/getting-starteds",
+              "title": "Our repositories",
+              "description": "As part of the application process, all applicants must make at least one contribution to be accepted as an intern for this project. Applicants can contribute to our project through our github repositories.",
+              "source": "@site/docs/internships/outreachy/getting-started.md",
+              "sourceDirName": "internships/outreachy",
+              "slug": "/internships/outreachy/getting-starteds",
+              "permalink": "/docs/internships/outreachy/getting-starteds",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/outreachy/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "getting-starteds",
+                "title": "Our repositories",
+                "sidebar_label": "Getting Started"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Contribution Process",
+                "permalink": "/docs/internships/outreachy/contribution-process"
+              },
+              "next": {
+                "title": "GSoD 2023",
+                "permalink": "/docs/internships/gsod/gsod-ideas"
+              }
+            },
+            {
+              "unversionedId": "internships/outreachy/outreachy-introduction",
+              "id": "internships/outreachy/outreachy-introduction",
+              "title": "Introduction",
+              "description": "Outreachy is a paid, remote internship program. Outreachy's goal is to support people from groups underrepresented in tech. We help newcomers to free software and open source make their first contributions.",
+              "source": "@site/docs/internships/outreachy/introduction.md",
+              "sourceDirName": "internships/outreachy",
+              "slug": "/internships/outreachy/outreachy-introduction",
+              "permalink": "/docs/internships/outreachy/outreachy-introduction",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/outreachy/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "outreachy-introduction",
+                "title": "Introduction"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Applying",
+                "permalink": "/docs/internships/gsoc/gsoc-application-process"
+              },
+              "next": {
+                "title": "Contribution Process",
+                "permalink": "/docs/internships/outreachy/contribution-process"
+              }
+            },
+            {
+              "unversionedId": "internships/palisadoes/palisadoes-introduction",
+              "id": "internships/palisadoes/palisadoes-introduction",
+              "title": "Palisadoes Unpaid Internship",
+              "description": "Intern at The Palisadoes Foundation",
+              "source": "@site/docs/internships/palisadoes/introduction.md",
+              "sourceDirName": "internships/palisadoes",
+              "slug": "/internships/palisadoes/palisadoes-introduction",
+              "permalink": "/docs/internships/palisadoes/palisadoes-introduction",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/palisadoes/introduction.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "palisadoes-introduction",
+                "title": "Palisadoes Unpaid Internship"
+              },
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "GSoD 2022",
+                "permalink": "/docs/internships/gsod/gsod-ideas-2022"
+              }
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "title": "Powered by MDX",
+              "description": "You can write JSX and use React components within your Markdown thanks to MDX.",
+              "source": "@site/docs/interactiveDoc.mdx",
+              "sourceDirName": ".",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "draft": false,
+              "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/interactiveDoc.mdx",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "mdx",
+                "title": "Powered by MDX"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "someSidebar": [
+              {
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "about"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Technical Overview",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "applications/architecture-overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "applications/overview"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Developer Resources",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Talawa",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa/talawa-introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa/talawa-lint"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Talawa API",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-api/api-overview"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Base Constraints",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "developers/talawa-api/constraints/user"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developers/talawa-api/constraints/organization"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developers/talawa-api/constraints/admin"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-api/mutations"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-api/schemas"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-api/authentication"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-api/functionality"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-api/expectations"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Talawa Admin",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "developers/talawa-admin/talawa-admin-introduction"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Plugins",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "developers/talawa-admin/plugins/plugin-architecture"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developers/talawa-admin/plugins/implementing-plugins"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "developers/talawa-admin/plugins/implementing-plugins-example"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Requirements Docs",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Existing Features",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "functionalities/core-functionalities"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Desired Features",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "features/features-introduction"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Admin Portal",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/admin-portal/admin-portal-overview"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Admin Capabilities",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/admin-role/admin-role-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/admin-role/admin-messaging"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/admin-role/admin-manage-members"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/admin-role/admin-newsfeed"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Chat and Messaging",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/messaging-and-chat/messaging-and-chat-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/messaging-and-chat/message-chat"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/messaging-and-chat/message-messaging"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/messaging-and-chat/message-voice-messaging"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/messaging-and-chat/message-notifications"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Coordinator Capabilities",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/coordinator-role/coordinator-role-overview"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Events",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-create-events"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-signup"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-grouping"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-roles"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-attendee-roster"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/events/event-paid-donation"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Members",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-access"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-roles"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-preapprovals"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-registration"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-banning"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/members/members-recovery"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Donations",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/donations/donations-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/donations/donation-fees"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "News feed",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/news feed/news-feed-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/news feed/tagging-support"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/news feed/pinned-posts"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Notifications",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/notifications/notifications-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/notifications/follow-tag-support"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Data Management",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/data-management/data-management-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/data-management/data-management-compression"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/data-management/data-management-retention"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/data-management/data-management-storage"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/data-management/data-management-distribution"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      },
+                      {
+                        "type": "category",
+                        "label": "Organisations",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "features/organisations/organisations-overview"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "features/organisations/organisations-onboarding"
+                          }
+                        ],
+                        "collapsed": true,
+                        "collapsible": true
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "UI/UX Design",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "design/branding"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "design/ux/ux-talawa"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "design/ux/ux-design-system"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Internships",
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Overview",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "internships/internship-ideas"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/internship-application-template"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/internship-selection-criteria"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/conflicts-of-interest"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "GSoC",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "internships/gsoc/gsoc-introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/gsoc/gsoc-application-process"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Outreachy",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "internships/outreachy/outreachy-introduction"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/outreachy/contribution-process"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/outreachy/getting-starteds"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "GSoD",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "internships/gsod/gsod-ideas"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "internships/gsod/gsod-ideas-2022"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  },
+                  {
+                    "type": "category",
+                    "label": "Palisadoes",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "internships/palisadoes/palisadoes-introduction"
+                      }
+                    ],
+                    "collapsed": true,
+                    "collapsible": true
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": "/blog/tags",
+      "blogTagsPaginated": []
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.tsx"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

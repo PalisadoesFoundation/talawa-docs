@@ -1,0 +1,28 @@
+{
+  "unversionedId": "internships/outreachy/contribution-process",
+  "id": "internships/outreachy/contribution-process",
+  "title": "Contribution Process",
+  "description": "Introduction",
+  "source": "@site/docs/internships/outreachy/contribution.md",
+  "sourceDirName": "internships/outreachy",
+  "slug": "/internships/outreachy/contribution-process",
+  "permalink": "/docs/internships/outreachy/contribution-process",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/outreachy/contribution.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "contribution-process",
+    "title": "Contribution Process",
+    "sidebar_label": "Contribution Process"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/internships/outreachy/outreachy-introduction"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/docs/internships/outreachy/getting-starteds"
+  }
+}

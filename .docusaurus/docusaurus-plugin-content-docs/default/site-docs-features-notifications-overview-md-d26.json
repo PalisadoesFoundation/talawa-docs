@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/notifications/notifications-overview",
+  "id": "features/notifications/notifications-overview",
+  "title": "Notifications",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/notifications/overview.md",
+  "sourceDirName": "features/notifications",
+  "slug": "/features/notifications/notifications-overview",
+  "permalink": "/docs/features/notifications/notifications-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/notifications/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "notifications-overview",
+    "title": "Notifications"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Pinned Posts",
+    "permalink": "/docs/features/news feed/pinned-posts"
+  },
+  "next": {
+    "title": "Follow Tag Support",
+    "permalink": "/docs/features/notifications/follow-tag-support"
+  }
+}

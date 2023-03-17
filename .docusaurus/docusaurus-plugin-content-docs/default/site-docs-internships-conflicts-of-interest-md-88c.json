@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/conflicts-of-interest",
+  "id": "internships/conflicts-of-interest",
+  "title": "Conflicts of Interest",
+  "description": "We pride ourselves on being fair, both in actions and perception.",
+  "source": "@site/docs/internships/conflicts-of-interest.md",
+  "sourceDirName": "internships",
+  "slug": "/internships/conflicts-of-interest",
+  "permalink": "/docs/internships/conflicts-of-interest",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/conflicts-of-interest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "conflicts-of-interest",
+    "title": "Conflicts of Interest"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Selection Criteria",
+    "permalink": "/docs/internships/internship-selection-criteria"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/internships/gsoc/gsoc-introduction"
+  }
+}

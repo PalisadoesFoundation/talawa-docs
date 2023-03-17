@@ -1,0 +1,27 @@
+{
+  "unversionedId": "applications/architecture-overview",
+  "id": "applications/architecture-overview",
+  "title": "Applications",
+  "description": "The suite of Talawa applications make the management of community based organizations easier. There are three major components.",
+  "source": "@site/docs/applications/architecture.md",
+  "sourceDirName": "applications",
+  "slug": "/applications/architecture-overview",
+  "permalink": "/docs/applications/architecture-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/applications/architecture.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "architecture-overview",
+    "title": "Applications"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "About Us",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Core Concepts",
+    "permalink": "/docs/applications/overview"
+  }
+}

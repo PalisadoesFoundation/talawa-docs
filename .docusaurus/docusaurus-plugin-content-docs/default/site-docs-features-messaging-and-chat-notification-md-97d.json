@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/messaging-and-chat/message-notifications",
+  "id": "features/messaging-and-chat/message-notifications",
+  "title": "App Notifications",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/messaging-and-chat/notification.md",
+  "sourceDirName": "features/messaging-and-chat",
+  "slug": "/features/messaging-and-chat/message-notifications",
+  "permalink": "/docs/features/messaging-and-chat/message-notifications",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/notification.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "message-notifications",
+    "title": "App Notifications"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Voice Messaging",
+    "permalink": "/docs/features/messaging-and-chat/message-voice-messaging"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/coordinator-role/coordinator-role-overview"
+  }
+}

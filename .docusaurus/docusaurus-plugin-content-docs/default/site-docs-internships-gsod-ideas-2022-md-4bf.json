@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/gsod/gsod-ideas-2022",
+  "id": "internships/gsod/gsod-ideas-2022",
+  "title": "GSoD 2022",
+  "description": "Introduction",
+  "source": "@site/docs/internships/gsod/ideas-2022.md",
+  "sourceDirName": "internships/gsod",
+  "slug": "/internships/gsod/gsod-ideas-2022",
+  "permalink": "/docs/internships/gsod/gsod-ideas-2022",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsod/ideas-2022.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gsod-ideas-2022",
+    "title": "GSoD 2022"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "GSoD 2023",
+    "permalink": "/docs/internships/gsod/gsod-ideas"
+  },
+  "next": {
+    "title": "Palisadoes Unpaid Internship",
+    "permalink": "/docs/internships/palisadoes/palisadoes-introduction"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/organisations/organisations-onboarding",
+  "id": "features/organisations/organisations-onboarding",
+  "title": "Onboarding",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/organisations/onboarding.md",
+  "sourceDirName": "features/organisations",
+  "slug": "/features/organisations/organisations-onboarding",
+  "permalink": "/docs/features/organisations/organisations-onboarding",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/organisations/onboarding.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "organisations-onboarding",
+    "title": "Onboarding"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/organisations/organisations-overview"
+  },
+  "next": {
+    "title": "Branding",
+    "permalink": "/docs/design/branding"
+  }
+}

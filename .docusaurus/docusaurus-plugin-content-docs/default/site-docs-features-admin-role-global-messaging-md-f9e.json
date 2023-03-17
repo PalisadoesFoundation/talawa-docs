@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/admin-role/admin-messaging",
+  "id": "features/admin-role/admin-messaging",
+  "title": "Global Messaging",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/admin-role/global-messaging.md",
+  "sourceDirName": "features/admin-role",
+  "slug": "/features/admin-role/admin-messaging",
+  "permalink": "/docs/features/admin-role/admin-messaging",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/global-messaging.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "admin-messaging",
+    "title": "Global Messaging"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/admin-role/admin-role-overview"
+  },
+  "next": {
+    "title": "Manage Members",
+    "permalink": "/docs/features/admin-role/admin-manage-members"
+  }
+}

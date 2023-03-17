@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/messaging-and-chat/message-voice-messaging",
+  "id": "features/messaging-and-chat/message-voice-messaging",
+  "title": "Voice Messaging",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/messaging-and-chat/voice-messaging.md",
+  "sourceDirName": "features/messaging-and-chat",
+  "slug": "/features/messaging-and-chat/message-voice-messaging",
+  "permalink": "/docs/features/messaging-and-chat/message-voice-messaging",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/messaging-and-chat/voice-messaging.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "message-voice-messaging",
+    "title": "Voice Messaging"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "In-App Messaging",
+    "permalink": "/docs/features/messaging-and-chat/message-messaging"
+  },
+  "next": {
+    "title": "App Notifications",
+    "permalink": "/docs/features/messaging-and-chat/message-notifications"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/events/event-create-events",
+  "id": "features/events/event-create-events",
+  "title": "Create Events",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/events/create-events.md",
+  "sourceDirName": "features/events",
+  "slug": "/features/events/event-create-events",
+  "permalink": "/docs/features/events/event-create-events",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/create-events.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "event-create-events",
+    "title": "Create Events"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/events/event-overview"
+  },
+  "next": {
+    "title": "Signup and Subscription",
+    "permalink": "/docs/features/events/event-signup"
+  }
+}

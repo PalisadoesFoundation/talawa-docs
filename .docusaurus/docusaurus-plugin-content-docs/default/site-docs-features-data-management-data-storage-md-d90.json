@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/data-management/data-management-storage",
+  "id": "features/data-management/data-management-storage",
+  "title": "Data Storage",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/data-management/data-storage.md",
+  "sourceDirName": "features/data-management",
+  "slug": "/features/data-management/data-management-storage",
+  "permalink": "/docs/features/data-management/data-management-storage",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/data-storage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "data-management-storage",
+    "title": "Data Storage"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Data Retention",
+    "permalink": "/docs/features/data-management/data-management-retention"
+  },
+  "next": {
+    "title": "Database Distribution",
+    "permalink": "/docs/features/data-management/data-management-distribution"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/notifications/follow-tag-support",
+  "id": "features/notifications/follow-tag-support",
+  "title": "Follow Tag Support",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/notifications/follow-tag.md",
+  "sourceDirName": "features/notifications",
+  "slug": "/features/notifications/follow-tag-support",
+  "permalink": "/docs/features/notifications/follow-tag-support",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/notifications/follow-tag.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "follow-tag-support",
+    "title": "Follow Tag Support"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Notifications",
+    "permalink": "/docs/features/notifications/notifications-overview"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/data-management/data-management-overview"
+  }
+}

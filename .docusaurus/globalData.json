@@ -1,0 +1,418 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "about",
+          "docs": [
+            {
+              "id": "about",
+              "path": "/docs/",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "applications/architecture-overview",
+              "path": "/docs/applications/architecture-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "applications/overview",
+              "path": "/docs/applications/overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "design/branding",
+              "path": "/docs/design/branding",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "design/ux/ux-design-system",
+              "path": "/docs/design/ux/ux-design-system",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "design/ux/ux-talawa",
+              "path": "/docs/design/ux/ux-talawa",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-admin/plugins/implementing-plugins",
+              "path": "/docs/developers/talawa-admin/plugins/implementing-plugins",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-admin/plugins/implementing-plugins-example",
+              "path": "/docs/developers/talawa-admin/plugins/implementing-plugins-example",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-admin/plugins/plugin-architecture",
+              "path": "/docs/developers/talawa-admin/plugins/plugin-architecture",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-admin/talawa-admin-introduction",
+              "path": "/docs/developers/talawa-admin/talawa-admin-introduction",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/api-overview",
+              "path": "/docs/developers/talawa-api/api-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/authentication",
+              "path": "/docs/developers/talawa-api/authentication",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/constraints/admin",
+              "path": "/docs/developers/talawa-api/constraints/admin",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/constraints/organization",
+              "path": "/docs/developers/talawa-api/constraints/organization",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/constraints/user",
+              "path": "/docs/developers/talawa-api/constraints/user",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/expectations",
+              "path": "/docs/developers/talawa-api/expectations",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/functionality",
+              "path": "/docs/developers/talawa-api/functionality",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/mutations",
+              "path": "/docs/developers/talawa-api/mutations",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa-api/schemas",
+              "path": "/docs/developers/talawa-api/schemas",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa/talawa-introduction",
+              "path": "/docs/developers/talawa/talawa-introduction",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "developers/talawa/talawa-lint",
+              "path": "/docs/developers/talawa/talawa-lint",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "doc1",
+              "path": "/docs/doc1"
+            },
+            {
+              "id": "features/admin-portal/admin-portal-overview",
+              "path": "/docs/features/admin-portal/admin-portal-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/admin-role/admin-manage-members",
+              "path": "/docs/features/admin-role/admin-manage-members",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/admin-role/admin-messaging",
+              "path": "/docs/features/admin-role/admin-messaging",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/admin-role/admin-newsfeed",
+              "path": "/docs/features/admin-role/admin-newsfeed",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/admin-role/admin-role-overview",
+              "path": "/docs/features/admin-role/admin-role-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/coordinator-role/coordinator-role-overview",
+              "path": "/docs/features/coordinator-role/coordinator-role-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/data-management/data-management-compression",
+              "path": "/docs/features/data-management/data-management-compression",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/data-management/data-management-distribution",
+              "path": "/docs/features/data-management/data-management-distribution",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/data-management/data-management-overview",
+              "path": "/docs/features/data-management/data-management-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/data-management/data-management-retention",
+              "path": "/docs/features/data-management/data-management-retention",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/data-management/data-management-storage",
+              "path": "/docs/features/data-management/data-management-storage",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/donations/donation-fees",
+              "path": "/docs/features/donations/donation-fees",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/donations/donations-overview",
+              "path": "/docs/features/donations/donations-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-attendee-roster",
+              "path": "/docs/features/events/event-attendee-roster",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-create-events",
+              "path": "/docs/features/events/event-create-events",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-grouping",
+              "path": "/docs/features/events/event-grouping",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-overview",
+              "path": "/docs/features/events/event-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-paid-donation",
+              "path": "/docs/features/events/event-paid-donation",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-roles",
+              "path": "/docs/features/events/event-roles",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/events/event-signup",
+              "path": "/docs/features/events/event-signup",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/features-introduction",
+              "path": "/docs/features/features-introduction",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-access",
+              "path": "/docs/features/members/members-access",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-banning",
+              "path": "/docs/features/members/members-banning",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-overview",
+              "path": "/docs/features/members/members-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-preapprovals",
+              "path": "/docs/features/members/members-preapprovals",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-recovery",
+              "path": "/docs/features/members/members-recovery",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-registration",
+              "path": "/docs/features/members/members-registration",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/members/members-roles",
+              "path": "/docs/features/members/members-roles",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/messaging-and-chat/message-chat",
+              "path": "/docs/features/messaging-and-chat/message-chat",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/messaging-and-chat/message-messaging",
+              "path": "/docs/features/messaging-and-chat/message-messaging",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/messaging-and-chat/message-notifications",
+              "path": "/docs/features/messaging-and-chat/message-notifications",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/messaging-and-chat/message-voice-messaging",
+              "path": "/docs/features/messaging-and-chat/message-voice-messaging",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/messaging-and-chat/messaging-and-chat-overview",
+              "path": "/docs/features/messaging-and-chat/messaging-and-chat-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/news feed/news-feed-overview",
+              "path": "/docs/features/news feed/news-feed-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/news feed/pinned-posts",
+              "path": "/docs/features/news feed/pinned-posts",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/news feed/tagging-support",
+              "path": "/docs/features/news feed/tagging-support",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/notifications/follow-tag-support",
+              "path": "/docs/features/notifications/follow-tag-support",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/notifications/notifications-overview",
+              "path": "/docs/features/notifications/notifications-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/organisations/organisations-onboarding",
+              "path": "/docs/features/organisations/organisations-onboarding",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "features/organisations/organisations-overview",
+              "path": "/docs/features/organisations/organisations-overview",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "functionalities/core-functionalities",
+              "path": "/docs/functionalities/core-functionalities",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "functionalities/implementing-plugins",
+              "path": "/docs/functionalities/implementing-plugins"
+            },
+            {
+              "id": "functionalities/implementing-plugins-example",
+              "path": "/docs/functionalities/implementing-plugins-example"
+            },
+            {
+              "id": "functionalities/plugin-architecture",
+              "path": "/docs/functionalities/plugin-architecture"
+            },
+            {
+              "id": "internships/conflicts-of-interest",
+              "path": "/docs/internships/conflicts-of-interest",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/gsoc/gsoc-application-process",
+              "path": "/docs/internships/gsoc/gsoc-application-process",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/gsoc/gsoc-introduction",
+              "path": "/docs/internships/gsoc/gsoc-introduction",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/gsod/gsod-ideas",
+              "path": "/docs/internships/gsod/gsod-ideas",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/gsod/gsod-ideas-2022",
+              "path": "/docs/internships/gsod/gsod-ideas-2022",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/internship-application-template",
+              "path": "/docs/internships/internship-application-template",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/internship-ideas",
+              "path": "/docs/internships/internship-ideas",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/internship-selection-criteria",
+              "path": "/docs/internships/internship-selection-criteria",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/outreachy/contribution-process",
+              "path": "/docs/internships/outreachy/contribution-process",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/outreachy/getting-starteds",
+              "path": "/docs/internships/outreachy/getting-starteds",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/outreachy/outreachy-introduction",
+              "path": "/docs/internships/outreachy/outreachy-introduction",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "internships/palisadoes/palisadoes-introduction",
+              "path": "/docs/internships/palisadoes/palisadoes-introduction",
+              "sidebar": "someSidebar"
+            },
+            {
+              "id": "mdx",
+              "path": "/docs/mdx"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "someSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "about"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

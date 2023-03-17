@@ -1,0 +1,18 @@
+{
+  "unversionedId": "functionalities/implementing-plugins-example",
+  "id": "functionalities/implementing-plugins-example",
+  "title": "Implementing Plugins Example",
+  "description": "Pre-Requisites :",
+  "source": "@site/docs/functionalities/implementing-plugins-example.md",
+  "sourceDirName": "functionalities",
+  "slug": "/functionalities/implementing-plugins-example",
+  "permalink": "/docs/functionalities/implementing-plugins-example",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/implementing-plugins-example.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "implementing-plugins-example",
+    "title": "Implementing Plugins Example"
+  }
+}

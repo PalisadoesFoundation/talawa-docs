@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-preapprovals",
+  "id": "features/members/members-preapprovals",
+  "title": "Pre-Approvals",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/preapprovals.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-preapprovals",
+  "permalink": "/docs/features/members/members-preapprovals",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/preapprovals.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-preapprovals",
+    "title": "Pre-Approvals"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Roles",
+    "permalink": "/docs/features/members/members-roles"
+  },
+  "next": {
+    "title": "Registration",
+    "permalink": "/docs/features/members/members-registration"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-roles",
+  "id": "features/members/members-roles",
+  "title": "Roles",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/roles.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-roles",
+  "permalink": "/docs/features/members/members-roles",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/roles.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-roles",
+    "title": "Roles"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Access",
+    "permalink": "/docs/features/members/members-access"
+  },
+  "next": {
+    "title": "Pre-Approvals",
+    "permalink": "/docs/features/members/members-preapprovals"
+  }
+}

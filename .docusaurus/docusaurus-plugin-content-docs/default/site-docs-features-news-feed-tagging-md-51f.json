@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/news feed/tagging-support",
+  "id": "features/news feed/tagging-support",
+  "title": "Hashtag Support",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/news feed/tagging.md",
+  "sourceDirName": "features/news feed",
+  "slug": "/features/news feed/tagging-support",
+  "permalink": "/docs/features/news feed/tagging-support",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/news feed/tagging.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tagging-support",
+    "title": "Hashtag Support"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/news feed/news-feed-overview"
+  },
+  "next": {
+    "title": "Pinned Posts",
+    "permalink": "/docs/features/news feed/pinned-posts"
+  }
+}

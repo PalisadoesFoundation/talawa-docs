@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/coordinator-role/coordinator-role-overview",
+  "id": "features/coordinator-role/coordinator-role-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/coordinator-role/overview.md",
+  "sourceDirName": "features/coordinator-role",
+  "slug": "/features/coordinator-role/coordinator-role-overview",
+  "permalink": "/docs/features/coordinator-role/coordinator-role-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/coordinator-role/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "coordinator-role-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "App Notifications",
+    "permalink": "/docs/features/messaging-and-chat/message-notifications"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/events/event-overview"
+  }
+}

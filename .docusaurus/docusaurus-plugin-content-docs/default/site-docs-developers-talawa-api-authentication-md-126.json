@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/authentication",
+  "id": "developers/talawa-api/authentication",
+  "title": "Authentication",
+  "description": "How can a User Authenticate?",
+  "source": "@site/docs/developers/talawa-api/authentication.md",
+  "sourceDirName": "developers/talawa-api",
+  "slug": "/developers/talawa-api/authentication",
+  "permalink": "/docs/developers/talawa-api/authentication",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/authentication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "authentication",
+    "title": "Authentication"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Schemas",
+    "permalink": "/docs/developers/talawa-api/schemas"
+  },
+  "next": {
+    "title": "Functionality",
+    "permalink": "/docs/developers/talawa-api/functionality"
+  }
+}

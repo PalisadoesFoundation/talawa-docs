@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/constraints/organization",
+  "id": "developers/talawa-api/constraints/organization",
+  "title": "Organization",
+  "description": "What Is An Organization?",
+  "source": "@site/docs/developers/talawa-api/constraints/organization.md",
+  "sourceDirName": "developers/talawa-api/constraints",
+  "slug": "/developers/talawa-api/constraints/organization",
+  "permalink": "/docs/developers/talawa-api/constraints/organization",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/constraints/organization.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "organization",
+    "title": "Organization"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "User",
+    "permalink": "/docs/developers/talawa-api/constraints/user"
+  },
+  "next": {
+    "title": "Admin",
+    "permalink": "/docs/developers/talawa-api/constraints/admin"
+  }
+}

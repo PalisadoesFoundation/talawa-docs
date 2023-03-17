@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/events/event-overview",
+  "id": "features/events/event-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/events/overview.md",
+  "sourceDirName": "features/events",
+  "slug": "/features/events/event-overview",
+  "permalink": "/docs/features/events/event-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "event-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/coordinator-role/coordinator-role-overview"
+  },
+  "next": {
+    "title": "Create Events",
+    "permalink": "/docs/features/events/event-create-events"
+  }
+}
