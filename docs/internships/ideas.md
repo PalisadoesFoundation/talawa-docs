@@ -529,7 +529,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 8. **Difficulty:** Hard
 9. **Impact Definition:** Core development, Risky/Exploratory
 
-### Hybrid - Primary Ideas
+## Hybrid - Primary Ideas
 
 We realize that this list isn't exhaustive. There are many more opportunities that could be converted into project ideas and proposals. If this is what insprires you, then investigate this section
 
