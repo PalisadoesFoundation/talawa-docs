@@ -21,7 +21,7 @@ Groups of people in a community that have some unique commonality.
 
 There are many types of people who use Talawa either directly, or indirectly:
 
-#### Non- Administrators
+#### Non-Administrators
 
 The main purpose of Talawa is to foster closer cooperation between communities of people working together for a common social cause. In Talawa, most would be either users or members.
 
@@ -42,8 +42,9 @@ The VP doesn’t want the branch managers to manage the members who have joined 
 
 It is for this reason that we have two types of administrators. Admins and Super Admins.
 
-1. **Admin**: These are members who use use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. Admins can only manage one organization at a time and cannot access any data from other organizations.
+1. **Admin**: These are members who use use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. 
 
+   1. Admins can only manage a single organization and cannot access any data from other organizations. Expanding this capability is a long term goal.
    1. Admins can promote Users and Members to Admin status for their organization only
 
 1. **Super Admin**: These are members who use use Talawa Admin to manage all organizations in a community.
@@ -51,6 +52,15 @@ It is for this reason that we have two types of administrators. Admins and Super
    1. Super Admins have access to all the privileges that an Admin may have over the Admin's organization.
 
 Like other people, an administrator may or may not have joined an organization in the mobile app.
+
+## Talawa Application Users
+
+The Talawa applications are used by different groups of people.
+
+1. **Talawa**: All people associated with an organization. There are no administrative functions incorporated in the mobile app.
+2. **Talawa-Admin**: Only Admins and Super Admins use this web portal. No other users have access.
+
+Talawa-API supports the users of Talawa and Talawa-Admin.
 
 ## Events
 
@@ -90,3 +100,21 @@ Talawa includes the ability of members invited or registered to an event to auto
 #### Event Roles
 
 Talawa includes the ability of members attending events to be assigned tasks/roles that can be tracked in their app by all attendees. This helps in event management.
+
+## Newsfeed
+
+The Talawa newsfeed helps to make the Communities a more cohesive entity. 
+
+### Mobile App Newsfeed
+
+The newsfeed on the Talawa Mobile App is a stream of commentary from the App's users. This may include various combinations of text, video, images and links that Members may want to share.
+
+Talawa Mobile App users only get news on their newsfeed for the organization that they are currently actively using.  
+
+### Admin Panel Newsfeed
+
+Administrators will use Talawa Admin to administer an organization's newsfeed. At a minimum they will get a filtered version of the feed that only includes exceptional content that requires attention.This includes:
+
+1. **Pinned Posts**: The management of pinned posts that they use to alert all members of the organization of some activity. These posts are [always visible at the top of the newsfeed](https://github.com/PalisadoesFoundation/talawa-api/issues/1096). Pinned posts can only be created by Admins.
+2. **Reported Posts**: Mobile App users may want Admins to take action on posts that don't match the organization's values. Admins can use the newsfeed to manage these reports.
+3. **Plugin Posts**: The Admin panel may have plugins that need to access the newsfeed. For example these could include the insertion of advertising from local companies.
