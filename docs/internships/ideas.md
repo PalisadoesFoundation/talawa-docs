@@ -402,7 +402,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
    1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events and plugins
    1. Improved intuitive layouts and workflows for:
        1. Managing multiple organizations
-       1. Doing CRUD activities for people, tags and events
+       1. Doing CRUD activities 
        1. Filtering people and tags
        1. Viewing organization events
        1. Requesting volunteers at events
@@ -410,6 +410,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
        1. Managing pinned posts on the newsfeed
    1. A properly documented design system and style guide added to the Talawa-Docs repository
    1. Any existing non-functioning features in these areas will need to be resolved.
+   1. There are other ideas that will depend on this work. You must think of ways where all participants can add pages according to your design specification without interrupting the speed of development. Strategies for incremental versus monolithic change must be considered.
    1. Any others you can think of!   
    1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
@@ -419,7 +420,6 @@ We always need intuitive layouts and workflows. This applies to both existing fe
       - [YouTube Inspiration #3](https://www.youtube.com/@faithteams)
       - [YouTube Inspiration #4](https://www.youtube.com/@ChurchTracSoftware/videos)
       - [YouTube Inspiration #5](https://www.youtube.com/watch?v=pK4R2-8iPJE)
-
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `General: Basic Functionality`
