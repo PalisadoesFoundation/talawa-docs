@@ -50,7 +50,3 @@ Pull request guidelines are stated here and should be followed to the letter. Th
 ### 7.  ISSUE_GUIDELINES.md
 
 The steps to create a new issue and how you can work with issues are outlines in this file. For instance, applicants should only work on issues assigned to them. 
-
-
-
-Visit our [FAQ page](docs/faq/faq.md) as it addresses the frequently asked questions. From there you can learn more about us and how to contribute in our projects.
