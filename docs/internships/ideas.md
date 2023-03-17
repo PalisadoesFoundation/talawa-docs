@@ -529,16 +529,12 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 8. **Difficulty:** Hard
 9. **Impact Definition:** Core development, Risky/Exploratory
 
-## Hybrid Innovation
-
-We cannot think of everything, so we encourage you to think of ideas that will have a material impact on the Talawa environment. 
-
 ### Hybrid: Hybrid Innovation
 
-1. **Description:** Do the ideas need something more? Can you think of ways to blend elements of the ideas together? What completely new thoughts could be applied to the projects? If you have answers to these questions then this section is for 
+1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
 2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
-   1. Build on previously stated ideas and include some overlap with thier general objectives.
-      1. **Note:** Your proposal must state the project ideas above from which you got your inspiration.**
+   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
+   1. Add completely new features not previously stated in ideas.
    2. Create features that users will want or facilitate new features that will be the goundwork for features that they would want.
    3. Justify 350 hours of work.
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
