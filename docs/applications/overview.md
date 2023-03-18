@@ -5,7 +5,7 @@ title: Core Concepts
 
 This page outlines some key concepts of the various Talawa applications.
 
-## Community​
+## Community
 
 Communities are groups of people who participate either directly or indirectly with an installation of the suite of Talawa apps. Each instance of the Talawa API only manages a single community.
 
