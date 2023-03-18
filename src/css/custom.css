@@ -86,7 +86,7 @@
 /* Dak mode css */
 
 html[data-theme='dark'] {
-    --ifm-background-color: #000e33;
+    --ifm-background-color: #020712;
     --ifm-background-surface-color: var(--ifm-background-color);
     --ifm-menu-color: var(--ifm-color-gray-200);
     --ifm-toc-link-color: var(--ifm-color-gray-200);
@@ -131,14 +131,14 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
 
 .markdown>h2 {
     --ifm-h2-font-size: 1.875rem;
-    margin-bottom: 1.5rem;
-    margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * 1rem);
+    margin-bottom: 0.8rem;
+    margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * 0rem);
 }
 
 .markdown>h3 {
     --ifm-h3-font-size: 1.5rem;
-    margin-bottom: 1rem;
-    margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * 1rem);
+    margin-bottom: 0.8rem;
+    margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * 0rem);
 }
 
 .navbar__items--right>.navbar__item:not(:first-of-type) {
@@ -191,6 +191,69 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     top: 1px;
 }
 
+.footer__icon {
+    margin: 0;
+    padding: 2px;
+    color: #fff;
+}
+
+.footer__icon:before {
+    content: "";
+    display: inline-flex;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+}
+
+.footer__icon:hover:before {
+    background-color: var(--ifm-navbar-link-hover-color);
+}
+
+.footer__github:before {
+    mask: url(/img/github.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__slack:before {
+    mask: url(/img/slack.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__facebook:before {
+    mask: url(/img/facebook.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__instagram:before {
+    mask: url(/img/instagram.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__twitter:before {
+    mask: url(/img/twitter.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__news:before {
+    mask: url(/img/source.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__contact:before {
+    mask: url(/img/source.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__opportunities:before {
+    mask: url(/img/opportunities.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
+.footer__team:before {
+    mask: url(/img/team.svg) no-repeat 100% 100%;
+    mask-size: cover;
+}
+
 .markdown>button {
     background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
     border: none;
@@ -217,6 +280,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     .center {
         text-align: center;
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -225,6 +289,9 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     }
     .github-button {
         margin-right: 0.5rem;
+    }
+    .hero__title {
+        font-size: 2rem;
     }
 }
 

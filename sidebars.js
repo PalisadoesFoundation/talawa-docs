@@ -125,11 +125,17 @@ module.exports = {
         Overview: [
           'internships/internship-ideas',
           'internships/internship-application-template',
-          'internships/internship-selection-criteria'
+          'internships/internship-selection-criteria',
+          'internships/conflicts-of-interest'
         ],
         GSoC: [
           'internships/gsoc/gsoc-introduction',
           'internships/gsoc/gsoc-application-process'
+        ],
+        Outreachy: [
+          'internships/outreachy/outreachy-introduction',
+          'internships/outreachy/contribution-process',
+          'internships/outreachy/getting-starteds'
         ],
         GSoD: ['internships/gsod/gsod-ideas', 'internships/gsod/gsod-ideas-2022'],
         Palisadoes: ['internships/palisadoes/palisadoes-introduction']

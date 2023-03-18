@@ -3,13 +3,8 @@ id: functionality
 title: Functionality
 ---
 
-<b></b>
 
-> ### Talawa Api offers various functionalities which will ultimately help in endorsing the relationship between the members of an organization.
-
-<b></b>
-
-### _The list of functionalities offered by Talawa Api are as follows_
+Talawa Api offers various functionalities which will ultimately help in endorsing the relationship between the members of an organization. The list of functionalities offered by Talawa Api are as follows:
 
 ### Post
 
