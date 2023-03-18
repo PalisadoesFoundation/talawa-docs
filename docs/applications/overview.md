@@ -111,6 +111,8 @@ The newsfeed on the Talawa Mobile App is a stream of commentary from the App's u
 
 Talawa Mobile App users only get news on their newsfeed for the organization that they are currently actively using.  
 
+Members using the app can add posts containing text, images or video to the newsfeed. They can also add hashtags to their posts. People seeing the hashtags will be able to click on them to automatically filter their feed by one or more hashtags.
+
 ### Admin Panel Newsfeed
 
 Administrators will use Talawa Admin to administer an organization's newsfeed. At a minimum they will get a filtered version of the feed that only includes exceptional content that requires attention.This includes:
