@@ -30,4 +30,29 @@ This diagram outlines how the three Talawa components interact
 
 ![img](/img/Talawa.jpg)
 
+### Choosing the Right Stack
+
+Why is it Important ?
+
+Overall, choosing the right technology stack for a web development project can help ensure that the project meets its requirements, is developed quickly and efficiently, is scalable, well-supported, and affordable
+
+Web Development Technologies used in Talawa and their Advantages
+
+1. TypeScript:
+
+  It helps catch type-related errors during development, which can save time and reduce bugs in the codebase.
+  
+  It also provides enhanced tooling and editor support, making it easier to write, maintain, and refactor code. TypeScript was used for building Talawa applications due to its ability to scale and maintain codebases over time.
+
+1. Flutter:
+
+  Flutter is a mobile app SDK that allows developers to build high-performance, natively compiled applications for mobile, web, and desktop using a single codebase. It uses Dart programming language which is similar to Java and JavaScript, but with its own unique syntax.
+
+  Flutter provides a modern, reactive programming model that makes it easier to build complex and beautiful user interfaces. It also has a hot reload feature, which allows developers to see changes instantly without restarting the app.
+
+1. MongoDB:
+
+  MongoDB is a NoSQL document database that uses JSON-like documents with optional schemas. It provides flexible data models that can handle a variety of data types, making it well-suited for modern applications.
+
+  MongoDB was chosen because of its ability to handle unstructured data, its scalability, and its ease of use. It also integrates well with popular programming languages and frameworks.
 
