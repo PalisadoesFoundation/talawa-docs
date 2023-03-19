@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/admin-portal/admin-portal-overview",
+  "id": "features/admin-portal/admin-portal-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/admin-portal/overview.md",
+  "sourceDirName": "features/admin-portal",
+  "slug": "/features/admin-portal/admin-portal-overview",
+  "permalink": "/docs/features/admin-portal/admin-portal-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-portal/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "admin-portal-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/features/features-introduction"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/admin-role/admin-role-overview"
+  }
+}

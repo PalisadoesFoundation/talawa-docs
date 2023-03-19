@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/admin-role/admin-role-overview",
+  "id": "features/admin-role/admin-role-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/admin-role/overview.md",
+  "sourceDirName": "features/admin-role",
+  "slug": "/features/admin-role/admin-role-overview",
+  "permalink": "/docs/features/admin-role/admin-role-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "admin-role-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/admin-portal/admin-portal-overview"
+  },
+  "next": {
+    "title": "Global Messaging",
+    "permalink": "/docs/features/admin-role/admin-messaging"
+  }
+}

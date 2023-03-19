@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/news feed/pinned-posts",
+  "id": "features/news feed/pinned-posts",
+  "title": "Pinned Posts",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/news feed/pinned-posts.md",
+  "sourceDirName": "features/news feed",
+  "slug": "/features/news feed/pinned-posts",
+  "permalink": "/docs/features/news feed/pinned-posts",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/news feed/pinned-posts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "pinned-posts",
+    "title": "Pinned Posts"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Hashtag Support",
+    "permalink": "/docs/features/news feed/tagging-support"
+  },
+  "next": {
+    "title": "Notifications",
+    "permalink": "/docs/features/notifications/notifications-overview"
+  }
+}

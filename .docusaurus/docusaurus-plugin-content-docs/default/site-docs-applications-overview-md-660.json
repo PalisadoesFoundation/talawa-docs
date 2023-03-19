@@ -1,0 +1,27 @@
+{
+  "unversionedId": "applications/overview",
+  "id": "applications/overview",
+  "title": "Core Concepts",
+  "description": "This page outlines some key concepts of the various Talawa applications.",
+  "source": "@site/docs/applications/overview.md",
+  "sourceDirName": "applications",
+  "slug": "/applications/overview",
+  "permalink": "/docs/applications/overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/applications/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "overview",
+    "title": "Core Concepts"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Applications",
+    "permalink": "/docs/applications/architecture-overview"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/developers/talawa/talawa-introduction"
+  }
+}

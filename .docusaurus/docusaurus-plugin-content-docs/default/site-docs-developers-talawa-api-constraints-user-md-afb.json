@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/constraints/user",
+  "id": "developers/talawa-api/constraints/user",
+  "title": "User",
+  "description": "Who Is A User?",
+  "source": "@site/docs/developers/talawa-api/constraints/user.md",
+  "sourceDirName": "developers/talawa-api/constraints",
+  "slug": "/developers/talawa-api/constraints/user",
+  "permalink": "/docs/developers/talawa-api/constraints/user",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/constraints/user.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "user",
+    "title": "User"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/developers/talawa-api/api-overview"
+  },
+  "next": {
+    "title": "Organization",
+    "permalink": "/docs/developers/talawa-api/constraints/organization"
+  }
+}

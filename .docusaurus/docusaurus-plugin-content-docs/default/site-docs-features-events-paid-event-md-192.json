@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/events/event-paid-donation",
+  "id": "features/events/event-paid-donation",
+  "title": "Create Paid Event",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/events/paid-event.md",
+  "sourceDirName": "features/events",
+  "slug": "/features/events/event-paid-donation",
+  "permalink": "/docs/features/events/event-paid-donation",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/paid-event.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "event-paid-donation",
+    "title": "Create Paid Event"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "View Attendee List",
+    "permalink": "/docs/features/events/event-attendee-roster"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/members/members-overview"
+  }
+}

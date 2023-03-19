@@ -1,0 +1,27 @@
+{
+  "unversionedId": "functionalities/core-functionalities",
+  "id": "functionalities/core-functionalities",
+  "title": "Core Functionalities",
+  "description": "### The current Talawa app is functional but does not meet many best practices. We need to refactor the code to be internationally acceptable.",
+  "source": "@site/docs/functionalities/core-functionalities.md",
+  "sourceDirName": "functionalities",
+  "slug": "/functionalities/core-functionalities",
+  "permalink": "/docs/functionalities/core-functionalities",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/core-functionalities.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "core-functionalities",
+    "title": "Core Functionalities"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Plugin Examples",
+    "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins-example"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/features/features-introduction"
+  }
+}

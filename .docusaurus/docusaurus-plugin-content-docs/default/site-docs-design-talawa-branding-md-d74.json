@@ -1,0 +1,27 @@
+{
+  "unversionedId": "design/branding",
+  "id": "design/branding",
+  "title": "Branding",
+  "description": "Our brand uses the guidelines in this section to create a consistent user experience.",
+  "source": "@site/docs/design/talawa-branding.md",
+  "sourceDirName": "design",
+  "slug": "/design/branding",
+  "permalink": "/docs/design/branding",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/design/talawa-branding.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "branding",
+    "title": "Branding"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Onboarding",
+    "permalink": "/docs/features/organisations/organisations-onboarding"
+  },
+  "next": {
+    "title": "Talawa UI/UX",
+    "permalink": "/docs/design/ux/ux-talawa"
+  }
+}

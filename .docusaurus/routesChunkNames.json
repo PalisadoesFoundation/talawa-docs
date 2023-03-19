@@ -1,0 +1,382 @@
+{
+  "/__docusaurus/debug-193": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    }
+  },
+  "/__docusaurus/debug/config-7c5": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    }
+  },
+  "/__docusaurus/debug/content-978": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-4c2": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    }
+  },
+  "/__docusaurus/debug/metadata-10f": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    }
+  },
+  "/__docusaurus/debug/registry-be8": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    }
+  },
+  "/__docusaurus/debug/routes-446": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugd-45-274"
+    }
+  },
+  "/markdown-page-ecc": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagec-37-73a"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-acd": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---docs-342-74e"
+    },
+    "versionMetadata": "versionMetadata---docs-935-398"
+  },
+  "/docs/-acc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-3-d-8-da8"
+  },
+  "/docs/applications/architecture-overview-922": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-applications-architecture-overview-74-e-df9"
+  },
+  "/docs/applications/overview-b73": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-applications-overview-660-f06"
+  },
+  "/docs/design/branding-366": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-design-brandingd-74-fb6"
+  },
+  "/docs/design/ux/ux-design-system-ffd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-design-ux-ux-design-systemfc-9-7f0"
+  },
+  "/docs/design/ux/ux-talawa-1f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-design-ux-ux-talawacec-0b6"
+  },
+  "/docs/developers/talawa-admin/plugins/implementing-plugins-6d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-admin-plugins-implementing-plugins-1-df-086"
+  },
+  "/docs/developers/talawa-admin/plugins/implementing-plugins-example-377": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-admin-plugins-implementing-plugins-exampleeeb-f82"
+  },
+  "/docs/developers/talawa-admin/plugins/plugin-architecture-12e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-admin-plugins-plugin-architectureeee-90d"
+  },
+  "/docs/developers/talawa-admin/talawa-admin-introduction-1a9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-admin-talawa-admin-introduction-29-b-8b4"
+  },
+  "/docs/developers/talawa-api/api-overview-8a4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-api-overview-083-168"
+  },
+  "/docs/developers/talawa-api/authentication-d95": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-authentication-126-73a"
+  },
+  "/docs/developers/talawa-api/constraints/admin-94a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-constraints-admin-609-912"
+  },
+  "/docs/developers/talawa-api/constraints/organization-060": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-constraints-organization-379-7f3"
+  },
+  "/docs/developers/talawa-api/constraints/user-899": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-constraints-userafb-bd3"
+  },
+  "/docs/developers/talawa-api/expectations-a2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-expectationsab-8-1b8"
+  },
+  "/docs/developers/talawa-api/functionality-fc1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-functionality-4-a-5-ea6"
+  },
+  "/docs/developers/talawa-api/mutations-9e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-mutations-7-c-6-cf6"
+  },
+  "/docs/developers/talawa-api/schemas-d40": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-api-schemas-3-c-8-8e7"
+  },
+  "/docs/developers/talawa/talawa-introduction-4d6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-talawa-introduction-33-c-b63"
+  },
+  "/docs/developers/talawa/talawa-lint-4eb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-developers-talawa-talawa-lintf-92-b2b"
+  },
+  "/docs/doc1-e2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-doc-1-baf-d6b"
+  },
+  "/docs/features/admin-portal/admin-portal-overview-eff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-admin-portal-admin-portal-overviewb-2-e-a7e"
+  },
+  "/docs/features/admin-role/admin-manage-members-778": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-admin-role-admin-manage-members-532-140"
+  },
+  "/docs/features/admin-role/admin-messaging-737": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-admin-role-admin-messagingf-9-e-bed"
+  },
+  "/docs/features/admin-role/admin-newsfeed-7d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-admin-role-admin-newsfeed-514-2a6"
+  },
+  "/docs/features/admin-role/admin-role-overview-13d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-admin-role-admin-role-overviewdea-82c"
+  },
+  "/docs/features/coordinator-role/coordinator-role-overview-5c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-coordinator-role-coordinator-role-overviewc-8-f-bed"
+  },
+  "/docs/features/data-management/data-management-compression-76a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-data-management-data-management-compression-054-bce"
+  },
+  "/docs/features/data-management/data-management-distribution-a2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-data-management-data-management-distribution-0-c-1-1f7"
+  },
+  "/docs/features/data-management/data-management-overview-827": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-data-management-data-management-overview-8-b-3-ee6"
+  },
+  "/docs/features/data-management/data-management-retention-30e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-data-management-data-management-retentionf-14-081"
+  },
+  "/docs/features/data-management/data-management-storage-f89": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-data-management-data-management-storaged-90-280"
+  },
+  "/docs/features/donations/donation-fees-193": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-donations-donation-feesf-5-a-58d"
+  },
+  "/docs/features/donations/donations-overview-9ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-donations-donations-overview-80-f-3f9"
+  },
+  "/docs/features/events/event-attendee-roster-a57": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-attendee-roster-61-a-d6c"
+  },
+  "/docs/features/events/event-create-events-d83": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-create-eventsa-94-77b"
+  },
+  "/docs/features/events/event-grouping-434": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-grouping-349-3c3"
+  },
+  "/docs/features/events/event-overview-fc9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-overviewad-6-047"
+  },
+  "/docs/features/events/event-paid-donation-f87": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-paid-donation-192-0eb"
+  },
+  "/docs/features/events/event-roles-eb1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-roles-9-fa-e99"
+  },
+  "/docs/features/events/event-signup-da8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-events-event-signup-569-180"
+  },
+  "/docs/features/features-introduction-25f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-features-introductionc-2-d-3e5"
+  },
+  "/docs/features/members/members-access-29e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-access-9-a-9-e94"
+  },
+  "/docs/features/members/members-banning-d80": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-banning-5-e-2-c49"
+  },
+  "/docs/features/members/members-overview-51b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-overviewb-0-d-f20"
+  },
+  "/docs/features/members/members-preapprovals-8be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-preapprovalsc-49-dcb"
+  },
+  "/docs/features/members/members-recovery-f6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-recovery-19-d-93f"
+  },
+  "/docs/features/members/members-registration-eff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-registrationce-7-b71"
+  },
+  "/docs/features/members/members-roles-cb3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-members-members-roles-66-c-ce9"
+  },
+  "/docs/features/messaging-and-chat/message-chat-0b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-messaging-and-chat-message-chat-7-f-1-27e"
+  },
+  "/docs/features/messaging-and-chat/message-messaging-d25": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-messaging-and-chat-message-messaging-60-d-9d6"
+  },
+  "/docs/features/messaging-and-chat/message-notifications-746": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-messaging-and-chat-message-notifications-97-d-b2d"
+  },
+  "/docs/features/messaging-and-chat/message-voice-messaging-8da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-messaging-and-chat-message-voice-messaging-23-c-7db"
+  },
+  "/docs/features/messaging-and-chat/messaging-and-chat-overview-fc3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-messaging-and-chat-messaging-and-chat-overview-2-b-6-c86"
+  },
+  "/docs/features/news feed/news-feed-overview-8c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-news-feed-news-feed-overviewcb-6-c83"
+  },
+  "/docs/features/news feed/pinned-posts-da9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-news-feed-pinned-posts-409-2d6"
+  },
+  "/docs/features/news feed/tagging-support-548": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-news-feed-tagging-support-51-f-3fd"
+  },
+  "/docs/features/notifications/follow-tag-support-e4d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-notifications-follow-tag-supporta-65-564"
+  },
+  "/docs/features/notifications/notifications-overview-874": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-notifications-notifications-overviewd-26-1b4"
+  },
+  "/docs/features/organisations/organisations-onboarding-061": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-organisations-organisations-onboarding-81-e-61c"
+  },
+  "/docs/features/organisations/organisations-overview-382": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-features-organisations-organisations-overview-998-160"
+  },
+  "/docs/functionalities/core-functionalities-6be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-functionalities-core-functionalities-8-c-4-d8e"
+  },
+  "/docs/functionalities/implementing-plugins-6fe": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-functionalities-implementing-plugins-974-e57"
+  },
+  "/docs/functionalities/implementing-plugins-example-2aa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-functionalities-implementing-plugins-example-5-af-cf8"
+  },
+  "/docs/functionalities/plugin-architecture-1fa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-functionalities-plugin-architecture-379-009"
+  },
+  "/docs/internships/conflicts-of-interest-c3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-conflicts-of-interest-88-c-334"
+  },
+  "/docs/internships/gsoc/gsoc-application-process-a18": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-gsoc-gsoc-application-processd-73-e2a"
+  },
+  "/docs/internships/gsoc/gsoc-introduction-233": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-gsoc-gsoc-introduction-9-cc-cd7"
+  },
+  "/docs/internships/gsod/gsod-ideas-5c0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-gsod-gsod-ideas-593-1de"
+  },
+  "/docs/internships/gsod/gsod-ideas-2022-76d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-gsod-gsod-ideas-20224-bf-196"
+  },
+  "/docs/internships/internship-application-template-7c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-internship-application-template-681-e66"
+  },
+  "/docs/internships/internship-ideas-470": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-internship-ideas-9-c-0-08e"
+  },
+  "/docs/internships/internship-selection-criteria-09b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-internship-selection-criteria-9-fb-bd1"
+  },
+  "/docs/internships/outreachy/contribution-process-7d4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-outreachy-contribution-process-85-e-7fd"
+  },
+  "/docs/internships/outreachy/getting-starteds-273": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-outreachy-getting-starteds-1-a-4-dce"
+  },
+  "/docs/internships/outreachy/outreachy-introduction-aaf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-outreachy-outreachy-introduction-5-c-7-98b"
+  },
+  "/docs/internships/palisadoes/palisadoes-introduction-f77": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-internships-palisadoes-palisadoes-introduction-1-da-58e"
+  },
+  "/docs/mdx-398": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-mdxa-6-f-928"
+  },
+  "/-ae2": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---markdown-pagec-37-73a"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "about",
+  "id": "about",
+  "title": "About Us",
+  "description": "Here is a brief introduction to who we are and the Talawa projects.",
+  "source": "@site/docs/about.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/about.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "about",
+    "title": "About Us",
+    "slug": "/"
+  },
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Applications",
+    "permalink": "/docs/applications/architecture-overview"
+  }
+}

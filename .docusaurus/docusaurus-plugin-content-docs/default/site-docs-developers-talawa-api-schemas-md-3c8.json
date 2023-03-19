@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/schemas",
+  "id": "developers/talawa-api/schemas",
+  "title": "Schemas",
+  "description": "Type Structures (Schemas)",
+  "source": "@site/docs/developers/talawa-api/schemas.md",
+  "sourceDirName": "developers/talawa-api",
+  "slug": "/developers/talawa-api/schemas",
+  "permalink": "/docs/developers/talawa-api/schemas",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/schemas.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "schemas",
+    "title": "Schemas"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Mutations",
+    "permalink": "/docs/developers/talawa-api/mutations"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/developers/talawa-api/authentication"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-overview",
+  "id": "features/members/members-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/overview.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-overview",
+  "permalink": "/docs/features/members/members-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Create Paid Event",
+    "permalink": "/docs/features/events/event-paid-donation"
+  },
+  "next": {
+    "title": "Access",
+    "permalink": "/docs/features/members/members-access"
+  }
+}

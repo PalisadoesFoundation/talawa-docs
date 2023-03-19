@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-admin/plugins/plugin-architecture",
+  "id": "developers/talawa-admin/plugins/plugin-architecture",
+  "title": "Plugin Architecture",
+  "description": "Plugin Architecture provides talawa projects an ability to control latent Talawa Mobile App features from the Talawa Admin Web Portal.",
+  "source": "@site/docs/developers/talawa-admin/plugins/plugin-architecture.md",
+  "sourceDirName": "developers/talawa-admin/plugins",
+  "slug": "/developers/talawa-admin/plugins/plugin-architecture",
+  "permalink": "/docs/developers/talawa-admin/plugins/plugin-architecture",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/plugins/plugin-architecture.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "plugin-architecture",
+    "title": "Plugin Architecture"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/developers/talawa-admin/talawa-admin-introduction"
+  },
+  "next": {
+    "title": "Plugin Implementation",
+    "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins"
+  }
+}

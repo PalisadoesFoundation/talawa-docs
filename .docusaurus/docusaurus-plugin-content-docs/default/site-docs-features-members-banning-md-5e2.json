@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-banning",
+  "id": "features/members/members-banning",
+  "title": "Access Banning",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/banning.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-banning",
+  "permalink": "/docs/features/members/members-banning",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/banning.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-banning",
+    "title": "Access Banning"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Registration",
+    "permalink": "/docs/features/members/members-registration"
+  },
+  "next": {
+    "title": "Access Recovery",
+    "permalink": "/docs/features/members/members-recovery"
+  }
+}

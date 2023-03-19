@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-access",
+  "id": "features/members/members-access",
+  "title": "Access",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/management.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-access",
+  "permalink": "/docs/features/members/members-access",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/management.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-access",
+    "title": "Access"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/members/members-overview"
+  },
+  "next": {
+    "title": "Roles",
+    "permalink": "/docs/features/members/members-roles"
+  }
+}

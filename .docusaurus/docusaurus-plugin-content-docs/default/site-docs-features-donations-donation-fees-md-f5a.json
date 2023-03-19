@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/donations/donation-fees",
+  "id": "features/donations/donation-fees",
+  "title": "Donations & Fees",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/donations/donation-fees.md",
+  "sourceDirName": "features/donations",
+  "slug": "/features/donations/donation-fees",
+  "permalink": "/docs/features/donations/donation-fees",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/donations/donation-fees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "donation-fees",
+    "title": "Donations & Fees"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/features/donations/donations-overview"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/news feed/news-feed-overview"
+  }
+}

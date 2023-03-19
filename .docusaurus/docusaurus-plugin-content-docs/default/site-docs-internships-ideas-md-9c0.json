@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/internship-ideas",
+  "id": "internships/internship-ideas",
+  "title": "Ideas List",
+  "description": "Introduction",
+  "source": "@site/docs/internships/ideas.md",
+  "sourceDirName": "internships",
+  "slug": "/internships/internship-ideas",
+  "permalink": "/docs/internships/internship-ideas",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/ideas.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "internship-ideas",
+    "title": "Ideas List"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Design System",
+    "permalink": "/docs/design/ux/ux-design-system"
+  },
+  "next": {
+    "title": "Application Template",
+    "permalink": "/docs/internships/internship-application-template"
+  }
+}

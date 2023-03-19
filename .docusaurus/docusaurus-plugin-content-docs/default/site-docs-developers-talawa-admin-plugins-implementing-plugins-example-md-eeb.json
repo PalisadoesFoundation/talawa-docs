@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-admin/plugins/implementing-plugins-example",
+  "id": "developers/talawa-admin/plugins/implementing-plugins-example",
+  "title": "Plugin Examples",
+  "description": "Pre-Requisites :",
+  "source": "@site/docs/developers/talawa-admin/plugins/implementing-plugins-example.md",
+  "sourceDirName": "developers/talawa-admin/plugins",
+  "slug": "/developers/talawa-admin/plugins/implementing-plugins-example",
+  "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins-example",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/plugins/implementing-plugins-example.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "implementing-plugins-example",
+    "title": "Plugin Examples"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Plugin Implementation",
+    "permalink": "/docs/developers/talawa-admin/plugins/implementing-plugins"
+  },
+  "next": {
+    "title": "Core Functionalities",
+    "permalink": "/docs/functionalities/core-functionalities"
+  }
+}

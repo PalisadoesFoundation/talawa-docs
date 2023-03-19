@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/news feed/news-feed-overview",
+  "id": "features/news feed/news-feed-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/news feed/overview.md",
+  "sourceDirName": "features/news feed",
+  "slug": "/features/news feed/news-feed-overview",
+  "permalink": "/docs/features/news feed/news-feed-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/news feed/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "news-feed-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Donations & Fees",
+    "permalink": "/docs/features/donations/donation-fees"
+  },
+  "next": {
+    "title": "Hashtag Support",
+    "permalink": "/docs/features/news feed/tagging-support"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/admin-role/admin-newsfeed",
+  "id": "features/admin-role/admin-newsfeed",
+  "title": "Moderate Newsfeed",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/admin-role/moderate-newsfeed.md",
+  "sourceDirName": "features/admin-role",
+  "slug": "/features/admin-role/admin-newsfeed",
+  "permalink": "/docs/features/admin-role/admin-newsfeed",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/admin-role/moderate-newsfeed.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "admin-newsfeed",
+    "title": "Moderate Newsfeed"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Manage Members",
+    "permalink": "/docs/features/admin-role/admin-manage-members"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/messaging-and-chat/messaging-and-chat-overview"
+  }
+}

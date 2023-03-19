@@ -1,0 +1,28 @@
+{
+  "unversionedId": "internships/outreachy/getting-starteds",
+  "id": "internships/outreachy/getting-starteds",
+  "title": "Our repositories",
+  "description": "As part of the application process, all applicants must make at least one contribution to be accepted as an intern for this project. Applicants can contribute to our project through our github repositories.",
+  "source": "@site/docs/internships/outreachy/getting-started.md",
+  "sourceDirName": "internships/outreachy",
+  "slug": "/internships/outreachy/getting-starteds",
+  "permalink": "/docs/internships/outreachy/getting-starteds",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/outreachy/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "getting-starteds",
+    "title": "Our repositories",
+    "sidebar_label": "Getting Started"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Contribution Process",
+    "permalink": "/docs/internships/outreachy/contribution-process"
+  },
+  "next": {
+    "title": "GSoD 2023",
+    "permalink": "/docs/internships/gsod/gsod-ideas"
+  }
+}

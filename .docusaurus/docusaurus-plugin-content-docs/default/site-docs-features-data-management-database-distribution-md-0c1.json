@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/data-management/data-management-distribution",
+  "id": "features/data-management/data-management-distribution",
+  "title": "Database Distribution",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/data-management/database-distribution.md",
+  "sourceDirName": "features/data-management",
+  "slug": "/features/data-management/data-management-distribution",
+  "permalink": "/docs/features/data-management/data-management-distribution",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/data-management/database-distribution.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "data-management-distribution",
+    "title": "Database Distribution"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Data Storage",
+    "permalink": "/docs/features/data-management/data-management-storage"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/organisations/organisations-overview"
+  }
+}

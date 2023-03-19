@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/gsoc/gsoc-application-process",
+  "id": "internships/gsoc/gsoc-application-process",
+  "title": "Applying",
+  "description": "Details are announced now, and we are in the project discussion phase. We encourage you to discuss you application with the project community.",
+  "source": "@site/docs/internships/gsoc/application-process.md",
+  "sourceDirName": "internships/gsoc",
+  "slug": "/internships/gsoc/gsoc-application-process",
+  "permalink": "/docs/internships/gsoc/gsoc-application-process",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsoc/application-process.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "gsoc-application-process",
+    "title": "Applying"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/internships/gsoc/gsoc-introduction"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/internships/outreachy/outreachy-introduction"
+  }
+}

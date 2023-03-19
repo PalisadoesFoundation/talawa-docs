@@ -1,0 +1,18 @@
+{
+  "unversionedId": "functionalities/implementing-plugins",
+  "id": "functionalities/implementing-plugins",
+  "title": "Implementing Plugins",
+  "description": "Plugins are existing features that are wrapped with some special logic or widgets to make them controllable.",
+  "source": "@site/docs/functionalities/implementing-plugins.md",
+  "sourceDirName": "functionalities",
+  "slug": "/functionalities/implementing-plugins",
+  "permalink": "/docs/functionalities/implementing-plugins",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/functionalities/implementing-plugins.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "implementing-plugins",
+    "title": "Implementing Plugins"
+  }
+}

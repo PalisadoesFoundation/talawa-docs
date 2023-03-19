@@ -1,0 +1,27 @@
+{
+  "unversionedId": "internships/internship-application-template",
+  "id": "internships/internship-application-template",
+  "title": "Application Template",
+  "description": "This is just a suggested template, feel free to add and remove sections as appropriate. Be brief, don’t write a large essay!",
+  "source": "@site/docs/internships/application-template.md",
+  "sourceDirName": "internships",
+  "slug": "/internships/internship-application-template",
+  "permalink": "/docs/internships/internship-application-template",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/application-template.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "internship-application-template",
+    "title": "Application Template"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Ideas List",
+    "permalink": "/docs/internships/internship-ideas"
+  },
+  "next": {
+    "title": "Selection Criteria",
+    "permalink": "/docs/internships/internship-selection-criteria"
+  }
+}

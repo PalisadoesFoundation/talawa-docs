@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/organisations/organisations-overview",
+  "id": "features/organisations/organisations-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/organisations/overview.md",
+  "sourceDirName": "features/organisations",
+  "slug": "/features/organisations/organisations-overview",
+  "permalink": "/docs/features/organisations/organisations-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/organisations/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "organisations-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Database Distribution",
+    "permalink": "/docs/features/data-management/data-management-distribution"
+  },
+  "next": {
+    "title": "Onboarding",
+    "permalink": "/docs/features/organisations/organisations-onboarding"
+  }
+}

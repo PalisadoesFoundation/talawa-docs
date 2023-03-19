@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/events/event-grouping",
+  "id": "features/events/event-grouping",
+  "title": "Event Grouping",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/events/grouping.md",
+  "sourceDirName": "features/events",
+  "slug": "/features/events/event-grouping",
+  "permalink": "/docs/features/events/event-grouping",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/events/grouping.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "event-grouping",
+    "title": "Event Grouping"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Signup and Subscription",
+    "permalink": "/docs/features/events/event-signup"
+  },
+  "next": {
+    "title": "Assign Event Roles",
+    "permalink": "/docs/features/events/event-roles"
+  }
+}

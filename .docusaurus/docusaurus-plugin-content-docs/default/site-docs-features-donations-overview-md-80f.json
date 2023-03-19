@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/donations/donations-overview",
+  "id": "features/donations/donations-overview",
+  "title": "Overview",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/donations/overview.md",
+  "sourceDirName": "features/donations",
+  "slug": "/features/donations/donations-overview",
+  "permalink": "/docs/features/donations/donations-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/donations/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "donations-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Access Recovery",
+    "permalink": "/docs/features/members/members-recovery"
+  },
+  "next": {
+    "title": "Donations & Fees",
+    "permalink": "/docs/features/donations/donation-fees"
+  }
+}

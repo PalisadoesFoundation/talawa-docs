@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/mutations",
+  "id": "developers/talawa-api/mutations",
+  "title": "Mutations",
+  "description": "Mutations According to Roles",
+  "source": "@site/docs/developers/talawa-api/mutations.md",
+  "sourceDirName": "developers/talawa-api",
+  "slug": "/developers/talawa-api/mutations",
+  "permalink": "/docs/developers/talawa-api/mutations",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/mutations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "mutations",
+    "title": "Mutations"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Admin",
+    "permalink": "/docs/developers/talawa-api/constraints/admin"
+  },
+  "next": {
+    "title": "Schemas",
+    "permalink": "/docs/developers/talawa-api/schemas"
+  }
+}

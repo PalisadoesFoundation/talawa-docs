@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-admin/talawa-admin-introduction",
+  "id": "developers/talawa-admin/talawa-admin-introduction",
+  "title": "Overview",
+  "description": "Talawa Admin is the web based administrative dashboard for the Talawa mobile app.",
+  "source": "@site/docs/developers/talawa-admin/introduction.md",
+  "sourceDirName": "developers/talawa-admin",
+  "slug": "/developers/talawa-admin/talawa-admin-introduction",
+  "permalink": "/docs/developers/talawa-admin/talawa-admin-introduction",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-admin/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "talawa-admin-introduction",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Expectations",
+    "permalink": "/docs/developers/talawa-api/expectations"
+  },
+  "next": {
+    "title": "Plugin Architecture",
+    "permalink": "/docs/developers/talawa-admin/plugins/plugin-architecture"
+  }
+}

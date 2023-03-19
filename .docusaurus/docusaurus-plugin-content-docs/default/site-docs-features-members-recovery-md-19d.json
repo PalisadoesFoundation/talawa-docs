@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/members/members-recovery",
+  "id": "features/members/members-recovery",
+  "title": "Access Recovery",
+  "description": "This section is a work in progress.",
+  "source": "@site/docs/features/members/recovery.md",
+  "sourceDirName": "features/members",
+  "slug": "/features/members/members-recovery",
+  "permalink": "/docs/features/members/members-recovery",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/members/recovery.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "members-recovery",
+    "title": "Access Recovery"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Access Banning",
+    "permalink": "/docs/features/members/members-banning"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/donations/donations-overview"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/api-overview",
+  "id": "developers/talawa-api/api-overview",
+  "title": "Overview",
+  "description": "### Talawa Api is the backend for the application talawa written in typescript. It is the base of all the functionalities offered to Users and Organizations that sign up at talawa. In upcoming sections you will get to know all the useful functions performed by the Api. Stay tuned!",
+  "source": "@site/docs/developers/talawa-api/api-overview.md",
+  "sourceDirName": "developers/talawa-api",
+  "slug": "/developers/talawa-api/api-overview",
+  "permalink": "/docs/developers/talawa-api/api-overview",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/api-overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "api-overview",
+    "title": "Overview"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Talawa Lint Ecosystem",
+    "permalink": "/docs/developers/talawa/talawa-lint"
+  },
+  "next": {
+    "title": "User",
+    "permalink": "/docs/developers/talawa-api/constraints/user"
+  }
+}

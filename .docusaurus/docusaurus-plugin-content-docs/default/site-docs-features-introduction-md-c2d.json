@@ -1,0 +1,27 @@
+{
+  "unversionedId": "features/features-introduction",
+  "id": "features/features-introduction",
+  "title": "Introduction",
+  "description": "This section provides our list of desired Talawa features. Click on the sub-headings for more details.",
+  "source": "@site/docs/features/introduction.md",
+  "sourceDirName": "features",
+  "slug": "/features/features-introduction",
+  "permalink": "/docs/features/features-introduction",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/features/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "features-introduction",
+    "title": "Introduction"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Core Functionalities",
+    "permalink": "/docs/functionalities/core-functionalities"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/features/admin-portal/admin-portal-overview"
+  }
+}

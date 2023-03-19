@@ -1,0 +1,27 @@
+{
+  "unversionedId": "developers/talawa-api/expectations",
+  "id": "developers/talawa-api/expectations",
+  "title": "Expectations",
+  "description": "API Primary Expectations",
+  "source": "@site/docs/developers/talawa-api/expectations.md",
+  "sourceDirName": "developers/talawa-api",
+  "slug": "/developers/talawa-api/expectations",
+  "permalink": "/docs/developers/talawa-api/expectations",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/developers/talawa-api/expectations.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "expectations",
+    "title": "Expectations"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Functionality",
+    "permalink": "/docs/developers/talawa-api/functionality"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/developers/talawa-admin/talawa-admin-introduction"
+  }
+}

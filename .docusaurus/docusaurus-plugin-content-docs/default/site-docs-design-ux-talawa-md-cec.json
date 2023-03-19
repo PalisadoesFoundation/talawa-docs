@@ -1,0 +1,27 @@
+{
+  "unversionedId": "design/ux/ux-talawa",
+  "id": "design/ux/ux-talawa",
+  "title": "Talawa UI/UX",
+  "description": "Introduction",
+  "source": "@site/docs/design/ux/talawa.md",
+  "sourceDirName": "design/ux",
+  "slug": "/design/ux/ux-talawa",
+  "permalink": "/docs/design/ux/ux-talawa",
+  "draft": false,
+  "editUrl": "https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/design/ux/talawa.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ux-talawa",
+    "title": "Talawa UI/UX"
+  },
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Branding",
+    "permalink": "/docs/design/branding"
+  },
+  "next": {
+    "title": "Design System",
+    "permalink": "/docs/design/ux/ux-design-system"
+  }
+}
