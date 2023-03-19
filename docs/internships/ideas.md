@@ -402,7 +402,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
    1. A NavBar focusing on on overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events and plugins
    1. Improved intuitive layouts and workflows for:
        1. Managing multiple organizations
-       1. Doing CRUD activities for people, tags and events
+       1. Doing CRUD activities 
        1. Filtering people and tags
        1. Viewing organization events
        1. Requesting volunteers at events
@@ -410,6 +410,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
        1. Managing pinned posts on the newsfeed
    1. A properly documented design system and style guide added to the Talawa-Docs repository
    1. Any existing non-functioning features in these areas will need to be resolved.
+   1. There are other ideas that will depend on this work. You must think of ways where all participants can add pages according to your design specification without interrupting the speed of development. Strategies for incremental versus monolithic change must be considered.
    1. Any others you can think of!   
    1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
@@ -419,7 +420,6 @@ We always need intuitive layouts and workflows. This applies to both existing fe
       - [YouTube Inspiration #3](https://www.youtube.com/@faithteams)
       - [YouTube Inspiration #4](https://www.youtube.com/@ChurchTracSoftware/videos)
       - [YouTube Inspiration #5](https://www.youtube.com/watch?v=pK4R2-8iPJE)
-
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `General: Basic Functionality`
@@ -529,23 +529,23 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 8. **Difficulty:** Hard
 9. **Impact Definition:** Core development, Risky/Exploratory
 
-## Hybrid Innovation
+## Hybrid - Primary Ideas
 
-We cannot think of everything, so we encourage you to think of ideas that will have a material impact on the Talawa environment. 
+We realize that this list isn't exhaustive. There are many more opportunities that could be converted into project ideas and proposals. If this is what insprires you, then investigate this section
 
 ### Hybrid: Hybrid Innovation
 
-1. **Description:** Do the ideas need something more? Can you think of ways to blend elements of the ideas together? What completely new thoughts could be applied to the projects? If you have answers to these questions then this section is for 
+1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
 2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
-   1. Build on previously stated ideas and include some overlap with thier general objectives.
-      1. **Note:** Your proposal must state the project ideas above from which you got your inspiration.**
+   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
+   1. Add completely new features not previously stated in ideas.
    2. Create features that users will want or facilitate new features that will be the goundwork for features that they would want.
    3. Justify 350 hours of work.
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6.  **Project Size:** 350
-7.  **Possible Mentors:** TBD
+7.  **Possible Mentors:** Sagar Utekar (@Sagar2366)
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Risky/Exploratory
 
