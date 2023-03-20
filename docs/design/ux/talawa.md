@@ -13,12 +13,12 @@ On all screens
 
 #### Colors:
 
-1.  Colors must be be consistent:
+1.  Colors must be consistent:
 
     - With the color palette.
     - In their use in design elements
 
-2.  The colors used for must imply the same functionality. For example a depressed button cannot
+2.  The colors used for must imply the same functionality. For example, a depressed button cannot
     have different colors in different screens
 3.  Screens must have either a white or black background (dark mode)
 4.  Colors used could be interpreted in a detrimental way depending on the cultural or political context.
@@ -71,5 +71,5 @@ On all screens
     - Icons
     - Text
     - Dialog boxes
-2.  If a design element stretches across the screen then it must be equidistant from both edges of the screen.
+2.  If a design element stretches across the screen then, it must be equidistant from both edges of the screen.
     - For example: A design element consisting of an icon grouped to the left of a text dialog box should ensure the icon is the same distance from the left of the screen as the right most edge of the dialog box is from the right side of the screen.
