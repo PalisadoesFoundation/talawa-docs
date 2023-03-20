@@ -47,7 +47,7 @@ This section describes the significance of the logo.
 
 ![Small Logo](/img/logos/talawa-logo-200x200.png)
 
-1. The logo is an abstract representation of a small human being. 'Talawa' in the Jamaican dialect means 'strong', and the logo symbolizes the a well-known saying on the island 'Little, but Talawa'.
+1. The logo is an abstract representation of a small human being. 'Talawa' in the Jamaican dialect means 'strong', and the logo symbolizes the well-known saying on the island 'Little, but Talawa'.
 1. It is made up of 2 shapes. A circle resting upon diagonally angled rectangles.
 1. The colors and shapes used are based on those of the Palisadoes Foundation's logo elements.
 

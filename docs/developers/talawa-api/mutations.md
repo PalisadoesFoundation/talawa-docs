@@ -9,7 +9,7 @@ This document outlines our mutations and to which type of user each is constrain
 
 ### Type Of Users in Talawa
 
-There are mainly 3 types of User types in talawa -
+There are mainly 3 types of user types in Talawa -
 
 1. `SUPERADMIN`
 
@@ -23,11 +23,11 @@ The limits of each role's use of mutations are stated below:
 
 #### `SUPERADMIN` -
 
-These are the Mutations exclusive to the `SUPERADMIN` type. Please note that a few of these mutations also have a few extra criteria with who can access them. For example, except `createOrganization` mutation all other require that SUPERADMIN should also be the creator of the orgnanization.
+Below are the Mutations exclusive to the SUPERADMIN type. Please note, a few of these mutations have a few extra criteria regarding user access. For example, except for the createOrganization mutation, all other mutations require the SUPERADMIN to also be the creator of the orgnanization.
 
 1. `blockPluginCreationBySuperadmin`
 2. `createAdmin`
-3. `createOrganization` - When a superadmin creates and organization, he/she will also be one of the `admins` and `creator` of that Organization. Therefore, the Mutations in the next Sections also applies to Super Admin.
+3. `createOrganization` - When a superadmin creates and organization, he/she will also be one of the `admins` and `creator` of that Organization. Therefore, the Mutations in the next Sections also apply to Super Admin.
 4. `rejectAdmin`
 5. `removeAdmin`
 6. `removeOrganization`

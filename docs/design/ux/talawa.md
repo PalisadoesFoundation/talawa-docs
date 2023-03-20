@@ -9,7 +9,7 @@ Refer to this page whenever you create or modify Talawa screens
 
 ### Style Guide
 
-On all screens
+The guide below applies to all screen types.
 
 #### Colors:
 
@@ -18,7 +18,7 @@ On all screens
     - With the color palette.
     - In their use in design elements
 
-2.  The colors used for must imply the same functionality. For example, a depressed button cannot
+2.  The colors used must imply the same functionality. For example, a depressed button cannot
     have different colors in different screens
 3.  Screens must have either a white or black background (dark mode)
 4.  Colors used could be interpreted in a detrimental way depending on the cultural or political context.

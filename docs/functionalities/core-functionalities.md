@@ -11,7 +11,7 @@ title: Core Functionalities
 
 ### Description
 
-This is the ability to register in the app with an organization. Once the user is successfully registered as a member of an organization they are then able to interact with, app events and other content related to the organization.
+This is the ability to register in the app with an organization. Once the user is successfully registered as a member of an organization, they are then able to interact with app events and other content related to the organization.
 
 ### Front End
 
