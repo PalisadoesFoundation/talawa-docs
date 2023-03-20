@@ -32,9 +32,9 @@ This diagram outlines how the three Talawa components interact
 
 ### Choosing the Right Stack
 
-Why is it Important ?
+Why is it important ?
 
-Overall, choosing the right technology stack for a web development project can help ensure that the project meets its requirements, is developed quickly and efficiently, is scalable, well-supported, and affordable
+Overall, choosing the right technology stack for a web development project can help ensure that the project meets its requirements, is developed quickly and efficiently, is scalable, well-supported, and affordable.
 
 Web Development Technologies used in Talawa and their Advantages
 
