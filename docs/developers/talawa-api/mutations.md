@@ -2,6 +2,7 @@
 id: mutations
 title: Mutations
 ---
+> Mutations can be classified in a number of ways, including by the type of change that they introduce, the part of the page that they affect, or the manner in which they are introduced. Talawa API introduces mutation to alter it's value to a certain degree.
 
 ## Mutations According to Roles
 
