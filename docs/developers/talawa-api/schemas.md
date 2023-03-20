@@ -3,6 +3,8 @@ id: schemas
 title: Schemas
 ---
 
+> Schemas are blue prints of how the database is constructed and it's relationship with other databases, which can be used to interpret information.
+
 ## Type Structures (Schemas)
 
 These type structures and inputs have been used in the queries, mutations and subscriptions listed below.
