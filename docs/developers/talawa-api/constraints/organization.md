@@ -11,12 +11,12 @@ An organization is simply a body of one or more people. This includes but isn't 
 
 1. A user should create an account by signing up with their credentials. Steps for signing up are given [here](../authentication#sign-up).
 
-2. Upon creating an account the necessary information would get stored in the `Database`. Now to create an `Organization` a request should be sent to api having given fields.
+2. Upon creating an account, the necessary information would get stored in the `Database`. Now to create an `Organization` a request should be sent to api having given fields.
 
-   1. Organisation Name,
-   2. Privacy Settings (Public Or Private)
+   1. Organization Name,
+   2. Privacy Settings (Public or Private)
    3. Primary Contact Information
-   4. Organisation Address (If applicable)
+   4. Organization Address (If applicable)
 
 ## `Organization` Model
 
