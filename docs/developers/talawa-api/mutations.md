@@ -5,6 +5,13 @@ title: Mutations
 > Mutations can be classified in a number of ways, including by the type of change that they introduce, the part of the page that they affect, or the manner in which they are introduced. Talawa API introduces mutation to alter it's value to a certain degree.
 
 ## Mutations According to Roles
+<<<<<<< HEAD
+=======
+
+This document outlines our mutations and to which type of user each is constrained. Common types of mutations include insertions and deletions among others. Insertions are new changes to the Talawa API, while deletions removes.
+
+### Type Of Users in Talawa 
+>>>>>>> f246e762 (Added requested changes)
 
 This document outlines our mutations and to which type of user each is constrained
 
