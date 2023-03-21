@@ -2,7 +2,7 @@
 id: expectations
 title: Expectations
 ---
-> This page provides an overview as to what is expected from the Talawa API. Thereby increasing productivity and improving the application.
+> This page provides an overview as to what is expected from the Talawa API. Thereby, increasing productivity and improving the application.
 
 ## API Primary Expectations
 
