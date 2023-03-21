@@ -8,7 +8,7 @@ title: Mutations
 <<<<<<< HEAD
 =======
 
-This document outlines our mutations and to which type of user each is constrained. Common types of mutations include insertions and deletions among others. Insertions are new changes to the Talawa API, while deletions removes.
+This document outlines our mutations and to which type of user each is constrained. Common types of mutations include insertions and deletions. Insertions are new changes to the Talawa API, while deletions removes.
 
 ### Type Of Users in Talawa 
 >>>>>>> f246e762 (Added requested changes)
