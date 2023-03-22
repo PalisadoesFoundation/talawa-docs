@@ -16,7 +16,7 @@ This is the ability to register in the app with an organization. Once the user i
 ### Front End
 
 1. Login Screen
-2. Registration screen: the user can specify an organization ID and/or servername
+2. Registration screen: the user can specify an organization ID and/or server-name
 3. Display of existing organizations based on a registration URL
 4. Currently organizations can be created in the app
 
@@ -39,7 +39,6 @@ This is the ability to register in the app with an organization. Once the user i
 ## Events
 
 ### Description
-
 These are scheduled events managed by coordinators and administrators of an organization. Information related to events in the organization are monitored via the organization's newsfeed by members of the organization.
 
 ### Front End
@@ -81,7 +80,6 @@ This is the ability to chat from within the Talawa app with multiple members of 
 ## Switch Between Organizations
 
 ### Description
-
 Users can belong to multiple organizations; however, they cannot create their own. This is an admin feature. This is the ability for users to create their own organizations needs to be removed.
 
 ### Front End
