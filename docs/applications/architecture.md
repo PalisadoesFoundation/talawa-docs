@@ -47,20 +47,21 @@ Web Development Technologies used in Talawa and their Advantages
 
 1. TypeScript:
 
-  It helps catch type-related errors during development, which can save time and reduce bugs in the codebase.
+  Talawa uses typescript because it helps catch type-related errors during development, which can save time and reduce bugs in the codebase which makes     development procedure more productive and.
   
-  It also provides enhanced tooling and editor support, making it easier to write, maintain, and refactor code. TypeScript was used for building Talawa applications due to its ability to scale and maintain codebases over time.
+  It also provides enhanced tooling and editor support, making it easier to write, maintain, and refactor code. TypeScript was used for building Talawa web portal due to its ability to scale and maintain codebases over time.
 
 1. Flutter:
 
-  Flutter is a mobile app SDK that allows developers to build high-performance, natively compiled applications for mobile, web, and desktop using a single codebase. It uses Dart programming language which is similar to Java and JavaScript, but with its own unique syntax.
+  Talawa uses flutter in its mobile app becasue it allows developers to build high-performance, natively compiled applications for mobile, web, and desktop using a single codebase. It uses Dart programming language which is similar to Java and JavaScript, but with its own unique syntax.
 
-  Flutter provides a modern, reactive programming model that makes it easier to build complex and beautiful user interfaces. It also has a hot reload feature, which allows developers to see changes instantly without restarting the app.
+  It provides a modern, reactive programming model that makes it easier to build complex and beautiful user interfaces such as talawa mobile app and it is also used to create custom lint for Talawa called Talawa Lint. It also has a hot reload feature, which allows talawa developers to see changes instantly without restarting the app.
 
 1. MongoDB:
 
-  MongoDB is a NoSQL document database that uses JSON-like documents with optional schemas. It provides flexible data models that can handle a variety of data types, making it well-suited for modern applications.
+  Talawa uses MongoDB in its API because it is a NoSQL document database that uses JSON-like documents with optional schemas. It provides flexible data models that can handle a variety of data types, making it well-suited for making and handling data structures used in creating users and their posts and so much more on backend.
 
-  MongoDB was chosen because of its ability to handle unstructured data, its scalability, and its ease of use. It also integrates well with popular programming languages and frameworks.
+  It was chosen because of its ability to handle unstructured data, its scalability, and its ease of use. It also integrates well with popular programming languages and frameworks.
+
 
 
