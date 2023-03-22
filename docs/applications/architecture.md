@@ -47,7 +47,7 @@ Web Development Technologies used in Talawa and their Advantages
 
 1. TypeScript:
 
-  Talawa uses typescript because it helps catch type-related errors during development, which can save time and reduce bugs in the codebase which makes     development procedure more productive and.
+  Talawa uses typescript because it helps catch type-related errors during development, which can save time and reduce bugs in the codebase which makes     development procedure more productive.
   
   It also provides enhanced tooling and editor support, making it easier to write, maintain, and refactor code. TypeScript was used for building Talawa web portal due to its ability to scale and maintain codebases over time.
 
