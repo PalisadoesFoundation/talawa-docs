@@ -7,10 +7,10 @@ slug: /
 Here is a brief introduction to who we are and the Talawa projects.
 ### About Palisadoes
 
-The Palisadoes Foundation aims to provide new avenues for promoting Jamaica’s technology talent through a series of programs that create increased awareness of the island’s abilities in the global marketplace. It was founded by Jamaicans living in the United States.
+The Palisadoes Foundation aims to provide new avenues of promoting Jamaica’s technology talent through a series of programs which create increased awareness of the island’s abilities in the global marketplace. It was founded by Jamaicans living in the United States.
 ​
 
-Since 2016 we have managed the Calico Challenge which gives Jamaican students the opportunity to work on Open Source projects under the guidance of a mentor. Stipends are paid upon achieving pre-defined milestones. Funding is provided by the generous donations of many individuals and corporations. The open source projects are available under the Palisadoes Foundation’s GitHub account.
+Since 2016 we have managed the Calico Challenge that gives Jamaican students the opportunity to work on Open Source projects under the guidance of a mentor. Stipends are paid upon achieving pre-defined milestones. Funding is provided by the generous donations of many individuals and corporations. The open source projects available under the Palisadoes Foundation’s GitHub account.
 ​
 
 Calico is modeled on the Google Summer of Code. In 2021 The Palisadoes Foundation was awarded participation in the Google Summer of Code.
@@ -19,13 +19,9 @@ Calico is modeled on the Google Summer of Code. In 2021 The Palisadoes Foundatio
 
 Talawa was created to help community based organizations collaborate with their membership. These organizations would include religious groups, non-profit charities, social groups and in limited cases, businesses.
 ​
-Though software applications exist for these types of organizations (eg. Breeze ChMS, The Realm) they assume their memberships are fully literate and have access to email. We wanted to create a system that would work for countries with similar technology and education challenges as Jamaica. 
+Though software applications exist for these types of organizations (eg. Breeze ChMS, The Realm) they assume their memberships are fully literate and have access to email. We wanted to create a system that would work for countries with similar technology and education challenges as Jamaica.
 ​
-Talawa has three main components: 
-* A mobile application with social media features,
-* A web based portal to be used by the organization’s administrative team, and 
-* An API providing access to data and features.
-
+Talawa has three main components. A mobile application with social media features, a web based portal to be used by the organization’s administrative team, and finally an API providing access to data and features.
 ​​
 The Palisadoes Foundation wants to eventually host Talawa as a cloud service to help finance its education outreach.
 ​
