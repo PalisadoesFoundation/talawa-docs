@@ -15,7 +15,7 @@ Communities are groups of people who participate either directly or indirectly w
 
 Groups of people in a community that have some unique commonality.
 
-- For example, If a national club decides to create a Talawa community that covers a country, then each organization could cover the club's followers in each city.
+- For example, if a national club decides to create a Talawa community that covers a country, then each organization could cover the club's followers in each city.
 
 ### People in Communities
 
@@ -42,7 +42,7 @@ The VP doesn’t want the branch managers to manage the members who have joined 
 
 It is for this reason that we have two types of administrators. Admins and Super Admins.
 
-1. **Admin**: These are members who use use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. 
+1. **Admin**: These are members who use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed.
 
    1. Admins can only manage a single organization and cannot access any data from other organizations. Expanding this capability is a long term goal.
    1. Admins can promote Users and Members to Admin status for their organization only
@@ -103,19 +103,19 @@ Talawa includes the ability of members attending events to be assigned tasks/rol
 
 ## Newsfeed
 
-The Talawa newsfeed helps to make the Communities a more cohesive entity. 
+The Talawa newsfeed helps to make the Communities a more cohesive entity.
 
 ### Mobile App Newsfeed
 
 The newsfeed on the Talawa Mobile App is a stream of commentary from the App's users. This may include various combinations of text, video, images and links that Members may want to share.
 
-Talawa Mobile App users only get news on their newsfeed for the organization that they are currently actively using.  
+Talawa Mobile App users only get news on their newsfeed for the organization that they are currently actively using.
 
 Members using the app can add posts containing text, images or video to the newsfeed. They can also add hashtags to their posts. People seeing the hashtags will be able to click on them to automatically filter their feed by one or more hashtags.
 
 ### Admin Panel Newsfeed
 
-Administrators will use Talawa Admin to administer an organization's newsfeed. At a minimum they will get a filtered version of the feed that only includes exceptional content that requires attention.This includes:
+Administrators will use Talawa Admin to administer an organization's newsfeed. At a minimum they will get a filtered version of the feed that only includes exceptional content that requires attention. This includes:
 
 1. **Pinned Posts**: The management of pinned posts that they use to alert all members of the organization of some activity. These posts are [always visible at the top of the newsfeed](https://github.com/PalisadoesFoundation/talawa-api/issues/1096). Pinned posts can only be created by Admins.
 2. **Reported Posts**: Mobile App users may want Admins to take action on posts that don't match the organization's values. Admins can use the newsfeed to manage these reports.

@@ -269,7 +269,7 @@ Please read the `Research` section of this document for background information
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
 4. **Depends on Project:** None
 5. **Project Size:** 350 hours
-6. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake)
+6. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), Tasneem Koushar (@tasneemkoushar)
 7. **Difficulty:** Medium/Hard
 8. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -545,7 +545,7 @@ We realize that this list isn't exhaustive. There are many more opportunities th
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6.  **Project Size:** 350
-7.  **Possible Mentors:** TBD
+7.  **Possible Mentors:** Sagar Utekar (@Sagar2366)
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Risky/Exploratory
 

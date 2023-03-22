@@ -6,6 +6,7 @@ title: Branding
 Our brand uses the guidelines in this section to create a consistent user experience.
 
 ## Colors
+
 The Talawa brand uses a core set of colors. It is important that our color are used consistently and correctly for print, web and mobile applications.
 
 ### Standard Colors
@@ -18,16 +19,16 @@ The brand colors are:
 
 The brand colors are applied to the logo in the following manner:
 
- - **Top Circle Element**: #FEBC59 - Max Yellow Red
- - **Caret Element** #31BB6B - Medium Sea Green
- - **Rectangular Elements Between Caret and Circle** #737373 - Sonic Silver
+- **Top Circle Element**: #FEBC59 - Max Yellow Red
+- **Caret Element** #31BB6B - Medium Sea Green
+- **Rectangular Elements Between Caret and Circle** #737373 - Sonic Silver
 
 #### Alternate Logo Colors
 
 The logo has no alternate colors. The Standard colors are the only ones to be used.
 
-
 ## Logos
+
 This page contains information pertaining to how we use our logos.
 
 ### Logo Repository
@@ -46,7 +47,7 @@ This section describes the significance of the logo.
 
 ![Small Logo](/img/logos/talawa-logo-200x200.png)
 
-1. The logo is an abstract representation of a small human being. 'Talawa' in the Jamaican dialect means 'strong', and the logo symbolizes the a well known saying on the island 'Little, but Talawa'.
+1. The logo is an abstract representation of a small human being. 'Talawa' in the Jamaican dialect means 'strong', and the logo symbolizes the well-known saying on the island 'Little, but Talawa'.
 1. It is made up of 2 shapes. A circle resting upon diagonally angled rectangles.
 1. The colors and shapes used are based on those of the Palisadoes Foundation's logo elements.
 
@@ -85,6 +86,7 @@ The logo must be:
 1. placed in the top left hand corner of the screen
 
 ## Typography
+
 This section outlines how we use typography with our branding.
 
 ### Logo Typography
