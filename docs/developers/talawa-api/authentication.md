@@ -2,6 +2,7 @@
 id: authentication
 title: Authentication
 ---
+> Authentication is important for recognizing a user's identity. Authentication prevents unauthorized users from accessing your device or network. This is a security process that covers all of the human-to-computer interactions that require the user to register and log in.
 
 ### How can a `User` Authenticate?
 
