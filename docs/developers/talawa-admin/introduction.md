@@ -10,7 +10,7 @@ title: Overview
 #### 1. Admin Dashboard
 
 - Dashboard Provides Overview about the Admin's Organization.
-- Displays Statistics like number of Members, Admins, Blocked Users & Membership Requests,etc.
+- Displays Statistics like number of Members, Admins, Blocked Users & Membership Requests, etc.
 
 #### 2. `People` Page
 
