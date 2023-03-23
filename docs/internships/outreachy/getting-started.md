@@ -51,6 +51,4 @@ Pull request guidelines are stated here and should be followed in the letter. Th
 
 The steps to create a new issue and how you can work with issues are outlined in this file. For instance, applicants should only work on issues assigned to them. 
 
-
-
 Visit our [FAQ page](docs/faq/faq.md) as it addresses the frequently asked questions. From there you can learn more about us and how to contribute to our projects.

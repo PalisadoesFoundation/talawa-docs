@@ -270,7 +270,7 @@ Please read the `Research` section of this document for background information
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
 4. **Depends on Project:** None
 5. **Project Size:** 350 hours
-6. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake)
+6. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), Tasneem Koushar (@tasneemkoushar)
 7. **Difficulty:** Medium/Hard
 8. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -331,14 +331,38 @@ Please read the `Research` section of this document for background information
       1. Implement ways to monitor the different levels of changes in the graphQL schema.
       1. Implement ways to inform clients of newly added, deprecated or removed fields from the graphQL schema.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See the introduction section.
-1. **Depends on Project:** None
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** "API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API"
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
 
-### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-Api.
+### API: Translations and Microservices
+
+1. **Description:** Our proposed project aims to enhance our existing app by allowing users to add language JSON files of their choice, breaking APIs, pub sub, and consumers as separate services, and handling big async processes using Kafka Consumers. Currently, we have a monolithic service that uses GraphQL APIs and pub sub. This project will help us create a more modular and scalable architecture for our app, making it easier to maintain and add new features.
+   1. To implement this project, we will first create a language management system that allows users to upload JSON files with translations for the app's content. These translations will then be integrated into the app, enabling users to access the app's content in their preferred language.
+   2. Next, we will create separate services for APIs, sockets, and consumers. Breaking these services apart will enable us to manage them more efficiently, as well as allow us to scale and add new features more easily.
+   3. To handle big async processes, we will use Kafka Consumers. Kafka Consumers will allow us to process large amounts of data efficiently and handle high traffic volumes, improving the app's performance and reliability.
+2. **Expected Outcomes:**
+   1. Our proposed project will build on previously stated ideas and include some overlap with their general objectives. We will create new features that users will want, including the ability to add language files, improve app performance, and create a more scalable architecture.
+   2. The project will justify 350 hours of work, as it involves significant changes to the app's architecture and the creation of new features.
+   3. To implement this project, we will require skills in the code stacks related to Talawa, Talawa-API, and Talawa-Admin. Specifically, we will need expertise in GraphQL, Kafka, Python and Sockets.
+3. **Instructions:** To implement this project, we recommend the following steps:
+    1. Develop a language management system that allows users to upload JSON files with translations for the app's content.
+    2. Break the APIs, sockets, and consumers into separate services.
+    3. Use Kafka Consumers to handle big async processes.
+    4. Test and deploy all the services.
+    5. Throughout the implementation process, it will be essential to take care of internal server calls and ensure that the app's performance and reliability are not impacted by the changes. We recommend testing each component thoroughly before deployment.
+4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+5. **Skills Required:** Code stacks related to repos above. See introduction section.
+6. **Depends on Project:** None
+7. **Project Size:** 350 hours
+8. **Possible Mentors:** Sumitra Saksham (@sumitra19jha)
+9.  **Difficulty:** Hard
+10. **Impact Definition:** Risky/Exploratory
+
+### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API.
 
 1. **Description:** Currently passwords from the frontend are sent in plain text format to the server which is not good to have since these can be tracked by tracing HTTP calls over the network. We want to improve this and send the password in SHA256 format beforehand to discourage such tracing and minimise direct attacks on the server. We also want that our servers should only respond to authorised clients hence we figured out to implement SSL pinning. In our case we cannot do this by hardcoding the certificate in our client rather we would have to do is dynamically by publically sending a signed certificate only when the user is authorised and added he can only download that once per login. This requires changes to be made on Talawa graphQL client and in the talawa-api to be able to send signed certificates. Followed by this we want our users to not think of their privacy and just focus on sharing text with their peers by making their chat private to them only.
 1. **Expected Outcomes:**
@@ -354,9 +378,9 @@ Please read the `Research` section of this document for background information
       1. Send passwords in SHA256 format rather than sending them in plain text format. Also, SSL pining in the admin portal can be done conventionally by adding a pre-signed certificate before deploying. Making things easier on the admin side.
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin.
 1. **Skills Required:** Code stacks related to repos above. See the introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** "API: Improved Backend Performance and Security"
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
+1. **Possible Mentors:** TBD - Md Noman Khan (GitHub: noman2002)
 1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -372,15 +396,16 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 
 1. **Description:** The current Talawa-Admin design is insufficiently intuitive. Many buttons are unused without any indication that they are disabled. We need a UI that considers the user's perspective. This should be done with the following general considerations
    1. Deployment: We want to avoid the size of any required initial monolithic change. Changes must be incremental, possibly one screen at a time. All tests must pass with each change.
-   1. Layouts: Layouts will need to be created for use by other members to implement features
-   1. Timeliness: The changes will need to be done weekly. The rest of the community will need to be made aware of changes so that they can add functionality.
+   1. Layouts: Layouts will need to be created for use by other members to implement features. This may be facilitated by creating standardized templates for commonly expected functions that could be added to the repository.
+   1. Devices: The new design must be reactive, automatically adjusting the layout for all sizes of screens including but not limited to desktop, laptop, tablet and phone devices.
+   1. Timeliness: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
    1. Placeholders: We want placeholder links for all planned features as a reminder that they need to be implemented. These unused placeholders should be greyed out.
    1. Coding: We expect the layouts to be coded in Typescript by the person assigned this idea
 1. **Expected Outcomes:** This is a subset of the features we feel could be added:
    1. A NavBar focusing on the overall dashboard, Talawa newsfeed, people in the organization, tags for grouping people, organization events and plugins
    1. Improved intuitive layouts and workflows for:
        1. Managing multiple organizations
-       1. Doing CRUD activities for people, tags and events
+       1. Doing CRUD activities 
        1. Filtering people and tags
        1. Viewing organization events
        1. Requesting volunteers at events
@@ -388,6 +413,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
        1. Managing pinned posts on the newsfeed
    1. A properly documented design system and style guide added to the Talawa-Docs repository
    1. Any existing non-functioning features in these areas will need to be resolved.
+   1. There are other ideas that will depend on this work. You must think of ways where all participants can add pages according to your design specification without interrupting the speed of development. Strategies for incremental versus monolithic change must be considered.
    1. Any others you can think of!   
    1. _**Reference links**_: We realize that you may be new to the world of community management. These links should be used as a non-exhaustive guide.
       - [Talawa-Admin Ideas for 2023](https://www.youtube.com/watch?v=GbUFB5V_1uM)
@@ -397,7 +423,6 @@ We always need intuitive layouts and workflows. This applies to both existing fe
       - [YouTube Inspiration #3](https://www.youtube.com/@faithteams)
       - [YouTube Inspiration #4](https://www.youtube.com/@ChurchTracSoftware/videos)
       - [YouTube Inspiration #5](https://www.youtube.com/watch?v=pK4R2-8iPJE)
-
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See the introduction section.
 1. **Depends on Project:** `General: Basic Functionality`
@@ -484,45 +509,46 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See the introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anthony (github: tonythegr8)
+1. **Possible Mentors:** Anthony Brown (github: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
 ### Admin: Multi-Tenancy (Cloud)
 
-1. **Description:** Create a way to easily manage multiple instances of Talawa-API from a single Talawa-Admin panel. This would provide control over multiple parent organizations and their respective child organizations.
-1. **Expected Outcomes:**
+1. **Description:** Create a way to easily manage multiple instances of Talawa-API from a single Talawa-Admin panel. This would provide control over multiple communities (parent organizations) and their respective (child) organizations.
+2. **Expected Outcomes:**
    1. Research and suggest a preferred way of implementing this strategy.
-   1. Implement the strategy so that it is transparent to the mobile app.
-   1. Code ways to configure this solution simply via the Admin portal.
-   1. Think of:
+   2. Implement the strategy so that it is transparent to the mobile app.
+   3. Code ways to configure this solution simply via the Admin portal.
+   4. Think of:
       1. New levels of authorization and security that may be required.
-      1. Interesting features that would be required for this to be implemented.
-1. **Repos to update:** Talawa-API, Talawa-Admin
-1. **Skills Required:** Code stacks related to repos above. See the introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** TBD
-1. **Difficulty:** Hard
-1. **Impact Definition:** Core development, Risky/Exploratory
+      2. Architectures that would facilitate moving a community from one server to another on a completely different set of infrastructure.
+      3. Interesting features that would be required for this to be implemented. 
+3. **Repos to update:** Talawa-API, Talawa-Admin
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** None
+6. **Project Size:** 350 hours
+7. **Possible Mentors:** Sumitra Saksham (@sumitra19jha), Eva Sharma (@evasharma12)
+8. **Difficulty:** Hard
+9. **Impact Definition:** Core development, Risky/Exploratory
 
-## Hybrid Innovation
+## Hybrid - Primary Ideas
 
-We cannot think of everything, so we encourage you to think of ideas that will have a material impact on the Talawa environment. 
+We realize that this list isn't exhaustive. There are many more opportunities that could be converted into project ideas and proposals. If this is what insprires you, then investigate this section
 
 ### Hybrid: Hybrid Innovation
 
-1. **Description:** Do the ideas need something more? Can you think of ways to blend elements of the ideas together? What completely new thoughts could be applied to the projects? If you have answers to these questions then this section is for 
+1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
 2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
-   1. Build on previously stated ideas and include some overlap with thier general objectives.
-      1. **Note:** Your proposal must state the project ideas above from which you got your inspiration.**
+   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
+   1. Add completely new features not previously stated in ideas.
    2. Create features that users will want or facilitate new features that will be the goundwork for features that they would want.
    3. Justify 350 hours of work.
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6.  **Project Size:** 350
-7.  **Possible Mentors:** TBD
+7.  **Possible Mentors:** Sagar Utekar (@Sagar2366)
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Risky/Exploratory
 

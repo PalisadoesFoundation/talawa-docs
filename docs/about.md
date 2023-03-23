@@ -34,3 +34,23 @@ Talawa’s desired main features are:
 1. Donation acceptance
 1. Service provider-level multi-organization capability
 1. Plugin support for administration services such as billing
+
+### Technologies Used
+
+A brief introduction to all of the Technologies used by Talawa and the GitHub repositories of different projects. This serves as a resource for newcomers seeking a perspective of the collective community efforts. The link to the four major repositories under Talawa is given below:
+
+* [Talawa](https://github.com/PalisadoesFoundation/talawa): HTML, XML, YAML, SVG, Gradle, Python, JSON, Flutter and Dart are the technologies that are used by talawa.
+* [Talawa-API](https://github.com/PalisadoesFoundation/talawa-api): Talawa-API uses TypeScript, JSON, YAML, Shell and Python technologies.
+* [Talawa-Admin](https://github.com/PalisadoesFoundation/talawa-admin): Talawa-Admin uses CSS, TypeScript, TSX, YAML, Shell JSON, GraphQL and JavaScript technologies.
+* [Talawa-Docs](https://github.com/PalisadoesFoundation/talawa-docs): Talawa-docs uses technologies like HTML, CSS, YAML, SVG, TSX, SCSS, JSON and JavaScript.
+
+Below is the list of various technologies used:
+
+1. Front-end Technologies: HTML, CSS, and JavaScript (React) are used to create the website's front-end user interface. And, Flutter is used to create the mobile application.
+2. Back-end Technologies: Talawa uses server-side scripting languages which include GraphQL and TypeScript to handle the website's back-end functionality.
+3. Database Management System: Talawa API uses database management systems which include MongoDB with the mongoose ORM (Object–relational mapping) which is used to store and manage the website's data.
+4. Security: Talawa uses various encryption technologies to protect sensitive data. One of the GSoC 2023 ideas was to add SSL. SSL (Secure Socket Layer) helps to create a secure encrypted connection between the server (our project) and the client and protects Talawa from hacking and other security threats. 
+5. Payment Processing: Talawa is also planning to have plugins that will interact with payment processing gateways. One of the GSoC 2023 projects is to allow access to multiple payment processor gateway. Access to each gateway would be activated via a dedicated plugin. This will allow the plugin to communicate with the payment gateway and process payments securely.
+6. Cloud Hosting: One of the GSoC 2023 ideas is to include support for cloud hosting services like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP) to host Talawa.
+7. Content Management System (CMS): Talawa uses Docusaurus which is a powerful tool for creating and managing supporting documentation. It uses Markdown as its syntax, which enables users to write formatted content in a readable syntax. Additionally, it supports custom fields such as OpenAPI specs, making it an ideal choice for API documentation. It also has a style guide that ensures consistency across documents, and an offline/local search feature to make finding information easier.
+

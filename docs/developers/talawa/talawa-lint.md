@@ -57,7 +57,7 @@ for custom lint rules.
 #### Logs
 
 Logs are generated for our custom lint analysis in the file named `custom_lint.log`. This file
-exists under both `talawa` and `talawa_lint` directories. You can find any error related to 
+exists under both `talawa` and `talawa_lint` directories. You can find any error related to
 `talawa_lint` integration in these logs. This comes handy while troubleshooting.
 
 ## Talawa Lint Rules
@@ -112,21 +112,21 @@ class MyClass {}
 
 #### For function/method/getter/setter
 
-Same rules as for non functions/methods...... as described above, in conjunction with two other 
+Same rules as for non functions/methods...... as described above, in conjunction with two other
 sections for `params:` and `returns:`
 
 1. Follow same rules as described in the above section.
 2. Add `/// params:` block. This marks the beginning of `params` section where you describe all the parameters
-    that this function takes from the next line. The format being
-    - ``/// * `param_name`:`` followed by its description starting in the same line.
-    - The description can be multi line and requires no extra formatting.
-    - If the function takes no parameters, `/// params:` should be followed by `/// None` in the next line.
-3. After documenting all of the parameters, add `/// returns:` block. 
-4. Followed by returns: 
-    - Add ``/// * `return_type`:`` followed by its descriptio starting in the same line.
-    - The description can be multi line and requires no extra formatting.
-    - If the function returns void, `/// returns:` should be followed by `/// None` in the next line.
-        Note that `Future<void>` is different from void. `/// None` is strictly used only for `void` type.
+   that this function takes from the next line. The format being
+   - `` /// * `param_name`: `` followed by its description starting in the same line.
+   - The description can be multi line and requires no extra formatting.
+   - If the function takes no parameters, `/// params:` should be followed by `/// None` in the next line.
+3. After documenting all of the parameters, add `/// returns:` block.
+4. Followed by returns:
+   - Add `` /// * `return_type`: `` followed by its description starting in the same line.
+   - The description can be multi line and requires no extra formatting.
+   - If the function returns void, `/// returns:` should be followed by `/// None` in the next line.
+     Note that `Future<void>` is different from void. `/// None` is strictly used only for `void` type.
 
 Examples of valid documentation include:
 
@@ -134,7 +134,7 @@ Examples of valid documentation include:
 
 ```js
 /// My fun.
-/// 
+///
 /// Other description.
 ///
 /// params:
@@ -149,7 +149,7 @@ void fun () {}
 
 ```js
 /// My fun.
-/// 
+///
 /// Other description.
 ///
 /// params:
@@ -165,7 +165,7 @@ void fun (String? name, int age) {}
 
 ```js
 /// My fun.
-/// 
+///
 /// Other description.
 ///
 /// params:
@@ -182,7 +182,7 @@ int fun () {
 
 ```js
 /// My fun.
-/// 
+///
 /// Other description.
 ///
 /// params:
