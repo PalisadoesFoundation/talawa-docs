@@ -136,7 +136,7 @@ const config = {
                         },
                         {
                             label: ' Team',
-                            to: '/docs/features/members/members-overview',
+                            to: 'https://github.com/PalisadoesFoundation/talawa-docs/graphs/contributors',
                             className: 'footer__icon footer__team'
                         },
                     ],
