@@ -19,7 +19,7 @@ Due to the influx of pull requests we receive on a weekly basis, we have created
 
 1. Finally, a GitHub Action collates and organizes the HTML files within a prespecificed template containing the documentation that is then added to the site.
 
-![alt text](/img/gsod2022-white.jpeg)
+![alt text](/img/gsod2022-white.JPEG)
 
 However, since this pipeline has been put in place there has not been much activity on the bulk of the older files, leaving most of the documentation lacking in our three codebases. The majority of the code is undocumented or badly documented and is not growing in an organic manner with our ever increasing codebase. Our goal is to ameliorate this problem through the creation/refinement constructing documentation for our repositories which is extensive enough to account for the latest features and developments, such that we are in a good position for further development with the pipelines already in place. Furthermore, we need to make it straightforward for first time contributors to become productive with our repositories.
 
