@@ -84,64 +84,68 @@ const config = {
         },
         footer: {
             style: 'dark',
-            links: [{
-                    title: 'Community',
-                    items: [{
-                            label: ' Slack',
-                            to: 'https://github.com/PalisadoesFoundation/talawa#readme',
-                            className: 'footer__icon footer__slack'
-                        },
-                        {
-                            label: ' Twitter',
-                            to: 'https://twitter.com/palisadoesorg?lang=en',
-                            className: 'footer__icon footer__twitter'
-                        },
-                        {
-                            label: ' Facebook',
-                            to: 'https://www.facebook.com/palisadoesproject/',
-                            className: 'footer__icon footer__facebook'
-                        },
-                        {
-                            label: ' Instagram',
-                            to: 'https://www.instagram.com/palisadoes/?hl=en',
-                            className: 'footer__icon footer__instagram'
-                        },
-
-                        {
-                            label: ' News',
-                            to: '/docs/features/news%20feed/news-feed-overview',
-                            className: 'footer__icon footer__news'
-                        },
-                        {
-                            label: ' Contact Us',
-                            to: 'https://www.palisadoes.org/contact/',
-                            className: 'footer__icon footer__contact'
-
-                        }
-                    ],
-                },
-                {
-                    title: 'Development',
-                    items: [
-
-                        {
-                            label: ' GitHub',
-                            to: 'https://github.com/PalisadoesFoundation',
-                            className: 'footer__icon footer__github'
-                        },
-                        {
-                            label: ' Opportunities',
-                            to: '/docs/internships/internship-ideas',
-                            className: 'footer__icon footer__opportunities'
-                        },
-                        {
-                            label: ' Team',
-                            to: '/docs/features/members/members-overview',
-                            className: 'footer__icon footer__team'
-                        },
-                    ],
-                },
+             links: [
+          {
+            title: "Community",
+            items: [
+              {
+                label: " Slack",
+                to: "https://github.com/PalisadoesFoundation/talawa#readme",
+                className: "footer__icon footer__slack",
+              },
+              {
+                label: " News",
+                to: "/docs/features/news%20feed/news-feed-overview",
+                className: "footer__icon footer__news",
+              },
+              {
+                label: " Opportunities",
+                to: "/docs/internships/internship-ideas",
+                className: "footer__icon footer__opportunities",
+              },
+              {
+                label: " Contact Us",
+                to: "https://www.palisadoes.org/contact/",
+                className: "footer__icon footer__contact",
+              },
             ],
+          },
+          {
+            title: "Socials",
+            items: [
+              {
+                label: " Twitter",
+                to: "https://twitter.com/palisadoesorg?lang=en",
+                className: "footer__icon footer__twitter",
+              },
+              {
+                label: " Facebook",
+                to: "https://www.facebook.com/palisadoesproject/",
+                className: "footer__icon footer__facebook",
+              },
+              {
+                label: " Instagram",
+                to: "https://www.instagram.com/palisadoes/?hl=en",
+                className: "footer__icon footer__instagram",
+              },
+            ],
+          },
+          {
+            title: "Development",
+            items: [
+              {
+                label: " GitHub",
+                to: "https://github.com/PalisadoesFoundation",
+                className: "footer__icon footer__github",
+              },
+              {
+                label: " Team",
+                to: "/docs/features/members/members-overview",
+                className: "footer__icon footer__team",
+              },
+            ],
+          },
+        ],
             copyright: `Copyright © ${new Date().getFullYear()} Talawa, Inc. Built with Docusaurus.`,
         },
         prism: {

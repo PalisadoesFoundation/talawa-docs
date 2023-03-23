@@ -3,6 +3,8 @@ id: schemas
 title: Schemas
 ---
 
+> Schemas are blue prints of how the database is constructed and it's relationship with other databases, which can be used to interpret information.
+
 ## Type Structures (Schemas)
 
 These type structures and inputs have been used in the queries, mutations and subscriptions listed below.
@@ -1207,7 +1209,7 @@ type Mutation {
     joinPublicOrganization (organizationId: ID!) : User!
     leaveOrganization (organizationId: ID!) : User!
 
-    removeMember (data: MultipleUsersAndOrganizationInput!) : Organization!
+    removeMember (data: UserAndOrganizationInput!) : Organization!
 
     adminRemoveEvent(eventId: ID!): Event!
     adminRemoveGroup(groupId:ID!):Message!
@@ -1703,18 +1705,18 @@ The ! signifies that the object returned is non-nullable or NOT NULL.
         }
     }
 ``` 
-### Remove multiple users from an organization
+### Remove a user from an organization
 
 ```graphql
     removeMember(
-        data: MultipleUsersAndOrganizationInput!
+        data: UserAndOrganizationInput!
     ): Organization!
 ```
-***Description***: It removes multiple users from an organization.
+***Description***: It removes a member from an organization.
 
 ***Arguments***:
 
-1. data: MultipleUsersAndOrganizationInput! - It contains data for multiple users that need to be removed and the org data from which they are removed. The ! signifies that the data passed is non-nullable or NOT NULL.
+1. data: UserAndOrganizationInput! - It contains data for user that needs to be removed and the org data from which they are removed. The ! signifies that the data passed is non-nullable or NOT NULL.
 
 ***Returns***: Organization!
 
@@ -1726,7 +1728,7 @@ The ! signifies that the object returned is non-nullable or NOT NULL.
         removeMember(
             data:{
                 organizationId:"<o_id>"
-                userIds: [<id_1>,<id_2>]
+                userIds: <u_id>
             }
         ){
         name
