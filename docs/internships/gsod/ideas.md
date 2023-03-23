@@ -5,52 +5,69 @@ title: GSoD 2023
 
 ## Introduction
 
-Welcome to our project proposal and ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
+Welcome to the Talawa repositories documentation ideas page for 2023! Thanks to our participation in the Google Season of Docs (GSoD) program last year, we significantly improved our documentation (to put it lightly!). Our current objective is to further streamline the learning curve for both current and potential contributors by applying the insights gained from our previous participation. Through our documentation projects, we aim to enhance the user-friendliness of our main repositories to achieve this goal. The discussion of the project's issues, scope, and success metrics, as well as the timeline and budget, will precede the proposed ideas section.
 
-We need to reduce the learning curve of contributors and sysadmins alike. Our documentation projects make our main repositories easier to use and therefore help us meet this goal.
+Talawa being a wholly decentralized, volunteer organization with 100% of the participants being volunteers provides a valuable case study in how one would implement the proper strictures and checks whenever adding a meaningful change to the documentation. It is also illustrative to see the underlying principles that have been developed to prevent a chaotic codebase and disorganized documentation by enforcing certain requirements when updating files. Our main method of documentation creation involves the use of CI/CD pipelines to automate the process, as illustrated in the following steps:
+
+1. A GitHub Action checks whether the JavaScript/Dart files being pushed have comments of a specified form whenever a pull request is made.
+
+2. If the pull request is successful, another GitHub Action runs a command such as jsdoc or dartdoc to generate a static HTML file containing the documentation from the comments. The artifact file is then sent to the Talawa-Docs repository.
+
+3. Finally, a GitHub Action collates and organizes the HTML files within a pre-specified template, creating a cohesive documentation file which is then added to the site.
 
 ### Our Project's Problem
 
-Due to the influx of pull requests we receive on a weekly basis, we have created CI/CD pipelines to automate the documentation process. It works as follows, and is illustrated by the proceeding figure:
+The Talawa Documentation has several issues that need to be addressed, the four most pressing are:
 
-1. Whenever a pull request is made, a GitHub Action checks whether Javascript/Dart files being pushed have comments of a specified form.
+1. Although we were able to complete the documentation for 100% of the Talawa API, only around 70% of the Talawa Mobile Front-end and 40% of the Talawa Admin were able to be completed during this period and still need to be completed. We recommend that the missing parts be prioritized and completed as soon as possible.
 
-1. If a pull request is successful, another GitHub Action runs a command such as jsdoc or dartdoc to generate a static HTML file that contains the documentation from the comments and then sent to the Talawa-Docs repo.
+2. We realized that we lacked a cohesive underlying methodology for organizing and structuring the documentation outside of the automated documentation framework. To address this issue, we recommend using the [Diátaxis](https://diataxis.fr/) methodology to rework much of the existing documentation within the proposed framework of tutorials, how-to guides, technical reference, and explanations. This approach will ensure that the documentation is structured and organized in a way that is easily navigated and understood by different types of users, including those with varying levels of technical expertise.
 
-1. Finally, a GitHub Action collates and organizes the HTML files within a prespecificed template containing the documentation that is then added to the site.
+3. Prioritizing the incorporation of visual aids to enhance the readers' understanding of the content. To improve comprehension, we aim to incorporate more visualizations into the documentation. Through usability tests and informal interactions, we found that presenting high-level summaries and diagrams at the outset of introducing contributors to various topics was highly beneficial. Moreover, there is [scientific evidence](https://www.lesswrong.com/posts/mAdMkFqWzbJRB544m/book-review-how-learning-works#Strategies_) to support the effectiveness of this technique. This approach increases readers' confidence and enables them to establish practical expectations before delving into specific details.
 
-![alt text](/img/gsod2022-green.png)
-
-However, since this pipeline has been put in place there has not been much activity on the bulk of the older files, leaving most of the documentation lacking in our three codebases. The majority of the code is undocumented or badly documented and is not growing in an organic manner with our ever increasing codebase. Our goal is to ameliorate this problem through the creation/refinement constructing documentation for our repositories which is extensive enough to account for the latest features and developments, such that we are in a good position for further development with the pipelines already in place. Furthermore, we need to make it straightforward for first time contributors to become productive with our repositories.
+4. We also identified a lack of documentation describing how to do auxiliary tasks such as getting set up on different machines, troubleshooting, writing tests, as well as describing the various types of tests and the relevance of code coverage within the testing framework. To address this issue, we recommend creating separate documentation for auxiliary tasks, which will provide more clarity and help users navigate the documentation more easily.
 
 ### Project Scope
 
-The Talawa project aims to:
+The Talawa documentation project aims to:
 
-- Audit the existing documentation and note the areas within the respective codebase(s) where the documentation specifically needs to be improved.
+- Establish a set of documentation standards and guidelines for the project, to ensure consistency and quality across all documentation.
 
-- Use a friction log to determine the pains within the existing documentation. This can be done from the viewpoints of multiple users as more experienced users may ‘miss’ aspects that can affect first time contributors.
+- Conduct a comprehensive audit of the existing documentation to identify areas where it can be improved. This includes analyzing the content, organization, and formatting of the documentation to ensure that it is accurate, clear, and easy to understand.
 
-- Assess where within the documentation would benefit from the addition of a diagram or illustration of complex relationships such as GraphQL schema and queries.
+- Introduce a review process for all new documentation, to ensure it meets the established standards and guidelines before being published.
 
-- Maintaining a public log of all progress/hurdles made/encountered and write up a summary of any disparity between the expected and actual project outcomes.
+- Use a "friction log" to identify pain points and areas of confusion in the documentation. This log should be created from the perspective of multiple users, including both experienced contributors and new users. By doing so, we can ensure that the documentation addresses the needs of all users, regardless of their level of experience.
 
-- Coordinating with others on partially automated conversion from HTML to pdf and Markdown, and vice-versa, using pandoc.
+- Evaluate which parts of the documentation would benefit from the addition of diagrams, illustrations, or other visual aids. This is particularly important for complex relationships, such as those involving data models, APIs, or other technical concepts.
 
-- Coordinating with others on any feedback and issues identified.
+- Keep a public log of all progress and obstacles encountered during the project. This log should include a summary of any discrepancies between the expected and actual project outcomes. By doing so, we can make necessary adjustments as we move forward.
+
+- Conduct user testing and feedback sessions to gather input on the effectiveness and usability of the documentation, and use this feedback to make improvements.
+
+- Provide training and resources for contributors on how to effectively document their code, including best practices, tools, and examples in the form of video tutuirals anf how-to guides.
+
+- Ensure that all documentation is accessible to a diverse audience, including those with disabilities or who use assistive technology.
 
 Outside of this project's scope is modifying the existing automation architecture and/or any form of testing and verification.
 
 ### Measuring the project's success
 
-Ideally, if the majority of our files containing code have adequate documentation in the form of comments which can be parsed by the documentation generating libraries we use (jsdoc, dartdoc, etc) then this would give us a rough estimate of the total coverage we have for documentation for a given repository. We have scripts in place to measure how much of the code is documented in the form that we desire.
-After the new documentation has been published we will consider the project a success if :
+We have implemented scripts to measure the amount of code that is documented in the form of comments files individual files, which can be parsed by documentation generating libraries such as jsdoc, dartdoc, and others. These libraries are integrated into our CI/CD pipeline for each repository. While we prioritize measuring the quantity of documentation, we also value metrics related to the accessibility and user experience of the documentation. We aim to ensure that the documentation is presented in a way that is easy to access and understand, and that it provides a high quality of life for users who rely on it.
 
-1. The number of pull requests on any and/or all of three repos increases by 30% more than it is currently from dedicated users.
+To that end, we consider the documentation to be success if it addresses the following heuristics:
 
-1. We see a significant uptick on the number of new users contributing to the repositories, around 30-40%.
+1. Reduction in bug reports: By improving the quality of the documentation, we expect to see a reduction in bug reports related to misunderstandings or incorrect assumptions about how the code works.
 
-1. The number of documentation related pull requests increase by ~20%.
+2. Reduced onboarding time: We expect the improved documentation to reduce the amount of time required for new developers to get up to speed on the codebase, resulting in faster onboarding times.
+
+3. Improved developer satisfaction: Clear, comprehensive documentation can help developers feel more confident and satisfied with their work. By improving documentation, we hope to increase developer satisfaction and reduce frustration or confusion caused by poorly documented code.
+
+4. Faster code reviews: By improving the quality of the documentation, we may see faster and more efficient code reviews as reviewers are able to understand the code more easily.
+
+5. Improved code maintainability: Clear, comprehensive documentation can make code easier to maintain in the long term. By improving documentation quality, we may see a reduction in technical debt and increased maintainability of the codebase.
+
+Achieving these goals will indicate a marked improvement in documentation quality and will have a positive impact on the usability and maintainability of the code. This, in turn, will help us to better serve our users and improve the overall quality of our software.
 
 ### Timeline
 
@@ -69,7 +86,7 @@ This timeline, especially within the May-July period, is not strict and has some
 
 | Item                                                                           | Amount | Running total | Notes                             |
 | ------------------------------------------------------------------------------ | ------ | ------------- | --------------------------------- |
-| Technical Writers (x2)                                                         | 10000  | 10000         |                                   |
+| Technical Writers (x4)                                                         | 10000  | 10000         |                                   |
 | Volunteer Stipends                                                             | 2000   | 12000         | 4 volunteer stipends at $500 each |
 | Graphic design - architecture diagrams, and visuals to accompany documentation | 1000   | 13000         |                                   |
 | Printed Palisadoes Foundation T-shirts (10 T-shirts)                           | 120    | 13120         |                                   |
@@ -77,15 +94,15 @@ This timeline, especially within the May-July period, is not strict and has some
 
 Additional information
 
-- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) 2022, and was previously selected for GSoC in 2021. We were able to make a number of leaps and bounds during the 2021 editions which resulted in a massive codebase that is severely undocumented. During this time, the Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions.
+- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2023, 2022, and 2021. We were able to make a number of leaps and bounds during the 2021 editions which resulted in a massive codebase that is severely undocumented. The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in 2021/2022.
 
-- The foundation was also selected for Google Season of Docs (Gsod) 2022. In this season, the documentation status of the repositories was improved. But, some aspects were not covered in this duration and still need to be worked upon.
+- The foundation was also selected for Google Season of Docs (GSoD) 2022. In this season, the documentation status of the repositories was improved. But, some aspects were not covered in this period and still need to be worked upon.
 
 ### General Considerations
 
 This is not an exhaustive list of ideas, but they are the ones we currently feel need the most attention.
 
-We also welcome any other ideas that we could use. Please review the "Desired Features" section of this website for **even more ideas** and further necessary information.
+We also welcome any other ideas that we could use. 
 
 ### Repository Languages and Skills
 
@@ -112,7 +129,7 @@ The previous Google Season of Docs (Gsod 2022) covered the repository: Talawa-AP
 - **Repos to update:** Talawa, Talawa-admin.
 - **Skills Required:** The ideal candidate should be familiar with Typescript and in particular Node.js. They also need to be comfortable with using Git/Github and to update the documentation via pull requests. Additionally, knowledge of TSDocs is also required.
 - **How we measure sucess:** Increased documentation for files which have not been modified for more than 3 months. Additionally, an increase in the percentage of the documentation completed from the documentation coverage script that is used.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
+- **Possible Mentors:** Dominic Mills (Github: DMills27), Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create Video Tutorials for **Talawa**, **Talawa API** and **Talawa-Admin**
@@ -133,7 +150,7 @@ Additional information follows:
 - **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 - **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
 - **How we measure sucess:** The creation of tutorials and how-to guides in different forms.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
+- **Possible Mentors:** Dominic Mills (Github: DMills27), Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create testing guides for **Talawa**, **Talawa API** and **Talawa-Admin**
@@ -149,7 +166,7 @@ Additional information follows:
 - **Repos to update:** Talawa-API, Talawa, Talawa-Admin
 - **Skills Required:** The ideal candidate should be familiar with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git/Github and to update the documentation via pull requests.
 - **How we measure sucess:** The creation of tutorials and hot-to guides in different forms.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
+- **Possible Mentors:** Dominic Mills (Github: DMills27), Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 ### Create visualisations for various GraphQL Schema and Queries
@@ -159,5 +176,5 @@ The Talawa API has a number of GraphQL queries which are undocumented and have b
 - **Repos to update:** Talawa-API
 - **Skills Required:** The ideal candidate should be familiar with Node.js; GraphQL is not a strict requirement, but they must be willing to learn. Additionally, they need to be comfortable with using Git/Github. Experience in Illustration or graphic design is a plus.
 - **How we measure sucess:** Visualisations present through the base documentation and any new documentation generated from this program.
-- **Possible Mentors:** Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
+- **Possible Mentors:** Dominic Mills (Github: DMills27), Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)

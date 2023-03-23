@@ -66,13 +66,13 @@ const config = {
                 {
                     href: 'https://docs.talawa.io/talawa/index.html',
                     target: "_self",
-                    label: "Talawa",
+                    label: "Talawa Mobile",
                     position: "left",
                 },
                 {
                     href: 'https://docs.talawa.io/talawa-api/schema/index.html',
                     target: "_self",
-                    label: "Talawa Api",
+                    label: "Talawa API",
                     position: "left",
                 },
                 {
