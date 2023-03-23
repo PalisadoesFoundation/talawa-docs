@@ -39,13 +39,13 @@ Many of you reading this page are interested in participating in our various int
 
 1. Make sure to read the relevant `Introduction` and `Applying` pages first.
    1. GitHub Externship:
-      1. [Introduction](https://docs.talawa.io/docs/internships/github/github-introduction).
-      1. [Application Guide](https://docs.talawa.io/docs/internships/github/github-application-process).
+      1. Introduction
+      1. Application Guide
    1. GSoC:
-      1. [Introduction](https://docs.talawa.io/docs/internships/gsoc/gsoc-introduction).
-      1. [Application Guide](https://docs.talawa.io/docs/internships/gsoc/gsoc-application-process).
-1. Review the [Selection Criteria](https://docs.talawa.io/docs/internships/internship-selection-criteria) to ensure you meet all the requirements for a good proposal.
-1. Use the [Application Template](https://docs.talawa.io/docs/internships/internship-application-template) as a guide to formatting your application. The tips on this page are very important.
+      1. [Introduction](./gsoc/gsoc-introduction).
+      1. [Application Guide](./gsoc/gsoc-application-process).
+1. Review the [Selection Criteria](./internship-selection-criteria) to ensure you meet all the requirements for a good proposal.
+1. Use the [Application Template](./internship-application-template) as a guide to formatting your application. The tips on this page are very important.
 
 Good luck!
 
@@ -184,7 +184,7 @@ Please read the `Research` section of this document for background information
 
 ### Mobile App: Creating new features and refactoring existing features into Plugins
 
-1. **Description:** There are a number of features that while useful are not absolutely necessary for the base Talawa app and would be better suited as plugins. The goal of this task is to refactor the existing plugins such as Newsfeed Advertising, Spam Mitigation, Inter-group Messaging, Analytics Integration, Check-ins functionality, etc. We recommended that you use our [Plugin Guide](https://docs.talawa.io/docs/functionalities/plugin-architecture). The scope of the Newsfeed Advertising and Spam Mitigation are given below. They can act as a template for the any additional plugins you wish to discuss with the mentors.
+1. **Description:** There are a number of features that while useful are not absolutely necessary for the base Talawa app and would be better suited as plugins. The goal of this task is to refactor the existing plugins such as Newsfeed Advertising, Spam Mitigation, Inter-group Messaging, Analytics Integration, Check-ins functionality, etc. We recommended that you use our [Plugin Guide](../developers/talawa-admin/plugins/plugin-architecture). The scope of the Newsfeed Advertising and Spam Mitigation are given below. They can act as a template for the any additional plugins you wish to discuss with the mentors.
    1. **Newsfeed Advertising**:
       1. Community organizations often rely on the support of local businesses. This plugin would allow companies to advertise on the mobile application newsfeed. The plugin must consider both inexperienced advertisers who will only provide an image or video, and those who are more experienced users of online platforms.
       1. **Features**
@@ -419,8 +419,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
       - [YouTube Inspiration #1](https://www.youtube.com/@breezechms/videos)
       - [YouTube Inspiration #2](https://www.youtube.com/@ChurchTracSoftware/videos)
       - [YouTube Inspiration #3](https://www.youtube.com/@faithteams)
-      - [YouTube Inspiration #4](https://www.youtube.com/@ChurchTracSoftware/videos)
-      - [YouTube Inspiration #5](https://www.youtube.com/watch?v=pK4R2-8iPJE)
+      - [YouTube Inspiration #4](https://www.youtube.com/watch?v=pK4R2-8iPJE)
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `General: Basic Functionality`
@@ -556,7 +555,7 @@ We have other areas that need good ideas. This section highlights some primary a
 
 ### Backend Improvements
 
-Take a look at the [Desired Features](https://docs.talawa.io/docs/features/features-introduction) section for guidance on what we'd like to achieve. Use these to create a unique vision of what you think Talawa could become.
+Take a look at the [Desired Features](../features/features-introduction) section for guidance on what we'd like to achieve. Use these to create a unique vision of what you think Talawa could become.
 
 Don't be limited by our desired features. Think of new areas of functionality for the various repos. How could it be better for both the end user and administrators?
 
