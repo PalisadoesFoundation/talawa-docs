@@ -15,6 +15,7 @@ module.exports = {
       {
         'Talawa API': [
           'developers/talawa-api/api-overview',
+          'developers/talawa-api/api-design-guide',
           {
             'Base Constraints': [
               'developers/talawa-api/constraints/user',
