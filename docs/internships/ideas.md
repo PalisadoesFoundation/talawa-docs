@@ -91,7 +91,7 @@ Most of our project ideas require knowledge of two or more programming languages
 
 ### Research
 
-Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you and we suggest you research Church and/or Temple Management Software as a starting point. Talawa needs to have a broader reach and your addtions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
+Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you and we suggest you research Church and/or Temple Management Software as a starting point. Talawa needs to have a broader reach and your additions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
 
 Your solution should ideally consider the:
 
@@ -394,7 +394,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 
 1. **Description:** The current Talawa-Admin design is insufficiently intuitive. There are also many buttons that are unused without any indication that they are disabled. We need a UI that considers the users perspective. This should be done with the following general considerations
    1. Deployment: We want to avoid the size of any required initial monolithic change. Changes must be incremental, possibly one screen at a time. All tests must pass with each change.
-   1. Layouts: Layouts will need to be created for use by other members to implement features. This may be facilitated by creating standardized templates for commonly expected functions that could be added to the repository.
+   1. Layouts: Layouts will need to be created for use by other members to implement features. This may be facilitated by creating standardized, modular templates for commonly expected functions that could be added to the repository.
    1. Devices: The new design must be reactive, automatically adjusting the layout for all sizes of screens including but not limited to desktop, laptop, tablet and phone devices.
    1. Timeliness: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
    1. Placeholders: We want placeholder links for all planned features as a reminder that they need to be implemented. These unused placeholders should be greyed out.
