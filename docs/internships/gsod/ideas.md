@@ -139,13 +139,11 @@ Our previous participation in Google Season of Docs 2022 was able to cover the e
 
 Currently, there are no video guides available to help users get started and become productive within the basic ecosystems of Talawa, Talawa API, and Talawa Admin. Our goal is to accomplish the following (although this list is not exhaustive):
 
-- Create video tutorials that are accessible to individuals with different technical backgrounds, and make the user experience easier and enhance user understanding for the three repositories. The guides should be divided into two distinct levels: beginners and advanced.
+1. Create video tutorials that are accessible to individuals with different technical backgrounds, and make the user experience easier and enhance user understanding for the three repositories. The guides should be divided into two distinct levels: beginners and advanced.
 
-- Develop visual guides and style formats for new technical writers/contributors to ensure that documentation remains organic with the codebase, up-to-date, and adheres to our standards.
+2. Develop visual guides and style formats for new technical writers/contributors to ensure that documentation remains organic with the codebase, up-to-date, and adheres to our standards.
 
-- Provide beginners with detailed videos and tutorials on how to document code optimally and effectively with best practices, as well as instructions on using the application, connecting to the API, etc.-
-
-Additional information follows:
+3. Provide beginners with detailed videos and tutorials on how to document code optimally and effectively with best practices, as well as instructions on using the application, connecting to the API, etc.-
 
 - **Repos to update:** Talawa API, Talawa, Talawa Admin
 - **Skills Required:** The ideal candidate should have strong writing skills and be able to present samples of their technical writing. They should also be familiar with video editing software such as CapCut, photo editing software such as Adobe Photoshop and experience creating modified screenshots with an appliation such as [Lightshot](https://app.prntscr.com/en/index.html). Coding experience  in Javascript/Node.js/Dart would be an asset. Additionally, they need to be comfortable with using Git and Github and to update the documentation via pull requests.
@@ -153,7 +151,7 @@ Additional information follows:
 - **Possible Mentors:** Dominic Mills (Github: DMills27), Anwer Sayeed (Github: anwersayeed), Tasneem Koushar (Github: tasneemkoushar), Eva Sharma (Github: evasharma12)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
-### Create how-to-do guides for auxiliary tasks for **Talawa**, **Talawa API** and **Talawa-Admin**
+### Create how-to guides for auxiliary tasks for **Talawa**, **Talawa API** and **Talawa-Admin**
 
 
 Currently, there are no guides on how to write test codes.
