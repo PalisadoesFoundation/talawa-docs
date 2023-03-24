@@ -61,13 +61,13 @@ We have implemented scripts to measure the amount of code that is documented in 
 
 To that end, we consider the documentation to be success if it addresses the following heuristics:
 
-1. Reduction in bug reports: By improving the quality of the documentation, we expect to see a reduction in bug reports related to misunderstandings or incorrect assumptions about how the code works.
+1. Reduction in bug reports: By improving the quality of the documentation, we expect to see a reduction in bug reports related to misunderstandings or incorrect assumptions about how the code works. We are aiming for a 30% reduction. 
 
-2. Reduced onboarding time: We expect the improved documentation to reduce the amount of time required for new developers to get up to speed on the codebase, resulting in faster onboarding times.
+2. Reduced onboarding time: We expect the improved documentation to reduce the amount of time required for new developers to get up to speed on the codebase, resulting in faster onboarding times. This can be accomplished using survey data after the programme has completed. We are aiming for a 25% increase based on the results. 
 
-3. Improved developer satisfaction: Clear, comprehensive documentation can help developers feel more confident and satisfied with their work. By improving documentation, we hope to increase developer satisfaction and reduce frustration or confusion caused by poorly documented code.
+3. Improved developer satisfaction: Clear, comprehensive documentation can help developers feel more confident and satisfied with their work. By improving documentation, we hope to increase developer satisfaction and reduce frustration or confusion caused by poorly documented code. This can be accomplished using survey data after the programme has completed. We are aiming for 40% increase in satisfaction. 
 
-4. Faster code reviews: By improving the quality of the documentation, we may see faster and more efficient code reviews as reviewers are able to understand the code more easily.
+4. Faster code reviews: By improving the quality of the documentation, we may see faster and more efficient code reviews as reviewers are able to understand the code more easily. This can be done by compare the approval rates of past and present pull requests that seek to be merged. We're aiming for a 40% reduction in the time taken. 
 
 5. Improved code maintainability: Clear, comprehensive documentation can make code easier to maintain in the long term. By improving documentation quality, we may see a reduction in technical debt and increased maintainability of the codebase.
 
@@ -90,18 +90,17 @@ This timeline, especially within the May-July period, is not strict and has some
 
 | Item                                                                           | Amount | Running total | Notes                             |
 | ------------------------------------------------------------------------------ | ------ | ------------- | --------------------------------- |
-| Technical Writers (x4)                                                         | 10000  | 10000         |                                   |
-| Volunteer Stipends                                                             | 2000   | 12000         | 4 volunteer stipends at $500 each |
+| Technical Writers (x4)                                                         | 2500   | 10000         |  stipends at $2500 each           |
+| Volunteer Stipends                                                             | 2000   | 12000         |  stipends at $500 each            |
 | Project Manager                                                                | 1000   | 13000         |                                   |       
 | Graphic designer - assist with visuals to accompany any documentation          | 1000   | 14000         |                                   |
 | Printed Palisadoes Foundation T-shirts (10 T-shirts)                           | 120    | 14120         |                                   |
-| Sundry expenses                                                                | 394    | 14514         | 3% payment processing fees        |
+| Sundry expenses                                                                | 880    | 15000         | 3% payment processing fees; mailing fees; paraphernalia for candidates; etc |
 
 Additional information
 
-- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2023, [2022](https://summerofcode.withgoogle.com/programs/2022/organizations/the-palisadoes-foundation), and [2021](https://summerofcode.withgoogle.com/archive/2021/organizations/4835102856577024) and [Outreachy in 2023](https://www.outreachy.org/apply/project-selection/#palisadoes-foundation). We were able to make a number of leaps and bounds during the 2021 edition which resulted in a massive codebase that was severely undocumented which was ameliorated by our participation in GSoD in 2022. The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in 2021/2022.
+- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2023, [2022](https://summerofcode.withgoogle.com/programs/2022/organizations/the-palisadoes-foundation), and [2021](https://summerofcode.withgoogle.com/archive/2021/organizations/4835102856577024) and [Outreachy in 2023](https://www.outreachy.org/apply/project-selection/#palisadoes-foundation). The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in years 2021 and 2022. The mentors have all previously been mentors of GSoC since the Palisadoes Foundation was first accepted. 
 
-- The foundation was also selected for Google Season of Docs (GSoD) 2022 where the documentation of the repositories was improved. But, as previous mentioned, some aspects were not covered in this period and still need to be worked upon.
 
 ### General Considerations
 
