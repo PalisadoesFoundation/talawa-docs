@@ -64,15 +64,15 @@ const config = {
                     position: "left",
                 },
                 {
-                    to: 'https://docs.talawa.io/talawa/index.html',
-                    target: "_blank",
-                    label: "Talawa",
+                    href: 'https://docs.talawa.io/talawa/index.html',
+                    target: "_self",
+                    label: "Talawa Mobile",
                     position: "left",
                 },
                 {
-                    to: 'https://docs.talawa.io/talawa-api/schema/index.html',
-                    target: "_blank",
-                    label: "Talawa Api",
+                    href: 'https://docs.talawa.io/talawa-api/schema/index.html',
+                    target: "_self",
+                    label: "Talawa API",
                     position: "left",
                 },
                 {
