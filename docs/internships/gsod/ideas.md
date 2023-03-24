@@ -157,8 +157,6 @@ Currently, there are no video guides available to help users get started and bec
 Currently, there are no guides on how to write test codes.
 Thus, the goal of this task is to create proper _How-to guides_ on writing test codes to make the developers' jobs easier.
 
-Additional information follows:
-
 - **Repos to update:** Talawa API, Talawa, Talawa Admin
 - **Skills Required:** The ideal candidate should have strong writing skills and be able to present samples of their technical writing was well as familiarity with Javascript and in particular Node.js and TypeScript. Additionally, they need to be comfortable with using Git and Github and to update the documentation via pull requests.
 - **How we measure sucess:** The creation of tutorials and hot-to guides in different forms.
