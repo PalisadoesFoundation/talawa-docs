@@ -35,12 +35,12 @@ We also welcome any other ideas that we could use. Please review the "Desired Fe
 
 ### Internship Participants
 
-Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship).
+Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship, Google Summer of Docs, Outreachy, etc).
 
-1. Make sure to read the relevant `Introduction` and `Applying` pages first.
-   1. GitHub Externship:
-      1. Introduction
-      1. Application Guide
+1. Make sure to read the relevant `Introduction` and `Application Guide`/ `Contribution Process` pages first.
+   1. Outreachy:
+      1. [Introduction](./outreachy/outreachy-introduction)
+      1. [Contribution Process](./outreachy/contribution-process)
    1. GSoC:
       1. [Introduction](./gsoc/gsoc-introduction).
       1. [Application Guide](./gsoc/gsoc-application-process).
