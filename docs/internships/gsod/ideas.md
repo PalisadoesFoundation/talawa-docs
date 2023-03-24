@@ -99,9 +99,9 @@ This timeline, especially within the May-July period, is not strict and has some
 
 Additional information
 
-- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2023, [2022](https://summerofcode.withgoogle.com/programs/2022/organizations/the-palisadoes-foundation), and [2021](https://summerofcode.withgoogle.com/archive/2021/organizations/4835102856577024) and [Outreachy in 2023](https://www.outreachy.org/apply/project-selection/#palisadoes-foundation). We were able to make a number of leaps and bounds during the 2021 edition which resulted in a massive codebase that was severely undocumented which was ameliorated by our participation in 2022. The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in 2021/2022.
+- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2023, [2022](https://summerofcode.withgoogle.com/programs/2022/organizations/the-palisadoes-foundation), and [2021](https://summerofcode.withgoogle.com/archive/2021/organizations/4835102856577024) and [Outreachy in 2023](https://www.outreachy.org/apply/project-selection/#palisadoes-foundation). We were able to make a number of leaps and bounds during the 2021 edition which resulted in a massive codebase that was severely undocumented which was ameliorated by our participation in GSoD in 2022. The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in 2021/2022.
 
-- The foundation was also selected for Google Season of Docs (GSoD) 2022. In this season, the documentation status of the repositories was improved. But, some aspects were not covered in this period and still need to be worked upon.
+- The foundation was also selected for Google Season of Docs (GSoD) 2022 where the documentation of the repositories was improved. But, as previous mentioned, some aspects were not covered in this period and still need to be worked upon.
 
 ### General Considerations
 
