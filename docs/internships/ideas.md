@@ -425,7 +425,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `General: Basic Functionality`
 1. **Project Size:** 350
-1. **Possible Mentors:** Anwer Sayeed (Github: anwersayeed)
+1. **Possible Mentors:** Anwer Sayeed (Github: @anwersayeed), Muskan Modi (Github: @muskan399)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development
 
