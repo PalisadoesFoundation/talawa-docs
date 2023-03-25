@@ -135,7 +135,7 @@ This section outlines the primary features we'd like to implement in the coming 
 
 Please read the `Research` section of this document for background information
 
-### General: Basic Functionality
+### General: Basic Functionality (Outreachy Only)
 
 There are some fundamental features that the Talawa suite of applications needs to have. We provide some insights into possible actions here. Any lists in this section should be viewed as inspiration, much more could be done!
 
