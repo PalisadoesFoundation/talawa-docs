@@ -15,10 +15,16 @@ An administrator for an organization would be similar to a pastor for a church o
 
 ## What should an `Admin` do ?
 
-    1. Assign available roles to users.
-
-    2. Grant elevated access to organisation features to support its management and moderation.
-
-    3. Demote a member from an elevated position, restricting elevated access.
-
-    4. Block a specific member for a valid reason
+1. Add/ remove members from organisation
+2. Elevate/remove users to/from coordinator
+3. Create/Delete group chats
+4. Create/Delete events
+5. admin can manage/exit multiple organisations
+6. admin can message everyone at once in an organization/s
+7. admin can moderate newsfeed
+    i.admin can delete post/s (at one time)
+    ii.admin can enable/disable comments
+    iii.admin can archive posts
+    iv.admin can hide likes from a post
+    v.admin can manage sharing limits of a post/event
+8. admin can ban/unban user from organisation (with a documented reason)
