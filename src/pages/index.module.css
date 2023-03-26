@@ -16,6 +16,14 @@
   .heroBanner {
     padding: 2rem;
   }
+
+  .heroBanner h1{
+    font-size: 2.1rem;
+  }
+
+  .heroBanner p{
+    font-size: 1.3rem;
+  }
 }
 
 .buttons {
