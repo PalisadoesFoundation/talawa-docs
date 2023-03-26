@@ -83,6 +83,6 @@ Here is a detailed guide on how to introduce load testing for such an API:
 
 - Execute the load test: Execute the load test and monitor the results. This includes monitoring the response times, error rates, and server metrics. Analyze the results to identify any bottlenecks or performance issues.
 
-- Optimize the API: Based on the results of the load test, optimize the API by addressing any performance issues or bottlenecks that were identified. This includes optimizing the database queries, reducing the number of API calls, and improving the server configurations.
+- Optimize the API: Based on the results of the load test, optimize the API by addressing any performance issues or bottlenecks that were identified. This includes optimizing the database queries, reducing the number of API calls, and improving server configurations.
 
 - Repeat the load test: After making the optimizations, repeat the load test to ensure that the performance has improved and that the API can handle the load.
