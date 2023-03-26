@@ -23,7 +23,7 @@ We will consider your previous contributions to the relevant Talawa repositories
 
  1. The quality of Issues and Pull Requests (PR)
  2. The detrimental impact of low quality Issues and PRs. We generally **ignore** these when assessing participants. Do not get a reputation for doing this.
- 3. The impact of your mergde merged PRs to our software.
+ 3. The impact of your merged PRs to our software.
 
 In summary be a conscientious contributor to our long term goals of sustainable software development for the unmet needs of community based organizations.
 
