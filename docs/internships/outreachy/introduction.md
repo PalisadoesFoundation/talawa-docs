@@ -26,9 +26,9 @@ Here are some links to get you started
 1. [Internship Guide](https://www.outreachy.org/docs/internship/)
 1. [Why Apply to Outreachy?](https://www.outreachy.org/apply/)
 
-### Outreachy Ideas
+## Outreachy Ideas
 
-## Create How-to Guides, Walkthroughs and Troubleshooting Tips for the Talawa App
+### Create How-to Guides, Walkthroughs and Troubleshooting Tips for the Talawa App
 
 Creating How-to Guides, Walkthroughs, and Troubleshooting Tips for the Talawa app is an important step in improving the user experience and helping users navigate the Talawa more easily. Here are some steps you can follow to create these guides and tips:
 
@@ -46,7 +46,7 @@ Creating How-to Guides, Walkthroughs, and Troubleshooting Tips for the Talawa ap
 
 Publish the guides and tips: Once the guides and tips are finalized, publish them on the Talawa docs site. 
 
-## Replacing Text with Symbols (Semiotics)
+### Replacing Text with Symbols (Semiotics)
 
 Talawa is aimed at underserved communities that may not be fully literate so replacing words with semiotics could be beneficial for that cause. We would have to use some form of A/B testing to see if the type of symbols that are used would be understood by the larger population. The following details how one would go about this approach:
 
@@ -65,7 +65,7 @@ Talawa is aimed at underserved communities that may not be fully literate so rep
 
 - Test the app: It's important to test the app with the target audience to ensure that the semiotics are understandable and that the app is easy to use. This can involve usability testing, focus groups, or user feedback surveys.
 
-## Introduce Load Testing on the Talawa API
+### Introduce Load Testing on the Talawa API
 
 Introduce load testing on the API side to see if new features are practical. Recently, there has been a lot of discussion about various new features that would make the app run faster and/or more scalable. If we had load tests to simulate a large number of requests we would have a better idea of how useful these features would actually be and if they fit our needs.
 
