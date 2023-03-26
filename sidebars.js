@@ -20,7 +20,8 @@ module.exports = {
             'Base Constraints': [
               'developers/talawa-api/constraints/user',
               'developers/talawa-api/constraints/organization',
-              'developers/talawa-api/constraints/admin'
+              'developers/talawa-api/constraints/admin',
+              'developers/talawa-api/constraints/SuperAdmin'
             ]
           },
           'developers/talawa-api/mutations',
