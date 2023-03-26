@@ -93,7 +93,7 @@ This timeline, especially within the May-July period, is not strict and has some
 | Technical Writers (x4)                                                         | 2500   | 10000         |  stipends at $2500 each           |
 | Volunteer Stipends                                                             | 2000   | 12000         |  stipends at $500 each            |
 | Project Manager                                                                | 1000   | 13000         |                                   |       
-| Graphic designer - assist with visuals to accompany any documentation          | 1000   | 14000         |                                   |
+| Graphic designer - to assist with visuals in the documentation                 | 1000   | 14000         |                                   |
 | Printed Palisadoes Foundation T-shirts (10 T-shirts)                           | 120    | 14120         |                                   |
 | Sundry expenses                                                                | 880    | 15000         | 3% payment processing fees; mailing fees; paraphernalia for candidates; etc |
 
