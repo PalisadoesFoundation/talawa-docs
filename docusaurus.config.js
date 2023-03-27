@@ -6,86 +6,86 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Talawa Project Documentation',
-    tagline: 'Open Source Software for Managing Community Based Organizations',
-    url: 'https://docs.talawa.io',
-    baseUrl: '/',
-    onBrokenLinks: 'warn',
-    onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/favicon.ico',
-    deploymentBranch: 'gh-pages',
-    organizationName: 'PalisadoesFoundation',
-    projectName: 'talawa-docs',
-    i18n: {
-        defaultLocale: 'en',
-        locales: ['en'],
-    },
+  title: 'Talawa Project Documentation',
+  tagline: 'Open Source Software for Managing Community Based Organizations',
+  url: 'https://docs.talawa.io',
+  baseUrl: '/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  deploymentBranch: 'gh-pages',
+  organizationName: 'PalisadoesFoundation',
+  projectName: 'talawa-docs',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
 
-    presets: [
-        [
-            'classic',
-            /** @type {import('@docusaurus/preset-classic').Options} */
-            ({
-                docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: ({ docPath }) => {
-                        return (`https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`)
-                    }
-                },
-                blog: {
-                    showReadingTime: true,
-                    editUrl: 'https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs',
-                },
-                theme: {
-                    customCss: require.resolve('./src/css/custom.css'),
-                },
-            }),
-        ],
-    ],
-
-    themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-        ({
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
-            sidebar: {
-                hideable: true,
-            },
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: ({ docPath }) => {
+            return (`https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/${docPath}`)
+          }
         },
-        navbar: {
-            title: 'Talawa',
-            logo: {
-                alt: 'Talawa Logo',
-                src: 'img/logo.png',
-            },
-            items: [{
-                    to: "docs/",
-                    activeBasePath: "docs",
-                    label: "About",
-                    position: "left",
-                },
-                {
-                    href: 'https://docs.talawa.io/talawa/index.html',
-                    target: "_self",
-                    label: "Talawa Mobile",
-                    position: "left",
-                },
-                {
-                    href: 'https://docs.talawa.io/talawa-api/schema/index.html',
-                    target: "_self",
-                    label: "Talawa API",
-                    position: "left",
-                },
-                {
-                    to: 'https://github.com/PalisadoesFoundation',
-                    position: 'right',
-                    className: 'header-github-link',
-                    'aria-label': 'GitHub repository',
-                },
-            ],
+        blog: {
+          showReadingTime: true,
+          editUrl: 'https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs',
         },
-        footer: {
-            style: 'dark',
-             links: [
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      }),
+    ],
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
+      navbar: {
+        title: 'Talawa',
+        logo: {
+          alt: 'Talawa Logo',
+          src: 'img/logo.png',
+        },
+        items: [{
+          to: "docs/",
+          activeBasePath: "docs",
+          label: "About",
+          position: "left",
+        },
+        {
+          href: 'https://docs.talawa.io/talawa/index.html',
+          target: "_self",
+          label: "Talawa Mobile",
+          position: "left",
+        },
+        {
+          href: 'https://docs.talawa.io/talawa-api/schema/index.html',
+          target: "_self",
+          label: "Talawa API",
+          position: "left",
+        },
+        {
+          to: 'https://github.com/PalisadoesFoundation',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
           {
             title: "Community",
             items: [
@@ -100,11 +100,6 @@ const config = {
                 className: "footer__icon footer__news",
               },
               {
-                label: " Opportunities",
-                to: "/docs/internships/internship-ideas",
-                className: "footer__icon footer__opportunities",
-              },
-              {
                 label: " Contact Us",
                 to: "https://www.palisadoes.org/contact/",
                 className: "footer__icon footer__contact",
@@ -112,7 +107,7 @@ const config = {
             ],
           },
           {
-            title: "Socials",
+            title: "Social Media",
             items: [
               {
                 label: " Twitter",
@@ -139,20 +134,15 @@ const config = {
                 to: "https://github.com/PalisadoesFoundation",
                 className: "footer__icon footer__github",
               },
-              {
-                label: " Team",
-                to: "/docs/features/members/members-overview",
-                className: "footer__icon footer__team",
-              },
             ],
           },
         ],
-            copyright: `Copyright © ${new Date().getFullYear()} Talawa, Inc. Built with Docusaurus.`,
-        },
-        prism: {
-            theme: lightCodeTheme,
-            darkTheme: darkCodeTheme,
-        },
+        copyright: `Copyright © ${new Date().getFullYear()} Talawa, Inc. Built with Docusaurus.`,
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+      },
     }),
 };
 
