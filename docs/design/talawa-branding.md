@@ -33,7 +33,7 @@ This page contains information pertaining to how we use our logos.
 
 ### Logo Repository
 
-You can find the various file formats of our logos in [our official logo repository](https://github.com/PalisadoesFoundation/talawa-docs/tree/master/static/img/logos)
+You can find the various file formats of our logos in [our official logo repository](https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/static/img/logos)
 
 These are the only logos that may be used.
 
