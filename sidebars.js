@@ -7,18 +7,39 @@ const sidebars = {
       link: {
         type: "generated-index",
       },
-
-      {
-        'Talawa API': [
-          'developers/talawa-api/api-overview',
-          'developers/talawa-api/api-design-guide',
-          {
-            'Base Constraints': [
-              'developers/talawa-api/constraints/user',
-              'developers/talawa-api/constraints/organization',
-              'developers/talawa-api/constraints/admin',
-              'developers/talawa-api/constraints/SuperAdmin'
-            ]
+      collapsed: false,
+      items: [
+        "introduction/about",
+        "introduction/core-concepts",
+        "introduction/our-repositories",
+      ],
+    },
+    {
+      type: "category",
+      label: "Developer Resources",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: true,
+      items: [
+        "developers/technical-introduction",
+        {
+          type: "category",
+          label: "Talawa",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "developers/talawa/talawa-introduction",
+            "developers/talawa/talawa-lint",
+          ],
+        },
+        {
+          type: "category",
+          label: "Talawa API",
+          link: {
+            type: "generated-index",
           },
           collapsed: true,
           items: [
@@ -35,6 +56,7 @@ const sidebars = {
                 "developers/talawa-api/constraints/user",
                 "developers/talawa-api/constraints/organization",
                 "developers/talawa-api/constraints/admin",
+                "developers/talawa-api/constraints/SuperAdmin"
               ],
             },
             "developers/talawa-api/mutations",
