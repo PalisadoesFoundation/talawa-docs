@@ -211,7 +211,7 @@ Please read the `Research` section of this document for background information
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
+1. **Possible Mentors:** Tasneem Koushar (GitHub: tasneemkoushar), Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
 
