@@ -161,7 +161,7 @@ There are some fundamental features that the Talawa suite of applications needs 
       1. This document highlights many sites and videos to aid your research.
       1. Any new features you plan to add as part of this project must be **_incremental_**, so that they can be completed in a week. We are certain that there are many opportunities to include these mini projects.
    1. We have created issues to fix some of these obvious defects.
-   1. These fixes will ideally not be limited to current defects, but to also to those that may be introduced throughout the GSoC period.
+   1. These fixes will ideally not be limited to current defects, but to also to those that may be introduced throughout the GSoC period. We have a history chronic instability and feature malfunctions across all repositories. This project is aimed at looking for ways to improve this now and in the medium to long term.
    1. _**Reference links**_: These videos will be valuable in identifying obvious bugs in the functionality, and should provide you with inspiration for other simple features to be added.
       - [Talawa-Admin Video: Functionality Review 2023](https://www.youtube.com/watch?v=Rp2Juid1Qus)
       - [Talawa Video: Functionality Review 2023](https://www.youtube.com/watch?v=ix3eSReJj2k)
