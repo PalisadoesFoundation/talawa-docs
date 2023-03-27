@@ -70,9 +70,9 @@ const config = {
           position: "left",
         },
         {
-          href: 'https://docs.talawa.io/talawa-api/schema/index.html',
-          target: "_self",
-          label: "Talawa API",
+          to: "docs/talawa-api/modules",
+          activeBasePath: "docs",
+          label: "Talawa-api",
           position: "left",
         },
         {
