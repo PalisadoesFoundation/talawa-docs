@@ -60,7 +60,7 @@ const config = {
         items: [{
           to: "docs/",
           activeBasePath: "docs",
-          label: "About",
+          label: "Docs",
           position: "left",
         },
         {
