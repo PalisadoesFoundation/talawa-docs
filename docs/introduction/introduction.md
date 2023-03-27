@@ -41,7 +41,7 @@ Talawa has three main components. A mobile application with social media feature
 ​​
 The Palisadoes Foundation wants to eventually host Talawa as a cloud service to help finance its education outreach.
 ​
-### The Talawa Applications
+## Talawa Applications
 
 Talawa works well because of the various software applications we have developed.
 
