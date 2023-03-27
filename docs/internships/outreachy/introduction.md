@@ -7,7 +7,7 @@ Welcome to our Outreachy introduction page, your one-stop guide to participating
 
 ## Getting Started
 
-This section outlines all you need to know about getting involved with the Palisadoes Foundation's GSoC program:
+This section outlines all you need to know about getting involved with the Palisadoes Foundation's Outreachy program:
 
 1. [Learn about Outreachy](https://www.outreachy.org).
 2. Decide if you are [eligible for Outreachy](https://www.outreachy.org/docs/applicant/#eligibility).
@@ -16,7 +16,7 @@ This section outlines all you need to know about getting involved with the Palis
 5. [Review the Talawa website](https://docs.talawa.io/docs/).
 6. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=hKLeU3MlGwY&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6).
 7. Get familiar with important GSoC documentation on this site:
-   1. **Review our Ideas List: [The Palisadoes Foundation's GSoC Ideas List](./outreachy-ideas).**
+   1. **Review our Ideas List: [The Palisadoes Foundation's Outreachy Ideas List](./outreachy-ideas).**
    2. [Get familiar with our selection criteria](../internship-selection-criteria).
    3. [Consider using our application template for your submission](../internship-application-template).
 8. [Read our GitHub Quick-Start Guide](../../introduction/our-repositories): It will you to prepare for your first code contribution.
