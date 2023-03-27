@@ -504,7 +504,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Anthony Brown (github: tonythegr8)
+1. **Possible Mentors:** Tyrone Taylor (github: ttaylor92), Anthony Brown (github: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
