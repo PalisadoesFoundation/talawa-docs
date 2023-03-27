@@ -15,7 +15,7 @@ This section outlines all you need to know about getting involved with the Palis
 4. Decide whether you want to [apply for Outreachy](https://www.outreachy.org/apply/)
 5. [Review the Talawa website](https://docs.talawa.io/docs/).
 6. Learn more about [Talawa on our YouTube Channel](https://www.youtube.com/watch?v=hKLeU3MlGwY&list=PLv50qHwThlJVTUZsVz2CbRSi2f8uF9XE6).
-7. Get familiar with important GSoC documentation on this site:
+7. Get familiar with important documentation on this site:
    1. **Review our Ideas List: [The Palisadoes Foundation's Outreachy Ideas List](./outreachy-ideas).**
    2. [Get familiar with our selection criteria](../internship-selection-criteria).
    3. [Consider using our application template for your submission](../internship-application-template).
