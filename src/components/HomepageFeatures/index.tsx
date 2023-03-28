@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Talk to your own community groups on Talawa.
-Our app makes it simple and secure to use.
+        Our app makes it simple and secure to use.
       </>
     ),
   },
@@ -25,7 +25,7 @@ Our app makes it simple and secure to use.
     description: (
       <>
         Schedule, create and view your upcoming community events on Talawa.
-Start your own or register for existing one.
+        Start your own or register for existing one.
       </>
     ),
   },
@@ -35,7 +35,7 @@ Start your own or register for existing one.
     description: (
       <>
         Create and manage multiple organizations with Talawa.
-Start your community and watch it grow.
+        Start your community and watch it grow.
       </>
     ),
   },
@@ -43,13 +43,15 @@ Start your community and watch it grow.
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+    <div className={clsx('col col-4')}>
+      <div className="card">
+          <div className="text--center">
+            <Svg className={styles.featureSvg} role="img" />
+          </div>
+          <div className="text--center padding-horiz--md">
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 ---
 id: about
-title: About Us
+title: About US
 slug: /
 ---
 

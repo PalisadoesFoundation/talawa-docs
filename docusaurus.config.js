@@ -65,20 +65,20 @@ const config = {
                 },
                 {
                     href: 'https://docs.talawa.io/talawa/index.html',
-                    target: "_self",
+                    target: "_blank",
                     label: "Talawa",
                     position: "left",
                 },
                 {
                     href: 'https://docs.talawa.io/talawa-api/schema/index.html',
-                    target: "_self",
+                    target: "_blank",
                     label: "Talawa Api",
                     position: "left",
                 },
                 {
                     href: 'https://github.com/PalisadoesFoundation',
-                    label: 'GitHub',
                     position: 'right',
+                    className: 'header-github-link'
                 },
             ],
         },
@@ -136,13 +136,13 @@ const config = {
                         },
                         {
                             label: ' Team',
-                            to: '/docs/features/members/members-overview',
+                            to: 'https://github.com/orgs/PalisadoesFoundation/people',
                             className: 'footer__icon footer__team'
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Talawa Inc. Built with Docusaurus.`,
         },
         prism: {
             theme: lightCodeTheme,

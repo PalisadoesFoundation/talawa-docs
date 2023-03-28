@@ -38,12 +38,15 @@ We also welcome any other ideas that we could use. Please review the "Desired Fe
 Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship).
 
 1. Make sure to read the relevant `Introduction` and `Applying` pages first.
-   1. GitHub Externship:
-      1. [Introduction](https://docs.talawa.io/docs/internships/github/github-introduction).
-      1. [Application Guide](https://docs.talawa.io/docs/internships/github/github-application-process).
    1. GSoC:
       1. [Introduction](https://docs.talawa.io/docs/internships/gsoc/gsoc-introduction).
       1. [Application Guide](https://docs.talawa.io/docs/internships/gsoc/gsoc-application-process).
+   1. Outreachy:
+      1. [Introduction](https://docs.talawa.io/docs/internships/outreachy/outreachy-introduction).
+      1. [Application Guide](https://docs.talawa.io/docs/internships/github/github-application-process).
+   1. Palisadoes:
+      1. [Introduction](https://docs.talawa.io/docs/internships/palisadoes/palisadoes-introduction).
+      1. [Application Guide](https://docs.talawa.io/docs/internships/palisadoes/palisadoes-introduction#how-to-apply).
 1. Review the [Selection Criteria](https://docs.talawa.io/docs/internships/internship-selection-criteria) to ensure you meet all the requirements for a good proposal.
 1. Use the [Application Template](https://docs.talawa.io/docs/internships/internship-application-template) as a guide to formatting your application. The tips on this page are very important.
 

@@ -16,7 +16,7 @@
 .home-card {
   border-radius: 15px;
   padding: 32px;
-  background: #efeff2;
+  background: none;
   height: 100%;
 }
 
@@ -318,7 +318,7 @@ html[data-theme='dark'] .discord-card {
 }
 
 html[data-theme='dark'] .input-group .text-input {
-  color: #fff;
+  color: white;
 }
 
 .input-group .contact-btn {
@@ -391,9 +391,9 @@ html[data-theme='dark'] .input-group .text-input {
     height: 200px;
   }
   .banner-body-small > .banner-small-bottom {
-    background: #000e33;
+    background: black;
     padding: 30px 20px;
-    color: #ffffff;
+    color: white;
     text-align: center;
   }
 
@@ -415,7 +415,7 @@ html[data-theme='dark'] .input-group .text-input {
     background-repeat: no-repeat;
     background-color: #000e33;
     border-radius: 15px;
-    color: #ffffff;
+    color: white;
     text-align: center;
     padding: 36px 0;
   }
@@ -443,4 +443,5 @@ html[data-theme='dark'] .input-group .text-input {
     flex-direction: column;
     align-items: center;
   }
+
 }

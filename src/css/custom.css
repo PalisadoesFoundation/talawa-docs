@@ -164,7 +164,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     padding: 7px 21px;
     color: #fff;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     display: inline-flex;
     margin-right: 2.75rem;
@@ -184,6 +184,16 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
     position: relative;
     right: 8px;
     top: 1px;
+}
+
+.header-github-link {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    /* background-image: url('../../static/img/github-logo.svg'); */
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
 }
 
 .footer__icon {
