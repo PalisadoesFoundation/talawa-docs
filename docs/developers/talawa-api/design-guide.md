@@ -17,7 +17,7 @@ Add content here
 
 Both our developer and user communities require meaningful and actionable error handling to help troubleshoot issues they may have with the code. This section outlines the tenets of our approach.
 
-The graphql error handling approach within the talawa-api is base on this really great blog which guides developers about how production ready graphql api handles error. Talawa api uses a hybrid approach shown in Stage:5 and Stage:6a of that post. 
+The graphql error handling approach within the talawa-api is based on this really great blog which guides developers about how production ready graphql api handles error. Talawa api uses a hybrid approach shown in Stage:5 and Stage:6a of that post. 
 
 A popular approach to representing errors in GraphQL is by using union types. [There is a great post by Sasha Solomon (Twitter) that explains the philosophy behind it in more detail.](https://medium.com/@sachee/200-ok-error-handling-in-graphql-7ec869aec9bc)
 
