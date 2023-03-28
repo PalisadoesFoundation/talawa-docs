@@ -286,7 +286,7 @@ Please read the `Research` section of this document for background information
    1. Code ways to configure this solution simply via the Admin portal.
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
+1. **Depends on Project:** `Admin: Multi-Tennancy`
 1. **Project Size:** 350 hours
 1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken)
 1. **Difficulty:** Hard
@@ -521,7 +521,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
       3. Interesting features that would be required for this to be implemented. 
 3. **Repos to update:** Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
-5. **Depends on Project:** None
+5. **Depends on Project:** `API: Multi-Tennancy`
 6. **Project Size:** 350 hours
 7. **Possible Mentors:** Sumitra Saksham (@sumitra19jha), Eva Sharma (@evasharma12)
 8. **Difficulty:** Hard
