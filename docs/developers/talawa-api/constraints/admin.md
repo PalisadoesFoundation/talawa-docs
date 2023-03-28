@@ -19,7 +19,7 @@ An administrator for an organization would be similar to a pastor for a church o
 2. Elevate/remove users to/from admin
 3. Create/Delete group chats
 4. Create/Delete events
-5. admin can manage/exit multiple organisations
+5. admin can join/exit multiple organisations
 6. admin can message everyone at once in an organization/s
 7. admin can moderate newsfeed
     i.admin can delete post/s (at one time)
