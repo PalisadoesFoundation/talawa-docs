@@ -11,9 +11,9 @@ They can do everything listed above for Admin abilities.
 
 ## What should an `SuperAdmin` do ?
 
-1. they can do what admin can do but with higher access rights than admin
-2. they can add/remove admin's access to certain feature/s organization/s
-3. they can remove/ban admins
-4. they can report admins
-5. they can remove and moderate organizations
-6. they can ban/unban admin from organisation or in general (with a documented reason)
+1. They can do what admin can do but with higher access rights than admin
+2. They can add/remove admin's access to certain feature/s organization/s
+3. They can remove/ban admins
+4. They can report admins
+5. They can remove and moderate organizations
+6. They can ban/unban admin from organisation or in general (with a documented reason)
