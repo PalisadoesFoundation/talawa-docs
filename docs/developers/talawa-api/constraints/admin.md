@@ -16,7 +16,7 @@ An administrator for an organization would be similar to a pastor for a church o
 ## What should an `Admin` do ?
 
 1. Add/ remove members from organisation
-2. Elevate/remove users to/from coordinator
+2. Elevate/remove users to/from admin
 3. Create/Delete group chats
 4. Create/Delete events
 5. admin can manage/exit multiple organisations
