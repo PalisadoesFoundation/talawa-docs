@@ -76,6 +76,11 @@ const config = {
           position: "left",
         },
         {
+          to: "docs/introduction/faq-section",
+          label: "FAQ",
+          position: "left",
+        },
+        {
           to: 'https://github.com/PalisadoesFoundation',
           position: 'right',
           className: 'header-github-link',

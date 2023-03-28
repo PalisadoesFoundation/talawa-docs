@@ -12,6 +12,7 @@ const sidebars = {
         "introduction/about",
         "introduction/core-concepts",
         "introduction/our-repositories",
+        "introduction/faq-section",
       ],
     },
     {
