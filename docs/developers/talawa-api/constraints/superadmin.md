@@ -7,7 +7,7 @@ title: SuperAdmin
 
 Super Administrators are users who have the ability to manage and moderate administrators and organizations.
 
-They have similar functionalities to admins along with the ability to moderate administrators.  
+They can do everything listed above for Admin abilities.  
 
 ## What should an `SuperAdmin` do ?
 
