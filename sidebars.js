@@ -1,96 +1,213 @@
-module.exports = {
-  someSidebar: {
-    Introduction: ['about'],
-    'Technical Overview': [
-      'applications/architecture-overview',
-      'applications/overview'
-    ],
-    'Developer Resources': [
-      {
-        Talawa: [
-          'developers/talawa/talawa-introduction',
-          'developers/talawa/talawa-lint',
-        ]
+const sidebars = {
+  docs: [
+    "introduction/introduction",
+    {
+      type: "category",
+      label: "Getting Started",
+      link: {
+        type: "generated-index",
       },
-      {
-        'Talawa API': [
-          'developers/talawa-api/api-overview',
-          'developers/talawa-api/api-design-guide',
-          {
-            'Base Constraints': [
-              'developers/talawa-api/constraints/user',
-              'developers/talawa-api/constraints/organization',
-              'developers/talawa-api/constraints/admin'
-            ]
+      collapsed: false,
+      items: [
+        "introduction/about",
+        "introduction/core-concepts",
+        "introduction/our-repositories",
+      ],
+    },
+    {
+      type: "category",
+      label: "Developer Resources",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: true,
+      items: [
+        "developers/technical-introduction",
+        {
+          type: "category",
+          label: "Talawa",
+          link: {
+            type: "generated-index",
           },
-          'developers/talawa-api/mutations',
-          'developers/talawa-api/schemas',
-          'developers/talawa-api/authentication',
-          'developers/talawa-api/functionality',
-          'developers/talawa-api/expectations'
-        ]
+          collapsed: true,
+          items: [
+            "developers/talawa/talawa-introduction",
+            "developers/talawa/talawa-lint",
+          ],
+        },
+        {
+          type: "category",
+          label: "Talawa API",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "developers/talawa-api/api-overview",
+            "developers/talawa-api/api-design-guide",
+            {
+              type: "category",
+              label: "Base Constraints",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/talawa-api/constraints/user",
+                "developers/talawa-api/constraints/organization",
+                "developers/talawa-api/constraints/admin",
+              ],
+            },
+            "developers/talawa-api/mutations",
+            "developers/talawa-api/schemas",
+            "developers/talawa-api/authentication",
+            "developers/talawa-api/functionality",
+            "developers/talawa-api/expectations",
+          ],
+        },
+        {
+          type: "category",
+          label: "Talawa Admin",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "developers/talawa-admin/talawa-admin-introduction",
+            {
+              type: "category",
+              label: "Plugins",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/talawa-admin/plugins/plugin-architecture",
+                "developers/talawa-admin/plugins/implementing-plugins",
+                "developers/talawa-admin/plugins/implementing-plugins-example",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Requirements Docs",
+      link: {
+        type: "generated-index",
       },
-      {
-        'Talawa Admin': [
-          'developers/talawa-admin/talawa-admin-introduction',
-
-          {
-            Plugins: [
-              'developers/talawa-admin/plugins/plugin-architecture',
-              'developers/talawa-admin/plugins/implementing-plugins',
-              'developers/talawa-admin/plugins/implementing-plugins-example'
-            ]
-          }
-        ]
-      }
-    ],
-    'Requirements Docs': [
-      {
-        'Existing Features': ['functionalities/core-functionalities']
+      collapsed: true,
+      items: [
+        {
+          type: "category",
+          label: "Existing Features",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: ["functionalities/core-functionalities"],
+        },
+        {
+          type: "category",
+          label: "Desired Features",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "features/features-introduction",
+            "features/admin-portal",
+            "features/admin-role",
+            "features/chat-and-messaging",
+            "features/coordinator-role",
+            "features/events",
+            "features/members",
+            "features/donations-and-fees",
+            "features/news-feed",
+            "features/notifications",
+            "features/data-management",
+            "features/organizations",
+          ],
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "UI/UX Design",
+      link: {
+        type: "generated-index",
       },
-      {
-        'Desired Features': [
-          'features/features-introduction',
-          'features/admin-portal',
-          'features/admin-role',
-          'features/chat-and-messaging',
-          'features/coordinator-role',
-          'features/events',
-          'features/members',
-          'features/donations-and-fees',
-          'features/news-feed',
-          'features/notifications',
-          'features/data-management',
-          'features/organizations',
-        ]
-      }
-    ],
+      collapsed: true,
+      items: [
+        "design/branding",
+        "design/ux/ux-talawa",
+        "design/ux/ux-design-system",
+      ],
+    },
+    {
+      type: "category",
+      label: "Internships",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: true,
+      items: [
+        "internships/internship-ideas",
+        "internships/internship-application-template",
+        "internships/internship-selection-criteria",
+        "internships/conflicts-of-interest",
+        {
+          type: "category",
+          label: "GSoC",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "internships/gsoc/gsoc-introduction",
+            "internships/gsoc/gsoc-ideas",
+            "internships/gsoc/gsoc-application-process",
+          ],
+        },
+        {
+          type: "category",
+          label: "Outreachy",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "internships/outreachy/outreachy-introduction",
+            "internships/outreachy/outreachy-ideas",
+          ],
+        },
 
-    'UI/UX Design': [
-      'design/branding',
-      'design/ux/ux-talawa',
-      'design/ux/ux-design-system'
-    ],
-    Internships: [
-      {
-        Overview: [
-          'internships/internship-ideas',
-          'internships/internship-application-template',
-          'internships/internship-selection-criteria',
-          'internships/conflicts-of-interest'
-        ],
-        GSoC: [
-          'internships/gsoc/gsoc-introduction',
-          'internships/gsoc/gsoc-application-process'
-        ],
-        Outreachy: [
-          'internships/outreachy/outreachy-introduction',
-          'internships/outreachy/contribution-process',
-          'internships/outreachy/getting-starteds'
-        ],
-        GSoD: ['internships/gsod/gsod-ideas', 'internships/gsod/gsod-ideas-2022'],
-        Palisadoes: ['internships/palisadoes/palisadoes-introduction']
-      }
-    ]
-  }
-}
+        {
+          type: "category",
+          label: "GSoD",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "internships/gsod/gsod-ideas",
+            "internships/gsod/gsod-ideas-2022",
+          ],
+        },
+
+        {
+          type: "category",
+          label: "Palisadoes",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: ["internships/palisadoes/palisadoes-introduction"],
+        },
+      ],
+    },
+  ],
+};
+
+module.exports = sidebars;

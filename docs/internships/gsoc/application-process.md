@@ -3,7 +3,7 @@ id: gsoc-application-process
 title: Applying
 ---
 
-Details are announced now, and we are in the project discussion phase. We encourage you to discuss you application with the project community.
+Details are announced now, and we are in the project discussion phase. We encourage you to discuss your application with the project community.
 
 ## Introduction
 
