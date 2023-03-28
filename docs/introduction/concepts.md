@@ -46,14 +46,14 @@ The VP doesn’t want the branch managers to manage the members who have joined 
 
 It is for this reason that we have two types of administrators. Admins and Super Admins.
 
-1. **Admin**: These are members who use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed.
+1. **Admin**: These are members who use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. Admins can:
 
-   1. Admins can only manage a single organization and cannot access any data from other organizations. Expanding this capability is a long term goal.
-   1. Admins can promote Users and Members to Admin status for their organization only
+   1. Only manage a single organization and cannot access any data from other organizations. Expanding this capability is a long term goal.
+   1. Promote Users and Members to Admin status for their organization only
 
-2. **Super Admin**: These are members who use Talawa Admin to manage all organizations in a community.
-   1. Super Admins can promote Users and Members to Admin or Super Admin status.
-   2. Super Admins have access to all the privileges that an Admin may have over the Admin's organization.
+2. **Super Admin**: These are members who use Talawa Admin to manage all organizations in a community. Super Admins:
+   1. Can promote Users and Members to Admin or Super Admin status.
+   2. Have access to all the privileges that an Admin may have over the Admin's organization.
 
 Like other people, an administrator may or may not have joined an organization in the mobile app.
 
@@ -124,3 +124,27 @@ Administrators will use Talawa Admin to administer an organization's newsfeed. A
 1. **Pinned Posts**: The management of pinned posts that they use to alert all members of the organization of some activity. These posts are [always visible at the top of the newsfeed](https://github.com/PalisadoesFoundation/talawa-api/issues/1096). Pinned posts can only be created by Admins.
 2. **Reported Posts**: Mobile App users may want Admins to take action on posts that don't match the organization's values. Admins can use the newsfeed to manage these reports.
 3. **Plugin Posts**: The Admin panel may have plugins that need to access the newsfeed. For example these could include the insertion of advertising from local companies.
+
+## Multi-Tenancy / Cloud
+
+Under the current model:
+
+1. Each Talawa-API instance manages the people within a Community.
+2. Communities are managed by Super Admins.
+3. Organizations within a community are managed by Admins.
+
+For Talawa to be launched as a Cloud service there will need to be a way to create a portal that can manage multiple instances of Talawa-API. These community instances could be running on the same or differing servers.
+
+This creates challenges for the API:
+
+- How do we shard the data for the instances? For example: Do all the cloud communities use a single database or should there be some other type of split and why?
+- What database modifications will be required to track the communities under management?
+- How do you move data from one cloud cluster of instances managed by one portal, to another cluster managed by a different portal?
+
+It also creates challenges for the web admin portal:
+
+- What level of access should the cloud admin have?
+- What features can the cloud admin enable or disable across all communities?
+- How do you move administration from one cloud cluster of instances managed by one portal, to another cluster managed by a different portal?
+
+Answering these questions and implementing a solution will be important for the Talawa projects.
