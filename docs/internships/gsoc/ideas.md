@@ -288,7 +288,7 @@ Please read the `Research` section of this document for background information
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: Multi-Tennancy`
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken)
+1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken), Siabhiteja Chepuri (GitHub: saiabhiteja)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
