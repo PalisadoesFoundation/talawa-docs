@@ -482,7 +482,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350
-1. **Possible Mentors:**  Ritik Kumar Srivastava (@cyberwake), Dominic Mills (GitHub: DMills27)
+1. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
@@ -567,4 +567,4 @@ Remember, preparing the backend for future features and creating intuitive ways 
 
 ### Operational Considerations
 
-Many communities hosting their own solution won't have the funds to pay for additional services. They will be using slower, older equipment with limited storage.  There will be low technical ability too. In many cases the users may not have completed schooling. Ideas on how to resolve these issues will be helpful.
+Many communities hosting their own solution won't have the funds to pay for additional services. They will be using slower, older equipment with limited storage. There will be low technical ability too. In many cases the users may not have completed schooling. Ideas on how to resolve these issues will be helpful.
