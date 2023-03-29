@@ -5,15 +5,14 @@ title: SuperAdmin
 
 ## Who Is An Super Administrator (`SuperAdmin`)?
 
-Super Administrators are users who have the ability to manage and moderate administrators and organizations.
+In addition to having all Admin permissions, Super Administrators are users who have the ability to manage and moderate administrators and organizations.
 
-They can do everything listed above for Admin abilities.  
-
+ 
 ## What should an `SuperAdmin` do ?
 
-1. They can do what admin can do but with higher access rights than admin
-2. They can add/remove admin's access to certain feature/s organization/s
-3. They can remove/ban admins
-4. They can report admins
+1. They can do what Admin can do but with higher access rights than Admin
+2. They can add/remove Admin's access to certain feature/s organization/s
+3. They can remove/ban Admins
+4. They can report Admins
 5. They can remove and moderate organizations
-6. They can ban/unban admin from organisation or in general (with a documented reason)
+6. They can ban/unban Admin from organisation or in general (with a documented reason)
