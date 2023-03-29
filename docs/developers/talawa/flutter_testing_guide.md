@@ -11,7 +11,7 @@ Tests ensure that the code you write works as intended. They help to catch bugs 
 
 The cost of removing defects increases exponentially. A defect caught in requirement and design phase costs less to fix than an error caught in the software maintenance cycle.
 
-![image](/img/talawa_lint/no_lint_ex.png)
+![image](../../../static/img/flutter_testing_guide/testing_guide.png)
 
 
 ## How to cover all the corner cases?
