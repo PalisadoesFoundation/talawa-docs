@@ -1,5 +1,5 @@
 ---
-id: donation-fees
+id: donations-and-fees
 title: Donations & Fees
 ---
 
@@ -9,7 +9,7 @@ This section is a work in progress.
 
 :::
 
-## Code: DON-005
+### Code: DON-005
 
 _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **4/04/21** _
 
@@ -71,4 +71,3 @@ N/A
 ## Tasks and Timeline
 
 N/A
-

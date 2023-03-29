@@ -1,6 +1,6 @@
 ---
-id: follow-tag-support
-title: Follow Tag Support
+id: notifications
+title: Notifications
 ---
 
 :::caution
@@ -9,8 +9,18 @@ This section is a work in progress.
 
 :::
 
+---
 
-## Code: TAG
+## Follow Tag Support
+
+:::caution
+
+This section is a work in progress.
+
+:::
+
+
+### Code: TAG
 
 _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
 
@@ -44,7 +54,6 @@ N/A
 ## Proposal/Solution
 
 Similar to Instagram's implementation (outlined in the link below):
-
 https://help.instagram.com/2003408499915301
 
 ### User Experience
