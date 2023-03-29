@@ -9,7 +9,7 @@ title: FAQ
 [What is the Talawa Project?](#q-what-is-the-talawa-project)  
 [Why should I use Talawa?](#q-why-should-i-use-talawa)  
 [What does 'Talawa' mean, how do I pronounce it?](#q-what-does-talawa-mean-how-do-i-pronounce-it)  
-[What services are provided by Talawa?](#q-what-services-are-provided-by-talawa)  
+[What are the components of Talawa?](#q-what-are-the-components-of-talawa)  
 [How is Talawa different from other community based organizations?](#q-how-is-talawa-different-from-other-community-based-organizations)  
 [Is Talawa safe?](#q-is-talawa-safe)  
 [What can a leader of a non-profit do with Talawa?](#q-what-can-a-leader-of-a-non-profit-do-with-talawa)  
@@ -24,27 +24,27 @@ title: FAQ
 ---
 
 ### What is the Talawa Project?
-Talawa project is open source software for managing Community Based Organizations
+The Talawa project is an open source software for managing community-based organizations.
 
 [↑ table of contents](#table-of-contents)
 
 ---
 
 ### Why should I use Talawa?
-Talawa provides help to community based organizations collaborate with their membership. These organizations would include religious groups, non-profit charities, social groups and in limited cases, businesses.​
+Use Talawa to bring effective communication and coordination to your organization's planning. It is designed to help the community-based organizations collaborate with their membership. These organizations would include religious groups, non-profit charities, social groups and in limited cases, businesses.​
 
 [↑ table of contents](#table-of-contents)
 
 ---
 
 ### What does 'Talawa' mean, how do I pronounce it?
-Talawa is a Jamaican Patois word that means to be strong, fearless, strong-willed, and not to be underestimated. Jamaicans have always had a motto that encapsulates this idea of being great: 'We likkle but we tallawah' It means that we may be small, but we are strong, we are mighty, and can do anything. It is pronounced exactly as it is spelled: /Tala-wa/.
+Talawa is a Jamaican Patois word that means to be strong, fearless, strong-willed, and not to be underestimated. Jamaicans have always had a motto that encapsulates this idea of being great: 'We likkle but we talawa'. It means that we may be small, but we are strong, we are mighty, and can do anything. It is pronounced exactly as it is spelled: /Tala-wa/.
 
 [↑ table of contents](#table-of-contents)
 
 ---
 
-### What services are provided by Talawa?
+### What are the components of Talawa?
 Talawa has three main components:
 1. A mobile application with social media features
 2. A web based portal to be used by the organization’s administrative team, and
@@ -55,28 +55,32 @@ Talawa has three main components:
 ---
 
 ### How is Talawa different from other community based organizations?
-Though software applications exist for these types of organizations (eg. Breeze ChMS, The Realm), they assume their memberships are fully literate and have access to email. But we wanted to create a system that would work for countries with similar technology and education challenges as Jamaica.​
+Many other similar softwares assume their memberships are fully literate and have access to email. We wanted to create a system that would work for countries with similar technology and education challenges as Jamaica.​ We also offer two levels of administrative roles, which allows more nuanced scheduling and planning for organizations with more than one chapter.
 
 [↑ table of contents](#table-of-contents)
 
 ---
 
 ### Is Talawa safe?
-Talawa is safe, uses various encryption technologies to protect sensitive data. One of the ideas is to add SSL. SSL (Secure Socket Layer) helps to create a secure encrypted connection between the server (our project) and the client and protects Talawa from hacking and other security threats.
+Yes, Talawa is safe. We use various encryption technologies to protect sensitive data. We are working to increase its security, with concepts such as SSL (Secure Socket Layer). This will create a secure encrypted connection between the server (our project) and the client, as well as protect Talawa from hacking and other security threats.
 
 [↑ table of contents](#table-of-contents)
 
 ---
 
 ### What can a leader of a non-profit do with Talawa?
-A leader of a non-profit can set up their organization within Talawa. This will allow them to do things like plan events, coordinate volunteers, and post updates.
+A leader of a non-profit can do many things in Talawa to set up their organization for success! After setting up their organization in the software, they will be able to do things like plan events, coordinate volunteers, and post updates.
 
 [↑ table of contents](#table-of-contents)
 
 ---
 
 ### What is Palisadoes?
-The Palisadoes is a Foundation that aims to provide new avenues of promoting Jamaica’s technology talent through a series of programs which create increased awareness of the island’s abilities in the global marketplace. It was founded by Jamaicans living in the United States.​
+The Palisadoes Foundation is a 501(c)(3) non-profit organization. Our mission is to provide equitable access to life opportunities for STEM education recipients.
+
+Palisadoes was created by a group of expatriate Jamaican information and communication technology (ICT) professionals. They wanted to assist the continued development of new and existing technologies for the benefit of the island.
+
+The Foundation quickly realized that there was universal need for these services in underserved communities where the Jamaican diaspora live. We have expanded our service region to include them.
 
 [↑ table of contents](#table-of-contents)
 
