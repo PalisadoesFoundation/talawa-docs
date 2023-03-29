@@ -567,4 +567,4 @@ Remember, preparing the backend for future features and creating intuitive ways 
 
 ### Operational Considerations
 
-Many communities hosting their own solution won't have the funds to pay for additional services. They will be using slower, older equipment with limited storage. There will be low technical ability too. In many cases the users may not have completed schooling. Ideas on how to resolve these issues will be helpful.
+Many communities hosting their own solution won't have the funds to pay for additional services. They will be using slower, older equipment with limited storage.  There will be low technical ability too. In many cases the users may not have completed schooling. Ideas on how to resolve these issues will be helpful.
