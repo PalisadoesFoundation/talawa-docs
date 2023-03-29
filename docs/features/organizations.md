@@ -1,6 +1,6 @@
 ---
-id: organisations-onboarding
-title: Onboarding
+id: organizations
+title: Organizations
 ---
 
 :::caution
@@ -9,7 +9,19 @@ This section is a work in progress.
 
 :::
 
-## Code: MEM-005
+Organisations are an integral part of talawa. This section aims to give an outline of the features for an organisation within Talawa which includes but not limited to their onboarding.
+
+---
+
+## Onboarding
+
+:::caution
+
+This section is a work in progress.
+
+:::
+
+### Code: MEM-005
 
 _Authored by_ _ **Gareth Thomas** _ _. Last updated on_ _ **18/05/21** _
 
