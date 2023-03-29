@@ -249,7 +249,7 @@ Please read the `Research` section of this document for background information
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
 1. **Project Size:** 350 hours
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002), Aditya Birangal (@AdityaBirangal)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
@@ -482,7 +482,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`
 1. **Project Size:** 350
-1. **Possible Mentors:** Dominic Mills (GitHub: DMills27)
+1. **Possible Mentors:**  Ritik Kumar Srivastava (@cyberwake), Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
 
