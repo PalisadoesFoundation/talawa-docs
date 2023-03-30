@@ -61,13 +61,6 @@ Many other similar softwares assume their memberships are fully literate and hav
 
 ---
 
-### Is Talawa safe?
-Yes, Talawa is safe. We use various encryption technologies to protect sensitive data. We are working to increase its security, with concepts such as SSL (Secure Socket Layer). This will create a secure encrypted connection between the server (our project) and the client, as well as protect Talawa from hacking and other security threats.
-
-[↑ table of contents](#table-of-contents)
-
----
-
 ### What can a leader of a non-profit do with Talawa?
 A leader of a non-profit can do many things in Talawa to set up their organization for success! After setting up their organization in the software, they will be able to do things like plan events, coordinate volunteers, and post updates.
 
@@ -75,6 +68,19 @@ A leader of a non-profit can do many things in Talawa to set up their organizati
 
 ---
 
+### Is Talawa safe?
+Yes, Talawa is safe. We use various encryption technologies to protect sensitive data. We are working to increase its security, with concepts such as SSL (Secure Socket Layer). This will create a secure encrypted connection between the server (our project) and the client, as well as protect Talawa from hacking and other security threats.
+
+[↑ table of contents](#table-of-contents)
+
+---
+
+### Is Talawa free?
+Yes, Talawa is free.
+
+[↑ table of contents](#table-of-contents)
+
+---
 ### What is Palisadoes?
 The Palisadoes Foundation is a 501(c)(3) non-profit organization. Our mission is to provide equitable access to life opportunities for STEM education recipients.
 
@@ -87,13 +93,6 @@ The Foundation quickly realized that there was universal need for these services
 ---
 
 ### Where does Talawa store the Data?
-N/A
-
-[↑ table of contents](#table-of-contents)
-
----
-
-### Is Talawa free?
 N/A
 
 [↑ table of contents](#table-of-contents)
