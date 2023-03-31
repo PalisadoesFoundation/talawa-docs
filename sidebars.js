@@ -118,151 +118,17 @@ const sidebars = {
           collapsed: true,
           items: [
             "features/features-introduction",
-            {
-              type: "category",
-              label: "Admin Portal",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: ["features/admin-portal/admin-portal-overview"],
-            },
-            {
-              type: "category",
-              label: "Admin Capabilities",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/admin-role/admin-role-overview",
-                "features/admin-role/admin-messaging",
-                "features/admin-role/admin-manage-members",
-                "features/admin-role/admin-newsfeed",
-              ],
-            },
-            {
-              type: "category",
-              label: "Chat and Messaging",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/messaging-and-chat/messaging-and-chat-overview",
-                "features/messaging-and-chat/message-chat",
-                "features/messaging-and-chat/message-messaging",
-                "features/messaging-and-chat/message-voice-messaging",
-                "features/messaging-and-chat/message-notifications",
-              ],
-            },
-            {
-              type: "category",
-              label: "Coordinator Capabilities",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: ["features/coordinator-role/coordinator-role-overview"],
-            },
-            {
-              type: "category",
-              label: "Events",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/events/event-overview",
-                "features/events/event-create-events",
-                "features/events/event-signup",
-                "features/events/event-grouping",
-                "features/events/event-roles",
-                "features/events/event-attendee-roster",
-                "features/events/event-paid-donation",
-              ],
-            },
-            {
-              type: "category",
-              label: "Members",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/members/members-overview",
-                "features/members/members-access",
-                "features/members/members-roles",
-                "features/members/members-preapprovals",
-                "features/members/members-registration",
-                "features/members/members-banning",
-                "features/members/members-recovery",
-              ],
-            },
-            {
-              type: "category",
-              label: "Donations",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/donations/donations-overview",
-                "features/donations/donation-fees",
-              ],
-            },
-            {
-              type: "category",
-              label: "Newsfeed",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/news feed/news-feed-overview",
-                "features/news feed/tagging-support",
-                "features/news feed/pinned-posts",
-              ],
-            },
-            {
-              type: "category",
-              label: "Notifications",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/notifications/notifications-overview",
-                "features/notifications/follow-tag-support",
-              ],
-            },
-            {
-              type: "category",
-              label: "Data Management",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/data-management/data-management-overview",
-                "features/data-management/data-management-compression",
-                "features/data-management/data-management-retention",
-                "features/data-management/data-management-storage",
-                "features/data-management/data-management-distribution",
-              ],
-            },
-            {
-              type: "category",
-              label: "Organisations",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "features/organisations/organisations-overview",
-                "features/organisations/organisations-onboarding",
-              ],
-            },
+            "features/admin-portal",
+            "features/admin-role",
+            "features/chat-and-messaging",
+            "features/coordinator-role",
+            "features/events",
+            "features/members",
+            "features/donations-and-fees",
+            "features/news-feed",
+            "features/notifications",
+            "features/data-management",
+            "features/organizations",
           ],
         },
       ],

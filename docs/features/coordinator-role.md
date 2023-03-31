@@ -1,6 +1,6 @@
 ---
-id: data-management-distribution
-title: Database Distribution
+id: coordinator-role
+title: Coordinator Capabilities
 ---
 
 :::caution

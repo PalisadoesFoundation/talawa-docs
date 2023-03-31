@@ -1,13 +1,7 @@
 ---
-id: admin-portal-overview
-title: Overview
+id: admin-portal
+title: Admin Portal
 ---
-
-:::caution
-
-This section is a work in progress.
-
-:::
 
 ## Overall Guidance
 
@@ -37,4 +31,3 @@ The portal should be able to support the creation of multiple organizations to a
 6. Allow admins to remove group chats [Issue #64](https://github.com/PalisadoesFoundation/talawa-admin/issues/64)
 7. Allow admins to remove events [Issue #64](https://github.com/PalisadoesFoundation/talawa-admin/issues/64)
 8. Allow admins to remove posts [Issue #64](https://github.com/PalisadoesFoundation/talawa-admin/issues/64)
-
