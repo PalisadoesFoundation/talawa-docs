@@ -122,3 +122,5 @@ N/A
 
 ### How can my organization benefit from Talawa?
 N/A
+
+[↑ table of contents](#table-of-contents)
