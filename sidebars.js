@@ -36,6 +36,27 @@ const sidebars = {
           ],
         },
         {
+      type: "category",
+      label: "Developer Resources",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: true,
+      items: [
+        "developers/technical-introduction",
+        {
+          type: "category",
+          label: "Talawa",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "developers/talawa/talawa-introduction",
+            "developers/talawa/flutter_testing_guide",
+          ],
+        },
+        {
           type: "category",
           label: "Talawa API",
           link: {
