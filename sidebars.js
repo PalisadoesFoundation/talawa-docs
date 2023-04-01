@@ -56,7 +56,7 @@ const sidebars = {
                 "developers/talawa-api/constraints/user",
                 "developers/talawa-api/constraints/organization",
                 "developers/talawa-api/constraints/admin",
-                ],
+              ],
             },
             "developers/talawa-api/mutations",
             "developers/talawa-api/schemas",
