@@ -33,7 +33,7 @@ const sidebars = {
           items: [
             'developers/talawa/talawa-introduction',
             'developers/talawa/talawa-lint',
-            'developers/talawa/flutter_testing_guide'
+            'developers/talawa/flutter-testing'
           ]
         },
         {
