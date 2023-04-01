@@ -169,6 +169,88 @@ when(myMock.myMethod(any)).thenReturn('my result');
 ```
 This will stub the `myMethod()` method to always return 'my result', regardless of the input value.
 
+## Talawa App Tests Example on How to use Mocks and Stubs Correctly
+
+There is a function in talawa which provides chat service in the app. The file is located in `talawa/lib/services/chat_service.dart`. Unit Tests for this file have been written to test all the methods written in the file for instance `sendMessageToDirectChat` and `getDirectChatsByUserId` methods. These tests are written in the file `talawa\test\service_tests\chat_service_test.dart`. These tests have all the necessary mocks and stubs to understand the concept of testing in talawa.
+
+### sendMessageToDirectChat Method
+
+```dart
+Future<void> sendMessageToDirectChat(
+    String chatId,
+    String messageContent,
+  ) async {
+    // trigger graphQL mutation to push the message in the Database.
+    final result = await _dbFunctions.gqlAuthMutation(
+      ChatQueries().sendMessageToDirectChat(),
+      variables: {"chatId": chatId, "messageContent": messageContent},
+    );
+
+    final message = ChatMessage.fromJson(
+      result.data['sendMessageToDirectChat'] as Map<String, dynamic>,
+    );
+
+    _chatMessageController.add(message);
+
+    debugPrint(result.data.toString());
+  }
+```
+
+Test written for this method looks like this
+
+```dart
+test('Test SendMessageToDirectChat Method', () async {
+      final dataBaseMutationFunctions = locator<DataBaseMutationFunctions>();
+      const id = "1";
+      const messageContent = "test";
+
+      final query = ChatQueries().sendMessageToDirectChat();
+      when(
+        dataBaseMutationFunctions.gqlAuthMutation(
+          query,
+          variables: {
+            "chatId": id,
+            "messageContent": messageContent,
+          },
+        ),
+      ).thenAnswer(
+        (_) async => QueryResult(
+          options: QueryOptions(document: gql(query)),
+          data: {
+            'sendMessageToDirectChat': {
+              '_id': id,
+              'messageContent': messageContent,
+              'sender': {
+                'firstName': 'Mohamed',
+              },
+              'receiver': {
+                'firstName': 'Ali',
+              }
+            },
+          },
+          source: QueryResultSource.network,
+        ),
+      );
+      final service = ChatService();
+      await service.sendMessageToDirectChat(
+        id,
+        messageContent,
+      );
+    })
+```
+
+Here is a breakdown of what this test does
+
+1- The test starts by defining a mock object for the `_dbFunctions` class using the when function from the `Mockito` package. The mock object is set up to return a `QueryResult` object that simulates the result of a GraphQL mutation when the `gqlAuthMutation` method is called with the correct query and variables.
+
+2- The `ChatService` class is instantiated, and the `sendMessageToDirectChat` method is called with the correct `chatId` and `messageContent` parameters.
+
+3- Finally, the test verifies that the `_chatMessageController` object has been updated with the correct `ChatMessage` object that was received from the mocked `GraphQL mutation` result.
+
+4- The `when` function is used to set up a mock behavior for the `gqlAuthMutation` method of the `_dbFunctions` object. The mocked behavior returns a `QueryResult` object that simulates the result of a GraphQL mutation. The `QueryResult` object contains a map with a key of 'sendMessageToDirectChat', which contains a value that represents the returned ChatMessage object from the mutation.
+
+Overall, this test verifies that the sendMessageToDirectChat method correctly triggers a GraphQL mutation and correctly handles the returned data by updating the _chatMessageController object with the expected ChatMessage object.
+
 
 ## What to do if you find a bug while writing a test for that file?
 
