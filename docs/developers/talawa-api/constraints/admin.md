@@ -1,6 +1,6 @@
 ---
 id: admin
-title: Admin
+title: Admin & Super Admin
 ---
 
 ## Who Is An Administrator (`Admin`)?
@@ -28,6 +28,11 @@ An administrator for an organization would be similar to a pastor for a church o
     iv.Admin can hide likes from a post.
     v.Admin can manage sharing limits of a post/event.
 8. Admin can ban/unban user from organisation (with a documented reason).
+
+
+Super Admin
+---
+
 
 ## Who Is An Super Administrator (`SuperAdmin`)?
 
