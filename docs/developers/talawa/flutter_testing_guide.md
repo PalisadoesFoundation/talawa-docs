@@ -32,7 +32,7 @@ Following are the steps you have to follow in order to start writing and testing
  
 4. Run your tests using the flutter test command. This will run all the tests in your project's test directory.
 
-### Basic Test Example
+## Basic Test Example
 
 Suppose you have a `Calculator` class with a `add` method that takes two integers and returns their sum:
 
@@ -74,7 +74,7 @@ This will run all the tests in your project, including the `Calculator add` meth
 ```
 If the test fails (for example, if the add method in calculator.dart was implemented incorrectly), you will see an error message in your terminal indicating what went wrong.
 
-### In Depth Example
+## Examples
 
 Now moving towards a more complex example where we will see the use of mocks and stubs to generate relevant tests for our code. First we will see what are mocks and stubs and how to use them.
 
@@ -103,7 +103,7 @@ To generate a mock object using Mockito, you can follow these steps:
   ```
 
 
-### Example
+### Mocks Test Example
   
   Suppose you have a `Calculator` class that performs arithmetic operations, and you want to test a `CalculatorController` class that uses the Calculator to perform
   calculations. To isolate the `CalculatorController` for testing, you can create a mock `Calculator` object that simulates the behavior of the real Calculator.
@@ -169,13 +169,13 @@ when(myMock.myMethod(any)).thenReturn('my result');
 ```
 This will stub the `myMethod()` method to always return `my result`, regardless of the input value.
 
-# Example Test of Mocks and Stubs
+# Mocks and Stubs Test Example
 
-There is a function in talawa which provides chat service in the app. The file is located in `talawa/lib/services/chat_service.dart`. Unit Tests for this file have been written to test all the methods written in the file for instance `sendMessageToDirectChat` and `getDirectChatsByUserId` methods. These tests are written in the file `talawa\test\service_tests\chat_service_test.dart`. These tests have all the necessary mocks and stubs to understand the concept of testing in talawa.
+In this example, we'll be testing the `sendMessageToDirectChat` method from our application. This method is responsible for sending direct messages between two users in a private chat. The `sendMessageToDirectChat` method is critical to the functionality of our application, and we need to ensure that it works correctly under a variety of conditions. To do so, we'll be using a combination of manual and automated testing techniques to thoroughly test this method and uncover any potential bugs or issues. By the end of this example, you'll have a better understanding of how to approach testing for critical methods in this application. The file is located in `talawa/lib/services/chat_service.dart` and its tests are written in the file `talawa\test\service_tests\chat_service_test.dart`
 
-# sendMessageToDirectChat Method
+# Method Under Test
 
-This is the function that sends a message of a person in his/her desired chat. Below is the code of the method which is to be tested if its functioning properly or not.
+`sendMessageToDirectChat` is the function that sends a message of a person in his/her desired chat. Below is the code of this method which is to be tested if its functioning properly or not.
 
 ```dart
 Future<void> sendMessageToDirectChat(
@@ -198,7 +198,7 @@ Future<void> sendMessageToDirectChat(
   }
 ```
 
-# Sample Mock and Test Code
+##### Sample Mock and Test Code
 
 Test written for this method looks like this
 
@@ -243,7 +243,7 @@ test('Test SendMessageToDirectChat Method', () async {
     })
 ```
 
-# Test Explanation
+##### Test Explanation
 
 Here is a breakdown of what this test does
 
