@@ -1,35 +1,34 @@
 {
-    "extends": "@tsconfig/docusaurus/tsconfig.json",
-    "compilerOptions": {
-      "allowJs": true,
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "forceConsistentCasingInFileNames": true,
-      "isolatedModules": true,
-      "jsx": "preserve",
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "module": "esnext",
-      "moduleResolution": "node",
-      "noEmit": true,
-      "noImplicitReturns": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "resolveJsonModule": true,
-      "skipLibCheck": true,
-      "target": "esnext",
-      "strict": true
-    },
-    "exclude": [
-      "node_modules"
-    ],
-    "include": [
-      "src/**/*.ts",
-      "src/**/*.tsx",
-      "src/**/*.js",
-      "sidebars.js",
-      "docusaurus.config.js",
-    ]
-  }
-  
+  "extends": "@tsconfig/docusaurus/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "strict": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "sidebars.js",
+    "docusaurus.config.js",
+  ]
+}
