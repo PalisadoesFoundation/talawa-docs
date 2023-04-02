@@ -3,28 +3,26 @@ id: flutter-testing
 title: Flutter Testing Guide
 ---
 
-# Flutter Testing Guide
 
 ## Introduction
 
-Tests are an essential part of software development. They help developers to verify the functionality of the code they write and ensure that it behaves as expected. Testing is a process of executing a program with the intent of finding errors. In Flutter, testing is an essential part of the development process, and it's critical to write high-quality tests that cover all corner cases.
-
-
-## Why do we need tests?
-
-Tests ensure that the code you write works as intended. They help to catch bugs early in the development process, which saves time and effort in the long run. Writing tests also makes the code more reliable and maintainable. 
+Tests are an essential part of software development. They help developers to verify the functionality of the code they write and ensure that it behaves as expected. Testing is a process of executing a program with the intent of finding errors. They help to catch bugs early in the development process, which saves time and effort in the long run. Writing tests also makes the code more reliable and maintainable. 
 
 The cost of removing defects increases exponentially. A defect caught in requirement and design phase costs less to fix than an error caught in the software maintenance cycle.
 
 
-## How to cover all the corner cases?
+## Understanding Corner Cases
+
+In software testing, a corner case refers to a scenario or input that is rare, extreme, or unusual, and is not typically encountered in normal usage. These cases often involve unexpected combinations of inputs or circumstances that can cause a system to behave in unexpected or undefined ways. For example, if a software system is designed to handle only positive integers, a corner case might involve testing what happens when a negative integer is entered as input.
 
 To ensure that your tests cover all corner cases, you should consider the different input values and edge cases that your code might encounter. For example, if you are testing a function that performs a calculation, you should test it with different input values, including negative numbers, zero, and large numbers.
 
 It's also a good idea to use boundary testing, where you test the boundaries between different input values. For example, if your function takes an input between 0 and 100, you should test it with values of 0, 1, 99, 100, and values just above and below these boundaries.
 
 
-## How to start with Flutter Testing?
+## Getting Started
+
+Following are the steps you have to follow in order to start writing and testing your code:-
 
 1. Add the `flutter_test` package to your `pubspec.yaml` file.
  
@@ -34,7 +32,7 @@ It's also a good idea to use boundary testing, where you test the boundaries bet
  
 4. Run your tests using the flutter test command. This will run all the tests in your project's test directory.
 
-### Basic Example
+### Basic Test Example
 
 Suppose you have a `Calculator` class with a `add` method that takes two integers and returns their sum:
 
@@ -76,8 +74,12 @@ This will run all the tests in your project, including the `Calculator add` meth
 ```
 If the test fails (for example, if the add method in calculator.dart was implemented incorrectly), you will see an error message in your terminal indicating what went wrong.
 
+### In Depth Example
 
-## What are mocks and how to generate them?
+Now moving towards a more complex example where we will see the use of mocks and stubs to generate relevant tests for our code. First we will see what are mocks and stubs and how to use them.
+
+
+### Mocks
 
 Mocks are objects that simulate the behavior of real objects in your application. They are often used in testing to isolate the part of your code that you want to test from the rest of the application.
 
@@ -95,14 +97,12 @@ To generate a mock object using Mockito, you can follow these steps:
     class MockMyObject extends Mock implements MyObject {}
     ```
  4. Use the mock object in your test cases:
-
-    ```dart
-    test('my test case', () {
-    var myMock = MockMyObject();
-    // ... use the mock object ...
-    });
-    ```
     
+  ```dart
+  class MockMyObject extends Mock implements MyObject {}  
+  ```
+
+
    ### Example
   
   Suppose you have a `Calculator` class that performs arithmetic operations, and you want to test a `CalculatorController` class that uses the Calculator to perform
@@ -144,9 +144,9 @@ To generate a mock object using Mockito, you can follow these steps:
   that when the `add` method is called with arguments 2 and 3, it returns the value 5. Then, the `addNumbers` method is called on the `CalculatorController`, and the
   result is verified using the `expect` method. Finally, the `verify` method is used to ensure that the `add` method was called on the mock calculator with the correct
   arguments.
-
-
-## How to Stub Methods and Classes?
+  
+    
+### Stubs
 
 Stubbing is a technique used in testing to replace a real object with a simplified version that provides predictable behavior.
 
@@ -158,7 +158,7 @@ To stub a method or class in Flutter, you can use the when() function provided b
 var myMock = MockMyObject();
 when(myMock.myMethod()).thenReturn('my result');
 ```
-This will replace the `myMethod()` method on the `myMock` object with a stub that always returns the string 'my result'.
+This will replace the `myMethod()` method on the `myMock` object with a stub that always returns the string `my result`.
 
 `when()` method is used in the previous Calculator example as well where it is used to stub the add method to mock the Calculator.
 
@@ -167,13 +167,15 @@ You can also use the any matcher to match any input value. For example:
 ```dart
 when(myMock.myMethod(any)).thenReturn('my result');
 ```
-This will stub the `myMethod()` method to always return 'my result', regardless of the input value.
+This will stub the `myMethod()` method to always return `my result`, regardless of the input value.
 
-## Talawa App Tests Example on How to use Mocks and Stubs Correctly
+# Example Test of Mocks and Stubs
 
 There is a function in talawa which provides chat service in the app. The file is located in `talawa/lib/services/chat_service.dart`. Unit Tests for this file have been written to test all the methods written in the file for instance `sendMessageToDirectChat` and `getDirectChatsByUserId` methods. These tests are written in the file `talawa\test\service_tests\chat_service_test.dart`. These tests have all the necessary mocks and stubs to understand the concept of testing in talawa.
 
-### sendMessageToDirectChat Method
+# sendMessageToDirectChat Method
+
+This is the function that sends a message of a person in his/her desired chat. Below is the code of the method which is to be tested if its functioning properly or not.
 
 ```dart
 Future<void> sendMessageToDirectChat(
@@ -195,6 +197,8 @@ Future<void> sendMessageToDirectChat(
     debugPrint(result.data.toString());
   }
 ```
+
+# Sample Mock and Test Code
 
 Test written for this method looks like this
 
@@ -239,20 +243,22 @@ test('Test SendMessageToDirectChat Method', () async {
     })
 ```
 
+# Test Explanation
+
 Here is a breakdown of what this test does
 
-1- The test starts by defining a mock object for the `_dbFunctions` class using the when function from the `Mockito` package. The mock object is set up to return a `QueryResult` object that simulates the result of a GraphQL mutation when the `gqlAuthMutation` method is called with the correct query and variables.
+1. The test starts by defining a mock object for the `_dbFunctions` class using the when function from the `Mockito` package. The mock object is set up to return a `QueryResult` object that simulates the result of a GraphQL mutation when the `gqlAuthMutation` method is called with the correct query and variables.
 
-2- The `ChatService` class is instantiated, and the `sendMessageToDirectChat` method is called with the correct `chatId` and `messageContent` parameters.
+2. The `ChatService` class is instantiated, and the `sendMessageToDirectChat` method is called with the correct `chatId` and `messageContent` parameters.
 
-3- Finally, the test verifies that the `_chatMessageController` object has been updated with the correct `ChatMessage` object that was received from the mocked `GraphQL mutation` result.
+3. Finally, the test verifies that the `_chatMessageController` object has been updated with the correct `ChatMessage` object that was received from the mocked `GraphQL mutation` result.
 
-4- The `when` function is used to set up a mock behavior for the `gqlAuthMutation` method of the `_dbFunctions` object. The mocked behavior returns a `QueryResult` object that simulates the result of a GraphQL mutation. The `QueryResult` object contains a map with a key of 'sendMessageToDirectChat', which contains a value that represents the returned ChatMessage object from the mutation.
+4. The `when` function is used to set up a mock behavior for the `gqlAuthMutation` method of the `_dbFunctions` object. The mocked behavior returns a `QueryResult` object that simulates the result of a GraphQL mutation. The `QueryResult` object contains a map with a key of `sendMessageToDirectChat`, which contains a value that represents the returned `ChatMessage` object from the mutation.
 
-Overall, this test verifies that the sendMessageToDirectChat method correctly triggers a GraphQL mutation and correctly handles the returned data by updating the _chatMessageController object with the expected ChatMessage object.
+Overall, this test verifies that the `sendMessageToDirectChat` method correctly triggers a GraphQL mutation and correctly handles the returned data by updating the `_chatMessageController` object with the expected `ChatMessage` object.
 
 
-## What to do if you find a bug while writing a test for that file?
+## Troubleshooting
 
 If you find a bug while writing a test for a file, the first thing to do is to write a test case that reproduces the bug. This will help you ensure that the bug is fixed and doesn't reappear in the future.
 
