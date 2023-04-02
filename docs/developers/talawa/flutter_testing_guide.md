@@ -169,11 +169,11 @@ when(myMock.myMethod(any)).thenReturn('my result');
 ```
 This will stub the `myMethod()` method to always return `my result`, regardless of the input value.
 
-# Mocks and Stubs Test Example
+### Mocks and Stubs Test Example
 
 In this example, we'll be testing the `sendMessageToDirectChat` method from our application. This method is responsible for sending direct messages between two users in a private chat. The `sendMessageToDirectChat` method is critical to the functionality of our application, and we need to ensure that it works correctly under a variety of conditions. To do so, we'll be using a combination of manual and automated testing techniques to thoroughly test this method and uncover any potential bugs or issues. By the end of this example, you'll have a better understanding of how to approach testing for critical methods in this application. The file is located in `talawa/lib/services/chat_service.dart` and its tests are written in the file `talawa\test\service_tests\chat_service_test.dart`
 
-# Method Under Test
+#### Method Under Test
 
 `sendMessageToDirectChat` is the function that sends a message of a person in his/her desired chat. Below is the code of this method which is to be tested if its functioning properly or not.
 
@@ -198,7 +198,7 @@ Future<void> sendMessageToDirectChat(
   }
 ```
 
-##### Sample Mock and Test Code
+#### Sample Mock and Test Code
 
 Test written for this method looks like this
 
@@ -243,7 +243,7 @@ test('Test SendMessageToDirectChat Method', () async {
     })
 ```
 
-##### Test Explanation
+#### Test Explanation
 
 Here is a breakdown of what this test does
 
