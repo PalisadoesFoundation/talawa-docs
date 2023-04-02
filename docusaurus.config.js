@@ -37,7 +37,10 @@ const config = {
           editUrl: 'https://github.com/PalisadoesFoundation/talawa-docs/tree/develop/docs',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/css/index.css'),
+          ],
         },
       }),
     ],
@@ -72,7 +75,7 @@ const config = {
         {
           to: "docs/talawa-api/modules",
           activeBasePath: "docs",
-          label: "Talawa-api",
+          label: "Talawa-API",
           position: "left",
         },
         {
@@ -82,6 +85,11 @@ const config = {
           'aria-label': 'GitHub repository',
         },
         ],
+      },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       footer: {
         style: 'dark',
