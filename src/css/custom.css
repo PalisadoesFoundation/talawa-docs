@@ -106,12 +106,12 @@ html[data-theme="dark"] {
 .table-of-contents > li:not(:last-of-type) > ul {
   margin-bottom: 1.5rem;
 } */
-.table-of-contents__left-border li ul li a {
+/* .table-of-contents__left-border li ul li a {
   font-size: 0.75rem !important;
 }
 .table-of-contents__left-border li a:nth-child(1) {
   font-size: 0.9rem;
-}
+} */
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
