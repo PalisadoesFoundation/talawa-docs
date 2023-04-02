@@ -103,7 +103,7 @@ To generate a mock object using Mockito, you can follow these steps:
   ```
 
 
-   ### Example
+### Example
   
   Suppose you have a `Calculator` class that performs arithmetic operations, and you want to test a `CalculatorController` class that uses the Calculator to perform
   calculations. To isolate the `CalculatorController` for testing, you can create a mock `Calculator` object that simulates the behavior of the real Calculator.
