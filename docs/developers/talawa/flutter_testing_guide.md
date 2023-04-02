@@ -74,7 +74,7 @@ This will run all the tests in your project, including the `Calculator add` meth
 ```
 If the test fails (for example, if the add method in calculator.dart was implemented incorrectly), you will see an error message in your terminal indicating what went wrong.
 
-## Examples
+## Intermediary Test Examples
 
 Now moving towards a more complex example where we will see the use of mocks and stubs to generate relevant tests for our code. First we will see what are mocks and stubs and how to use them.
 
