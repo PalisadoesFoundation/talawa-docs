@@ -1,6 +1,6 @@
 ---
 id: admin
-title: Admin
+title: Admin & Super Admin
 ---
 
 ## Who Is An Administrator (`Admin`)?
@@ -15,10 +15,35 @@ An administrator for an organization would be similar to a pastor for a church o
 
 ## What should an `Admin` do ?
 
-    1. Assign available roles to users.
+1. Add/ remove members from organisation.
+2. Elevate/remove users to/from admin.
+3. Create/Delete group chats.
+4. Create/Delete events.
+5. Admin can join/exit multiple organisations.
+6. Admin can message everyone at once in an organization/s.
+7. Admin can moderate newsfeed.
+    i.Admin can delete post/s (at one time).
+    ii.Admin can enable/disable comments.
+    iii.Admin can archive posts.
+    iv.Admin can hide likes from a post.
+    v.Admin can manage sharing limits of a post/event.
+8. Admin can ban/unban user from organisation (with a documented reason).
 
-    2. Grant elevated access to organisation features to support its management and moderation.
 
-    3. Demote a member from an elevated position, restricting elevated access.
+Super Admin
+---
 
-    4. Block a specific member for a valid reason
+
+## Who Is An Super Administrator (`SuperAdmin`)?
+
+In addition to having all Admin permissions, Super Administrators are users who have the ability to manage and moderate administrators and organizations.
+
+ 
+## What should an `SuperAdmin` do ?
+
+1. They can do what Admin can do but with higher access rights than Admin.
+2. They can add/remove Admin's access to certain feature/s organization/s.
+3. They can remove/ban Admins.
+4. They can report Admins.
+5. They can remove and moderate organizations.
+6. They can ban/unban Admin from organisation or in general (with a documented reason).
