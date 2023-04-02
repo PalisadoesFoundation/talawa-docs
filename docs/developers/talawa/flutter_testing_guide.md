@@ -113,12 +113,9 @@ To generate a mock object using Mockito, you can follow these steps:
   
   ```dart
   import 'package:mockito/mockito.dart';
-
-class MockCalculator extends Mock implements Calculator {}
-
-// Create the mock object in your test case
-final calculator = MockCalculator();
-
+  class MockCalculator extends Mock implements Calculator {}
+  // Create the mock object in your test case
+  final calculator = MockCalculator();
   ```
   
   Now, you can use the `calculator` mock object to simulate the behavior of the `Calculator` in your tests. For example, here's a test that verifies that the
