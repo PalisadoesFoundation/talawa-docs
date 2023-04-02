@@ -383,7 +383,7 @@ Please read the `Research` section of this document for background information
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** "API: Improved Backend Performance and Security"
 1. **Project Size:** 350 hours (Large)
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002), Nishnata Debnath (GitHub: nishnatadebnath)
 1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -549,7 +549,7 @@ We realize that this list isn't exhaustive. There are many more opportunities th
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
-7. **Possible Mentors:** Sagar Utekar (@Sagar2366)
+7. **Possible Mentors:** Sagar Utekar (@Sagar2366), Eva Sharma (@evasharma12)
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory
 
