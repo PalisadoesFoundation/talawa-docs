@@ -216,7 +216,7 @@ Please read the `Research` section of this document for background information
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 350 hours (Large)
 1. **Possible Mentors:** Tasneem Koushar (GitHub: tasneemkoushar), Dominic Mills (GitHub: DMills27)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development
@@ -248,7 +248,7 @@ Please read the `Research` section of this document for background information
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 350 hours (Large)
 1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002), Aditya Birangal (@AdityaBirangal)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
@@ -273,7 +273,7 @@ Please read the `Research` section of this document for background information
 1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** None
-1. **Project Size:** 350 hours
+1. **Project Size:** 350 hours (Large)
 1. **Possible Mentors:** Ritik Kumar Srivastava (@cyberwake), Tasneem Koushar (@tasneemkoushar)
 1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
@@ -294,7 +294,7 @@ Please read the `Research` section of this document for background information
 1. **Repos to update:** Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: Multi-Tenancy`
-1. **Project Size:** 350 hours
+1. **Project Size:** 350 hours (Large)
 1. **Possible Mentors:** Mikey Lue (GitHub: JamaicanFriedChicken), Saiabhiteja Chepuri (GitHub: saiabhiteja)
 1. **Difficulty:** Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
@@ -336,7 +336,7 @@ Please read the `Research` section of this document for background information
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** "API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API"
-1. **Project Size:** 350 hours
+1. **Project Size:** 350 hours (Large)
 1. **Possible Mentors:** Kevonia Tomlinson (GitHub: Kevoniat)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Core development, Risky/Exploratory
@@ -360,7 +360,7 @@ Please read the `Research` section of this document for background information
 4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** None
-7. **Project Size:** 350 hours
+7. **Project Size:** 350 hours (Large)
 8. **Possible Mentors:** Sumitra Saksham (@sumitra19jha), Saiabhiteja Chepuri (@saiabhiteja)
 9. **Difficulty:** Hard
 10. **Impact Definition:** Risky/Exploratory
@@ -382,8 +382,8 @@ Please read the `Research` section of this document for background information
 1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin.
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** "API: Improved Backend Performance and Security"
-1. **Project Size:** 350 hours
-1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002)
+1. **Project Size:** 350 hours (Large)
+1. **Possible Mentors:** Md Noman Khan (GitHub: noman2002), Nishnata Debnath (GitHub: nishnatadebnath)
 1. **Difficulty:** Medium/Hard
 1. **Impact Definition:** Core development, Risky/Exploratory
 
@@ -509,7 +509,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 1. **Repos to update:** Talawa-API, Talawa-Admin, Talawa
 1. **Skills Required:** Code stacks related to repos above. See introduction section.
 1. **Depends on Project:** `Admin: UI Redesign`
-1. **Project Size:** 350 hours
+1. **Project Size:** 350 hours (Large)
 1. **Possible Mentors:** Tyrone Taylor (GitHub: ttaylor92), Anthony Brown (GitHub: tonythegr8)
 1. **Difficulty:** Medium
 1. **Impact Definition:** Risky/Exploratory
@@ -528,7 +528,7 @@ We always need intuitive layouts and workflows. This applies to both existing fe
 3. **Repos to update:** Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** `API: Multi-Tenancy`
-6. **Project Size:** 350 hours
+6. **Project Size:** 350 hours (Large)
 7. **Possible Mentors:** Sumitra Saksham (@sumitra19jha), Eva Sharma (@evasharma12)
 8. **Difficulty:** Hard
 9. **Impact Definition:** Core development, Risky/Exploratory
@@ -549,7 +549,7 @@ We realize that this list isn't exhaustive. There are many more opportunities th
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
-7. **Possible Mentors:** Sagar Utekar (@Sagar2366)
+7. **Possible Mentors:** Sagar Utekar (@Sagar2366), Eva Sharma (@evasharma12)
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory
 
