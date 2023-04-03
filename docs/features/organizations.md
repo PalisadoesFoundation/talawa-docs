@@ -27,7 +27,7 @@ _Authored by_ _ **Gareth Thomas** _ _. Last updated on_ _ **18/05/21** _
 
 This feature aims to _ **allow organisations to join the talawa platform** _ by _ **establishing the flow by which this is done** _.
 
-## Overview
+### Overview
 
 ### Problem
 
@@ -45,7 +45,7 @@ N/A
 
 1. **Feature Lead**: clarify feature changes and assumptions.
 
-## Context
+### Context
 
 ### Use Cases
 
@@ -53,7 +53,7 @@ N/A
    1. **Register for an account and create an organisation** : Where they are a new user, they are expected to initially create a new master account that will establish them as the owner and admin of the organisations they intend to create.
    2. **Create additional organisations**: Where they are an existing user, they should be able to create other organisations to which they will also be the owner of and an admin.
 
-## Proposal/Solution
+### Proposal/Solution
 
 See similar references of platform onboarding:
 
@@ -80,6 +80,6 @@ See similar references of platform onboarding:
 
 N/A
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A

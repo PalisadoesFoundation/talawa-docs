@@ -14,6 +14,7 @@ This section is a work in progress.
 We will assume that at least one person in the organization has access to a traditional computer device with a non-mobile size screen to help them do administrative tasks via the portal.
 
 ### Functions from App
+
 Administrators will also need to be able to do some portal tasks from their phones such as:
 
 1. Add/ remove members
@@ -22,15 +23,16 @@ Administrators will also need to be able to do some portal tasks from their phon
 4. Create/Update/Delete events
 5. Add/ Remove Admins
    1. Only the organization's creator can remove admins
-6. Manage and switch between multiple organization   
+6. Manage and switch between multiple organization
 7. Sending organization wide messages
 8. Elevating members to coordinators
 9. Moderating Newsfeed
-    1. Mute people
-    2. Enable/ disable commenting on posts
-    3. Thumbs up/down
-   
+   1. Mute people
+   2. Enable/ disable commenting on posts
+   3. Thumbs up/down
+
 ### Functions from Admin Portal
+
 1. Determine whether membership to the organization is public or private
 2. Add or remove members
 3. Add or remove other organizational admins
@@ -48,19 +50,19 @@ This section is a work in progress.
 
 :::
 
-### Code: ADM-001 
+### Code: ADM-001
 
-_Authored by__ **Shannika Jackson** __. Last updated on_ _ **May 18,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **May 18,2021** _
 
 This feature aims to _ **enhance the admin role** _ by _ **allowing admin users to send messages to an entire organization** _.
 
-## Overview
+### Overview
 
 ### Problem
 
 1. **Messages can now be sent only directly from one user to another :**
-    1. The admins in an organization can only send direct messages
-    2. The need exists to communicate instantly with all members of an organisation
+   1. The admins in an organization can only send direct messages
+   2. The need exists to communicate instantly with all members of an organisation
 
 ### Goals
 
@@ -80,7 +82,7 @@ The following are the primary roles foreseen in the development of this feature
 
 1. **Feature Lead** : will review proposed solutions, acceptance and close feature
 
-## Context
+### Context
 
 NA
 
@@ -88,7 +90,7 @@ NA
 
 NA
 
-## Proposal/Solution
+### Proposal/Solution
 
 ### User Experience
 
@@ -105,7 +107,7 @@ NA
 
 Items mentioned in the Out of Scope section will form the basis for future work to be done on this feature
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 TBD
 
@@ -120,7 +122,8 @@ This section is a work in progress.
 :::
 
 ### Code: ADM-004
-_Authored by__ **Shannika Jackson** __. Last updated on_ _ **March 27,2021** _
+
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 27,2021** _
 
 This feature aims to _ **enhance the admin portal** _ by _ **allowing admin users to manage other member profiles - such as adding or removing members** _.
 
@@ -135,6 +138,7 @@ This section is a work in progress.
 :::
 
 ### Code: ADM-003
-_Authored by__ **Shannika Jackson** __. Last updated on_ _ **March 14,2021** _
+
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 14,2021** _
 
 This feature aims to _ **enhance the admin portal** _ by _ **allowing admin users moderate newsfeed** _.

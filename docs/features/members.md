@@ -8,7 +8,7 @@ This section aims to give an outline of the features that make up the core of ho
 1. Member Registration
 2. Member Roles
 3. Validating users for the organization
-4. Access Banning 
+4. Access Banning
 5. Access Recovering
 
 ## Registration
@@ -25,7 +25,8 @@ _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
 
 This feature aims to _ **enable member access** _ by _ **allowing members to register for an organization with the use of a unique identifier.** _
 
-## Overview
+### Overview
+
 This feature requires the creation and implementation of a unique identifier for each member of the organization. This identifier will allow for accurate tracking of each member's activity within the app and enable personalized user experiences. It is imperative to ensure that the identification process is secure and that user privacy is maintained. By having a unique identifier for each user, it will be easier to analyze user behavior, provide better customer support, and identify and address any issues that may arise.
 
 ### Problem
@@ -47,14 +48,14 @@ N/A
 
 1. **Xavier Bryson (Feature Lead)**: provide clarity on feature changes and assumptions.
 
-## Context
+### Context
 
 ### Use Cases
 
 1. **New users want to:**
-  1. **Register for an account within a given organisation** : where an organisation is public or once access has been granted to them by the organization admin
+1. **Register for an account within a given organisation** : where an organisation is public or once access has been granted to them by the organization admin
 
-## Proposal/Solution
+### Proposal/Solution
 
 TBD
 
@@ -70,7 +71,7 @@ N/A
 
 N/A
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A
 
@@ -84,14 +85,14 @@ This section is a work in progress.
 
 :::
 
-
 ### Code: MEM-002
 
 _Authored by_ _ **Gareth Thomas** _ _. Last updated on_ _ **Mar 14,2021** _
 
 This feature aims to _ **introduce application roles** _ by _ **defining how they work and how they affect the users experience with Talawa** _.
 
-## Overview
+### Overview
+
 Assigning roles to team members is a crucial feature that enables a personalized experience for each user within an application. Through the allocation of a defined set of roles, access to specific features can be granted based on the assigned role, ensuring that only relevant features are available. This feature enhances application security and efficiency by limiting access to pertinent features and preventing unauthorized personnel from accessing sensitive data. It also improves team management by allowing administrators to easily assign or modify roles to ensure appropriate access levels for everyone. In summary, assigning roles is critical in enhancing the security, efficiency, and user experience within an application.
 
 ### Problem
@@ -110,18 +111,18 @@ Assigning roles to team members is a crucial feature that enables a personalized
 
 1. **Gareth Thomas (Feature Lead)**: sign off on feature changes and assumptions.
 
-## Context
+### Context
 
 ### Use Cases
 
 1. **All users want to:**
-    * Easily identify the role assigned to them
+   - Easily identify the role assigned to them
 2. **Admins want to** :
-    * Assign available roles to users.
-    * Grant elevated access to organisation features to support its management and moderation.
-    * Demote a member from an elevated position, restricting elevated access.
+   - Assign available roles to users.
+   - Grant elevated access to organisation features to support its management and moderation.
+   - Demote a member from an elevated position, restricting elevated access.
 
-## Proposal/Solution
+### Proposal/Solution
 
 #### Predefined Roles
 
@@ -147,7 +148,7 @@ N/A
 1. Consider allowing the creation of roles in the future by an administrator.
 2. Consider allowing selective curation of permissions for the created roles to extend and personalize their Talawa experience.
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A
 
@@ -167,7 +168,8 @@ _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
 
 This feature aims to _ **provide more security within the signup process** _ by _ **incorporating a method for validating new users registering for an organization within the app** _.
 
-## Overview
+### Overview
+
 The incorporation of a user validation method during the signup process for an organization is a vital feature that enhances the security of the application. This feature provides a secure mechanism for approving new members registering for an organization within the app.
 
 By enabling the administrator to oversee the registration and approval process, this feature allows for a streamlined and intuitive experience for both the administrator and the users. The process should be user-friendly and easy to navigate, ensuring that the members can register with ease while providing the admin with the necessary tools to review and approve new members.
@@ -185,7 +187,7 @@ We need a method for administrators to pre-approve users. Additionally, we need 
 ### Goals
 
 1. **Allow for a secure method of approving new members to an organization within the app** :
- Enable the admin to oversee the registration and/or approval of members to an organization. The process should be seamless and intuitive to both users (Admin &amp; Members) of the application.
+   Enable the admin to oversee the registration and/or approval of members to an organization. The process should be seamless and intuitive to both users (Admin &amp; Members) of the application.
 
 ### Out of Scope
 
@@ -195,14 +197,13 @@ N/A
 
 1. **Xavier Bryson (Feature Lead)**: Make decision on final solution.
 
-
-## Context
+### Context
 
 ### Use Cases
 
 TBD.
 
-## Proposal/Solution
+### Proposal/Solution
 
 1. A pre-approved list of phone numbers.
 
@@ -210,30 +211,34 @@ TBD.
 
 3. One time password/token given to the user generated by admins
 
- Note: Ideally the QR code should contain all the organizations API login information so that it doesn&#39;t need to be re-keyed.
+Note: Ideally the QR code should contain all the organizations API login information so that it doesn&#39;t need to be re-keyed.
 
 ### User Experience
 
 **NB:** Only one of the solutions outlined below should be implemented
 
 #### Solution 1:
-  1. Admins will have access to a list of registered numbers from the admin dashboard.
-  2. Admins will be able to select a number from the list and approve/deny access.
-  3. Members will receive an email/ in app notification once granted access.
+
+1. Admins will have access to a list of registered numbers from the admin dashboard.
+2. Admins will be able to select a number from the list and approve/deny access.
+3. Members will receive an email/ in app notification once granted access.
 
 #### Solution 2:
-  1. Admins will have access to a screen containing a unique QR code.
-  2. Admins will have the ability to regenerate the QR code (to be discussed)
-  3. Member&#39;s will have access to a QR code scanner upon opening the app.
+
+1. Admins will have access to a screen containing a unique QR code.
+2. Admins will have the ability to regenerate the QR code (to be discussed)
+3. Member&#39;s will have access to a QR code scanner upon opening the app.
 
 #### Solution 3:
-  1. Admins will have access to a list of registered numbers.
-  2. Admins will be able to select a number from the list and generate a unique token/password for a member.
-  3. Admins will have access to a share button for sending the token/password to a member&#39;s email/whatsapp/phone number.
-  4. Member&#39;s will be required to enter the info from the previous step after registering for an organization.
-    
+
+1. Admins will have access to a list of registered numbers.
+2. Admins will be able to select a number from the list and generate a unique token/password for a member.
+3. Admins will have access to a share button for sending the token/password to a member&#39;s email/whatsapp/phone number.
+4. Member&#39;s will be required to enter the info from the previous step after registering for an organization.
+
+
     <center> OR </center>
-    
+
     Member&#39;s will be required to enter the provided token while registering for an organization.
 
 ### Important Details To Capture
@@ -244,7 +249,7 @@ N/A
 
 N/A
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A
 
@@ -264,13 +269,14 @@ _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
 
 This feature aims to _ **limit unwanted access** _ by _ **allowing admins to ban accounts, numbers or phone ids from accessing the application** _.
 
-## Overview
+### Overview
+
 Given the sensitivity of an organization's information, it is crucial to have measures in place that restrict unauthorized access. In case of a member's malicious intentions or loss of access to their account, a mechanism is necessary to prevent access from that particular device or account. This feature aims to achieve this objective by enabling admins to ban accounts, phone numbers, or device IDs from accessing the application. It is essential to note that banned accounts should only be restricted from accessing the organization from which they are banned to maintain a secure and seamless user experience.
 
 ### Problem
 
 1. **Access to an organization&#39;s information is sensitive :**
- As such if a member&#39;s intentions is deemed as malicious or of no benefit to the organization, or if a member loses access to his/her device/account, there needs to be a method for limiting access for that device/account.
+   As such if a member&#39;s intentions is deemed as malicious or of no benefit to the organization, or if a member loses access to his/her device/account, there needs to be a method for limiting access for that device/account.
 
 ### Goals
 
@@ -284,13 +290,13 @@ N/A
 
 1. **Xavier Bryson (Feature Lead)**: clarify feature changes and assumptions.
 
-## Context
+### Context
 
 ### Use Cases
 
 N/A
 
-## Proposal/Solution
+### Proposal/Solution
 
 N/A
 
@@ -306,7 +312,7 @@ Banned accounts should only be prevented from accessing the organization from wh
 
 N/A
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A
 
@@ -326,7 +332,8 @@ _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
 
 This feature aims to _ **prevent account loss** _ by _ **allowing members to recover their access via email** _.
 
-## Overview
+### Overview
+
 To provide a more secure and seamless experience for our users, we aim to implement a feature that allows for account recovery. In the event that a user loses their login credentials, they should have an independent and secure way of regaining access to their account.
 
 This feature will also capture information on account recovery in logs, which can be accessed by the admin through the admin portal. This will enable the admin to keep track of account recovery attempts and ensure that the process runs smoothly.
@@ -353,11 +360,11 @@ User&#39;s should have an independent way of recovering access to their account 
 
 1. **Xavier Bryson (Feature Lead)**: clarify functionality and assumptions.
 
-## Context
+### Context
 
 N/A
 
-## Proposal/Solution
+### Proposal/Solution
 
 N/A
 
@@ -373,6 +380,6 @@ Information on account recovery should be captured in logs and displayed within 
 
 N/A
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A

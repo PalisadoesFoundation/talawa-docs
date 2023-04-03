@@ -19,14 +19,13 @@ This section is a work in progress.
 
 :::
 
-
 ### Code: TAG
 
 _Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
 
-This feature aims to _ **track posts** _ by _ **allowing users to subscribe to hashtags**.
+This feature aims to _ **track posts** _ by \_ **allowing users to subscribe to hashtags**.
 
-## Overview
+### Overview
 
 ### Problem
 
@@ -35,7 +34,7 @@ This feature aims to _ **track posts** _ by _ **allowing users to subscribe to h
 ### Goals
 
 1. **Allow for the customizing of a users news feed** :
- With the following of certain topics through hashtags, a user will be able to receive more tailored content.
+   With the following of certain topics through hashtags, a user will be able to receive more tailored content.
 
 ### Out of Scope
 
@@ -45,13 +44,13 @@ N/A
 
 1. **Xavier Bryson (Feature Lead)**: clarify functionality and assumptions.
 
-## Context
+### Context
 
 ### Use Cases
 
 N/A
 
-## Proposal/Solution
+### Proposal/Solution
 
 Similar to Instagram's implementation (outlined in the link below):
 https://help.instagram.com/2003408499915301
@@ -68,6 +67,6 @@ N/A
 
 N/A
 
-## Tasks and Timeline
+### Tasks and Timeline
 
 N/A
