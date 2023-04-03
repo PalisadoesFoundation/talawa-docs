@@ -82,9 +82,9 @@ const WelcomeScreen = () => (
   <p>They span across the globe. Explore this space to learn something new from the community.</p>
   <br/>
   <ul>
-    <li><a href="https://docs.talawa.io/">Explore this site</a></li>
-    <li><a href="https://github.com/PalisadoesFoundation" target="_blank">Visit our GitHub pages</a></li>
-    <li><a href="https://github.com/PalisadoesFoundation/talawa" target="_blank">Join our Slack channel</a></li>
+    <li><a href="/docs/">Explore this site</a></li>
+    <li><a href="https://github.com/PalisadoesFoundation" target="_self">Visit our GitHub pages</a></li>
+    <li><a href="https://github.com/PalisadoesFoundation/talawa#readme" target="_self">Join our Slack channel</a></li>
   </ul>
   <br/>
   <strong>Jump in and get started!</strong>
@@ -143,14 +143,14 @@ function HomeCallToAction() {
       <ActionButton
         type="primary"
         href="https://github.com/PalisadoesFoundation"
-        target="_blank"
+        target="_self"
         buttonClassName="custom-button">
         Learn More
       </ActionButton>
       <ActionButton
         type="secondary"
-        href="https://docs.talawa.io/docs/"
-        target="_blank">
+        href="/docs/"
+        target="_self">
         Developers
       </ActionButton>
     </>
@@ -240,8 +240,8 @@ function HeaderHero() {
         columnTwo={
           <>
             <h1 className="title">Talawa</h1>
-            <h2 className="tagline">Powering Closer Communities.</h2>
-            <p className="description">For religious organizations, charities and other non-profits.</p>
+            <h2 className="tagline">Powering Closer Communities</h2>
+            <p className="description">For religious organizations, charities and other non-profits</p>
             <div className="buttons">
               <HomeCallToAction />
             </div>

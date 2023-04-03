@@ -174,8 +174,7 @@
 }
 
 .ActionButton.primary:hover {
-  color: black;
-  background-color: white;
+  color: white;
 }
 
 .ActionButton.secondary {
@@ -551,7 +550,7 @@
  
  .Heading {
    font-size: 25px;
-   color: #31BB6B;
+   color: #000000;
    line-height: 1.2;
    margin-top: 0;
    margin-bottom: 20px;
