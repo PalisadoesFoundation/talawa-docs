@@ -978,7 +978,10 @@
    padding-top: 30px; 
    left: 300px;
 }
-
+/* Correction for the bottom space in section six*/
+#docusaurus_skipToContent_fallback > section.Section.SixthPanel.tint > div > div.column.last.right > div{
+    margin-bottom: 0;
+}
 
 /* Native Code */
 
@@ -990,7 +993,7 @@
 }
 
 .SixthPanel .column.last {
-  margin-bottom: -30px;
+  margin-bottom: -49px;
 }
 
 .SixthPanel pre {
