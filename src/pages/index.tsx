@@ -332,7 +332,7 @@ function CrossPlatform() {
 
 function SixthPanel() {
   return (
-    <Section className="SixthPanel" background='tint'>
+    <Section className="SixthPanel" background='tint' >
       <TwoColumns
         columnOne={
           <TextColumn
