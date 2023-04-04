@@ -5,13 +5,13 @@ title: API Error Handling Guide
 
 This page outlines the core design principles for handling errors within the GraphQl Layer in Talawa-API code base and relaying said errors back to the client apps.
 
-(Marc-Andre Giroux `6a`)[https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors] is the basis of the approach chosen for Error Handling in the Talawa api codebase.
+[Marc-Andre Giroux `6a`](https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors) is the basis of the approach chosen for Error Handling in the Talawa api codebase.
 
 ## Graphql Errors
 
 ### Introduction
 
-GraphQl is a great tool for building APIs when there is need to give the client more control over the data it needs from the server, where the clients fetch only the data they need in the payload returned by the server. (It returns data in a form which closely resembles a grapq, so all data exhanged between client and api should be thought of in terms of graphs)[https://graphql.org/learn/thinking-in-graphs/]
+GraphQl is a great tool for building APIs when there is need to give the client more control over the data it needs from the server, where the clients fetch only the data they need in the payload returned by the server. [It returns data in a form which closely resembles a grapq, so all data exhanged between client and api should be thought of in terms of graphs](https://graphql.org/learn/thinking-in-graphs/)
 
 It resolves relations which exist in the business logic of the application with field resolvers only if the client specifically asks that relation to be resolved. This means lesser computation required to compute data not specifically needed by clients.(A resolver is basically a function with the same name as the field/relation that it resolves and returns)
 
@@ -62,6 +62,6 @@ Now the problems with this approach ->
 
 ### The Solution
 
-The general philosophy at play is that Errors are considered exceptional. Your user data should never be represented as an Error. If your users can do something that needs to provide negative guidance, then you should represent that kind of information in GraphQL as Data not as an Error. Errors should always represent either developer errors or exceptional circumstances (e.g. the database was offline).(Lee Byron makes that clear in a few comments on the GraphQL-Spec repository.)[https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207]
+The general philosophy at play is that Errors are considered exceptional. Your user data should never be represented as an Error. If your users can do something that needs to provide negative guidance, then you should represent that kind of information in GraphQL as Data not as an Error. Errors should always represent either developer errors or exceptional circumstances (e.g. the database was offline).[Lee Byron makes that clear in a few comments on the GraphQL-Spec repository.](https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207)
 
 
