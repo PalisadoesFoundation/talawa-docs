@@ -166,6 +166,7 @@
    border-bottom: none;
    transition: all 0.2s ease-out;
    max-width: 50%;
+   border-radius: .375rem;
  }
 
 .ActionButton.primary {
@@ -199,6 +200,16 @@
      width: 100%;
      display: block;
      white-space: nowrap;
+   }
+   .ActionButton.secondary {
+    margin-top: 1rem;
+    margin-left: auto;
+   }
+   .native-apps-image{
+    position: static;
+   }
+   .eigth-panel-image{
+    position: static;
    }
  }
  
@@ -326,6 +337,8 @@
    .FastRefresh video {
      width: 100%;
    }
+
+
  }
  
  @media only screen and (min-width: 481px) and (max-width: 960px) {
