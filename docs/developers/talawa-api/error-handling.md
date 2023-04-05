@@ -65,3 +65,16 @@ Now the problems with this approach ->
 The general philosophy at play is that Errors are considered exceptional. Your user data should never be represented as an Error. If your users can do something that needs to provide negative guidance, then you should represent that kind of information in GraphQL as Data not as an Error. Errors should always represent either developer errors or exceptional circumstances (e.g. the database was offline).[Lee Byron makes that clear in a few comments on the GraphQL-Spec repository.](https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207)
 
 
+Most of the "Errors" in GraphQL are client side errors not server side errors.
+
+For example errors like `Duplicate Email` or  `Password too short` errors are not server errors they are the client's fault, the server is sending the data requested just that the errors are the ***Result*** of the operation requested by the client. Unlike Errors like `Bad Gateway` or `Internal Server Error` which is the servers fault.
+
+Hence we will need to model the client side errors as results NOT errors.
+
+That is why the 6a(Errors Union List + Interface Contract ) approach is chosen for talawa-api, so that it is easier to send errors with data.
+
+Let us take a look at this Approach for these practical cases ->
+
+1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for.
+2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both. 
+3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directlt affect the attributes of other resolved related nodes.
