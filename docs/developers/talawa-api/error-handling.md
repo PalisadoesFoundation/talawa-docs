@@ -322,8 +322,8 @@ data: {
         lastName: "Potter",
         email: null
       } ,
-      accessToken: "9483hr34j2r04r8324r2398r82913udewqdj",
-      refreshToken: "1892734-1jioqwejqwu89qwefewfj98jwq"
+      accessToken: null,
+      refreshToken: null
   } ,
   signUpErrors: [
     {
@@ -345,7 +345,7 @@ data: {
 As you can see, 
 
 1. The `signUpErrors` contains the errors we expected.
-2. The `signUpData` has only user.email thrown an error (we are not fetching the password and _id is returned by the DB operation which was failed in the resolver) and is the only field fetched, returned null in data and error in the `signUpErrors` and other fetched data are unaffected.
+2. The `signUpData` has only user.email thrown an error (we are not fetching the password and _id, access and refresh token field is returned by the DB operation which was failed in the resolver) and is the only field fetched, returned null in data and error in the `signUpErrors` and other fetched data are unaffected.
 
 
 
