@@ -9,7 +9,7 @@ This page outlines the core design principles for handling errors within the Gra
 
 ## Graphql Errors
 
-### Introduction
+## Introduction
 
 GraphQl is a great tool for building APIs when there is need to give the client more control over the data it needs from the server, where the clients fetch only the data they need in the payload returned by the server. [It returns data in a form which closely resembles a graph, so all data exhanged between client and api should be thought of in terms of graphs](https://graphql.org/learn/thinking-in-graphs/)
 
@@ -26,7 +26,7 @@ In short GraphQl allows the clients to (These points will be important later on)
 
 This is perfect when everything runs as expected but what if it does not? How does GraphQl by default handle these 4 points for thinking in terms of graphs when an error is made?
 
-### Problem with default Graphql Errors
+## Problem with default Graphql Errors
 
 We will understand more about default Graphql Errors with an example.
 
@@ -60,7 +60,7 @@ Now the problems with this approach ->
 2. By default if the `errors` array is present then the resulting query will return `null` in the `data` field. By that this means even if some nested resolver fails, that has the impact on the result of the root parent resolver (contradicts Introduction point 4).Essentially failure of a related node leads to the failure of parent node.This can potentially be a deal breaker if you're wanting to have errors returned as part of a mutation, but want to query for data on the result anyways. A common examp;e is returning an error with some partial data for private Organization(name , location etc) even if a lot of background details like members , admins etc should not be returned.
 3. GraphQL errors encode exceptional scenarios - like a service being down or some other internal failure. Errors which are part of the API domain should be captured within that domain, and relayed to the client as information, NOT Graphql error.
 
-### The Solution
+## The Solution
 
 The general philosophy at play is that Errors are considered exceptional. Your user data should never be represented as an Error. If your users can do something that needs to provide negative guidance, then you should represent that kind of information in GraphQL as Data not as an Error. Errors should always represent either developer errors or exceptional circumstances (e.g. the database was offline).[Lee Byron makes that clear in a few comments on the GraphQL-Spec repository.](https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207)
 
@@ -75,6 +75,278 @@ That is why the 6a(Errors Union List + Interface Contract ) approach is chosen f
 
 Let us take a look at this Approach for these practical cases ->
 
-1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for.
-2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both. 
-3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directlt affect the attributes of other resolved related nodes.
+1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for.(**Field Level Errors**)
+2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both.(**Atomic Errors**)
+3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes.(**Nested Resolver Errors** )
+
+Now Let us look at each of these cases with example `mutations/queries` within the `talawa-api`. We will be doing so for both the API and client part to better understand it.
+
+### Field Level Errors -
+
+#### API 
+Field Level Errors describe any errors assisciated with a specific field.
+
+In GraphQL, you can request specific fields from an API, and the API will respond with data for those fields. Field errors can occur when there's a problem with one of the fields you've requested.
+
+For example Let us look at the `signUp` Mutation.
+
+The type definitions relevant for `signUp` Mutation->
+
+```javascript
+  input SignUpInput {
+    firstName: String!
+    lastName: String!
+    email: EmailAddress!
+    password: String!
+    appLanguageCode: String
+    organizationUserBelongsToId: ID
+  }
+
+  type AuthData {
+    user: User!
+    accessToken: String!
+    refreshToken: String!
+    androidFirebaseOptions: AndroidFirebaseOptions!
+    iosFirebaseOptions: IOSFirebaseOptions!
+  }
+ // Here I went ahead and made the EmailAddress Scalar and _id as nullable the rest is the same, this is important for use later
+  type User {
+    tokenVersion: Int!
+    _id: ID
+    firstName: String!
+    lastName: String!
+    email: EmailAddress
+    userType: String,
+    appLanguageCode: String!
+    createdOrganizations: [Organization]
+    joinedOrganizations: [Organization]
+    createdEvents: [Event]
+    registeredEvents: [Event]
+    eventAdmin: [Event]
+    adminFor: [Organization]
+    membershipRequests: [MembershipRequest]
+    organizationsBlockedBy: [Organization]
+    image: String
+    organizationUserBelongsTo: Organization
+    pluginCreationAllowed: Boolean
+    adminApproved: Boolean
+    createdAt: DateTime
+    tagsAssignedWith(
+      after: String
+      before: String
+      first: PositiveInt
+      last: PositiveInt
+      organizationId: ID
+    ): UserTagsConnection
+  }
+```
+Now, let us take a look at the definition of error union for the `signUp` mutation.
+
+GraphQL unions are a way to represent different types of objects in your schema that share some common fields. A union is a composition of multiple types and is useful when we require type definition for an entity that could have multiple types
+
+The interface `UserError` will act as an `interface contract`. The exact purpose for it will be cleared when we reach the  client side explaination part.
+```typescript
+// now begins the Error unions types, we can consume many error types in this
+union SignUpError = EmailTaken | PasswordTooShort | UserError
+
+type EmailTaken implements UserError {
+  message: String!
+  path: String!
+  suggestion: String!
+}
+
+type PasswordTooShort implements UserError {
+  message: String!
+  path: String!
+  minimumLength: Int!
+}
+
+interface UserError {
+  message: String!
+  path: String!
+}
+```
+
+As you can see the `signUp` mutation has a return type of `SignUpResult!` which in turn contains `signUpData` with the return type `AuthData` and `signUpErrors` with return type of an array of the `SignUpError` union. This way the `signUp` mutation returns both the actual relevant data and the errors as result.
+
+```javascript
+// Here is the return type of signup mutation  notice how the signUpData is nullable here, well that is optional.
+
+type SignUpResult {
+    signUpData : AuthData ,
+    signUpErrors : [SignUpError!]
+}
+
+type Mutation {
+   signUp(input: SignUpInput!): SignUpResult!
+}
+```
+
+Let us look at the pseudo code for the resolver now.
+
+```javascript
+const resolvers = {
+  Mutation: {
+    signUp: async (parent, args, context) => {
+          //the general approach of how this would work.
+           userObj = {} ,
+           signUpErrors = []
+           If(CHECK DUPLICATION OF EMAIL ) {
+                 SET THE EMAIL FIELD OF  USEROBJ TO BE RETURNED AS NULL ; 
+                 signUpErrors.push({
+                      __typename: "EmailTaken" ,
+                        message: "Email is already taken"
+                        path: "UserInput.email"
+                        suggestion: `Try to provide a unique mail or make sure you have not created an account 
+                        already`
+                 })
+           }
+
+           If (CHECK args.PASSWORD LENGTH) {
+                   userErrors.push({
+                      __typename: "PasswordTooShort" ,
+                        message: "Password length is too short"
+                        path: "UserInput.password"
+                        minimumLength: 8
+                   })
+           }
+           // Approach when we need to fall on a general error based on the interface contract `UserError`
+           If (CERTAIN CHECK WHERE WE WOULD NEED TO ADD THAT ERROR IN THE 
+                  signUpErrors ARRAY) {
+                    userErrors.push({
+                            __typename:"UserError" ,
+                            message: "message" , 
+                            path: "path"
+                    })
+                  
+            }
+
+          // Here we will be returning multiple errors in the form on an array of signUpErrors
+          if (signUpErrors) {
+               return  {
+                   signUpData: {
+                         user : userObj,
+                          .... other AuthData fields
+                   } , 
+                   signUpErrors
+
+               }
+          }
+          
+          EVERYTHING IS OKAY, CREATE THE USER IN DB,
+          
+          return  {
+                   signUpData: {
+                         user : CreatedUserObj,
+                          .... other AuthData fields
+                   } , 
+                   signUpErrors
+
+           }
+
+     }
+  }
+}
+```
+
+In this approach for resolving Field Errors ->
+
+1. Multiple Errors can be sent back to the client when needed in case the client apps need to display those errors concurrently with UI elements
+2. An Error for a field means only that field will be sent as null in the query, other fields will remain unaffected.
+3. A general purpose interface contract `UserError` to fall back to in case we want to send a general purpose error back to the client.
+
+
+#### Client
+
+Let us take a look at how the clients would be making this query.
+
+```javascript
+mutation {
+  signUp(
+    input: {
+      firstName: "Harry"
+      lastName: "Potter"
+      email: "someDuplicateEmail"
+      password: "12345"
+    }
+    ) {
+    signUpData { 
+      user: {
+        _id,
+        firstName,
+        lastName,
+        email
+      } ,
+      accessToken,
+      refreshToken
+     }
+    signUpErrors {
+      # Specific cases
+      ... on EmailTaken {
+        __typename
+        message
+        path
+        suggestion
+      }
+
+      ... on PasswordTooShort {
+        __typename
+        message
+        path
+        minimumLength
+      }
+
+      # Interface contract to handle general purpose Error
+      ... on UserError {
+        message
+        path
+      }
+    }
+  }
+}
+```
+
+As you can see from this mutation input, the following mutation should result in the `EmailTaken` and `PasswordTooShort` Error based on our resolver.
+
+The UserError is to handle any general purpose error that way we get extensibility of the interface with the expressivity of the union.
+
+Hence, this mutation will return a response that looks like this.
+
+```typescript
+
+data: {
+  signUpData: {
+      user: {
+        _id:null,
+        firstName: "Harry",
+        lastName: "Potter",
+        email: null
+      } ,
+      accessToken: "9483hr34j2r04r8324r2398r82913udewqdj",
+      refreshToken: "1892734-1jioqwejqwu89qwefewfj98jwq"
+  } ,
+  signUpErrors: [
+    {
+      __typename: "EmailTaken" ,
+      message: "Email is already taken"
+      path: "UserInput.email"
+      suggestion: `Try to provide a unique mail or sure you have not created an account already`
+    } , 
+    {
+      __typename: "PasswordTooShort" ,
+      message: "Password length is too short"
+      path: "UserInput.password"
+      minimumLength: 8
+    }
+  ]
+}
+```
+
+As you can see, 
+
+1. The `signUpErrors` contains the errors we expected.
+2. The `signUpData` has only user.email thrown an error (we are not fetching the password and _id is returned by the DB operation which was failed in the resolver) and is the only field fetched, returned null in data and error in the `signUpErrors` and other fetched data are unaffected.
+
+
+
+### Atmoic Errors
