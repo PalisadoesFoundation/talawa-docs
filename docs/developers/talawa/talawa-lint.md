@@ -110,23 +110,24 @@ class MyClass {}
 class MyClass {}
 ```
 
-#### For function/method/getter/setter
+#### For functions and methods
 
-Same rules as for non functions/methods...... as described above, in conjunction with two other
-sections for `params:` and `returns:`
+Same rules as for non functions/methods as described above, in conjunction with two other
+sections for `**params**:` and `**returns**:`
 
 1. Follow same rules as described in the above section.
-2. Add `/// params:` block. This marks the beginning of `params` section where you describe all the parameters
+2. Add `/// **params**:` block. This marks the beginning of `params` section where you describe all the parameters
    that this function takes from the next line. The format being
    - `` /// * `param_name`: `` followed by its description starting in the same line.
    - The description can be multi line and requires no extra formatting.
-   - If the function takes no parameters, `/// params:` should be followed by `/// None` in the next line.
-3. After documenting all of the parameters, add `/// returns:` block.
+   - If the function takes no parameters, `/// **params**:` should be followed by `///   None` in the next line.
+3. After documenting all of the parameters, add `/// **returns**:` block. Note that there must be a blank line `///` between
+    the `**params**` and `**returns**` blocks.
 4. Followed by returns:
    - Add `` /// * `return_type`: `` followed by its description starting in the same line.
    - The description can be multi line and requires no extra formatting.
-   - If the function returns void, `/// returns:` should be followed by `/// None` in the next line.
-     Note that `Future<void>` is different from void. `/// None` is strictly used only for `void` type.
+   - If the function returns void, `/// **returns**:` should be followed by `/// None` in the next line.
+     Note that `Future<void>` is different from void. `///   None` is strictly used only for `void` type.
 
 Examples of valid documentation include:
 
@@ -137,11 +138,11 @@ Examples of valid documentation include:
 ///
 /// Other description.
 ///
-/// params:
-/// None
+/// **params**:
+///   None
 ///
-/// returns:
-/// None
+/// **returns**:
+///   None
 void fun () {}
 ```
 
@@ -152,12 +153,12 @@ void fun () {}
 ///
 /// Other description.
 ///
-/// params:
+/// **params**:
 /// * `name`: description
 /// * `age`: description
 ///
-/// returns:
-/// None
+/// **returns**:
+///   None
 void fun (String? name, int age) {}
 ```
 
@@ -168,10 +169,10 @@ void fun (String? name, int age) {}
 ///
 /// Other description.
 ///
-/// params:
-/// None
+/// **params**:
+///   None
 ///
-/// returns:
+/// **returns**:
 /// * `int`: Answer of life.
 int fun () {
     return 42;
@@ -185,11 +186,11 @@ int fun () {
 ///
 /// Other description.
 ///
-/// params:
+/// **params**:
 /// * `name`: description
 /// * `age`: description
 ///
-/// returns:
+/// **returns**:
 /// * `int`: Answer of life.
 int fun (String? name, int age) {
     return 42;
