@@ -110,9 +110,9 @@ class MyClass {}
 class MyClass {}
 ```
 
-#### For function/method/getter/setter
+#### For functions and methods
 
-Same rules as for non functions/methods...... as described above, in conjunction with two other
+Same rules as for non functions/methods as described above, in conjunction with two other
 sections for `**params**:` and `**returns**:`
 
 1. Follow same rules as described in the above section.
@@ -121,7 +121,8 @@ sections for `**params**:` and `**returns**:`
    - `` /// * `param_name`: `` followed by its description starting in the same line.
    - The description can be multi line and requires no extra formatting.
    - If the function takes no parameters, `/// **params**:` should be followed by `///   None` in the next line.
-3. After documenting all of the parameters, add `/// **returns**:` block.
+3. After documenting all of the parameters, add `/// **returns**:` block. Note that there must be a blank line `///` between
+    the `**params**` and `**returns**` blocks.
 4. Followed by returns:
    - Add `` /// * `return_type`: `` followed by its description starting in the same line.
    - The description can be multi line and requires no extra formatting.
