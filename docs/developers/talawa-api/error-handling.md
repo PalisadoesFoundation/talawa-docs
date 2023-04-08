@@ -75,7 +75,7 @@ That is why the 6a(Errors Union List + Interface Contract ) approach is chosen f
 
 Let us take a look at this Approach for these practical cases ->
 
-1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for.(**Field Level Errors**)
+1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for resolved data.(**Field Level Errors**)
 2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both.(**Atomic Errors**)
 3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes.(**Nested Resolver Errors** )
 
