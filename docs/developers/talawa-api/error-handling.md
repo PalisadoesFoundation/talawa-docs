@@ -534,3 +534,92 @@ Hence now, the only error returned in the response in the Access COntrol Error a
 This wraps up Atomic Errors.
 
 ### Nested Resolver Errors.
+
+**Make sure you are completely thorough with the above two sections before proceeding further.**
+
+To understand nested resolvers in terms of graph nomenclature, it's helpful to think of GraphQL schemas as directed graphs, where the types are nodes and the fields are edges. Each field in the schema has a resolver associated with it, which determines how the data for that field should be retrieved.
+
+When a GraphQL query is executed, the resolver for the root field is called first, and then the resolvers for any nested fields are called recursively. This process continues until all of the fields in the query have been resolved.
+
+Overall, nested resolvers are an important concept in GraphQL because they allow you to retrieve complex data structures in a flexible and efficient way, while keeping your schema simple and easy to understand.
+
+As such we will also need to make sure Errors in one node should not break the entire query.
+
+One such example for nested resolver is `postConnection` one. 
+
+Using the 6a approach, the client side query for a nested resolver will look something like this.
+
+the `organization` query return both the `organizationData` and `organizationErrors` which is pretty much for the same use case as the last two examples.
+
+In the `organizationData` field we have a nested resolver by the name of `postConnection` which resolves and returns all the post it queries for `_id` field of its parent resolver. 
+
+```typescript
+query Query {
+  organization (
+    input : {
+      // an id of a private organization
+      organizationId:"1"
+    }
+  ) {
+    
+      organizationData: {
+        _id ,
+        name, 
+        description,
+        postCount,
+        // here the `edges` are all the resolved posts.
+        postConnection: {
+          postConnectionData: {
+            edges,
+          } , 
+          postConnectionErrors: {
+            ... on PrivatePostsError: {
+              __typename ,
+              message,
+            }
+          }
+        }
+      } ,
+
+      organizationErrors: {
+        ... on OrganizationError{
+          __typename ,
+          message,
+          path,
+        }
+      }
+
+  }
+}
+```
+
+the `PrivatePostError` is one of the type in the union of the return type for `postConnectionError`. I have  discussed about unions, return types in detail in Field Errors section in detail so please do refer about it incase you are not thorough with those terms in this section.
+
+
+Think of the `postConnection` as an individual node. The `PrivatePostError` is thrown only if the organization is private and returns `postConnectionData` as null , and the best part is the Error thrown will not affect other nodes in the graph. This is exactly like the `Atomic` errors section too.
+
+Let's take a look at an example response for a private organization where we query for its postConnection.
+
+```rust
+data: {
+  organizationData:{
+    _id:1,
+    name:"Private Org Name", 
+    description:"Private Org Desc",
+    //postCount being a part of the base object since sometimes we would need to return postCOunt whether or not the org is private (think insta private accounts) 
+    postCount:20,  
+    postConnection: {
+      postConnectionData:null,
+      postConnectionErrors:[
+        {
+          __typename:"PrivatePostsError",
+          message: "Posts of this org are private"
+        }
+      ]
+    }
+  } , 
+  organizationErrors:null
+}
+```
+
+As you can see the `PrivatePostsError` only affected the `postConnection` Node only, it did not affect the organizationErrors object at all.
