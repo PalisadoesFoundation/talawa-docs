@@ -57,7 +57,7 @@ Let's say I am making a query on the `signUp` mutation which accepts `email` , `
 
 Now the problems with this approach ->
 1. The `errors` key of a GraphQL response is not type safe. Graphql is loved because of the consistency and type safety it provides, we do not get the same with the `errors` array. They are specified, but introspection tells a client nothing about what might be found in them, they're harder to evolve, and harder to extend.
-2. By default if the `errors` array is present then the resulting query will return `null` in the `data` field. By that this means even if some nested resolver fails, that has the impact on the result of the root parent resolver (contradicts Introduction point 4).Essentially failure of a related node leads to the failure of parent node.This can potentially be a deal breaker if you're wanting to have errors returned as part of a mutation, but want to query for data on the result anyways. A common example is returning an error with some partial data for private Organization(name , location etc) even if a lot of background details like members , admins etc should not be returned.
+2. By default if the `errors` array is present then the resulting query will return `null` in the `data` field.If a non-nullable field returns null, GraphQL will raise an error. So, null value for a nested resolver results in the whole data object being returned as null and the error message will not provide any additional information about why the field returned null unless specifically handled in the resolver.But if a nested resolver is nullable then an error in the nsted resolver will not affect other fields. However, it will specify the path of the error within the root resolver response itself. For the client apps this would require extra effort in extracting and customizing errors.
 3. GraphQL errors encode exceptional scenarios - like a service being down or some other internal failure. Errors which are part of the API domain should be captured within that domain, and relayed to the client as information, NOT Graphql error.
 
 ## The Solution
@@ -77,7 +77,8 @@ Let us take a look at this Approach for these practical cases ->
 
 1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for resolved data.(**Field Level Errors**)
 2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both.(**Atomic Errors**)
-3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes.(**Nested Resolver Errors** )
+3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes.(**Nested Resolver Errors  (Complex Objects)** )
+4. For custom scalar objects within another object for example PII fields like a user's `email`, `phoneNumber` etc  where there is an Access Control Logic in order to access those fields in an object , we would need to resolve those fields with a custom resolver, an error within that field should not affect other scalar fields.(**Nested Resolver Errors (Scalar Fields )**).
 
 Now Let us look at each of these cases with example `mutations/queries` within the `talawa-api`. We will be doing so for both the API and client part to better understand it.
 
@@ -92,7 +93,7 @@ For example Let us look at the `signUp` Mutation.
 
 The type definitions relevant for `signUp` Mutation->
 
-```rust
+```gql
   input SignUpInput {
     firstName: String!
     lastName: String!
@@ -145,7 +146,7 @@ Now, let us take a look at the definition of error union for the `signUp` mutati
 GraphQL unions are a way to represent different types of objects in your schema that share some common fields. A union is a composition of multiple types and is useful when we require type definition for an entity that could have multiple types
 
 The interface `UserError` will act as an `interface contract`. The exact purpose for it will be cleared when we reach the  client side explaination part.
-```rust
+```gql
 // now begins the Error unions types, we can consume many error types in this
 union SignUpError = EmailTaken | PasswordTooShort | UserError
 
@@ -169,7 +170,7 @@ interface UserError {
 
 As you can see the `signUp` mutation has a return type of `SignUpResult!` which in turn contains `signUpData` with the return type `AuthData` and `signUpErrors` with return type of an array of the `SignUpError` union. This way the `signUp` mutation returns both the actual relevant data and the errors as result.
 
-```rust
+```gql
 // Here is the return type of signup mutation  notice how the signUpData is nullable here, well that is optional.
 
 type SignUpResult {
@@ -203,7 +204,7 @@ const resolvers = {
            }
 
            If (CHECK args.PASSWORD LENGTH) {
-                   userErrors.push({
+                   signUpErrors.push({
                       __typename: "PasswordTooShort" ,
                         message: "Password length is too short"
                         path: "UserInput.password"
@@ -213,7 +214,7 @@ const resolvers = {
            // Approach when we need to fall on a general error based on the interface contract `UserError`
            If (CERTAIN CHECK WHERE WE WOULD NEED TO ADD THAT ERROR IN THE 
                   signUpErrors ARRAY) {
-                    userErrors.push({
+                    signUpErrors.push({
                             __typename:"UserError" ,
                             message: "message" , 
                             path: "path"
@@ -254,8 +255,7 @@ const resolvers = {
 In this approach for resolving Field Errors ->
 
 1. Multiple Errors can be sent back to the client when needed in case the client apps need to display those errors concurrently with UI elements
-2. An Error for a field means only that field will be sent as null in the query, other fields will remain unaffected.
-3. A general purpose interface contract `UserError` to fall back to in case we want to send a general purpose error back to the client.
+2. A general purpose interface contract `UserError` to fall back to in case we want to send a general purpose error back to the client.
 
 
 #### Client
@@ -314,16 +314,11 @@ The UserError is to handle any general purpose error that way we get extensibili
 
 Hence, this mutation will return a response that looks like this.
 
-```rust
+```gql
 
 data: {
   signUpData: {
-      user: {
-        _id:null,
-        firstName: "Harry",
-        lastName: "Potter",
-        email: null
-      } ,
+      user: null,
       accessToken: null,
       refreshToken: null
   } ,
@@ -346,8 +341,8 @@ data: {
 
 As you can see, 
 
-1. The `signUpErrors` contains the errors we expected.
-2. The `signUpData` has only user.email thrown an error (we are not fetching the password and _id, access and refresh token field is returned by the DB operation which was failed in the resolver) and is the only field fetched, returned null in data and error in the `signUpErrors` and other fetched data are unaffected.
+1. The `signUpErrors` contains the errors we expected. which are typesafe and send back xustom error messages. 
+2. The `user` field is null since no user Object was created in the DB because of failure of the operation. 
 
 
 
@@ -364,7 +359,7 @@ Let's take a look at the `createOrganization` mutation for that. Keep in mind th
 
 For that Let us look at the relevant type definitions first.
 #### API
-```rust
+```gql
   input CreateOrganizationInput {
     data: OrganizationInput!
     organizationImage: String
@@ -408,7 +403,7 @@ Most of this is pretty similar to the previous example.
 
 Although the `AccessControlError` interface is there to be implemented within all the other types of RBAC errors.It is not a part of the union for a mutation and hence not an interface contract.
 
-```rust
+```gql
 
 union CreateOrganizationError = UserNotSuperAdminError | OrganizationError
 
@@ -424,13 +419,12 @@ interface OrganizationError {
 
 interface AccessControlError {
   message:String!,
-  roleRequired:String!,
 }
 ```
 
 The mutation types 
 
-```rust
+```gql
 type CreateOrganizationResult {
     createOrganizationData: Organization ,
     createOrganizationErrors: [CreateOrganizationError!]
@@ -516,7 +510,7 @@ mutation Mutation {
 
 After running this mutation the response will be ->
 
-```rust
+```gql
 data: {
   createOrganizationData:null,
   createOrganizationErrors:[
@@ -533,7 +527,7 @@ Hence now, the only error returned in the response in the Access COntrol Error a
 
 This wraps up Atomic Errors.
 
-### Nested Resolver Errors.
+### Nested Resolver Errors. (Complex Objects)
 
 **Make sure you are completely thorough with the above two sections before proceeding further.**
 
@@ -553,7 +547,7 @@ the `organization` query return both the `organizationData` and `organizationErr
 
 In the `organizationData` field we have a nested resolver by the name of `postConnection` which resolves and returns all the post it queries for `_id` field of its parent resolver. 
 
-```typescript
+```gql
 query Query {
   organization (
     input : {
@@ -600,7 +594,7 @@ Think of the `postConnection` as an individual node. The `PrivatePostError` is t
 
 Let's take a look at an example response for a private organization where we query for its postConnection.
 
-```rust
+```gql
 data: {
   organizationData:{
     _id:1,
@@ -623,3 +617,178 @@ data: {
 ```
 
 As you can see the `PrivatePostsError` only affected the `postConnection` Node only, it did not affect the organizationErrors object at all.
+
+### Nested Resolvers Errors (Scalar Fields)
+
+In GraphQL, a scalar field resolver is a resolver function that is responsible for resolving the value of a scalar field. A scalar field is a field that has a scalar type, such as a `String`, `Int`, or `Boolean` or any other Custom Scalar type.
+
+In Graphql Server, resolving fields is done using resolver functions. Resolver functions are responsible for fetching the data for a field, and they are defined in the resolver map, which maps the types and fields in the schema to their respective resolver functions.
+
+When a GraphQL query is received by the server, Graphql Server parses the query and traverses the schema to determine which resolver functions need to be called to resolve the requested fields. For each field in the query, Graphql Server calls the resolver function associated with that field to fetch the data.
+
+Resolver functions can be synchronous or asynchronous, and they can return the data for the field directly, or they can return a Promise that resolves to the data. If a resolver function returns a Promise, Graphql Server will wait for the Promise to resolve before continuing to resolve other fields.
+
+Nested scalar field resolvers in GraphQL are resolver functions that are used to resolve the value of scalar fields that are nested within other fields. For example, consider a `User` type. Here, the `email` field is a PII (Personal Identifiable Information) field and would be encrypted at rest and in transit and thus need to be resolved with its own custom resolver.
+
+We would need to resolve that field seperately when we are fetching a user and treat its errors like it is a nested resolver.
+
+#### API
+
+```gql
+
+type EmailAdressResult {
+  emailData:EmailAddress,
+  emailErrors:[EmailErrors!].
+}
+
+union EmailErrors = PIIError | AccessControlError
+
+type PIIError implements AccessControlError {
+  message: String!,
+  authorisedRole: String!
+}
+
+
+type User {
+    tokenVersion: Int!
+    _id: ID
+    firstName: String!
+    lastName: String!
+    // Here changed the return type to EmailAddressResult
+    email: EmailAddress
+    userType: String,
+    appLanguageCode: String!
+    createdOrganizations: [Organization]
+    joinedOrganizations: [Organization]
+    createdEvents: [Event]
+    registeredEvents: [Event]
+    eventAdmin: [Event]
+    adminFor: [Organization]
+    membershipRequests: [MembershipRequest]
+    organizationsBlockedBy: [Organization]
+    image: String
+    organizationUserBelongsTo: Organization
+    pluginCreationAllowed: Boolean
+    adminApproved: Boolean
+    createdAt: DateTime
+    tagsAssignedWith(
+      after: String
+      before: String
+      first: PositiveInt
+      last: PositiveInt
+      organizationId: ID
+    ): UserTagsConnection
+  }
+
+
+```
+Now let's take a look at their `user` query  resolver types ->
+
+```gql
+type UserResult {
+    userData: User ,
+    userErrors: [UserError!]
+}
+
+
+
+type Query {
+   user(id: ID!): UserResult!
+}
+
+```
+
+And now finally take a look at their resolvers ->
+
+```gql
+
+const resolvers = {
+    Query {
+      user: (parent , args , context ) =>{
+        USER RESOLVER LOGIC
+
+        userObj = FETCHED USER FROM DB WHERE id === args.id
+
+        return userObj
+      }
+    } , 
+
+    User : {
+      email: (parent , args , context ) => {
+        RETRIEVE EMAIL OF THE USER FROM DB WHERE id === parent.id
+
+        emailErrors =[]
+
+        If (ACCESS CONTROL CHECK WHETHER context.user IS NOT AUTHORSIED ) {
+          emailErrors.push(
+            {
+              __typename:"PIIError",
+              message: "Current user is not authorised to access the email of the specified user",
+              authorisedRole: "Only the user himself"
+            }
+          )
+        }
+      }
+    }
+}
+```
+
+#### Client
+
+If the query is made to access an email of another user like this -> 
+
+```gql
+#Here the requesting user i.e context.user has an id of 1 
+query Query {
+  user(
+    id: 5,
+  ) {
+    userData: {
+      _id,
+      userType,
+      email : {
+        emailData.
+        emailErrors: {
+          ... on PIIError {
+            __typename,
+            message,
+            authorsiedRole
+          }
+        }
+      },
+
+    } , 
+    userErrors : {
+      ... on UserError {
+        __typename
+        message
+      }
+    }
+  }
+}
+```
+
+Since here the context user is not allowed to access the email field the returned response is something like this ->
+
+```gql
+data: {
+  userData:{
+    _id: 5,
+    userType: user , 
+    email : {
+      emailData: null,
+      emailErrors: [
+        {
+          __typename:"PIIError",
+          message: "Current user is not authorised to access the email of the specified user",
+          authorisedRole: "Only the user himself"
+        }
+      ]
+    }
+  } ,
+  userErrors: null
+}
+
+```
+
+Since some scalar fields are database intensive to compute within their own custom resolver and because there are not a lot of fields which can fall under "scalars which need Access Control Logic seperately" it is okay to have this approach.
