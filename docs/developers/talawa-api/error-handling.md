@@ -32,7 +32,7 @@ We will understand more about default Graphql Errors with an example.
 
 Let's say I am making a query on the `signUp` mutation which accepts `email` , `name` and `password` and now we will look for the case where my password is shorter than 8 character, then the response returned by default ->
 
-```gql
+```json
 {
   "data": {
     "signUp": null
