@@ -774,7 +774,7 @@ Since here the context user is not allowed to access the email field the returne
 data: {
   userData:{
     _id: 5,
-    userType: user , 
+    userType: "USER" , 
     email : {
       emailData: null,
       emailErrors: [
