@@ -792,3 +792,17 @@ data: {
 ```
 
 Since some scalar fields are database intensive to compute within their own custom resolver and because there are not a lot of fields which can fall under "scalars which need Access Control Logic seperately" it is okay to have this approach.
+
+**Note :**
+
+The purpose of nested resolvers is not "magic", but rather to help organize code and maintain a clean architecture. They are necessary for delegating the computation of expensive or custom fields that only exist at the GraphQL level and not in the database. For instance, `email` is an excellent example of such a field. Other examples include bank `accountNumber`, `bankBalance`, `phoneNumber` (which have some kind of access control logic assiciated with them), and `postCount` or `joinedOrganizationsCount` which are not defined explicitly in the database. By using nested resolvers, we can delegate these operations to the appropriate location and ensure proper organization and maintenance of the code.
+
+When resolving custom or complex fields within the parent resolver, it is possible to return errors related to those fields within the errors field of that parent resolver. While it is technically feasible to resolve an entire GraphQL schema and all related fields within a single resolver, doing so is not in accordance with GraphQL best practices. This approach differs from the root errors approach in that errors are type-safe, whereas in the root errors list they are not. However, when resolving errors for all fields or nested fields within the parent resolver, a long list of possible errors may result.
+
+Adopting a modular approach by extracting data and errors into resolvers can help isolate information to specific fields' resolvers, whether they are for scalar or complex objects. However, this may lead to the GraphQL schema not directly representing relations. As a result, many fields (scalar or complex) may have {success,errors} objects, which can appear peculiar.
+
+**The Tradeoffs:**
+
+1. When errors are not type-safe, the resulting GraphQL schema is generally cleaner. However, it may be more difficult to associate errors with the specific location where they occurred, as all errors are lumped together in a single root errors list. Additionally, error handling for client apps may be more challenging due to the lack of type safety.
+
+2. Conversely, type-safe errors can result in a GraphQL schema that appears complex or unusual. However, errors are typically co-located with the fields where they occurred, making them easier to manage and resolve. Additionally, type safety allows for easier error handling for client apps. 
