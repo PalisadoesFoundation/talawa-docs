@@ -1,0 +1,103 @@
+---
+id: user-order-by-input
+title: UserOrderByInput
+hide_table_of_contents: false
+---
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+No description
+
+
+```graphql
+enum UserOrderByInput {
+  id_ASC
+  id_DESC
+  firstName_ASC
+  firstName_DESC
+  lastName_ASC
+  lastName_DESC
+  email_ASC
+  email_DESC
+  appLanguageCode_ASC
+  appLanguageCode_DESC
+}
+```
+
+
+### Values
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>id_ASC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>id_DESC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>firstName_ASC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>firstName_DESC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>lastName_ASC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>lastName_DESC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>email_ASC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>email_DESC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>appLanguageCode_ASC</b></code>](#) 
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>UserOrderByInput.<b>appLanguageCode_DESC</b></code>](#) 
+> 
+> 
+
+
+
+### Member of
+
+[`organizationsMemberConnection`](/schema/queries/organizations-member-connection)  <Badge class="secondary" text="query"/><Bullet />[`users`](/schema/queries/users)  <Badge class="secondary" text="query"/><Bullet />[`usersConnection`](/schema/queries/users-connection)  <Badge class="secondary" text="query"/>
+

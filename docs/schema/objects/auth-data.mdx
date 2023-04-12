@@ -1,0 +1,78 @@
+---
+id: auth-data
+title: AuthData
+hide_table_of_contents: false
+---
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+No description
+
+
+```graphql
+type AuthData {
+  user: User!
+  accessToken: String!
+  refreshToken: String!
+  androidFirebaseOptions: AndroidFirebaseOptions!
+  iosFirebaseOptions: IOSFirebaseOptions!
+}
+```
+
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>AuthData.<b>user</b></code>](#)<Bullet />[`User!`](/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>AuthData.<b>accessToken</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>AuthData.<b>refreshToken</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>AuthData.<b>androidFirebaseOptions</b></code>](#)<Bullet />[`AndroidFirebaseOptions!`](/schema/objects/android-firebase-options) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>AuthData.<b>iosFirebaseOptions</b></code>](#)<Bullet />[`IOSFirebaseOptions!`](/schema/objects/iosfirebase-options) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+> 
+> 
+
+
+
+### Returned by
+
+[`login`](/schema/mutations/login)  <Badge class="secondary" text="mutation"/><Bullet />[`signUp`](/schema/mutations/sign-up)  <Badge class="secondary" text="mutation"/>
+

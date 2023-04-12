@@ -1,0 +1,83 @@
+---
+id: plugin
+title: Plugin
+hide_table_of_contents: false
+---
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+No description
+
+
+```graphql
+type Plugin {
+  _id: ID!
+  pluginName: String!
+  pluginCreatedBy: String!
+  pluginDesc: String!
+  pluginInstallStatus: Boolean!
+  installedOrgs: [ID!]!
+}
+```
+
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>Plugin.<b>_id</b></code>](#)<Bullet />[`ID!`](/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Plugin.<b>pluginName</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Plugin.<b>pluginCreatedBy</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Plugin.<b>pluginDesc</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Plugin.<b>pluginInstallStatus</b></code>](#)<Bullet />[`Boolean!`](/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+#### [<code style={{ fontWeight: 'normal' }}>Plugin.<b>installedOrgs</b></code>](#)<Bullet />[`[ID!]!`](/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+> 
+> 
+
+
+
+### Returned by
+
+[`adminPlugin`](/schema/queries/admin-plugin)  <Badge class="secondary" text="query"/><Bullet />[`createPlugin`](/schema/mutations/create-plugin)  <Badge class="secondary" text="mutation"/><Bullet />[`getPlugins`](/schema/queries/get-plugins)  <Badge class="secondary" text="query"/><Bullet />[`plugin`](/schema/queries/plugin)  <Badge class="secondary" text="query"/><Bullet />[`updatePluginInstalledOrgs`](/schema/mutations/update-plugin-installed-orgs)  <Badge class="secondary" text="mutation"/><Bullet />[`updatePluginStatus`](/schema/mutations/update-plugin-status)  <Badge class="secondary" text="mutation"/>
+

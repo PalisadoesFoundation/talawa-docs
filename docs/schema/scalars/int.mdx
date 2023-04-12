@@ -1,0 +1,50 @@
+---
+id: int
+title: Int
+hide_table_of_contents: false
+---
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+The `Int` scalar type represents non-fractional signed whole numeric values. Int can represent values between -(2^31) and 2^31 - 1.
+
+
+```graphql
+scalar Int
+```
+
+
+
+
+### Member of
+
+[`AggregatePost`](/schema/objects/aggregate-post)  <Badge class="secondary" text="object"/><Bullet />[`AggregateUser`](/schema/objects/aggregate-user)  <Badge class="secondary" text="object"/><Bullet />[`cacheControl`](/schema/directives/cache-control)  <Badge class="secondary" text="directive"/><Bullet />[`Comment`](/schema/objects/comment)  <Badge class="secondary" text="object"/><Bullet />[`eventsByOrganizationConnection`](/schema/queries/events-by-organization-connection)  <Badge class="secondary" text="query"/><Bullet />[`getDonationByOrgIdConnection`](/schema/queries/get-donation-by-org-id-connection)  <Badge class="secondary" text="query"/><Bullet />[`organizationsConnection`](/schema/queries/organizations-connection)  <Badge class="secondary" text="query"/><Bullet />[`organizationsMemberConnection`](/schema/queries/organizations-member-connection)  <Badge class="secondary" text="query"/><Bullet />[`PageInfo`](/schema/objects/page-info)  <Badge class="secondary" text="object"/><Bullet />[`Post`](/schema/objects/post)  <Badge class="secondary" text="object"/><Bullet />[`postsByOrganizationConnection`](/schema/queries/posts-by-organization-connection)  <Badge class="secondary" text="query"/><Bullet />[`User`](/schema/objects/user)  <Badge class="secondary" text="object"/><Bullet />[`usersConnection`](/schema/queries/users-connection)  <Badge class="secondary" text="query"/>
+
