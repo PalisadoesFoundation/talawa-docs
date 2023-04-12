@@ -24,9 +24,14 @@ const config = {
 		[
 			"@graphql-markdown/docusaurus",
 			{
-				schema: "./docs/github-actions/schema.json",
-				rootPath: "./docs",
+				schema: "docs/github-actions/schema.json",
+				rootPath: "docs",
 				baseURL: "schema",
+				docOptions: {
+					pagination: true,
+					toc: true,
+					index: true,
+				},
 				loaders: {
 					JsonFileLoader: "@graphql-tools/json-file-loader",
 				},
