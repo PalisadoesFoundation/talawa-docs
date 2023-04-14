@@ -43,6 +43,11 @@ const sidebars = {
 						"developers/talawa-api/api-overview",
 						"developers/talawa-api/api-design-guide",
 						{
+							type: "link",
+							label: "Schema Documentation",
+							href: "/docs/schema",
+						},
+						{
 							type: "category",
 							label: "Base Constraints",
 							link: {
@@ -197,11 +202,7 @@ const sidebars = {
 				},
 			],
 		},
-		{
-			type: "link",
-			label: "Schema Documentation",
-			href: "/docs/schema",
-		},
+		,
 	],
 	...require("./docs/schema/sidebar-schema.js"),
 };
