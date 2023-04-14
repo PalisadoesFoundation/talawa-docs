@@ -559,7 +559,7 @@ We have other areas that need good ideas. This section highlights some primary a
 
 ### Backend Improvements
 
-Take a look at the [Desired Features](../features/features-introduction) section for guidance on what we'd like to achieve. Use these to create a unique vision of what you think Talawa could become.
+Take a look at the [Desired Features](../../features/features-introduction) section for guidance on what we'd like to achieve. Use these to create a unique vision of what you think Talawa could become.
 
 Don't be limited by our desired features. Think of new areas of functionality for the various repos. How could it be better for both the end user and administrators?
 
