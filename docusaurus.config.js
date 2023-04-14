@@ -104,7 +104,7 @@ const config = {
               },
               {
                 label: " News",
-                to: "/docs/features/news%20feed/news-feed-overview",
+                to: "https://www.palisadoes.org/news/",
                 className: "footer__icon footer__news",
               },
               {
