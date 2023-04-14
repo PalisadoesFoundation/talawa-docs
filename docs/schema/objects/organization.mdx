@@ -4,38 +4,32 @@ title: Organization
 hide_table_of_contents: false
 ---
 
-
 export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
 
-export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
 
 export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
 
 import { useState } from 'react';
 
 export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
-  const [open, setOpen] = useState(startOpen);
-  return (
-    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
-      <summary
-        onClick={(e) => {
-          e.preventDefault();
-          setOpen((open) => !open);
-        }}
-        style={{ listStyle:'none' }}
-      >
-      {open ? dataOpen : dataClose}
-      </summary>
-      {open && children}
-    </details>
-  );
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
 };
 
-
-
-
 No description
-
 
 ```graphql
 type Organization {
@@ -47,9 +41,7 @@ type Organization {
   isPublic: Boolean!
   creator: User!
   members: [User]
-  admins(
-  adminId: ID
-): [User]
+  admins(adminId: ID): [User]
   membershipRequests: [MembershipRequest]
   blockedUsers: [User]
   visibleInSearch: Boolean!
@@ -57,104 +49,96 @@ type Organization {
   createdAt: DateTime
   pinnedPosts: [Post]
   userTags(
-  after: String
-  before: String
-  first: PositiveInt
-  last: PositiveInt
-): UserTagsConnection
+    after: String
+    before: String
+    first: PositiveInt
+    last: PositiveInt
+  ): UserTagsConnection
 }
 ```
-
 
 ### Fields
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>image</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
 
-#### [<code style={{ fontWeight: 'normal' }}>Organization.<b>_id</b></code>](#)<Bullet />[`ID!`](/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Organization.<b>\_id</b></code>](#)<Bullet />[`ID!`](/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>name</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>description</b></code>](#)<Bullet />[`String!`](/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>location</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>isPublic</b></code>](#)<Bullet />[`Boolean!`](/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>creator</b></code>](#)<Bullet />[`User!`](/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>members</b></code>](#)<Bullet />[`[User]`](/schema/objects/user) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>admins</b></code>](#)<Bullet />[`[User]`](/schema/objects/user) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
-> 
+
 > ##### [<code style={{ fontWeight: 'normal' }}>Organization.admins.<b>adminId</b></code>](#)<Bullet />[`ID`](/schema/scalars/id) <Badge class="secondary" text="scalar"/>
-> 
-> 
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>membershipRequests</b></code>](#)<Bullet />[`[MembershipRequest]`](/schema/objects/membership-request) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>blockedUsers</b></code>](#)<Bullet />[`[User]`](/schema/objects/user) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>visibleInSearch</b></code>](#)<Bullet />[`Boolean!`](/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>apiUrl</b></code>](#)<Bullet />[`URL!`](/schema/scalars/url) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>createdAt</b></code>](#)<Bullet />[`DateTime`](/schema/scalars/date-time) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>pinnedPosts</b></code>](#)<Bullet />[`[Post]`](/schema/objects/post) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>Organization.<b>userTags</b></code>](#)<Bullet />[`UserTagsConnection`](/schema/objects/user-tags-connection) <Badge class="secondary" text="object"/>
-> 
+
 > ##### [<code style={{ fontWeight: 'normal' }}>Organization.userTags.<b>after</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
 
 ##### [<code style={{ fontWeight: 'normal' }}>Organization.userTags.<b>before</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 ##### [<code style={{ fontWeight: 'normal' }}>Organization.userTags.<b>first</b></code>](#)<Bullet />[`PositiveInt`](/schema/scalars/positive-int) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 ##### [<code style={{ fontWeight: 'normal' }}>Organization.userTags.<b>last</b></code>](#)<Bullet />[`PositiveInt`](/schema/scalars/positive-int) <Badge class="secondary" text="scalar"/>
-> 
-> 
 
-
+>
 
 ### Returned by
 
-[`addOrganizationImage`](/schema/mutations/add-organization-image)  <Badge class="secondary" text="mutation"/><Bullet />[`createOrganization`](/schema/mutations/create-organization)  <Badge class="secondary" text="mutation"/><Bullet />[`joinedOrganizations`](/schema/queries/joined-organizations)  <Badge class="secondary" text="query"/><Bullet />[`organizations`](/schema/queries/organizations)  <Badge class="secondary" text="query"/><Bullet />[`organizationsConnection`](/schema/queries/organizations-connection)  <Badge class="secondary" text="query"/><Bullet />[`removeMember`](/schema/mutations/remove-member)  <Badge class="secondary" text="mutation"/><Bullet />[`removeOrganizationImage`](/schema/mutations/remove-organization-image)  <Badge class="secondary" text="mutation"/><Bullet />[`updateOrganization`](/schema/mutations/update-organization)  <Badge class="secondary" text="mutation"/>
+[`addOrganizationImage`](/schema/mutations/add-organization-image) <Badge class="secondary" text="mutation"/><Bullet />[`createOrganization`](/schema/mutations/create-organization) <Badge class="secondary" text="mutation"/><Bullet />[`joinedOrganizations`](/schema/queries/joined-organizations) <Badge class="secondary" text="query"/><Bullet />[`organizations`](/schema/queries/organizations) <Badge class="secondary" text="query"/><Bullet />[`organizationsConnection`](/schema/queries/organizations-connection) <Badge class="secondary" text="query"/><Bullet />[`removeMember`](/schema/mutations/remove-member) <Badge class="secondary" text="mutation"/><Bullet />[`removeOrganizationImage`](/schema/mutations/remove-organization-image) <Badge class="secondary" text="mutation"/><Bullet />[`updateOrganization`](/schema/mutations/update-organization) <Badge class="secondary" text="mutation"/>
 
 ### Member of
 
-[`DirectChat`](/schema/objects/direct-chat)  <Badge class="secondary" text="object"/><Bullet />[`Event`](/schema/objects/event)  <Badge class="secondary" text="object"/><Bullet />[`Group`](/schema/objects/group)  <Badge class="secondary" text="object"/><Bullet />[`GroupChat`](/schema/objects/group-chat)  <Badge class="secondary" text="object"/><Bullet />[`MembershipRequest`](/schema/objects/membership-request)  <Badge class="secondary" text="object"/><Bullet />[`Post`](/schema/objects/post)  <Badge class="secondary" text="object"/><Bullet />[`User`](/schema/objects/user)  <Badge class="secondary" text="object"/><Bullet />[`UserTag`](/schema/objects/user-tag)  <Badge class="secondary" text="object"/>
-
+[`DirectChat`](/schema/objects/direct-chat) <Badge class="secondary" text="object"/><Bullet />[`Event`](/schema/objects/event) <Badge class="secondary" text="object"/><Bullet />[`Group`](/schema/objects/group) <Badge class="secondary" text="object"/><Bullet />[`GroupChat`](/schema/objects/group-chat) <Badge class="secondary" text="object"/><Bullet />[`MembershipRequest`](/schema/objects/membership-request) <Badge class="secondary" text="object"/><Bullet />[`Post`](/schema/objects/post) <Badge class="secondary" text="object"/><Bullet />[`User`](/schema/objects/user) <Badge class="secondary" text="object"/><Bullet />[`UserTag`](/schema/objects/user-tag) <Badge class="secondary" text="object"/>

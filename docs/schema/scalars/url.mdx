@@ -4,47 +4,37 @@ title: URL
 hide_table_of_contents: false
 ---
 
-
 export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
 
-export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
 
 export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
 
 import { useState } from 'react';
 
 export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
-  const [open, setOpen] = useState(startOpen);
-  return (
-    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
-      <summary
-        onClick={(e) => {
-          e.preventDefault();
-          setOpen((open) => !open);
-        }}
-        style={{ listStyle:'none' }}
-      >
-      {open ? dataOpen : dataClose}
-      </summary>
-      {open && children}
-    </details>
-  );
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
 };
 
-
-
-
 A field whose value conforms to the standard URL format as specified in RFC3986: https://www.ietf.org/rfc/rfc3986.txt.
-
 
 ```graphql
 scalar URL
 ```
 
-
-
-
 ### Member of
 
-[`Message`](/schema/objects/message)  <Badge class="secondary" text="object"/><Bullet />[`Organization`](/schema/objects/organization)  <Badge class="secondary" text="object"/><Bullet />[`OrganizationInfoNode`](/schema/objects/organization-info-node)  <Badge class="secondary" text="object"/><Bullet />[`OrganizationInput`](/schema/inputs/organization-input)  <Badge class="secondary" text="input"/><Bullet />[`OrganizationWhereInput`](/schema/inputs/organization-where-input)  <Badge class="secondary" text="input"/><Bullet />[`Post`](/schema/objects/post)  <Badge class="secondary" text="object"/><Bullet />[`PostInput`](/schema/inputs/post-input)  <Badge class="secondary" text="input"/><Bullet />[`PostUpdateInput`](/schema/inputs/post-update-input)  <Badge class="secondary" text="input"/>
-
+[`Message`](/schema/objects/message) <Badge class="secondary" text="object"/><Bullet />[`Organization`](/schema/objects/organization) <Badge class="secondary" text="object"/><Bullet />[`OrganizationInfoNode`](/schema/objects/organization-info-node) <Badge class="secondary" text="object"/><Bullet />[`OrganizationInput`](/schema/inputs/organization-input) <Badge class="secondary" text="input"/><Bullet />[`OrganizationWhereInput`](/schema/inputs/organization-where-input) <Badge class="secondary" text="input"/><Bullet />[`Post`](/schema/objects/post) <Badge class="secondary" text="object"/><Bullet />[`PostInput`](/schema/inputs/post-input) <Badge class="secondary" text="input"/><Bullet />[`PostUpdateInput`](/schema/inputs/post-update-input) <Badge class="secondary" text="input"/>

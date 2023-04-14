@@ -4,38 +4,32 @@ title: EventOrderByInput
 hide_table_of_contents: false
 ---
 
-
 export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
 
-export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
 
 export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
 
 import { useState } from 'react';
 
 export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
-  const [open, setOpen] = useState(startOpen);
-  return (
-    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
-      <summary
-        onClick={(e) => {
-          e.preventDefault();
-          setOpen((open) => !open);
-        }}
-        style={{ listStyle:'none' }}
-      >
-      {open ? dataOpen : dataClose}
-      </summary>
-      {open && children}
-    </details>
-  );
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
 };
 
-
-
-
 No description
-
 
 ```graphql
 enum EventOrderByInput {
@@ -62,92 +56,88 @@ enum EventOrderByInput {
 }
 ```
 
-
 ### Values
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>id_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>id_ASC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>id_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>title_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>id_DESC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>title_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>description_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>title_ASC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>description_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startDate_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>title_DESC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startDate_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endDate_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>description_ASC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endDate_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>allDay_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>description_DESC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>allDay_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startTime_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startDate_ASC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startTime_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endTime_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startDate_DESC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endTime_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>recurrance_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endDate_ASC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>recurrance_DESC</b></code>](#) 
-> 
-> 
+>
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>location_ASC</b></code>](#) 
-> 
-> 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endDate_DESC</b></code>](#)
 
-#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>location_DESC</b></code>](#) 
-> 
-> 
+>
 
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>allDay_ASC</b></code>](#)
 
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>allDay_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startTime_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>startTime_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endTime_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>endTime_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>recurrance_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>recurrance_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>location_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventOrderByInput.<b>location_DESC</b></code>](#)
+
+>
 
 ### Member of
 
-[`events`](/schema/queries/events)  <Badge class="secondary" text="query"/><Bullet />[`eventsByOrganization`](/schema/queries/events-by-organization)  <Badge class="secondary" text="query"/><Bullet />[`eventsByOrganizationConnection`](/schema/queries/events-by-organization-connection)  <Badge class="secondary" text="query"/><Bullet />[`registeredEventsByUser`](/schema/queries/registered-events-by-user)  <Badge class="secondary" text="query"/>
-
+[`events`](/schema/queries/events) <Badge class="secondary" text="query"/><Bullet />[`eventsByOrganization`](/schema/queries/events-by-organization) <Badge class="secondary" text="query"/><Bullet />[`eventsByOrganizationConnection`](/schema/queries/events-by-organization-connection) <Badge class="secondary" text="query"/><Bullet />[`registeredEventsByUser`](/schema/queries/registered-events-by-user) <Badge class="secondary" text="query"/>

@@ -4,38 +4,32 @@ title: UserWhereInput
 hide_table_of_contents: false
 ---
 
-
 export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
 
-export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
 
 export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
 
 import { useState } from 'react';
 
 export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
-  const [open, setOpen] = useState(startOpen);
-  return (
-    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
-      <summary
-        onClick={(e) => {
-          e.preventDefault();
-          setOpen((open) => !open);
-        }}
-        style={{ listStyle:'none' }}
-      >
-      {open ? dataOpen : dataClose}
-      </summary>
-      {open && children}
-    </details>
-  );
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
 };
 
-
-
-
 No description
-
 
 ```graphql
 input UserWhereInput {
@@ -74,140 +68,136 @@ input UserWhereInput {
 }
 ```
 
-
 ### Fields
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>id</b></code>](#)<Bullet />[`ID`](/schema/scalars/id) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>id_not</b></code>](#)<Bullet />[`ID`](/schema/scalars/id) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>id_in</b></code>](#)<Bullet />[`[ID!]`](/schema/scalars/id) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>id_not_in</b></code>](#)<Bullet />[`[ID!]`](/schema/scalars/id) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>id_contains</b></code>](#)<Bullet />[`ID`](/schema/scalars/id) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>id_starts_with</b></code>](#)<Bullet />[`ID`](/schema/scalars/id) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>firstName</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>firstName_not</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>firstName_in</b></code>](#)<Bullet />[`[String!]`](/schema/scalars/string) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>firstName_not_in</b></code>](#)<Bullet />[`[String!]`](/schema/scalars/string) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>firstName_contains</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>firstName_starts_with</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>lastName</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>lastName_not</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>lastName_in</b></code>](#)<Bullet />[`[String!]`](/schema/scalars/string) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>lastName_not_in</b></code>](#)<Bullet />[`[String!]`](/schema/scalars/string) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>lastName_contains</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>lastName_starts_with</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>email</b></code>](#)<Bullet />[`EmailAddress`](/schema/scalars/email-address) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>email_not</b></code>](#)<Bullet />[`EmailAddress`](/schema/scalars/email-address) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>email_in</b></code>](#)<Bullet />[`[EmailAddress!]`](/schema/scalars/email-address) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>email_not_in</b></code>](#)<Bullet />[`[EmailAddress!]`](/schema/scalars/email-address) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>email_contains</b></code>](#)<Bullet />[`EmailAddress`](/schema/scalars/email-address) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>email_starts_with</b></code>](#)<Bullet />[`EmailAddress`](/schema/scalars/email-address) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>appLanguageCode</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>appLanguageCode_not</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>appLanguageCode_in</b></code>](#)<Bullet />[`[String!]`](/schema/scalars/string) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>appLanguageCode_not_in</b></code>](#)<Bullet />[`[String!]`](/schema/scalars/string) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>appLanguageCode_contains</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>appLanguageCode_starts_with</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>admin_for</b></code>](#)<Bullet />[`ID`](/schema/scalars/id) <Badge class="secondary" text="scalar"/>
-> 
-> 
+
+>
 
 #### [<code style={{ fontWeight: 'normal' }}>UserWhereInput.<b>event_title_contains</b></code>](#)<Bullet />[`String`](/schema/scalars/string) <Badge class="secondary" text="scalar"/>
-> 
-> 
 
-
+>
 
 ### Member of
 
-[`organizationsMemberConnection`](/schema/queries/organizations-member-connection)  <Badge class="secondary" text="query"/><Bullet />[`users`](/schema/queries/users)  <Badge class="secondary" text="query"/><Bullet />[`usersConnection`](/schema/queries/users-connection)  <Badge class="secondary" text="query"/>
-
+[`organizationsMemberConnection`](/schema/queries/organizations-member-connection) <Badge class="secondary" text="query"/><Bullet />[`users`](/schema/queries/users) <Badge class="secondary" text="query"/><Bullet />[`usersConnection`](/schema/queries/users-connection) <Badge class="secondary" text="query"/>
