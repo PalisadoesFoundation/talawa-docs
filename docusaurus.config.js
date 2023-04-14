@@ -97,12 +97,6 @@ const config = {
 						position: "left",
 					},
 					{
-						to: "/docs/schema",
-						label: "Schema Documentation",
-						position: "left",
-						activeBasePath: "docs",
-					},
-					{
 						to: "https://github.com/PalisadoesFoundation",
 						position: "right",
 						className: "header-github-link",

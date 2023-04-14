@@ -197,6 +197,11 @@ const sidebars = {
 				},
 			],
 		},
+		{
+			type: "link",
+			label: "Schema Documentation",
+			href: "/docs/schema",
+		},
 	],
 	...require("./docs/schema/sidebar-schema.js"),
 };
