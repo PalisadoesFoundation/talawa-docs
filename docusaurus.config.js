@@ -27,7 +27,7 @@ const config = {
 				schema: "docs/github-actions/schema.json",
 				rootPath: "docs",
 				baseURL: "schema",
-				linkRoots: "docs/",
+				linkRoot: "../../../docs",
 				pretty: true,
 				docOptions: {
 					pagination: true,
