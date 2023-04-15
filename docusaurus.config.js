@@ -124,7 +124,7 @@ const config = {
 							},
 							{
 								label: " News",
-								to: "/docs/features/news%20feed/news-feed-overview",
+								to: "https://www.palisadoes.org/news/",
 								className: "footer__icon footer__news",
 							},
 							{
@@ -165,7 +165,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Talawa, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} The Palisadoes Foundation, LLC. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
