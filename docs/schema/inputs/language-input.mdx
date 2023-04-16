@@ -1,0 +1,58 @@
+---
+id: language-input
+title: LanguageInput
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+input LanguageInput {
+  en_value: String!
+  translation_lang_code: String!
+  translation_value: String!
+}
+```
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>LanguageInput.<b>en_value</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>LanguageInput.<b>translation_lang_code</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>LanguageInput.<b>translation_value</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+### Member of
+
+[`addLanguageTranslation`](../../../docs/schema/mutations/add-language-translation) <Badge class="secondary" text="mutation"/>

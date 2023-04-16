@@ -1,0 +1,93 @@
+---
+id: task-order-by-input
+title: TaskOrderByInput
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+enum TaskOrderByInput {
+  id_ASC
+  id_DESC
+  title_ASC
+  title_DESC
+  description_ASC
+  description_DESC
+  createdAt_ASC
+  createdAt_DESC
+  deadline_ASC
+  deadline_DESC
+}
+```
+
+### Values
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>id_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>id_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>title_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>title_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>description_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>description_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>createdAt_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>createdAt_DESC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>deadline_ASC</b></code>](#)
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>TaskOrderByInput.<b>deadline_DESC</b></code>](#)
+
+>
+
+### Member of
+
+[`tasksByEvent`](../../../docs/schema/queries/tasks-by-event) <Badge class="secondary" text="query"/><Bullet />[`tasksByUser`](../../../docs/schema/queries/tasks-by-user) <Badge class="secondary" text="query"/>

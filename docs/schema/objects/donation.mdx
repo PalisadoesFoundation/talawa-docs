@@ -1,0 +1,78 @@
+---
+id: donation
+title: Donation
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+type Donation {
+  _id: ID!
+  userId: ID!
+  orgId: ID!
+  payPalId: String!
+  nameOfUser: String!
+  nameOfOrg: String!
+  amount: Float!
+}
+```
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>\_id</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>userId</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>orgId</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>payPalId</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>nameOfUser</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>nameOfOrg</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Donation.<b>amount</b></code>](#)<Bullet />[`Float!`](../../../docs/schema/scalars/float) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+### Returned by
+
+[`createDonation`](../../../docs/schema/mutations/create-donation) <Badge class="secondary" text="mutation"/><Bullet />[`getDonationById`](../../../docs/schema/queries/get-donation-by-id) <Badge class="secondary" text="query"/><Bullet />[`getDonationByOrgId`](../../../docs/schema/queries/get-donation-by-org-id) <Badge class="secondary" text="query"/><Bullet />[`getDonationByOrgIdConnection`](../../../docs/schema/queries/get-donation-by-org-id-connection) <Badge class="secondary" text="query"/><Bullet />[`getDonations`](../../../docs/schema/queries/get-donations) <Badge class="secondary" text="query"/>
