@@ -78,13 +78,22 @@
     
 <section class="desc markdown">
   <p>This returns a widget for a step in a tutorial.</p>
-<p>params:</p>
+<p><strong>params</strong>:</p>
 <ul>
-<li><code>keyName</code> : key where the widget shows.</li>
-<li><code>description</code> : description of the step.</li>
-<li><code>isCircle</code></li>
-<li><code>next</code> : <code>Function</code> type, this show the next step or <code>key</code> to show the tour of.</li>
-<li><code>isEnd</code> : true if last step of the tour.</li>
+<li><code>key</code>: key of type GlobalKey.</li>
+<li><code>keyName</code>: key where the widget shows.</li>
+<li><code>description</code>: description of the step.</li>
+<li><code>isCircle</code>: bool to specify if circle</li>
+<li><code>align</code>: align of type ContentAlign to align button.</li>
+<li><code>crossAlign</code>: Cross align axes</li>
+<li><code>skipAlignment</code>: to give alignment of skip option</li>
+<li><code>next</code>: Function<code>type, this show the next step or</code>key` to show the tour of.</li>
+<li><code>nextCrossAlign</code>: nextCrossAlign to give alignment of next option</li>
+<li><code>isEnd</code>: true if last step of the tour.</li>
+</ul>
+<p><strong>returns</strong>:</p>
+<ul>
+<li><code>TargetFocus</code>: This return widget foa a step in a tut</li>
 </ul>
 </section>
 
@@ -141,6 +150,7 @@
           return GestureDetector(
             onTap: () {
               if (next != null) {
+                &#47;&#47; ignore: avoid_dynamic_calls
                 next();
               }
               tutorialCoachMark.next();
