@@ -16,6 +16,24 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Git Guide',
+      link: {
+        type: 'generated-index'
+      },
+      collapsed: true,
+      items: [
+       'git-guide/quickstart',
+       'git-guide/setupgit',
+       'git-guide/gettalawacode',
+       'git-guide/workingcopies',
+       'git-guide/gitworkflow',
+       'git-guide/pullrequest',
+       'git-guide/collaborate'
+
+      ]
+    },
+    {
+      type: 'category',
       label: 'Developer Resources',
       link: {
         type: 'generated-index'
@@ -36,6 +54,7 @@ const sidebars = {
             'developers/talawa/flutter-testing'
           ]
         },
+       
         {
           type: 'category',
           label: 'Talawa API',
