@@ -11,6 +11,25 @@ const sidebars = {
 			items: ["introduction/about", "introduction/core-concepts", "introduction/our-repositories"],
 		},
 		{
+			type: 'category',
+			label: 'Git Guide',
+			link: {
+			  type: 'generated-index'
+			},
+			collapsed: true,
+			items: [
+			 'git-guide/quickstart',
+			 'git-guide/setup-git',
+			 'git-guide/get-talawa-code',
+			 'git-guide/workingcopies',
+			 'git-guide/gitworkflow',
+			 'git-guide/pullrequest',
+			 'git-guide/collaborate'
+	  
+			]
+
+		},
+		{
 			type: "category",
 			label: "Developer Resources",
 			link: {
