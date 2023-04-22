@@ -2,13 +2,13 @@
 
 Talawa uses a **forked-repo** and **merge-oriented** workflow. This means all contributors create a fork of the Talawa repository they want to contribute to and then submit pull requests to the upstream repository to have their contributions reviewed and accepted. We also recommend you work on feature branches.
 
-## step1: Create your fork
+## Step 1: Create your fork
 
 The following steps you'll only need to do the first time you setup a machine for contributing to a given Talawa Project. You will need to repeat the steps for any additional Talawa Projects([list](https://github.com/PalisadoesFoundation)) that you would like to work on. 
 
-The first thing you'll want to do to contribute to Talawa is fork [see how](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the appropriate Talawa repository([list](https://github.com/PalisadoesFoundation)). For the main Talawa app. this is [PalisadoesFoundation/talawa](https://github.com/PalisadoesFoundation/talawa)
+The first thing you'll want to do to contribute to Talawa is fork [(see how)](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the appropriate Talawa repository([list](https://github.com/PalisadoesFoundation)). For the main Talawa app, this is [PalisadoesFoundation/talawa](https://github.com/PalisadoesFoundation/talawa).
 
-## step2: Clone to your machine
+## Step 2: Clone to your machine
 
 Next, clone your fork to your local machine, Here we are taking the example of the [Talawa docs repository](https://github.com/PalisadoesFoundation/talawa-docs)
 
@@ -55,4 +55,4 @@ upstream https://github.com/PalisadoesFoundation/talawa-docs.git (fetch)
 upstream https://github.com/PalisadoesFoundation/talawa-docs.git (push)
 ```
 
-The above instructions would help you to get ready for contributions! Thank you.
+Now your forked repository is ready for your contributions on your local machine!

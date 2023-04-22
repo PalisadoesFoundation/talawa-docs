@@ -2,7 +2,7 @@
 
 ## Know what branch you're currently working on 
 
-When working with Git, it's crucial to Know which branch you have currently checked out, Most of the Git commands implicitly operate on the current branch. you can determine the currently checked out branch in serveral ways
+When working with Git, it's crucial to Know which branch you have currently checked out, Most of the Git commands implicitly operate on the current branch. you can determine the currently checked out branch in several ways
 
 One of the most common way is with [git status](https://git-scm.com/docs/git-status)
 
@@ -52,9 +52,9 @@ $ git push origin develop
 
 Working with git can be organized by creating a branch for each issue or feature. Recall from [how Git is different](https://zulip.readthedocs.io/en/latest/git/the-git-difference.html) that Git is designed for lightweight branching and merging. You can and should create as many branches as you’d like.
 
-First, make sure your `develop` branch is up-to-date with Talawa upstream [see how](#keep-your-fork-up-to-date)
+First, make sure your `develop` branch is up-to-date with Talawa upstream [(see how)](#keep-your-fork-up-to-date)
 
-Next from your `develop` branch, create a new branch, though it is recommended to provide a descriptive name that relates to your feature or issue, but you can name it anything
+Next from your `develop` branch, create a new branch.We recommended naming your branch a descriptive name relating to your feature or issue. 
 
 ```
 $ git checkout develop
@@ -63,7 +63,7 @@ $ git checkout -b issue-178-docsissue
 Switched to a new branch 'issue-178-docsissue'
 ```
 
-Now you are ready to work on the issue or feature 
+Now you are ready to work on the issue or feature. 
 
 ## Stage changes
 
@@ -113,7 +113,7 @@ Changes to be committed:
 
 You can view the changes in files you have staged with ```git diff --cached```. To view changes to files you haven’t yet staged, just ```use git diff```.
 
-If you want to add all changes in the working directory, ```use git add -A``` [documentation](https://git-scm.com/docs/git-add).
+If you want to add all changes in the working directory, ```use git add -A``` [(documentation)](https://git-scm.com/docs/git-add).
 
 If you stage a file, you can undo it with ```git reset HEAD <filename>```. Here’s an example where we stage a file ```test2.md``` and then unstage it:
 
@@ -168,7 +168,7 @@ Unfortunately, you can’t restore a file deleted with ```git rm``` if you didn�
 
 ## Commit changes
 
-Once you've staged all your changes, you're ready to commit. You can do this with ``` git commit -m "My commit message." ``` to include a commit message
+Once you've staged all your changes, you're ready to commit. You can do this with ``` git commit -m "My commit message." ``` to include a commit message.
 
 Here’s an example of committing with the ```-m``` for a one-line commit message:
 
@@ -184,7 +184,7 @@ You can also use git commit without the ```-m``` option and your editor to open,
 How long your commit message should be depends on where you are in your work. Using short, one-line messages for commits related to in-progress work makes sense. For a commit that you intend to be final or that encompasses a significant amount or complex work, you should include a longer message.
 
 
-## Push you commits to Github
+## Push your commits to Github
 
 As you’re working, it’s a good idea to frequently push your changes to GitHub. This ensures your work is backed up should something happen to your local machine and allows others to follow your progress. It also allows you to work from multiple computers without losing work.
 
