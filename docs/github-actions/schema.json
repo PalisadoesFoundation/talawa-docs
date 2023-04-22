@@ -3933,7 +3933,7 @@
               "name": null,
               "ofType": {
                 "kind": "OBJECT",
-                "name": "Message",
+                "name": "GroupChat",
                 "ofType": null
               }
             },
