@@ -1,0 +1,55 @@
+---
+id: users
+title: users
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+users(
+  where: UserWhereInput
+  orderBy: UserOrderByInput
+): [User]
+```
+
+### Arguments
+
+#### [<code style={{ fontWeight: 'normal' }}>users.<b>where</b></code>](#)<Bullet />[`UserWhereInput`](../../../docs/schema/inputs/user-where-input) <Badge class="secondary" text="input"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>users.<b>orderBy</b></code>](#)<Bullet />[`UserOrderByInput`](../../../docs/schema/enums/user-order-by-input) <Badge class="secondary" text="enum"/>
+
+>
+
+### Type
+
+#### [`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/>
+
+>

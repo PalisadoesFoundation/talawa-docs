@@ -1,0 +1,72 @@
+---
+id: group-chat
+title: GroupChat
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+type GroupChat {
+  _id: ID!
+  users: [User!]!
+  messages: [GroupChatMessage]
+  creator: User!
+  organization: Organization!
+}
+```
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>GroupChat.<b>\_id</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>GroupChat.<b>users</b></code>](#)<Bullet />[`[User!]!`](../../../docs/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>GroupChat.<b>messages</b></code>](#)<Bullet />[`[GroupChatMessage]`](../../../docs/schema/objects/group-chat-message) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>GroupChat.<b>creator</b></code>](#)<Bullet />[`User!`](../../../docs/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>GroupChat.<b>organization</b></code>](#)<Bullet />[`Organization!`](../../../docs/schema/objects/organization) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+### Returned by
+
+[`addUserToGroupChat`](../../../docs/schema/mutations/add-user-to-group-chat) <Badge class="secondary" text="mutation"/><Bullet />[`adminRemoveGroup`](../../../docs/schema/mutations/admin-remove-group) <Badge class="secondary" text="mutation"/><Bullet />[`createGroupChat`](../../../docs/schema/mutations/create-group-chat) <Badge class="secondary" text="mutation"/><Bullet />[`removeGroupChat`](../../../docs/schema/mutations/remove-group-chat) <Badge class="secondary" text="mutation"/><Bullet />[`removeUserFromGroupChat`](../../../docs/schema/mutations/remove-user-from-group-chat) <Badge class="secondary" text="mutation"/>
+
+### Member of
+
+[`GroupChatMessage`](../../../docs/schema/objects/group-chat-message) <Badge class="secondary" text="object"/>

@@ -68,8 +68,14 @@
     </section>
     
 <section class="desc markdown">
-  <p>Dynamically adds <code>BottomNavigationBarItems</code> in <code>BottomNavigationBar</code>
-by mapping over the data received from the server.</p>
+  <p>Dynamically adds <code>BottomNavigationBarItems</code> in <code>BottomNavigationBar</code>.</p>
+<p>by mapping over the data received from the server.</p>
+<p><strong>params</strong>:</p>
+<ul>
+<li><code>context</code>: its the same context you use everywhere in the flutter framework refer flutter docs for more info.</li>
+</ul>
+<p><strong>returns</strong>:
+  None</p>
 </section>
 
 
@@ -139,15 +145,18 @@ by mapping over the data received from the server.</p>
     ),
   ];
 
-  pluginList = (Hive.box(&#39;pluginBox&#39;).get(&#39;plugins&#39;) ?? []) as List&lt;dynamic&gt;;
+  pluginList = (Hive.box(&#39;pluginBox&#39;).get(&#39;plugins&#39;) ?? []) as List&lt;String&gt;;
 
   pluginList.forEach((plugin) {
-    if (pluginPrototypeData.containsKey(plugin[&quot;pluginName&quot;] as String) &amp;&amp;
+    if (pluginPrototypeData.containsKey(
+          (plugin as Map&lt;String, dynamic&gt;)[&quot;pluginName&quot;] as String,
+        ) &amp;&amp;
         plugin[&quot;pluginInstallStatus&quot;] as bool) {
       navBarItems.add(
         BottomNavigationBarItem(
           icon: Icon(
-            pluginPrototypeData[plugin[&quot;pluginName&quot;]][&quot;icon&quot;] as IconData,
+            (pluginPrototypeData[plugin[&quot;pluginName&quot;]]
+                as Map&lt;String, dynamic&gt;)[&quot;icon&quot;] as IconData,
           ),
           label: AppLocalizations.of(context)!.strictTranslate(
             plugin[&quot;pluginName&quot;] as String,
@@ -155,14 +164,16 @@ by mapping over the data received from the server.</p>
         ),
       );
       pages.add(
-        pluginPrototypeData[plugin[&quot;pluginName&quot;]][&quot;class&quot;] as StatelessWidget,
+        (pluginPrototypeData[plugin[&quot;pluginName&quot;]]
+            as Map&lt;String, dynamic&gt;)[&quot;class&quot;] as StatelessWidget,
       );
     }
   });
 
-  &#47;&#47;&#47; Causes the app to continously check for plugins if they are
+  &#47;&#47;&#47; Causes the app check the plugins updates in every 300 sec
+  &#47;&#47;&#47;
   &#47;&#47;&#47; updated and re-render the navbar
-  WidgetsBinding.instance.addPostFrameCallback((_) {
+  Timer.periodic(const Duration(seconds: 300), (timer) {
     FetchPluginList();
     final newPluginList =
         (Hive.box(&#39;pluginBox&#39;).get(&#39;plugins&#39;) ?? []) as List&lt;dynamic&gt;;

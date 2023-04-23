@@ -1,0 +1,82 @@
+---
+id: task
+title: Task
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+type Task {
+  _id: ID!
+  title: String!
+  description: String
+  event: Event!
+  creator: User!
+  createdAt: DateTime!
+  deadline: DateTime
+}
+```
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>\_id</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>title</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>description</b></code>](#)<Bullet />[`String`](../../../docs/schema/scalars/string) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>event</b></code>](#)<Bullet />[`Event!`](../../../docs/schema/objects/event) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>creator</b></code>](#)<Bullet />[`User!`](../../../docs/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>createdAt</b></code>](#)<Bullet />[`DateTime!`](../../../docs/schema/scalars/date-time) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>deadline</b></code>](#)<Bullet />[`DateTime`](../../../docs/schema/scalars/date-time) <Badge class="secondary" text="scalar"/>
+
+>
+
+### Returned by
+
+[`createTask`](../../../docs/schema/mutations/create-task) <Badge class="secondary" text="mutation"/><Bullet />[`removeTask`](../../../docs/schema/mutations/remove-task) <Badge class="secondary" text="mutation"/><Bullet />[`tasksByEvent`](../../../docs/schema/queries/tasks-by-event) <Badge class="secondary" text="query"/><Bullet />[`tasksByUser`](../../../docs/schema/queries/tasks-by-user) <Badge class="secondary" text="query"/><Bullet />[`updateTask`](../../../docs/schema/mutations/update-task) <Badge class="secondary" text="mutation"/>
+
+### Member of
+
+[`Event`](../../../docs/schema/objects/event) <Badge class="secondary" text="object"/>

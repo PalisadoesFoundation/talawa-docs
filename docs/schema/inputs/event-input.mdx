@@ -1,0 +1,118 @@
+---
+id: event-input
+title: EventInput
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+input EventInput {
+  title: String!
+  description: String!
+  startDate: Date!
+  endDate: Date
+  startTime: Time
+  endTime: Time
+  allDay: Boolean!
+  recurring: Boolean!
+  recurrance: Recurrance
+  isPublic: Boolean!
+  isRegisterable: Boolean!
+  location: String
+  latitude: Latitude
+  longitude: Longitude
+  organizationId: ID!
+}
+```
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>title</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>description</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>startDate</b></code>](#)<Bullet />[`Date!`](../../../docs/schema/scalars/date) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>endDate</b></code>](#)<Bullet />[`Date`](../../../docs/schema/scalars/date) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>startTime</b></code>](#)<Bullet />[`Time`](../../../docs/schema/scalars/time) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>endTime</b></code>](#)<Bullet />[`Time`](../../../docs/schema/scalars/time) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>allDay</b></code>](#)<Bullet />[`Boolean!`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>recurring</b></code>](#)<Bullet />[`Boolean!`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>recurrance</b></code>](#)<Bullet />[`Recurrance`](../../../docs/schema/enums/recurrance) <Badge class="secondary" text="enum"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>isPublic</b></code>](#)<Bullet />[`Boolean!`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>isRegisterable</b></code>](#)<Bullet />[`Boolean!`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>location</b></code>](#)<Bullet />[`String`](../../../docs/schema/scalars/string) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>latitude</b></code>](#)<Bullet />[`Latitude`](../../../docs/schema/scalars/latitude) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>longitude</b></code>](#)<Bullet />[`Longitude`](../../../docs/schema/scalars/longitude) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>EventInput.<b>organizationId</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+### Member of
+
+[`createEvent`](../../../docs/schema/mutations/create-event) <Badge class="secondary" text="mutation"/>

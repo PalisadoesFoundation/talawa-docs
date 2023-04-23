@@ -18,6 +18,7 @@ on:
       - 'static/CNAME'
       - 'package.json'
       - 'sidebars.js'
+      - 'docusaurus.config.js'
       - 'CODEOWNERS'
       - 'LICENSE'
 
