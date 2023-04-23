@@ -10,7 +10,7 @@ The first thing you'll want to do to contribute to Talawa is fork [(see how)](ht
 
 ## Step 2: Clone to your machine
 
-Next, clone your fork to your local machine, Here we are taking the example of the [Talawa docs repository](https://github.com/PalisadoesFoundation/talawa-docs)
+Next, clone your fork to your local machine, Below we use the Talawa docs repository for our example: [Talawa docs repository](https://github.com/PalisadoesFoundation/talawa-docs)
 
 ```
 git clone https://github.com/YOUR_USERNAME/talawa-docs.git

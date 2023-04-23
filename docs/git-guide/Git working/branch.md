@@ -1,6 +1,4 @@
-# Using Git as you work
-
-## Know what branch you're currently working on 
+# Know what branch you're currently working on 
 
 When working with Git, it's crucial to Know which branch you have currently checked out, Most of the Git commands implicitly operate on the current branch. you can determine the currently checked out branch in several ways
 
