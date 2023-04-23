@@ -4168,9 +4168,13 @@
                 "name": "data",
                 "description": null,
                 "type": {
-                  "kind": "INPUT_OBJECT",
-                  "name": "createChatInput",
-                  "ofType": null
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "createChatInput",
+                    "ofType": null
+                  }
                 },
                 "defaultValue": null
               }
@@ -4323,9 +4327,13 @@
                 "name": "data",
                 "description": null,
                 "type": {
-                  "kind": "INPUT_OBJECT",
-                  "name": "createGroupChatInput",
-                  "ofType": null
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "createGroupChatInput",
+                    "ofType": null
+                  }
                 },
                 "defaultValue": null
               }
@@ -6188,9 +6196,13 @@
                 "name": "data",
                 "description": null,
                 "type": {
-                  "kind": "INPUT_OBJECT",
-                  "name": "UpdateUserPasswordInput",
-                  "ofType": null
+                  "kind": "NON_NULL",
+                  "name": null,
+                  "ofType": {
+                    "kind": "INPUT_OBJECT",
+                    "name": "UpdateUserPasswordInput",
+                    "ofType": null
+                  }
                 },
                 "defaultValue": null
               }
