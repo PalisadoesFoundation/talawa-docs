@@ -30,7 +30,7 @@ A pull request template will open with some information pre-filled in. Provide (
 
 If your pull request makes UI changes, always include one or more still screenshots to demonstrate your changes. If it seems helpful, add a screen capture of the new functionality as well. You can find a list of tools you can use for this here.
 
-When ready, click the Create pull request button to submit the pull request, After the pull request is submitted, a automated comment may pop up from the Talawa volunteers. Review that message and ensure you've followed their guidelines.  
+When ready, click the Create pull request button to submit the pull request, After the pull request is submitted, an automated comment may pop up from the Talawa volunteers. Review that message and ensure you've followed their guidelines.  
 
 Note: Pull request titles are different from commit messages. Commit messages can be edited with ```git commit --amend```, ```git rebase -i```, etc., while the title of a pull request can only be edited via GitHub.
 
@@ -45,4 +45,4 @@ And, as you address review comments others have made, we recommend posting a fol
  * explain to the reviewer how you solved any problems they mentioned
  * ask for another review.
 
-We have a predefined [pull request template](https://github.com/PalisadoesFoundation/talawa-docs/blob/develop/.github/pull_request_template.md) which you can go through to understand what kind of details you need to provide for your pull request
+We have a predefined [pull request template](https://github.com/PalisadoesFoundation/talawa-docs/blob/develop/.github/pull_request_template.md) which you can go through to understand what kind of details you need to provide for your pull request.

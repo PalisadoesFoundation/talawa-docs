@@ -2,9 +2,9 @@
 
 ## Know what branch you're currently working on 
 
-When working with Git, it's crucial to Know which branch you have currently checked out, Most of the Git commands implicitly operate on the current branch. you can determine the currently checked out branch in several ways
+When working with Git, it's crucial to know which branch you have currently checked out, Most of the Git commands implicitly operate on the current branch. you can determine the currently checked out branch in several ways:
 
-One of the most common way is with [git status](https://git-scm.com/docs/git-status)
+One of the most common ways is with [git status](https://git-scm.com/docs/git-status)
 
 ```
 $ git status

@@ -20,4 +20,4 @@
      5. Each pull request has a predefined format, which conveys the details of a particular Pull request, try to fill in the details as best as you can.
      6. Most importantly please go through the **CONTRIBUTING.md** file of the appropriate repository.
 
-  you are all set to contribute. Thank you!
+  You are all set to contribute. Thank you!

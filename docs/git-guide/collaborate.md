@@ -2,7 +2,7 @@
 
 ## Fetching work of other Contributors
 
-At Talawa, we love collaboration and coordination amongst contributors. What happens when you would like to collaborate with another contributor and they have some work done in their own fork of Talawa? No problem! Just add their fork as a remote and Pull their changes.
+At Talawa, We love collaboration and coordination amongst contributors. What happens when you would like to collaborate with another contributor and they have some work done in their own fork of Talawa? No problem! Just add their fork as a remote and Pull their changes.
 
 ```
 $ git remote add <username> https://github.com/<username>/talawa-docs.git
