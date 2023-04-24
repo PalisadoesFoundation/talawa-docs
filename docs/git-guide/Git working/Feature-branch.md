@@ -4,7 +4,7 @@ Working with git can be organized by creating a branch for each issue or feature
 
 First, make sure your `develop` branch is up-to-date with Talawa upstream. [(see how)](#keep-your-fork-up-to-date)
 
-Next from your `develop` branch ,create a new branch. We recommend naming your branch a descriptive name relating to your feature or issue. 
+Next from your `develop` branch,create a new branch. We recommend naming your branch a descriptive name relating to your feature or issue. 
 
 ```
 $ git checkout develop

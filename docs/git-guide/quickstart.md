@@ -12,7 +12,7 @@
      
      1. Install the [Talawa developer environment](../../../docs/introduction/our-repositories) 
      2. Ensure your Pull request passes all the tests and there are no merge conflicts associated with it.
-     3. Each Pull request should only be created:- 
+     3. Each Pull request should only be created if: 
         * it has an issue associated with it
         * the issue was assigned to you
         * the issue does not have an **"unapproved"** label we do not accept pull requests without an issue associated with it. 
