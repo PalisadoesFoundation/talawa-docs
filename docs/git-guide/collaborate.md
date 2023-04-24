@@ -23,7 +23,7 @@ $ git checkout -b <custombranchname> <username>/<branchname>
 
 ## Check out a Pull request locally
 
-we saw above how to fetch a user's branch locally. you can also check out any pull request locally. Github provides a special method [details](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally) for this since pull requests are specific to Github rather than Git.
+We saw above how to fetch a user's branch locally. you can also check out any pull request locally. Github provides a special method [details](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/checking-out-pull-requests-locally) for this since pull requests are specific to Github rather than Git.
 
 First, fetch and create a branch for the pull request, replacing **ID** and **BRANCHNAME** with the ID of the pull request and your desired branch name:
 
