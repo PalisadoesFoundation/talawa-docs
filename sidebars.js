@@ -11,6 +11,69 @@ const sidebars = {
 			items: ["introduction/about", "introduction/core-concepts", "introduction/our-repositories"],
 		},
 		{
+			type: 'category',
+			label: 'Git Guide',
+			link: {
+			  type: 'generated-index'
+			},
+			collapsed: true,
+			items: [
+			 'git-guide/quickstart',
+			 'git-guide/setup-git',
+			 'git-guide/get-talawa-code',
+			 'git-guide/pullrequest',
+			 'git-guide/collaborate',
+			 {
+				type: "category",
+				label: "Working copies",
+				link: {
+					type: "doc",
+					id:  'git-guide/Workingcopies/workingcopies'
+				},
+				collapsed: true,
+				items: [
+					"git-guide/Workingcopies/workflows",
+					"git-guide/Workingcopies/usefulgitcommands"
+				],
+			},
+			
+			{
+				type: "category",
+				label: "Using Git as you work",
+				link: {
+					type: "doc",
+					id:  'git-guide/gitworkflow'
+				},
+				collapsed: true,
+				items: [
+					"git-guide/Git working/Fork",	
+					"git-guide/Git working/Feature-branch",
+				{
+				type: "category",
+				label: "Stage changes",
+				link: {
+						type: "doc",
+						id:  'git-guide/Git working/Stage changes/stage-changes'
+				},
+				collapsed: true,
+				items: [
+					"git-guide/Git working/Stage changes/status",
+					"git-guide/Git working/Stage changes/stage-additions",
+					"git-guide/Git working/Stage changes/stage-deletions",	
+					],
+					},	
+					"git-guide/Git working/commit-changes",
+					"git-guide/Git working/push-commits"
+
+				],
+			},
+			
+			
+	
+			]
+
+		},
+		{
 			type: "category",
 			label: "Developer Resources",
 			link: {
