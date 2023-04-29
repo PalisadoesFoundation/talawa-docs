@@ -2,7 +2,7 @@ import React from "react";
 import  Section  from "./Section";
 import  TwoColumns  from "./TwoColumns";
 import  TextColumn  from "./TextColumn";
-import { textContent } from "../utils/textcontent";
+import  textContent  from "../utils/textcontent";
 import CodeBlock from "@theme/CodeBlock";
 
 interface SixthPanelProps {}

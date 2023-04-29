@@ -3,7 +3,7 @@ import  Section  from "./Section";
 import  TwoColumns  from "./TwoColumns";
 import  TextColumn  from "./TextColumn";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import { textContent } from "../utils/textcontent";
+import textContent  from "../utils/textcontent";
 
 interface NativeAppsProps {}
 
