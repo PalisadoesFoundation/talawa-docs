@@ -2,7 +2,7 @@ import React from "react";
 import  Section  from "./Section";
 import  TwoColumns  from "./TwoColumns";
 import  TextColumn  from "./TextColumn";
-import { textContent } from "../utils/textcontent";
+import textcontent  from "../utils/textcontent";
 
 interface NativeDevelopmentProps {
   className?: string;
@@ -16,7 +16,7 @@ interface NativeDevelopmentProps {
         columnOne={
           <TextColumn
             title="Many Useful Admin Features"
-            text={textContent.forEveryone}
+            text={textcontent.forEveryone}
           />
         }
         columnTwo={

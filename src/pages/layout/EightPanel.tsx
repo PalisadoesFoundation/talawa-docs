@@ -2,7 +2,7 @@ import React from "react";
 import  Section  from "./Section";
 import  TextColumn  from "./TextColumn";
 import  TwoColumns  from "./TwoColumns";
-import { textContent } from "../utils/textcontent";
+import textcontent  from "../utils/textcontent";
 
  function EightPanel() {
   return (
@@ -12,7 +12,7 @@ import { textContent } from "../utils/textcontent";
         columnOne={
           <TextColumn
             title="Join Our Developer Community"
-            text={textContent.eightPanel}
+            text={textcontent.eightPanel}
           />
         }
         columnTwo={

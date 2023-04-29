@@ -2,7 +2,7 @@ import React from "react";
 import  Section  from "./Section";
 import  TwoColumns  from "./TwoColumns";
 import  TextColumn  from "./TextColumn";
-import { textContent } from "../utils/textcontent";
+import  textcontent  from "../utils/textcontent";
 
  function CrossPlatform() {
   return (
@@ -14,7 +14,7 @@ import { textContent } from "../utils/textcontent";
               <div className="text-column-offset">
                 <TextColumn
                   title="Powerful, Fun Mobile Application"
-                  text={textContent.crossPlatform}
+                  text={textcontent.crossPlatform}
                 />
               </div>
             }
