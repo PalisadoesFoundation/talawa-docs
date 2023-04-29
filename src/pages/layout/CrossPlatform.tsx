@@ -2,7 +2,7 @@ import React from "react";
 import  Section  from "./Section";
 import  TwoColumns  from "./TwoColumns";
 import  TextColumn  from "./TextColumn";
-import  textcontent  from "../utils/textcontent";
+import  textcontent  from "../../utils/textcontent";
 
  function CrossPlatform() {
   return (

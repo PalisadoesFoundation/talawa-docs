@@ -2,7 +2,7 @@ import React from "react";
 import  Section  from "./Section";
 import  TextColumn  from "./TextColumn";
 import  TwoColumns  from "./TwoColumns";
-import  textcontent  from "../utils/textcontent";
+import  textcontent  from "../../utils/textcontent";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 interface NativeCodeProps {}

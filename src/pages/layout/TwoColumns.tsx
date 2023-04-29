@@ -3,7 +3,7 @@ import classNames from "classnames";
 
 interface Props {
   columnOne: React.ReactNode;
-  columnTwo: React.ReactNode;
+  columnTwo: React.ReactNode | JSX.Element;
   reverse?: boolean;
 }
 
