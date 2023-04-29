@@ -1,5 +1,5 @@
 
- const textContent = {
+export const textContent = {
     intro: `
     <ul>
   <li>Talawa is an open-source software project to help manage organizations like yours </li>
@@ -91,4 +91,3 @@
     `,
   };
   
-  export default textContent

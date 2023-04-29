@@ -2,7 +2,7 @@
 import React from "react";
 import Head from "@docusaurus/Head";
 import Layout from "@theme/Layout";
-import useHomePageAnimations  from "./hooks/useHomePageAnimations";
+import { useHomePageAnimations } from "./hooks/useHomePageAnimations";
 
 // Import the components
 import  HeaderHero  from "./layout/HeaderHero";
