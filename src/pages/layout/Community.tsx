@@ -1,10 +1,10 @@
 import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import { Section } from "./Section";
-import { Heading } from "./Heading";
-import { TwoColumns } from "./TwoColumns";
+import  Section  from "./Section";
+import  Heading  from "./Heading";
+import  TwoColumns  from "./TwoColumns";
 
-export const Community: React.FC = () => {
+const Community: React.FC = () => {
   const content = {
     columnOne: (
       <>
@@ -56,3 +56,4 @@ export const Community: React.FC = () => {
   );
 };
 
+export default Community

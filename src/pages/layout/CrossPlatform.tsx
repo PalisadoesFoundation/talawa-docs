@@ -1,10 +1,10 @@
 import React from "react";
-import { Section } from "./Section";
-import { TwoColumns } from "./TwoColumns";
-import { TextColumn } from "./TextColumn";
+import  Section  from "./Section";
+import  TwoColumns  from "./TwoColumns";
+import  TextColumn  from "./TextColumn";
 import { textContent } from "../utils/textcontent";
 
-export function CrossPlatform() {
+ function CrossPlatform() {
   return (
     <Section className="CrossPlatform">
       <div className="custom-panel">
@@ -33,3 +33,5 @@ export function CrossPlatform() {
     </Section>
   );
 }
+
+export default CrossPlatform

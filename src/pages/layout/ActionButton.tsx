@@ -8,7 +8,7 @@ interface ActionButtonProps {
   buttonClassName?: string;
 }
 
-export function ActionButton({
+ function ActionButton({
   href,
   type = "primary",
   target,
@@ -26,3 +26,5 @@ export function ActionButton({
     </a>
   );
 }
+
+export default ActionButton

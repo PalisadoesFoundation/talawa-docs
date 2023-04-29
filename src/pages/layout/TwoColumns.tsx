@@ -7,7 +7,7 @@ interface Props {
   reverse?: boolean;
 }
 
-export const TwoColumns: FC<Props> = ({ columnOne, columnTwo, reverse = false }) => {
+ const TwoColumns: FC<Props> = ({ columnOne, columnTwo, reverse = false }) => {
   const firstColumnClasses = classNames("column", "first", { "left": !reverse, "right": reverse });
   const lastColumnClasses = classNames("column", "last", { "right": !reverse, "left": reverse });
   const containerClasses = classNames("TwoColumns", { "reverse": reverse });
@@ -23,3 +23,5 @@ export const TwoColumns: FC<Props> = ({ columnOne, columnTwo, reverse = false })
     </div>
   );
 };
+
+export default TwoColumns

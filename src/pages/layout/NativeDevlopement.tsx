@@ -1,14 +1,14 @@
 import React from "react";
-import { Section } from "./Section";
-import { TwoColumns } from "./TwoColumns";
-import { TextColumn } from "./TextColumn";
+import  Section  from "./Section";
+import  TwoColumns  from "./TwoColumns";
+import  TextColumn  from "./TextColumn";
 import { textContent } from "../utils/textcontent";
 
 interface NativeDevelopmentProps {
   className?: string;
 }
 
-export function NativeDevelopment({ className }: NativeDevelopmentProps) {
+ function NativeDevelopment({ className }: NativeDevelopmentProps) {
   return (
     <Section className={`NativeDevelopment ${className}`} background="tint">
       <TwoColumns
@@ -32,3 +32,5 @@ export function NativeDevelopment({ className }: NativeDevelopmentProps) {
     </Section>
   );
 }
+
+export default NativeDevelopment

@@ -5,14 +5,14 @@ import Layout from "@theme/Layout";
 import { useHomePageAnimations } from "./hooks/useHomePageAnimations";
 
 // Import the components
-import { HeaderHero } from "./layout/HeaderHero";
-import { NativeApps } from "./layout/NativeApps";
-import { NativeCode } from "./layout/NativeCode";
-import { NativeDevelopment } from "./layout/NativeDevlopement";
-import { CrossPlatform } from "./layout/CrossPlatform";
-import { SixthPanel } from "./layout/SixthPanel";
-import { Community } from "./layout/Community";
-import { EightPanel } from "./layout/EightPanel";
+import  HeaderHero  from "./layout/HeaderHero";
+import  NativeApps  from "./layout/NativeApps";
+import  NativeCode  from "./layout/NativeCode";
+import  NativeDevelopment  from "./layout/NativeDevlopement";
+import  CrossPlatform  from "./layout/CrossPlatform";
+import  SixthPanel  from "./layout/SixthPanel";
+import  Community  from "./layout/Community";
+import  EightPanel  from "./layout/EightPanel";
 
 const Index = () => {
   useHomePageAnimations();

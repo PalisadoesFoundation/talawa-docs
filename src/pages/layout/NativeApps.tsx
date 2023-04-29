@@ -1,13 +1,13 @@
 import React from "react";
-import { Section } from "./Section";
-import { TwoColumns } from "./TwoColumns";
-import { TextColumn } from "./TextColumn";
+import  Section  from "./Section";
+import  TwoColumns  from "./TwoColumns";
+import  TextColumn  from "./TextColumn";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { textContent } from "../utils/textcontent";
 
 interface NativeAppsProps {}
 
-export const NativeApps: React.FC<NativeAppsProps> = () => {
+ const NativeApps: React.FC<NativeAppsProps> = () => {
   return (
     <Section className="NativeApps" background="tint">
       <TwoColumns
@@ -29,3 +29,5 @@ export const NativeApps: React.FC<NativeAppsProps> = () => {
     </Section>
   );
 };
+
+export default NativeApps

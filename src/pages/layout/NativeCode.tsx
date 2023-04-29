@@ -1,13 +1,13 @@
 import React from "react";
-import { Section } from "./Section";
-import { TextColumn } from "./TextColumn";
-import { TwoColumns } from "./TwoColumns";
+import  Section  from "./Section";
+import  TextColumn  from "./TextColumn";
+import  TwoColumns  from "./TwoColumns";
 import { textContent } from "../utils/textcontent";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 interface NativeCodeProps {}
 
-export const NativeCode: React.FC<NativeCodeProps> = () => {
+ const NativeCode: React.FC<NativeCodeProps> = () => {
   const imgUrl = useBaseUrl("img/Third-Panel-Image.png");
 
   return (
@@ -25,3 +25,4 @@ export const NativeCode: React.FC<NativeCodeProps> = () => {
   );
 };
 
+export default NativeCode

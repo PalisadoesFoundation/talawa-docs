@@ -1,10 +1,11 @@
 import React from "react";
-import { Section } from "./Section";
-import { TwoColumns } from "./TwoColumns";
-import { HomeCallToAction } from "./HomeCallToAction";
+import  Section  from "./Section";
+import  TwoColumns  from "./TwoColumns";
+import  HomeCallToAction  from "./HomeCallToAction";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-export function HeaderHero() {
+
+function HeaderHero() {
   return (
     <Section background="light" className="HeaderHero">
       <div className="socialLinks"></div>
@@ -33,3 +34,5 @@ export function HeaderHero() {
     </Section>
   );
 }
+
+export default HeaderHero

@@ -1,10 +1,10 @@
 import React from "react";
-import { Section } from "./Section";
-import { TextColumn } from "./TextColumn";
-import { TwoColumns } from "./TwoColumns";
+import  Section  from "./Section";
+import  TextColumn  from "./TextColumn";
+import  TwoColumns  from "./TwoColumns";
 import { textContent } from "../utils/textcontent";
 
-export function EightPanel() {
+ function EightPanel() {
   return (
     <Section className="EightPanel" background="tint">
       <TwoColumns
@@ -28,3 +28,5 @@ export function EightPanel() {
     </Section>
   );
 }
+
+export default EightPanel
