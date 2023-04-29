@@ -18,32 +18,29 @@ export function setupHeaderAnimations() {
     timeouts.push(setTimeout(animateStep, timeout));
   }
 
-  // only start the animation if the document is visible on load
-  if (!document.hidden) {
-    timeouts.push(
-      setTimeout(() => {
-        logo.classList.remove('init');
-        animateStep();
-      }, 2000)
-    );
+  function onStartAnimation() {
+    logo.classList.remove('init');
+    animateStep();
   }
 
   function onVisibilityChange() {
     if (document.hidden) {
-      timeouts.forEach(timeout => {
+      timeouts.forEach(function (timeout) {
         clearTimeout(timeout);
       });
-      // clear the timeouts array
       timeouts.length = 0;
     } else {
-      // restart the animation when visible
-      animateStep();
+      onStartAnimation();
     }
   }
 
-  // https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API
+  if (!document.hidden) {
+    timeouts.push(setTimeout(onStartAnimation, 2000));
+  }
+
   document.addEventListener('visibilitychange', onVisibilityChange, false);
 
-  return () =>
+  return function cleanup() {
     document.removeEventListener('visibilitychange', onVisibilityChange);
+  };
 }
