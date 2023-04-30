@@ -1,7 +1,7 @@
 import React from "react";
-import  Section  from "./Section";
-import  TwoColumns  from "./TwoColumns";
-import  HomeCallToAction  from "./HomeCallToAction";
+import  Section  from "../../utils/Section";
+import  TwoColumns  from "../../utils/TwoColumns";
+import  HomeCallToAction  from "../../utils/HomeCallToAction";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 

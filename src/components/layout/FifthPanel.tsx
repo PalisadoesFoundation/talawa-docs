@@ -1,12 +1,12 @@
 import React from "react";
-import  Section  from "./Section";
-import  TwoColumns  from "./TwoColumns";
-import  TextColumn  from "./TextColumn";
+import  Section  from "../../utils/Section";
+import  TwoColumns  from "../../utils/TwoColumns";
+import  TextColumn  from "../../utils/TextColumn";
 import  textcontent  from "../../utils/textcontent";
 
- function CrossPlatform() {
+ function FifthPanel() {
   return (
-    <Section className="CrossPlatform">
+    <Section className="fifth-panel">
       <div className="custom-panel">
         <div className="wrapper">
           <TwoColumns
@@ -23,7 +23,7 @@ import  textcontent  from "../../utils/textcontent";
                 <img
                   alt="talawa"
                   src="img/image-07.jpg"
-                  className="crossplatform-image"
+                  className="fifth-panel-image"
                 />
               </div>
             }
@@ -34,4 +34,4 @@ import  textcontent  from "../../utils/textcontent";
   );
 }
 
-export default CrossPlatform
+export default FifthPanel

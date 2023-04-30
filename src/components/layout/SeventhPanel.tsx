@@ -1,10 +1,10 @@
 import React from "react";
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import  Section  from "./Section";
-import  Heading  from "./Heading";
-import  TwoColumns  from "./TwoColumns";
+import  Section  from "../../utils/Section";
+import  Heading  from "../../utils/Heading";
+import  TwoColumns  from "../../utils/TwoColumns";
 
-const Community: React.FC = () => {
+const SeventhPanel: React.FC = () => {
   const content = {
     columnOne: (
       <>
@@ -47,7 +47,7 @@ const Community: React.FC = () => {
   };
 
   return (
-    <Section className="Community" background="light">
+    <Section className="seventh-panel" background="light">
       <div className="content">
         <Heading text="Globally Recognized, International Participation" />
         <TwoColumns {...content} />
@@ -56,4 +56,4 @@ const Community: React.FC = () => {
   );
 };
 
-export default Community
+export default SeventhPanel

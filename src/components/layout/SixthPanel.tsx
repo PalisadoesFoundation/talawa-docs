@@ -1,7 +1,7 @@
 import React from "react";
-import  Section  from "./Section";
-import  TwoColumns  from "./TwoColumns";
-import  TextColumn  from "./TextColumn";
+import  Section  from "../../utils/Section";
+import  TwoColumns  from "../../utils/TwoColumns";
+import  TextColumn  from "../../utils/TextColumn";
 import  textcontent  from "../../utils/textcontent";
 import CodeBlock from "@theme/CodeBlock";
 
@@ -21,9 +21,9 @@ interface SixthPanelProps {}
         }
         columnTwo={
           typeof window !== 'undefined' ? (
-            <CodeBlock language="jsx">{textcontent.codeExample}</CodeBlock>
+            <CodeBlock language="jsx">{codeExample}</CodeBlock>
           ) : (
-            <pre>{textcontent.codeExample}</pre>
+            <pre>{codeExample}</pre>
           )
         }
       />

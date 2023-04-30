@@ -1,7 +1,7 @@
 import React from "react";
-import  Section  from "./Section";
-import  TextColumn  from "./TextColumn";
-import  TwoColumns  from "./TwoColumns";
+import  Section  from "../../utils/Section";
+import  TextColumn  from "../../utils/TextColumn";
+import  TwoColumns  from "../../utils/TwoColumns";
 import textcontent  from "../../utils/textcontent";
 
  function EightPanel() {

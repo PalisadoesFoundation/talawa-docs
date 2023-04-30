@@ -5,14 +5,14 @@ import Layout from "@theme/Layout";
 import useHomePageAnimations  from "../hooks/useHomePageAnimations";
 
 // Import the components
-import  HeaderHero  from "./layout/HeaderHero";
-import  NativeApps  from "./layout/NativeApps";
-import  NativeCode  from "./layout/NativeCode";
-import  NativeDevelopment  from "./layout/NativeDevlopement";
-import  CrossPlatform  from "./layout/CrossPlatform";
-import  SixthPanel  from "./layout/SixthPanel";
-import  Community  from "./layout/Community";
-import  EightPanel  from "./layout/EightPanel";
+import  HeaderHero  from "../components/layout/HeaderHero";
+import  SecondPanel  from "../components/layout/SecondPanel";
+import  ThirdPanel  from "../components/layout/ThirdPanel";
+import  FourthPanel  from "../components/layout/FourthPanel";
+import  FifthPanel  from "../components/layout/FifthPanel";
+import  SixthPanel  from "../components/layout/SixthPanel";
+import  SeventhPanel  from "../components/layout/SeventhPanel";
+import  EightPanel  from "../components/layout/EightPanel";
 
 const Index = () => {
   useHomePageAnimations();
@@ -27,12 +27,12 @@ const Index = () => {
         <meta property="twitter:title" content={pageTitle} />
       </Head>
       <HeaderHero />
-      <NativeApps />
-      <NativeCode />
-      <NativeDevelopment />
-      <CrossPlatform />
+      <SecondPanel/>
+      <ThirdPanel />
+      <FourthPanel />
+      <FifthPanel />
       <SixthPanel />
-      <Community />
+      <SeventhPanel />
       <EightPanel />
     </Layout>
   );

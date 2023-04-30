@@ -1,17 +1,17 @@
 import React from "react";
-import  Section  from "./Section";
-import  TextColumn  from "./TextColumn";
-import  TwoColumns  from "./TwoColumns";
+import  Section  from "../../utils/Section";
+import  TextColumn  from "../../utils/TextColumn";
+import  TwoColumns  from "../../utils/TwoColumns";
 import  textcontent  from "../../utils/textcontent";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-interface NativeCodeProps {}
+interface ThirdPanelProps {}
 
- const NativeCode: React.FC<NativeCodeProps> = () => {
+ const ThirdPanel: React.FC<ThirdPanelProps> = () => {
   const imgUrl = useBaseUrl("img/Third-Panel-Image.png");
 
   return (
-    <Section className="NativeCode" background="light">
+    <Section className="third-panel" background="light">
       <TwoColumns
         columnOne={
           <TextColumn
@@ -19,10 +19,10 @@ interface NativeCodeProps {}
             text={textcontent.nativeCode}
           />
         }
-        columnTwo={<img alt="" src={imgUrl} className="native-code-image" />}
+        columnTwo={<img alt="" src={imgUrl} className="third-panel-image" />}
       />
     </Section>
   );
 };
 
-export default NativeCode
+export default ThirdPanel

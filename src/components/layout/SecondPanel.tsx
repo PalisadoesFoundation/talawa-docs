@@ -1,13 +1,13 @@
 import React from "react";
-import  Section  from "./Section";
-import  TwoColumns  from "./TwoColumns";
-import  TextColumn  from "./TextColumn";
+import  Section  from "../../utils/Section";
+import  TwoColumns  from "../../utils/TwoColumns";
+import  TextColumn  from "../../utils/TextColumn";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import textcontent  from "../../utils/textcontent";
 
-interface NativeAppsProps {}
+interface SecondPanelProps {}
 
- const NativeApps: React.FC<NativeAppsProps> = () => {
+ const SecondPanel: React.FC<SecondPanelProps> = () => {
   return (
     <Section className="NativeApps" background="tint">
       <TwoColumns
@@ -22,7 +22,7 @@ interface NativeAppsProps {}
           <img
             alt=""
             src={useBaseUrl("img/Second-Panel-Image.png")}
-            className="native-apps-image"
+            className="second-panel-image"
           />
         }
       />
@@ -30,4 +30,4 @@ interface NativeAppsProps {}
   );
 };
 
-export default NativeApps
+export default SecondPanel

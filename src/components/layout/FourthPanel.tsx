@@ -1,14 +1,14 @@
 import React from "react";
-import  Section  from "./Section";
-import  TwoColumns  from "./TwoColumns";
-import  TextColumn  from "./TextColumn";
+import  Section  from "../../utils/Section";
+import  TwoColumns  from "../../utils/TwoColumns";
+import  TextColumn  from "../../utils/TextColumn";
 import textcontent  from "../../utils/textcontent";
 
-interface NativeDevelopmentProps {
+interface FourthPanelProps {
   className?: string;
 }
 
- function NativeDevelopment({ className }: NativeDevelopmentProps) {
+ function FourthPanelProps({ className }: FourthPanelProps) {
   return (
     <Section className={`NativeDevelopment ${className}`} background="tint">
       <TwoColumns
@@ -24,7 +24,7 @@ interface NativeDevelopmentProps {
             <img
               alt="talawa"
               src="img/Fourth-Panel-Image.png"
-              className="native-development-image"
+              className="fourth-panel-image"
             />
           </div>
         }
@@ -33,4 +33,4 @@ interface NativeDevelopmentProps {
   );
 }
 
-export default NativeDevelopment
+export default FourthPanelProps

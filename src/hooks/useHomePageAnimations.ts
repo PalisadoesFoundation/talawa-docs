@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { setupDissectionAnimation } from '../pages/animations/_dissectionAnimation';
-import { setupHeaderAnimations } from '../pages/animations/_headerAnimation';
+import { setupDissectionAnimation } from '../components/animations/_dissectionAnimation';
+import { setupHeaderAnimations } from '../components/animations/_headerAnimation';
 
 const useHomePageAnimations = () => {
   useEffect(() => {
