@@ -9,12 +9,21 @@ import argparse
 import os
 import sys
 import csv
+import yaml
+import random
 from pprint import pprint
 
 RepoStar = namedtuple("RepoStar", "username repo")
 RepoFork = namedtuple("RepoFork", "username repo")
-UserProfile = namedtuple("UserProfile", "name username email")
-UserDetail = namedtuple("UserDetail", "username stars forks name email")
+PROFILE_PARAMETERS = (
+    "name username email location company twitter_username blog "
+    "html_url created_at followers public_repos updated_at"
+)
+UserProfile = namedtuple("UserProfile", PROFILE_PARAMETERS)
+UserDetail = namedtuple(
+    "UserDetail",
+    "{0} stars forks".format(PROFILE_PARAMETERS),
+)
 
 
 def fork_users(org, repo, delay=60, verbose=False):
@@ -70,7 +79,7 @@ def fork_users(org, repo, delay=60, verbose=False):
         if bool(verbose) is True:
             pprint(data)
         print("Processing {0} fork page {1}".format(repo, page))
-        time.sleep(delay)
+        sleep(delay)
 
     # Return
     return result
@@ -129,7 +138,7 @@ def star_users(org, repo, delay=60, verbose=False):
         if bool(verbose) is True:
             pprint(data)
         print("Processing {0} star page {1}".format(repo, page))
-        time.sleep(delay)
+        sleep(delay)
 
     # Return
     return result
@@ -152,7 +161,7 @@ def user_profile(username, delay=60, verbose=False):
     result = None
 
     # Sleep
-    time.sleep(delay)
+    sleep(delay)
 
     # Print status
     print('Getting profile data for user "{}"'.format(username))
@@ -170,12 +179,35 @@ def user_profile(username, delay=60, verbose=False):
             username=data.get("login"),
             name=data.get("name"),
             email=data.get("email"),
+            company=data.get("company"),
+            location=data.get("location"),
+            twitter_username=data.get("twitter_username"),
+            blog=data.get("blog"),
+            html_url=data.get("html_url"),
+            created_at=data.get("created_at"),
+            followers=data.get("followers"),
+            public_repos=data.get("public_repos"),
+            updated_at=data.get("updated_at"),
         )
 
     # Print the status
     if bool(verbose) is True:
         pprint(data)
     return result
+
+
+def sleep(delay):
+    """Sleep for a random time.
+
+    Args:
+        delay: Minimum duration of sleep
+
+    Returns:
+        None
+
+    """
+    # Sleep
+    time.sleep(random.randint(delay, delay * 2))
 
 
 def args():
@@ -188,18 +220,21 @@ def args():
         _args: Defines whether to initialize the database or not
 
     """
-    ################################
-    # PARSING (Setup)
-    ################################
+    # Parse the CLI
     parser = argparse.ArgumentParser()
-
-    ################################
-    # Parsing arguements
     parser.add_argument(
         "--filename", required=True, type=str, help="Output TSV filename"
     )
     parser.add_argument(
         "--verbose", help="Increase output verbosity", action="store_true"
+    )
+    parser.add_argument(
+        "--skip",
+        help="Skip getting the stars and forks data. "
+        "This assumes that you have already saved this data by doing a "
+        "previous run. This feature makes the recovery from "
+        "'HTTP Error 403: rate limit exceeded' errors easier.",
+        action="store_true",
     )
     parser.add_argument(
         "--delay",
@@ -238,6 +273,7 @@ def main():
     cli = args()
     delay = cli.delay
     verbose = cli.verbose
+    skip = cli.skip
 
     # Check the validity of the output file
     filepath = os.path.expanduser(cli.filename)
@@ -248,23 +284,41 @@ def main():
     except:
         print('Cannot create filename "{0}"'.format(filepath))
         sys.exit(1)
+    if ("talawa" in filepath.lower()) or "palisadoes" in filepath.lower():
+        print(
+            'Cannot create filename "{0}" in the repository tree.'.format(
+                filepath
+            )
+        )
+        sys.exit(1)
+    yaml_filepath = "{0}.yaml".format(filepath)
 
-    # Get the users who have starred and forked the repos
-    for repo in repos:
-        stars.extend(star_users(org, repo, delay=delay, verbose=verbose))
-        forks.extend(fork_users(org, repo, delay=delay, verbose=verbose))
+    if bool(skip) is False:
+        # Get the users who have starred and forked the repos
+        for repo in repos:
+            stars.extend(star_users(org, repo, delay=delay, verbose=verbose))
+            forks.extend(fork_users(org, repo, delay=delay, verbose=verbose))
 
-    # Get a unique list of usernames
-    for items in [stars, forks]:
-        listing = [_.username for _ in items]
-        usernames.extend(listing)
-    usernames = list(set(usernames))
+        # Get a unique list of usernames
+        for items in [stars, forks]:
+            listing = [_.username for _ in items]
+            usernames.extend(listing)
+        usernames = list(set(usernames))
 
-    # Get the interests of each username
-    for item in stars:
-        interests[item.username]["stars"].append(item.repo)
-    for item in forks:
-        interests[item.username]["forks"].append(item.repo)
+        # Get the interests of each username
+        for item in stars:
+            interests[item.username]["stars"].append(item.repo)
+        for item in forks:
+            interests[item.username]["forks"].append(item.repo)
+
+        # Save the interests in YAML file
+        with open(yaml_filepath, "w") as stream:
+            yaml.dump(interests, stream, default_flow_style=True)
+    else:
+        # Lod previously saved data
+        print("Loading data from {0}".format(yaml_filepath))
+        with open(yaml_filepath) as stream:
+            interests = yaml.safe_load(stream)
 
     # Get the profile data for each user
     print("Processing {0} usernames".format(len(usernames)))
@@ -280,6 +334,15 @@ def main():
                 username=username,
                 email=profile.email,
                 name=profile.name,
+                company=profile.company,
+                location=profile.location,
+                twitter_username=profile.twitter_username,
+                blog=profile.blog,
+                html_url=profile.html_url,
+                created_at=profile.created_at,
+                updated_at=profile.updated_at,
+                followers=profile.followers,
+                public_repos=profile.public_repos,
                 forks=interests.get(username, {}).get("forks"),
                 stars=interests.get(username, {}).get("stars"),
             )
@@ -289,15 +352,41 @@ def main():
     print('Creating file "{}"'.format(filepath))
     with open(filepath, "w") as stream:
         csvwriter = csv.writer(stream, delimiter="\t")
-        csvwriter.writerow(("Username", "Name", "Email", "Forks", "Stars"))
+        csvwriter.writerow(
+            (
+                "Username",
+                "Name",
+                "Email",
+                "Company",
+                "Location",
+                "Followers",
+                "Public Repos",
+                "Created",
+                "Updated",
+                "Forks",
+                "Stars",
+                "Profile",
+                "Blog",
+                "Twitter",
+            )
+        )
         csvwriter.writerows(
             [
                 (
                     _.username,
                     _.name,
                     _.email,
+                    _.company,
+                    _.location,
+                    _.followers,
+                    _.public_repos,
+                    _.created_at,
+                    _.updated_at,
                     ", ".join(_.forks),
                     ", ".join(_.stars),
+                    _.html_url,
+                    _.blog,
+                    _.twitter_username,
                 )
                 for _ in users
             ]
