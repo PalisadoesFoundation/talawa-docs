@@ -284,7 +284,7 @@ def main():
     except:
         print('Cannot create filename "{0}"'.format(filepath))
         sys.exit(1)
-    if ("talawa" in filepath.lower()) or "palisadoes" in filepath.lower():
+    if "talawa" in filepath.lower():
         print(
             'Cannot create filename "{0}" in the repository tree.'.format(
                 filepath
