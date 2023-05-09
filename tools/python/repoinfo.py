@@ -371,7 +371,7 @@ def main():
         os.remove(filepath)
 
     # Get the profile data for each user
-    print("Processing {0} usernames".format(len(usernames)))
+    print("Processing {0} usernames".format(len(interests.keys())))
     for username, _ in interests.items():
         profile = user_profile(username, delay=delay, verbose=verbose)
         if bool(profile) is True:
