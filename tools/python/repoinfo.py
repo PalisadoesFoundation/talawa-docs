@@ -268,50 +268,31 @@ def args():
     return _args
 
 
-def main():
+def user_interests(org, repos, _args, yaml_filepath):
     """Process the Talawa Repository metadata.
 
     Args:
-        None
+        org: Name of the organization
+        repos: Repositories to analyze
+        _args: CLI args as argparse.parser
 
     Returns:
-        None
+        results
 
     """
     # Initialize key variables
     org = "PalisadoesFoundation"
     repos = ["talawa", "talawa-api", "talawa-admin"]
     forks = []
-    users = []
     stars = []
     interests = defaultdict(lambda: defaultdict(lambda: []))
     usernames = []
-    profiles = {}
 
     # Get the CLI args
-    cli = args()
-    delay = cli.delay
-    verbose = cli.verbose
-    skip = cli.skip
-    test = cli.test
-
-    # Check the validity of the output file
-    filepath = os.path.expanduser(cli.filename)
-    if filepath.lower().endswith(".tsv") is False:
-        filepath = "{}.tsv".format(filepath)
-    try:
-        open(filepath, "a").close()
-    except:
-        print('Cannot create filename "{0}"'.format(filepath))
-        sys.exit(1)
-    if "talawa" in filepath.lower():
-        print(
-            'Cannot create filename "{0}" in the repository tree.'.format(
-                filepath
-            )
-        )
-        sys.exit(1)
-    yaml_filepath = "{0}.yaml".format(filepath)
+    delay = _args.delay
+    verbose = _args.verbose
+    skip = _args.skip
+    test = _args.test
 
     if bool(skip) is False:
         if bool(test) is False:
@@ -368,19 +349,166 @@ def main():
             print("Test Passed!")
             sys.exit(1)
         os.remove(yaml_filepath)
-        os.remove(filepath)
+
+    return interests
+
+
+def tsv_make(filepath):
+    """Create the output TSV file.
+
+    Args:
+        filepath: Name of file
+
+    Returns:
+        None
+
+    """
+    # Create file
+    if os.path.exists(filepath) is False:
+        # Output to TSV
+        print('Creating file "{0}"'.format(filepath))
+        with open(filepath, "w") as stream:
+            csvwriter = csv.writer(stream, delimiter="\t")
+            csvwriter.writerow(
+                (
+                    "Username",
+                    "Name",
+                    "Email",
+                    "Company",
+                    "Location",
+                    "Followers",
+                    "Public Repos",
+                    "Created",
+                    "Updated",
+                    "Forks",
+                    "Stars",
+                    "Profile",
+                    "Blog",
+                    "Twitter",
+                )
+            )
+
+
+def tsv_read(filepath):
+    """Read the output TSV file  for usernames.
+
+    Args:
+        filepath: Name of file
+
+    Returns:
+        usernames: List of usernames found
+
+    """
+    # Initialize key variables
+    usernames = []
+
+    # Read file
+    if os.path.exists(filepath) is True:
+        print('Reading usernames from file "{}"'.format(filepath))
+        with open(filepath) as stream:
+            reader = csv.reader(stream, delimiter="\t")
+
+            # Skip the headers
+            next(reader, None)  # skip the headers
+            for row in reader:
+                username = row[0]
+                usernames.append(username)
+                print('Found "{0}"'.format(username))
+
+    # Return
+    return usernames
+
+
+def tsv_write(filepath, record, verbose=False):
+    """Update the output TSV file.
+
+    Args:
+        filepath: Name of file
+        record: Record to write
+
+    Returns:
+       None
+
+    """
+    # Update file
+    if os.path.exists(filepath) is True:
+
+        # Print update
+        if bool(verbose) is False:
+            print('Adding "{}"'.format(record.username))
+        else:
+            print('Adding "{}"'.format(record))
+
+        # Output to TSV
+        with open(filepath, "a") as stream:
+            csvwriter = csv.writer(stream, delimiter="\t")
+            csvwriter.writerow(
+                (
+                    record.username,
+                    record.name,
+                    record.email,
+                    record.company,
+                    record.location,
+                    record.followers,
+                    record.public_repos,
+                    record.created_at,
+                    record.updated_at,
+                    ", ".join(record.forks)
+                    if bool(record.forks) is True
+                    else "",
+                    ", ".join(record.stars)
+                    if bool(record.stars) is True
+                    else "",
+                    record.html_url,
+                    record.blog,
+                    record.twitter_username,
+                )
+            )
+
+
+def main():
+    """Process the Talawa Repository metadata.
+
+    Args:
+        None
+
+    Returns:
+        None
+
+    """
+    # Initialize key variables
+    org = "PalisadoesFoundation"
+    repos = ["talawa", "talawa-api", "talawa-admin"]
+    interests = defaultdict(lambda: defaultdict(lambda: []))
+
+    # Get the CLI args
+    _args = args()
+    delay = _args.delay
+    verbose = _args.verbose
+
+    # Check the validity of the output file
+    filepath = os.path.expanduser(_args.filename)
+    if filepath.lower().endswith(".tsv") is False:
+        filepath = "{}.tsv".format(filepath)
+    yaml_filepath = "{0}.yaml".format(filepath)
+
+    # Get the users' interests
+    interests = user_interests(org, repos, _args, yaml_filepath)
+
+    # Ensure that the output TSV file has been created
+    tsv_make(filepath)
+
+    # Get the existing processed usernames in the file
+    existing_usernames = tsv_read(filepath)
 
     # Get the profile data for each user
     print("Processing {0} usernames".format(len(interests.keys())))
     for username, _ in interests.items():
-        profile = user_profile(username, delay=delay, verbose=verbose)
-        if bool(profile) is True:
-            profiles[username] = profile
+        if username not in existing_usernames:
+            profile = user_profile(username, delay=delay, verbose=verbose)
 
-    # Create
-    for username, profile in sorted(profiles.items()):
-        users.append(
-            UserDetail(
+            # Create an output record
+            record = UserDetail(
                 username=username,
                 email=profile.email,
                 name=profile.name,
@@ -396,51 +524,9 @@ def main():
                 forks=interests.get(username, {}).get("forks"),
                 stars=interests.get(username, {}).get("stars"),
             )
-        )
 
-    # Output to TSV
-    print('Creating file "{}"'.format(filepath))
-    with open(filepath, "w") as stream:
-        csvwriter = csv.writer(stream, delimiter="\t")
-        csvwriter.writerow(
-            (
-                "Username",
-                "Name",
-                "Email",
-                "Company",
-                "Location",
-                "Followers",
-                "Public Repos",
-                "Created",
-                "Updated",
-                "Forks",
-                "Stars",
-                "Profile",
-                "Blog",
-                "Twitter",
-            )
-        )
-        csvwriter.writerows(
-            [
-                (
-                    _.username,
-                    _.name,
-                    _.email,
-                    _.company,
-                    _.location,
-                    _.followers,
-                    _.public_repos,
-                    _.created_at,
-                    _.updated_at,
-                    ", ".join(_.forks),
-                    ", ".join(_.stars),
-                    _.html_url,
-                    _.blog,
-                    _.twitter_username,
-                )
-                for _ in users
-            ]
-        )
+            # Update the output file
+            tsv_write(filepath, record)
 
 
 if __name__ == "__main__":
