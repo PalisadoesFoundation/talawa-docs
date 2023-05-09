@@ -196,6 +196,22 @@ def user_profile(username, delay=60, verbose=False):
     return result
 
 
+def default_to_regular(data):
+    """Recursively convert a defaultdict to a dict.
+
+    Args:
+        data: defaultdict to convert
+
+    Returns:
+        data: Converted to dict
+
+    """
+    # Return
+    if isinstance(data, defaultdict):
+        data = {k: default_to_regular(v) for k, v in data.items()}
+    return data
+
+
 def sleep(delay):
     """Sleep for a random time.
 
@@ -243,6 +259,9 @@ def args():
         type=int,
         default=60,
     )
+    parser.add_argument(
+        "--test", help="Test the operation of the script", action="store_true"
+    )
     _args = parser.parse_args()
 
     # Return
@@ -274,6 +293,7 @@ def main():
     delay = cli.delay
     verbose = cli.verbose
     skip = cli.skip
+    test = cli.test
 
     # Check the validity of the output file
     filepath = os.path.expanduser(cli.filename)
@@ -294,35 +314,65 @@ def main():
     yaml_filepath = "{0}.yaml".format(filepath)
 
     if bool(skip) is False:
-        # Get the users who have starred and forked the repos
-        for repo in repos:
-            stars.extend(star_users(org, repo, delay=delay, verbose=verbose))
-            forks.extend(fork_users(org, repo, delay=delay, verbose=verbose))
+        if bool(test) is False:
+            # Get the users who have starred and forked the repos
+            for repo in repos:
+                stars.extend(
+                    star_users(org, repo, delay=delay, verbose=verbose)
+                )
+                forks.extend(
+                    fork_users(org, repo, delay=delay, verbose=verbose)
+                )
 
-        # Get a unique list of usernames
-        for items in [stars, forks]:
-            listing = [_.username for _ in items]
-            usernames.extend(listing)
-        usernames = list(set(usernames))
+            # Get a unique list of usernames
+            for items in [stars, forks]:
+                listing = [_.username for _ in items]
+                usernames.extend(listing)
+            usernames = list(set(usernames))
 
-        # Get the interests of each username
-        for item in stars:
-            interests[item.username]["stars"].append(item.repo)
-        for item in forks:
-            interests[item.username]["forks"].append(item.repo)
+            # Get the interests of each username
+            for item in stars:
+                interests[item.username]["stars"].append(item.repo)
+            for item in forks:
+                interests[item.username]["forks"].append(item.repo)
+        else:
+            # Run test
+            for _ in range(10):
+                for __ in range(10):
+                    interests[_]["stars"].append(random.randint(1, 10))
+                    interests[_]["forks"].append(random.randint(1, 10))
+            test_data = interests
+
+        # Convert the default dict to dict for output to YAML
+        interests = default_to_regular(interests)
 
         # Save the interests in YAML file
         with open(yaml_filepath, "w") as stream:
-            yaml.dump(interests, stream, default_flow_style=True)
+            yaml.dump(interests, stream)
     else:
-        # Lod previously saved data
+        # Load previously saved data
         print("Loading data from {0}".format(yaml_filepath))
         with open(yaml_filepath) as stream:
             interests = yaml.safe_load(stream)
 
+    # Verify test
+    if bool(test) is True:
+        if bool(verbose) is True:
+            pprint(interests)
+
+        # Test the data
+        if test_data != interests:
+            print("Test Failed!")
+            sys.exit(0)
+        else:
+            print("Test Passed!")
+            sys.exit(1)
+        os.remove(yaml_filepath)
+        os.remove(filepath)
+
     # Get the profile data for each user
     print("Processing {0} usernames".format(len(usernames)))
-    for username in usernames:
+    for username, _ in interests.items():
         profile = user_profile(username, delay=delay, verbose=verbose)
         if bool(profile) is True:
             profiles[username] = profile
