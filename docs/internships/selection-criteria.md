@@ -45,6 +45,29 @@ We value collaboration greatly. Therefore the value of your participation in the
 
 Our contributors are spread out around the globe from cultures and backgrounds unknown to you. Each repository has a CODE_OF_CONDUCT.md file outlining additional steps you can take to be a better participant.
 
+### Innovation
+
+Our ideas list gives a outline of what we'd like to see implemented, but do not limit your proposal to this bare minimum. Copying featurefunctionality from other sources without improving upon them is insufficient, Talawa must always be better. Expand on the possibilities to meet our innovation requirements. We greatly value innovative features and approaches.
+
+**Front End**
+
+When the idea has a focus on the end user always consider new or updated features that will be:
+
+1. Likely to be used extensively
+1. Intuitive to use
+1. Valuable to the end user
+
+Always evaluate how the feature will make the administrator more likely to try Talawa.
+
+**Back End**
+
+Innovation behind the scenes should cover:
+
+1. Ease of management by DevOps teams that may have limited experience.
+1. Improving performance, scalability and reliability
+
+Talawa is an open source project with mostly documentation as a technical support resource. The ease of use will always need to be considered.
+
 ### Technical Knowledge and Skill
 
 You should have experience in the techologies we use in the projects. You will not be effective without it. We therefore expect:
@@ -59,7 +82,7 @@ You should have experience in the techologies we use in the projects. You will n
  3. Ability to finish the tasks in a prompt manner and create a productive workflow.
      1. Ability to independently work on an issue or feature
      2. High standars of code quality. It must be:
-         1. Maintainable
+         1. Maintainable (eg. using widely supported, non EOL, production ready libraries)
          2. Readable
          3. Documented
          4. Verifiably testable
