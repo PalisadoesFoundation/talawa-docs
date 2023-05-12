@@ -105,28 +105,6 @@ Your solution should ideally consider the:
 1. performance / usability trade-offs
 1. potential data residency law requirements
 
-#### Events
-
-Event management is a big part of community organization management apps. This is how it often works using the Talawa terminology of `member` who is a `user` who has access to the mobile app:
-
-1. Some people may attend events regularly and never use a mobile app (`user`), but administrators will want to track their attendance.
-1. More tech-savvy people may want to prove their attendance via the app (`member`)
-1. _Event registration_ is for the purpose of events that need an RSVP
-1. _Event invitations_ are for the purpose events that are closed to invitees
-1. _Private events_ only show up in the mobile app calendars of invitees
-1. There are often standardized ways to track attendance to all types of events:
-   1. registered
-   1. invitation only
-   1. private
-   1. public / open. In other words anyone can attend and can walk in off the street
-1. There is often the ability to add users to the organization if they turn up to an event.
-1. It is an easy way to convert users to members when they attend an event.
-
-Talawa shares these goals but also includes:
-
-1. The ability of members invited or registered to an event to automatically be added to a group chat.
-1. The ability of members attending events to be assigned tasks/roles that can be tracked in their app.
-
 #### Other
 
 We will not support administrative functions in the mobile app.

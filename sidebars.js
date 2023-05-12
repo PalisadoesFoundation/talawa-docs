@@ -8,7 +8,7 @@ const sidebars = {
 				type: "generated-index",
 			},
 			collapsed: false,
-			items: ["introduction/about", "introduction/core-concepts", "introduction/our-repositories"],
+			items: ["introduction/about", "introduction/core-concepts"],
 		},
 		{
 			type: 'category',
@@ -82,6 +82,7 @@ const sidebars = {
 			collapsed: true,
 			items: [
 				"developers/technical-introduction",
+				"developers/contributing",
 				{
 					type: "category",
 					label: "Talawa",
