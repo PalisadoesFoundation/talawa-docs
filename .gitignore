@@ -1,6 +1,18 @@
 # VSCode
 .vscode
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
 # Dependencies
 /node_modules
 
