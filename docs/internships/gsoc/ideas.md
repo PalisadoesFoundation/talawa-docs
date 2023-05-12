@@ -105,7 +105,7 @@ Your solution should ideally consider the:
 1. performance / usability trade-offs
 1. potential data residency law requirements
 
-#### Other
+### Other
 
 We will not support administrative functions in the mobile app.
 

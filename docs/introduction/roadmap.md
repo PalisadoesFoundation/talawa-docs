@@ -2,7 +2,6 @@
 id: roadmap
 title: Roadmap
 ---
-
 ## Introduction
 
 Welcome to our roadmap ideas page! Get familiar with our definitions and general philosophy by reading this section. The ideas follow afterwards.
