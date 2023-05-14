@@ -68,6 +68,47 @@ This section outlines the primary features we'd like to implement in the coming 
 9. **Difficulty:** Hard
 10. **Impact Definition:** Risky/Exploratory
 
+### General: Basic Functionality
+
+There are some fundamental features that the Talawa suite of applications needs to have. We provide some insights into possible actions here. Any lists in this section should be viewed as inspiration, much more could be done!
+
+1. **Description:** Recent projects have focused on creating major improvements in the backend functionality to the detriment of fixing basic functionality in the user facing repos namely Talawa and Talawa-Admin. Our improved testing code coverage means that we get few fatal crashes, but many expected UX features don't respond as expected. For example:
+   1. _Links_: Clicked links and icons are frequently unresponsive
+   1. _Event Management_:
+      1. We used to be able to assign tasks to persons invited to events and those assigned tasks would be visible in the mobile app. This no longer happens.
+      1. It would also be good for all persons assigned tasks at an event to see each other's assignments. This needs to be addressed from the mobile app end user's perspective and that of the Admin panel.
+      1. Events are currently listed as sortable tiles. A calendar view option could be considered.
+   1. _Image Management_: Image uploads don't function as expected.
+   1. _Layouts_: Not all elements in the mobile app respond to changes between from light to dark modes.
+   1. _Updates_: Many menus don't allow updates or don't allow you to edit all the fields added when the menu item was created.
+   1. _Newsfeed_: The layout of the mobile app newsfeed is not intuitive. Adding items to this newsfeed needs to function like other well known mobile apps with this feature.
+   1. _Chat_:
+      1. Creating new chats in the mobile app causes it to crash.
+      1. Persons invited to events should be automatically added to the event chat groups, but this does not occur.
+      1. Verify and correct if necessary whether removing someone from an event invitee list removes them from the group chat.
+   1. _Errors_: Though we have a standard error widget in the mobile app, it is not used for all error reporting, nor does the widget log to console for troubleshooting.
+   1. _Testing_:
+      1. Test code coverage in the mobile app lags that of the other Talawa apps. It should ideally be above 90%
+      1. We need an automated end-to-end testing regime for all three Talawa code repositories.
+   1. _Timeliness_: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
+1. **Expected Outcomes:**
+   1. We have documented many other areas of potential improvements in the reference links below. After reviewing the videos there, we decided to create issues to rectify some of our concerns, but soon realized that this warrants a GSoC idea of its own as some solutions to the issues will require great coordination and time.
+   2. In addition to fixing the bugs above, consider any other ways of making the obviously desired functionality of Talawa and Talawa Admin work!
+      1. This document highlights many sites and videos to aid your research.
+      2. Any new features you plan to add as part of this project must be **_incremental_**, so that they can be completed in a week. We are certain that there are many opportunities to include these mini projects.
+   3. We have created issues to fix some of these obvious defects.
+   4. These fixes will ideally not be limited to current defects, but to also to those that may be introduced throughout the GSoC period. We have a history chronic instability and feature malfunctions across all repositories. This project is aimed at looking for ways to improve this now and in the medium to long term.
+   5. _**Reference links**_: These videos will be valuable in identifying obvious bugs in the functionality, and should provide you with inspiration for other simple features to be added.
+      - [Talawa-Admin Video: Functionality Review 2023](https://www.youtube.com/watch?v=Rp2Juid1Qus)
+      - [Talawa Video: Functionality Review 2023](https://www.youtube.com/watch?v=ix3eSReJj2k)
+
+1. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Skills Required:** Code stacks related to repos above. See introduction section.
+1. **Depends on Project:** `Admin: UI Redesign`. Many of the projects below will have some impact, and you will need to coordinate with the assigned mentees for this.
+1. **Project Size:** 350
+1. **Difficulty:** Medium
+1. **Impact Definition:** Core development
+
 ### Mobile App: Share data between Talawa and other application suites
 
 1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like WhatsApp, Twitter, etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. We also need other applications to be able to share data to Talawa from where users can share content from applications like WhatsApp, telegram etc. to users on Talawa via chat. We really want that Talawa users should also be able to have a preview of links at least from some predefined types stated in Expected Outcomes. When it comes to user retentions we would really like to have a floating PIP mode for the links that have playable video links similar to what telegram and WhatsApp have for YouTube videos.
