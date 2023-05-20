@@ -21,7 +21,7 @@ interface SecondPanelProps {}
         columnTwo={
           <img
             alt=""
-            src={useBaseUrl("img/Second-Panel-Image.png")}
+            src={useBaseUrl("img/image-02.png")}
             className="second-panel-image"
           />
         }

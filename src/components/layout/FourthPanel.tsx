@@ -23,7 +23,7 @@ interface FourthPanelProps {
           <div className="dissection">
             <img
               alt="talawa"
-              src="img/Fourth-Panel-Image.png"
+              src="img/image-04.png"
               className="fourth-panel-image"
             />
           </div>

@@ -19,7 +19,7 @@ import textcontent  from "../../utils/textcontent";
           <div className="dissection">
             <img
               alt="people using devices"
-              src="img/people-devices.png"
+              src="img/image-08.png"
               className="eigth-panel-image"
             />
           </div>

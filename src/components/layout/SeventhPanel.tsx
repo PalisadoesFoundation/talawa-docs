@@ -39,7 +39,7 @@ const SeventhPanel: React.FC = () => {
         </p>
         <img
           alt="talawa"
-          src="img/Seventh-Panel-Image.png"
+          src="img/image-07.png"
           className="seventh-panel-image"
         />
       </>

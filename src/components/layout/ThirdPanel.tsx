@@ -8,7 +8,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 interface ThirdPanelProps {}
 
  const ThirdPanel: React.FC<ThirdPanelProps> = () => {
-  const imgUrl = useBaseUrl("img/Third-Panel-Image.png");
+  const imgUrl = useBaseUrl("img/image-03.png");
 
   return (
     <Section className="third-panel" background="light">

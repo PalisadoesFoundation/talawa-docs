@@ -90,8 +90,6 @@
   animation: bounce 2s;
   }
 
-  
-
  .second-panel-image {
   width: 140%; 
   height: auto; 
@@ -298,181 +296,12 @@
      border-right: 1px solid var(--ifm-table-border-color);
    }
  }
- 
- /* Cross Platform */
- /*
- .CrossPlatform svg {
-  max-width: 400px;
-  margin: -20px 0;
- }
-
- .CrossPlatform svg text {
-  fill: var(--ifm-color-content-secondary);
- }
- 
- @media only screen and (max-width: 960px) {
-   .CrossPlatform .TwoColumns {
-     grid-gap: 2rem;
-   }
- 
-   .CrossPlatform svg {
-     max-width: 100%;
-     margin: 0 auto;
-   }
- }
- 
- @media only screen and (min-width: 481px) and (max-width: 960px) {
-   .CrossPlatform .column.last {
-     width: 86%;
-     margin: 0 auto;
-     text-align: center;
-   }
- }
-
- .codeBlockContainer_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Container-styles-module {
-  margin-bottom: 0 !important;
-  background-color: transparent !important;
- }
-*/
 
 
  .third-panel .prism-code {
   background-color: transparent !important;
  }
  
- /* Fast Refresh */
- 
- /* Make video flush with the bottom */
- .FastRefresh {
-   margin-bottom: -50px;
- }
- 
- /* Get rid of extra padding at the bottom of the video */
- .FastRefresh .column.last {
-   margin-bottom: -6px;
- }
- 
- @media only screen and (max-width: 480px) {
-   .FastRefresh .column.last {
-     padding: 0;
-   }
- 
-   .FastRefresh video {
-     width: 100%;
-   }
-
-
- }
- 
- @media only screen and (min-width: 481px) and (max-width: 960px) {
-   .FastRefresh .TwoColumns {
-     grid-gap: 2rem;
-   }
- 
-   .FastRefresh .column.last {
-     width: 100%;
-     padding: 0;
-   }
- 
-   .FastRefresh video {
-     width: 100%;
-   }
- }
- 
- @media only screen and (min-width: 961px) {
-   /* Give video more space than text */
-   .FastRefresh .TwoColumns {
-     grid-template-columns: 2fr 1fr;
-   }
- 
-   /* Make video flush with top of section */
-   .FastRefresh .last {
-     margin-top: -50px;
-   }
- 
-   /* Need to set video height so it'll fit */
-   .FastRefresh video {
-     height: 340px;
-     /* width: 100%; */
-   }
- }
- 
- /* Get Started */
-
- .GetStarted .Heading {
-   text-align: center;
- }
- 
- .GetStarted .content {
-   max-width: 900px;
-   margin: 0 auto;
-   display: flex;
-   flex-direction: column;
- }
- 
- .GetStarted .steps {
-   align-self: center;
- }
- 
- .GetStarted .steps li {
-   font-size: 28px;
-   margin-bottom: 8px;
- }
- 
- .GetStarted .steps li p {
-   font-size: 17px;
-   color: #000;
- }
- 
- .GetStarted .terminal {
-   display: flex;
-   flex-direction: column;
-   border-left: 1px solid gray;
-   border-right: 1px solid gray;
-   border-top: 1px solid gray;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
-   padding: 30px 30px 0px 30px;
-   width: 600px;
-   position: relative;
- }
- 
- .GetStarted .terminal::before {
-   content: "○ ○ ○";
-   color: gray;
-   font-size: 16px;
-   position: absolute;
-   left: 15px;
-   top: 5px;
- }
- 
- .GetStarted code {
-   font-size: 18px;
-   position: relative;
-   background: none;
-   border: 0;
- }
- 
- .GetStarted code:first-child::before {
-   content: ">";
-   position: absolute;
-   left: -13px;
-   color: gray;
- }
- 
- @media screen and (max-width: 760px) {
-   .GetStarted .content {
-     width: 80%;
-   }
- 
-   .GetStarted .steps li {
-     margin-left: -1rem;
-   }
- 
-   .GetStarted .terminal {
-     width: 100%;
-   }
- }
  
  /* Header Hero */
  
@@ -600,106 +429,6 @@
    overflow-x: hidden;
  }
  
- /* Logo Animation */
- 
- .LogoAnimation {
-   width: 350px;
- }
- 
- @media only screen and (max-width: 760px) {
-   .LogoAnimation {
-     width: 100%;
-   }
- }
- 
- .LogoAnimation .screen {
-   transition: all 850ms ease-in-out;
-   stroke-opacity: 0;
-   transform: scale(2.25, 1.33) rotate(0);
-   stroke-width: 5px;
- }
- 
- .LogoAnimation .background {
-   fill: var(--dark);
- }
- 
- .LogoAnimation .logoInner {
-   transform: scale(1);
-   transition: all 850ms ease-in-out;
-   transition-delay: 50ms;
- }
- 
- .LogoAnimation.mobile .logoInner,
- .LogoAnimation.mobile2 .logoInner {
-   transform: scale(0.4);
- }
- 
- .LogoAnimation.desktop .logoInner {
-   transform: scale(0.5);
- }
- 
- .LogoAnimation.laptop .logoInner {
-   transform: scale(0.35);
- }
- 
- .LogoAnimation.full .screen {
-   stroke-opacity: 0;
-   transform: scale(2.25, 1.33) rotate(0);
-   opacity: 1;
-   transition: none;
- }
- 
- .LogoAnimation.mobile .screen {
-   stroke-opacity: 1;
-   transform: scale(1) rotate(0);
-   opacity: 1;
-   stroke-width: 5px;
- }
- 
- .LogoAnimation.desktop .screen {
-   stroke-opacity: 1;
-   transform: scale(1.125, 1.1) rotate(-90deg);
-   opacity: 1;
-   stroke-width: 8px;
- }
- 
- .LogoAnimation.laptop .screen {
-   stroke-opacity: 1;
-   transform: scale(0.83) rotate(-90deg);
-   opacity: 1;
-   stroke-width: 5px;
- }
- 
- .LogoAnimation.mobile2 .screen {
-   stroke-opacity: 1;
-   opacity: 1;
-   stroke-width: 5px;
-   transform: scale(1) rotate(-180deg);
- }
- 
- .LogoAnimation.full2 .screen {
-   stroke-opacity: 0;
-   transform: scale(2.25, 1.33) rotate(-180deg);
- }
- 
- .LogoAnimation:not(.mobile):not(.mobile2) .speaker {
-   opacity: 0;
-   transform: scaleX(0);
- }
- 
- .LogoAnimation:not(.desktop) .stand {
-   transform: scaleX(0);
- }
- 
- .LogoAnimation:not(.laptop) .base {
-   transform: scaleX(0);
- }
- 
- .LogoAnimation .speaker,
- .LogoAnimation .stand,
- .LogoAnimation .base {
-   transition: all 850ms ease-in-out;
- }
  
  /* Native Apps */
  
@@ -858,61 +587,6 @@
    background-color: var(--dark);
  }
  
- /* .Section p a {
-   @extend %link-style;
- }
- 
- html[data-theme="dark"] .Section p a {
-   @extend %link-style-dark;
- }
-  */
- /* VideoContent */
- 
- .VideoContent .twitter-follow-button {
-  margin-top: 1.5rem;
- }
- 
- @media only screen and (max-width: 960px) {
-   .VideoContent .TwoColumns {
-     grid-gap: 2rem;
-   }
- 
-   .VideoContent .column.last {
-     width: 100%;
-     display: flex;
-     justify-content: center;
-   }
- 
-   /*
-    * If the full-width video won't fit, make it full-width.
-    * https://jameshfisher.com/2017/08/30/how-do-i-make-a-full-width-iframe/
-    */
-   .VideoContent .vidWrapper {
-     position: relative;
-     width: 100%;
-     padding-top: 56.25%;
-   }
- 
-   .VideoContent iframe {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-   }
- }
- 
- @media only screen and (min-width: 961px) {
-   /* Give more width for the video */
-   .VideoContent .TwoColumns {
-     grid-template-columns: 1fr 2fr;
-   }
- 
-   .VideoContent iframe {
-     width: 560px;
-     height: 315px;
-   }
- }
  
  /* Two columns */
  
@@ -975,39 +649,6 @@
    }
  }
  
- /* Twitter Follow Button */
- 
- .twitter-follow-button {
-   display: inline-block;
-   position: relative;
-   height: 28px;
-   box-sizing: border-box;
-   padding: 1px 10px 1px 9px;
-   background-color: #1b95e0;
-   color: #fff;
-   border-radius: 4px;
-   font-weight: 400;
-   cursor: pointer;
-   font-size: 13px;
-   line-height: 26px;
- }
-
-.twitter-follow-button:hover {
-  color: #fff;
-  background-color: #0c7abf;
-}
-
-.twitter-follow-button .icon {
-  position: relative;
-  display: inline-block;
-  top: 4px;
-  height: 18px;
-  width: 18px;
-  margin-right: 4px;
-  background: transparent 0 0 no-repeat;
-  background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2072%2072%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h72v72H0z%22%2F%3E%3Cpath%20class%3D%22icon%22%20fill%3D%22%23fff%22%20d%3D%22M68.812%2015.14c-2.348%201.04-4.87%201.744-7.52%202.06%202.704-1.62%204.78-4.186%205.757-7.243-2.53%201.5-5.33%202.592-8.314%203.176C56.35%2010.59%2052.948%209%2049.182%209c-7.23%200-13.092%205.86-13.092%2013.093%200%201.026.118%202.02.338%202.98C25.543%2024.527%2015.9%2019.318%209.44%2011.396c-1.125%201.936-1.77%204.184-1.77%206.58%200%204.543%202.312%208.552%205.824%2010.9-2.146-.07-4.165-.658-5.93-1.64-.002.056-.002.11-.002.163%200%206.345%204.513%2011.638%2010.504%2012.84-1.1.298-2.256.457-3.45.457-.845%200-1.666-.078-2.464-.23%201.667%205.2%206.5%208.985%2012.23%209.09-4.482%203.51-10.13%205.605-16.26%205.605-1.055%200-2.096-.06-3.122-.184%205.794%203.717%2012.676%205.882%2020.067%205.882%2024.083%200%2037.25-19.95%2037.25-37.25%200-.565-.013-1.133-.038-1.693%202.558-1.847%204.778-4.15%206.532-6.774z%22%2F%3E%3C%2Fsvg%3E);
-}
-
  /* Correct for whitespace in the image of phones */
  .SixthPanel .column.left {
    margin-top: -25px; 
