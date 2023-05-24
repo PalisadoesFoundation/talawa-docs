@@ -1,3 +1,7 @@
+---
+title: Models Interface Language Model
+id: modelsInterfaceLanguageModel
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Language](../modules/models_Language.md) / Interface\_LanguageModel
 
 # Interface: Interface\_LanguageModel

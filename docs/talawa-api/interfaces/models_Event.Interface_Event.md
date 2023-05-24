@@ -1,3 +1,7 @@
+---
+title: Models Interface Events
+id: modelsInterfaceEvents
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Event](../modules/models_Event.md) / Interface\_Event
 
 # Interface: Interface\_Event

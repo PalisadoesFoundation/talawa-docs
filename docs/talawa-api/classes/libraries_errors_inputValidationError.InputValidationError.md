@@ -1,3 +1,9 @@
+---
+title: Input Validation Error
+id: inputValidationError
+---
+
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/inputValidationError](../modules/libraries_errors_inputValidationError.md) / InputValidationError
 
 # Class: InputValidationError

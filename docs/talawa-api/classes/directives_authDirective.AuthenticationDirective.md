@@ -1,3 +1,11 @@
+---
+title: Authentication Directive
+id: authDirective
+sidebar: apiNavbar
+---
+
+
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [directives/authDirective](../modules/directives_authDirective.md) / AuthenticationDirective
 
 # Class: AuthenticationDirective

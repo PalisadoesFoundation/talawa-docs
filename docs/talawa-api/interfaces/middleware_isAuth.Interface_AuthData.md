@@ -1,3 +1,7 @@
+---
+title: Middleware isAuth
+id: middleware_isAuth_Interface_authdata
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [middleware/isAuth](../modules/middleware_isAuth.md) / Interface\_AuthData
 
 # Interface: Interface\_AuthData

@@ -1,3 +1,7 @@
+---
+title: Models Interface Plugin Field
+id: modelsInterfacePluginField
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/PluginField](../modules/models_PluginField.md) / Interface\_PluginField
 
 # Interface: Interface\_PluginField

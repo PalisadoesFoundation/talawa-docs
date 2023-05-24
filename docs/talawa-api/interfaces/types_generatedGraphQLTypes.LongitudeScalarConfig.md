@@ -1,3 +1,7 @@
+---
+title: GraphQL Longitude Scalar Config
+id: graphQLLongitudeScalarConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / LongitudeScalarConfig
 
 # Interface: LongitudeScalarConfig

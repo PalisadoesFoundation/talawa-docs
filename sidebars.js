@@ -14,7 +14,6 @@ const sidebars = {
         'introduction/roadmap'
       ]
     },
-
     {
       type: 'category',
       label: 'Developer Resources',
@@ -273,9 +272,99 @@ const sidebars = {
         }
       ]
     },
-    ,
+  ],
+  apiNavbar: [
+    {
+      type: 'category',
+      collapsed: false,
+      label: 'API',
+      items: [
+        'talawa-api/modules',
+        {
+          type: 'category',
+          label: 'Class',
+          items: [
+            'talawa-api/classes/authDirective',
+            'talawa-api/classes/roleAuthDirective',
+            'talawa-api/classes/applicationError',
+            'talawa-api/classes/conflictError',
+            'talawa-api/classes/inputValidationError',
+            'talawa-api/classes/internalServerError',
+            'talawa-api/classes/invalidFileTypeError',
+            'talawa-api/classes/notFoundError',
+            'talawa-api/classes/unauthenticatedError',
+            'talawa-api/classes/unauthorizedError',
+            'talawa-api/classes/validationError',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Interface',
+          items: [
+            'talawa-api/interfaces/libraries_errors_applicationInterfaceError',
+            'talawa-api/interfaces/middleware_isAuth_Interface_authdata',
+            'talawa-api/interfaces/modelsInterfaceComment',
+            'talawa-api/interfaces/modelsInterfaceDirectChat',
+            'talawa-api/interfaces/modelsInterfaceDirectChatMessage', 
+    
+            'talawa-api/interfaces/modelsInterfaceDonation',
+            'talawa-api/interfaces/modelsInterfaceEncodedImage',
+            'talawa-api/interfaces/modelsInterfaceEvents',
+            'talawa-api/interfaces/modelsInterfaceUserAttendee',
+            'talawa-api/interfaces/modelsInterfaceEventProject',
+    
+            'talawa-api/interfaces/modelsInterfaceFile',
+            'talawa-api/interfaces/modelsInterfaceGroup',
+            'talawa-api/interfaces/modelsInterfaceGroupChat',
+            'talawa-api/interfaces/modelsInterfaceGroupChatMessage',
+            'talawa-api/interfaces/modelsInterfaceImageHash',
+    
+            'talawa-api/interfaces/modelsInterfaceLanguage',
+            'talawa-api/interfaces/modelsInterfaceLanguageModel',
+            'talawa-api/interfaces/modelsInterfaceMembershipRequest',
+            'talawa-api/interfaces/modelsInterfaceMessage',
+            'talawa-api/interfaces/modelsInterfaceMessageChat',
+    
+            'talawa-api/interfaces/modelsInterfaceOrganization',
+            'talawa-api/interfaces/modelsInterfaceOrganizationTagUser',
+            'talawa-api/interfaces/modelsInterfacePlugin',
+            'talawa-api/interfaces/modelsInterfacePluginField',
+            'talawa-api/interfaces/modelsInterfacePost', 
+    
+            'talawa-api/interfaces/modelsInterfaceTagUser',
+            'talawa-api/interfaces/modelsInterfaceTask',
+            'talawa-api/interfaces/modelsInterfaceUser',
+            'talawa-api/interfaces/graphQLDateScalarConfig',
+            'talawa-api/interfaces/graphQLDateTimeScalarConfig',
+    
+            'talawa-api/interfaces/graphQLEmailAddressScalarConfig',
+            'talawa-api/interfaces/graphQLLatitudeScalarConfig',
+            'talawa-api/interfaces/graphQLLongitudeScalarConfig',
+            'talawa-api/interfaces/graphQLPhoneNumcalarConfig',
+            'talawa-api/interfaces/graphQLPositiveIntScalarConfig',
+    
+            'talawa-api/interfaces/graphQLSubscriptionResolverObject',
+            'talawa-api/interfaces/graphQLSubscriptionSubscriberObject',
+            'talawa-api/interfaces/graphQLTimeScalarConfig',
+            'talawa-api/interfaces/graphQLUploadScalarConfig',
+            'talawa-api/interfaces/graphQLURLScalarConfig',
+    
+    
+            'talawa-api/interfaces/utilitiesInterfaceAuthTokenPayload',
+            'talawa-api/interfaces/utilitiesInterfaceMailFields',
+    
+          ],
+        },
+      ],
+    },
+    
   ],
   ...require('./docs/schema/sidebar-schema.js')
 }
 
 module.exports = sidebars
+
+
+
+
+

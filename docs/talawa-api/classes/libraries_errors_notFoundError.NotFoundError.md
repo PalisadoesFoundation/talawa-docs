@@ -1,3 +1,8 @@
+---
+title: Not Found Error
+id: notFoundError
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/notFoundError](../modules/libraries_errors_notFoundError.md) / NotFoundError
 
 # Class: NotFoundError

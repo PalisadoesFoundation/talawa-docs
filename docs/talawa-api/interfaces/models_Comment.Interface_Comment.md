@@ -1,3 +1,8 @@
+---
+title: Models Interface Comment
+id: modelsInterfaceComment
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Comment](../modules/models_Comment.md) / Interface\_Comment
 
 # Interface: Interface\_Comment

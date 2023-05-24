@@ -1,3 +1,9 @@
+---
+title: API Introduction
+id: readme
+sidebar: apiNavbar
+---
+
 talawa-api / [Exports](modules.md)
 
 # Talawa API

@@ -1,3 +1,7 @@
+---
+title: Models Interface Task
+id: modelsInterfaceTask
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Task](../modules/models_Task.md) / Interface\_Task
 
 # Interface: Interface\_Task

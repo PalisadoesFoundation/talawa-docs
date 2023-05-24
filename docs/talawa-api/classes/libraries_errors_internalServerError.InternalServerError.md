@@ -1,3 +1,8 @@
+---
+title: Internal Server Error
+id: internalServerError
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/internalServerError](../modules/libraries_errors_internalServerError.md) / InternalServerError
 
 # Class: InternalServerError

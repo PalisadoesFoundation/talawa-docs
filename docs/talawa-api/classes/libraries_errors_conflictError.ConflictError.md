@@ -1,3 +1,8 @@
+---
+title: Conflict Error
+id: conflictError
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/conflictError](../modules/libraries_errors_conflictError.md) / ConflictError
 
 # Class: ConflictError

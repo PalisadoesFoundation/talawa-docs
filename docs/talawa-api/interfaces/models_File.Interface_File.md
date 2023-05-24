@@ -1,3 +1,7 @@
+---
+title: Models Interface File
+id: modelsInterfaceFile
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/File](../modules/models_File.md) / Interface\_File
 
 # Interface: Interface\_File

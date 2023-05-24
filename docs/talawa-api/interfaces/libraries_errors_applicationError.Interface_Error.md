@@ -1,3 +1,7 @@
+---
+title: Interface Error
+id: libraries_errors_applicationInterfaceError
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/applicationError](../modules/libraries_errors_applicationError.md) / Interface\_Error
 
 # Interface: Interface\_Error

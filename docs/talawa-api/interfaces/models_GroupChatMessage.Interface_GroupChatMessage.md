@@ -1,3 +1,7 @@
+---
+title: Models Interface Group Chat Message
+id: modelsInterfaceGroupChatMessage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/GroupChatMessage](../modules/models_GroupChatMessage.md) / Interface\_GroupChatMessage
 
 # Interface: Interface\_GroupChatMessage

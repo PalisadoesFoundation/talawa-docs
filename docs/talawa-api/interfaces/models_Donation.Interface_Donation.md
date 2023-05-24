@@ -1,3 +1,7 @@
+---
+title: Models Interface Donation
+id: modelsInterfaceDonation
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Donation](../modules/models_Donation.md) / Interface\_Donation
 
 # Interface: Interface\_Donation

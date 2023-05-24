@@ -1,3 +1,7 @@
+---
+title: GraphQL Email Address Scalar Config
+id: graphQLEmailAddressScalarConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / EmailAddressScalarConfig
 
 # Interface: EmailAddressScalarConfig

@@ -1,3 +1,8 @@
+---
+title: Role Authentication Directive
+id: roleAuthDirective
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [directives/roleDirective](../modules/directives_roleDirective.md) / RoleAuthorizationDirective
 
 # Class: RoleAuthorizationDirective

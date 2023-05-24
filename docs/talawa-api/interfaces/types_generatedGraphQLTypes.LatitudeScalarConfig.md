@@ -1,3 +1,7 @@
+---
+title: GraphQL Latitude Scalar Config
+id: graphQLLatitudeScalarConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / LatitudeScalarConfig
 
 # Interface: LatitudeScalarConfig

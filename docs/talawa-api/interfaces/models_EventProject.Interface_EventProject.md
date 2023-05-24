@@ -1,3 +1,7 @@
+---
+title: Models Interface Event Project
+id: modelsInterfaceEventProject
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/EventProject](../modules/models_EventProject.md) / Interface\_EventProject
 
 # Interface: Interface\_EventProject

@@ -1,3 +1,7 @@
+---
+title: Models Interface Group
+id: modelsInterfaceGroup
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Group](../modules/models_Group.md) / Interface\_Group
 
 # Interface: Interface\_Group

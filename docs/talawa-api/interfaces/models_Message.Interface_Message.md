@@ -1,3 +1,7 @@
+---
+title: Models Interface Message
+id: modelsInterfaceMessage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Message](../modules/models_Message.md) / Interface\_Message
 
 # Interface: Interface\_Message

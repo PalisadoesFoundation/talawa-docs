@@ -1,3 +1,8 @@
+---
+title: Invalid FileType Error
+id: invalidFileTypeError
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/invalidFileTypeError](../modules/libraries_errors_invalidFileTypeError.md) / InvalidFileTypeError
 
 # Class: InvalidFileTypeError

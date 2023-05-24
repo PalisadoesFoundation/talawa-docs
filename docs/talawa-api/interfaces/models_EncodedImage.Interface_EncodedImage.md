@@ -1,3 +1,7 @@
+---
+title: Models Interface Encoded Image
+id: modelsInterfaceEncodedImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/EncodedImage](../modules/models_EncodedImage.md) / Interface\_EncodedImage
 
 # Interface: Interface\_EncodedImage

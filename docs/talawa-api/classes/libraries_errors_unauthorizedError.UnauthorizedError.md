@@ -1,3 +1,8 @@
+---
+title: Unauthorized Error
+id: unauthorizedError
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/unauthorizedError](../modules/libraries_errors_unauthorizedError.md) / UnauthorizedError
 
 # Class: UnauthorizedError

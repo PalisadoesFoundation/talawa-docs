@@ -1,3 +1,7 @@
+---
+title: GraphQL Date Scalar Config
+id: graphQLDateScalarConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / DateScalarConfig
 
 # Interface: DateScalarConfig

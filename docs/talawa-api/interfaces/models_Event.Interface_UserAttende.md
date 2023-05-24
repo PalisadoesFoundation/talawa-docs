@@ -1,3 +1,7 @@
+---
+title: Models Interface User Attendee
+id: modelsInterfaceUserAttendee
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Event](../modules/models_Event.md) / Interface\_UserAttende
 
 # Interface: Interface\_UserAttende

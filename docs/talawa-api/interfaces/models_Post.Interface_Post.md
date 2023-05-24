@@ -1,3 +1,7 @@
+---
+title: Models Interface Post
+id: modelsInterfacePost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Post](../modules/models_Post.md) / Interface\_Post
 
 # Interface: Interface\_Post

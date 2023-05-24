@@ -1,3 +1,7 @@
+---
+title: Models Interface Membership Request
+id: modelsInterfaceMembershipRequest
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/MembershipRequest](../modules/models_MembershipRequest.md) / Interface\_MembershipRequest
 
 # Interface: Interface\_MembershipRequest

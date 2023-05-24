@@ -1,3 +1,7 @@
+---
+title: Models Interface TagUser
+id: modelsInterfaceTagUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/TagUser](../modules/models_TagUser.md) / Interface\_TagUser
 
 # Interface: Interface\_TagUser

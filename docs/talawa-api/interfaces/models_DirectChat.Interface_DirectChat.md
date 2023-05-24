@@ -1,3 +1,8 @@
+---
+title: Models Interface DirectChat
+id: modelsInterfaceDirectChat
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/DirectChat](../modules/models_DirectChat.md) / Interface\_DirectChat
 
 # Interface: Interface\_DirectChat

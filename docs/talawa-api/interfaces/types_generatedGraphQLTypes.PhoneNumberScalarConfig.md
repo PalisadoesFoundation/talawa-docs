@@ -1,3 +1,7 @@
+---
+title: GraphQL Phone Number Scalar Config
+id: graphQLPhoneNumcalarConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / PhoneNumberScalarConfig
 
 # Interface: PhoneNumberScalarConfig

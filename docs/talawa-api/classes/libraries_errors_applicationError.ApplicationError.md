@@ -1,3 +1,8 @@
+---
+title: Application Error
+id: applicationError
+---
+
 [talawa-api](../README.md) / [Exports](../modules.md) / [libraries/errors/applicationError](../modules/libraries_errors_applicationError.md) / ApplicationError
 
 # Class: ApplicationError

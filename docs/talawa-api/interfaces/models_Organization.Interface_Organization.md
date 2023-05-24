@@ -1,3 +1,7 @@
+---
+title: Models Interface Organization
+id: modelsInterfaceOrganization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/Organization](../modules/models_Organization.md) / Interface\_Organization
 
 # Interface: Interface\_Organization

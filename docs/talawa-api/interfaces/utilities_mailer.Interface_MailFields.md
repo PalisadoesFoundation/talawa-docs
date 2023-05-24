@@ -1,3 +1,7 @@
+---
+title: Utilities Interface Mail Fields
+id: utilitiesInterfaceMailFields
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [utilities/mailer](../modules/utilities_mailer.md) / Interface\_MailFields
 
 # Interface: Interface\_MailFields

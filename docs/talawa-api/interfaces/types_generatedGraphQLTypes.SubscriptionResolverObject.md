@@ -1,3 +1,7 @@
+---
+title: GraphQL Subscription Resolver Object
+id: graphQLSubscriptionResolverObject
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / SubscriptionResolverObject
 
 # Interface: SubscriptionResolverObject<TResult, TParent, TContext, TArgs\>

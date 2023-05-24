@@ -1,3 +1,7 @@
+---
+title: GraphQL URL Scalar Config
+id: graphQLURLScalarConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / UrlScalarConfig
 
 # Interface: UrlScalarConfig

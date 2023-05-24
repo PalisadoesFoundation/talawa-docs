@@ -1,3 +1,7 @@
+---
+title: Models Interface Image Hash
+id: modelsInterfaceImageHash
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / [models/ImageHash](../modules/models_ImageHash.md) / Interface\_ImageHash
 
 # Interface: Interface\_ImageHash
