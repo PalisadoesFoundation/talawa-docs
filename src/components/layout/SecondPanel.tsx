@@ -9,7 +9,7 @@ interface SecondPanelProps {}
 
  const SecondPanel: React.FC<SecondPanelProps> = () => {
   return (
-    <Section className="NativeApps" background="tint">
+    <Section className="SecondPanel" background="tint">
       <TwoColumns
         reverse
         columnOne={
