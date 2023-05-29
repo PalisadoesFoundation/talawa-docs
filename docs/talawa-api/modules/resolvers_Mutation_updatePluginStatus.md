@@ -1,3 +1,7 @@
+---
+title: Update Plugin Status
+id: resolvers_Mutation_updatePluginStatus
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updatePluginStatus
 
 # Module: resolvers/Mutation/updatePluginStatus

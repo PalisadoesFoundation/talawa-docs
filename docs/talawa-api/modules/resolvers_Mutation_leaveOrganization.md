@@ -1,3 +1,7 @@
+---
+title: Leave Organization
+id: resolvers_Mutation_leaveOrganization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/leaveOrganization
 
 # Module: resolvers/Mutation/leaveOrganization

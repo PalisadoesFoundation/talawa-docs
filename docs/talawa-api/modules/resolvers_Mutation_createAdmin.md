@@ -1,3 +1,7 @@
+---
+title: Create Admin
+id: resolvers_Mutation_createAdmin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createAdmin
 
 # Module: resolvers/Mutation/createAdmin

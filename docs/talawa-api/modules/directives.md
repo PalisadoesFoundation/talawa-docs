@@ -1,3 +1,7 @@
+---
+title: Directives
+id: directives
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / directives
 
 # Module: directives

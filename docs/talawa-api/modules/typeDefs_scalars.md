@@ -1,3 +1,7 @@
+---
+title: Scalars
+id: typeDefs_scalars
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/scalars
 
 # Module: typeDefs/scalars

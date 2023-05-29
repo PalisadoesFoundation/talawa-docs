@@ -1,3 +1,7 @@
+---
+title: Message
+id: resolvers_GroupChatMessageMessage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/GroupChatMessage
 
 # Module: resolvers/GroupChatMessage

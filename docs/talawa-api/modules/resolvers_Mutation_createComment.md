@@ -1,3 +1,7 @@
+---
+title: Create Comment
+id: resolvers_Mutation_createComment
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createComment
 
 # Module: resolvers/Mutation/createComment

@@ -1,3 +1,7 @@
+---
+title: User
+id: models_User
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/User
 
 # Module: models/User

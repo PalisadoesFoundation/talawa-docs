@@ -1,3 +1,7 @@
+---
+title: GroupChat Message BelongsTo
+id: resolvers_GroupChatMessage_groupChatMessageBelongsTo
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/GroupChatMessage/groupChatMessageBelongsTo
 
 # Module: resolvers/GroupChatMessage/groupChatMessageBelongsTo

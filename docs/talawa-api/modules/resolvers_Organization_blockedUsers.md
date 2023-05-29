@@ -1,3 +1,7 @@
+---
+title: Blocked Users
+id: resolvers_Organization_blockedUsers
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Organization/blockedUsers
 
 # Module: resolvers/Organization/blockedUsers

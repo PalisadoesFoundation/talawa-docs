@@ -1,3 +1,7 @@
+---
+title: Messages
+id: resolvers_DirectChat_messages
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/DirectChat/messages
 
 # Module: resolvers/DirectChat/messages

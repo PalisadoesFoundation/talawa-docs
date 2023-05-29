@@ -1,3 +1,7 @@
+---
+title: Directives
+id: typeDefs_directives
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/directives
 
 # Module: typeDefs/directives

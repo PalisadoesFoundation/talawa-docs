@@ -1,3 +1,7 @@
+---
+title: Admin Remove Group
+id: resolvers_Mutation_adminRemoveGroup
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/adminRemoveGroup
 
 # Module: resolvers/Mutation/adminRemoveGroup

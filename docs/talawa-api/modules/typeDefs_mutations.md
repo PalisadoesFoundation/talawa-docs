@@ -1,3 +1,7 @@
+---
+title: Mutations
+id: typeDefs_mutations
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/mutations
 
 # Module: typeDefs/mutations

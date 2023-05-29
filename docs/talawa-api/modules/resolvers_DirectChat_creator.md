@@ -1,3 +1,7 @@
+---
+title: Creator
+id: resolvers_DirectChat_creator
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/DirectChat/creator
 
 # Module: resolvers/DirectChat/creator

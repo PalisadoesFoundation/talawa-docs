@@ -1,3 +1,7 @@
+---
+title: Firebase Config
+id: config_firebaseConfig
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / config/firebaseConfig
 
 # Module: config/firebaseConfig

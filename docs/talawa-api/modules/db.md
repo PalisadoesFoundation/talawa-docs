@@ -1,3 +1,7 @@
+---
+title: DB
+id: db
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / db
 
 # Module: db

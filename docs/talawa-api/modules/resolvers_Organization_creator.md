@@ -1,3 +1,7 @@
+---
+title: Creator
+id: resolvers_Organization_creator
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Organization/creator
 
 # Module: resolvers/Organization/creator

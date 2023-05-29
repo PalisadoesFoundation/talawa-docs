@@ -1,3 +1,7 @@
+---
+title: Message
+id: models_Message
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Message
 
 # Module: models/Message

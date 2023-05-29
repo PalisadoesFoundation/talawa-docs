@@ -1,3 +1,7 @@
+---
+title: Image
+id: resolvers_Organization_image
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Organization/image
 
 # Module: resolvers/Organization/image

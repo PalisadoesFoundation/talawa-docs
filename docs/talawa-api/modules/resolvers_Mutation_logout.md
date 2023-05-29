@@ -1,3 +1,7 @@
+---
+title: Logout
+id: resolvers_Mutation_logout
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/logout
 
 # Module: resolvers/Mutation/logout

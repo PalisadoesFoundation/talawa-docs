@@ -1,3 +1,7 @@
+---
+title: Remove Comment
+id: resolvers_Mutation_removeComment
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeComment
 
 # Module: resolvers/Mutation/removeComment

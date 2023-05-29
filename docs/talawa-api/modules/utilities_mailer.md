@@ -1,3 +1,7 @@
+---
+title: Mailer
+id: utilities_mailer
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/mailer
 
 # Module: utilities/mailer

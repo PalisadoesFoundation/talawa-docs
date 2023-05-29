@@ -1,3 +1,7 @@
+---
+title: Delete Duplicated Image
+id: utilities_deleteDuplicatedImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/deleteDuplicatedImage
 
 # Module: utilities/deleteDuplicatedImage

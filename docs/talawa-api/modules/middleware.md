@@ -1,3 +1,7 @@
+---
+title: Middleware
+id: middleware
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / middleware
 
 # Module: middleware

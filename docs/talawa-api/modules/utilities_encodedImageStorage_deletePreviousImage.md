@@ -1,3 +1,7 @@
+---
+title: Delete Previous Image
+id: utilities_encodedImageStorage_deletePreviousImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/encodedImageStorage/deletePreviousImage
 
 # Module: utilities/encodedImageStorage/deletePreviousImage

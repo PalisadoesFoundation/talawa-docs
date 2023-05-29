@@ -1,3 +1,7 @@
+---
+title: Update User Password
+id: resolvers_Mutation_updateUserPassword
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateUserPassword
 
 # Module: resolvers/Mutation/updateUserPassword

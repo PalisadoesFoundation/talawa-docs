@@ -1,3 +1,7 @@
+---
+title: Middleware isAuth
+id: middleware_isAuth
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / middleware/isAuth
 
 # Module: middleware/isAuth

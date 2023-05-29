@@ -1,3 +1,7 @@
+---
+title: Message Sent to Direct Chat
+id: resolvers_Subscription_messageSentToDirectChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Subscription/messageSentToDirectChat
 
 # Module: resolvers/Subscription/messageSentToDirectChat

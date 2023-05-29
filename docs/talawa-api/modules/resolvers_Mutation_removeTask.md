@@ -1,3 +1,7 @@
+---
+title: Remove Task
+id: resolvers_Mutation_removeTask
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeTask
 
 # Module: resolvers/Mutation/removeTask

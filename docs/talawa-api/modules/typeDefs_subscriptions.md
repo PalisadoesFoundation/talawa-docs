@@ -1,3 +1,7 @@
+---
+title: Subscriptions
+id: typeDefs_subscriptions
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/subscriptions
 
 # Module: typeDefs/subscriptions

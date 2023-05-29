@@ -355,6 +355,381 @@ const sidebars = {
     
           ],
         },
+        {
+          type: 'category',
+          label: 'Modules',
+          items: [
+            'talawa-api/modules/config_appConfig',
+            'talawa-api/modules/config_firebaseConfig',
+            'talawa-api/modules/config',
+            'talawa-api/modules/constants',
+            'talawa-api/modules/db',
+
+            'talawa-api/modules/directives_authDirective',
+            'talawa-api/modules/directives_roleDirective',
+            'talawa-api/modules/directives',
+            'talawa-api/modules/middleware_isAuth',
+            'talawa-api/modules/middleware',
+
+            'talawa-api/modules/server',
+            'talawa-api/modules/types_generatedGraphQLTypes',
+            {
+              type: 'category',
+              label: 'Libraries',
+              link: {
+                type: 'generated-index'
+              },
+              collapsed: true,
+              items: [
+                'talawa-api/modules/libraries_errors_applicationError',
+                'talawa-api/modules/libraries_errors_conflictError',
+
+                'talawa-api/modules/libraries_errors_inputValidationError',
+                'talawa-api/modules/libraries_errors_internalServerError',
+                'talawa-api/modules/libraries_errors_invalidFileTypeError',
+                'talawa-api/modules/libraries_errors_notFoundError',
+                'talawa-api/modules/libraries_errors_unauthenticatedError',
+
+                'talawa-api/modules/libraries_errors_unauthorizedError',
+                'talawa-api/modules/libraries_errors_validationError',
+                'talawa-api/modules/libraries_errors',
+                'talawa-api/modules/libraries_logger',
+                'talawa-api/modules/libraries_requestContext',
+
+                'talawa-api/modules/libraries_requestTracing',
+                'talawa-api/modules/libraries_validators_compareDates',
+                'talawa-api/modules/libraries_validators_validatePassword',
+                'talawa-api/modules/libraries_validators_validateString',
+                'talawa-api/modules/libraries',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Models',
+              link: {
+                type: 'generated-index'
+              },
+              collapsed: true,
+              items: [
+                'talawa-api/modules/models_Comment',
+              'talawa-api/modules/models_DirectChat',
+              'talawa-api/modules/models_DirectChatMessage',
+
+              'talawa-api/modules/models_Donation',
+              'talawa-api/modules/models_EncodedImage',
+              'talawa-api/modules/models_Event',
+              'talawa-api/modules/models_EventProject',
+              'talawa-api/modules/models_File',
+
+              'talawa-api/modules/models_Group',
+              'talawa-api/modules/models_GroupChat',
+              'talawa-api/modules/models_GroupChatMessage',
+              'talawa-api/modules/models_ImageHash',
+              'talawa-api/modules/models_Language',
+
+              'talawa-api/modules/models_MembershipRequest',
+              'talawa-api/modules/models_Message',
+              'talawa-api/modules/models_MessageChat',
+              'talawa-api/modules/models_Organization',
+              'talawa-api/modules/models_OrganizationTagUser',
+
+              'talawa-api/modules/models_Plugin',
+              'talawa-api/modules/models_PluginField',
+              'talawa-api/modules/models_Post',
+              'talawa-api/modules/models_TagUser',
+              'talawa-api/modules/models_Task',
+
+              'talawa-api/modules/models_User',
+              'talawa-api/modules/models',
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Resolvers',
+              link: {
+                type: 'generated-index'
+              },
+              collapsed: true,
+              items: [
+                'talawa-api/modules/resolvers_DirectChat_creator',
+                'talawa-api/modules/resolvers_DirectChat_messages',
+                'talawa-api/modules/resolvers_DirectChat_organizations',
+
+                'talawa-api/modules/resolvers_DirectChat_users',
+                'talawa-api/modules/resolvers_DirectChat',
+                'talawa-api/modules/resolvers_DirectChatMessage_directChatMessageBelongsTo',
+                'talawa-api/modules/resolvers_DirectChatMessage_receiver',
+                'talawa-api/modules/resolvers_DirectChatMessage_sender',
+
+                'talawa-api/modules/resolvers_DirectChatMessage',
+                'talawa-api/modules/resolvers_GroupChat_creator',
+                'talawa-api/modules/resolvers_GroupChat_messages',
+                'talawa-api/modules/resolvers_GroupChat_organization',
+                'talawa-api/modules/resolvers_GroupChat_users',
+
+                'talawa-api/modules/resolvers_GroupChat',
+                'talawa-api/modules/resolvers_GroupChatMessage_sender',
+                'talawa-api/modules/resolvers_MembershipRequest_organization',
+                'talawa-api/modules/resolvers_MembershipRequest_user',
+                'talawa-api/modules/resolvers_MembershipRequest',
+
+                'talawa-api/modules/resolvers_User',
+                'talawa-api/modules/resolvers_UserTag_organization',
+                'talawa-api/modules/resolvers_UserTag_parentTag',
+                'talawa-api/modules/resolvers_UserTag',
+                'talawa-api/modules/resolvers',
+
+                {
+                  type: 'category',
+                  label: 'Mutations',
+                  link: {
+                    type: 'generated-index'
+                  },
+                  collapsed: true,
+                  items: [
+                    'talawa-api/modules/resolvers_Mutation_acceptAdmin',
+                    'talawa-api/modules/resolvers_Mutation_acceptMembershipRequest',
+                    'talawa-api/modules/resolvers_Mutation_addLanguageTranslation',
+                    'talawa-api/modules/resolvers_Mutation_addOrganizationImage',
+                    'talawa-api/modules/resolvers_Mutation_addUserImage',
+
+                    'talawa-api/modules/resolvers_Mutation_addUserToGroupChat',
+                    'talawa-api/modules/resolvers_Mutation_adminRemoveEvent',
+                    'talawa-api/modules/resolvers_Mutation_adminRemoveGroup',
+                    'talawa-api/modules/resolvers_Mutation_assignUserTag',
+                    'talawa-api/modules/resolvers_Mutation_blockPluginCreationBySuperAdmin',
+
+                    'talawa-api/modules/resolvers_Mutation_blockUser',
+                    'talawa-api/modules/resolvers_Mutation_cancelMembershipRequest',
+                    'talawa-api/modules/resolvers_Mutation_createAdmin',
+                    'talawa-api/modules/resolvers_Mutation_createComment',
+                    'talawa-api/modules/resolvers_Mutation_createDirectChat',
+
+                    'talawa-api/modules/resolvers_Mutation_createDonation',
+                    'talawa-api/modules/resolvers_Mutation_createEvent',
+                    'talawa-api/modules/resolvers_Mutation_createEventProject',
+                    'talawa-api/modules/resolvers_Mutation_createGroupChat',
+                    'talawa-api/modules/resolvers_Mutation_createOrganization',
+
+                    'talawa-api/modules/resolvers_Mutation_createMessageChat',
+                    'talawa-api/modules/resolvers_Mutation_createPlugin',
+                    'talawa-api/modules/resolvers_Mutation_createPost',
+                    'talawa-api/modules/resolvers_Mutation_createTask',
+                    'talawa-api/modules/resolvers_Mutation_createUserTag',
+
+                    'talawa-api/modules/resolvers_Mutation_deleteDonationById',
+                    'talawa-api/modules/resolvers_Mutation_forgotPassword',
+                    'talawa-api/modules/resolvers_Mutation_joinPublicOrganization',
+                    'talawa-api/modules/resolvers_Mutation_leaveOrganization',
+                    'talawa-api/modules/resolvers_Mutation_likeComment',
+
+                    'talawa-api/modules/resolvers_Mutation_likePost',
+                    'talawa-api/modules/resolvers_Mutation_login',
+                    'talawa-api/modules/resolvers_Mutation_logout',
+                    'talawa-api/modules/resolvers_Mutation_otp',
+                    'talawa-api/modules/resolvers_Mutation_recaptcha',
+
+                    'talawa-api/modules/resolvers_Mutation_refreshToken',
+                    'talawa-api/modules/resolvers_Mutation_registerForEvent',
+                    'talawa-api/modules/resolvers_Mutation_rejectAdmin',
+                    'talawa-api/modules/resolvers_Mutation_rejectMembershipRequest',
+                    'talawa-api/modules/resolvers_Mutation_removeAdmin',
+
+                    'talawa-api/modules/resolvers_Mutation_removeComment',
+                    'talawa-api/modules/resolvers_Mutation_removeDirectChat',
+                    'talawa-api/modules/resolvers_Mutation_removeEvent',
+                    'talawa-api/modules/resolvers_Mutation_removeEventProject',
+                    'talawa-api/modules/resolvers_Mutation_removeGroupChat',
+
+                    'talawa-api/modules/resolvers_Mutation_removeMember',
+                    'talawa-api/modules/resolvers_Mutation_removeOrganization',
+                    'talawa-api/modules/resolvers_Mutation_removeOrganizationImage',
+                    'talawa-api/modules/resolvers_Mutation_removePost',
+                    'talawa-api/modules/resolvers_Mutation_removeTask',
+
+                    'talawa-api/modules/resolvers_Mutation_removeUserFromGroupChat',
+                    'talawa-api/modules/resolvers_Mutation_removeUserImage',
+                    'talawa-api/modules/resolvers_Mutation_removeUserTag',
+                    'talawa-api/modules/resolvers_Mutation_revokeRefreshTokenForUser',
+                    'talawa-api/modules/resolvers_Mutation_saveFcmToken',
+
+                    'talawa-api/modules/resolvers_Mutation_sendMembershipRequest',
+                    'talawa-api/modules/resolvers_Mutation_sendMessageToDirectChat',
+                    'talawa-api/modules/resolvers_Mutation_sendMessageToGroupChat',
+                    'talawa-api/modules/resolvers_Mutation_signUp',
+                    'talawa-api/modules/resolvers_Mutation_togglePostPin',
+
+                    'talawa-api/modules/resolvers_Mutation_unassignUserTag',
+                    'talawa-api/modules/resolvers_Mutation_unblockUser',
+                    'talawa-api/modules/resolvers_Mutation_unlikeComment',
+                    'talawa-api/modules/resolvers_Mutation_unlikePost',
+                    'talawa-api/modules/resolvers_Mutation_unregisterForEventByUser',
+
+                    'talawa-api/modules/resolvers_Mutation_updateEvent',
+                    'talawa-api/modules/resolvers_Mutation_updateEventProject',
+                    'talawa-api/modules/resolvers_Mutation_updateLanguage',
+                    'talawa-api/modules/resolvers_Mutation_updateOrganization',
+                    'talawa-api/modules/resolvers_Mutation_updatePluginInstalledOrgs',
+
+                    'talawa-api/modules/resolvers_Mutation_updatePluginStatus',
+                    'talawa-api/modules/resolvers_Mutation_updatePost',
+                    'talawa-api/modules/resolvers_Mutation_updateTask',
+                    'talawa-api/modules/resolvers_Mutation_updateUserPassword',
+                    'talawa-api/modules/resolvers_Mutation_updateUserProfile',
+
+                    'talawa-api/modules/resolvers_Mutation_updateUserTag',
+                    'talawa-api/modules/resolvers_Mutation_updateUserType',
+                    'talawa-api/modules/resolvers_Mutation',
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Organization',
+                  link: {
+                    type: 'generated-index'
+                  },
+                  collapsed: true,
+                  items: [
+                    'talawa-api/modules/resolvers_Organization_admins',
+                    'talawa-api/modules/resolvers_Organization_blockedUsers',
+
+                    'talawa-api/modules/resolvers_Organization_creator',
+                    'talawa-api/modules/resolvers_Organization_image',
+                    'talawa-api/modules/resolvers_Organization_members',
+                    'talawa-api/modules/resolvers_Organization_membershipRequest',
+                    'talawa-api/modules/resolvers_Organization_pinnedPosts',
+
+                    'talawa-api/modules/resolvers_Organization',
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Query',
+                  link: {
+                    type: 'generated-index'
+                  },
+                  collapsed: true,
+                  items: [
+                    'talawa-api/modules/resolvers_Query_checkAuth',
+                    'talawa-api/modules/resolvers_Query_comments',
+                    'talawa-api/modules/resolvers_Query_commentsByPost',
+                    'talawa-api/modules/resolvers_Query_directChatMessages',
+
+                    'talawa-api/modules/resolvers_Query_directChats',
+                    'talawa-api/modules/resolvers_Query_directChatsByUserID',
+                    'talawa-api/modules/resolvers_Query_directChatsByChatID',
+                    'talawa-api/modules/resolvers_Query_event',
+                    'talawa-api/modules/resolvers_Query_events',
+
+                    'talawa-api/modules/resolvers_Query_eventsByOrganization',
+                    'talawa-api/modules/resolvers_Query_eventsByOrganizationConnection',
+                    'talawa-api/modules/resolvers_Query_getDonationById',
+                    'talawa-api/modules/resolvers_Query_getDonationByOrgId',
+                    'talawa-api/modules/resolvers_Query_getDonationByOrgIdConnection',
+
+                    'talawa-api/modules/resolvers_Query_getDonations',
+                    'talawa-api/modules/resolvers_Query_getLanguage',
+                    'talawa-api/modules/resolvers_Query_getPlugins',
+                    'talawa-api/modules/resolvers_Query_groupChatMessages',
+                    'talawa-api/modules/resolvers_Query_groupChats',
+
+                    'talawa-api/modules/resolvers_Query_groups',
+                    'talawa-api/modules/resolvers_Query_helperFunctions_getSort',
+                    'talawa-api/modules/resolvers_Query_isUserRegister',
+                    'talawa-api/modules/resolvers_Query_me',
+                    'talawa-api/modules/resolvers_Query_myLanguage',
+
+                    'talawa-api/modules/resolvers_Query_organizations',
+                    'talawa-api/modules/resolvers_Query_organizationsConnection',
+                    'talawa-api/modules/resolvers_Query_organizationsMemberConnection',
+                    'talawa-api/modules/resolvers_Query_post',
+                    'talawa-api/modules/resolvers_Query_posts',
+
+                    'talawa-api/modules/resolvers_Query_postsByOrganization',
+                    'talawa-api/modules/resolvers_Query_postsByOrganizationConnection',
+                    'talawa-api/modules/resolvers_Query_registeredEventsByUser',
+                    'talawa-api/modules/resolvers_Query_registerantsByEvent',
+                    'talawa-api/modules/resolvers_Query_tasksByEvent',
+
+                    'talawa-api/modules/resolvers_Query_tasksByUser',
+                    'talawa-api/modules/resolvers_Query_user',
+                    'talawa-api/modules/resolvers_Query_userLanguage',
+                    'talawa-api/modules/resolvers_Query_users',
+                    'talawa-api/modules/resolvers_Query_usersConnection',
+
+                    'talawa-api/modules/resolvers_Query',
+                  ]
+                },
+                {
+                  type: 'category',
+                  label: 'Subscription',
+                  link: {
+                    type: 'generated-index'
+                  },
+                  collapsed: true,
+                  items: [
+                    'talawa-api/modules/resolvers_Subscription_directMessageChat',
+                    'talawa-api/modules/resolvers_Subscription_messageSentToDirectChat',
+                    'talawa-api/modules/resolvers_Subscription_messageSentToGroupChat',
+                    'talawa-api/modules/resolvers_Subscription',
+                  ]
+                },
+              ]
+            },
+            {
+              type: 'category',
+              label: 'Utilities',
+              link: {
+                type: 'generated-index'
+              },
+              collapsed: true,
+              items: [
+                'talawa-api/modules/utilities_adminCheck',
+                'talawa-api/modules/utilities_auth',
+
+                'talawa-api/modules/utilities_copyToClipboard',
+                'talawa-api/modules/utilities_deleteDuplicatedImage',
+                'talawa-api/modules/utilities_deleteImage',
+                'talawa-api/modules/utilities_encodedImageStorage_deletePreviousImage',
+                'talawa-api/modules/utilities_encodedImageStorage_encodedImageExtentsionCheck',
+
+                'talawa-api/modules/utilities_encodedImageStorage_uploadEncodedImage',
+                'talawa-api/modules/utilities_graphqlConnectionFactory',
+                'talawa-api/modules/utilities_imageAlreadyInDbCheck',
+                'talawa-api/modules/utilities_imageExtensionCheck',
+                'talawa-api/modules/utilities_mailer',
+
+                'talawa-api/modules/utilities_reuploadDuplicateCheck',
+                'talawa-api/modules/utilities_superAdminCheck',
+                'talawa-api/modules/utilities_uploadImage',
+                'talawa-api/modules/utilities',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'TypeDef',
+              link: {
+                type: 'generated-index'
+              },
+              collapsed: true,
+              items: [
+                'talawa-api/modules/typeDefs_directives',
+                'talawa-api/modules/typeDefs_enums',
+                'talawa-api/modules/typeDefs_inputs',
+                'talawa-api/modules/typeDefs_interfaces',
+
+                'talawa-api/modules/typeDefs_mutations',
+                'talawa-api/modules/typeDefs_queries',
+                'talawa-api/modules/typeDefs_scalars',
+                'talawa-api/modules/typeDefs_subscriptions',
+                'talawa-api/modules/typeDefs_types',
+
+                'talawa-api/modules/typeDefs_unions',
+                'talawa-api/modules/typeDefs',
+              ]
+            },
+          ],
+        },
       ],
     },
     

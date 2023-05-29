@@ -1,3 +1,7 @@
+---
+title: User
+id: resolvers_User
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/User
 
 # Module: resolvers/User

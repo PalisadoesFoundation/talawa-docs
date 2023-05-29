@@ -1,3 +1,7 @@
+---
+title: Remove Admin
+id: resolvers_Mutation_removeAdmin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeAdmin
 
 # Module: resolvers/Mutation/removeAdmin

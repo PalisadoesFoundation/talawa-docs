@@ -1,3 +1,7 @@
+---
+title: Reject Membership Request
+id: resolvers_Mutation_rejectMembershipRequest
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/rejectMembershipRequest
 
 # Module: resolvers/Mutation/rejectMembershipRequest

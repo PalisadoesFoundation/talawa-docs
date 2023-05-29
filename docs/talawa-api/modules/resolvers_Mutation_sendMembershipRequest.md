@@ -1,3 +1,7 @@
+---
+title: Send Membership Request
+id: resolvers_Mutation_sendMembershipRequest
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/sendMembershipRequest
 
 # Module: resolvers/Mutation/sendMembershipRequest

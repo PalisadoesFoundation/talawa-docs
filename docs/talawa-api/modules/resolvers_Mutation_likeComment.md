@@ -1,3 +1,7 @@
+---
+title: Like Comment
+id: resolvers_Mutation_likeComment
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/likeComment
 
 # Module: resolvers/Mutation/likeComment

@@ -1,3 +1,7 @@
+---
+title: Block User
+id: resolvers_Mutation_blockUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/blockUser
 
 # Module: resolvers/Mutation/blockUser

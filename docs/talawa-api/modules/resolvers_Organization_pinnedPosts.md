@@ -1,3 +1,7 @@
+---
+title: Pinned Posts
+id: resolvers_Organization_pinnedPosts
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Organization/pinnedPosts
 
 # Module: resolvers/Organization/pinnedPosts

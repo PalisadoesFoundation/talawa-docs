@@ -1,3 +1,7 @@
+---
+title: Membership Request
+id: models_MembershipRequest
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/MembershipRequest
 
 # Module: models/MembershipRequest

@@ -1,3 +1,7 @@
+---
+title: Remove GroupChat
+id: resolvers_Mutation_removeGroupChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeGroupChat
 
 # Module: resolvers/Mutation/removeGroupChat

@@ -1,3 +1,7 @@
+---
+title: Libraries
+id: libraries
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / libraries
 
 # Module: libraries

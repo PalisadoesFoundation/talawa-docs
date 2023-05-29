@@ -1,3 +1,7 @@
+---
+title: Constants
+id: constants
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / constants
 
 # Module: constants

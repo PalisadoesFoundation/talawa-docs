@@ -1,3 +1,7 @@
+---
+title: Delete Donation By ID
+id: resolvers_Mutation_deleteDonationById
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/deleteDonationById
 
 # Module: resolvers/Mutation/deleteDonationById

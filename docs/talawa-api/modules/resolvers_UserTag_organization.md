@@ -1,3 +1,7 @@
+---
+title: User Tag Organization
+id: resolvers_UserTag_organization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/UserTag/organization
 
 # Module: resolvers/UserTag/organization

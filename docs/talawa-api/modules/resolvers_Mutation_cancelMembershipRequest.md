@@ -1,3 +1,7 @@
+---
+title: Cancel Membership Request
+id: resolvers_Mutation_cancelMembershipRequest
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/cancelMembershipRequest
 
 # Module: resolvers/Mutation/cancelMembershipRequest

@@ -1,3 +1,7 @@
+---
+title: Create Plugin
+id: resolvers_Mutation_createPlugin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createPlugin
 
 # Module: resolvers/Mutation/createPlugin

@@ -1,3 +1,7 @@
+---
+title: is User Register
+id: resolvers_Query_isUserRegister
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/isUserRegister
 
 # Module: resolvers/Query/isUserRegister

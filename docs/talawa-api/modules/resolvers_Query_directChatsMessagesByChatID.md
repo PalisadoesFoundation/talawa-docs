@@ -1,3 +1,7 @@
+---
+title: Direct Chats by Chat ID
+id: resolvers_Query_directChatsByChatID
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/directChatsMessagesByChatID
 
 # Module: resolvers/Query/directChatsMessagesByChatID

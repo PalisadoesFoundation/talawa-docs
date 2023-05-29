@@ -1,3 +1,7 @@
+---
+title: Accept Admin
+id: resolvers_Mutation_acceptAdmin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/acceptAdmin
 
 # Module: resolvers/Mutation/acceptAdmin

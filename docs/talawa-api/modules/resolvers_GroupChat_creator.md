@@ -1,3 +1,7 @@
+---
+title: Creator
+id: resolvers_GroupChat_creator
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/GroupChat/creator
 
 # Module: resolvers/GroupChat/creator

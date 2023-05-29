@@ -1,3 +1,7 @@
+---
+title: Add Organization Image
+id: resolvers_Mutation_addOrganizationImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/addOrganizationImage
 
 # Module: resolvers/Mutation/addOrganizationImage

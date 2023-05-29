@@ -1,3 +1,7 @@
+---
+title: Add User Image
+id: resolvers_Mutation_addUserImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/addUserImage
 
 # Module: resolvers/Mutation/addUserImage

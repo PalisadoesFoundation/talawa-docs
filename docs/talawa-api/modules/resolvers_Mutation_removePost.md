@@ -1,3 +1,7 @@
+---
+title: Remove Post
+id: resolvers_Mutation_removePost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removePost
 
 # Module: resolvers/Mutation/removePost

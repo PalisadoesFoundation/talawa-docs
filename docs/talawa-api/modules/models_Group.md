@@ -1,3 +1,7 @@
+---
+title: Group
+id: models_Group
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Group
 
 # Module: models/Group

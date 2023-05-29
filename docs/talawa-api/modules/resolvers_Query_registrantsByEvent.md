@@ -1,3 +1,7 @@
+---
+title: Registerants by Event
+id: resolvers_Query_registerantsByEvent
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/registrantsByEvent
 
 # Module: resolvers/Query/registrantsByEvent

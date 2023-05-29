@@ -1,3 +1,7 @@
+---
+title: Event
+id: resolvers_Query_event
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/event
 
 # Module: resolvers/Query/event

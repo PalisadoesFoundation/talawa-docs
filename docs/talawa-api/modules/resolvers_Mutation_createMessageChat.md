@@ -1,3 +1,7 @@
+---
+title: Create MessageChat
+id: resolvers_Mutation_createMessageChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createMessageChat
 
 # Module: resolvers/Mutation/createMessageChat

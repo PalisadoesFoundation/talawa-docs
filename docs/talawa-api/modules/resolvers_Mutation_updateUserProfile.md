@@ -1,3 +1,7 @@
+---
+title: Update User Profile
+id: resolvers_Mutation_updateUserProfile
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateUserProfile
 
 # Module: resolvers/Mutation/updateUserProfile

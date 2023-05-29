@@ -1,3 +1,7 @@
+---
+title: Save FMC Token
+id: resolvers_Mutation_saveFcmToken
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/saveFcmToken
 
 # Module: resolvers/Mutation/saveFcmToken

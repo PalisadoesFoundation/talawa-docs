@@ -1,3 +1,7 @@
+---
+title: Send Message to DirectChat
+id: resolvers_Mutation_sendMessageToDirectChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/sendMessageToDirectChat
 
 # Module: resolvers/Mutation/sendMessageToDirectChat

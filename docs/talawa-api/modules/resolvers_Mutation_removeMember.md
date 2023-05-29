@@ -1,3 +1,7 @@
+---
+title: Remove Member
+id: resolvers_Mutation_removeMember
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeMember
 
 # Module: resolvers/Mutation/removeMember

@@ -1,3 +1,7 @@
+---
+title: Role Directive
+id: directives_roleDirective
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / directives/roleDirective
 
 # Module: directives/roleDirective

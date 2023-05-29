@@ -1,3 +1,7 @@
+---
+title: Check Auth
+id: resolvers_Query_checkAuth
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/checkAuth
 
 # Module: resolvers/Query/checkAuth

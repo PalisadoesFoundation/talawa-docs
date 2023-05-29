@@ -1,3 +1,7 @@
+---
+title: Message Chat
+id: models_MessageChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/MessageChat
 
 # Module: models/MessageChat

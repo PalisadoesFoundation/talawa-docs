@@ -1,3 +1,7 @@
+---
+title: Message Sent to Group Chat
+id: resolvers_Subscription_messageSentToGroupChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Subscription/messageSentToGroupChat
 
 # Module: resolvers/Subscription/messageSentToGroupChat

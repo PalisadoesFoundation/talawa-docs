@@ -1,3 +1,7 @@
+---
+title: TypeDefs
+id: typeDefs
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs
 
 # Module: typeDefs

@@ -1,3 +1,7 @@
+---
+title: Interfaces
+id: typeDefs_interfaces
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/interfaces
 
 # Module: typeDefs/interfaces

@@ -1,3 +1,7 @@
+---
+title: Copy to Clipboard
+id: utilities_copyToClipboard
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/copyToClipboard
 
 # Module: utilities/copyToClipboard

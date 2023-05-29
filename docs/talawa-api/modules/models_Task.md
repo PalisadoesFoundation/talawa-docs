@@ -1,3 +1,7 @@
+---
+title: Task
+id: models_Task
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Task
 
 # Module: models/Task

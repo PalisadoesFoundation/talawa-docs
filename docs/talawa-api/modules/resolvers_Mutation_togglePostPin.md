@@ -1,3 +1,7 @@
+---
+title: Toggle Post Pin
+id: resolvers_Mutation_togglePostPin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/togglePostPin
 
 # Module: resolvers/Mutation/togglePostPin

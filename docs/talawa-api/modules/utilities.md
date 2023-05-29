@@ -1,3 +1,7 @@
+---
+title: Utilities
+id: utilities
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities
 
 # Module: utilities

@@ -1,3 +1,7 @@
+---
+title: Super Admin Check
+id: utilities_superAdminCheck
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/superAdminCheck
 
 # Module: utilities/superAdminCheck

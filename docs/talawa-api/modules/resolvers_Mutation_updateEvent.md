@@ -1,3 +1,7 @@
+---
+title: Update Event
+id: resolvers_Mutation_updateEvent
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateEvent
 
 # Module: resolvers/Mutation/updateEvent

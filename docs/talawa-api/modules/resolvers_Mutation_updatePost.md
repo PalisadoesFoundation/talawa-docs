@@ -1,3 +1,7 @@
+---
+title: Update Post
+id: resolvers_Mutation_updatePost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updatePost
 
 # Module: resolvers/Mutation/updatePost

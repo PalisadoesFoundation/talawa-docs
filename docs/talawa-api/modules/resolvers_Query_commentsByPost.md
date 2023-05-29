@@ -1,3 +1,7 @@
+---
+title: Comments by Post
+id: resolvers_Query_commentsByPost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/commentsByPost
 
 # Module: resolvers/Query/commentsByPost

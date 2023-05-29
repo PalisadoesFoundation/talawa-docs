@@ -1,3 +1,7 @@
+---
+title: Create GroupChat
+id: resolvers_Mutation_createGroupChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createGroupChat
 
 # Module: resolvers/Mutation/createGroupChat

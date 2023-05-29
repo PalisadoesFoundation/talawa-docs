@@ -1,3 +1,7 @@
+---
+title: Groups
+id: resolvers_Query_groups
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/groups
 
 # Module: resolvers/Query/groups

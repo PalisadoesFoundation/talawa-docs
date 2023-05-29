@@ -1,3 +1,7 @@
+---
+title: Like Post
+id: resolvers_Mutation_likePost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/likePost
 
 # Module: resolvers/Mutation/likePost

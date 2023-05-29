@@ -1,3 +1,7 @@
+---
+title: Direct Chat Message
+id: resolvers_Query_directChatMessages
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/directChatMessages
 
 # Module: resolvers/Query/directChatMessages

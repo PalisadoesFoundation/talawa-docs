@@ -1,3 +1,7 @@
+---
+title: Create Event
+id: resolvers_Mutation_createEvent
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createEvent
 
 # Module: resolvers/Mutation/createEvent

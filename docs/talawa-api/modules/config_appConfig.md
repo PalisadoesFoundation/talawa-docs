@@ -1,3 +1,8 @@
+---
+title: App Config
+id: config_appConfig
+sidebar: apiNavbar
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / config/appConfig
 
 # Module: config/appConfig

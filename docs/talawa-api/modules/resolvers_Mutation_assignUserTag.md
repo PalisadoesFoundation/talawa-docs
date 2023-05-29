@@ -1,3 +1,7 @@
+---
+title: Assign Tag User
+id: resolvers_Mutation_assignUserTag
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/assignUserTag
 
 # Module: resolvers/Mutation/assignUserTag

@@ -1,3 +1,7 @@
+---
+title: Logger
+id: libraries_logger
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / libraries/logger
 
 # Module: libraries/logger

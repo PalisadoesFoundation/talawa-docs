@@ -1,3 +1,7 @@
+---
+title: Get Donations
+id: resolvers_Query_getDonations
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/getDonations
 
 # Module: resolvers/Query/getDonations

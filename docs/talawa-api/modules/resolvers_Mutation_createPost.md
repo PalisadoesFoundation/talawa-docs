@@ -1,3 +1,7 @@
+---
+title: Create Post
+id: resolvers_Mutation_createPost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createPost
 
 # Module: resolvers/Mutation/createPost

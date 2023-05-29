@@ -1,3 +1,7 @@
+---
+title: Group Chats
+id: resolvers_Query_groupChats
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/groupChats
 
 # Module: resolvers/Query/groupChats

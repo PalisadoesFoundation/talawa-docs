@@ -1,3 +1,7 @@
+---
+title: Language
+id: models_Language
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Language
 
 # Module: models/Language

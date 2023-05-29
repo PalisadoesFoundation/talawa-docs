@@ -1,3 +1,7 @@
+---
+title: Forgot Password
+id: resolvers_Mutation_forgotPassword
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/forgotPassword
 
 # Module: resolvers/Mutation/forgotPassword

@@ -1,3 +1,7 @@
+---
+title: User Tag 
+id: resolvers_UserTag
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/UserTag
 
 # Module: resolvers/UserTag

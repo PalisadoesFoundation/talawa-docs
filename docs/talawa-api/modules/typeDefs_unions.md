@@ -1,3 +1,7 @@
+---
+title: Unions
+id: typeDefs_unions
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/unions
 
 # Module: typeDefs/unions

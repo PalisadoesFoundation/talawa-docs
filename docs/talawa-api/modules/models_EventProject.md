@@ -1,3 +1,7 @@
+---
+title: Event Project
+id: models_EventProject
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/EventProject
 
 # Module: models/EventProject

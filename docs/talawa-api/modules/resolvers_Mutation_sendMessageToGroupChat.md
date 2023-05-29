@@ -1,3 +1,7 @@
+---
+title: Send Message to GroupChat
+id: resolvers_Mutation_sendMessageToGroupChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/sendMessageToGroupChat
 
 # Module: resolvers/Mutation/sendMessageToGroupChat

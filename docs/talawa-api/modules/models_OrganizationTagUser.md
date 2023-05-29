@@ -1,3 +1,7 @@
+---
+title: Organization Tag User
+id: models_OrganizationTagUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/OrganizationTagUser
 
 # Module: models/OrganizationTagUser

@@ -1,3 +1,7 @@
+---
+title: Direct Message Chat
+id: resolvers_Subscription_directMessageChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Subscription/directMessageChat
 
 # Module: resolvers/Subscription/directMessageChat

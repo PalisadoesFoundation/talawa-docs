@@ -1,3 +1,7 @@
+---
+title: Unauthenticated Error
+id: libraries_errors_unauthenticatedError
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / libraries/errors/unauthenticatedError
 
 # Module: libraries/errors/unauthenticatedError

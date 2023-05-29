@@ -1,3 +1,7 @@
+---
+title: Create Organization
+id: resolvers_Mutation_createOrganization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createOrganization
 
 # Module: resolvers/Mutation/createOrganization

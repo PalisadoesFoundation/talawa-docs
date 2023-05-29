@@ -1,3 +1,7 @@
+---
+title: Update Task
+id: resolvers_Mutation_updateTask
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateTask
 
 # Module: resolvers/Mutation/updateTask

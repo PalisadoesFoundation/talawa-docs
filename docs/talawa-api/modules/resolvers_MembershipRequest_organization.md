@@ -1,3 +1,7 @@
+---
+title: Membership Request - Organization
+id: resolvers_MembershipRequest_organization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/MembershipRequest/organization
 
 # Module: resolvers/MembershipRequest/organization

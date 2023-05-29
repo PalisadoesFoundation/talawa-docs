@@ -1,3 +1,7 @@
+---
+title: Add User To GroupChat
+id: resolvers_Mutation_addUserToGroupChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/addUserToGroupChat
 
 # Module: resolvers/Mutation/addUserToGroupChat

@@ -1,3 +1,7 @@
+---
+title: Resolvers
+id: resolvers
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers
 
 # Module: resolvers

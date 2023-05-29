@@ -1,3 +1,7 @@
+---
+title: Config
+id: config
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / config
 
 # Module: config

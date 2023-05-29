@@ -1,3 +1,7 @@
+---
+title: Generated GraphQL Types
+id: types_generatedGraphQLTypes
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / types/generatedGraphQLTypes
 
 # Module: types/generatedGraphQLTypes

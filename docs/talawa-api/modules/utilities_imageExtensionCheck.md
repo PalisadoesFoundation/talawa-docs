@@ -1,3 +1,7 @@
+---
+title: Image Extension Check
+id: utilities_imageExtensionCheck
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/imageExtensionCheck
 
 # Module: utilities/imageExtensionCheck

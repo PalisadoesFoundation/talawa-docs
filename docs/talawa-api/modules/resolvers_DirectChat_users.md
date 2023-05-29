@@ -1,3 +1,7 @@
+---
+title: Users
+id: resolvers_DirectChat_users
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/DirectChat/users
 
 # Module: resolvers/DirectChat/users

@@ -1,3 +1,7 @@
+---
+title: Remove Event Project
+id: resolvers_Mutation_removeEventProject
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeEventProject
 
 # Module: resolvers/Mutation/removeEventProject

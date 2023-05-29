@@ -1,3 +1,7 @@
+---
+title: OTP
+id: resolvers_Mutation_otp
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/otp
 
 # Module: resolvers/Mutation/otp

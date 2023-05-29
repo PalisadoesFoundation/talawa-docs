@@ -1,3 +1,7 @@
+---
+title: User Language
+id: resolvers_Query_userLanguage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/userLanguage
 
 # Module: resolvers/Query/userLanguage

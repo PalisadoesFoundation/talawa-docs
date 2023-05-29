@@ -1,3 +1,7 @@
+---
+title: Tasks by User
+id: resolvers_Query_tasksByUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/tasksByUser
 
 # Module: resolvers/Query/tasksByUser

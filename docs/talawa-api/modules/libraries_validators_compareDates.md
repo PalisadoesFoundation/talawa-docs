@@ -1,3 +1,7 @@
+---
+title: Validator Compare Dates
+id: libraries_validators_compareDates
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / libraries/validators/compareDates
 
 # Module: libraries/validators/compareDates

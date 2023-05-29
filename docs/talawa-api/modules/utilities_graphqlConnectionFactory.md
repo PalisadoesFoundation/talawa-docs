@@ -1,3 +1,7 @@
+---
+title: GraphQL Connection Factory
+id: utilities_graphqlConnectionFactory
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/graphqlConnectionFactory
 
 # Module: utilities/graphqlConnectionFactory

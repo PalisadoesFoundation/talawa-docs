@@ -1,3 +1,7 @@
+---
+title: Accept Membership Request
+id: resolvers_Mutation_acceptMembershipRequest
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/acceptMembershipRequest
 
 # Module: resolvers/Mutation/acceptMembershipRequest

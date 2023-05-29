@@ -1,3 +1,7 @@
+---
+title: Refresh Token
+id: resolvers_Mutation_refreshToken
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/refreshToken
 
 # Module: resolvers/Mutation/refreshToken

@@ -1,3 +1,7 @@
+---
+title: Events by Organization Connection
+id: resolvers_Query_eventsByOrganizationConnection
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/eventsByOrganizationConnection
 
 # Module: resolvers/Query/eventsByOrganizationConnection

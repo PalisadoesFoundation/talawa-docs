@@ -1,3 +1,7 @@
+---
+title: Get Donation by Org ID Connection
+id: resolvers_Query_getDonationByOrgIdConnection
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/getDonationByOrgIdConnection
 
 # Module: resolvers/Query/getDonationByOrgIdConnection

@@ -1,3 +1,7 @@
+---
+title: Registered Events by Users
+id: resolvers_Query_registeredEventsByUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/registeredEventsByUser
 
 # Module: resolvers/Query/registeredEventsByUser

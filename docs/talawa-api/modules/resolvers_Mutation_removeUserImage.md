@@ -1,3 +1,7 @@
+---
+title: Remove User Image
+id: resolvers_Mutation_removeUserImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeUserImage
 
 # Module: resolvers/Mutation/removeUserImage

@@ -1,3 +1,7 @@
+---
+title: Add Language Translation
+id: resolvers_Mutation_addLanguageTranslation
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/addLanguageTranslation
 
 # Module: resolvers/Mutation/addLanguageTranslation

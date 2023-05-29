@@ -1,3 +1,7 @@
+---
+title: Organizations Member Connection
+id: resolvers_Query_organizationsMemberConnection
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/organizationsMemberConnection
 
 # Module: resolvers/Query/organizationsMemberConnection

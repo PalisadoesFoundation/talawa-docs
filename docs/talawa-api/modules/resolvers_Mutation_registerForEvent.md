@@ -1,3 +1,7 @@
+---
+title: Register for Event
+id: resolvers_Mutation_registerForEvent
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/registerForEvent
 
 # Module: resolvers/Mutation/registerForEvent

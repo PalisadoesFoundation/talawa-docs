@@ -1,3 +1,7 @@
+---
+title: Update User Type
+id: resolvers_Mutation_updateUserType
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateUserType
 
 # Module: resolvers/Mutation/updateUserType

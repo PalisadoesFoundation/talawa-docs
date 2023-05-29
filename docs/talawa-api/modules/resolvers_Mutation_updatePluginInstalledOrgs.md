@@ -1,3 +1,7 @@
+---
+title: Update Plugin Installed Orgs
+id: resolvers_Mutation_updatePluginInstalledOrgs
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updatePluginInstalledOrgs
 
 # Module: resolvers/Mutation/updatePluginInstalledOrgs

@@ -1,3 +1,7 @@
+---
+title: Update Organization
+id: resolvers_Mutation_updateOrganization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateOrganization
 
 # Module: resolvers/Mutation/updateOrganization

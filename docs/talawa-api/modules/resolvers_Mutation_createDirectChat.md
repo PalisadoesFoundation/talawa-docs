@@ -1,3 +1,7 @@
+---
+title: Create DirectChat
+id: resolvers_Mutation_createDirectChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/createDirectChat
 
 # Module: resolvers/Mutation/createDirectChat

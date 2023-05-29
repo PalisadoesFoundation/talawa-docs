@@ -1,3 +1,7 @@
+---
+title: Upload Encoded Image
+id: utilities_encodedImageStorage_uploadEncodedImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/encodedImageStorage/uploadEncodedImage
 
 # Module: utilities/encodedImageStorage/uploadEncodedImage

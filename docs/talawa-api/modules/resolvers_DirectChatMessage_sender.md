@@ -1,3 +1,7 @@
+---
+title: Sender
+id: resolvers_DirectChatMessage_sender
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/DirectChatMessage/sender
 
 # Module: resolvers/DirectChatMessage/sender

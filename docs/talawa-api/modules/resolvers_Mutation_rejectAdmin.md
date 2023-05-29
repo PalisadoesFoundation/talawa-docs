@@ -1,3 +1,7 @@
+---
+title: Reject Admin
+id: resolvers_Mutation_rejectAdmin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/rejectAdmin
 
 # Module: resolvers/Mutation/rejectAdmin

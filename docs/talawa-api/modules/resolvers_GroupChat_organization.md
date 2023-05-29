@@ -1,3 +1,7 @@
+---
+title: Organization
+id: resolvers_GroupChat_organization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/GroupChat/organization
 
 # Module: resolvers/GroupChat/organization

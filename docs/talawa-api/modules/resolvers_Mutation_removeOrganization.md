@@ -1,3 +1,7 @@
+---
+title: Remove Organization
+id: resolvers_Mutation_removeOrganization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeOrganization
 
 # Module: resolvers/Mutation/removeOrganization

@@ -1,3 +1,7 @@
+---
+title: Login
+id: resolvers_Mutation_login
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/login
 
 # Module: resolvers/Mutation/login

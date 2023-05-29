@@ -1,3 +1,7 @@
+---
+title: Organization
+id: models_Organization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Organization
 
 # Module: models/Organization

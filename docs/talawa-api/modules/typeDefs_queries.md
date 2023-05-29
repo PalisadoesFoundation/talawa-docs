@@ -1,3 +1,7 @@
+---
+title: Queries
+id: typeDefs_queries
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/queries
 
 # Module: typeDefs/queries

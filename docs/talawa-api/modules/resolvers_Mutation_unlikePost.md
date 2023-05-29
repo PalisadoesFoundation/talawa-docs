@@ -1,3 +1,7 @@
+---
+title: Unlike Post
+id: resolvers_Mutation_unlikePost
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/unlikePost
 
 # Module: resolvers/Mutation/unlikePost

@@ -1,3 +1,7 @@
+---
+title: Plugin
+id: models_Plugin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Plugin
 
 # Module: models/Plugin

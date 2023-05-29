@@ -1,3 +1,7 @@
+---
+title: Remove User Tag
+id: resolvers_Mutation_removeUserTag
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeUserTag
 
 # Module: resolvers/Mutation/removeUserTag

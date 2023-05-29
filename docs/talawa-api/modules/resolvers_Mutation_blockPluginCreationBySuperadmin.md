@@ -1,3 +1,7 @@
+---
+title: Block Plugin Creation By SuperAdmin
+id: resolvers_Mutation_blockPluginCreationBySuperAdmin
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/blockPluginCreationBySuperadmin
 
 # Module: resolvers/Mutation/blockPluginCreationBySuperadmin

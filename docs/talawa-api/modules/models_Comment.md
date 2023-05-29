@@ -1,3 +1,7 @@
+---
+title: Models Comment
+id: models_Comment
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/Comment
 
 # Module: models/Comment

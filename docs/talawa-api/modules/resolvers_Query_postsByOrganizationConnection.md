@@ -1,3 +1,7 @@
+---
+title: Posts by Organization Connection
+id: resolvers_Query_postsByOrganizationConnection 
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/postsByOrganizationConnection
 
 # Module: resolvers/Query/postsByOrganizationConnection

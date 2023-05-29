@@ -1,3 +1,7 @@
+---
+title: Tasks by Event
+id: resolvers_Query_tasksByEvent
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/tasksByEvent
 
 # Module: resolvers/Query/tasksByEvent

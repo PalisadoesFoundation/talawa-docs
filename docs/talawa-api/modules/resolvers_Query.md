@@ -1,3 +1,7 @@
+---
+title: Query
+id: resolvers_Query
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query
 
 # Module: resolvers/Query

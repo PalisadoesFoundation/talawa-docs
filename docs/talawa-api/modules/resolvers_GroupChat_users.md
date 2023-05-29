@@ -1,3 +1,7 @@
+---
+title: Users
+id: resolvers_GroupChat_users
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/GroupChat/users
 
 # Module: resolvers/GroupChat/users

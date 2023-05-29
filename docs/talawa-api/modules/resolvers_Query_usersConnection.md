@@ -1,3 +1,7 @@
+---
+title: Users Connection
+id: resolvers_Query_usersConnection
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/usersConnection
 
 # Module: resolvers/Query/usersConnection

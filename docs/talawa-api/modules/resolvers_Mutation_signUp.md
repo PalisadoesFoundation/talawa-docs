@@ -1,3 +1,7 @@
+---
+title: SignUp
+id: resolvers_Mutation_signUp
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/signUp
 
 # Module: resolvers/Mutation/signUp

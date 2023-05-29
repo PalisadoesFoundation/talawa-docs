@@ -1,3 +1,7 @@
+---
+title: Delete Image
+id: utilities_deleteImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/deleteImage
 
 # Module: utilities/deleteImage

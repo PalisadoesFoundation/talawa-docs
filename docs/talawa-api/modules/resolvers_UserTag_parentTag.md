@@ -1,3 +1,7 @@
+---
+title: User Tag ParentTag
+id: resolvers_UserTag_parentTag
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/UserTag/parentTag
 
 # Module: resolvers/UserTag/parentTag

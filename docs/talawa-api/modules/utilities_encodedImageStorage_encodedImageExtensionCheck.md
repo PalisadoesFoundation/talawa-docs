@@ -1,3 +1,7 @@
+---
+title: Encoded Image Storage Extension Check
+id: utilities_encodedImageStorage_encodedImageExtentsionCheck
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/encodedImageStorage/encodedImageExtensionCheck
 
 # Module: utilities/encodedImageStorage/encodedImageExtensionCheck

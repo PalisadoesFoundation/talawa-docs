@@ -1,3 +1,7 @@
+---
+title: Upload Image
+id: utilities_uploadImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / utilities/uploadImage
 
 # Module: utilities/uploadImage

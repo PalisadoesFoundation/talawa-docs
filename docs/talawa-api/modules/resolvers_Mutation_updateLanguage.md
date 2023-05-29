@@ -1,3 +1,7 @@
+---
+title: Update Language
+id: resolvers_Mutation_updateLanguage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateLanguage
 
 # Module: resolvers/Mutation/updateLanguage

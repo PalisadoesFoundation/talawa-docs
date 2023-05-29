@@ -1,3 +1,7 @@
+---
+title: Get Plugins
+id: resolvers_Query_getPlugins
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/getPlugins
 
 # Module: resolvers/Query/getPlugins

@@ -1,3 +1,7 @@
+---
+title: Members
+id: resolvers_Organization_members
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Organization/members
 
 # Module: resolvers/Organization/members

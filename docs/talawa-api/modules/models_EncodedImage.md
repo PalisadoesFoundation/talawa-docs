@@ -1,3 +1,7 @@
+---
+title: Encoded Image
+id: models_EncodedImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/EncodedImage
 
 # Module: models/EncodedImage

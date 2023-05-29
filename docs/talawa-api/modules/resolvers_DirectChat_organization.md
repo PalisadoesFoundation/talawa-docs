@@ -1,3 +1,7 @@
+---
+title: Organizations
+id: resolvers_DirectChat_organizations
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/DirectChat/organization
 
 # Module: resolvers/DirectChat/organization

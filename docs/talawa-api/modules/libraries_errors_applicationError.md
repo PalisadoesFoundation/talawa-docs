@@ -1,3 +1,7 @@
+---
+title: Application Errors
+id: libraries_errors_applicationError
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / libraries/errors/applicationError
 
 # Module: libraries/errors/applicationError

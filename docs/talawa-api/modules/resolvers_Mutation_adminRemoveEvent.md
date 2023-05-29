@@ -1,3 +1,7 @@
+---
+title: Admin Remove Event
+id: resolvers_Mutation_adminRemoveEvent
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/adminRemoveEvent
 
 # Module: resolvers/Mutation/adminRemoveEvent

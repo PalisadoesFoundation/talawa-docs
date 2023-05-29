@@ -1,3 +1,7 @@
+---
+title: Organizations
+id: resolvers_Query_organizations
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/organizations
 
 # Module: resolvers/Query/organizations

@@ -1,3 +1,7 @@
+---
+title: Admins
+id: resolvers_Organization_admins
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Organization/admins
 
 # Module: resolvers/Organization/admins

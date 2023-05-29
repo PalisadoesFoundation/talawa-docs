@@ -1,3 +1,7 @@
+---
+title: Subscription
+id: resolvers_Subscription
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Subscription
 
 # Module: resolvers/Subscription

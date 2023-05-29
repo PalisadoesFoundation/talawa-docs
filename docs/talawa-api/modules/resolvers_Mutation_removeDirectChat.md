@@ -1,3 +1,7 @@
+---
+title: Remove DirectChat
+id: resolvers_Mutation_removeDirectChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeDirectChat
 
 # Module: resolvers/Mutation/removeDirectChat

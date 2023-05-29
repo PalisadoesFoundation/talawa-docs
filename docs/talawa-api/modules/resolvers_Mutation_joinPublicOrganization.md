@@ -1,3 +1,7 @@
+---
+title: Join Public Organization
+id: resolvers_Mutation_joinPublicOrganization
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/joinPublicOrganization
 
 # Module: resolvers/Mutation/joinPublicOrganization

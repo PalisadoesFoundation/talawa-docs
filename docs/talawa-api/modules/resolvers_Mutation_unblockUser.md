@@ -1,3 +1,7 @@
+---
+title: Unblock User
+id: resolvers_Mutation_unblockUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/unblockUser
 
 # Module: resolvers/Mutation/unblockUser

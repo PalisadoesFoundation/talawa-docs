@@ -1,3 +1,7 @@
+---
+title: Types
+id: typeDefs_types
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/types
 
 # Module: typeDefs/types

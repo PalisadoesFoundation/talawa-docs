@@ -1,3 +1,7 @@
+---
+title: Validation Error
+id: libraries_errors_validationError
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / libraries/errors/validationError
 
 # Module: libraries/errors/validationError

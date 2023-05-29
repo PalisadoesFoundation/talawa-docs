@@ -1,3 +1,7 @@
+---
+title: Update User Tag
+id: resolvers_Mutation_updateUserTag
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/updateUserTag
 
 # Module: resolvers/Mutation/updateUserTag

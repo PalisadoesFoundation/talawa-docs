@@ -1,3 +1,7 @@
+---
+title: Image Hash
+id: models_ImageHash
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / models/ImageHash
 
 # Module: models/ImageHash

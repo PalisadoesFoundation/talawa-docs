@@ -1,3 +1,7 @@
+---
+title: Unlike Comment
+id: resolvers_Mutation_unlikeComment
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/unlikeComment
 
 # Module: resolvers/Mutation/unlikeComment

@@ -1,3 +1,7 @@
+---
+title: Mutation
+id: resolvers_Mutation
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation
 
 # Module: resolvers/Mutation

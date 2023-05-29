@@ -1,3 +1,7 @@
+---
+title: Inputs
+id: typeDefs_inputs
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / typeDefs/inputs
 
 # Module: typeDefs/inputs

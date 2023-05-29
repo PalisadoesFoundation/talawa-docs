@@ -1,3 +1,7 @@
+---
+title: Posts
+id: resolvers_Query_posts
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/posts
 
 # Module: resolvers/Query/posts

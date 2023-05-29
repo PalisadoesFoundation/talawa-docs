@@ -1,3 +1,7 @@
+---
+title: DirectChat Message BelongsTo
+id: resolvers_DirectChatMessage_directChatMessageBelongsTo
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/DirectChatMessage/directChatMessageBelongsTo
 
 # Module: resolvers/DirectChatMessage/directChatMessageBelongsTo

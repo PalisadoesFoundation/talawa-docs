@@ -1,3 +1,7 @@
+---
+title: Remove User from GroupChat
+id: resolvers_Mutation_removeUserFromGroupChat
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeUserFromGroupChat
 
 # Module: resolvers/Mutation/removeUserFromGroupChat

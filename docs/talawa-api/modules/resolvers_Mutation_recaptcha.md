@@ -1,3 +1,7 @@
+---
+title: ReCaptcha
+id: resolvers_Mutation_recaptcha
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/recaptcha
 
 # Module: resolvers/Mutation/recaptcha

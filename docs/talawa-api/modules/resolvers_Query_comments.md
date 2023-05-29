@@ -1,3 +1,7 @@
+---
+title: Comments
+id: resolvers_Query_comments
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/comments
 
 # Module: resolvers/Query/comments

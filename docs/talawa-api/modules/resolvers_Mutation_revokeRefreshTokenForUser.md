@@ -1,3 +1,7 @@
+---
+title: Revoke Refresh Token for User
+id: resolvers_Mutation_revokeRefreshTokenForUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/revokeRefreshTokenForUser
 
 # Module: resolvers/Mutation/revokeRefreshTokenForUser

@@ -1,3 +1,7 @@
+---
+title: Helper Functions - Get Sort
+id: resolvers_Query_helperFunctions_getSort
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Query/helperFunctions/getSort
 
 # Module: resolvers/Query/helperFunctions/getSort

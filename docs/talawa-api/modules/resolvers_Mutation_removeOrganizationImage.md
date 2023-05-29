@@ -1,3 +1,7 @@
+---
+title: Remove Organization Image
+id: resolvers_Mutation_removeOrganizationImage
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/removeOrganizationImage
 
 # Module: resolvers/Mutation/removeOrganizationImage

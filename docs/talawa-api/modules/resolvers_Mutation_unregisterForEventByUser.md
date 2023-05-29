@@ -1,3 +1,7 @@
+---
+title: Unregister for Event by User
+id: resolvers_Mutation_unregisterForEventByUser
+---
 [talawa-api](../README.md) / [Exports](../modules.md) / resolvers/Mutation/unregisterForEventByUser
 
 # Module: resolvers/Mutation/unregisterForEventByUser
