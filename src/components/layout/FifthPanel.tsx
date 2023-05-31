@@ -22,7 +22,7 @@ import  textcontent  from "../../utils/textcontent";
               <div className="dissection">
                 <img
                   alt="talawa"
-                  src="img/image-07.jpg"
+                  src="img/image-05.jpg"
                   className="fifth-panel-image"
                 />
               </div>

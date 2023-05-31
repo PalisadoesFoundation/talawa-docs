@@ -9,7 +9,7 @@ interface SecondPanelProps {}
 
  const SecondPanel: React.FC<SecondPanelProps> = () => {
   return (
-    <Section className="NativeApps" background="tint">
+    <Section className="SecondPanel" background="tint">
       <TwoColumns
         reverse
         columnOne={
@@ -21,7 +21,7 @@ interface SecondPanelProps {}
         columnTwo={
           <img
             alt=""
-            src={useBaseUrl("img/Second-Panel-Image.png")}
+            src={useBaseUrl("img/image-02.png")}
             className="second-panel-image"
           />
         }
