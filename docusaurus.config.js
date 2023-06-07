@@ -99,16 +99,23 @@ const config = {
 						position: "left",
 					},
 					{
+						to: "https://join.slack.com/t/thepalisadoes-dyb6419/shared_invite/zt-1qldywc0i-9pEHNIG2B38JhsAbRSbuug",
+						position: "right",
+						className: "header-slack-link",
+						"aria-label": "Palisadoes slack channel",
+					},
+					{
 						to: "https://github.com/PalisadoesFoundation",
 						position: "right",
 						className: "header-github-link",
 						"aria-label": "GitHub repository",
 					},
+					
 				],
 			},
 			colorMode: {
 				defaultMode: "light",
-				disableSwitch: true,
+				disableSwitch: false,
 				respectPrefersColorScheme: false,
 			},
 			footer: {
@@ -119,7 +126,7 @@ const config = {
 						items: [
 							{
 								label: " Slack",
-								to: "https://github.com/PalisadoesFoundation/talawa#readme",
+								to: "https://join.slack.com/t/thepalisadoes-dyb6419/shared_invite/zt-1qldywc0i-9pEHNIG2B38JhsAbRSbuug",
 								className: "footer__icon footer__slack",
 							},
 							{

@@ -40,7 +40,8 @@
   
   /* Navbar */
   .navbar {
-  background-color: #FFFFFF;
+  background-color: #2CDD9B;
+  margin-bottom: 4px;
   }
   
   .navbar__item {
@@ -120,7 +121,6 @@
       }
 
       .fifth-panel {
-        background-color: #fdbfa8;
         min-height:550px;
       }
 
@@ -137,9 +137,7 @@
         height: 50px;
       }
 
-      .custom-panel {
-        background-color: #fdbfa8;
-      }
+     
 
 
       .text-column-offset {
@@ -496,7 +494,7 @@
  }
 
  .HeaderHero .socialLinks .twitter-follow-button,
- .HeaderHero .socialLinks .github-button {
+ .HeaderHero .socialLinks .github-button .slack-button{
   margin-right: 1rem;
  }
  
@@ -586,7 +584,7 @@
  
  .Heading {
    font-size: 25px;
-   color: #000000;
+   color: #29db2c;
    line-height: 1.2;
    margin-top: 0;
    margin-bottom: 20px;
@@ -1039,7 +1037,6 @@
 .SixthPanel .prism-code {
   border-radius: 0;
   font-size: 80%;
-  background-color:#fff ;
   height: 450px;
 }
 
