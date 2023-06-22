@@ -1,6 +1,6 @@
 ---
-id: user-tags-connection
-title: UserTagsConnection
+id: pagination-direction
+title: PaginationDirection
 hide_table_of_contents: false
 ---
 
@@ -32,22 +32,22 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-type UserTagsConnection {
-  edges: [UserTagEdge!]!
-  pageInfo: ConnectionPageInfo!
+enum PaginationDirection {
+  BACKWARD
+  FORWARD
 }
 ```
 
-### Fields
+### Values
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>edges</b></code>](#)<Bullet />[`[UserTagEdge!]!`](../../../docs/schema/objects/user-tag-edge) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>PaginationDirection.<b>BACKWARD</b></code>](#)
 
 >
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>pageInfo</b></code>](#)<Bullet />[`ConnectionPageInfo!`](../../../docs/schema/objects/connection-page-info) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>PaginationDirection.<b>FORWARD</b></code>](#)
 
 >
 
 ### Member of
 
-[`Organization`](../../../docs/schema/objects/organization) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/><Bullet />[`UserTagsConnectionResult`](../../../docs/schema/objects/user-tags-connection-result) <Badge class="secondary" text="object"/>
+[`CursorPaginationInput`](../../../docs/schema/inputs/cursor-pagination-input) <Badge class="secondary" text="input"/><Bullet />[`UsersConnectionInput`](../../../docs/schema/inputs/users-connection-input) <Badge class="secondary" text="input"/><Bullet />[`UserTagsConnectionInput`](../../../docs/schema/inputs/user-tags-connection-input) <Badge class="secondary" text="input"/>

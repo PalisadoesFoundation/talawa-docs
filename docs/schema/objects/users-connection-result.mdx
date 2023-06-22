@@ -1,6 +1,6 @@
 ---
-id: user-tags-connection
-title: UserTagsConnection
+id: users-connection-result
+title: UsersConnectionResult
 hide_table_of_contents: false
 ---
 
@@ -32,22 +32,22 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-type UserTagsConnection {
-  edges: [UserTagEdge!]!
-  pageInfo: ConnectionPageInfo!
+type UsersConnectionResult {
+  data: UsersConnection
+  errors: [ConnectionError!]!
 }
 ```
 
 ### Fields
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>edges</b></code>](#)<Bullet />[`[UserTagEdge!]!`](../../../docs/schema/objects/user-tag-edge) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>UsersConnectionResult.<b>data</b></code>](#)<Bullet />[`UsersConnection`](../../../docs/schema/objects/users-connection) <Badge class="secondary" text="object"/>
 
 >
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>pageInfo</b></code>](#)<Bullet />[`ConnectionPageInfo!`](../../../docs/schema/objects/connection-page-info) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>UsersConnectionResult.<b>errors</b></code>](#)<Bullet />[`[ConnectionError!]!`](../../../docs/schema/unions/connection-error) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="union"/>
 
 >
 
 ### Member of
 
-[`Organization`](../../../docs/schema/objects/organization) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/><Bullet />[`UserTagsConnectionResult`](../../../docs/schema/objects/user-tags-connection-result) <Badge class="secondary" text="object"/>
+[`UserTag`](../../../docs/schema/objects/user-tag) <Badge class="secondary" text="object"/>

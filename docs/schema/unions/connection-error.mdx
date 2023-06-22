@@ -1,6 +1,6 @@
 ---
-id: user-tags-connection
-title: UserTagsConnection
+id: connection-error
+title: ConnectionError
 hide_table_of_contents: false
 ---
 
@@ -32,22 +32,19 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-type UserTagsConnection {
-  edges: [UserTagEdge!]!
-  pageInfo: ConnectionPageInfo!
-}
+union ConnectionError = InvalidCursor | MaximumValueError
 ```
 
-### Fields
+### Possible types
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>edges</b></code>](#)<Bullet />[`[UserTagEdge!]!`](../../../docs/schema/objects/user-tag-edge) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>ConnectionError.<b>InvalidCursor</b></code>](../../../docs/schema/objects/invalid-cursor) <Badge class="secondary" text="object"/>
 
 >
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>pageInfo</b></code>](#)<Bullet />[`ConnectionPageInfo!`](../../../docs/schema/objects/connection-page-info) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>ConnectionError.<b>MaximumValueError</b></code>](../../../docs/schema/objects/maximum-value-error) <Badge class="secondary" text="object"/>
 
 >
 
 ### Member of
 
-[`Organization`](../../../docs/schema/objects/organization) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/><Bullet />[`UserTagsConnectionResult`](../../../docs/schema/objects/user-tags-connection-result) <Badge class="secondary" text="object"/>
+[`UsersConnectionResult`](../../../docs/schema/objects/users-connection-result) <Badge class="secondary" text="object"/><Bullet />[`UserTagsConnectionResult`](../../../docs/schema/objects/user-tags-connection-result) <Badge class="secondary" text="object"/>

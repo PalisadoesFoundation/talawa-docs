@@ -1,6 +1,6 @@
 ---
-id: user-tags-connection
-title: UserTagsConnection
+id: maximum-length-error
+title: MaximumLengthError
 hide_table_of_contents: false
 ---
 
@@ -32,22 +32,24 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-type UserTagsConnection {
-  edges: [UserTagEdge!]!
-  pageInfo: ConnectionPageInfo!
+type MaximumLengthError implements FieldError {
+  message: String!
+  path: [String!]!
 }
 ```
 
 ### Fields
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>edges</b></code>](#)<Bullet />[`[UserTagEdge!]!`](../../../docs/schema/objects/user-tag-edge) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>MaximumLengthError.<b>message</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
 
 >
 
-#### [<code style={{ fontWeight: 'normal' }}>UserTagsConnection.<b>pageInfo</b></code>](#)<Bullet />[`ConnectionPageInfo!`](../../../docs/schema/objects/connection-page-info) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>MaximumLengthError.<b>path</b></code>](#)<Bullet />[`[String!]!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
 
 >
 
-### Member of
+### Interfaces
 
-[`Organization`](../../../docs/schema/objects/organization) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/><Bullet />[`UserTagsConnectionResult`](../../../docs/schema/objects/user-tags-connection-result) <Badge class="secondary" text="object"/>
+#### [`FieldError`](../../../docs/schema/interfaces/field-error) <Badge class="secondary" text="interface"/>
+
+>

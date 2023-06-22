@@ -33,14 +33,14 @@ No description
 
 ```graphql
 type UsersConnection {
-  edges: [UserEdge]
+  edges: [UserEdge!]!
   pageInfo: ConnectionPageInfo!
 }
 ```
 
 ### Fields
 
-#### [<code style={{ fontWeight: 'normal' }}>UsersConnection.<b>edges</b></code>](#)<Bullet />[`[UserEdge]`](../../../docs/schema/objects/user-edge) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>UsersConnection.<b>edges</b></code>](#)<Bullet />[`[UserEdge!]!`](../../../docs/schema/objects/user-edge) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
 
 >
 
@@ -50,4 +50,4 @@ type UsersConnection {
 
 ### Member of
 
-[`UserTag`](../../../docs/schema/objects/user-tag) <Badge class="secondary" text="object"/>
+[`UsersConnectionResult`](../../../docs/schema/objects/users-connection-result) <Badge class="secondary" text="object"/>
