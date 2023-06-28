@@ -104,6 +104,13 @@ const config = {
 						className: "header-github-link",
 						"aria-label": "GitHub repository",
 					},
+					{
+						to: "https://www.youtube.com/@PalisadoesOrganization",
+						position: "right",
+						className: "header-youtube-link",
+						"aria-label": "Palisadoes Youtube channel",
+					},
+					
 				],
 			},
 			colorMode: {
