@@ -132,6 +132,10 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
 .menu__link {
   line-height: 1.5;
 }
+.menu__list ul{
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
 .markdown > h2 {
   --ifm-h2-font-size: 1.875rem;
@@ -145,10 +149,9 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * 0rem);
 }
 
-.navbar__items--right > .navbar__item:not(:first-of-type) {
-  margin-left: 2.75rem;
+.navbar__items--right> .navbar__item:not(:first-of-type) {
+  margin-left: 0.25px;
 }
-
 .markdown {
   --ifm-h1-vertical-rhythm-top: 3;
   --ifm-h2-vertical-rhythm-top: 4.5;
@@ -158,9 +161,23 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
 }
 
 .header-github-link:hover {
-  opacity: 0.6;
+  opacity: 0.7;
 }
-
+.header-youtube-link:hover {
+  opacity: 0.7;
+}
+.youtube-button {
+  background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
+  border: none;
+  border-radius: 4px;
+  padding: 7px 21px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-flex;
+  margin-right: 2.75rem;
+}
 .github-button {
   background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
   border: none;
@@ -178,7 +195,10 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   color: #fff;
   text-decoration: none;
 }
-
+.youtube-button:hover {
+  color: #fff;
+  text-decoration: none;
+}
 .header-github-link:before {
   content: "";
   width: 20px;
@@ -187,7 +207,27 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   background: url("/img/github-dark.svg") no-repeat;
   position: relative;
   right: 8px;
-  top: 1px;
+  top: 1.5px;
+}
+.header-twitter-link:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: flex;
+  background: url("/img/twitter.svg") no-repeat 90% 100%;
+  position: relative;
+  right: 6px;
+  top: 2px;
+}
+.header-youtube-link:before {
+  content: "";
+  width: 25px;
+  height: 30px;
+  display: flex;
+  background: url("/img/youtube.svg") no-repeat;
+  position: relative;
+  right: 8px;
+  top:4.5px;
 }
 
 .footer__icon {
@@ -256,6 +296,9 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
 html[data-theme="dark"] .header-github-link:before {
   background: url(/img/github.svg) no-repeat;
 }
+html[data-theme="dark"] .header-youtube-link:before {
+  background: url(/img/youtube.svg) no-repeat;
+}
 
 .markdown > button {
   background: linear-gradient(90deg, #ff3600 0%, #ff8100 100%);
@@ -281,16 +324,27 @@ html[data-theme="dark"] .header-github-link:before {
     margin: var(--ifm-menu-link-padding-vertical)
       var(--ifm-menu-link-padding-horizontal);
   }
+  .navbar__item.youtube-button {
+    display: none;
+  }
+  .youtube-button {
+    margin: var(--ifm-menu-link-padding-vertical)
+      var(--ifm-menu-link-padding-horizontal);
+  }
   .center {
     text-align: center;
   }
 }
+
 
 @media (max-width: 1000px) {
   .navbar__items--right > .navbar__item:not(:first-of-type) {
     margin-left: 0.25rem;
   }
   .github-button {
+    margin-right: 0.5rem;
+  }
+  .youtube-button {
     margin-right: 0.5rem;
   }
   .hero__title {
@@ -305,6 +359,9 @@ html[data-theme="dark"] .header-github-link:before {
   .github-button {
     margin-right: 0.5rem;
   }
+  .youtube-button {
+    margin-right: 0.5rem;
+  }
 }
 
 @media (max-width: 1049px) and (min-width: 1001px) {
@@ -312,6 +369,9 @@ html[data-theme="dark"] .header-github-link:before {
     margin-left: 0.5rem;
   }
   .github-button {
+    margin-right: 0.5rem;
+  }
+  .youtube-button {
     margin-right: 0.5rem;
   }
 }
