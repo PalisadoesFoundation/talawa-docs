@@ -1,6 +1,6 @@
 ---
-id: specified-by
-title: specifiedBy
+id: check-in
+title: checkIn
 hide_table_of_contents: false
 ---
 
@@ -29,14 +29,22 @@ style={{ listStyle:'none' }} >
 );
 };
 
-Exposes a URL that specifies the behavior of this scalar.
+No description
 
 ```graphql
-directive @specifiedBy(url: String!) on SCALAR
+checkIn(
+  data: CheckInInput!
+): CheckIn!
 ```
 
 ### Arguments
 
-#### [<code style={{ fontWeight: 'normal' }}>specifiedBy.<b>url</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+#### [<code style={{ fontWeight: 'normal' }}>checkIn.<b>data</b></code>](#)<Bullet />[`CheckInInput!`](../../../docs/schema/inputs/check-in-input) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="input"/>
 
-> The URL that specifies the behavior of this scalar.
+>
+
+### Type
+
+#### [`CheckIn`](../../../docs/schema/objects/check-in) <Badge class="secondary" text="object"/>
+
+>

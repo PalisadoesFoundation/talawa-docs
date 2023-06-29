@@ -50,10 +50,11 @@ type Event {
   longitude: Longitude
   organization: Organization
   creator: User!
-  registrants: [UserAttende]
+  attendees: [User!]!
+  attendeesCheckInStatus: [CheckInStatus!]!
   admins(adminId: ID): [User]
-  tasks: [Task]
   status: Status!
+  projects: [EventProject]
 }
 ```
 
@@ -127,7 +128,11 @@ type Event {
 
 >
 
-#### [<code style={{ fontWeight: 'normal' }}>Event.<b>registrants</b></code>](#)<Bullet />[`[UserAttende]`](../../../docs/schema/objects/user-attende) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>Event.<b>attendees</b></code>](#)<Bullet />[`[User!]!`](../../../docs/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Event.<b>attendeesCheckInStatus</b></code>](#)<Bullet />[`[CheckInStatus!]!`](../../../docs/schema/objects/check-in-status) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
 
 >
 
@@ -135,11 +140,11 @@ type Event {
 
 > ##### [<code style={{ fontWeight: 'normal' }}>Event.admins.<b>adminId</b></code>](#)<Bullet />[`ID`](../../../docs/schema/scalars/id) <Badge class="secondary" text="scalar"/>
 
-#### [<code style={{ fontWeight: 'normal' }}>Event.<b>tasks</b></code>](#)<Bullet />[`[Task]`](../../../docs/schema/objects/task) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>Event.<b>status</b></code>](#)<Bullet />[`Status!`](../../../docs/schema/enums/status) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="enum"/>
 
 >
 
-#### [<code style={{ fontWeight: 'normal' }}>Event.<b>status</b></code>](#)<Bullet />[`Status!`](../../../docs/schema/enums/status) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="enum"/>
+#### [<code style={{ fontWeight: 'normal' }}>Event.<b>projects</b></code>](#)<Bullet />[`[EventProject]`](../../../docs/schema/objects/event-project) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
 
 >
 
@@ -149,4 +154,4 @@ type Event {
 
 ### Member of
 
-[`EventRegistrants`](../../../docs/schema/objects/event-registrants) <Badge class="secondary" text="object"/><Bullet />[`Task`](../../../docs/schema/objects/task) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/>
+[`CheckIn`](../../../docs/schema/objects/check-in) <Badge class="secondary" text="object"/><Bullet />[`EventProject`](../../../docs/schema/objects/event-project) <Badge class="secondary" text="object"/><Bullet />[`Task`](../../../docs/schema/objects/task) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/>

@@ -39,7 +39,9 @@ type Task {
   event: Event!
   creator: User!
   createdAt: DateTime!
+  completed: Boolean
   deadline: DateTime
+  volunteers: [User]
 }
 ```
 
@@ -69,14 +71,22 @@ type Task {
 
 >
 
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>completed</b></code>](#)<Bullet />[`Boolean`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="scalar"/>
+
+>
+
 #### [<code style={{ fontWeight: 'normal' }}>Task.<b>deadline</b></code>](#)<Bullet />[`DateTime`](../../../docs/schema/scalars/date-time) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Task.<b>volunteers</b></code>](#)<Bullet />[`[User]`](../../../docs/schema/objects/user) <Badge class="secondary" text="list"/> <Badge class="secondary" text="object"/>
 
 >
 
 ### Returned by
 
-[`createTask`](../../../docs/schema/mutations/create-task) <Badge class="secondary" text="mutation"/><Bullet />[`removeTask`](../../../docs/schema/mutations/remove-task) <Badge class="secondary" text="mutation"/><Bullet />[`tasksByEvent`](../../../docs/schema/queries/tasks-by-event) <Badge class="secondary" text="query"/><Bullet />[`tasksByUser`](../../../docs/schema/queries/tasks-by-user) <Badge class="secondary" text="query"/><Bullet />[`updateTask`](../../../docs/schema/mutations/update-task) <Badge class="secondary" text="mutation"/>
+[`createTask`](../../../docs/schema/mutations/create-task) <Badge class="secondary" text="mutation"/><Bullet />[`removeTask`](../../../docs/schema/mutations/remove-task) <Badge class="secondary" text="mutation"/><Bullet />[`setTaskVolunteers`](../../../docs/schema/mutations/set-task-volunteers) <Badge class="secondary" text="mutation"/><Bullet />[`updateTask`](../../../docs/schema/mutations/update-task) <Badge class="secondary" text="mutation"/>
 
 ### Member of
 
-[`Event`](../../../docs/schema/objects/event) <Badge class="secondary" text="object"/>
+[`EventProject`](../../../docs/schema/objects/event-project) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/>

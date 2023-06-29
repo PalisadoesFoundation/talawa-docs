@@ -1,6 +1,6 @@
 ---
-id: specified-by
-title: specifiedBy
+id: check-in-status
+title: CheckInStatus
 hide_table_of_contents: false
 ---
 
@@ -29,14 +29,30 @@ style={{ listStyle:'none' }} >
 );
 };
 
-Exposes a URL that specifies the behavior of this scalar.
+No description
 
 ```graphql
-directive @specifiedBy(url: String!) on SCALAR
+type CheckInStatus {
+  _id: ID!
+  user: User!
+  checkIn: CheckIn
+}
 ```
 
-### Arguments
+### Fields
 
-#### [<code style={{ fontWeight: 'normal' }}>specifiedBy.<b>url</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+#### [<code style={{ fontWeight: 'normal' }}>CheckInStatus.<b>\_id</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
 
-> The URL that specifies the behavior of this scalar.
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>CheckInStatus.<b>user</b></code>](#)<Bullet />[`User!`](../../../docs/schema/objects/user) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>CheckInStatus.<b>checkIn</b></code>](#)<Bullet />[`CheckIn`](../../../docs/schema/objects/check-in) <Badge class="secondary" text="object"/>
+
+>
+
+### Member of
+
+[`Event`](../../../docs/schema/objects/event) <Badge class="secondary" text="object"/>
