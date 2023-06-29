@@ -1,4 +1,4 @@
-talawa-api / [Exports](modules.md)
+talawa-api / [Exports](talawa-api/modules.md)
 
 # Talawa API
 The Talawa API acts as the vital glue connecting the Talawa platform and Talawa Admin, bringing them together seamlessly. The Talawa API serves as the bridge between these two components, enabling smooth communication and data exchange. It allows Talawa Admin to efficiently retrieve and update information from the Talawa platform, ensuring that the content remains up-to-date and accessible. With the Talawa API as the essential link, both Talawa and Talawa Admin work harmoniously, providing an exceptional experience for administrators and members alike.
