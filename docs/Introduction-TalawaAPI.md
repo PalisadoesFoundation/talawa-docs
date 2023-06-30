@@ -1,4 +1,4 @@
-talawa-api / [Exports](talawa-api/modules.md)
+talawa-api / [Exports](talawa-api-docs/modules.md)
 
 # Talawa API
 
