@@ -93,7 +93,7 @@ const config = {
 						position: "left",
 					},
 					{
-						to: "docs/talawa-api/modules",
+						to: "docs/Introduction-TalawaAPI",
 						activeBasePath: "docs",
 						label: "Talawa-API",
 						position: "left",
