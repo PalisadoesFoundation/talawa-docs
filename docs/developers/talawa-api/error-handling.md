@@ -5,9 +5,13 @@ title: API Error Handling Guide
 
 This page outlines the core design principles for handling errors within the GraphQl Layer in Talawa-API code base and relaying said errors back to the client apps.
 
-[Marc-Andre Giroux `6a`](https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors) is the basis of the approach chosen for Error Handling in the Talawa api codebase.
+## [Introduction](#Introduction)
+## [Problem with default Graphql Errors](#Problem with default Graphql Errors)
+## [Subsection 1.2](#subsection-1-2)
+# [Section 2](#section-2)
+## [Subsection 2.1](#subsection-2-1)
+## [Subsection 2.2](#subsection-2-2)
 
-## Graphql Errors
 
 ## Introduction
 
@@ -30,7 +34,7 @@ This is perfect when everything runs as expected but what if it does not? How do
 
 We will understand more about default Graphql Errors with an example.
 
-Let's say I am making a query on the `signUp` mutation which accepts `email` , `name` and `password` and now we will look for the case where my password is shorter than 8 character, then the response returned by default ->
+Let's say I am making a query on the `signUp` mutation which accepts `email` , `name` and `password` and now we will look for the case where the no user with the given email exists, then the response returned by default ->
 
 ```json
 {
@@ -40,7 +44,7 @@ Let's say I am making a query on the `signUp` mutation which accepts `email` , `
   "errors": [
     {
       "path": [
-        "signUp"
+        "login"
       ],
       "locations": [
         {
@@ -48,7 +52,7 @@ Let's say I am making a query on the `signUp` mutation which accepts `email` , `
           "column": 3
         }
       ],
-      "message": "Password should be of atleast length 8"
+      "message": "User not found"
     }
   ]
 }
@@ -60,29 +64,61 @@ Now the problems with this approach ->
 2. By default if the `errors` array is present then the resulting query will return `null` in the `data` field.If a non-nullable field returns null, GraphQL will raise an error. So, null value for a nested resolver results in the whole data object being returned as null and the error message will not provide any additional information about why the field returned null unless specifically handled in the resolver.But if a nested resolver is nullable then an error in the nsted resolver will not affect other fields. However, it will specify the path of the error within the root resolver response itself. For the client apps this would require extra effort in extracting and customizing errors.
 3. GraphQL errors encode exceptional scenarios - like a service being down or some other internal failure. Errors which are part of the API domain should be captured within that domain, and relayed to the client as information, NOT Graphql error.
 
+## User Errors vs Developer Errors
+
+In GraphQL, user errors and developer errors represent different types of issues that can occur during the execution of a GraphQL operation.
+
+1. User Errors:
+User errors are typically related to invalid input or requests made by the client. These errors occur when the client provides data that doesn't meet the requirements or constraints defined by the GraphQL schema or business logic. For example, if a required field is not provided or an incorrect argument value is passed, a user error may occur. User errors are considered part of the expected flow of the application and are not exceptional or unexpected.
+
+Treating user errors as a form of data instead of errors allows for a more flexible and structured way of handling them. Instead of returning a generic error message, GraphQL enables you to provide specific error information along with the response. This allows clients to understand and react to user errors in a meaningful way. By modeling user errors as part of the response, you can provide detailed instructions or suggestions on how to fix the issue, enhancing the overall user experience.
+
+2. Developer Errors:
+Developer errors, on the other hand, are exceptional or unexpected issues that occur due to mistakes or bugs in the server-side implementation of the GraphQL API. These errors are not caused by user input but rather by issues with the server, the execution environment, or the logic of the GraphQL server implementation itself. Developer errors could include things like database connection failures, internal server errors, or unhandled exceptions.
+
+When developer errors occur, it is crucial to handle them gracefully and provide appropriate error messages or feedback to the client. GraphQL provides a mechanism to represent these errors using the errors field in the response. By including detailed error information, such as error codes or error messages, developers can diagnose and fix the underlying issues efficiently.
+
+In summary, distinguishing between user errors and developer errors in GraphQL allows for a clear separation of concerns. Treating user errors as data instead of generic errors enables better communication between the server and the client, facilitating a more intuitive and user-friendly experience. Developer errors, on the other hand, should be handled and reported in a way that helps developers identify and address issues in the server-side implementation.
+
 ## The Solution
+
 
 The general philosophy at play is that Errors are considered exceptional. Your user data should never be represented as an Error. If your users can do something that needs to provide negative guidance, then you should represent that kind of information in GraphQL as Data not as an Error. Errors should always represent either developer errors or exceptional circumstances (e.g. the database was offline).[Lee Byron makes that clear in a few comments on the GraphQL-Spec repository.](https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207)
 
 
+[Marc-Andre Giroux `6a`](https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors) is the basis of the approach chosen for Error Handling in the Talawa api codebase.
+
+
 Most of the "Errors" in GraphQL are client side errors not server side errors.
 
-For example errors like `Duplicate Email` or  `Password too short` errors are not server errors they are the client's fault, the server is sending the data requested just that the errors are the ***Result*** of the operation requested by the client. Unlike Errors like `Bad Gateway` or `Internal Server Error` which is the servers fault.
+For example errors like `User Not Found` or  `Invalid Login Credentials` errors are not server errors they are the client's fault, the server is sending the data requested just that the errors are the ***Result*** of the operation requested by the client. Unlike Errors like `Bad Gateway` or `Internal Server Error` which is the servers fault.
 
 Hence we will need to model the client side errors as results NOT errors.
 
 That is why the 6a(Errors Union List + Interface Contract ) approach is chosen for talawa-api, so that it is easier to send errors with data.
 
+#### When To Model Errors In Schema And When Not To 
+
+When deciding whether to model errors in the schema for fields in GraphQL, there are several factors to consider. The decision depends on the nature of the errors, the desired behavior of the API, and the needs of the client applications.
+
+Consider the types of errors that can occur for a particular field. If the errors are specific and can be categorized or have additional metadata associated with them, it might be beneficial to model them in the schema. For example, if a field can return validation errors, authorization errors, or specific business logic errors, modeling them in the schema can provide clients with detailed information about the error type.
+
+But for very basic field validation like checking for nullability for a field , type checking etc you can leave the default GraphQL server as is. There is no benefit for adding extra complexity for these cases.
+
+
+### Cases For Errors in Schema is Needed
+
 Let us take a look at this Approach for these practical cases ->
 
-1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for resolved data.(**Field Level Errors**)
+
+1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for resolved data.(**Multiple Field Level Validation Errors **)
 2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both.(**Atomic Errors**)
 3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes.(**Nested Resolver Errors  (Complex Objects)** )
-4. For custom scalar objects within another object for example PII fields like a user's `email`, `phoneNumber` etc  where there is an Access Control Logic in order to access those fields in an object , we would need to resolve those fields with a custom resolver, an error within that field should not affect other scalar fields.(**Nested Resolver Errors (Scalar Fields )**).
+4. For custom scalar objects within another object for example PII fields like a user's `email` where there is an Access Control Logic in order to access those fields in an object , we would need to resolve those fields with a custom resolver, an error within that field should not affect other scalar fields.(**Nested Resolver Errors (Scalar Fields )**).
 
 Now Let us look at each of these cases with example `mutations/queries` within the `talawa-api`. We will be doing so for both the API and client part to better understand it.
 
-### Field Level Errors -
+### Multiple Field Level Validation Errors -
 
 #### API 
 Field Level Errors describe any errors assisciated with a specific field.
@@ -110,35 +146,13 @@ The type definitions relevant for `signUp` Mutation->
     androidFirebaseOptions: AndroidFirebaseOptions!
     iosFirebaseOptions: IOSFirebaseOptions!
   }
- // Here I went ahead and made the EmailAddress Scalar and _id as nullable the rest is the same, this is important for use later
+
   type User {
     tokenVersion: Int!
     _id: ID
     firstName: String!
     lastName: String!
     email: EmailAddress
-    userType: String,
-    appLanguageCode: String!
-    createdOrganizations: [Organization]
-    joinedOrganizations: [Organization]
-    createdEvents: [Event]
-    registeredEvents: [Event]
-    eventAdmin: [Event]
-    adminFor: [Organization]
-    membershipRequests: [MembershipRequest]
-    organizationsBlockedBy: [Organization]
-    image: String
-    organizationUserBelongsTo: Organization
-    pluginCreationAllowed: Boolean
-    adminApproved: Boolean
-    createdAt: DateTime
-    tagsAssignedWith(
-      after: String
-      before: String
-      first: PositiveInt
-      last: PositiveInt
-      organizationId: ID
-    ): UserTagsConnection
   }
 ```
 Now, let us take a look at the definition of error union for the `signUp` mutation.
@@ -262,7 +276,7 @@ In this approach for resolving Field Errors ->
 
 Let us take a look at how the clients would be making this query.
 
-```javascript
+```gql
 mutation {
   signUp(
     input: {
@@ -346,186 +360,304 @@ As you can see,
 
 
 
-### Atomic Errors
 
-In some cases we would not want to send any partial field data at all if a specific error is thrown. Not all errors have the same heirarchy some might be more "serious" and we would need to have some sort of atomictiy in sending errors i.e we will have to send that errors only without any partial fields of resolved data. **In these cases we will need to send error OR data not inbetween**
+### Atomic Errors -
 
-The perfect example of this case is a RBAC error. For Access control errors we would need to send back only that error and nothing else in the response.
+#### API 
+Field Level Errors describe any errors assisciated with a specific field.
 
-How does 6a approach handle this case?
+In GraphQL, you can request specific fields from an API, and the API will respond with data for those fields. Field errors can occur when there's a problem with one of the fields you've requested.
 
+For example Let us look at a hypothetical `login` Mutation.
 
-Let's take a look at the `createOrganization` mutation for that. Keep in mind that only `SUPERADMIN`s can create an organization and if the user making a request has a role other than that then we wil need to send appropriate errors back to the client.  
+The type definitions relevant for `login` Mutation->
 
-For that Let us look at the relevant type definitions first.
-#### API
 ```gql
-  input CreateOrganizationInput {
-    data: OrganizationInput!
-    organizationImage: String
-  }
-  input OrganizationInput {
-    name: String!
-    description: String!
-    location: String
-    attendees: String
-    isPublic: Boolean!
-    visibleInSearch: Boolean!
-    apiUrl: URL
-    image: String
-  }
-  type Organization {
-    image: String
+
+  type User {
     _id: ID!
     name: String!
+    email: String!
+    joinedOrganization: Organization
+    image: Image!
+  }
+  
+  type Organization {
+    name: String!,
     description: String!
-    location: String
-    isPublic: Boolean!
-    creator: User!
-    members: [User]
-    admins(adminId: ID): [User]
-    membershipRequests: [MembershipRequest]
-    blockedUsers: [User]
-    visibleInSearch: Boolean!
-    apiUrl: URL!
-    createdAt: DateTime
-    pinnedPosts: [Post]
-    userTags(
-      after: String
-      before: String
-      first: PositiveInt
-      last: PositiveInt
-    ): UserTagsConnection
+  }
+
+  type Image {
+    filepath: String!
+    size: Int!
+  }
+
+  type LoginPayload {
+    authtoken: String!
+    user: User!
+  }
+
+  input LoginInput {
+    email: EmailAddress!,
+    password: String!
+  }
+
+  type Mutation {
+    login(input: LoginInput!): LoginPayload!
   }
 ```
-Now Let us define the mutation data and its error unions.
-Most of this is pretty similar to the previous example.
+Now, let us take a look at the definition of error union for the `login` mutation.
 
-Although the `AccessControlError` interface is there to be implemented within all the other types of RBAC errors.It is not a part of the union for a mutation and hence not an interface contract.
+GraphQL unions are a way to represent different types of objects in your schema that share some common fields. A union is a composition of multiple types and is useful when we require type definition for an entity that could have multiple types
 
-```gql
-
-union CreateOrganizationError = UserNotSuperAdminError | OrganizationError
-
-type UserNotSuperAdminError implements AccessControlError {
-  message:String!,
-  roleRequired:String!,
-}
-
-interface OrganizationError {
-  message:String!,
-  path:String!
-}
-
-interface AccessControlError {
-  message:String!,
-}
-```
-
-The mutation types 
+The interface `UserError` will act as an `interface contract`. The exact purpose for it will be cleared when we reach the  client side explaination part.
 
 ```gql
-type CreateOrganizationResult {
-    createOrganizationData: Organization ,
-    createOrganizationErrors: [CreateOrganizationError!]
-}
 
-type Mutation {
-  createOrganization(input: CreateOrganizationInput!): CreateOrganizationResult!
-}
+# the Error unions types, we can consume many error types in this
+  
+  
+  union LoginError = EmailNotFound | PasswordInvalid | UserError
+
+  interface UserError {
+    message: String!
+    path: String!
+  }
+
+  type EmailNotFound implements UserError {
+    message: String!
+    path: String!
+  }
+
+  type PasswordInvalid implements UserError {
+    message: String!
+    path: String!
+  }
+
 ```
 
-All of the above is pretty similar to the previous section for handling field errors. However the difference lies within the resolvers.
+The `login` mutation has a return type of `LoginResult!` which in turn contains `loginPayload` and `loginErrors` with return type of an array of the `LoginError` union. This way the `login` mutation returns both the actual relevant data and the errors as result.
 
-Let us take a look at the resolver for `createOrganization`.
+```gql
+# Here is the return type of login mutation.
+
+  type LoginResult {
+    loginPayload: LoginPayload
+    loginError: [LoginError!]!
+  }
+
+  type Mutation {
+    login(input: LoginInput!): LoginResult!
+  }
+
+```
+
+Let us look at the pseudo code for the resolvers now. Right now let us just focus on the login resolver. In both cases of Atomic Errors that is `UserNotFound` and `InvalidPassword` the `loginPayload` field returns null whereas the `loginErrors` field returns said errors. For other non-atomic errors which are not "failing errors", can be sent as an array directly along with the User in the db and accesstoken.
 
 ```javascript
 const resolvers = {
+  
   Mutation: {
-    createOrganization: async (parent, args, context) => {
+    login: (parent: any, args: { input: LoginInput }) => {
+      
+      const { email, password } = args.input;
 
-      {
-        A CODE BLOCK DENOTING ALL OTHER MISCELLANEOUS CHECKS AND PUSHING THOSE IN THE ERRORS ARRAY.
-      }
+      userObj = {};
+      loginErrors = [];
 
-      If (CHECK FOR context.user.userType !== "SUPERADMIN"){
-        // To maintain atomicity the resolver directly returns the result within this check where the `createOrganizationErrors` has length 1 (RBAC error only) and `createOrganizationData` as null
+      if(IF USER WITH EMAIL DOES NOT EXIST) {
+        loginErrors.push({
+          __typename: "EmailNotFound" ,
+          message: "User with Email does not exist"
+          path: "LoginInput.email"
+        })
+
         return {
-
-          createOrganizationData: null ,
-          createOrganizationErrors: [
-            {
-              __typename:"UserNotSuperAdminError",
-              message:"Current User role is not Authorised for this operation",
-              roleRequired:"SUPERADMIN",
-            }
-          ]
-
+          loginPayload:null,
+          loginErrors,
         }
       }
 
-    }
-  }
-}
+      if(IF PASSWORDS DOES NOT MATCH) {
+        loginErrors.push({
+          __typename: "PasswordInvalid" ,
+          message: "Passwords do not match"
+          path: "LoginInput.password"
+        })
+
+        return {
+          loginPayload:null,
+          loginErrors
+        }
+      }
+      
+      userObj = DB.FIND(USER WITH EMAIL AND PASSWORD);
+
+      accessToken = GENERATE AND SAVE ACCESS TOKEN.
+
+
+      if(IF ANY OTHER ERRORS ){
+        FOR EACH ERROR->
+        loginErrors.push({
+          __typename: "UserError" ,
+          message: "message"
+          path: "PATH"
+        })
+      }
+      
+      return {
+        loginPayload:{
+          userObj,
+          accessToken
+        },
+        loginErrors,
+      }
+    },
+  },
+
+  // We will expand more into this later in the documentation.
+  User: {
+    email: (parent: { email: string }) => {
+      // Logic to restrict PII access to email field
+      if (IF REQUESTING USER IS NOT AUTHORISED TO VIEW THE EMAIL OF SAID USER) {
+        return '********'; // return ENCRYPTED email value  
+      }
+      return email;
+    },
+    joinedOrganization: (parent: { joinedOrganization: Organization } , args , context) => {
+      // Logic to retrieve joined organization data
+      // You can fetch organization data from a database or another source
+      
+      if(IF context.userID IS NOT AUTHORISED TO VIEW THE JOINED ORGANIZATION OF THE REQUESTED USER){
+        return null;
+      }
+
+      return organization;
+    },
+  },
+};
+
 ```
+
+In this approach for resolving Field Errors ->
+
+
 
 #### Client
 
-The client side implementation will look something like this- 
+Let us take a look at how the clients would be making this query.
 
-Let's imagine the user making the following mutation has the role of `USER`.
-
-```javascript
-mutation Mutation {
-  createOrganization(
-    input : {
-      data: {
-        name: "Org Name"
-        description: "Org Description"
-        isPublic: true
-        visibleInSearch: true
+```gql
+mutation {
+  login(
+    input: {
+      email: ""
+      password: "12345"
+    }
+  ) ... on LoginPayload {
+      authtoken
+      # Right now let's just focus on the the fields which will not require a custom scalar unlike `email` or `joinedOrganization`
+      user {
+        _id
+        image {
+          filepath
+          size
+        }
       }
     }
-  ) {
-    createOrganizationData:{
-      _id , 
-      name , 
-      description
-    } ,
-    createOrganizationError: {
-      ... on UserNotSuperAdminError{
-          __typename
-          message
-          roleRequired
+    ... on LoginError {
+      __typename
+      ... on EmailNotFound {
+        message
       }
-      ... on OrganizationError{
-          __typename
-          message
-          path
+      ... on InvalidPassword {
+        message
       }
+      ... on IsPasswordValid {
+        message
+      }
+    }
+  
+}
+
+```
+
+In this client-side query, we use the ... operator to fragment the result based on the type name in the LoginResult union. This allows us to specify the fields to be selected for each possible type within the union.
+
+For the LoginPayload type, we select the authtoken field and the fields for the User type, including _id and image.
+
+For the LoginError type, we select the __typename field to identify the specific error type within the union. We then use the ... on syntax to specify the fields for each error type (EmailNotFound, InvalidPassword, IsPasswordValid) implementing the UserError interface. In this example, we only select the message field for each error type.
+
+By using fragment spreading, we can handle different types within the LoginResult union and select the appropriate fields accordingly.
+
+Here's how the response would look like for different error scenarios:
+
+1. If a user with the provided email does not exist:
+```json
+{
+  "data": {
+    "login": {
+      "loginPayload": null,
+      "loginErrors": [
+        {
+          "__typename": "EmailNotFound",
+          "message": "User with Email does not exist",
+          "path": "LoginInput.email"
+        }
+      ]
     }
   }
 }
+
 ```
 
-After running this mutation the response will be ->
+2. If the provided password is invalid:
 
-```gql
-data: {
-  createOrganizationData:null,
-  createOrganizationErrors:[
-    {
-      __typename:"UserNotSuperAdminError",
-      message:"Current User role is not Authorised for this operation",
-      roleRequired:"SUPERADMIN",
+```json
+{
+  "data": {
+    "login": {
+      "loginPayload": null,
+      "loginErrors": [
+        {
+          "__typename": "PasswordInvalid",
+          "message": "Passwords do not match",
+          "path": "LoginInput.password"
+        }
+      ]
     }
-  ]
+  }
 }
+
+```
+3. If there are other unspecified errors in the loginErrors array:
+
+```json
+{
+  "data": {
+    "login": {
+      "loginPayload": null,
+      "loginErrors": [
+        {
+          "__typename": "UserError",
+          "message": "Some error message",
+          "path": "Some path"
+        },
+        {
+          "__typename": "UserError",
+          "message": "Another error message",
+          "path": "Another path"
+        }
+      ]
+    }
+  }
+}
+
 ```
 
-Hence now, the only error returned in the response in the Access COntrol Error and we have ensured that no data is sent back in the result, so createOrganizationData is null.
+In each case, the loginPayload field is set to null since the login was unsuccessful. The loginErrors field contains an array of error objects, where each object includes the __typename to identify the specific error type, the error message, and the path where the error occurred.
 
-This wraps up Atomic Errors.
+Please note that the actual error handling and response structure may vary depending on your implementation and the GraphQL client library or framework you are using. The provided examples illustrate the general structure of the response for different error scenarios.
 
 ### Nested Resolver Errors. (Complex Objects)
 
@@ -539,84 +671,205 @@ Overall, nested resolvers are an important concept in GraphQL because they allow
 
 As such we will also need to make sure Errors in one node should not break the entire query.
 
-One such example for nested resolver is `postConnection` one. 
-
-Using the 6a approach, the client side query for a nested resolver will look something like this.
-
-the `organization` query return both the `organizationData` and `organizationErrors` which is pretty much for the same use case as the last two examples.
-
-In the `organizationData` field we have a nested resolver by the name of `postConnection` which resolves and returns all the post it queries for `_id` field of its parent resolver. 
+Let's First make a small adjustment to our Schema and Resolvers,
 
 ```gql
-query Query {
-  organization (
-    input : {
-      // an id of a private organization
-      organizationId:"1"
-    }
-  ) {
-    
-      organizationData: {
-        _id ,
-        name, 
-        description,
-        postCount,
-        // here the `edges` are all the resolved posts.
-        postConnection: {
-          postConnectionData: {
-            edges,
-          } , 
-          postConnectionErrors: {
-            ... on PrivatePostsError: {
-              __typename ,
-              message,
-            }
-          }
-        }
-      } ,
 
-      organizationErrors: {
-        ... on OrganizationError{
-          __typename ,
-          message,
-          path,
-        }
+  type Organization {
+    name: String!
+    description: String!
+  }
+
+  interface OrganizationError {
+    message: String!
+    path: String!
+  }
+
+  type UnauthorizedError implements OrganizationError {
+    message: String!
+    path: String!
+  }
+
+  union OrganizationErrors = UnauthorizedError | OrganizationError
+
+  type OrganizationResult {
+    organizationPayload: Organization
+    organizationErrors: [OrganizationErrors!]!
+  }
+
+  type User {
+    _id: ID!
+    email: String!
+    joinedOrganization: OrganizationResult!
+    image: Image!
+  }
+
+```
+
+`OrganizationErrors`: It represents the possible types of errors that can occur related to organizations.
+It includes the `UnauthorizedError` type, which represents an unauthorized error related to organizations.
+It can also include other types that implement the `OrganizationError` interface.
+The `OrganizationErrors` union allows for flexibility in handling different types of errors that can occur in operations related to organizations. It ensures that the result can contain the appropriate error type within the union.
+
+Certainly! Here's an explanation of the `OrganizationResult` type:
+
+The `OrganizationResult` type represents the result of an operation related to organizations. It consists of two fields: `organizationPayload` and `organizationErrors`. 
+The `organizationPayload` field contains the payload for the operation, which includes the `name` and `description` of the organization. This field represents the successful result of the operation, providing the organization data. 
+The `organizationErrors` field is a list of errors that occurred during the operation. It can include various types of errors, such as the `UnauthorizedError` type or other types that implement the `OrganizationError` interface. 
+This field allows for proper error handling and provides details about any issues encountered during the organization-related operation. The `OrganizationResult` type ensures that both successful results and errors are properly represented and returned in a consistent manner.
+
+Let's Modify the nested resolver for `joinedOrganization`
+
+```javascript
+const resolver  = {
+   Mutation: {
+    login: (parent: any, args: { input: LoginInput }) => {
+    // Implementation of the login mutation resolver
+    },
+  },
+  User:{
+    email:(parent:User) =>{
+      // Implementation of the email resolver which will be explained later
+    },
+    joinedOrganization: (parent: User , args , context) => {
+      // Logic to retrieve joined organization data
+      
+      if (IF parent._id IS PRIVATE AND context.userID IS UNAUTHORISED TO ACCESS THE DATA OF THE REQUESTED USER) {
+
+        const unauthorizedError = {
+          __typename: 'UnauthorizedError',
+          message: 'Unauthorized',
+          path: 'User.joinedOrganization',
+        };
+
+        return {
+          organizationPayload: null,
+          organizationErrors: [unauthorizedError],
+        };
       }
+
+      if (ANY OTHER ERROR) {
+        
+        const organizationError = {
+          __typename: 'OrganizationError',
+          message: 'Unauthorized',
+          path: 'User.joinedOrganization',
+        };
+
+        return {
+          organizationPayload: null,
+          organizationErrors: [organizationError],
+        };
+      }
+
+      return {
+        organizationPayload: organization,
+        organizationErrors: [],
+      };
+    },
 
   }
 }
+
 ```
 
-the `PrivatePostError` is one of the type in the union of the return type for `postConnectionError`. I have  discussed about unions, return types in detail in Field Errors section in detail so please do refer about it incase you are not thorough with those terms in this section.
+In this updated resolver, the joinedOrganization field resolver for the User type includes the additional logic to check if the requesting user is authorized to access the data of the requested user. If the conditions are met, it returns the organization data within the organizationPayload field. If not authorized, it returns an UnauthorizedError within the organizationErrors field.
 
 
-Think of the `postConnection` as an individual node. The `PrivatePostError` is thrown only if the organization is private and returns `postConnectionData` as null , and the best part is the Error thrown will not affect other nodes in the graph. This is exactly like the `Atomic` errors section too.
-
-Let's take a look at an example response for a private organization where we query for its postConnection.
 
 ```gql
-data: {
-  organizationData:{
-    _id:1,
-    name:"Private Org Name", 
-    description:"Private Org Desc",
-    //postCount being a part of the base object since sometimes we would need to return postCOunt whether or not the org is private (think insta private accounts) 
-    postCount:20,  
-    postConnection: {
-      postConnectionData:null,
-      postConnectionErrors:[
-        {
-          __typename:"PrivatePostsError",
-          message: "Posts of this org are private"
+mutation Login($input: LoginInput!) {
+  login(input: $input) {
+    loginPayload {
+      authtoken
+      user {
+        _id
+        email
+        joinedOrganization {
+         
+            organizationPayload {
+              ... on Organization {
+                name
+                description
+              }
+            }
+            organizationErrors {
+              __typename
+              ... on UnauthorizedError {
+                message
+                path
+              }
+              ... on OrganizationError {
+                message
+                path
+              }
+            }
+          
         }
-      ]
+      }
     }
-  } , 
-  organizationErrors:null
+    loginErrors {
+      __typename
+      ... on EmailNotFound {
+        message
+        path
+      }
+      ... on PasswordInvalid {
+        message
+        path
+      }
+      ... on IsPasswordValid {
+        message
+        path
+      }
+    }
+  }
 }
+
 ```
 
-As you can see the `PrivatePostsError` only affected the `postConnection` Node only, it did not affect the organizationErrors object at all.
+The `joinedOrganization` field is a nested field within the `login` mutation. It represents the organization-related data for the logged-in user. It is accessed within the `user` field, which is part of the `loginPayload` field.
+
+Within the `joinedOrganization` field, there are two possible selections: `organizationPayload` and `organizationErrors`. The `organizationPayload` field represents the successful result of the joined organization data retrieval. It includes the `name` and `description` fields, which provide information about the joined organization.
+
+The `organizationErrors` field is a list of errors that can occur during the joined organization data retrieval. It includes the `__typename`, `message`, and `path` fields. Specifically, it includes the `UnauthorizedError` type, which represents an unauthorized error related to accessing the joined organization. Additionally, it includes any other types that implement the `OrganizationError` interface, providing further details about potential errors.
+
+By including both the `organizationPayload` and `organizationErrors` fields within the `joinedOrganization` field, this query allows for handling both successful results and any errors that may occur during the joined organization data retrieval.
+
+Here's an example of a response from Apollo Server for a query that represents a successful login but unauthorized access to the `joinedOrganization`:
+
+```json
+{
+  "data": {
+    "login": {
+      "loginPayload": {
+        "authtoken": "abc123",
+        "user": {
+          "_id": "123",
+          "email": "example@example.com",
+          "joinedOrganization": {
+            "organizationPayload": null,
+            "organizationErrors": [
+              {
+                "__typename": "UnauthorizedError",
+                "message": "Unauthorized access to joined organization",
+                "path": "User.joinedOrganization"
+              }
+            ]
+          }
+        }
+      },
+      "loginErrors": null
+    }
+  }
+}
+
+```
+
+
+In this response, the `login` mutation was successful, resulting in a valid authentication token (`authtoken`). The `user` field represents the logged-in user, with an `_id` and `email`. However, when attempting to access the `joinedOrganization`, the response indicates that it is unauthorized. The `organizationPayload` is set to `null`, indicating that no organization data was returned. Instead, the `organizationErrors` field contains an error object with the `__typename` of `UnauthorizedError`, along with the `message` and `path` fields providing information about the unauthorized access to the joined organization.
+
+This response structure allows the client to handle both successful results and potential errors, such as unauthorized access to certain resources, in a standardized manner.
 
 ### Nested Resolvers Errors (Scalar Fields)
 
@@ -648,40 +901,20 @@ type PIIError implements AccessControlError {
   authorisedRole: String!
 }
 
+interface AccessControlError {
+  message: String!,
+  authorisedRole: String!
+}
 
 type User {
-    tokenVersion: Int!
-    _id: ID
-    firstName: String!
-    lastName: String!
-    // Here changed the return type to EmailAddressResult
-    email: EmailAddress
-    userType: String,
-    appLanguageCode: String!
-    createdOrganizations: [Organization]
-    joinedOrganizations: [Organization]
-    createdEvents: [Event]
-    registeredEvents: [Event]
-    eventAdmin: [Event]
-    adminFor: [Organization]
-    membershipRequests: [MembershipRequest]
-    organizationsBlockedBy: [Organization]
-    image: String
-    organizationUserBelongsTo: Organization
-    pluginCreationAllowed: Boolean
-    adminApproved: Boolean
-    createdAt: DateTime
-    tagsAssignedWith(
-      after: String
-      before: String
-      first: PositiveInt
-      last: PositiveInt
-      organizationId: ID
-    ): UserTagsConnection
-  }
-
-
+    _id: ID!
+    email: EmailAdressResult!
+    joinedOrganization: OrganizationResult!
+    image: Image!
+}
 ```
+
+
 Now let's take a look at their `user` query  resolver types ->
 
 ```gql
@@ -700,38 +933,40 @@ type Query {
 
 And now finally take a look at their resolvers ->
 
-```gql
+```javascript
+const resolver  = {
+   Mutation: {
+    login: (parent: any, args: { input: LoginInput }) => {
+    // Implementation of the login mutation resolver
+    },
+  },
+  User:{
+    email:(parent:User) =>{
 
-const resolvers = {
-    Query {
-      user: (parent , args , context ) =>{
-        USER RESOLVER LOGIC
-
-        userObj = FETCHED USER FROM DB WHERE id === args.id
-
-        return userObj
+      const email = parent.email;
+      let emailError= [];
+      if(NOT AUTHRORISED TO VIEW PII OF PARENT USER) {
+        emailErrors.push({
+          __typename: "PIIError",
+          message: "Cannout access this info",
+          authorisedRole: "Authorised roles are : ..."
+        })
       }
-    } , 
 
-    User : {
-      email: (parent , args , context ) => {
-        RETRIEVE EMAIL OF THE USER FROM DB WHERE id === parent.id
+      return {
+        emailData: !emailErrors ? email : encrypted(email),
+        emailErrors: emailErrors,
+      };
 
-        emailErrors =[]
+    },
+    joinedOrganization: (parent: User , args , context) => {
+      // Implementation of the joinedOrganization resolver
+    },
 
-        If (ACCESS CONTROL CHECK WHETHER context.user IS NOT AUTHORSIED ) {
-          emailErrors.push(
-            {
-              __typename:"PIIError",
-              message: "Current user is not authorised to access the email of the specified user",
-              authorisedRole: "Only the user himself"
-            }
-          )
-        }
-      }
-    }
-}
+  }
 ```
+
+The `email` resolver checks if the requesting user is authorized to access the email information of the parent user. If unauthorized, it adds a `PIIError` object to the `emailErrors` array. Otherwise, it returns the email information (`emailData`) and any errors (`emailErrors`) within an object. This resolver allows for controlled access to sensitive email information based on authorization rules, returning the data or appropriate errors accordingly.
 
 #### Client
 
@@ -739,29 +974,58 @@ If the query is made to access an email of another user like this ->
 
 ```gql
 #Here the requesting user i.e context.user has an id of 1 
-query Query {
-  user(
-    id: 5,
-  ) {
-    userData: {
-      _id,
-      userType,
-      email : {
-        emailData.
-        emailErrors: {
-          ... on PIIError {
-            __typename,
-            message,
-            authorsiedRole
+mutation Login($input: LoginInput!) {
+  login(input: $input) {
+    loginPayload {
+      authtoken
+      user {
+        _id
+        email {
+          emailData
+          emailErrors {
+            __typename
+            ... on PIIError {
+              message
+              authorisedRole
+            }
           }
         }
-      },
-
-    } , 
-    userErrors : {
-      ... on UserError {
-        __typename
+        joinedOrganization {
+         
+            organizationPayload {
+              ... on Organization {
+                name
+                description
+              }
+            }
+            organizationErrors {
+              __typename
+              ... on UnauthorizedError {
+                message
+                path
+              }
+              ... on OrganizationError {
+                message
+                path
+              }
+            }
+          
+        }
+      }
+    }
+    loginErrors {
+      __typename
+      ... on EmailNotFound {
         message
+        path
+      }
+      ... on PasswordInvalid {
+        message
+        path
+      }
+      ... on IsPasswordValid {
+        message
+        path
       }
     }
   }
@@ -770,26 +1034,44 @@ query Query {
 
 Since here the context user is not allowed to access the email field the returned response is something like this ->
 
-```gql
-data: {
-  userData:{
-    _id: 5,
-    userType: "USER" , 
-    email : {
-      emailData: null,
-      emailErrors: [
-        {
-          __typename:"PIIError",
-          message: "Current user is not authorised to access the email of the specified user",
-          authorisedRole: "Only the user himself"
+```json 
+{
+  "data": {
+    "login": {
+      "loginPayload": {
+        "authtoken": "abc123",
+        "user": {
+          "_id": "123",
+          "email": {
+            "emailData": null,
+            "emailErrors": [
+              {
+                "__typename": "PIIError",
+                "message": "Unauthorized access to email",
+                "authorisedRole": "Admin"
+              }
+            ]
+          },
+          "joinedOrganization": {
+            "organizationPayload": {
+              "name": "Example Organization",
+              "description": "Organization description"
+            },
+            "organizationErrors": null
+          }
         }
-      ]
+      },
+      "loginErrors": null
     }
-  } ,
-  userErrors: null
+  }
 }
 
+
 ```
+
+Certainly! Here's a concise explanation of the response in case of a PII error in the `email` field, along with all other queries running successfully:
+
+The response includes a `loginPayload` with an authentication token and a `user` object containing various fields. The `email` field within the `user` object has an `emailData` field set to `null` due to unauthorized access. The `emailErrors` field contains an array with a single `PIIError` object, indicating the unauthorized access to the email. The `PIIError` object provides the error `message` and specifies the required `authorisedRole` for access. The `joinedOrganization` field returns the organization data within the `organizationPayload` field, while the `organizationErrors` field is set to `null`, indicating no errors. Additionally, the `loginErrors` field is `null`, indicating no errors for other queries. This response structure enables handling both successful results and potential errors, ensuring appropriate communication of the PII error in the `email` field.
 
 Since some scalar fields are database intensive to compute within their own custom resolver and because there are not a lot of fields which can fall under "scalars which need Access Control Logic seperately" it is okay to have this approach.
 
@@ -801,8 +1083,24 @@ When resolving custom or complex fields within the parent resolver, it is possib
 
 Adopting a modular approach by extracting data and errors into resolvers can help isolate information to specific fields' resolvers, whether they are for scalar or complex objects. However, this may lead to the GraphQL schema not directly representing relations. As a result, many fields (scalar or complex) may have {success,errors} objects, which can appear peculiar.
 
-**The Tradeoffs:**
 
-1. When errors are not type-safe, the resulting GraphQL schema is generally cleaner. However, it may be more difficult to associate errors with the specific location where they occurred, as all errors are lumped together in a single root errors list. Additionally, error handling for client apps may be more challenging due to the lack of type safety.
+## Errors Defined in Schema Approach vs Default GraphQL Errors
 
-2. Conversely, type-safe errors can result in a GraphQL schema that appears complex or unusual. However, errors are typically co-located with the fields where they occurred, making them easier to manage and resolve. Additionally, type safety allows for easier error handling for client apps. 
+When it comes to error handling in GraphQL, there are two main approaches: errors defined in the schema and default GraphQL errors. Each approach has its own tradeoffs. Let's compare them in the table below:
+
+|                      | Errors Defined in Schema Approach                           | Default GraphQL Errors                                   |
+|----------------------|------------------------------------------------------------|---------------------------------------------------------|
+| Definition           | Errors are explicitly defined in the GraphQL schema         | GraphQL provides standard error responses               |
+| Control              | Fine-grained control over error structure and behavior      | Limited control, standardized error format              |
+| Customization        | Custom error types and specific error messages              | Limited ability to customize error types and messages    |
+| Integration          | Integrated with the GraphQL schema and types                 | Separate from the schema, less tightly coupled           |
+| Consistency          | Ensures consistency in error handling across the API         | Consistent error structure provided by the GraphQL spec |
+| Ease of Use          | Requires explicit error handling in resolvers and clients   | Automatically handles and returns errors in responses   |
+| Flexibility          | Can handle complex business logic and specific error cases   | More suitable for simple error scenarios                |
+| Error Extensions     | Supports additional metadata or context for errors          | Limited ability to extend error information              |
+| Overhead             | Requires additional code and complexity in the implementation | Less implementation overhead, simpler setup            |
+
+Both approaches have their tradeoffs, and the choice depends on the specific requirements and complexity of your GraphQL API. The errors defined in the schema approach offers more control, customization, and flexibility but comes with additional implementation complexity. On the other hand, default GraphQL errors provide simplicity, consistency, and ease of use out of the box but may be limited in customization for complex error scenarios.
+
+Consider your project's needs and development constraints when choosing the error handling approach in GraphQL.
+
