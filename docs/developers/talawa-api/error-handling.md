@@ -5,12 +5,16 @@ title: API Error Handling Guide
 
 This page outlines the core design principles for handling errors within the GraphQl Layer in Talawa-API code base and relaying said errors back to the client apps.
 
-## [Introduction](#Introduction)
-## [Problem with default Graphql Errors](#Problem with default Graphql Errors)
-## [Subsection 1.2](#subsection-1-2)
-# [Section 2](#section-2)
-## [Subsection 2.1](#subsection-2-1)
-## [Subsection 2.2](#subsection-2-2)
+1. [Introduction](#Introduction)
+2. [Problem with default Graphql Errors](#Problem-with-default-Graphql-Errors)
+3. [User Errors vs Developer Errors](#User-Errors-vs-Developer-Errors)
+  3.1. [When To Model Errors In Schema And When Not To](#When-To-Model-Errors-In-Schema-And-When-Not-To)
+4. [Cases Where Errors in Schema Is Recommended](#Cases-Where-Errors-in-Schema-Is-Recommended)
+  4.1. [Multiple Field Level Validation Errors](#Multiple-Field-Level-Validation-Errors)
+  4.2 [Atomic Errors](#Atomic-Errors)
+  4.3. [Nested Resolver Errors. (Complex Objects)](#Nested-Resolver-Errors-(Complex-Objects))
+  4.4 [Nested Resolvers Errors (Scalar Fields)](#Nested-Resolvers-Errors-(Scalar-Fields))
+5. [Errors Defined in Schema Approach vs Default GraphQL Errors](#Errors-Defined-in-Schema-Approach-vs-Default-GraphQL-Errors)
 
 
 ## Introduction
@@ -97,7 +101,7 @@ Hence we will need to model the client side errors as results NOT errors.
 
 That is why the 6a(Errors Union List + Interface Contract ) approach is chosen for talawa-api, so that it is easier to send errors with data.
 
-#### When To Model Errors In Schema And When Not To 
+### When To Model Errors In Schema And When Not To 
 
 When deciding whether to model errors in the schema for fields in GraphQL, there are several factors to consider. The decision depends on the nature of the errors, the desired behavior of the API, and the needs of the client applications.
 
@@ -106,7 +110,7 @@ Consider the types of errors that can occur for a particular field. If the error
 But for very basic field validation like checking for nullability for a field , type checking etc you can leave the default GraphQL server as is. There is no benefit for adding extra complexity for these cases.
 
 
-### Cases For Errors in Schema is Needed
+## Cases Where Errors in Schema Is Recommended
 
 Let us take a look at this Approach for these practical cases ->
 
