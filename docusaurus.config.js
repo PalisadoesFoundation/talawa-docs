@@ -87,16 +87,26 @@ const config = {
 						position: "left",
 					},
 					{
-						href: "https://docs.talawa.io/talawa/index.html",
-						target: "_self",
-						label: "Talawa Mobile",
-						position: "left",
-					},
-					{
-						to: "docs/Introduction-TalawaAPI",
-						activeBasePath: "docs",
-						label: "Talawa-API",
-						position: "left",
+						to: 'docs/',
+						activeBasePath: 'docs',
+						label: 'Developer Docs',
+						position: 'left',
+						items: [
+						  {
+							label: 'Talawa API',
+							to: "docs/Introduction-TalawaAPI",
+							activeBasePath: "docs",
+						  },
+						  {
+							label: 'Talawa Flutter Docs',
+							to: "https://docs.talawa.io/talawa/index.html",
+							target: "_self",
+						  },
+						  {
+							label: 'Talawa Admin - Coming Soon',
+							to: "#",
+						  },
+						],
 					},
 					{
 						to: "https://github.com/PalisadoesFoundation",
