@@ -5,17 +5,16 @@ title: API Error Handling Guide
 
 This page outlines the core design principles for handling errors within the GraphQl Layer in Talawa-API code base and relaying said errors back to the client apps.
 
-1. [Introduction](#Introduction)
-2. [Problem with default Graphql Errors](#Problem-with-default-Graphql-Errors)
-3. [User Errors vs Developer Errors](#User-Errors-vs-Developer-Errors)
-
-  3.1. [When To Model Errors In Schema And When Not To](#When-To-Model-Errors-In-Schema-And-When-Not-To)
-4. [Cases Where Errors in Schema Is Recommended](#Cases-Where-Errors-in-Schema-Is-Recommended)
-  4.1. [Multiple Field Level Validation Errors](#Multiple-Field-Level-Validation-Errors)
-  4.2 [Atomic Errors](#Atomic-Errors)
-  4.3. [Nested Resolver Errors. (Complex Objects)](#Nested-Resolver-Errors-(Complex-Objects))
-  4.4 [Nested Resolvers Errors (Scalar Fields)](#Nested-Resolvers-Errors-(Scalar-Fields))
-5. [Errors Defined in Schema Approach vs Default GraphQL Errors](#Errors-Defined-in-Schema-Approach-vs-Default-GraphQL-Errors)
+- [Introduction](#Introduction)
+- [Problem with default Graphql Errors](#Problem-with-default-Graphql-Errors)
+- [User Errors vs Developer Errors](#User-Errors-vs-Developer-Errors)
+   - [When To Model Errors In Schema And When Not To](#When-To-Model-Errors-In-Schema-And-When-Not-To)
+- [Cases Where Errors in Schema Is Recommended](#Cases-Where-Errors-in-Schema-Is-Recommended)
+  - [Multiple Field Level Validation Errors](#Multiple-Field-Level-Validation-Errors)
+  - [Atomic Errors](#Atomic-Errors)
+  - [Nested Resolver Errors. (Complex Objects)](#Nested-Resolver-Errors-(Complex-Objects))
+  - [Nested Resolvers Errors (Scalar Fields)](#Nested-Resolvers-Errors-(Scalar-Fields))
+- [Errors Defined in Schema Approach vs Default GraphQL Errors](#Errors-Defined-in-Schema-Approach-vs-Default-GraphQL-Errors)
 
 
 ## Introduction
