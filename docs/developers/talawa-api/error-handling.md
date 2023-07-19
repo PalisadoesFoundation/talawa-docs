@@ -8,6 +8,7 @@ This page outlines the core design principles for handling errors within the Gra
 1. [Introduction](#Introduction)
 2. [Problem with default Graphql Errors](#Problem-with-default-Graphql-Errors)
 3. [User Errors vs Developer Errors](#User-Errors-vs-Developer-Errors)
+
   3.1. [When To Model Errors In Schema And When Not To](#When-To-Model-Errors-In-Schema-And-When-Not-To)
 4. [Cases Where Errors in Schema Is Recommended](#Cases-Where-Errors-in-Schema-Is-Recommended)
   4.1. [Multiple Field Level Validation Errors](#Multiple-Field-Level-Validation-Errors)
@@ -19,26 +20,26 @@ This page outlines the core design principles for handling errors within the Gra
 
 ## Introduction
 
-GraphQl is a great tool for building APIs when there is need to give the client more control over the data it needs from the server, where the clients fetch only the data they need in the payload returned by the server. [It returns data in a form which closely resembles a graph, so all data exhanged between client and api should be thought of in terms of graphs](https://graphql.org/learn/thinking-in-graphs/)
+GraphQL is an excellent tool for building APIs, especially when there is a need to provide clients with more control over the data they receive from the server. With GraphQL, clients can fetch only the specific data they require in the payload returned by the server, resulting in a more efficient data exchange. The data is presented in a form that closely resembles a graph, which means that all data exchanged between the client and API should be thought of in terms of graphs (learn more at [this link](https://graphql.org/learn/thinking-in-graphs/)).
 
-It resolves relations which exist in the business logic of the application with field resolvers only if the client specifically asks that relation to be resolved. This means lesser computation required to compute data not specifically needed by clients.(A resolver is basically a function with the same name as the field/relation that it resolves and returns)
+GraphQL effectively resolves relations that exist in the business logic of the application using field resolvers, but only if the client explicitly requests those relations to be resolved. This approach reduces unnecessary computations for data that the clients don't specifically need. A resolver is essentially a function with the same name as the field or relation it resolves and returns.
 
-The data is returned in the form of a graph where every node is a meaningful object in context to the logic and the edges represent relations.
+The returned data is structured as a graph, where each node represents a meaningful object in the context of the logic, and the edges represent the relations between them.
 
-In short GraphQl allows the clients to (These points will be important later on) -> 
+In summary, GraphQL allows clients to achieve the following (these points will be important later on):
 
-1. Query for a specific resolver which returns an object (node), meaningful to the api logic.
-2. Fetch for certain fields within said object(node) to optimize the request/response payload.
-3. In case of resolving relations(edges), making a nested query for interrelated objects(nodes).
-4. Each Node within the said nested query should be treated as individual entity in the graph.Error in one node should not affect other nodes in the graph. 
+1. Query for a specific resolver that returns a relevant object (node) aligned with the API's logic.
+2. Fetch certain fields within the requested object (node) to optimize the request/response payload.
+3. When resolving relations (edges), make a nested query for interrelated objects (nodes).
+4. Treat each node within the nested query as an individual entity in the graph; errors in one node should not affect other nodes in the graph.
 
-This is perfect when everything runs as expected but what if it does not? How does GraphQl by default handle these 4 points for thinking in terms of graphs when an error is made?
+This approach works perfectly when everything runs as expected. However, what happens if errors occur? How does GraphQL, by default, handle these four points that revolve around thinking in terms of graphs when mistakes are made?
 
-## Problem with default Graphql Errors
+## Problems with Default GraphQL Errors
 
-We will understand more about default Graphql Errors with an example.
+Let's delve into the issues related to default GraphQL errors through an example.
 
-Let's say I am making a query on the `signUp` mutation which accepts `email` , `name` and `password` and now we will look for the case where the no user with the given email exists, then the response returned by default ->
+Suppose I am making a query on the `signUp` mutation, which requires the parameters `email`, `name`, and `password`. Now, let's consider a scenario where there is no user with the given email. In such a case, the default response is as follows:
 
 ```json
 {
@@ -61,12 +62,20 @@ Let's say I am making a query on the `signUp` mutation which accepts `email` , `
   ]
 }
 ```
+#### Problems with This Approach
 
+The current approach has several issues that can pose challenges for developers:
 
-Now the problems with this approach ->
-1. The `errors` key of a GraphQL response is not type safe. Graphql is loved because of the consistency and type safety it provides, we do not get the same with the `errors` array. They are specified, but introspection tells a client nothing about what might be found in them, they're harder to evolve, and harder to extend.
-2. By default if the `errors` array is present then the resulting query will return `null` in the `data` field.If a non-nullable field returns null, GraphQL will raise an error. So, null value for a nested resolver results in the whole data object being returned as null and the error message will not provide any additional information about why the field returned null unless specifically handled in the resolver.But if a nested resolver is nullable then an error in the nsted resolver will not affect other fields. However, it will specify the path of the error within the root resolver response itself. For the client apps this would require extra effort in extracting and customizing errors.
-3. GraphQL errors encode exceptional scenarios - like a service being down or some other internal failure. Errors which are part of the API domain should be captured within that domain, and relayed to the client as information, NOT Graphql error.
+1. Lack of Type Safety in `errors` Key:
+The `errors` key in a GraphQL response lacks type safety. GraphQL is appreciated for its consistency and type safety, which unfortunately isn't fully carried over to the `errors` array. While the errors are specified, introspection does not provide the client with detailed information about what to expect in those errors. This lack of clarity makes the `errors` array harder to evolve and extend.
+
+2. Null Values in Nested Resolvers:
+When the `errors` array is present in the response, the resulting query will return `null` in the `data` field. However, if a non-nullable field returns `null`, GraphQL will raise an error. Consequently, if a nested resolver returns a null value, the entire data object is returned as null, and the error message won't provide additional information about why the field returned null unless explicitly handled in the resolver. Handling nullable nested resolvers introduces complexities for client applications, as they need to make extra efforts to extract and customize errors.
+
+3. Complexity of GraphQL Errors vs. API Domain Errors:
+GraphQL errors are designed to encode exceptional scenarios, such as when a service is down or an internal failure occurs. However, errors that are part of the API domain should ideally be captured within that domain and relayed to the client as informational messages, not GraphQL errors. Distinguishing between GraphQL errors and domain-specific errors is crucial for a more effective error-handling strategy.
+
+By addressing these problems, developers can enhance the reliability and maintainability of GraphQL-based APIs, providing a more robust and user-friendly experience for clients.
 
 ## User Errors vs Developer Errors
 
@@ -86,20 +95,15 @@ In summary, distinguishing between user errors and developer errors in GraphQL a
 
 ## The Solution
 
+The guiding philosophy here is that Errors should be considered exceptional. User data should never be represented as an Error. If negative guidance needs to be provided for actions that users can perform, it should be represented in GraphQL as Data rather than as an Error. Errors should exclusively represent developer errors or exceptional circumstances, such as when the database is offline (as highlighted by [Lee Byron in comments on the GraphQL-Spec repository](https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207)).
 
-The general philosophy at play is that Errors are considered exceptional. Your user data should never be represented as an Error. If your users can do something that needs to provide negative guidance, then you should represent that kind of information in GraphQL as Data not as an Error. Errors should always represent either developer errors or exceptional circumstances (e.g. the database was offline).[Lee Byron makes that clear in a few comments on the GraphQL-Spec repository.](https://github.com/graphql/graphql-spec/issues/391#issuecomment-385553207)
+The Error Handling approach chosen for the Talawa API codebase is based on [Marc-Andre Giroux's `6a`](https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors).
 
+In GraphQL, the majority of "Errors" are actually client-side errors, not server-side errors. For instance, errors like `User Not Found` or `Invalid Login Credentials` are not server errors; they are the result of the operation requested by the client. On the other hand, errors like `Bad Gateway` or `Internal Server Error` are indeed the server's fault.
 
-[Marc-Andre Giroux `6a`](https://productionreadygraphql.com/2020-08-01-guide-to-graphql-errors) is the basis of the approach chosen for Error Handling in the Talawa api codebase.
+Therefore, the Talawa API follows the 6a approach (Errors Union List + Interface Contract) to make it easier to send errors along with data, treating client-side errors as results, NOT errors.
 
-
-Most of the "Errors" in GraphQL are client side errors not server side errors.
-
-For example errors like `User Not Found` or  `Invalid Login Credentials` errors are not server errors they are the client's fault, the server is sending the data requested just that the errors are the ***Result*** of the operation requested by the client. Unlike Errors like `Bad Gateway` or `Internal Server Error` which is the servers fault.
-
-Hence we will need to model the client side errors as results NOT errors.
-
-That is why the 6a(Errors Union List + Interface Contract ) approach is chosen for talawa-api, so that it is easier to send errors with data.
+By adopting this approach, the Talawa API aims to provide a more refined and user-centric error handling mechanism, distinguishing between client-side and server-side errors while ensuring that user data is consistently represented as data rather than errors.
 
 ### When To Model Errors In Schema And When Not To 
 
@@ -112,16 +116,23 @@ But for very basic field validation like checking for nullability for a field , 
 
 ## Cases Where Errors in Schema Is Recommended
 
-Let us take a look at this Approach for these practical cases ->
+#### The Approach in Practical Cases
 
+Let's examine how this approach is applied in practical cases:
 
-1. For sending all field errors at once so that clients can customise errors for them appropriately. For example imagine a sign up page where in case of failed validation for each field, the app screen can display all errors at once under each input boxes and success for resolved data.(**Multiple Field Level Validation Errors **)
-2. For Atomicity in sending error. In some cases it is necessary we will need to send Error or Data not both.(**Atomic Errors**)
-3. For relations in the graph sent by the server, each node should be individually treated for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes.(**Nested Resolver Errors  (Complex Objects)** )
-4. For custom scalar objects within another object for example PII fields like a user's `email` where there is an Access Control Logic in order to access those fields in an object , we would need to resolve those fields with a custom resolver, an error within that field should not affect other scalar fields.(**Nested Resolver Errors (Scalar Fields )**).
+1. **Multiple Field Level Validation Errors:**
+   The approach allows sending all field errors at once, enabling clients to customize errors appropriately. For instance, consider a sign-up page where, in case of failed validation for each field, the app screen can display all errors simultaneously under the respective input boxes while also showing the success message for resolved data.
 
-Now Let us look at each of these cases with example `mutations/queries` within the `talawa-api`. We will be doing so for both the API and client part to better understand it.
+2. **Atomic Errors:**
+   Atomicity in sending errors is achieved by ensuring that in some cases, either Error or Data is sent, not both. This helps maintain clarity and consistency in the response.
 
+3. **Nested Resolver Errors (Complex Objects):**
+   When dealing with relations in the graph sent by the server, each node should be treated individually for its errors. Errors in one node should not directly affect the attributes of other resolved related nodes. This allows for more precise error handling and prevents cascading errors that could impact the entire response.
+
+4. **Nested Resolver Errors (Scalar Fields):**
+   Custom scalar objects, such as Personally Identifiable Information (PII) fields like a user's `email`, may require resolving with a custom resolver, and errors within these fields should not affect other scalar fields. This approach ensures that errors are localized and do not propagate to other parts of the response.
+
+Now, let's explore each of these cases with example `mutations/queries` within the `talawa-api`. We will analyze both the API and client parts to gain a comprehensive understanding of how this approach is effectively implemented.
 ### Multiple Field Level Validation Errors -
 
 #### API 
@@ -159,11 +170,12 @@ The type definitions relevant for `signUp` Mutation->
     email: EmailAddress
   }
 ```
-Now, let us take a look at the definition of error union for the `signUp` mutation.
+Now, let us delve into the definition of the error union for the `signUp` mutation.
 
-GraphQL unions are a way to represent different types of objects in your schema that share some common fields. A union is a composition of multiple types and is useful when we require type definition for an entity that could have multiple types
+GraphQL unions provide a mechanism to represent various types of objects in your schema that share common fields. By defining a union, we can compose multiple types, which proves particularly useful when an entity can have multiple types.
 
-The interface `UserError` will act as an `interface contract`. The exact purpose for it will be cleared when we reach the  client side explaination part.
+In this context, the interface `UserError` serves as an `interface contract`. The precise significance of this interface will become evident as we progress to the client-side explanation section.
+
 ```gql
 // now begins the Error unions types, we can consume many error types in this
 union SignUpError = EmailTaken | PasswordTooShort | UserError
@@ -193,7 +205,7 @@ As you can see the `signUp` mutation has a return type of `SignUpResult!` which 
 
 type SignUpResult {
     signUpData : AuthData ,
-    signUpErrors : [SignUpError!]
+    signUpErrors : [SignUpError!]!
 }
 
 type Mutation {
@@ -241,12 +253,9 @@ const resolvers = {
             }
 
           // Here we will be returning multiple errors in the form on an array of signUpErrors
-          if (signUpErrors) {
+          if (IF signUpErrors IS NOT EMPTY) {
                return  {
-                   signUpData: {
-                         user : userObj,
-                          .... other AuthData fields
-                   } , 
+                   signUpData:null, 
                    signUpErrors
 
                }
@@ -270,11 +279,13 @@ const resolvers = {
 }
 ```
 
-In this approach for resolving Field Errors ->
+In this approach for resolving Field Errors, two significant features are highlighted:
 
-1. Multiple Errors can be sent back to the client when needed in case the client apps need to display those errors concurrently with UI elements
-2. A general purpose interface contract `UserError` to fall back to in case we want to send a general purpose error back to the client.
+1. **Multiple Errors Handling:**
+   The approach allows for sending multiple errors back to the client when necessary. This capability proves beneficial when client applications need to display those errors concurrently with relevant UI elements. By providing multiple errors, the client can obtain a comprehensive view of the issues encountered during the field resolution process.
 
+2. **General Purpose Interface Contract - UserError:**
+   To cater to scenarios where a general-purpose error needs to be sent back to the client, the approach employs a versatile interface contract called `UserError`. This interface acts as a fallback mechanism, ensuring that clients receive informative error messages even in cases where specific error types are not applicable. It enhances error handling and communication between the server and client, offering a consistent and user-friendly experience.
 
 #### Client
 
@@ -326,43 +337,40 @@ mutation {
 }
 ```
 
-As you can see from this mutation input, the following mutation should result in the `EmailTaken` and `PasswordTooShort` Error based on our resolver.
+As evident from this mutation input, the subsequent mutation should lead to the occurrence of the `EmailTaken` and `PasswordTooShort` Errors, as dictated by our resolver.
 
-The UserError is to handle any general purpose error that way we get extensibility of the interface with the expressivity of the union.
+The inclusion of the `UserError` interface allows for the handling of any general-purpose error, granting us the advantage of an extensible interface coupled with the expressive nature of the union. This combination provides a flexible error-handling approach, enabling seamless communication between the server and client.
 
-Hence, this mutation will return a response that looks like this.
+Consequently, the response resulting from this mutation will resemble the following structure:
 
-```gql
-
-data: {
-  signUpData: {
-      user: null,
-      accessToken: null,
-      refreshToken: null
-  } ,
-  signUpErrors: [
-    {
-      __typename: "EmailTaken" ,
-      message: "Email is already taken"
-      path: "UserInput.email"
-      suggestion: `Try to provide a unique mail or sure you have not created an account already`
-    } , 
-    {
-      __typename: "PasswordTooShort" ,
-      message: "Password length is too short"
-      path: "UserInput.password"
-      minimumLength: 8
-    }
-  ]
+```json
+{
+  "data": {
+    "signUpData": null,
+    "signUpErrors": [
+      {
+        "__typename": "EmailTaken",
+        "message": "Email is already taken",
+        "path": "UserInput.email",
+        "suggestion": "Try to provide a unique mail or sure you have not created an account already"
+      },
+      {
+        "__typename": "PasswordTooShort",
+        "message": "Password length is too short",
+        "path": "UserInput.password",
+        "minimumLength": 8
+      }
+    ]
+  }
 }
+
 ```
 
-As you can see, 
+As observed,
 
-1. The `signUpErrors` contains the errors we expected. which are typesafe and send back xustom error messages. 
-2. The `user` field is null since no user Object was created in the DB because of failure of the operation. 
+1. The `signUpErrors` section comprises the anticipated errors, which are typesafe and accompanied by custom error messages. This robust error-handling approach ensures that clients receive meaningful and precise information about encountered issues.
 
-
+2. The `user` field is null in this instance because the operation encountered a failure, preventing the creation of a user object in the database. This outcome aligns with the expected behavior, and the response accurately reflects the result of the operation.
 
 
 ### Atomic Errors -
