@@ -12,12 +12,7 @@ The Talawa App offers a personalized journey, enabling seamless connections with
 
 
 ### Step 1: Installation
- 
-On your **Android** device, head to the Google Play Store, search for "Talawa," and tap Install to get started. 
-
-:::note
- As of now, the Talawa app is not yet available on the App Store. However, it is planned for future release. Please keep an eye out for updates on its availability.
-:::
+Get started, by installing Talawa on your **Android** device from the Google Play Store or on your **iOS** device from the App Store. Simply head to the respective store, search for "Talawa," and with a quick tap on "Install" or "Get," and you'll be ready to begin your journey with us.
 
 
 ### Step 2: Account Setup
