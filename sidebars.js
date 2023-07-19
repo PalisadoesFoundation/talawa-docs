@@ -10,8 +10,9 @@ const sidebars = {
       collapsed: false,
       items: [
         'introduction/about',
+        'introduction/setting-up',
         'introduction/core-concepts',
-        'introduction/roadmap'
+        'introduction/roadmap',
       ]
     },
 
