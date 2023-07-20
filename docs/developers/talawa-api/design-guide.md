@@ -13,10 +13,3 @@ We need a common design approach when designing our resolvers to help ensure pre
 
 Add content here
 
-## Error Handling
-
-Both our developer and user communities require meaningful and actionable error handling to help troubleshoot issues they may have with the code. This section outlines the tenets of our approach.
-
-### GraphQL Errors
-
-Add content here
