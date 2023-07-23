@@ -70,46 +70,55 @@ Talawa-API supports the users of Talawa and Talawa-Admin.
 
 Event management is a major Talawa component.
 
-### Event Terminologies
+### 1. Event calendar customization
+
+Admins can easily create events using the Talawa-Admin Calendar functionality by adding crucial parameters such as date, time, description, and location. The user-friendly interface allows them to choose between recurring events, all-day activities, and whether the event is public or private. 
+
+Superadmins can effortlessly track all of these events in a centralized consolidated calendar, gaining visibility into event information and guaranteeing effective coordination and management.
+
+### 2. Event Terminologies
 
 Here are some important terminologies used in Talawa event management:
 
-1. **Open Event**: Events that are open to everyone
-1. **Registrable Event**: An open event that requires the additional step of event registration. These events would typically have limited capacity and therefore would require members to register beforehand.
-1. **Closed Events**: These are events that are by invitation only.
-   1. **Private events**: Closed events that only show up in the mobile app calendars of invitees
+- **Open Event**: Events that are open to everyone
+- **Registrable Event**: An open event that requires the additional step of event registration. These events would typically have limited capacity and therefore would require members to register beforehand.
+- **Closed Events**: These are events that are by invitation only.
+   - **Private events**: Closed events that only show up in the mobile app calendars of invitees
 
-### Event Features
+
+### 3. Event Features
 
 Events have many features as you can see below.
 
-#### Event Creation
+- **Event Creation**
 
 Events can:
 
 1. be created either in the mobile app or Talawa Admin;
 1. only be edited by the event organizers and admins
 
-#### Event Checkins
+- **Event Checkins**
 
 Checkins are a way of tracking attendance to all types of events. They have many valuable uses such as the ability to:
 
 1. add users to the organization if they turn up to an event;
 1. convert users to members when they attend an event.
 
-#### Event Group Chats
+- **Event Group Chats**
 
 Talawa includes the ability of members invited or registered to an event to automatically be added to a group chat for that event. This allows greater coordination and community spirit in the organization's groups.
 
-#### Event Roles
+- **Event Roles**
 
 Talawa includes the ability of members attending events to be assigned tasks/roles that can be tracked in their app by all attendees. This helps in event management.
+
+
 
 ## Newsfeed
 
 The Talawa newsfeed helps to make the Communities a more cohesive entity.
 
-### Mobile App Newsfeed
+### 1. Mobile App Newsfeed
 
 The newsfeed on the Talawa Mobile App is a stream of commentary from the App's users. This may include various combinations of text, video, images and links that Members may want to share.
 
@@ -117,13 +126,19 @@ Talawa Mobile App users only get news on their newsfeed for the organization tha
 
 Members using the app can add posts containing text, images or video to the newsfeed. They can also add hashtags to their posts. People seeing the hashtags will be able to click on them to automatically filter their feed by one or more hashtags.
 
-### Admin Panel Newsfeed
+### 2. Admin Panel Newsfeed
 
 Administrators will use Talawa Admin to administer an organization's newsfeed. At a minimum they will get a filtered version of the feed that only includes exceptional content that requires attention. This includes:
 
 1. **Pinned Posts**: The management of pinned posts that they use to alert all members of the organization of some activity. These posts are [always visible at the top of the newsfeed](https://github.com/PalisadoesFoundation/talawa-api/issues/1096). Pinned posts can only be created by Admins.
 2. **Reported Posts**: Mobile App users may want Admins to take action on posts that don't match the organization's values. Admins can use the newsfeed to manage these reports.
 3. **Plugin Posts**: The Admin panel may have plugins that need to access the newsfeed. For example these could include the insertion of advertising from local companies.
+
+## Tasks in Talawa
+
+Through the Talawa mobile app, users who choose to volunteer can efficiently track the tasks assigned to them. The app provides a dedicated task management feature that allows volunteers to view their assigned tasks and monitor progress. 
+
+With this functionality, users can stay organized, prioritize their responsibilities, and contribute effectively to the projects and initiatives they are involved in, ensuring a streamlined and rewarding volunteering experience.
 
 ## Multi-Tenancy / Cloud
 
