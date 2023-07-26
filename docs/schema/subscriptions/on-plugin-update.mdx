@@ -1,6 +1,6 @@
 ---
-id: create-plugin
-title: createPlugin
+id: on-plugin-update
+title: onPluginUpdate
 hide_table_of_contents: false
 ---
 
@@ -32,31 +32,8 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-createPlugin(
-  pluginName: String!
-  pluginCreatedBy: String!
-  pluginDesc: String!
-  uninstalledOrgs: [ID!]
-): Plugin!
+onPluginUpdate: Plugin
 ```
-
-### Arguments
-
-#### [<code style={{ fontWeight: 'normal' }}>createPlugin.<b>pluginName</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-
->
-
-#### [<code style={{ fontWeight: 'normal' }}>createPlugin.<b>pluginCreatedBy</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-
->
-
-#### [<code style={{ fontWeight: 'normal' }}>createPlugin.<b>pluginDesc</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
-
->
-
-#### [<code style={{ fontWeight: 'normal' }}>createPlugin.<b>uninstalledOrgs</b></code>](#)<Bullet />[`[ID!]`](../../../docs/schema/scalars/id) <Badge class="secondary" text="list"/> <Badge class="secondary" text="scalar"/>
-
->
 
 ### Type
 
