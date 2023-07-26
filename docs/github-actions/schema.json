@@ -5488,21 +5488,7 @@
                 "defaultValue": null
               },
               {
-                "name": "pluginInstallStatus",
-                "description": null,
-                "type": {
-                  "kind": "NON_NULL",
-                  "name": null,
-                  "ofType": {
-                    "kind": "SCALAR",
-                    "name": "Boolean",
-                    "ofType": null
-                  }
-                },
-                "defaultValue": null
-              },
-              {
-                "name": "installedOrgs",
+                "name": "uninstalledOrgs",
                 "description": null,
                 "type": {
                   "kind": "LIST",
@@ -7177,7 +7163,7 @@
             "deprecationReason": null
           },
           {
-            "name": "updatePluginInstalledOrgs",
+            "name": "updatePluginStatus",
             "description": null,
             "args": [
               {
@@ -7203,51 +7189,6 @@
                   "ofType": {
                     "kind": "SCALAR",
                     "name": "ID",
-                    "ofType": null
-                  }
-                },
-                "defaultValue": null
-              }
-            ],
-            "type": {
-              "kind": "NON_NULL",
-              "name": null,
-              "ofType": {
-                "kind": "OBJECT",
-                "name": "Plugin",
-                "ofType": null
-              }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "updatePluginStatus",
-            "description": null,
-            "args": [
-              {
-                "name": "id",
-                "description": null,
-                "type": {
-                  "kind": "NON_NULL",
-                  "name": null,
-                  "ofType": {
-                    "kind": "SCALAR",
-                    "name": "ID",
-                    "ofType": null
-                  }
-                },
-                "defaultValue": null
-              },
-              {
-                "name": "status",
-                "description": null,
-                "type": {
-                  "kind": "NON_NULL",
-                  "name": null,
-                  "ofType": {
-                    "kind": "SCALAR",
-                    "name": "Boolean",
                     "ofType": null
                   }
                 },
@@ -8636,6 +8577,18 @@
             "type": {
               "kind": "OBJECT",
               "name": "GroupChatMessage",
+              "ofType": null
+            },
+            "isDeprecated": false,
+            "deprecationReason": null
+          },
+          {
+            "name": "onPluginUpdate",
+            "description": null,
+            "args": [],
+            "type": {
+              "kind": "OBJECT",
+              "name": "Plugin",
               "ofType": null
             },
             "isDeprecated": false,
@@ -11464,23 +11417,7 @@
             "deprecationReason": null
           },
           {
-            "name": "pluginInstallStatus",
-            "description": null,
-            "args": [],
-            "type": {
-              "kind": "NON_NULL",
-              "name": null,
-              "ofType": {
-                "kind": "SCALAR",
-                "name": "Boolean",
-                "ofType": null
-              }
-            },
-            "isDeprecated": false,
-            "deprecationReason": null
-          },
-          {
-            "name": "installedOrgs",
+            "name": "uninstalledOrgs",
             "description": null,
             "args": [],
             "type": {
