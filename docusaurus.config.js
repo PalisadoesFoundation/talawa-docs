@@ -99,8 +99,8 @@ const config = {
 						  },
 						  {
 							label: 'Talawa Flutter Docs',
-							to: "https://docs.talawa.io/talawa/index.html",
-							target: "_self",
+							to: "docs/talawa-mobile-docs",
+							activeBasePath: "docs",
 						  },
 						  {
 							label: 'Talawa Admin - Coming Soon',
