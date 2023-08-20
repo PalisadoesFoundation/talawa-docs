@@ -103,8 +103,9 @@ const config = {
 							target: "_self",
 						  },
 						  {
-							label: 'Talawa Admin - Coming Soon',
-							to: "#",
+							label: 'Talawa Admin',
+							to: "docs/Introduction-TalawaAdmin",
+							activeBasePath: "docs",
 						  },
 						],
 					},
