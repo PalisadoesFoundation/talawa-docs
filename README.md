@@ -8,7 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/PalisadoesFoundation/talawa-docs.svg?style=social&label=Star&maxAge=2592000)](https://github.com/PalisadoesFoundation/talawa-docs)
 [![GitHub forks](https://img.shields.io/github/forks/PalisadoesFoundation/talawa-docs.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/PalisadoesFoundation/talawa-docs)
 
-Talawa is a modular open source project to manage group activities of both non-profit organizations and businesses.
+Talawa is a modular open-source project to manage group activities of both non-profit organizations and businesses.
 
 Core features include:
 
