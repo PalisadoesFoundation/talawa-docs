@@ -103,8 +103,9 @@ const config = {
 							activeBasePath: "docs",
 						  },
 						  {
-							label: 'Talawa Admin - Coming Soon',
-							to: "#",
+							label: 'Talawa Admin',
+							to: "docs/Introduction-TalawaAdmin",
+							activeBasePath: "docs",
 						  },
 						],
 					},
