@@ -55,6 +55,8 @@ type Event {
   admins(adminId: ID): [User]
   status: Status!
   projects: [EventProject]
+  feedback: [Feedback!]!
+  averageFeedbackScore: Float
 }
 ```
 
@@ -148,10 +150,18 @@ type Event {
 
 >
 
+#### [<code style={{ fontWeight: 'normal' }}>Event.<b>feedback</b></code>](#)<Bullet />[`[Feedback!]!`](../../../docs/schema/objects/feedback) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Event.<b>averageFeedbackScore</b></code>](#)<Bullet />[`Float`](../../../docs/schema/scalars/float) <Badge class="secondary" text="scalar"/>
+
+>
+
 ### Returned by
 
 [`adminRemoveEvent`](../../../docs/schema/mutations/admin-remove-event) <Badge class="secondary" text="mutation"/><Bullet />[`createEvent`](../../../docs/schema/mutations/create-event) <Badge class="secondary" text="mutation"/><Bullet />[`event`](../../../docs/schema/queries/event) <Badge class="secondary" text="query"/><Bullet />[`eventsByOrganization`](../../../docs/schema/queries/events-by-organization) <Badge class="secondary" text="query"/><Bullet />[`eventsByOrganizationConnection`](../../../docs/schema/queries/events-by-organization-connection) <Badge class="secondary" text="query"/><Bullet />[`registeredEventsByUser`](../../../docs/schema/queries/registered-events-by-user) <Badge class="secondary" text="query"/><Bullet />[`registerForEvent`](../../../docs/schema/mutations/register-for-event) <Badge class="secondary" text="mutation"/><Bullet />[`removeEvent`](../../../docs/schema/mutations/remove-event) <Badge class="secondary" text="mutation"/><Bullet />[`unregisterForEventByUser`](../../../docs/schema/mutations/unregister-for-event-by-user) <Badge class="secondary" text="mutation"/><Bullet />[`updateEvent`](../../../docs/schema/mutations/update-event) <Badge class="secondary" text="mutation"/>
 
 ### Member of
 
-[`CheckIn`](../../../docs/schema/objects/check-in) <Badge class="secondary" text="object"/><Bullet />[`EventProject`](../../../docs/schema/objects/event-project) <Badge class="secondary" text="object"/><Bullet />[`Task`](../../../docs/schema/objects/task) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/>
+[`CheckIn`](../../../docs/schema/objects/check-in) <Badge class="secondary" text="object"/><Bullet />[`EventProject`](../../../docs/schema/objects/event-project) <Badge class="secondary" text="object"/><Bullet />[`Feedback`](../../../docs/schema/objects/feedback) <Badge class="secondary" text="object"/><Bullet />[`Task`](../../../docs/schema/objects/task) <Badge class="secondary" text="object"/><Bullet />[`User`](../../../docs/schema/objects/user) <Badge class="secondary" text="object"/>

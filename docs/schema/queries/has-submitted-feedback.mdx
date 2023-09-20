@@ -1,6 +1,6 @@
 ---
-id: float
-title: Float
+id: has-submitted-feedback
+title: hasSubmittedFeedback
 hide_table_of_contents: false
 ---
 
@@ -29,12 +29,27 @@ style={{ listStyle:'none' }} >
 );
 };
 
-The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point).
+No description
 
 ```graphql
-scalar Float
+hasSubmittedFeedback(
+  userId: ID!
+  eventId: ID!
+): Boolean
 ```
 
-### Member of
+### Arguments
 
-[`createDonation`](../../../docs/schema/mutations/create-donation) <Badge class="secondary" text="mutation"/><Bullet />[`Donation`](../../../docs/schema/objects/donation) <Badge class="secondary" text="object"/><Bullet />[`Event`](../../../docs/schema/objects/event) <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>hasSubmittedFeedback.<b>userId</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>hasSubmittedFeedback.<b>eventId</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+### Type
+
+#### [`Boolean`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="scalar"/>
+
+> The `Boolean` scalar type represents `true` or `false`.

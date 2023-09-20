@@ -1,6 +1,6 @@
 ---
-id: float
-title: Float
+id: add-feedback
+title: addFeedback
 hide_table_of_contents: false
 ---
 
@@ -29,12 +29,22 @@ style={{ listStyle:'none' }} >
 );
 };
 
-The `Float` scalar type represents signed double-precision fractional values as specified by [IEEE 754](https://en.wikipedia.org/wiki/IEEE_floating_point).
+No description
 
 ```graphql
-scalar Float
+addFeedback(
+  data: FeedbackInput!
+): Feedback!
 ```
 
-### Member of
+### Arguments
 
-[`createDonation`](../../../docs/schema/mutations/create-donation) <Badge class="secondary" text="mutation"/><Bullet />[`Donation`](../../../docs/schema/objects/donation) <Badge class="secondary" text="object"/><Bullet />[`Event`](../../../docs/schema/objects/event) <Badge class="secondary" text="object"/>
+#### [<code style={{ fontWeight: 'normal' }}>addFeedback.<b>data</b></code>](#)<Bullet />[`FeedbackInput!`](../../../docs/schema/inputs/feedback-input) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="input"/>
+
+>
+
+### Type
+
+#### [`Feedback`](../../../docs/schema/objects/feedback) <Badge class="secondary" text="object"/>
+
+>
