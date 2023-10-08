@@ -5,9 +5,9 @@
 	"scripts": {
 		"docusaurus": "docusaurus",
 		"start": "docusaurus start",
-		"build": "export NODE_OPTIONS=--max-old-space-size=8102 && docusaurus build",
+		"build": "docusaurus build",
 		"swizzle": "docusaurus swizzle",
-		"deploy": "docusaurus deploy",
+		"deploy": "export NODE_OPTIONS=--max-old-space-size=4096 && docusaurus deploy",
 		"clear": "docusaurus clear",
 		"serve": "docusaurus serve",
 		"write-translations": "docusaurus write-translations",
