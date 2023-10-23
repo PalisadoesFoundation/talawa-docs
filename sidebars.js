@@ -237,31 +237,6 @@ const sidebars = {
             'internships/gsoc/gsoc-application-process'
           ]
         },
-        {
-          type: 'category',
-          label: 'Outreachy',
-          link: {
-            type: 'generated-index'
-          },
-          collapsed: true,
-          items: [
-            'internships/outreachy/outreachy-introduction',
-            'internships/outreachy/outreachy-ideas'
-          ]
-        },
-
-        {
-          type: 'category',
-          label: 'GSoD',
-          link: {
-            type: 'generated-index'
-          },
-          collapsed: true,
-          items: [
-            'internships/gsod/gsod-ideas',
-            'internships/gsod/gsod-ideas-2022'
-          ]
-        },
 
         {
           type: 'category',

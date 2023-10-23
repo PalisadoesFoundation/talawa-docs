@@ -38,7 +38,7 @@ We also welcome any other ideas that we could use. Please review the "Desired Fe
 
 ### Internship Participants
 
-Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship, Google Summer of Docs, Outreachy, etc.).
+Many of you reading this page are interested in participating in this internship program.
 
 1. Make sure to read the relevant `Introduction` and `Application Guide`/ `Contribution Process` pages first.
    1. GSoC:
