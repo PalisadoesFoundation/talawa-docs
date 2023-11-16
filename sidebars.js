@@ -252,7 +252,6 @@ const sidebars = {
     ,
   ],
   API:[
-    'Introduction-TalawaAPI',
     {
       type: 'doc',
       id: 'talawa-api-docs/modules',
@@ -296,7 +295,6 @@ const sidebars = {
     },
   ],
   Admin:[
-    'Introduction-TalawaAdmin',
     {
       type: 'doc',
       id: 'talawa-admin-docs/modules',
