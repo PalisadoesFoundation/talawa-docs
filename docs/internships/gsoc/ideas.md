@@ -3,6 +3,12 @@ id: gsoc-ideas
 title: GSoC Ideas
 ---
 
+## Draft
+
+These ideas are subject to change at any time prior to us being accepted as a GSoC 2024 Organization. Ideas may be added, removed or updated up to this time. 
+
+![Draft](/img/document-draft.png)
+
 ## Introduction
 
 Welcome to our ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
@@ -131,50 +137,6 @@ Please read the `Research` section of this document for background information
 8. **Difficulty:** Medium
 9. **Impact Definition:** Core development
 
-### Share data between Talawa and other application suites
-
-1. **Description:** Currently the Posts are made via Admin Portal and Users can like & comment via mobile app. An Ability to publish the posts by providing a publicly accessible link will enable app users to share the posts across other apps like WhatsApp, Twitter, etc. This will help to increase the popularity of the organization. The published post should also be SEO friendly. We also need other applications to be able to share data to Talawa from where users can share content from applications like WhatsApp, telegram etc. to users on Talawa via chat. We really want that Talawa users should also be able to have a preview of links at least from some predefined types stated in Expected Outcomes. When it comes to user retentions we would really like to have a floating PIP mode for the links that have playable video links similar to what telegram and WhatsApp have for YouTube videos.
-1. **Expected Outcomes:**
-   1. Design public posts API and data models.
-      1. Ability to share them to others apps via Mobile app.
-      2. Implementing logic for built-in SEO for the post.
-   2. Implement data sharing to/from Talawa.
-      1. Ability to share post from Talawa to other applications.
-      2. Post shared should open directly inside app if installed similar to invite feature implemented.
-      3. Ability to share plain text, images or both to Talawa users in chat from other applications similar to telegram, WhatsApp, stack have.
-      4. This might also require updating changes in chat schema.
-      5. Ability to have a link preview of all the links.(Open for whom you want to implement this)
-      6. Have a PIP mode for videos to be played inside Talawa when app is in foreground or background state.
-      7. Links which have a playable video file like YouTube etc. should have a PIP compatibility.
-      8. Links should open inside in-app browser or the dedicated application if installed.
-      9. Link preview should also be available for posts on platform and any potential place.
-1. **Repos to update:** Talawa, Talawa-Admin, Talawa-API.
-1. **Skills Required:** Code stacks related to repos above. See introduction section.
-1. **Depends on Project:** None
-1. **Project Size:** 350 hours (Large)
-2. **Possible Mentors:** TBD
-3. **Difficulty:** Medium/Hard
-4. **Impact Definition:** Core development, Risky/Exploratory
-
-### Multi-Tenancy
-
-1. **Description:** Create a way to separate different API instances using a data segregation strategy to best optimize resources. It is likely that we will want to host Talawa as a service. Designing a solution to this problem is therefore required. Read our [core concepts document](../../introduction/core-concepts) for further background.
-1. **Expected Outcomes:**
-   1. Research and suggest a preferred way of implementing this strategy.
-   1. Implement the strategy so that it is transparent to the mobile app.
-   1. Code ways to configure this solution simply via the Admin portal.
-   2. Think of:
-      1. New levels of authorization and security that may be required.
-      2. Architectures that would facilitate moving a community from one server to another on a completely different set of infrastructure.
-      3. Interesting features that would be required for this to be implemented.
-2. **Repos to update:** Talawa-API, Talawa-Admin
-3. **Skills Required:** Code stacks related to repos above. See introduction section.
-4. **Depends on Project:** `Admin: Multi-Tenancy`
-5. **Project Size:** 350 hours (Large)
-6. **Possible Mentors:** TBD
-7. **Difficulty:** Hard
-8. **Impact Definition:** Core development, Risky/Exploratory
-
 ### Improved File Uploads and Security
 
 1. **Description:** We need a better solution for handling files uploaded from Talawa clients. GraphQL is unsuitable for file access and, storing files in the code tree with only a `.gitignore` file as protection is risky.
@@ -216,46 +178,6 @@ Please read the `Research` section of this document for background information
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Core development, Risky/Exploratory
 
-### Translations and Microservices
-
-1. **Description:** Our proposed project aims to enhance our existing app by allowing users to add language JSON files of their choice, breaking APIs, pub sub, and consumers as separate services, and handling big async processes using Kafka Consumers. Currently, we have a monolithic service that uses GraphQL APIs and pub sub. This project will help us create a more modular and scalable architecture for our app, making it easier to maintain and add new features.
-   1. To implement this project, we will first create a language management system that allows users to upload JSON files with translations for the app's content. These translations will then be integrated into the app, enabling users to access the app's content in their preferred language.
-   2. Next, we will create separate services for APIs, sockets, and consumers. Breaking these services apart will enable us to manage them more efficiently, as well as allow us to scale and add new features more easily.
-   3. To handle big async processes, we will use Kafka Consumers. Kafka Consumers will allow us to process large amounts of data efficiently and handle high traffic volumes, improving the app's performance and reliability.
-2. **Expected Outcomes:**
-   1. Our proposed project will build on previously stated ideas and include some overlap with their general objectives. We will create new features that users will want, including the ability to add language files, improve app performance, and create a more scalable architecture.
-   2. The project will justify 350 hours of work, as it involves significant changes to the app's architecture and the creation of new features.
-   3. To implement this project, we will require skills in the code stacks related to Talawa, Talawa-API, and Talawa-Admin. Specifically, we will need expertise in GraphQL, Kafka, Python and Sockets.
-3. **Instructions:** To implement this project, we recommend the following steps:
-   1. Develop a language management system that allows users to upload JSON files with translations for the app's content.
-   2. Break the APIs, sockets, and consumers into separate services.
-   3. Use Kafka Consumers to handle big async processes.
-   4. Test and deploy all the services.
-   5. Throughout the implementation process, it will be essential to take care of internal server calls and ensure that the app's performance and reliability are not impacted by the changes. We recommend testing each component thoroughly before deployment.
-4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-5. **Skills Required:** Code stacks related to repos above. See introduction section.
-6. **Depends on Project:** None
-7. **Project Size:** 350 hours (Large)
-8. **Possible Mentors:** TBD
-9. **Difficulty:** Hard
-10. **Impact Definition:** Risky/Exploratory
-
-### E2E Testing
-
-1. **Description:** We need better integration testing of the various applications
-2. **Expected Outcomes:** Consider ways to implement testing:
-   1. Using packages such as puppeteer, jest or their equivalents
-   2. That comprehensively tests the integration of all three major Talawa apps.
-   3. **References:** 
-      1. https://github.com/PalisadoesFoundation/talawa-admin/pull/580
-3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-4. **Skills Required:** Code stacks related to repos above. See introduction section.
-5. **Depends on Project:** N/A
-6. **Project Size:** 350
-7. **Possible Mentors:** TBD
-8. **Difficulty:** Medium
-9.  **Impact Definition:** Risky/Exploratory
-
 ### Artificial Intelligence
 
 1. **Description:** AI creates many possible opportunities for the Talawa administrator. Solutions must be easy to implement and cost-effective for potential use by organizations that have limited resources. 
@@ -273,18 +195,6 @@ Please read the `Research` section of this document for background information
 8. **Possible Mentors:** TBD
 9. **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
-
-### Semiotics
-
-1. **Description:** There is no guarantee that Talawa users will be functionally literate. We need to find ways to augment text with symbols to improve the UX. 
-2. **Expected Outcomes:** TBD
-3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-4. **Skills Required:** Code stacks related to repos above. See introduction section.
-5. **Depends on Project:** N/A
-6. **Project Size:** 350
-7. **Possible Mentors:** TBD
-8. **Difficulty:** Medium
-9.  **Impact Definition:** Risky/Exploratory
 
 ### Hybrid Innovation
 

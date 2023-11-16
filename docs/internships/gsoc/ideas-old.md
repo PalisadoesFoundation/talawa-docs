@@ -3,6 +3,12 @@ id: gsoc-ideas
 title: GSoC Ideas
 ---
 
+## Deprecated
+
+The ideas on this page are deprecated and will not be pursued.
+
+![Deprecated](/img/document-deprecated.png)
+
 ## Introduction
 
 Welcome to our ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
@@ -342,6 +348,34 @@ Please read the `Research` section of this document for background information
 8. **Possible Mentors:** Sumitra Saksham (@sumitra19jha), Saiabhiteja Chepuri (@saiabhiteja)
 9. **Difficulty:** Hard
 10. **Impact Definition:** Risky/Exploratory
+
+### Semiotics
+
+1. **Description:** There is no guarantee that Talawa users will be functionally literate. We need to find ways to augment text with symbols to improve the UX. 
+2. **Expected Outcomes:** TBD
+3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** N/A
+6. **Project Size:** 350
+7. **Possible Mentors:** TBD
+8. **Difficulty:** Medium
+9.  **Impact Definition:** Risky/Exploratory
+
+### E2E Testing
+
+1. **Description:** We need better integration testing of the various applications
+2. **Expected Outcomes:** Consider ways to implement testing:
+   1. Using packages such as puppeteer, jest or their equivalents
+   2. That comprehensively tests the integration of all three major Talawa apps.
+   3. **References:** 
+      1. https://github.com/PalisadoesFoundation/talawa-admin/pull/580
+3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** N/A
+6. **Project Size:** 350
+7. **Possible Mentors:** TBD
+8. **Difficulty:** Medium
+9.  **Impact Definition:** Risky/Exploratory
 
 ### API and Mobile App: E2E encryption and security improvement in Talawa and Talawa-API.
 
