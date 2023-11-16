@@ -1,5 +1,5 @@
 ---
-id: gsoc-ideas
+id: gsoc-ideas-old
 title: GSoC Ideas
 ---
 
