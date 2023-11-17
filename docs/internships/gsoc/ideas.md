@@ -162,12 +162,15 @@ Please read the `Research` section of this document for background information
 
 1. **Description:** The Talawa apps are closely coupled with cloud services which creates operational concerns. This greatly complicates setup as each new service requires new configuration parameters. It also adds greater troubleshooting and billing complexity for organizations that will not be tech-savvy.
 2. **Expected Outcomes:** 
-   1. _Chat_ : A key component of the Talawa application suite is chat. Though some endpoints have been created, the feature has not been fully activated and deployed.
-      1. Chat must be:
-      2. Hosted on the API server. We expect the typical Talawa deployment to be small and hosted by communities with limited funding that may not be able to afford cloud additional services.
-      3. Available as 1 to 1 and 1 to many group chat options
-      4. Automatically available to registered attendees of events as a dedicated group chat instance.
-      5. Encrypted whenever and wherever possible
+   1. _Chat_ : A key component of the Talawa application suite is chat. Though some endpoints have been created, the feature has not been fully activated and deployed. Chat must be:
+      1. Hosted on the API server. We expect the typical Talawa deployment to be small and hosted by communities with limited funding that may not be able to afford cloud additional services.
+      2. Available as 1 to 1 and 1 to many group chat options
+      3. Automatically available to registered attendees of events as a dedicated group chat instance.
+      4. Encrypted whenever and wherever possible
+      5. Capable of allowing users to reply to any historical comment.
+      6. Allow administrators to respond in various ways to complaints about chats.
+      7. Have the ability for older chats to be purged from the system
+      8. Assume that most communities using the chat system will be small. Research typical community sizes, seating and event attendance for various community based organizations in designing your solution. Consider easy to implement scalability if required.
    2. _Notifications_
       1. Identify an acceptable way to have notifications handled on the local server
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
