@@ -174,7 +174,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [getImageFromGallery](../view_model_after_auth_view_models_profile_view_models_edit_profile_view_model/EditProfilePageViewModel/getImageFromGallery.md)({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) camera = false}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void>
+##### [getImageFromGallery](../view_model_after_auth_view_models_profile_view_models_edit_profile_view_model/EditProfilePageViewModel/getImageFromGallery.md)(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) camera = false}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void>
 
 
 

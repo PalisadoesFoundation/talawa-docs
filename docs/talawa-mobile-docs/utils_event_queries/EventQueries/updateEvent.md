@@ -11,7 +11,7 @@
 
 
 [String](https://api.flutter.dev/flutter/dart-core/String-class.html) updateEvent
-({dynamic eventId})
+(\{dynamic eventId})
 
 
 

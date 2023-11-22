@@ -6,7 +6,7 @@
 
 ## Hierarchy
 
-- `GraphQLScalarTypeConfig`<[`ResolversTypes`](../modules/types_generatedGraphQLTypes.md#resolverstypes)[``"Latitude"``], `any`\>
+- `GraphQLScalarTypeConfig`\<[`ResolversTypes`](../modules/types_generatedGraphQLTypes.md#resolverstypes)[``"Latitude"``], `any`\>
 
   ↳ **`LatitudeScalarConfig`**
 
@@ -28,7 +28,7 @@
 
 ### astNode
 
-• `Optional` **astNode**: `Maybe`<`ScalarTypeDefinitionNode`\>
+• `Optional` **astNode**: `Maybe`\<`ScalarTypeDefinitionNode`\>
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ ___
 
 ### description
 
-• `Optional` **description**: `Maybe`<`string`\>
+• `Optional` **description**: `Maybe`\<`string`\>
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ ___
 
 ### extensionASTNodes
 
-• `Optional` **extensionASTNodes**: `Maybe`<readonly `ScalarTypeExtensionNode`[]\>
+• `Optional` **extensionASTNodes**: `Maybe`\<readonly `ScalarTypeExtensionNode`[]\>
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ ___
 
 ### extensions
 
-• `Optional` **extensions**: `Maybe`<`Readonly`<`GraphQLScalarTypeExtensions`\>\>
+• `Optional` **extensions**: `Maybe`\<`Readonly`\<`GraphQLScalarTypeExtensions`\>\>
 
 #### Inherited from
 
@@ -98,7 +98,7 @@ ___
 
 ### parseLiteral
 
-• `Optional` **parseLiteral**: `GraphQLScalarLiteralParser`<`any`\>
+• `Optional` **parseLiteral**: `GraphQLScalarLiteralParser`\<`any`\>
 
 #### Inherited from
 
@@ -112,7 +112,7 @@ ___
 
 ### parseValue
 
-• `Optional` **parseValue**: `GraphQLScalarValueParser`<`any`\>
+• `Optional` **parseValue**: `GraphQLScalarValueParser`\<`any`\>
 
 #### Inherited from
 
@@ -126,7 +126,7 @@ ___
 
 ### serialize
 
-• `Optional` **serialize**: `GraphQLScalarSerializer`<`any`\>
+• `Optional` **serialize**: `GraphQLScalarSerializer`\<`any`\>
 
 #### Inherited from
 
@@ -140,7 +140,7 @@ ___
 
 ### specifiedByUrl
 
-• `Optional` **specifiedByUrl**: `Maybe`<`string`\>
+• `Optional` **specifiedByUrl**: `Maybe`\<`string`\>
 
 #### Inherited from
 

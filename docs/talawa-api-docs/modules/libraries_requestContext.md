@@ -52,7 +52,7 @@ ___
 
 ### init
 
-▸ **init**<`T`\>(`options?`): `Promise`<`T`\>
+▸ **init**\<`T`\>(`options?`): `Promise`\<`T`\>
 
 #### Type parameters
 
@@ -64,11 +64,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | `Interface_InitOptions`<`T`\> |
+| `options` | `Interface_InitOptions`\<`T`\> |
 
 #### Returns
 
-`Promise`<`T`\>
+`Promise`\<`T`\>
 
 #### Defined in
 
@@ -78,7 +78,7 @@ ___
 
 ### middleware
 
-▸ **middleware**(): (`req`: `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\>, `res`: `Response`<`any`, `Record`<`string`, `any`\>\>, `next`: `NextFunction`) => `void`
+▸ **middleware**(): (`req`: `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>, `res`: `Response`\<`any`, `Record`\<`string`, `any`\>\>, `next`: `NextFunction`) => `void`
 
 #### Returns
 
@@ -90,8 +90,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `req` | `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\> |
-| `res` | `Response`<`any`, `Record`<`string`, `any`\>\> |
+| `req` | `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\> |
+| `res` | `Response`\<`any`, `Record`\<`string`, `any`\>\> |
 | `next` | `NextFunction` |
 
 ##### Returns
@@ -126,7 +126,7 @@ ___
 
 ### setRequestContextValue
 
-▸ **setRequestContextValue**<`T`\>(`key`, `value`): `T`
+▸ **setRequestContextValue**\<`T`\>(`key`, `value`): `T`
 
 #### Type parameters
 

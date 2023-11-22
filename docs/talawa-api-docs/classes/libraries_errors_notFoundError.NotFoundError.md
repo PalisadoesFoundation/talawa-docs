@@ -45,7 +45,7 @@ This class detects Not Found errors and sends those errors to the superclass App
 | `message` | `string` | `"Not Found"` |
 | `code` | ``null`` \| `string` | `null` |
 | `param` | ``null`` \| `string` | `null` |
-| `metadata` | `Record`<`any`, `any`\> | `{}` |
+| `metadata` | `Record`\<`any`, `any`\> | `\{}` |
 
 #### Overrides
 

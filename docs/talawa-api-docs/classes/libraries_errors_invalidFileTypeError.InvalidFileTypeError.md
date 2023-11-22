@@ -45,7 +45,7 @@ This class detects invalid file type errors and sends those errors to the superc
 | `message` | `string` | `"Invalid File Type"` |
 | `code` | ``null`` \| `string` | `null` |
 | `param` | ``null`` \| `string` | `null` |
-| `metadata` | `Record`<`any`, `any`\> | `{}` |
+| `metadata` | `Record`\<`any`, `any`\> | `\{}` |
 
 #### Overrides
 

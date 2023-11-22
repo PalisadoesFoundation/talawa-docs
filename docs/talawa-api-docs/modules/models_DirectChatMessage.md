@@ -16,7 +16,7 @@
 
 ### DirectChatMessage
 
-• `Const` **DirectChatMessage**: `Model`<[`Interface_DirectChatMessage`](../interfaces/models_DirectChatMessage.Interface_DirectChatMessage.md), {}, {}\>
+• `Const` **DirectChatMessage**: `Model`\<[`Interface_DirectChatMessage`](../interfaces/models_DirectChatMessage.Interface_DirectChatMessage.md), \{}, \{}\>
 
 #### Defined in
 

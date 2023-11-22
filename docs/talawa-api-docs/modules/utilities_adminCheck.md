@@ -12,7 +12,7 @@
 
 ### adminCheck
 
-▸ **adminCheck**(`userId`, `organization`): `Promise`<`void`\>
+▸ **adminCheck**(`userId`, `organization`): `Promise`\<`void`\>
 
 If the current user is an admin of the organisation, this function returns `true` otherwise it returns `false`.
 
@@ -29,7 +29,7 @@ This is a utility method.
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 `True` or `False`.
 

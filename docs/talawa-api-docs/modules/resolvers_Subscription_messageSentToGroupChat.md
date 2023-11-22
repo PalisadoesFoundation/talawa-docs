@@ -35,7 +35,7 @@ src/resolvers/Subscription/messageSentToGroupChat.ts:31
 
 ### filterFunction
 
-▸ **filterFunction**(`payload`, `context`): `Promise`<`boolean`\>
+▸ **filterFunction**(`payload`, `context`): `Promise`\<`boolean`\>
 
 #### Parameters
 
@@ -46,7 +46,7 @@ src/resolvers/Subscription/messageSentToGroupChat.ts:31
 
 #### Returns
 
-`Promise`<`boolean`\>
+`Promise`\<`boolean`\>
 
 #### Defined in
 

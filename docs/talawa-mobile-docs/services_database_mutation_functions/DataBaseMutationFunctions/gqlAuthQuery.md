@@ -11,7 +11,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html) gqlAuthQuery
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) query, {[Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic>? variables})
+([String](https://api.flutter.dev/flutter/dart-core/String-class.html) query, \{[Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic>? variables})
 
 
 

@@ -11,7 +11,7 @@
 
 
 void removeUserFromList
-({required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) userId})
+(\{required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) userId})
 
 
 

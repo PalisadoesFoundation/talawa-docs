@@ -12,7 +12,7 @@
 
 ### deletePreviousImage
 
-▸ **deletePreviousImage**(`imageToBeDeletedPath`): `Promise`<`void`\>
+▸ **deletePreviousImage**(`imageToBeDeletedPath`): `Promise`\<`void`\>
 
 #### Parameters
 
@@ -22,7 +22,7 @@
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 

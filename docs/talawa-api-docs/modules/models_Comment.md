@@ -16,7 +16,7 @@
 
 ### Comment
 
-• `Const` **Comment**: `Model`<[`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md), {}, {}\>
+• `Const` **Comment**: `Model`\<[`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md), \{}, \{}\>
 
 #### Defined in
 

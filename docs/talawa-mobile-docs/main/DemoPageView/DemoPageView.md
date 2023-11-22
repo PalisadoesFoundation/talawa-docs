@@ -9,7 +9,7 @@
 
 
 const
-DemoPageView({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
+DemoPageView(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
 
 
 

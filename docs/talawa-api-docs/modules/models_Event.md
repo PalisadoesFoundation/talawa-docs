@@ -17,7 +17,7 @@
 
 ### Event
 
-• `Const` **Event**: `Model`<[`Interface_Event`](../interfaces/models_Event.Interface_Event.md), {}, {}\>
+• `Const` **Event**: `Model`\<[`Interface_Event`](../interfaces/models_Event.Interface_Event.md), \{}, \{}\>
 
 #### Defined in
 

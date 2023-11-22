@@ -29,7 +29,7 @@
 
 ## Constructors
 
-[AppLocalizationsDelegate](../utils_app_localization/AppLocalizationsDelegate/AppLocalizationsDelegate.md) ({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false})
+[AppLocalizationsDelegate](../utils_app_localization/AppLocalizationsDelegate/AppLocalizationsDelegate.md) (\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false})
 
   _const_ 
 

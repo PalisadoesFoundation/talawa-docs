@@ -12,7 +12,7 @@
 
 ### updateEventProject
 
-▸ **updateEventProject**(`_parent`, `args`, `context`): `Promise`<``null`` \| [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
+▸ **updateEventProject**(`_parent`, `args`, `context`): `Promise`\<``null`` \| [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
 
 This function enables to update an event project.
 
@@ -32,7 +32,7 @@ The following checks are done:
 
 #### Returns
 
-`Promise`<``null`` \| [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
+`Promise`\<``null`` \| [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
 
 Updated event project.
 

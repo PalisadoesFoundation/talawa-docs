@@ -1,6 +1,6 @@
 [talawa-api](../README.md) / [Exports](../modules.md) / [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md) / SubscriptionSubscriberObject
 
-# Interface: SubscriptionSubscriberObject<TResult, TKey, TParent, TContext, TArgs\>
+# Interface: SubscriptionSubscriberObject\<TResult, TKey, TParent, TContext, TArgs\>
 
 [types/generatedGraphQLTypes](../modules/types_generatedGraphQLTypes.md).SubscriptionSubscriberObject
 
@@ -25,7 +25,7 @@
 
 ### resolve
 
-• `Optional` **resolve**: [`SubscriptionResolveFn`](../modules/types_generatedGraphQLTypes.md#subscriptionresolvefn)<`TResult`, { [key in string]: TResult }, `TContext`, `TArgs`\>
+• `Optional` **resolve**: [`SubscriptionResolveFn`](../modules/types_generatedGraphQLTypes.md#subscriptionresolvefn)\<`TResult`, \{ [key in string]: TResult }, `TContext`, `TArgs`\>
 
 #### Defined in
 
@@ -35,7 +35,7 @@ ___
 
 ### subscribe
 
-• **subscribe**: [`SubscriptionSubscribeFn`](../modules/types_generatedGraphQLTypes.md#subscriptionsubscribefn)<{ [key in string]: TResult }, `TParent`, `TContext`, `TArgs`\>
+• **subscribe**: [`SubscriptionSubscribeFn`](../modules/types_generatedGraphQLTypes.md#subscriptionsubscribefn)\<\{ [key in string]: TResult }, `TParent`, `TContext`, `TArgs`\>
 
 #### Defined in
 

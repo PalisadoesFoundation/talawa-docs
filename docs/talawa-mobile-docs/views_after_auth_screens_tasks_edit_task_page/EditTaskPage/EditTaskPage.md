@@ -9,7 +9,7 @@
 
 
 const
-EditTaskPage({required [Task](../../models_task_task_model/Task-class.md) task, [Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+EditTaskPage(\{required [Task](../../models_task_task_model/Task-class.md) task, [Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

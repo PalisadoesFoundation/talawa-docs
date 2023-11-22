@@ -16,7 +16,7 @@
 
 ### Post
 
-• `Const` **Post**: `PaginateModel`<[`Interface_Post`](../interfaces/models_Post.Interface_Post.md), {}, {}\>
+• `Const` **Post**: `PaginateModel`\<[`Interface_Post`](../interfaces/models_Post.Interface_Post.md), \{}, \{}\>
 
 #### Defined in
 

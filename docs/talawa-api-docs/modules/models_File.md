@@ -16,7 +16,7 @@
 
 ### File
 
-• `Const` **File**: `Model`<[`Interface_File`](../interfaces/models_File.Interface_File.md), {}, {}\>
+• `Const` **File**: `Model`\<[`Interface_File`](../interfaces/models_File.Interface_File.md), \{}, \{}\>
 
 #### Defined in
 

@@ -16,7 +16,7 @@
 
 ### MembershipRequest
 
-• `Const` **MembershipRequest**: `Model`<[`Interface_MembershipRequest`](../interfaces/models_MembershipRequest.Interface_MembershipRequest.md), {}, {}\>
+• `Const` **MembershipRequest**: `Model`\<[`Interface_MembershipRequest`](../interfaces/models_MembershipRequest.Interface_MembershipRequest.md), \{}, \{}\>
 
 #### Defined in
 

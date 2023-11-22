@@ -11,7 +11,7 @@
 
 
 void showSnackBar
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) message, {[Duration](https://api.flutter.dev/flutter/dart-core/Duration-class.html) duration = const Duration(seconds: 2)})
+([String](https://api.flutter.dev/flutter/dart-core/String-class.html) message, \{[Duration](https://api.flutter.dev/flutter/dart-core/Duration-class.html) duration = const Duration(seconds: 2)})
 
 
 

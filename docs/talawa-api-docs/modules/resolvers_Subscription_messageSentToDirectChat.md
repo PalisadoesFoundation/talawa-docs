@@ -35,7 +35,7 @@ src/resolvers/Subscription/messageSentToDirectChat.ts:24
 
 ### filterFunction
 
-▸ **filterFunction**(`payload`, `context`): `Promise`<`boolean`\>
+▸ **filterFunction**(`payload`, `context`): `Promise`\<`boolean`\>
 
 #### Parameters
 
@@ -46,7 +46,7 @@ src/resolvers/Subscription/messageSentToDirectChat.ts:24
 
 #### Returns
 
-`Promise`<`boolean`\>
+`Promise`\<`boolean`\>
 
 #### Defined in
 

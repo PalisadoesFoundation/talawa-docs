@@ -16,7 +16,7 @@
 
 ### Task
 
-• `Const` **Task**: `Model`<[`Interface_Task`](../interfaces/models_Task.Interface_Task.md), {}, {}\>
+• `Const` **Task**: `Model`\<[`Interface_Task`](../interfaces/models_Task.Interface_Task.md), \{}, \{}\>
 
 #### Defined in
 

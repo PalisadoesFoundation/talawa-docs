@@ -16,7 +16,7 @@
 
 ### MessageChat
 
-• `Const` **MessageChat**: `Model`<[`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md), {}, {}\>
+• `Const` **MessageChat**: `Model`\<[`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md), \{}, \{}\>
 
 #### Defined in
 

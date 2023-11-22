@@ -13,11 +13,11 @@
 
 ### connect
 
-▸ **connect**(): `Promise`<`void`\>
+▸ **connect**(): `Promise`\<`void`\>
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 
@@ -27,11 +27,11 @@ ___
 
 ### disconnect
 
-▸ **disconnect**(): `Promise`<`void`\>
+▸ **disconnect**(): `Promise`\<`void`\>
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 

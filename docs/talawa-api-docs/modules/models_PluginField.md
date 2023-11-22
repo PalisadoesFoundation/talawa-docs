@@ -16,7 +16,7 @@
 
 ### PluginField
 
-• `Const` **PluginField**: `Model`<[`Interface_PluginField`](../interfaces/models_PluginField.Interface_PluginField.md), {}, {}\>
+• `Const` **PluginField**: `Model`\<[`Interface_PluginField`](../interfaces/models_PluginField.Interface_PluginField.md), \{}, \{}\>
 
 #### Defined in
 

@@ -9,7 +9,7 @@
 
 
 
-User.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> json1, {[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) fromOrg = false})
+User.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> json1, \{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) fromOrg = false})
 
 
 

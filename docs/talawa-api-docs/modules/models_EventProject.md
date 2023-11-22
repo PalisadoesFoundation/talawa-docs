@@ -16,7 +16,7 @@
 
 ### EventProject
 
-• `Const` **EventProject**: `Model`<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md), {}, {}\>
+• `Const` **EventProject**: `Model`\<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md), \{}, \{}\>
 
 #### Defined in
 

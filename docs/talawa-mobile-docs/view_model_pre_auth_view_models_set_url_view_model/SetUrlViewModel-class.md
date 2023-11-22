@@ -208,7 +208,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [initialise](../view_model_pre_auth_view_models_set_url_view_model/SetUrlViewModel/initialise.md)({[String](https://api.flutter.dev/flutter/dart-core/String-class.html) inviteUrl = ''}) void
+##### [initialise](../view_model_pre_auth_view_models_set_url_view_model/SetUrlViewModel/initialise.md)(\{[String](https://api.flutter.dev/flutter/dart-core/String-class.html) inviteUrl = ''}) void
 
 
 

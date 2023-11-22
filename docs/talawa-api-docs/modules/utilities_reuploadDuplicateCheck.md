@@ -26,7 +26,7 @@ src/utilities/reuploadDuplicateCheck.ts:15
 
 ### reuploadDuplicateCheck
 
-▸ **reuploadDuplicateCheck**(`oldImagePath`, `newImagePath`): `Promise`<`boolean`\>
+▸ **reuploadDuplicateCheck**(`oldImagePath`, `newImagePath`): `Promise`\<`boolean`\>
 
 This function determines whether a user or an organisation is
 attempting to re-upload the same profile photo or organisation image.
@@ -44,7 +44,7 @@ This is a utility method.
 
 #### Returns
 
-`Promise`<`boolean`\>
+`Promise`\<`boolean`\>
 
 If the identical image is trying to reuploaded, `true`; otherwise, `false`.
 

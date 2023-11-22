@@ -9,7 +9,7 @@
 
 
 const
-CreateEventPage({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+CreateEventPage(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

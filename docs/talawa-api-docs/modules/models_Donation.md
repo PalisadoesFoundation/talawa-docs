@@ -16,7 +16,7 @@
 
 ### Donation
 
-• `Const` **Donation**: `Model`<[`Interface_Donation`](../interfaces/models_Donation.Interface_Donation.md), {}, {}\>
+• `Const` **Donation**: `Model`\<[`Interface_Donation`](../interfaces/models_Donation.Interface_Donation.md), \{}, \{}\>
 
 #### Defined in
 

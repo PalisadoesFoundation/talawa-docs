@@ -12,7 +12,7 @@
 
 ### uploadEncodedImage
 
-▸ **uploadEncodedImage**(`encodedImageURL`, `previousImagePath?`): `Promise`<`string`\>
+▸ **uploadEncodedImage**(`encodedImageURL`, `previousImagePath?`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -23,7 +23,7 @@
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 

@@ -32,7 +32,7 @@
 
 ## Constructors
 
-[TalawaPluginProvider](../plugins_talawa_plugin_provider/TalawaPluginProvider/TalawaPluginProvider.md) ({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key, @[required](https://pub.dev/documentation/meta/1.8.0/meta/required-constant.html) [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)? child, required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) visible, required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) pluginName})
+[TalawaPluginProvider](../plugins_talawa_plugin_provider/TalawaPluginProvider/TalawaPluginProvider.md) (\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key, @[required](https://pub.dev/documentation/meta/1.8.0/meta/required-constant.html) [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)? child, required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) visible, required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) pluginName})
 
   _const_ 
 
@@ -152,7 +152,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [toDiagnosticsNode](https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html)({[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? name, [DiagnosticsTreeStyle](https://api.flutter.dev/flutter/foundation/DiagnosticsTreeStyle.html)? style}) [DiagnosticsNode](https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html)
+##### [toDiagnosticsNode](https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toDiagnosticsNode.html)(\{[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? name, [DiagnosticsTreeStyle](https://api.flutter.dev/flutter/foundation/DiagnosticsTreeStyle.html)? style}) [DiagnosticsNode](https://api.flutter.dev/flutter/foundation/DiagnosticsNode-class.html)
 
 
 
@@ -162,7 +162,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [toString](https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html)({[DiagnosticLevel](https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html) minLevel = DiagnosticLevel.info}) [String](https://api.flutter.dev/flutter/dart-core/String-class.html)
+##### [toString](https://api.flutter.dev/flutter/foundation/Diagnosticable/toString.html)(\{[DiagnosticLevel](https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html) minLevel = DiagnosticLevel.info}) [String](https://api.flutter.dev/flutter/dart-core/String-class.html)
 
 
 
@@ -171,7 +171,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [toStringDeep](https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html)({[String](https://api.flutter.dev/flutter/dart-core/String-class.html) prefixLineOne = '', [String](https://api.flutter.dev/flutter/dart-core/String-class.html)? prefixOtherLines, [DiagnosticLevel](https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html) minLevel = DiagnosticLevel.debug}) [String](https://api.flutter.dev/flutter/dart-core/String-class.html)
+##### [toStringDeep](https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringDeep.html)(\{[String](https://api.flutter.dev/flutter/dart-core/String-class.html) prefixLineOne = '', [String](https://api.flutter.dev/flutter/dart-core/String-class.html)? prefixOtherLines, [DiagnosticLevel](https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html) minLevel = DiagnosticLevel.debug}) [String](https://api.flutter.dev/flutter/dart-core/String-class.html)
 
 
 
@@ -180,7 +180,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [toStringShallow](https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html)({[String](https://api.flutter.dev/flutter/dart-core/String-class.html) joiner = ', ', [DiagnosticLevel](https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html) minLevel = DiagnosticLevel.debug}) [String](https://api.flutter.dev/flutter/dart-core/String-class.html)
+##### [toStringShallow](https://api.flutter.dev/flutter/foundation/DiagnosticableTree/toStringShallow.html)(\{[String](https://api.flutter.dev/flutter/dart-core/String-class.html) joiner = ', ', [DiagnosticLevel](https://api.flutter.dev/flutter/foundation/DiagnosticLevel.html) minLevel = DiagnosticLevel.debug}) [String](https://api.flutter.dev/flutter/dart-core/String-class.html)
 
 
 

@@ -12,7 +12,7 @@
 
 ### graphqlConnectionFactory
 
-▸ **graphqlConnectionFactory**<`T`\>(): `Interface_Connection`<`T`\>
+▸ **graphqlConnectionFactory**\<`T`\>(): `Interface_Connection`\<`T`\>
 
 #### Type parameters
 
@@ -22,7 +22,7 @@
 
 #### Returns
 
-`Interface_Connection`<`T`\>
+`Interface_Connection`\<`T`\>
 
 #### Defined in
 

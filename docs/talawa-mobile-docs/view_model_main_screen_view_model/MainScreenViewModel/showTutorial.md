@@ -11,7 +11,7 @@
 
 
 void showTutorial
-({required dynamic onClickTarget([TargetFocus](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/TargetFocus-class.html)), required dynamic onFinish()})
+(\{required dynamic onClickTarget([TargetFocus](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/TargetFocus-class.html)), required dynamic onFinish()})
 
 
 

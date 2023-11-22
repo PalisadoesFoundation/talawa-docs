@@ -16,7 +16,7 @@
 
 ### mailer
 
-▸ **mailer**(`mailFields`): `Promise`<`unknown`\>
+▸ **mailer**(`mailFields`): `Promise`\<`unknown`\>
 
 This function sends emails to the specified user using the node mailer module.
 
@@ -32,7 +32,7 @@ This is a utility method.
 
 #### Returns
 
-`Promise`<`unknown`\>
+`Promise`\<`unknown`\>
 
 Promise along with resolve and reject methods.
 

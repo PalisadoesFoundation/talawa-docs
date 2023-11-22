@@ -45,7 +45,7 @@ This class detects input validation errors and sends those errors to the supercl
 | `message` | `string` | `"InputValidationError"` |
 | `code` | ``null`` \| `string` | `null` |
 | `param` | ``null`` \| `string` | `null` |
-| `metadata` | `Record`<`any`, `any`\> | `{}` |
+| `metadata` | `Record`\<`any`, `any`\> | `\{}` |
 
 #### Overrides
 

@@ -17,7 +17,7 @@
 
 ### createAccessToken
 
-▸ **createAccessToken**(`user`): `Promise`<`string`\>
+▸ **createAccessToken**(`user`): `Promise`\<`string`\>
 
 This function creates a json web token which expires in 15 minutes.
 It signs the given payload(user data) into a JSON Web Token string payload.
@@ -30,7 +30,7 @@ It signs the given payload(user data) into a JSON Web Token string payload.
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 JSON Web Token string payload
 
@@ -42,7 +42,7 @@ ___
 
 ### createRefreshToken
 
-▸ **createRefreshToken**(`user`): `Promise`<`string`\>
+▸ **createRefreshToken**(`user`): `Promise`\<`string`\>
 
 #### Parameters
 
@@ -52,7 +52,7 @@ ___
 
 #### Returns
 
-`Promise`<`string`\>
+`Promise`\<`string`\>
 
 #### Defined in
 

@@ -307,7 +307,7 @@ ___
 
 ### AggregatePostResolvers
 
-Ƭ **AggregatePostResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **AggregatePostResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -320,8 +320,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `count?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `count?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -348,7 +348,7 @@ ___
 
 ### AggregateUserResolvers
 
-Ƭ **AggregateUserResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **AggregateUserResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -361,8 +361,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `count?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `count?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -379,11 +379,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"AndroidFirebaseOptions"`` |
-| `apiKey?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `messagingSenderId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `projectId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `storageBucket?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `apiKey?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `appId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `messagingSenderId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `projectId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `storageBucket?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -393,7 +393,7 @@ ___
 
 ### AndroidFirebaseOptionsResolvers
 
-Ƭ **AndroidFirebaseOptionsResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **AndroidFirebaseOptionsResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -406,12 +406,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `apiKey?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `appId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `messagingSenderId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `projectId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `storageBucket?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `apiKey?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `appId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `messagingSenderId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `projectId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `storageBucket?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -442,7 +442,7 @@ ___
 
 ### AuthDataResolvers
 
-Ƭ **AuthDataResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **AuthDataResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -455,12 +455,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `accessToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `androidFirebaseOptions?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AndroidFirebaseOptions"``], `ParentType`, `ContextType`\> |
-| `iosFirebaseOptions?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"IOSFirebaseOptions"``], `ParentType`, `ContextType`\> |
-| `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `accessToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `androidFirebaseOptions?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AndroidFirebaseOptions"``], `ParentType`, `ContextType`\> |
+| `iosFirebaseOptions?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"IOSFirebaseOptions"``], `ParentType`, `ContextType`\> |
+| `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -480,7 +480,7 @@ ___
 
 ### AuthDirectiveResolver
 
-Ƭ **AuthDirectiveResolver**<`Result`, `Parent`, `ContextType`, `Args`\>: [`DirectiveResolverFn`](types_generatedGraphQLTypes.md#directiveresolverfn)<`Result`, `Parent`, `ContextType`, `Args`\>
+Ƭ **AuthDirectiveResolver**\<`Result`, `Parent`, `ContextType`, `Args`\>: [`DirectiveResolverFn`](types_generatedGraphQLTypes.md#directiveresolverfn)\<`Result`, `Parent`, `ContextType`, `Args`\>
 
 #### Type parameters
 
@@ -506,11 +506,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Comment"`` |
-| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `likedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `likedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `post` | [`Post`](types_generatedGraphQLTypes.md#post) |
 | `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 
@@ -538,7 +538,7 @@ ___
 
 ### CommentResolvers
 
-Ƭ **CommentResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **CommentResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -551,14 +551,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `likeCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
-| `likedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `post?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`\> |
-| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `likeCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `likedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `post?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`\> |
+| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -575,10 +575,10 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"ConnectionPageInfo"`` |
-| `endCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `endCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `startCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `startCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -588,7 +588,7 @@ ___
 
 ### ConnectionPageInfoResolvers
 
-Ƭ **ConnectionPageInfoResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **ConnectionPageInfoResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -601,11 +601,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `endCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `hasNextPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `hasPreviousPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `startCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `endCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `hasNextPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `hasPreviousPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `startCursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -658,7 +658,7 @@ ___
 | :------ | :------ |
 | `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `parentTagId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `parentTagId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
 
 #### Defined in
 
@@ -685,7 +685,7 @@ ___
 
 ### DeletePayloadResolvers
 
-Ƭ **DeletePayloadResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **DeletePayloadResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -698,8 +698,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `success?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `success?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -718,7 +718,7 @@ ___
 | `__typename?` | ``"DirectChat"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `messages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
+| `messages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `users` | [`User`](types_generatedGraphQLTypes.md#user)[] |
 
@@ -752,7 +752,7 @@ ___
 
 ### DirectChatMessageResolvers
 
-Ƭ **DirectChatMessageResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **DirectChatMessageResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -765,13 +765,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
-| `directChatMessageBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`\> |
-| `messageContent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `receiver?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `directChatMessageBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`\> |
+| `messageContent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `receiver?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -781,7 +781,7 @@ ___
 
 ### DirectChatResolvers
 
-Ƭ **DirectChatResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **DirectChatResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -794,12 +794,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `messages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
-| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `messages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -809,26 +809,26 @@ ___
 
 ### DirectiveResolverFn
 
-Ƭ **DirectiveResolverFn**<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`next`: [`NextResolverFn`](types_generatedGraphQLTypes.md#nextresolverfn)<`TResult`\>, `parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `TResult` \| `Promise`<`TResult`\>
+Ƭ **DirectiveResolverFn**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`next`: [`NextResolverFn`](types_generatedGraphQLTypes.md#nextresolverfn)\<`TResult`\>, `parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `TResult` \| `Promise`\<`TResult`\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `TResult` | {} |
-| `TParent` | {} |
-| `TContext` | {} |
-| `TArgs` | {} |
+| `TResult` | \{} |
+| `TParent` | \{} |
+| `TContext` | \{} |
+| `TArgs` | \{} |
 
 #### Type declaration
 
-▸ (`next`, `parent`, `args`, `context`, `info?`): `TResult` \| `Promise`<`TResult`\>
+▸ (`next`, `parent`, `args`, `context`, `info?`): `TResult` \| `Promise`\<`TResult`\>
 
 ##### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `next` | [`NextResolverFn`](types_generatedGraphQLTypes.md#nextresolverfn)<`TResult`\> |
+| `next` | [`NextResolverFn`](types_generatedGraphQLTypes.md#nextresolverfn)\<`TResult`\> |
 | `parent` | `TParent` |
 | `args` | `TArgs` |
 | `context` | `TContext` |
@@ -836,7 +836,7 @@ ___
 
 ##### Returns
 
-`TResult` \| `Promise`<`TResult`\>
+`TResult` \| `Promise`\<`TResult`\>
 
 #### Defined in
 
@@ -846,7 +846,7 @@ ___
 
 ### DirectiveResolvers
 
-Ƭ **DirectiveResolvers**<`ContextType`\>: `Object`
+Ƭ **DirectiveResolvers**\<`ContextType`\>: `Object`
 
 #### Type parameters
 
@@ -858,8 +858,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `auth?` | [`AuthDirectiveResolver`](types_generatedGraphQLTypes.md#authdirectiveresolver)<`any`, `any`, `ContextType`\> |
-| `role?` | [`RoleDirectiveResolver`](types_generatedGraphQLTypes.md#roledirectiveresolver)<`any`, `any`, `ContextType`\> |
+| `auth?` | [`AuthDirectiveResolver`](types_generatedGraphQLTypes.md#authdirectiveresolver)\<`any`, `any`, `ContextType`\> |
+| `role?` | [`RoleDirectiveResolver`](types_generatedGraphQLTypes.md#roledirectiveresolver)\<`any`, `any`, `ContextType`\> |
 
 #### Defined in
 
@@ -892,7 +892,7 @@ ___
 
 ### DonationResolvers
 
-Ƭ **DonationResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **DonationResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -905,14 +905,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `amount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Float"``], `ParentType`, `ContextType`\> |
-| `nameOfOrg?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `nameOfUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `orgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `payPalId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `amount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Float"``], `ParentType`, `ContextType`\> |
+| `nameOfOrg?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `nameOfUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `orgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `payPalId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -928,18 +928,18 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `name_of_user?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_of_user_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_of_user_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_of_user_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_of_user_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_of_user_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `name_of_user?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name_of_user_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name_of_user_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `name_of_user_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name_of_user_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `name_of_user_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -957,25 +957,25 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"Event"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `allDay` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `endTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `endTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
 | `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `isRegisterable` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `latitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
-| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `longitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
-| `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
-| `recurrance?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
+| `latitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
+| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `longitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
+| `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
+| `recurrance?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
 | `recurring` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `registrants?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserAttende`](types_generatedGraphQLTypes.md#userattende)\>[]\> |
+| `registrants?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserAttende`](types_generatedGraphQLTypes.md#userattende)\>[]\> |
 | `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `startTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `startTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
 | `status` | [`Status`](types_generatedGraphQLTypes.md#status) |
-| `tasks?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
+| `tasks?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
 | `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 
 #### Defined in
@@ -992,7 +992,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
 
 #### Defined in
 
@@ -1010,18 +1010,18 @@ ___
 | :------ | :------ |
 | `allDay` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
+| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
 | `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `isRegisterable` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
+| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
 | `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `recurrance?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
+| `recurrance?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
 | `recurring` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
 | `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 
 #### Defined in
@@ -1060,7 +1060,7 @@ ___
 
 ### EventRegistrantsResolvers
 
-Ƭ **EventRegistrantsResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **EventRegistrantsResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1073,9 +1073,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
-| `isRegistered?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
+| `isRegistered?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1085,7 +1085,7 @@ ___
 
 ### EventResolvers
 
-Ƭ **EventResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **EventResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1098,28 +1098,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`EventAdminsArgs`](types_generatedGraphQLTypes.md#eventadminsargs)\>\> |
-| `allDay?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
-| `endTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
-| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `isRegisterable?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `latitude?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Latitude"``]\>, `ParentType`, `ContextType`\> |
-| `location?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `longitude?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Longitude"``]\>, `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
-| `recurrance?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Recurrance"``]\>, `ParentType`, `ContextType`\> |
-| `recurring?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `registrants?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserAttende"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `startDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
-| `startTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
-| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
-| `tasks?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`EventAdminsArgs`](types_generatedGraphQLTypes.md#eventadminsargs)\>\> |
+| `allDay?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `endTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
+| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `isRegisterable?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `latitude?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Latitude"``]\>, `ParentType`, `ContextType`\> |
+| `location?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `longitude?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Longitude"``]\>, `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
+| `recurrance?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Recurrance"``]\>, `ParentType`, `ContextType`\> |
+| `recurring?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `registrants?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserAttende"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `startDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `startTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
+| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
+| `tasks?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1135,31 +1135,31 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `location_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `location_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `location_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `location_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `location_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `organization_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `location_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `location_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `location_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `location_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `location_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `organization_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -1169,7 +1169,7 @@ ___
 
 ### Exact
 
-Ƭ **Exact**<`T`\>: { [K in keyof T]: T[K] }
+Ƭ **Exact**\<`T`\>: \{ [K in keyof T]: T[K] }
 
 #### Type parameters
 
@@ -1203,7 +1203,7 @@ ___
 
 ### ExtendSessionResolvers
 
-Ƭ **ExtendSessionResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **ExtendSessionResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1216,9 +1216,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `accessToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `accessToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1253,12 +1253,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Group"`` |
-| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
-| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -1277,7 +1277,7 @@ ___
 | `__typename?` | ``"GroupChat"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `messages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\>[]\> |
+| `messages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\>[]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `users` | [`User`](types_generatedGraphQLTypes.md#user)[] |
 
@@ -1310,7 +1310,7 @@ ___
 
 ### GroupChatMessageResolvers
 
-Ƭ **GroupChatMessageResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **GroupChatMessageResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1323,12 +1323,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
-| `groupChatMessageBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`\> |
-| `messageContent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `groupChatMessageBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`\> |
+| `messageContent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1338,7 +1338,7 @@ ___
 
 ### GroupChatResolvers
 
-Ƭ **GroupChatResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **GroupChatResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1351,12 +1351,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `messages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
-| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `messages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1372,9 +1372,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -1384,7 +1384,7 @@ ___
 
 ### GroupResolvers
 
-Ƭ **GroupResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **GroupResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1397,13 +1397,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
-| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
-| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1413,7 +1413,7 @@ ___
 
 ### InputMaybe
 
-Ƭ **InputMaybe**<`T`\>: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<`T`\>
+Ƭ **InputMaybe**\<`T`\>: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`T`\>
 
 #### Type parameters
 
@@ -1436,13 +1436,13 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"IOSFirebaseOptions"`` |
-| `apiKey?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `iosBundleId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `iosClientId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `messagingSenderId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `projectId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `storageBucket?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `apiKey?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `appId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `iosBundleId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `iosClientId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `messagingSenderId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `projectId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `storageBucket?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -1452,7 +1452,7 @@ ___
 
 ### IosFirebaseOptionsResolvers
 
-Ƭ **IosFirebaseOptionsResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **IosFirebaseOptionsResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1465,14 +1465,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `apiKey?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `appId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `iosBundleId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `iosClientId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `messagingSenderId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `projectId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `storageBucket?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `apiKey?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `appId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `iosBundleId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `iosClientId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `messagingSenderId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `projectId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `storageBucket?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1482,18 +1482,18 @@ ___
 
 ### IsTypeOfResolverFn
 
-Ƭ **IsTypeOfResolverFn**<`T`, `TContext`\>: (`obj`: `T`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `boolean` \| `Promise`<`boolean`\>
+Ƭ **IsTypeOfResolverFn**\<`T`, `TContext`\>: (`obj`: `T`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `boolean` \| `Promise`\<`boolean`\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
-| `T` | {} |
-| `TContext` | {} |
+| `T` | \{} |
+| `TContext` | \{} |
 
 #### Type declaration
 
-▸ (`obj`, `context`, `info?`): `boolean` \| `Promise`<`boolean`\>
+▸ (`obj`, `context`, `info?`): `boolean` \| `Promise`\<`boolean`\>
 
 ##### Parameters
 
@@ -1505,7 +1505,7 @@ ___
 
 ##### Returns
 
-`boolean` \| `Promise`<`boolean`\>
+`boolean` \| `Promise`\<`boolean`\>
 
 #### Defined in
 
@@ -1525,7 +1525,7 @@ ___
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 | `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `en` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel)\>[]\> |
+| `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel)\>[]\> |
 
 #### Defined in
 
@@ -1574,7 +1574,7 @@ ___
 
 ### LanguageModelResolvers
 
-Ƭ **LanguageModelResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **LanguageModelResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1587,12 +1587,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
-| `lang_code?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `verified?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `lang_code?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `verified?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1602,7 +1602,7 @@ ___
 
 ### LanguageResolvers
 
-Ƭ **LanguageResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **LanguageResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1615,11 +1615,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `en?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `translation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"LanguageModel"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `en?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `translation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"LanguageModel"``]\>[]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1646,7 +1646,7 @@ ___
 
 ### MakeMaybe
 
-Ƭ **MakeMaybe**<`T`, `K`\>: [`Omit`](types_generatedGraphQLTypes.md#omit)<`T`, `K`\> & { [SubKey in K]: Maybe<T[SubKey]\> }
+Ƭ **MakeMaybe**\<`T`, `K`\>: [`Omit`](types_generatedGraphQLTypes.md#omit)\<`T`, `K`\> & \{ [SubKey in K]: Maybe\<T[SubKey]\> }
 
 #### Type parameters
 
@@ -1663,7 +1663,7 @@ ___
 
 ### MakeOptional
 
-Ƭ **MakeOptional**<`T`, `K`\>: [`Omit`](types_generatedGraphQLTypes.md#omit)<`T`, `K`\> & { [SubKey in K]?: Maybe<T[SubKey]\> }
+Ƭ **MakeOptional**\<`T`, `K`\>: [`Omit`](types_generatedGraphQLTypes.md#omit)\<`T`, `K`\> & \{ [SubKey in K]?: Maybe\<T[SubKey]\> }
 
 #### Type parameters
 
@@ -1680,7 +1680,7 @@ ___
 
 ### Maybe
 
-Ƭ **Maybe**<`T`\>: `T` \| ``null``
+Ƭ **Maybe**\<`T`\>: `T` \| ``null``
 
 #### Type parameters
 
@@ -1715,7 +1715,7 @@ ___
 
 ### MembershipRequestResolvers
 
-Ƭ **MembershipRequestResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **MembershipRequestResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1728,10 +1728,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
-| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1749,11 +1749,11 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"Message"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\> |
-| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `text?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `text?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
 
 #### Defined in
 
@@ -1772,7 +1772,7 @@ ___
 | `__typename?` | ``"MessageChat"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 | `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
-| `languageBarrier?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `languageBarrier?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
 | `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `receiver` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `sender` | [`User`](types_generatedGraphQLTypes.md#user) |
@@ -1802,7 +1802,7 @@ ___
 
 ### MessageChatResolvers
 
-Ƭ **MessageChatResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **MessageChatResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1815,13 +1815,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
-| `languageBarrier?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
-| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `receiver?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `languageBarrier?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `receiver?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1831,7 +1831,7 @@ ___
 
 ### MessageResolvers
 
-Ƭ **MessageResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **MessageResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -1844,13 +1844,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
-| `imageUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
-| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `videoUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
+| `imageUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
+| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `videoUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -1875,12 +1875,12 @@ ___
 | `addUserToGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `adminRemoveEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `adminRemoveGroup` | [`Message`](types_generatedGraphQLTypes.md#message) |
-| `assignUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `assignUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
 | `blockPluginCreationBySuperadmin` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `blockUser` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `cancelMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
 | `createAdmin` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `createComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
+| `createComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
 | `createDirectChat` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
 | `createDonation` | [`Donation`](types_generatedGraphQLTypes.md#donation) |
 | `createEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
@@ -1889,15 +1889,15 @@ ___
 | `createMessageChat` | [`MessageChat`](types_generatedGraphQLTypes.md#messagechat) |
 | `createOrganization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `createPlugin` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
-| `createPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\> |
+| `createPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
 | `createTask` | [`Task`](types_generatedGraphQLTypes.md#task) |
-| `createUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
+| `createUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
 | `deleteDonationById` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
 | `forgotPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `joinPublicOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `leaveOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `likeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
-| `likePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\> |
+| `likeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
+| `likePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
 | `login` | [`AuthData`](types_generatedGraphQLTypes.md#authdata) |
 | `logout` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `otp` | [`OtpData`](types_generatedGraphQLTypes.md#otpdata) |
@@ -1907,18 +1907,18 @@ ___
 | `rejectAdmin` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `rejectMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
 | `removeAdmin` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `removeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
+| `removeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
 | `removeDirectChat` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
 | `removeEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `removeGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `removeMember` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `removeOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `removeOrganizationImage` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
-| `removePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\> |
-| `removeTask?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Task`](types_generatedGraphQLTypes.md#task)\> |
+| `removePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
+| `removeTask?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\> |
 | `removeUserFromGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `removeUserImage` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `removeUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
+| `removeUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
 | `revokeRefreshTokenForUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `saveFcmToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `sendMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
@@ -1926,10 +1926,10 @@ ___
 | `sendMessageToGroupChat` | [`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage) |
 | `signUp` | [`AuthData`](types_generatedGraphQLTypes.md#authdata) |
 | `togglePostPin` | [`Post`](types_generatedGraphQLTypes.md#post) |
-| `unassignUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `unassignUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
 | `unblockUser` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `unlikeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
-| `unlikePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\> |
+| `unlikeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
+| `unlikePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
 | `unregisterForEventByUser` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `updateEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `updateLanguage` | [`User`](types_generatedGraphQLTypes.md#user) |
@@ -1937,10 +1937,10 @@ ___
 | `updatePluginInstalledOrgs` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
 | `updatePluginStatus` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
 | `updatePost` | [`Post`](types_generatedGraphQLTypes.md#post) |
-| `updateTask?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Task`](types_generatedGraphQLTypes.md#task)\> |
+| `updateTask?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\> |
 | `updateUserPassword` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `updateUserProfile` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `updateUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
+| `updateUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
 | `updateUserType` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 
 #### Defined in
@@ -2186,7 +2186,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput)\> |
 
 #### Defined in
 
@@ -2223,7 +2223,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`EventInput`](types_generatedGraphQLTypes.md#eventinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventInput`](types_generatedGraphQLTypes.md#eventinput)\> |
 
 #### Defined in
 
@@ -2255,7 +2255,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput)\> |
 
 #### Defined in
 
@@ -2287,8 +2287,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput)\> |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput)\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -2304,7 +2304,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `installedOrgs?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `installedOrgs?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
 | `pluginCreatedBy` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `pluginDesc` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `pluginInstallStatus` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
@@ -2325,7 +2325,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data` | [`PostInput`](types_generatedGraphQLTypes.md#postinput) |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -2341,7 +2341,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`TaskInput`](types_generatedGraphQLTypes.md#taskinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`TaskInput`](types_generatedGraphQLTypes.md#taskinput)\> |
 | `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 
 #### Defined in
@@ -2770,7 +2770,7 @@ ___
 
 ### MutationResolvers
 
-Ƭ **MutationResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **MutationResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -2783,81 +2783,81 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `acceptAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAcceptAdminArgs`](types_generatedGraphQLTypes.md#mutationacceptadminargs), ``"id"``\>\> |
-| `acceptMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAcceptMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationacceptmembershiprequestargs), ``"membershipRequestId"``\>\> |
-| `addLanguageTranslation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Language"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAddLanguageTranslationArgs`](types_generatedGraphQLTypes.md#mutationaddlanguagetranslationargs), ``"data"``\>\> |
-| `addOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAddOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationaddorganizationimageargs), ``"file"`` \| ``"organizationId"``\>\> |
-| `addUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAddUserImageArgs`](types_generatedGraphQLTypes.md#mutationadduserimageargs), ``"file"``\>\> |
-| `addUserToGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAddUserToGroupChatArgs`](types_generatedGraphQLTypes.md#mutationaddusertogroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
-| `adminRemoveEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAdminRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationadminremoveeventargs), ``"eventId"``\>\> |
-| `adminRemoveGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Message"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAdminRemoveGroupArgs`](types_generatedGraphQLTypes.md#mutationadminremovegroupargs), ``"groupId"``\>\> |
-| `assignUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationAssignUserTagArgs`](types_generatedGraphQLTypes.md#mutationassignusertagargs), ``"input"``\>\> |
-| `blockPluginCreationBySuperadmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationBlockPluginCreationBySuperadminArgs`](types_generatedGraphQLTypes.md#mutationblockplugincreationbysuperadminargs), ``"blockUser"`` \| ``"userId"``\>\> |
-| `blockUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationBlockUserArgs`](types_generatedGraphQLTypes.md#mutationblockuserargs), ``"organizationId"`` \| ``"userId"``\>\> |
-| `cancelMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCancelMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationcancelmembershiprequestargs), ``"membershipRequestId"``\>\> |
-| `createAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateAdminArgs`](types_generatedGraphQLTypes.md#mutationcreateadminargs), ``"data"``\>\> |
-| `createComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateCommentArgs`](types_generatedGraphQLTypes.md#mutationcreatecommentargs), ``"data"`` \| ``"postId"``\>\> |
-| `createDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, `Partial`<[`MutationCreateDirectChatArgs`](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs)\>\> |
-| `createDonation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateDonationArgs`](types_generatedGraphQLTypes.md#mutationcreatedonationargs), ``"amount"`` \| ``"nameOfOrg"`` \| ``"nameOfUser"`` \| ``"orgId"`` \| ``"payPalId"`` \| ``"userId"``\>\> |
-| `createEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, `Partial`<[`MutationCreateEventArgs`](types_generatedGraphQLTypes.md#mutationcreateeventargs)\>\> |
-| `createGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Group"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateGroupArgs`](types_generatedGraphQLTypes.md#mutationcreategroupargs), ``"data"``\>\> |
-| `createGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, `Partial`<[`MutationCreateGroupChatArgs`](types_generatedGraphQLTypes.md#mutationcreategroupchatargs)\>\> |
-| `createMessageChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateMessageChatArgs`](types_generatedGraphQLTypes.md#mutationcreatemessagechatargs), ``"data"``\>\> |
-| `createOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, `Partial`<[`MutationCreateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationcreateorganizationargs)\>\> |
-| `createPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreatePluginArgs`](types_generatedGraphQLTypes.md#mutationcreatepluginargs), ``"pluginCreatedBy"`` \| ``"pluginDesc"`` \| ``"pluginInstallStatus"`` \| ``"pluginName"``\>\> |
-| `createPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreatePostArgs`](types_generatedGraphQLTypes.md#mutationcreatepostargs), ``"data"``\>\> |
-| `createTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateTaskArgs`](types_generatedGraphQLTypes.md#mutationcreatetaskargs), ``"eventId"``\>\> |
-| `createUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationCreateUserTagArgs`](types_generatedGraphQLTypes.md#mutationcreateusertagargs), ``"input"``\>\> |
-| `deleteDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DeletePayload"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationDeleteDonationByIdArgs`](types_generatedGraphQLTypes.md#mutationdeletedonationbyidargs), ``"id"``\>\> |
-| `forgotPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationForgotPasswordArgs`](types_generatedGraphQLTypes.md#mutationforgotpasswordargs), ``"data"``\>\> |
-| `joinPublicOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationJoinPublicOrganizationArgs`](types_generatedGraphQLTypes.md#mutationjoinpublicorganizationargs), ``"organizationId"``\>\> |
-| `leaveOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationLeaveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationleaveorganizationargs), ``"organizationId"``\>\> |
-| `likeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationLikeCommentArgs`](types_generatedGraphQLTypes.md#mutationlikecommentargs), ``"id"``\>\> |
-| `likePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationLikePostArgs`](types_generatedGraphQLTypes.md#mutationlikepostargs), ``"id"``\>\> |
-| `login?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AuthData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationLoginArgs`](types_generatedGraphQLTypes.md#mutationloginargs), ``"data"``\>\> |
-| `logout?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `otp?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OtpData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationOtpArgs`](types_generatedGraphQLTypes.md#mutationotpargs), ``"data"``\>\> |
-| `recaptcha?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRecaptchaArgs`](types_generatedGraphQLTypes.md#mutationrecaptchaargs), ``"data"``\>\> |
-| `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ExtendSession"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRefreshTokenArgs`](types_generatedGraphQLTypes.md#mutationrefreshtokenargs), ``"refreshToken"``\>\> |
-| `registerForEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRegisterForEventArgs`](types_generatedGraphQLTypes.md#mutationregisterforeventargs), ``"id"``\>\> |
-| `rejectAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRejectAdminArgs`](types_generatedGraphQLTypes.md#mutationrejectadminargs), ``"id"``\>\> |
-| `rejectMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRejectMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationrejectmembershiprequestargs), ``"membershipRequestId"``\>\> |
-| `removeAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveAdminArgs`](types_generatedGraphQLTypes.md#mutationremoveadminargs), ``"data"``\>\> |
-| `removeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveCommentArgs`](types_generatedGraphQLTypes.md#mutationremovecommentargs), ``"id"``\>\> |
-| `removeDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveDirectChatArgs`](types_generatedGraphQLTypes.md#mutationremovedirectchatargs), ``"chatId"`` \| ``"organizationId"``\>\> |
-| `removeEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationremoveeventargs), ``"id"``\>\> |
-| `removeGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremovegroupchatargs), ``"chatId"``\>\> |
-| `removeMember?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveMemberArgs`](types_generatedGraphQLTypes.md#mutationremovememberargs), ``"data"``\>\> |
-| `removeOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationargs), ``"id"``\>\> |
-| `removeOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationimageargs), ``"organizationId"``\>\> |
-| `removePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemovePostArgs`](types_generatedGraphQLTypes.md#mutationremovepostargs), ``"id"``\>\> |
-| `removeTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveTaskArgs`](types_generatedGraphQLTypes.md#mutationremovetaskargs), ``"id"``\>\> |
-| `removeUserFromGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveUserFromGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremoveuserfromgroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
-| `removeUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `removeUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRemoveUserTagArgs`](types_generatedGraphQLTypes.md#mutationremoveusertagargs), ``"id"``\>\> |
-| `revokeRefreshTokenForUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationRevokeRefreshTokenForUserArgs`](types_generatedGraphQLTypes.md#mutationrevokerefreshtokenforuserargs), ``"userId"``\>\> |
-| `saveFcmToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, `Partial`<[`MutationSaveFcmTokenArgs`](types_generatedGraphQLTypes.md#mutationsavefcmtokenargs)\>\> |
-| `sendMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationSendMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationsendmembershiprequestargs), ``"organizationId"``\>\> |
-| `sendMessageToDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationSendMessageToDirectChatArgs`](types_generatedGraphQLTypes.md#mutationsendmessagetodirectchatargs), ``"chatId"`` \| ``"messageContent"``\>\> |
-| `sendMessageToGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationSendMessageToGroupChatArgs`](types_generatedGraphQLTypes.md#mutationsendmessagetogroupchatargs), ``"chatId"`` \| ``"messageContent"``\>\> |
-| `signUp?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AuthData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationSignUpArgs`](types_generatedGraphQLTypes.md#mutationsignupargs), ``"data"``\>\> |
-| `togglePostPin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationTogglePostPinArgs`](types_generatedGraphQLTypes.md#mutationtogglepostpinargs), ``"id"``\>\> |
-| `unassignUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUnassignUserTagArgs`](types_generatedGraphQLTypes.md#mutationunassignusertagargs), ``"input"``\>\> |
-| `unblockUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUnblockUserArgs`](types_generatedGraphQLTypes.md#mutationunblockuserargs), ``"organizationId"`` \| ``"userId"``\>\> |
-| `unlikeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUnlikeCommentArgs`](types_generatedGraphQLTypes.md#mutationunlikecommentargs), ``"id"``\>\> |
-| `unlikePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUnlikePostArgs`](types_generatedGraphQLTypes.md#mutationunlikepostargs), ``"id"``\>\> |
-| `unregisterForEventByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUnregisterForEventByUserArgs`](types_generatedGraphQLTypes.md#mutationunregisterforeventbyuserargs), ``"id"``\>\> |
-| `updateEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdateEventArgs`](types_generatedGraphQLTypes.md#mutationupdateeventargs), ``"id"``\>\> |
-| `updateLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdateLanguageArgs`](types_generatedGraphQLTypes.md#mutationupdatelanguageargs), ``"languageCode"``\>\> |
-| `updateOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationupdateorganizationargs), ``"id"``\>\> |
-| `updatePluginInstalledOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdatePluginInstalledOrgsArgs`](types_generatedGraphQLTypes.md#mutationupdateplugininstalledorgsargs), ``"id"`` \| ``"orgId"``\>\> |
-| `updatePluginStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdatePluginStatusArgs`](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs), ``"id"`` \| ``"status"``\>\> |
-| `updatePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdatePostArgs`](types_generatedGraphQLTypes.md#mutationupdatepostargs), ``"id"``\>\> |
-| `updateTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdateTaskArgs`](types_generatedGraphQLTypes.md#mutationupdatetaskargs), ``"id"``\>\> |
-| `updateUserPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, `Partial`<[`MutationUpdateUserPasswordArgs`](types_generatedGraphQLTypes.md#mutationupdateuserpasswordargs)\>\> |
-| `updateUserProfile?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, `Partial`<[`MutationUpdateUserProfileArgs`](types_generatedGraphQLTypes.md#mutationupdateuserprofileargs)\>\> |
-| `updateUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdateUserTagArgs`](types_generatedGraphQLTypes.md#mutationupdateusertagargs), ``"input"``\>\> |
-| `updateUserType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`MutationUpdateUserTypeArgs`](types_generatedGraphQLTypes.md#mutationupdateusertypeargs), ``"data"``\>\> |
+| `acceptAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAcceptAdminArgs`](types_generatedGraphQLTypes.md#mutationacceptadminargs), ``"id"``\>\> |
+| `acceptMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAcceptMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationacceptmembershiprequestargs), ``"membershipRequestId"``\>\> |
+| `addLanguageTranslation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Language"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddLanguageTranslationArgs`](types_generatedGraphQLTypes.md#mutationaddlanguagetranslationargs), ``"data"``\>\> |
+| `addOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationaddorganizationimageargs), ``"file"`` \| ``"organizationId"``\>\> |
+| `addUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserImageArgs`](types_generatedGraphQLTypes.md#mutationadduserimageargs), ``"file"``\>\> |
+| `addUserToGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserToGroupChatArgs`](types_generatedGraphQLTypes.md#mutationaddusertogroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
+| `adminRemoveEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationadminremoveeventargs), ``"eventId"``\>\> |
+| `adminRemoveGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Message"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveGroupArgs`](types_generatedGraphQLTypes.md#mutationadminremovegroupargs), ``"groupId"``\>\> |
+| `assignUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAssignUserTagArgs`](types_generatedGraphQLTypes.md#mutationassignusertagargs), ``"input"``\>\> |
+| `blockPluginCreationBySuperadmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationBlockPluginCreationBySuperadminArgs`](types_generatedGraphQLTypes.md#mutationblockplugincreationbysuperadminargs), ``"blockUser"`` \| ``"userId"``\>\> |
+| `blockUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationBlockUserArgs`](types_generatedGraphQLTypes.md#mutationblockuserargs), ``"organizationId"`` \| ``"userId"``\>\> |
+| `cancelMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCancelMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationcancelmembershiprequestargs), ``"membershipRequestId"``\>\> |
+| `createAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateAdminArgs`](types_generatedGraphQLTypes.md#mutationcreateadminargs), ``"data"``\>\> |
+| `createComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateCommentArgs`](types_generatedGraphQLTypes.md#mutationcreatecommentargs), ``"data"`` \| ``"postId"``\>\> |
+| `createDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateDirectChatArgs`](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs)\>\> |
+| `createDonation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateDonationArgs`](types_generatedGraphQLTypes.md#mutationcreatedonationargs), ``"amount"`` \| ``"nameOfOrg"`` \| ``"nameOfUser"`` \| ``"orgId"`` \| ``"payPalId"`` \| ``"userId"``\>\> |
+| `createEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateEventArgs`](types_generatedGraphQLTypes.md#mutationcreateeventargs)\>\> |
+| `createGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Group"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateGroupArgs`](types_generatedGraphQLTypes.md#mutationcreategroupargs), ``"data"``\>\> |
+| `createGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateGroupChatArgs`](types_generatedGraphQLTypes.md#mutationcreategroupchatargs)\>\> |
+| `createMessageChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateMessageChatArgs`](types_generatedGraphQLTypes.md#mutationcreatemessagechatargs), ``"data"``\>\> |
+| `createOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationcreateorganizationargs)\>\> |
+| `createPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePluginArgs`](types_generatedGraphQLTypes.md#mutationcreatepluginargs), ``"pluginCreatedBy"`` \| ``"pluginDesc"`` \| ``"pluginInstallStatus"`` \| ``"pluginName"``\>\> |
+| `createPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePostArgs`](types_generatedGraphQLTypes.md#mutationcreatepostargs), ``"data"``\>\> |
+| `createTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateTaskArgs`](types_generatedGraphQLTypes.md#mutationcreatetaskargs), ``"eventId"``\>\> |
+| `createUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateUserTagArgs`](types_generatedGraphQLTypes.md#mutationcreateusertagargs), ``"input"``\>\> |
+| `deleteDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DeletePayload"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationDeleteDonationByIdArgs`](types_generatedGraphQLTypes.md#mutationdeletedonationbyidargs), ``"id"``\>\> |
+| `forgotPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationForgotPasswordArgs`](types_generatedGraphQLTypes.md#mutationforgotpasswordargs), ``"data"``\>\> |
+| `joinPublicOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationJoinPublicOrganizationArgs`](types_generatedGraphQLTypes.md#mutationjoinpublicorganizationargs), ``"organizationId"``\>\> |
+| `leaveOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationLeaveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationleaveorganizationargs), ``"organizationId"``\>\> |
+| `likeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationLikeCommentArgs`](types_generatedGraphQLTypes.md#mutationlikecommentargs), ``"id"``\>\> |
+| `likePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationLikePostArgs`](types_generatedGraphQLTypes.md#mutationlikepostargs), ``"id"``\>\> |
+| `login?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AuthData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationLoginArgs`](types_generatedGraphQLTypes.md#mutationloginargs), ``"data"``\>\> |
+| `logout?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `otp?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OtpData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationOtpArgs`](types_generatedGraphQLTypes.md#mutationotpargs), ``"data"``\>\> |
+| `recaptcha?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRecaptchaArgs`](types_generatedGraphQLTypes.md#mutationrecaptchaargs), ``"data"``\>\> |
+| `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ExtendSession"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRefreshTokenArgs`](types_generatedGraphQLTypes.md#mutationrefreshtokenargs), ``"refreshToken"``\>\> |
+| `registerForEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRegisterForEventArgs`](types_generatedGraphQLTypes.md#mutationregisterforeventargs), ``"id"``\>\> |
+| `rejectAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRejectAdminArgs`](types_generatedGraphQLTypes.md#mutationrejectadminargs), ``"id"``\>\> |
+| `rejectMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRejectMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationrejectmembershiprequestargs), ``"membershipRequestId"``\>\> |
+| `removeAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveAdminArgs`](types_generatedGraphQLTypes.md#mutationremoveadminargs), ``"data"``\>\> |
+| `removeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveCommentArgs`](types_generatedGraphQLTypes.md#mutationremovecommentargs), ``"id"``\>\> |
+| `removeDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveDirectChatArgs`](types_generatedGraphQLTypes.md#mutationremovedirectchatargs), ``"chatId"`` \| ``"organizationId"``\>\> |
+| `removeEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationremoveeventargs), ``"id"``\>\> |
+| `removeGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremovegroupchatargs), ``"chatId"``\>\> |
+| `removeMember?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveMemberArgs`](types_generatedGraphQLTypes.md#mutationremovememberargs), ``"data"``\>\> |
+| `removeOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationargs), ``"id"``\>\> |
+| `removeOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationimageargs), ``"organizationId"``\>\> |
+| `removePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemovePostArgs`](types_generatedGraphQLTypes.md#mutationremovepostargs), ``"id"``\>\> |
+| `removeTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveTaskArgs`](types_generatedGraphQLTypes.md#mutationremovetaskargs), ``"id"``\>\> |
+| `removeUserFromGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserFromGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremoveuserfromgroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
+| `removeUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `removeUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserTagArgs`](types_generatedGraphQLTypes.md#mutationremoveusertagargs), ``"id"``\>\> |
+| `revokeRefreshTokenForUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRevokeRefreshTokenForUserArgs`](types_generatedGraphQLTypes.md#mutationrevokerefreshtokenforuserargs), ``"userId"``\>\> |
+| `saveFcmToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, `Partial`\<[`MutationSaveFcmTokenArgs`](types_generatedGraphQLTypes.md#mutationsavefcmtokenargs)\>\> |
+| `sendMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationSendMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationsendmembershiprequestargs), ``"organizationId"``\>\> |
+| `sendMessageToDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationSendMessageToDirectChatArgs`](types_generatedGraphQLTypes.md#mutationsendmessagetodirectchatargs), ``"chatId"`` \| ``"messageContent"``\>\> |
+| `sendMessageToGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationSendMessageToGroupChatArgs`](types_generatedGraphQLTypes.md#mutationsendmessagetogroupchatargs), ``"chatId"`` \| ``"messageContent"``\>\> |
+| `signUp?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AuthData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationSignUpArgs`](types_generatedGraphQLTypes.md#mutationsignupargs), ``"data"``\>\> |
+| `togglePostPin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationTogglePostPinArgs`](types_generatedGraphQLTypes.md#mutationtogglepostpinargs), ``"id"``\>\> |
+| `unassignUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUnassignUserTagArgs`](types_generatedGraphQLTypes.md#mutationunassignusertagargs), ``"input"``\>\> |
+| `unblockUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUnblockUserArgs`](types_generatedGraphQLTypes.md#mutationunblockuserargs), ``"organizationId"`` \| ``"userId"``\>\> |
+| `unlikeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUnlikeCommentArgs`](types_generatedGraphQLTypes.md#mutationunlikecommentargs), ``"id"``\>\> |
+| `unlikePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUnlikePostArgs`](types_generatedGraphQLTypes.md#mutationunlikepostargs), ``"id"``\>\> |
+| `unregisterForEventByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUnregisterForEventByUserArgs`](types_generatedGraphQLTypes.md#mutationunregisterforeventbyuserargs), ``"id"``\>\> |
+| `updateEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateEventArgs`](types_generatedGraphQLTypes.md#mutationupdateeventargs), ``"id"``\>\> |
+| `updateLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateLanguageArgs`](types_generatedGraphQLTypes.md#mutationupdatelanguageargs), ``"languageCode"``\>\> |
+| `updateOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationupdateorganizationargs), ``"id"``\>\> |
+| `updatePluginInstalledOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePluginInstalledOrgsArgs`](types_generatedGraphQLTypes.md#mutationupdateplugininstalledorgsargs), ``"id"`` \| ``"orgId"``\>\> |
+| `updatePluginStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePluginStatusArgs`](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs), ``"id"`` \| ``"status"``\>\> |
+| `updatePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePostArgs`](types_generatedGraphQLTypes.md#mutationupdatepostargs), ``"id"``\>\> |
+| `updateTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateTaskArgs`](types_generatedGraphQLTypes.md#mutationupdatetaskargs), ``"id"``\>\> |
+| `updateUserPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, `Partial`\<[`MutationUpdateUserPasswordArgs`](types_generatedGraphQLTypes.md#mutationupdateuserpasswordargs)\>\> |
+| `updateUserProfile?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, `Partial`\<[`MutationUpdateUserProfileArgs`](types_generatedGraphQLTypes.md#mutationupdateuserprofileargs)\>\> |
+| `updateUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateUserTagArgs`](types_generatedGraphQLTypes.md#mutationupdateusertagargs), ``"input"``\>\> |
+| `updateUserType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateUserTypeArgs`](types_generatedGraphQLTypes.md#mutationupdateusertypeargs), ``"data"``\>\> |
 
 #### Defined in
 
@@ -2889,7 +2889,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `token?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `token?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -2956,7 +2956,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -3069,7 +3069,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput)\> |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 
 #### Defined in
@@ -3102,8 +3102,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput)\> |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput)\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 
 #### Defined in
@@ -3154,7 +3154,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput)\> |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 
 #### Defined in
@@ -3171,7 +3171,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UpdateTaskInput`](types_generatedGraphQLTypes.md#updatetaskinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateTaskInput`](types_generatedGraphQLTypes.md#updatetaskinput)\> |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 
 #### Defined in
@@ -3188,7 +3188,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput)\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput)\> |
 
 #### Defined in
 
@@ -3204,8 +3204,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput)\> |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput)\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -3247,7 +3247,7 @@ ___
 
 ### NextResolverFn
 
-Ƭ **NextResolverFn**<`T`\>: () => `Promise`<`T`\>
+Ƭ **NextResolverFn**\<`T`\>: () => `Promise`\<`T`\>
 
 #### Type parameters
 
@@ -3257,11 +3257,11 @@ ___
 
 #### Type declaration
 
-▸ (): `Promise`<`T`\>
+▸ (): `Promise`\<`T`\>
 
 ##### Returns
 
-`Promise`<`T`\>
+`Promise`\<`T`\>
 
 #### Defined in
 
@@ -3271,7 +3271,7 @@ ___
 
 ### Omit
 
-Ƭ **Omit**<`T`, `K`\>: `Pick`<`T`, `Exclude`<keyof `T`, `K`\>\>
+Ƭ **Omit**\<`T`, `K`\>: `Pick`\<`T`, `Exclude`\<keyof `T`, `K`\>\>
 
 #### Type parameters
 
@@ -3296,20 +3296,20 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"Organization"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``] |
-| `blockedUsers?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `blockedUsers?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `members?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `membershipRequests?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest)\>[]\> |
+| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `members?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `membershipRequests?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest)\>[]\> |
 | `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `pinnedPosts?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
-| `userTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
+| `pinnedPosts?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
+| `userTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
 | `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 
 #### Defined in
@@ -3326,7 +3326,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
 
 #### Defined in
 
@@ -3347,7 +3347,7 @@ ___
 | `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``] |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
@@ -3360,7 +3360,7 @@ ___
 
 ### OrganizationInfoNodeResolvers
 
-Ƭ **OrganizationInfoNodeResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **OrganizationInfoNodeResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3373,15 +3373,15 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `visibleInSearch?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `visibleInSearch?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3397,12 +3397,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `attendees?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `attendees?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `image?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 
@@ -3424,7 +3424,7 @@ ___
 
 ### OrganizationResolvers
 
-Ƭ **OrganizationResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **OrganizationResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3437,23 +3437,23 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`OrganizationAdminsArgs`](types_generatedGraphQLTypes.md#organizationadminsargs)\>\> |
-| `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
-| `blockedUsers?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `location?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `members?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `membershipRequests?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `pinnedPosts?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `userTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`<[`OrganizationUserTagsArgs`](types_generatedGraphQLTypes.md#organizationusertagsargs)\>\> |
-| `visibleInSearch?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`OrganizationAdminsArgs`](types_generatedGraphQLTypes.md#organizationadminsargs)\>\> |
+| `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
+| `blockedUsers?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `location?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `members?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `membershipRequests?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `pinnedPosts?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `userTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`OrganizationUserTagsArgs`](types_generatedGraphQLTypes.md#organizationusertagsargs)\>\> |
+| `visibleInSearch?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3469,10 +3469,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
 
 #### Defined in
 
@@ -3488,32 +3488,32 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `apiUrl_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `apiUrl_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][]\> |
-| `apiUrl_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `apiUrl_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][]\> |
-| `apiUrl_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `apiUrl_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `apiUrl_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][]\> |
+| `apiUrl_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `apiUrl_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][]\> |
+| `apiUrl_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `name_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `name_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
 
 #### Defined in
 
@@ -3540,7 +3540,7 @@ ___
 
 ### OtpDataResolvers
 
-Ƭ **OtpDataResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **OtpDataResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3553,8 +3553,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `otpToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `otpToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3589,12 +3589,12 @@ Information about pagination in a connection.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `__typename?` | ``"PageInfo"`` | - |
-| `currPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
+| `currPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
 | `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] | When paginating forwards, are there more items? |
 | `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] | When paginating backwards, are there more items? |
-| `nextPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
-| `prevPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
-| `totalPages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
+| `nextPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
+| `prevPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
+| `totalPages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
 
 #### Defined in
 
@@ -3604,7 +3604,7 @@ ___
 
 ### PageInfoResolvers
 
-Ƭ **PageInfoResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **PageInfoResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3617,13 +3617,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `currPageNo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
-| `hasNextPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `hasPreviousPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `nextPageNo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
-| `prevPageNo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
-| `totalPages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `currPageNo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `hasNextPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `hasPreviousPage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `nextPageNo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `prevPageNo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `totalPages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3662,7 +3662,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"PluginField"`` |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
 | `key` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `status` | [`Status`](types_generatedGraphQLTypes.md#status) |
 | `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
@@ -3692,7 +3692,7 @@ ___
 
 ### PluginFieldResolvers
 
-Ƭ **PluginFieldResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **PluginFieldResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3705,11 +3705,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `key?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
-| `value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `key?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
+| `value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3725,11 +3725,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `fields?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`PluginFieldInput`](types_generatedGraphQLTypes.md#pluginfieldinput)\>[]\> |
+| `fields?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PluginFieldInput`](types_generatedGraphQLTypes.md#pluginfieldinput)\>[]\> |
 | `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `pluginKey?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `pluginKey?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `pluginType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Type`](types_generatedGraphQLTypes.md#type)\> |
+| `pluginType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Type`](types_generatedGraphQLTypes.md#type)\> |
 
 #### Defined in
 
@@ -3739,7 +3739,7 @@ ___
 
 ### PluginResolvers
 
-Ƭ **PluginResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **PluginResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3752,13 +3752,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `installedOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``][], `ParentType`, `ContextType`\> |
-| `pluginCreatedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `pluginDesc?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `pluginInstallStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `pluginName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `installedOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``][], `ParentType`, `ContextType`\> |
+| `pluginCreatedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `pluginDesc?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `pluginInstallStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `pluginName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3775,18 +3775,18 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Post"`` |
-| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `commentCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `comments?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `commentCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `comments?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `likedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `likedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
 
 #### Defined in
 
@@ -3806,7 +3806,7 @@ A connection to a list of items.
 | :------ | :------ | :------ |
 | `__typename?` | ``"PostConnection"`` | - |
 | `aggregate` | [`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost) | - |
-| `edges` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\>[] | A list of edges. |
+| `edges` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[] | A list of edges. |
 | `pageInfo` | [`PageInfo`](types_generatedGraphQLTypes.md#pageinfo) | Information to aid in pagination. |
 
 #### Defined in
@@ -3817,7 +3817,7 @@ ___
 
 ### PostConnectionResolvers
 
-Ƭ **PostConnectionResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **PostConnectionResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3830,10 +3830,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `aggregate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AggregatePost"``], `ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[], `ParentType`, `ContextType`\> |
-| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PageInfo"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `aggregate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AggregatePost"``], `ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[], `ParentType`, `ContextType`\> |
+| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3849,13 +3849,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
 | `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `pinned?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `pinned?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
 | `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
 
 #### Defined in
 
@@ -3875,7 +3875,7 @@ ___
 
 ### PostResolvers
 
-Ƭ **PostResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **PostResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -3888,19 +3888,19 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
-| `commentCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
-| `comments?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `imageUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
-| `likeCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
-| `likedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
-| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `videoUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
+| `commentCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `comments?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `imageUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
+| `likeCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
+| `likedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `videoUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -3916,10 +3916,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
 
 #### Defined in
 
@@ -3935,24 +3935,24 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `text_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `text_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `text_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `text_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `text_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `text_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `text_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `text_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `text_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `text_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -3969,47 +3969,47 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Query"`` |
-| `adminPlugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
+| `adminPlugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
 | `checkAuth` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `comments?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
-| `commentsByPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
-| `directChatMessages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
-| `directChats?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
-| `directChatsByUserID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
-| `directChatsMessagesByChatID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
-| `event?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\> |
-| `events?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
-| `eventsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
+| `comments?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
+| `commentsByPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
+| `directChatMessages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
+| `directChats?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
+| `directChatsByUserID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
+| `directChatsMessagesByChatID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
+| `event?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\> |
+| `events?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
+| `eventsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `eventsByOrganizationConnection` | [`Event`](types_generatedGraphQLTypes.md#event)[] |
 | `getDonationById` | [`Donation`](types_generatedGraphQLTypes.md#donation) |
-| `getDonationByOrgId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
+| `getDonationByOrgId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
 | `getDonationByOrgIdConnection` | [`Donation`](types_generatedGraphQLTypes.md#donation)[] |
-| `getDonations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
-| `getPlugins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
-| `getlanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Translation`](types_generatedGraphQLTypes.md#translation)\>[]\> |
-| `groupChatMessages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\>[]\> |
-| `groupChats?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`GroupChat`](types_generatedGraphQLTypes.md#groupchat)\>[]\> |
-| `groups?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Group`](types_generatedGraphQLTypes.md#group)\>[]\> |
-| `isUserRegister?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants)\> |
-| `joinedOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
+| `getDonations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
+| `getPlugins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
+| `getlanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Translation`](types_generatedGraphQLTypes.md#translation)\>[]\> |
+| `groupChatMessages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\>[]\> |
+| `groupChats?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChat`](types_generatedGraphQLTypes.md#groupchat)\>[]\> |
+| `groups?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Group`](types_generatedGraphQLTypes.md#group)\>[]\> |
+| `isUserRegister?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants)\> |
+| `joinedOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
 | `me` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `myLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `organizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
-| `organizationsConnection` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[] |
+| `myLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `organizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
+| `organizationsConnection` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[] |
 | `organizationsMemberConnection` | [`UserConnection`](types_generatedGraphQLTypes.md#userconnection) |
-| `plugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
-| `post?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\> |
-| `posts?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
-| `postsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
-| `postsByOrganizationConnection?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection)\> |
-| `registeredEventsByUser?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
-| `registrantsByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `tasksByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
-| `tasksByUser?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
+| `plugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
+| `post?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
+| `posts?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
+| `postsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
+| `postsByOrganizationConnection?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection)\> |
+| `registeredEventsByUser?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
+| `registrantsByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `tasksByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
+| `tasksByUser?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
 | `user` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `userLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `users?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `usersConnection` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[] |
+| `userLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `users?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `usersConnection` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[] |
 
 #### Defined in
 
@@ -4105,8 +4105,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
 
 #### Defined in
 
@@ -4122,8 +4122,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
 
 #### Defined in
 
@@ -4139,10 +4139,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput)\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput)\> |
 
 #### Defined in
 
@@ -4190,10 +4190,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
 | `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput)\> |
 
 #### Defined in
 
@@ -4241,7 +4241,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
 
 #### Defined in
 
@@ -4257,8 +4257,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput)\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput)\> |
 
 #### Defined in
 
@@ -4274,10 +4274,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput)\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput)\> |
 
 #### Defined in
 
@@ -4293,11 +4293,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
 | `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
 
 #### Defined in
 
@@ -4345,7 +4345,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
 
 #### Defined in
 
@@ -4362,7 +4362,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
 
 #### Defined in
 
@@ -4378,11 +4378,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput)\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput)\> |
 
 #### Defined in
 
@@ -4398,8 +4398,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
 
 #### Defined in
 
@@ -4425,7 +4425,7 @@ ___
 
 ### QueryResolvers
 
-Ƭ **QueryResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **QueryResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -4438,47 +4438,47 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `adminPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryAdminPluginArgs`](types_generatedGraphQLTypes.md#queryadminpluginargs), ``"orgId"``\>\> |
-| `checkAuth?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `comments?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `commentsByPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryCommentsByPostArgs`](types_generatedGraphQLTypes.md#querycommentsbypostargs), ``"id"``\>\> |
-| `directChatMessages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `directChats?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `directChatsByUserID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryDirectChatsByUserIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsbyuseridargs), ``"id"``\>\> |
-| `directChatsMessagesByChatID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryDirectChatsMessagesByChatIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsmessagesbychatidargs), ``"id"``\>\> |
-| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryEventArgs`](types_generatedGraphQLTypes.md#queryeventargs), ``"id"``\>\> |
-| `events?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryEventsArgs`](types_generatedGraphQLTypes.md#queryeventsargs)\>\> |
-| `eventsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryEventsByOrganizationArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationargs)\>\> |
-| `eventsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``][], `ParentType`, `ContextType`, `Partial`<[`QueryEventsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationconnectionargs)\>\> |
-| `getDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryGetDonationByIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyidargs), ``"id"``\>\> |
-| `getDonationByOrgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryGetDonationByOrgIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidargs), ``"orgId"``\>\> |
-| `getDonationByOrgIdConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``][], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryGetDonationByOrgIdConnectionArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidconnectionargs), ``"orgId"``\>\> |
-| `getDonations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `getPlugins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `getlanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Translation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryGetlanguageArgs`](types_generatedGraphQLTypes.md#querygetlanguageargs), ``"lang_code"``\>\> |
-| `groupChatMessages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `groupChats?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `groups?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Group"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `isUserRegister?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventRegistrants"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryIsUserRegisterArgs`](types_generatedGraphQLTypes.md#queryisuserregisterargs), ``"eventId"``\>\> |
-| `joinedOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryJoinedOrganizationsArgs`](types_generatedGraphQLTypes.md#queryjoinedorganizationsargs)\>\> |
-| `me?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `myLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `organizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryOrganizationsArgs`](types_generatedGraphQLTypes.md#queryorganizationsargs)\>\> |
-| `organizationsConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[], `ParentType`, `ContextType`, `Partial`<[`QueryOrganizationsConnectionArgs`](types_generatedGraphQLTypes.md#queryorganizationsconnectionargs)\>\> |
-| `organizationsMemberConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserConnection"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryOrganizationsMemberConnectionArgs`](types_generatedGraphQLTypes.md#queryorganizationsmemberconnectionargs), ``"orgId"``\>\> |
-| `plugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryPluginArgs`](types_generatedGraphQLTypes.md#querypluginargs), ``"orgId"``\>\> |
-| `post?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryPostArgs`](types_generatedGraphQLTypes.md#querypostargs), ``"id"``\>\> |
-| `posts?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryPostsArgs`](types_generatedGraphQLTypes.md#querypostsargs)\>\> |
-| `postsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryPostsByOrganizationArgs`](types_generatedGraphQLTypes.md#querypostsbyorganizationargs), ``"id"``\>\> |
-| `postsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PostConnection"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryPostsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#querypostsbyorganizationconnectionargs), ``"id"``\>\> |
-| `registeredEventsByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryRegisteredEventsByUserArgs`](types_generatedGraphQLTypes.md#queryregisteredeventsbyuserargs)\>\> |
-| `registrantsByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryRegistrantsByEventArgs`](types_generatedGraphQLTypes.md#queryregistrantsbyeventargs), ``"id"``\>\> |
-| `tasksByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryTasksByEventArgs`](types_generatedGraphQLTypes.md#querytasksbyeventargs), ``"id"``\>\> |
-| `tasksByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryTasksByUserArgs`](types_generatedGraphQLTypes.md#querytasksbyuserargs), ``"id"``\>\> |
-| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryUserArgs`](types_generatedGraphQLTypes.md#queryuserargs), ``"id"``\>\> |
-| `userLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)<[`QueryUserLanguageArgs`](types_generatedGraphQLTypes.md#queryuserlanguageargs), ``"userId"``\>\> |
-| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`<[`QueryUsersArgs`](types_generatedGraphQLTypes.md#queryusersargs)\>\> |
-| `usersConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[], `ParentType`, `ContextType`, `Partial`<[`QueryUsersConnectionArgs`](types_generatedGraphQLTypes.md#queryusersconnectionargs)\>\> |
+| `adminPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryAdminPluginArgs`](types_generatedGraphQLTypes.md#queryadminpluginargs), ``"orgId"``\>\> |
+| `checkAuth?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `comments?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `commentsByPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryCommentsByPostArgs`](types_generatedGraphQLTypes.md#querycommentsbypostargs), ``"id"``\>\> |
+| `directChatMessages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `directChats?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `directChatsByUserID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryDirectChatsByUserIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsbyuseridargs), ``"id"``\>\> |
+| `directChatsMessagesByChatID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryDirectChatsMessagesByChatIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsmessagesbychatidargs), ``"id"``\>\> |
+| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryEventArgs`](types_generatedGraphQLTypes.md#queryeventargs), ``"id"``\>\> |
+| `events?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryEventsArgs`](types_generatedGraphQLTypes.md#queryeventsargs)\>\> |
+| `eventsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryEventsByOrganizationArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationargs)\>\> |
+| `eventsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``][], `ParentType`, `ContextType`, `Partial`\<[`QueryEventsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationconnectionargs)\>\> |
+| `getDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyidargs), ``"id"``\>\> |
+| `getDonationByOrgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByOrgIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidargs), ``"orgId"``\>\> |
+| `getDonationByOrgIdConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``][], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByOrgIdConnectionArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidconnectionargs), ``"orgId"``\>\> |
+| `getDonations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `getPlugins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `getlanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Translation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetlanguageArgs`](types_generatedGraphQLTypes.md#querygetlanguageargs), ``"lang_code"``\>\> |
+| `groupChatMessages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `groupChats?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `groups?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Group"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `isUserRegister?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventRegistrants"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryIsUserRegisterArgs`](types_generatedGraphQLTypes.md#queryisuserregisterargs), ``"eventId"``\>\> |
+| `joinedOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryJoinedOrganizationsArgs`](types_generatedGraphQLTypes.md#queryjoinedorganizationsargs)\>\> |
+| `me?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `myLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `organizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryOrganizationsArgs`](types_generatedGraphQLTypes.md#queryorganizationsargs)\>\> |
+| `organizationsConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[], `ParentType`, `ContextType`, `Partial`\<[`QueryOrganizationsConnectionArgs`](types_generatedGraphQLTypes.md#queryorganizationsconnectionargs)\>\> |
+| `organizationsMemberConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserConnection"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryOrganizationsMemberConnectionArgs`](types_generatedGraphQLTypes.md#queryorganizationsmemberconnectionargs), ``"orgId"``\>\> |
+| `plugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPluginArgs`](types_generatedGraphQLTypes.md#querypluginargs), ``"orgId"``\>\> |
+| `post?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPostArgs`](types_generatedGraphQLTypes.md#querypostargs), ``"id"``\>\> |
+| `posts?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryPostsArgs`](types_generatedGraphQLTypes.md#querypostsargs)\>\> |
+| `postsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPostsByOrganizationArgs`](types_generatedGraphQLTypes.md#querypostsbyorganizationargs), ``"id"``\>\> |
+| `postsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PostConnection"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPostsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#querypostsbyorganizationconnectionargs), ``"id"``\>\> |
+| `registeredEventsByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryRegisteredEventsByUserArgs`](types_generatedGraphQLTypes.md#queryregisteredeventsbyuserargs)\>\> |
+| `registrantsByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryRegistrantsByEventArgs`](types_generatedGraphQLTypes.md#queryregistrantsbyeventargs), ``"id"``\>\> |
+| `tasksByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryTasksByEventArgs`](types_generatedGraphQLTypes.md#querytasksbyeventargs), ``"id"``\>\> |
+| `tasksByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryTasksByUserArgs`](types_generatedGraphQLTypes.md#querytasksbyuserargs), ``"id"``\>\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryUserArgs`](types_generatedGraphQLTypes.md#queryuserargs), ``"id"``\>\> |
+| `userLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryUserLanguageArgs`](types_generatedGraphQLTypes.md#queryuserlanguageargs), ``"userId"``\>\> |
+| `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryUsersArgs`](types_generatedGraphQLTypes.md#queryusersargs)\>\> |
+| `usersConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[], `ParentType`, `ContextType`, `Partial`\<[`QueryUsersConnectionArgs`](types_generatedGraphQLTypes.md#queryusersconnectionargs)\>\> |
 
 #### Defined in
 
@@ -4495,7 +4495,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput)\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput)\> |
 
 #### Defined in
 
@@ -4512,7 +4512,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput)\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput)\> |
 
 #### Defined in
 
@@ -4560,8 +4560,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
 
 #### Defined in
 
@@ -4577,10 +4577,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
 
 #### Defined in
 
@@ -4616,7 +4616,7 @@ ___
 
 ### RequireFields
 
-Ƭ **RequireFields**<`T`, `K`\>: [`Omit`](types_generatedGraphQLTypes.md#omit)<`T`, `K`\> & { [P in K]-?: NonNullable<T[P]\> }
+Ƭ **RequireFields**\<`T`, `K`\>: [`Omit`](types_generatedGraphQLTypes.md#omit)\<`T`, `K`\> & \{ [P in K]-?: NonNullable\<T[P]\> }
 
 #### Type parameters
 
@@ -4633,16 +4633,16 @@ ___
 
 ### Resolver
 
-Ƭ **Resolver**<`TResult`, `TParent`, `TContext`, `TArgs`\>: [`ResolverFn`](types_generatedGraphQLTypes.md#resolverfn)<`TResult`, `TParent`, `TContext`, `TArgs`\>
+Ƭ **Resolver**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: [`ResolverFn`](types_generatedGraphQLTypes.md#resolverfn)\<`TResult`, `TParent`, `TContext`, `TArgs`\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TResult` | `TResult` |
-| `TParent` | {} |
-| `TContext` | {} |
-| `TArgs` | {} |
+| `TParent` | \{} |
+| `TContext` | \{} |
+| `TArgs` | \{} |
 
 #### Defined in
 
@@ -4652,7 +4652,7 @@ ___
 
 ### ResolverFn
 
-Ƭ **ResolverFn**<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `Promise`<`TResult`\> \| `TResult`
+Ƭ **ResolverFn**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `Promise`\<`TResult`\> \| `TResult`
 
 #### Type parameters
 
@@ -4665,7 +4665,7 @@ ___
 
 #### Type declaration
 
-▸ (`parent`, `args`, `context`, `info?`): `Promise`<`TResult`\> \| `TResult`
+▸ (`parent`, `args`, `context`, `info?`): `Promise`\<`TResult`\> \| `TResult`
 
 ##### Parameters
 
@@ -4678,7 +4678,7 @@ ___
 
 ##### Returns
 
-`Promise`<`TResult`\> \| `TResult`
+`Promise`\<`TResult`\> \| `TResult`
 
 #### Defined in
 
@@ -4688,7 +4688,7 @@ ___
 
 ### ResolverTypeWrapper
 
-Ƭ **ResolverTypeWrapper**<`T`\>: `Promise`<`T`\> \| `T`
+Ƭ **ResolverTypeWrapper**\<`T`\>: `Promise`\<`T`\> \| `T`
 
 #### Type parameters
 
@@ -4704,7 +4704,7 @@ ___
 
 ### Resolvers
 
-Ƭ **Resolvers**<`ContextType`\>: `Object`
+Ƭ **Resolvers**\<`ContextType`\>: `Object`
 
 #### Type parameters
 
@@ -4716,59 +4716,59 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `AggregatePost?` | [`AggregatePostResolvers`](types_generatedGraphQLTypes.md#aggregatepostresolvers)<`ContextType`\> |
-| `AggregateUser?` | [`AggregateUserResolvers`](types_generatedGraphQLTypes.md#aggregateuserresolvers)<`ContextType`\> |
-| `AndroidFirebaseOptions?` | [`AndroidFirebaseOptionsResolvers`](types_generatedGraphQLTypes.md#androidfirebaseoptionsresolvers)<`ContextType`\> |
-| `AuthData?` | [`AuthDataResolvers`](types_generatedGraphQLTypes.md#authdataresolvers)<`ContextType`\> |
-| `Comment?` | [`CommentResolvers`](types_generatedGraphQLTypes.md#commentresolvers)<`ContextType`\> |
-| `ConnectionPageInfo?` | [`ConnectionPageInfoResolvers`](types_generatedGraphQLTypes.md#connectionpageinforesolvers)<`ContextType`\> |
+| `AggregatePost?` | [`AggregatePostResolvers`](types_generatedGraphQLTypes.md#aggregatepostresolvers)\<`ContextType`\> |
+| `AggregateUser?` | [`AggregateUserResolvers`](types_generatedGraphQLTypes.md#aggregateuserresolvers)\<`ContextType`\> |
+| `AndroidFirebaseOptions?` | [`AndroidFirebaseOptionsResolvers`](types_generatedGraphQLTypes.md#androidfirebaseoptionsresolvers)\<`ContextType`\> |
+| `AuthData?` | [`AuthDataResolvers`](types_generatedGraphQLTypes.md#authdataresolvers)\<`ContextType`\> |
+| `Comment?` | [`CommentResolvers`](types_generatedGraphQLTypes.md#commentresolvers)\<`ContextType`\> |
+| `ConnectionPageInfo?` | [`ConnectionPageInfoResolvers`](types_generatedGraphQLTypes.md#connectionpageinforesolvers)\<`ContextType`\> |
 | `Date?` | `GraphQLScalarType` |
 | `DateTime?` | `GraphQLScalarType` |
-| `DeletePayload?` | [`DeletePayloadResolvers`](types_generatedGraphQLTypes.md#deletepayloadresolvers)<`ContextType`\> |
-| `DirectChat?` | [`DirectChatResolvers`](types_generatedGraphQLTypes.md#directchatresolvers)<`ContextType`\> |
-| `DirectChatMessage?` | [`DirectChatMessageResolvers`](types_generatedGraphQLTypes.md#directchatmessageresolvers)<`ContextType`\> |
-| `Donation?` | [`DonationResolvers`](types_generatedGraphQLTypes.md#donationresolvers)<`ContextType`\> |
+| `DeletePayload?` | [`DeletePayloadResolvers`](types_generatedGraphQLTypes.md#deletepayloadresolvers)\<`ContextType`\> |
+| `DirectChat?` | [`DirectChatResolvers`](types_generatedGraphQLTypes.md#directchatresolvers)\<`ContextType`\> |
+| `DirectChatMessage?` | [`DirectChatMessageResolvers`](types_generatedGraphQLTypes.md#directchatmessageresolvers)\<`ContextType`\> |
+| `Donation?` | [`DonationResolvers`](types_generatedGraphQLTypes.md#donationresolvers)\<`ContextType`\> |
 | `EmailAddress?` | `GraphQLScalarType` |
-| `Event?` | [`EventResolvers`](types_generatedGraphQLTypes.md#eventresolvers)<`ContextType`\> |
-| `EventRegistrants?` | [`EventRegistrantsResolvers`](types_generatedGraphQLTypes.md#eventregistrantsresolvers)<`ContextType`\> |
-| `ExtendSession?` | [`ExtendSessionResolvers`](types_generatedGraphQLTypes.md#extendsessionresolvers)<`ContextType`\> |
-| `Group?` | [`GroupResolvers`](types_generatedGraphQLTypes.md#groupresolvers)<`ContextType`\> |
-| `GroupChat?` | [`GroupChatResolvers`](types_generatedGraphQLTypes.md#groupchatresolvers)<`ContextType`\> |
-| `GroupChatMessage?` | [`GroupChatMessageResolvers`](types_generatedGraphQLTypes.md#groupchatmessageresolvers)<`ContextType`\> |
-| `IOSFirebaseOptions?` | [`IosFirebaseOptionsResolvers`](types_generatedGraphQLTypes.md#iosfirebaseoptionsresolvers)<`ContextType`\> |
-| `Language?` | [`LanguageResolvers`](types_generatedGraphQLTypes.md#languageresolvers)<`ContextType`\> |
-| `LanguageModel?` | [`LanguageModelResolvers`](types_generatedGraphQLTypes.md#languagemodelresolvers)<`ContextType`\> |
+| `Event?` | [`EventResolvers`](types_generatedGraphQLTypes.md#eventresolvers)\<`ContextType`\> |
+| `EventRegistrants?` | [`EventRegistrantsResolvers`](types_generatedGraphQLTypes.md#eventregistrantsresolvers)\<`ContextType`\> |
+| `ExtendSession?` | [`ExtendSessionResolvers`](types_generatedGraphQLTypes.md#extendsessionresolvers)\<`ContextType`\> |
+| `Group?` | [`GroupResolvers`](types_generatedGraphQLTypes.md#groupresolvers)\<`ContextType`\> |
+| `GroupChat?` | [`GroupChatResolvers`](types_generatedGraphQLTypes.md#groupchatresolvers)\<`ContextType`\> |
+| `GroupChatMessage?` | [`GroupChatMessageResolvers`](types_generatedGraphQLTypes.md#groupchatmessageresolvers)\<`ContextType`\> |
+| `IOSFirebaseOptions?` | [`IosFirebaseOptionsResolvers`](types_generatedGraphQLTypes.md#iosfirebaseoptionsresolvers)\<`ContextType`\> |
+| `Language?` | [`LanguageResolvers`](types_generatedGraphQLTypes.md#languageresolvers)\<`ContextType`\> |
+| `LanguageModel?` | [`LanguageModelResolvers`](types_generatedGraphQLTypes.md#languagemodelresolvers)\<`ContextType`\> |
 | `Latitude?` | `GraphQLScalarType` |
 | `Longitude?` | `GraphQLScalarType` |
-| `MembershipRequest?` | [`MembershipRequestResolvers`](types_generatedGraphQLTypes.md#membershiprequestresolvers)<`ContextType`\> |
-| `Message?` | [`MessageResolvers`](types_generatedGraphQLTypes.md#messageresolvers)<`ContextType`\> |
-| `MessageChat?` | [`MessageChatResolvers`](types_generatedGraphQLTypes.md#messagechatresolvers)<`ContextType`\> |
-| `Mutation?` | [`MutationResolvers`](types_generatedGraphQLTypes.md#mutationresolvers)<`ContextType`\> |
-| `Organization?` | [`OrganizationResolvers`](types_generatedGraphQLTypes.md#organizationresolvers)<`ContextType`\> |
-| `OrganizationInfoNode?` | [`OrganizationInfoNodeResolvers`](types_generatedGraphQLTypes.md#organizationinfonoderesolvers)<`ContextType`\> |
-| `OtpData?` | [`OtpDataResolvers`](types_generatedGraphQLTypes.md#otpdataresolvers)<`ContextType`\> |
-| `PageInfo?` | [`PageInfoResolvers`](types_generatedGraphQLTypes.md#pageinforesolvers)<`ContextType`\> |
+| `MembershipRequest?` | [`MembershipRequestResolvers`](types_generatedGraphQLTypes.md#membershiprequestresolvers)\<`ContextType`\> |
+| `Message?` | [`MessageResolvers`](types_generatedGraphQLTypes.md#messageresolvers)\<`ContextType`\> |
+| `MessageChat?` | [`MessageChatResolvers`](types_generatedGraphQLTypes.md#messagechatresolvers)\<`ContextType`\> |
+| `Mutation?` | [`MutationResolvers`](types_generatedGraphQLTypes.md#mutationresolvers)\<`ContextType`\> |
+| `Organization?` | [`OrganizationResolvers`](types_generatedGraphQLTypes.md#organizationresolvers)\<`ContextType`\> |
+| `OrganizationInfoNode?` | [`OrganizationInfoNodeResolvers`](types_generatedGraphQLTypes.md#organizationinfonoderesolvers)\<`ContextType`\> |
+| `OtpData?` | [`OtpDataResolvers`](types_generatedGraphQLTypes.md#otpdataresolvers)\<`ContextType`\> |
+| `PageInfo?` | [`PageInfoResolvers`](types_generatedGraphQLTypes.md#pageinforesolvers)\<`ContextType`\> |
 | `PhoneNumber?` | `GraphQLScalarType` |
-| `Plugin?` | [`PluginResolvers`](types_generatedGraphQLTypes.md#pluginresolvers)<`ContextType`\> |
-| `PluginField?` | [`PluginFieldResolvers`](types_generatedGraphQLTypes.md#pluginfieldresolvers)<`ContextType`\> |
+| `Plugin?` | [`PluginResolvers`](types_generatedGraphQLTypes.md#pluginresolvers)\<`ContextType`\> |
+| `PluginField?` | [`PluginFieldResolvers`](types_generatedGraphQLTypes.md#pluginfieldresolvers)\<`ContextType`\> |
 | `PositiveInt?` | `GraphQLScalarType` |
-| `Post?` | [`PostResolvers`](types_generatedGraphQLTypes.md#postresolvers)<`ContextType`\> |
-| `PostConnection?` | [`PostConnectionResolvers`](types_generatedGraphQLTypes.md#postconnectionresolvers)<`ContextType`\> |
-| `Query?` | [`QueryResolvers`](types_generatedGraphQLTypes.md#queryresolvers)<`ContextType`\> |
-| `Subscription?` | [`SubscriptionResolvers`](types_generatedGraphQLTypes.md#subscriptionresolvers)<`ContextType`\> |
-| `Task?` | [`TaskResolvers`](types_generatedGraphQLTypes.md#taskresolvers)<`ContextType`\> |
+| `Post?` | [`PostResolvers`](types_generatedGraphQLTypes.md#postresolvers)\<`ContextType`\> |
+| `PostConnection?` | [`PostConnectionResolvers`](types_generatedGraphQLTypes.md#postconnectionresolvers)\<`ContextType`\> |
+| `Query?` | [`QueryResolvers`](types_generatedGraphQLTypes.md#queryresolvers)\<`ContextType`\> |
+| `Subscription?` | [`SubscriptionResolvers`](types_generatedGraphQLTypes.md#subscriptionresolvers)\<`ContextType`\> |
+| `Task?` | [`TaskResolvers`](types_generatedGraphQLTypes.md#taskresolvers)\<`ContextType`\> |
 | `Time?` | `GraphQLScalarType` |
-| `Translation?` | [`TranslationResolvers`](types_generatedGraphQLTypes.md#translationresolvers)<`ContextType`\> |
+| `Translation?` | [`TranslationResolvers`](types_generatedGraphQLTypes.md#translationresolvers)\<`ContextType`\> |
 | `URL?` | `GraphQLScalarType` |
 | `Upload?` | `GraphQLScalarType` |
-| `User?` | [`UserResolvers`](types_generatedGraphQLTypes.md#userresolvers)<`ContextType`\> |
-| `UserAttende?` | [`UserAttendeResolvers`](types_generatedGraphQLTypes.md#userattenderesolvers)<`ContextType`\> |
-| `UserConnection?` | [`UserConnectionResolvers`](types_generatedGraphQLTypes.md#userconnectionresolvers)<`ContextType`\> |
-| `UserEdge?` | [`UserEdgeResolvers`](types_generatedGraphQLTypes.md#useredgeresolvers)<`ContextType`\> |
-| `UserTag?` | [`UserTagResolvers`](types_generatedGraphQLTypes.md#usertagresolvers)<`ContextType`\> |
-| `UserTagEdge?` | [`UserTagEdgeResolvers`](types_generatedGraphQLTypes.md#usertagedgeresolvers)<`ContextType`\> |
-| `UserTagsConnection?` | [`UserTagsConnectionResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionresolvers)<`ContextType`\> |
-| `UsersConnection?` | [`UsersConnectionResolvers`](types_generatedGraphQLTypes.md#usersconnectionresolvers)<`ContextType`\> |
+| `User?` | [`UserResolvers`](types_generatedGraphQLTypes.md#userresolvers)\<`ContextType`\> |
+| `UserAttende?` | [`UserAttendeResolvers`](types_generatedGraphQLTypes.md#userattenderesolvers)\<`ContextType`\> |
+| `UserConnection?` | [`UserConnectionResolvers`](types_generatedGraphQLTypes.md#userconnectionresolvers)\<`ContextType`\> |
+| `UserEdge?` | [`UserEdgeResolvers`](types_generatedGraphQLTypes.md#useredgeresolvers)\<`ContextType`\> |
+| `UserTag?` | [`UserTagResolvers`](types_generatedGraphQLTypes.md#usertagresolvers)\<`ContextType`\> |
+| `UserTagEdge?` | [`UserTagEdgeResolvers`](types_generatedGraphQLTypes.md#usertagedgeresolvers)\<`ContextType`\> |
+| `UserTagsConnection?` | [`UserTagsConnectionResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionresolvers)\<`ContextType`\> |
+| `UsersConnection?` | [`UsersConnectionResolvers`](types_generatedGraphQLTypes.md#usersconnectionresolvers)\<`ContextType`\> |
 
 #### Defined in
 
@@ -4789,7 +4789,7 @@ Mapping between all available schema types and the resolvers parents
 | `AggregatePost` | [`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost) |
 | `AggregateUser` | [`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser) |
 | `AndroidFirebaseOptions` | [`AndroidFirebaseOptions`](types_generatedGraphQLTypes.md#androidfirebaseoptions) |
-| `AuthData` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`AuthData`](types_generatedGraphQLTypes.md#authdata), ``"user"``\> & { `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
+| `AuthData` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`AuthData`](types_generatedGraphQLTypes.md#authdata), ``"user"``\> & \{ `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
 | `Boolean` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
 | `Comment` | [`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md) |
 | `CommentInput` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
@@ -4805,7 +4805,7 @@ Mapping between all available schema types and the resolvers parents
 | `EmailAddress` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
 | `Event` | [`Interface_Event`](../interfaces/models_Event.Interface_Event.md) |
 | `EventInput` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
-| `EventRegistrants` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants), ``"event"``\> & { `event`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Event"``]  } |
+| `EventRegistrants` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants), ``"event"``\> & \{ `event`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Event"``]  } |
 | `EventWhereInput` | [`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) |
 | `ExtendSession` | [`ExtendSession`](types_generatedGraphQLTypes.md#extendsession) |
 | `Float` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``] |
@@ -4827,10 +4827,10 @@ Mapping between all available schema types and the resolvers parents
 | `Message` | [`Interface_Message`](../interfaces/models_Message.Interface_Message.md) |
 | `MessageChat` | [`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md) |
 | `MessageChatInput` | [`MessageChatInput`](types_generatedGraphQLTypes.md#messagechatinput) |
-| `Mutation` | {} |
+| `Mutation` | \{} |
 | `OTPInput` | [`OtpInput`](types_generatedGraphQLTypes.md#otpinput) |
 | `Organization` | [`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md) |
-| `OrganizationInfoNode` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & { `creator`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
+| `OrganizationInfoNode` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & \{ `creator`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
 | `OrganizationInput` | [`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput) |
 | `OrganizationWhereInput` | [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) |
 | `OtpData` | [`OtpData`](types_generatedGraphQLTypes.md#otpdata) |
@@ -4842,14 +4842,14 @@ Mapping between all available schema types and the resolvers parents
 | `PluginInput` | [`PluginInput`](types_generatedGraphQLTypes.md#plugininput) |
 | `PositiveInt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``] |
 | `Post` | [`Interface_Post`](../interfaces/models_Post.Interface_Post.md) |
-| `PostConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection), ``"edges"``\> & { `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Post"``]\>[]  } |
+| `PostConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Post"``]\>[]  } |
 | `PostInput` | [`PostInput`](types_generatedGraphQLTypes.md#postinput) |
 | `PostUpdateInput` | [`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput) |
 | `PostWhereInput` | [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) |
-| `Query` | {} |
+| `Query` | \{} |
 | `RecaptchaVerification` | [`RecaptchaVerification`](types_generatedGraphQLTypes.md#recaptchaverification) |
 | `String` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `Subscription` | {} |
+| `Subscription` | \{} |
 | `Task` | [`Interface_Task`](../interfaces/models_Task.Interface_Task.md) |
 | `TaskInput` | [`TaskInput`](types_generatedGraphQLTypes.md#taskinput) |
 | `Time` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``] |
@@ -4866,15 +4866,15 @@ Mapping between all available schema types and the resolvers parents
 | `Upload` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``] |
 | `User` | [`Interface_User`](../interfaces/models_User.Interface_User.md) |
 | `UserAndOrganizationInput` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
-| `UserAttende` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserAttende`](types_generatedGraphQLTypes.md#userattende), ``"user"``\> & { `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
-| `UserConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & { `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>[]  } |
-| `UserEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & { `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
+| `UserAttende` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserAttende`](types_generatedGraphQLTypes.md#userattende), ``"user"``\> & \{ `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
+| `UserConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>[]  } |
+| `UserEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
 | `UserInput` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
 | `UserTag` | [`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md) |
-| `UserTagEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & { `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTag"``]  } |
-| `UserTagsConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & { `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``]\>[]\>  } |
+| `UserTagEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTag"``]  } |
+| `UserTagsConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``]\>[]\>  } |
 | `UserWhereInput` | [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) |
-| `UsersConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & { `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``]\>[]\>  } |
+| `UsersConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``]\>[]\>  } |
 | `createChatInput` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 | `createGroupChatInput` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
 
@@ -4894,83 +4894,83 @@ Mapping between all available schema types and the resolvers types
 
 | Name | Type |
 | :------ | :------ |
-| `AggregatePost` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost)\> |
-| `AggregateUser` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser)\> |
-| `AndroidFirebaseOptions` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`AndroidFirebaseOptions`](types_generatedGraphQLTypes.md#androidfirebaseoptions)\> |
-| `AuthData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`AuthData`](types_generatedGraphQLTypes.md#authdata), ``"user"``\> & { `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
-| `Boolean` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `Comment` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md)\> |
+| `AggregatePost` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost)\> |
+| `AggregateUser` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser)\> |
+| `AndroidFirebaseOptions` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AndroidFirebaseOptions`](types_generatedGraphQLTypes.md#androidfirebaseoptions)\> |
+| `AuthData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`AuthData`](types_generatedGraphQLTypes.md#authdata), ``"user"``\> & \{ `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
+| `Boolean` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `Comment` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md)\> |
 | `CommentInput` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
-| `ConnectionPageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo)\> |
+| `ConnectionPageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo)\> |
 | `CreateUserTagInput` | [`CreateUserTagInput`](types_generatedGraphQLTypes.md#createusertaginput) |
-| `Date` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `DateTime` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `DeletePayload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload)\> |
-| `DirectChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md)\> |
-| `DirectChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_DirectChatMessage`](../interfaces/models_DirectChatMessage.Interface_DirectChatMessage.md)\> |
-| `Donation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Donation`](../interfaces/models_Donation.Interface_Donation.md)\> |
+| `Date` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
+| `DateTime` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `DeletePayload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload)\> |
+| `DirectChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md)\> |
+| `DirectChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_DirectChatMessage`](../interfaces/models_DirectChatMessage.Interface_DirectChatMessage.md)\> |
+| `Donation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Donation`](../interfaces/models_Donation.Interface_Donation.md)\> |
 | `DonationWhereInput` | [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput) |
-| `EmailAddress` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `Event` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Event`](../interfaces/models_Event.Interface_Event.md)\> |
+| `EmailAddress` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
+| `Event` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Event`](../interfaces/models_Event.Interface_Event.md)\> |
 | `EventInput` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
 | `EventOrderByInput` | [`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput) |
-| `EventRegistrants` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants), ``"event"``\> & { `event`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]  }\> |
+| `EventRegistrants` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants), ``"event"``\> & \{ `event`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]  }\> |
 | `EventWhereInput` | [`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) |
-| `ExtendSession` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`ExtendSession`](types_generatedGraphQLTypes.md#extendsession)\> |
-| `Float` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``]\> |
+| `ExtendSession` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ExtendSession`](types_generatedGraphQLTypes.md#extendsession)\> |
+| `Float` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``]\> |
 | `ForgotPasswordData` | [`ForgotPasswordData`](types_generatedGraphQLTypes.md#forgotpassworddata) |
-| `Group` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Group`](../interfaces/models_Group.Interface_Group.md)\> |
-| `GroupChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_GroupChat`](../interfaces/models_GroupChat.Interface_GroupChat.md)\> |
-| `GroupChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_GroupChatMessage`](../interfaces/models_GroupChatMessage.Interface_GroupChatMessage.md)\> |
+| `Group` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Group`](../interfaces/models_Group.Interface_Group.md)\> |
+| `GroupChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_GroupChat`](../interfaces/models_GroupChat.Interface_GroupChat.md)\> |
+| `GroupChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_GroupChatMessage`](../interfaces/models_GroupChatMessage.Interface_GroupChatMessage.md)\> |
 | `GroupInput` | [`GroupInput`](types_generatedGraphQLTypes.md#groupinput) |
-| `ID` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `IOSFirebaseOptions` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`IosFirebaseOptions`](types_generatedGraphQLTypes.md#iosfirebaseoptions)\> |
-| `Int` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `Language` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Language`](../interfaces/models_Language.Interface_Language.md)\> |
+| `ID` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `IOSFirebaseOptions` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`IosFirebaseOptions`](types_generatedGraphQLTypes.md#iosfirebaseoptions)\> |
+| `Int` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `Language` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Language`](../interfaces/models_Language.Interface_Language.md)\> |
 | `LanguageInput` | [`LanguageInput`](types_generatedGraphQLTypes.md#languageinput) |
-| `LanguageModel` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel)\> |
-| `Latitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
+| `LanguageModel` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel)\> |
+| `Latitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
 | `LoginInput` | [`LoginInput`](types_generatedGraphQLTypes.md#logininput) |
-| `Longitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
-| `MembershipRequest` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_MembershipRequest`](../interfaces/models_MembershipRequest.Interface_MembershipRequest.md)\> |
-| `Message` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Message`](../interfaces/models_Message.Interface_Message.md)\> |
-| `MessageChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md)\> |
+| `Longitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
+| `MembershipRequest` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_MembershipRequest`](../interfaces/models_MembershipRequest.Interface_MembershipRequest.md)\> |
+| `Message` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Message`](../interfaces/models_Message.Interface_Message.md)\> |
+| `MessageChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md)\> |
 | `MessageChatInput` | [`MessageChatInput`](types_generatedGraphQLTypes.md#messagechatinput) |
-| `Mutation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<{}\> |
+| `Mutation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{}\> |
 | `OTPInput` | [`OtpInput`](types_generatedGraphQLTypes.md#otpinput) |
-| `Organization` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md)\> |
-| `OrganizationInfoNode` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & { `creator`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
+| `Organization` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md)\> |
+| `OrganizationInfoNode` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & \{ `creator`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
 | `OrganizationInput` | [`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput) |
 | `OrganizationOrderByInput` | [`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput) |
 | `OrganizationWhereInput` | [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) |
-| `OtpData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`OtpData`](types_generatedGraphQLTypes.md#otpdata)\> |
-| `PageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`PageInfo`](types_generatedGraphQLTypes.md#pageinfo)\> |
-| `PhoneNumber` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``]\> |
-| `Plugin` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md)\> |
-| `PluginField` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_PluginField`](../interfaces/models_PluginField.Interface_PluginField.md)\> |
+| `OtpData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`OtpData`](types_generatedGraphQLTypes.md#otpdata)\> |
+| `PageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`PageInfo`](types_generatedGraphQLTypes.md#pageinfo)\> |
+| `PhoneNumber` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``]\> |
+| `Plugin` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md)\> |
+| `PluginField` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_PluginField`](../interfaces/models_PluginField.Interface_PluginField.md)\> |
 | `PluginFieldInput` | [`PluginFieldInput`](types_generatedGraphQLTypes.md#pluginfieldinput) |
 | `PluginInput` | [`PluginInput`](types_generatedGraphQLTypes.md#plugininput) |
-| `PositiveInt` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `Post` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Post`](../interfaces/models_Post.Interface_Post.md)\> |
-| `PostConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection), ``"edges"``\> & { `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]  }\> |
+| `PositiveInt` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `Post` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Post`](../interfaces/models_Post.Interface_Post.md)\> |
+| `PostConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]  }\> |
 | `PostInput` | [`PostInput`](types_generatedGraphQLTypes.md#postinput) |
 | `PostOrderByInput` | [`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput) |
 | `PostUpdateInput` | [`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput) |
 | `PostWhereInput` | [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) |
-| `Query` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<{}\> |
+| `Query` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{}\> |
 | `RecaptchaVerification` | [`RecaptchaVerification`](types_generatedGraphQLTypes.md#recaptchaverification) |
 | `Recurrance` | [`Recurrance`](types_generatedGraphQLTypes.md#recurrance) |
 | `Status` | [`Status`](types_generatedGraphQLTypes.md#status) |
-| `String` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `Subscription` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<{}\> |
-| `Task` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_Task`](../interfaces/models_Task.Interface_Task.md)\> |
+| `String` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `Subscription` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{}\> |
+| `Task` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Task`](../interfaces/models_Task.Interface_Task.md)\> |
 | `TaskInput` | [`TaskInput`](types_generatedGraphQLTypes.md#taskinput) |
 | `TaskOrderByInput` | [`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput) |
-| `Time` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `Time` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
 | `ToggleUserTagAssignInput` | [`ToggleUserTagAssignInput`](types_generatedGraphQLTypes.md#toggleusertagassigninput) |
-| `Translation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Translation`](types_generatedGraphQLTypes.md#translation)\> |
+| `Translation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Translation`](types_generatedGraphQLTypes.md#translation)\> |
 | `Type` | [`Type`](types_generatedGraphQLTypes.md#type) |
-| `URL` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `URL` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
 | `UpdateEventInput` | [`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput) |
 | `UpdateOrganizationInput` | [`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput) |
 | `UpdateTaskInput` | [`UpdateTaskInput`](types_generatedGraphQLTypes.md#updatetaskinput) |
@@ -4978,20 +4978,20 @@ Mapping between all available schema types and the resolvers types
 | `UpdateUserPasswordInput` | [`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput) |
 | `UpdateUserTagInput` | [`UpdateUserTagInput`](types_generatedGraphQLTypes.md#updateusertaginput) |
 | `UpdateUserTypeInput` | [`UpdateUserTypeInput`](types_generatedGraphQLTypes.md#updateusertypeinput) |
-| `Upload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``]\> |
-| `User` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_User`](../interfaces/models_User.Interface_User.md)\> |
+| `Upload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``]\> |
+| `User` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_User`](../interfaces/models_User.Interface_User.md)\> |
 | `UserAndOrganizationInput` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
-| `UserAttende` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserAttende`](types_generatedGraphQLTypes.md#userattende), ``"user"``\> & { `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
-| `UserConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & { `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]  }\> |
-| `UserEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & { `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
+| `UserAttende` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserAttende`](types_generatedGraphQLTypes.md#userattende), ``"user"``\> & \{ `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
+| `UserConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]  }\> |
+| `UserEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
 | `UserInput` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
 | `UserOrderByInput` | [`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput) |
-| `UserTag` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md)\> |
-| `UserTagEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & { `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]  }\> |
-| `UserTagsConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & { `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``]\>[]\>  }\> |
+| `UserTag` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md)\> |
+| `UserTagEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]  }\> |
+| `UserTagsConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``]\>[]\>  }\> |
 | `UserType` | [`UserType`](types_generatedGraphQLTypes.md#usertype) |
 | `UserWhereInput` | [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) |
-| `UsersConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)<[`Omit`](types_generatedGraphQLTypes.md#omit)<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & { `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``]\>[]\>  }\> |
+| `UsersConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``]\>[]\>  }\> |
 | `createChatInput` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 | `createGroupChatInput` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
 
@@ -5009,7 +5009,7 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `requires?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserType`](types_generatedGraphQLTypes.md#usertype)\> |
+| `requires?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserType`](types_generatedGraphQLTypes.md#usertype)\> |
 
 #### Defined in
 
@@ -5019,7 +5019,7 @@ ___
 
 ### RoleDirectiveResolver
 
-Ƭ **RoleDirectiveResolver**<`Result`, `Parent`, `ContextType`, `Args`\>: [`DirectiveResolverFn`](types_generatedGraphQLTypes.md#directiveresolverfn)<`Result`, `Parent`, `ContextType`, `Args`\>
+Ƭ **RoleDirectiveResolver**\<`Result`, `Parent`, `ContextType`, `Args`\>: [`DirectiveResolverFn`](types_generatedGraphQLTypes.md#directiveresolverfn)\<`Result`, `Parent`, `ContextType`, `Args`\>
 
 #### Type parameters
 
@@ -5087,9 +5087,9 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Subscription"`` |
-| `directMessageChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`MessageChat`](types_generatedGraphQLTypes.md#messagechat)\> |
-| `messageSentToDirectChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\> |
-| `messageSentToGroupChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\> |
+| `directMessageChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MessageChat`](types_generatedGraphQLTypes.md#messagechat)\> |
+| `messageSentToDirectChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\> |
+| `messageSentToGroupChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\> |
 
 #### Defined in
 
@@ -5099,7 +5099,7 @@ ___
 
 ### SubscriptionObject
 
-Ƭ **SubscriptionObject**<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\>: [`SubscriptionSubscriberObject`](../interfaces/types_generatedGraphQLTypes.SubscriptionSubscriberObject.md)<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\> \| [`SubscriptionResolverObject`](../interfaces/types_generatedGraphQLTypes.SubscriptionResolverObject.md)<`TResult`, `TParent`, `TContext`, `TArgs`\>
+Ƭ **SubscriptionObject**\<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\>: [`SubscriptionSubscriberObject`](../interfaces/types_generatedGraphQLTypes.SubscriptionSubscriberObject.md)\<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\> \| [`SubscriptionResolverObject`](../interfaces/types_generatedGraphQLTypes.SubscriptionResolverObject.md)\<`TResult`, `TParent`, `TContext`, `TArgs`\>
 
 #### Type parameters
 
@@ -5119,7 +5119,7 @@ ___
 
 ### SubscriptionResolveFn
 
-Ƭ **SubscriptionResolveFn**<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `TResult` \| `Promise`<`TResult`\>
+Ƭ **SubscriptionResolveFn**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `TResult` \| `Promise`\<`TResult`\>
 
 #### Type parameters
 
@@ -5132,7 +5132,7 @@ ___
 
 #### Type declaration
 
-▸ (`parent`, `args`, `context`, `info?`): `TResult` \| `Promise`<`TResult`\>
+▸ (`parent`, `args`, `context`, `info?`): `TResult` \| `Promise`\<`TResult`\>
 
 ##### Parameters
 
@@ -5145,7 +5145,7 @@ ___
 
 ##### Returns
 
-`TResult` \| `Promise`<`TResult`\>
+`TResult` \| `Promise`\<`TResult`\>
 
 #### Defined in
 
@@ -5155,7 +5155,7 @@ ___
 
 ### SubscriptionResolver
 
-Ƭ **SubscriptionResolver**<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\>: (...`args`: `any`[]) => [`SubscriptionObject`](types_generatedGraphQLTypes.md#subscriptionobject)<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\> \| [`SubscriptionObject`](types_generatedGraphQLTypes.md#subscriptionobject)<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\>
+Ƭ **SubscriptionResolver**\<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\>: (...`args`: `any`[]) => [`SubscriptionObject`](types_generatedGraphQLTypes.md#subscriptionobject)\<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\> \| [`SubscriptionObject`](types_generatedGraphQLTypes.md#subscriptionobject)\<`TResult`, `TKey`, `TParent`, `TContext`, `TArgs`\>
 
 #### Type parameters
 
@@ -5163,9 +5163,9 @@ ___
 | :------ | :------ |
 | `TResult` | `TResult` |
 | `TKey` | extends `string` |
-| `TParent` | {} |
-| `TContext` | {} |
-| `TArgs` | {} |
+| `TParent` | \{} |
+| `TContext` | \{} |
+| `TArgs` | \{} |
 
 #### Defined in
 
@@ -5175,7 +5175,7 @@ ___
 
 ### SubscriptionResolvers
 
-Ƭ **SubscriptionResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **SubscriptionResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5188,9 +5188,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `directMessageChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``]\>, ``"directMessageChat"``, `ParentType`, `ContextType`\> |
-| `messageSentToDirectChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>, ``"messageSentToDirectChat"``, `ParentType`, `ContextType`\> |
-| `messageSentToGroupChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>, ``"messageSentToGroupChat"``, `ParentType`, `ContextType`\> |
+| `directMessageChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``]\>, ``"directMessageChat"``, `ParentType`, `ContextType`\> |
+| `messageSentToDirectChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>, ``"messageSentToDirectChat"``, `ParentType`, `ContextType`\> |
+| `messageSentToGroupChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>, ``"messageSentToGroupChat"``, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5200,7 +5200,7 @@ ___
 
 ### SubscriptionSubscribeFn
 
-Ƭ **SubscriptionSubscribeFn**<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `AsyncIterable`<`TResult`\> \| `Promise`<`AsyncIterable`<`TResult`\>\>
+Ƭ **SubscriptionSubscribeFn**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`: `TParent`, `args`: `TArgs`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => `AsyncIterable`\<`TResult`\> \| `Promise`\<`AsyncIterable`\<`TResult`\>\>
 
 #### Type parameters
 
@@ -5213,7 +5213,7 @@ ___
 
 #### Type declaration
 
-▸ (`parent`, `args`, `context`, `info?`): `AsyncIterable`<`TResult`\> \| `Promise`<`AsyncIterable`<`TResult`\>\>
+▸ (`parent`, `args`, `context`, `info?`): `AsyncIterable`\<`TResult`\> \| `Promise`\<`AsyncIterable`\<`TResult`\>\>
 
 ##### Parameters
 
@@ -5226,7 +5226,7 @@ ___
 
 ##### Returns
 
-`AsyncIterable`<`TResult`\> \| `Promise`<`AsyncIterable`<`TResult`\>\>
+`AsyncIterable`\<`TResult`\> \| `Promise`\<`AsyncIterable`\<`TResult`\>\>
 
 #### Defined in
 
@@ -5246,8 +5246,8 @@ ___
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
 | `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
 | `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `deadline?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `deadline?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `event` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 
@@ -5265,8 +5265,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `deadline?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `deadline?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 
 #### Defined in
@@ -5287,7 +5287,7 @@ ___
 
 ### TaskResolvers
 
-Ƭ **TaskResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **TaskResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5300,14 +5300,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `deadline?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
-| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `deadline?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
+| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5341,10 +5341,10 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Translation"`` |
-| `en_value?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lang_code?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `verified?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `en_value?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `lang_code?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `verified?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
 
 #### Defined in
 
@@ -5354,7 +5354,7 @@ ___
 
 ### TranslationResolvers
 
-Ƭ **TranslationResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **TranslationResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5367,11 +5367,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `en_value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `lang_code?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `translation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `verified?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `en_value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `lang_code?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `translation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `verified?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5391,19 +5391,19 @@ ___
 
 ### TypeResolveFn
 
-Ƭ **TypeResolveFn**<`TTypes`, `TParent`, `TContext`\>: (`parent`: `TParent`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => [`Maybe`](types_generatedGraphQLTypes.md#maybe)<`TTypes`\> \| `Promise`<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<`TTypes`\>\>
+Ƭ **TypeResolveFn**\<`TTypes`, `TParent`, `TContext`\>: (`parent`: `TParent`, `context`: `TContext`, `info?`: `GraphQLResolveInfo`) => [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`TTypes`\> \| `Promise`\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`TTypes`\>\>
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `TTypes` | `TTypes` |
-| `TParent` | {} |
-| `TContext` | {} |
+| `TParent` | \{} |
+| `TContext` | \{} |
 
 #### Type declaration
 
-▸ (`parent`, `context`, `info?`): [`Maybe`](types_generatedGraphQLTypes.md#maybe)<`TTypes`\> \| `Promise`<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<`TTypes`\>\>
+▸ (`parent`, `context`, `info?`): [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`TTypes`\> \| `Promise`\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`TTypes`\>\>
 
 ##### Parameters
 
@@ -5415,7 +5415,7 @@ ___
 
 ##### Returns
 
-[`Maybe`](types_generatedGraphQLTypes.md#maybe)<`TTypes`\> \| `Promise`<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<`TTypes`\>\>
+[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`TTypes`\> \| `Promise`\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<`TTypes`\>\>
 
 #### Defined in
 
@@ -5431,20 +5431,20 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `allDay?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `isRegisterable?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
-| `recurrance?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
-| `recurring?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `allDay?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
+| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `isRegisterable?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
+| `recurrance?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
+| `recurring?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
+| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -5460,11 +5460,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
 
 #### Defined in
 
@@ -5480,9 +5480,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `deadline?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `deadline?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -5498,9 +5498,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
+| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -5551,8 +5551,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `userType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `userType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -5570,26 +5570,26 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"User"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `adminApproved?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `adminFor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
+| `adminApproved?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `adminFor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
 | `appLanguageCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `createdEvents?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
-| `createdOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `createdEvents?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
+| `createdOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
 | `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
-| `eventAdmin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
+| `eventAdmin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `firstName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `joinedOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
+| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `joinedOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
 | `lastName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `membershipRequests?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest)\>[]\> |
-| `organizationUserBelongsTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
-| `organizationsBlockedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
-| `pluginCreationAllowed?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `registeredEvents?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
-| `tagsAssignedWith?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
+| `membershipRequests?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest)\>[]\> |
+| `organizationUserBelongsTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
+| `organizationsBlockedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
+| `pluginCreationAllowed?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `registeredEvents?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
+| `tagsAssignedWith?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
 | `tokenVersion` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``] |
-| `userType?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `userType?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -5624,7 +5624,7 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"UserAttende"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
 | `status` | [`Status`](types_generatedGraphQLTypes.md#status) |
 | `user` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
@@ -5637,7 +5637,7 @@ ___
 
 ### UserAttendeResolvers
 
-Ƭ **UserAttendeResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserAttendeResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5650,12 +5650,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
-| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5673,7 +5673,7 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"UserConnection"`` |
 | `aggregate` | [`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser) |
-| `edges` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`User`](types_generatedGraphQLTypes.md#user)\>[] |
+| `edges` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[] |
 | `pageInfo` | [`PageInfo`](types_generatedGraphQLTypes.md#pageinfo) |
 
 #### Defined in
@@ -5684,7 +5684,7 @@ ___
 
 ### UserConnectionResolvers
 
-Ƭ **UserConnectionResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserConnectionResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5697,10 +5697,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `aggregate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AggregateUser"``], `ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[], `ParentType`, `ContextType`\> |
-| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PageInfo"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `aggregate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AggregateUser"``], `ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[], `ParentType`, `ContextType`\> |
+| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5728,7 +5728,7 @@ ___
 
 ### UserEdgeResolvers
 
-Ƭ **UserEdgeResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserEdgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5741,9 +5741,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5759,11 +5759,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 | `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
 | `firstName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 | `lastName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `organizationUserBelongsToId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `organizationUserBelongsToId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
 | `password` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
 
 #### Defined in
@@ -5784,7 +5784,7 @@ ___
 
 ### UserResolvers
 
-Ƭ **UserResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5797,28 +5797,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `adminApproved?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
-| `adminFor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `appLanguageCode?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `createdEvents?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `email?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EmailAddress"``], `ParentType`, `ContextType`\> |
-| `eventAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `firstName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `joinedOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `lastName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `membershipRequests?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `organizationUserBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
-| `organizationsBlockedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `pluginCreationAllowed?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
-| `registeredEvents?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `tagsAssignedWith?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`<[`UserTagsAssignedWithArgs`](types_generatedGraphQLTypes.md#usertagsassignedwithargs)\>\> |
-| `tokenVersion?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
-| `userType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `adminApproved?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `adminFor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `appLanguageCode?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `createdEvents?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `createdOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `email?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EmailAddress"``], `ParentType`, `ContextType`\> |
+| `eventAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `firstName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `joinedOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `lastName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `membershipRequests?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `organizationUserBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
+| `organizationsBlockedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `pluginCreationAllowed?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `registeredEvents?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `tagsAssignedWith?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagsAssignedWithArgs`](types_generatedGraphQLTypes.md#usertagsassignedwithargs)\>\> |
+| `tokenVersion?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
+| `userType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5836,11 +5836,11 @@ ___
 | :------ | :------ |
 | `__typename?` | ``"UserTag"`` |
 | `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `childTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
+| `childTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
 | `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
-| `parentTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
-| `usersAssignedTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection)\> |
+| `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
+| `parentTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
+| `usersAssignedTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection)\> |
 
 #### Defined in
 
@@ -5856,10 +5856,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
 
 #### Defined in
 
@@ -5887,7 +5887,7 @@ ___
 
 ### UserTagEdgeResolvers
 
-Ƭ **UserTagEdgeResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserTagEdgeResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5900,9 +5900,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `cursor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `node?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -5912,7 +5912,7 @@ ___
 
 ### UserTagResolvers
 
-Ƭ **UserTagResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserTagResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -5925,13 +5925,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `childTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`<[`UserTagChildTagsArgs`](types_generatedGraphQLTypes.md#usertagchildtagsargs)\>\> |
-| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
-| `parentTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`\> |
-| `usersAssignedTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\>, `ParentType`, `ContextType`, `Partial`<[`UserTagUsersAssignedToArgs`](types_generatedGraphQLTypes.md#usertagusersassignedtoargs)\>\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `childTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagChildTagsArgs`](types_generatedGraphQLTypes.md#usertagchildtagsargs)\>\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
+| `parentTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`\> |
+| `usersAssignedTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagUsersAssignedToArgs`](types_generatedGraphQLTypes.md#usertagusersassignedtoargs)\>\> |
 
 #### Defined in
 
@@ -5947,10 +5947,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
 
 #### Defined in
 
@@ -5966,11 +5966,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `organizationId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `organizationId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
 
 #### Defined in
 
@@ -5987,7 +5987,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UserTagsConnection"`` |
-| `edges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge)\>[]\> |
+| `edges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge)\>[]\> |
 | `pageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
 
 #### Defined in
@@ -5998,7 +5998,7 @@ ___
 
 ### UserTagsConnectionResolvers
 
-Ƭ **UserTagsConnectionResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UserTagsConnectionResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -6011,9 +6011,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
@@ -6039,38 +6039,38 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `admin_for?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appLanguageCode_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appLanguageCode_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `appLanguageCode_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appLanguageCode_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `appLanguageCode_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `email_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `email_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][]\> |
-| `email_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `email_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][]\> |
-| `email_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `event_title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `firstName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `firstName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `lastName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `lastName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `admin_for?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `appLanguageCode_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `appLanguageCode_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `appLanguageCode_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `appLanguageCode_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `appLanguageCode_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
+| `email_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
+| `email_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][]\> |
+| `email_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
+| `email_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][]\> |
+| `email_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
+| `event_title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `firstName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `firstName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `firstName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `firstName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `firstName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `lastName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `lastName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `lastName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `lastName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
+| `lastName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
 
 #### Defined in
 
@@ -6087,7 +6087,7 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UsersConnection"`` |
-| `edges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`UserEdge`](types_generatedGraphQLTypes.md#useredge)\>[]\> |
+| `edges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge)\>[]\> |
 | `pageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
 
 #### Defined in
@@ -6098,7 +6098,7 @@ ___
 
 ### UsersConnectionResolvers
 
-Ƭ **UsersConnectionResolvers**<`ContextType`, `ParentType`\>: `Object`
+Ƭ **UsersConnectionResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
@@ -6111,9 +6111,9 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)<`ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`Maybe`](types_generatedGraphQLTypes.md#maybe)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
