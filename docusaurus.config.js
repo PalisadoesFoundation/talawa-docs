@@ -93,7 +93,7 @@ const config = {
 						items: [
 						  {
 							label: 'Talawa API',
-							to: "docs/Introduction-TalawaAPI",
+							to: "docs/talawa-api-docs/modules",
 							activeBasePath: "docs",
 						  },
 						  {
@@ -103,7 +103,7 @@ const config = {
 						  },
 						  {
 							label: 'Talawa Admin',
-							to: "docs/Introduction-TalawaAdmin",
+							to: "docs/talawa-admin-docs/modules",
 							activeBasePath: "docs",
 						  },
 						],
