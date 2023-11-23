@@ -11,9 +11,9 @@ This section is a work in progress.
 
 ### Code: DON-005
 
-_Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **4/04/21** _
+_Authored by **Xavier Bryson**. Last updated on **4/04/21**_
 
-This feature aims to _ **manage privileged access** _ by _ **use of fees associated with certain features/terms of use** _.
+This feature aims to _**manage privileged access**_ by _**use of fees associated with certain features/terms of use**_.
 
 ### Overview
 

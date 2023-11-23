@@ -32,9 +32,9 @@ This section is a work in progress.
 
 ### Code: DAT-002
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 31,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _**March 31,2021**_
 
-This feature aims to _ **enforce a data compression strategy** _ by _ ** detailing how and when data is compressed for storage in the database ** _.
+This feature aims to _**enforce a data compression strategy**_ by _**detailing how and when data is compressed for storage in the database**_.
 
 ### Overview
 
@@ -103,9 +103,9 @@ This section is a work in progress.
 
 ### Code: DAT-001
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 31,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _**March 31,2021**_
 
-This feature aims to _ **enforce data retention strategy** _ by _ ** detailing the requirements around how long and in what form data is retained in the database ** _.
+This feature aims to _**enforce data retention strategy**_ by _**detailing the requirements around how long and in what form data is retained in the database**_.
 
 ### Overview
 
@@ -173,9 +173,9 @@ This section is a work in progress.
 
 ### Code: DAT-003
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 31,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _**March 31,2021**_
 
-This feature aims to _ **enforce data storage strategy** _ by _ ** detailing the requirements for the storage of data in the database ** _.
+This feature aims to _**enforce data storage strategy**_ by _**detailing the requirements for the storage of data in the database**_.
 
 ### Overview
 

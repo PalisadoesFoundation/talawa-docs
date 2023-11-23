@@ -21,9 +21,9 @@ This section is a work in progress.
 
 ### Code: TAG
 
-_Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
+_Authored by **Xavier Bryson**. Last updated on **14/03/21**_
 
-This feature aims to _ **track posts** _ by \_ **allowing users to subscribe to hashtags**.
+This feature aims to _**track posts**_ by \_ **allowing users to subscribe to hashtags**.
 
 ### Overview
 

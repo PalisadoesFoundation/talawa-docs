@@ -31,9 +31,9 @@ This section is a work in progress.
 
 ### Code: MSG-001
 
-_Authored by** **Shannika Jackson** **. Last updated on_ _ **March 14,2021** _
+_Authored by** **Shannika Jackson** **. Last updated on_ _**March 14,2021**_
 
-This feature aims to _ **enhance in app communication** _ by _ **allowing users to chat instantly within the app** _.
+This feature aims to _**enhance in app communication**_ by _**allowing users to chat instantly within the app**_.
 
 ### Overview
 
@@ -99,9 +99,9 @@ This section is a work in progress.
 
 ### Code: MSG-002
 
-_Authored by** **Shannika Jackson** **. Last updated on_ _ **March 14,2021** _
+_Authored by** **Shannika Jackson** **. Last updated on_ _**March 14,2021**_
 
-This feature aims to _ **enhance in-app communication** _ by _ **allowing users to send messages directly to other members' inbox** _.
+This feature aims to _**enhance in-app communication**_ by _**allowing users to send messages directly to other members' inbox**_.
 
 ### Overview
 
