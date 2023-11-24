@@ -77,6 +77,7 @@ const config = {
 				logo: {
 					alt: "Talawa Logo",
 					src: "img/logo.png",
+					className: 'LogoAnimation'
 				},
 				items: [
 					{
