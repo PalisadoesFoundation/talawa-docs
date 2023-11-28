@@ -11,7 +11,7 @@ Communities are groups of people who participate either directly or indirectly w
 
 - **Example**: A community could be a club that has members across an entire country, state or city.
 
-Communities can have multiple organizations in them.
+Communities can have multiple organizations in them, in other words, it is the parent organization.
 
 ### Organizations
 
