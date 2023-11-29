@@ -39,6 +39,22 @@ const config = {
 				},
 			},
 		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'users',
+				path: 'docs-user',
+				routeBasePath: 'docs-user',
+			},
+		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'admins',
+				path: 'docs-admin',
+				routeBasePath: 'docs-admin',
+			},
+		]
 	],
 	presets: [
 		[
@@ -84,6 +100,18 @@ const config = {
 						to: "docs/",
 						activeBasePath: "docs",
 						label: "Docs",
+						position: "left",
+					},
+					{
+						to: "docs-user/",
+						activeBasePath: "docs-user",
+						label: "User Docs",
+						position: "left",
+					},
+					{
+						to: "docs-admin/",
+						activeBasePath: "docs-admin",
+						label: "Admin Docs",
 						position: "left",
 					},
 					{
