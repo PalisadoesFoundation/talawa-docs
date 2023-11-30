@@ -45,6 +45,7 @@ const config = {
 				id: 'users',
 				path: 'docs-user',
 				routeBasePath: 'docs-user',
+				sidebarPath: require.resolve("./sidebar-user.js"),
 			},
 		],
 		[
@@ -53,6 +54,7 @@ const config = {
 				id: 'admins',
 				path: 'docs-admin',
 				routeBasePath: 'docs-admin',
+				sidebarPath: require.resolve("./sidebar-admin.js"),
 			},
 		]
 	],
@@ -97,29 +99,28 @@ const config = {
 				},
 				items: [
 					{
-						to: "docs/",
-						activeBasePath: "docs",
-						label: "Docs",
-						position: "left",
-					},
-					{
 						to: "docs-user/",
 						activeBasePath: "docs-user",
-						label: "User Docs",
+						label: "User Guide",
 						position: "left",
 					},
 					{
 						to: "docs-admin/",
 						activeBasePath: "docs-admin",
-						label: "Admin Docs",
+						label: "Admin Guide",
 						position: "left",
 					},
 					{
 						to: 'docs/',
 						activeBasePath: 'docs',
-						label: 'Developer Docs',
+						label: 'Developer Guide',
 						position: 'left',
 						items: [
+						  {
+							label: 'General',
+							to: "docs/",
+						    activeBasePath: "docs",
+						  },
 						  {
 							label: 'Talawa API',
 							to: "docs/talawa-api-docs/modules",
@@ -149,7 +150,6 @@ const config = {
 						className: "header-youtube-link",
 						"aria-label": "Palisadoes Youtube channel",
 					},
-					
 				],
 			},
 			colorMode: {

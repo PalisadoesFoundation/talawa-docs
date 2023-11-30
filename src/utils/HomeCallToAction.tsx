@@ -14,14 +14,14 @@ interface HomeCallToActionProps {}
       >
         Learn More
       </ActionButton>
-      <ActionButton type="secondary" href="/docs/" target="_self">
-        Developers
-      </ActionButton>
       <ActionButton type="secondary" href="/docs-user/" target="_self">
         Users
       </ActionButton>
       <ActionButton type="secondary" href="/docs-admin/" target="_self">
         Admins
+      </ActionButton>
+      <ActionButton type="secondary" href="/docs/" target="_self">
+        Developers
       </ActionButton>
     </>
   );
