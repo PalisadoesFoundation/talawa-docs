@@ -1,0 +1,67 @@
+---
+id: organization-custom-field
+title: OrganizationCustomField
+hide_table_of_contents: false
+---
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="\_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={'badge badge--' + props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+const [open, setOpen] = useState(startOpen);
+return (
+<details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+<summary
+onClick={(e) => {
+e.preventDefault();
+setOpen((open) => !open);
+}}
+style={{ listStyle:'none' }} >
+{open ? dataOpen : dataClose}
+</summary>
+{open && children}
+</details>
+);
+};
+
+No description
+
+```graphql
+type OrganizationCustomField {
+  _id: ID!
+  type: String!
+  name: String!
+  organizationId: String!
+}
+```
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>OrganizationCustomField.<b>\_id</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>OrganizationCustomField.<b>type</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>OrganizationCustomField.<b>name</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>OrganizationCustomField.<b>organizationId</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+### Returned by
+
+[`addOrganizationCustomField`](../../../docs/schema/mutations/add-organization-custom-field) <Badge class="secondary" text="mutation"/><Bullet />[`customFieldsByOrganization`](../../../docs/schema/queries/custom-fields-by-organization) <Badge class="secondary" text="query"/><Bullet />[`removeOrganizationCustomField`](../../../docs/schema/mutations/remove-organization-custom-field) <Badge class="secondary" text="mutation"/>
+
+### Member of
+
+[`Organization`](../../../docs/schema/objects/organization) <Badge class="secondary" text="object"/>

@@ -54,6 +54,7 @@ type Organization {
     first: PositiveInt
     last: PositiveInt
   ): UserTagsConnection
+  customFields: [OrganizationCustomField!]!
 }
 ```
 
@@ -132,6 +133,10 @@ type Organization {
 >
 
 ##### [<code style={{ fontWeight: 'normal' }}>Organization.userTags.<b>last</b></code>](#)<Bullet />[`PositiveInt`](../../../docs/schema/scalars/positive-int) <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>Organization.<b>customFields</b></code>](#)<Bullet />[`[OrganizationCustomField!]!`](../../../docs/schema/objects/organization-custom-field) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="object"/>
 
 >
 

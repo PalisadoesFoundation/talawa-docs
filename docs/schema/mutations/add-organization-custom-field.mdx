@@ -1,6 +1,6 @@
 ---
-id: revoke-refresh-token-for-user
-title: revokeRefreshTokenForUser
+id: add-organization-custom-field
+title: addOrganizationCustomField
 hide_table_of_contents: false
 ---
 
@@ -32,11 +32,29 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-revokeRefreshTokenForUser: Boolean!
+addOrganizationCustomField(
+  organizationId: ID!
+  type: String!
+  name: String!
+): OrganizationCustomField!
 ```
+
+### Arguments
+
+#### [<code style={{ fontWeight: 'normal' }}>addOrganizationCustomField.<b>organizationId</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>addOrganizationCustomField.<b>type</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
+
+#### [<code style={{ fontWeight: 'normal' }}>addOrganizationCustomField.<b>name</b></code>](#)<Bullet />[`String!`](../../../docs/schema/scalars/string) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
 
 ### Type
 
-#### [`Boolean`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="scalar"/>
+#### [`OrganizationCustomField`](../../../docs/schema/objects/organization-custom-field) <Badge class="secondary" text="object"/>
 
-> The `Boolean` scalar type represents `true` or `false`.
+>

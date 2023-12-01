@@ -1,6 +1,6 @@
 ---
-id: revoke-refresh-token-for-user
-title: revokeRefreshTokenForUser
+id: custom-fields-by-organization
+title: customFieldsByOrganization
 hide_table_of_contents: false
 ---
 
@@ -32,11 +32,19 @@ style={{ listStyle:'none' }} >
 No description
 
 ```graphql
-revokeRefreshTokenForUser: Boolean!
+customFieldsByOrganization(
+  id: ID!
+): [OrganizationCustomField]
 ```
+
+### Arguments
+
+#### [<code style={{ fontWeight: 'normal' }}>customFieldsByOrganization.<b>id</b></code>](#)<Bullet />[`ID!`](../../../docs/schema/scalars/id) <Badge class="secondary" text="non-null"/> <Badge class="secondary" text="scalar"/>
+
+>
 
 ### Type
 
-#### [`Boolean`](../../../docs/schema/scalars/boolean) <Badge class="secondary" text="scalar"/>
+#### [`OrganizationCustomField`](../../../docs/schema/objects/organization-custom-field) <Badge class="secondary" text="object"/>
 
-> The `Boolean` scalar type represents `true` or `false`.
+>
