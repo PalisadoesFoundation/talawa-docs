@@ -39,6 +39,33 @@ const config = {
 				},
 			},
 		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'web-users',
+				path: 'docs-web-user',
+				routeBasePath: 'docs-web-user',
+				sidebarPath: require.resolve("./sidebar-web-user.js"),
+			},
+		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'mobile-users',
+				path: 'docs-mobile-user',
+				routeBasePath: 'docs-mobile-user',
+				sidebarPath: require.resolve("./sidebar-mobile-user.js"),
+			},
+		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'admins',
+				path: 'docs-admin',
+				routeBasePath: 'docs-admin',
+				sidebarPath: require.resolve("./sidebar-admin.js"),
+			},
+		]
 	],
 	presets: [
 		[
@@ -81,17 +108,34 @@ const config = {
 				},
 				items: [
 					{
-						to: "docs/",
-						activeBasePath: "docs",
-						label: "Docs",
+						to: "docs-mobile-user/",
+						activeBasePath: "docs-mobile-user",
+						label: "Mobile Guide",
+						position: "left",
+					},
+					{
+						to: "docs-web-user/",
+						activeBasePath: "docs-web-user",
+						label: "Web Guide",
+						position: "left",
+					},
+					{
+						to: "docs-admin/",
+						activeBasePath: "docs-admin",
+						label: "Admin Guide",
 						position: "left",
 					},
 					{
 						to: 'docs/',
 						activeBasePath: 'docs',
-						label: 'Developer Docs',
+						label: 'Developer Guide',
 						position: 'left',
 						items: [
+						  {
+							label: 'General',
+							to: "docs/",
+						    activeBasePath: "docs",
+						  },
 						  {
 							label: 'Talawa API',
 							to: "docs/talawa-api-docs/modules",
@@ -121,7 +165,6 @@ const config = {
 						className: "header-youtube-link",
 						"aria-label": "Palisadoes Youtube channel",
 					},
-					
 				],
 			},
 			colorMode: {
