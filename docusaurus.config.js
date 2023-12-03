@@ -42,10 +42,19 @@ const config = {
 		[
 			'@docusaurus/plugin-content-docs',
 			{
-				id: 'users',
-				path: 'docs-user',
-				routeBasePath: 'docs-user',
-				sidebarPath: require.resolve("./sidebar-user.js"),
+				id: 'web-users',
+				path: 'docs-web-user',
+				routeBasePath: 'docs-web-user',
+				sidebarPath: require.resolve("./sidebar-web-user.js"),
+			},
+		],
+		[
+			'@docusaurus/plugin-content-docs',
+			{
+				id: 'mobile-users',
+				path: 'docs-mobile-user',
+				routeBasePath: 'docs-mobile-user',
+				sidebarPath: require.resolve("./sidebar-mobile-user.js"),
 			},
 		],
 		[
@@ -99,9 +108,15 @@ const config = {
 				},
 				items: [
 					{
-						to: "docs-user/",
-						activeBasePath: "docs-user",
-						label: "User Guide",
+						to: "docs-mobile-user/",
+						activeBasePath: "docs-mobile-user",
+						label: "Mobile Guide",
+						position: "left",
+					},
+					{
+						to: "docs-web-user/",
+						activeBasePath: "docs-web-user",
+						label: "Web Guide",
 						position: "left",
 					},
 					{
