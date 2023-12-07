@@ -13,6 +13,8 @@ updates:
       - "dependencies"
     # Specify the target branch for PRs
     target-branch: "develop"
+    # Disable version updates for npm dependencies
+    open-pull-requests-limit: 0
     # Customize commit message prefix
     commit-message:
       prefix: "chore(deps):"
