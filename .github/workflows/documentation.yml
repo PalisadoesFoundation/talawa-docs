@@ -35,7 +35,6 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: Install dependencies
-        if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
         run: yarn install --frozen-lockfile
       - name: Test building the website
         run: yarn build
