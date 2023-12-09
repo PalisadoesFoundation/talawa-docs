@@ -5,11 +5,26 @@ title: Introduction
 
 Google is sponsoring the [Google Summer of Code](https://summerofcode.withgoogle.com/) and [The Palisadoes Foundation](http://www.palisadoes.org) is registered as a mentoring organization. This page is your entry point to the Palisadoes Foundation GSoC program. Please watch this page for updates concerning our participating this year.
 
-### About Talawa
+This web pages has:
+
+* An introduction to Talawa
+* Onboarding videos
+* Extensive links to GSoC, Palisadoes Foundation and Talawa online resources
+
+## About Talawa
 
 The Palisadoes Foundation has been sponsoring work on this open-source project for a number of years. We hope to launch it in alpha at the end of the summer. Talawa is a modular open source project to help community-based organizations such as clubs, neighborhood groups, volunteer associations, non-profits and small religious institutions manage their daily activities. Most user interaction is via a mobile app.
 
-### Project Ideas and More
+## YouTube Introduction
+
+We have a lot of videos on our YouTube channel. Our ["Getting Started - Developers"](https://www.youtube.com/watch?v=qIbgkYHPE94&list=PLv50qHwThlJUIzscg9a80a9-HmAlmUdCF) playlist will help you understand our processes better.
+
+* **It's very important to watch all the playlist videos** 
+* Click on the image to start watching
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qIbgkYHPE94/0.jpg)](https://www.youtube.com/watch?v=qIbgkYHPE94&list=PLv50qHwThlJUIzscg9a80a9-HmAlmUdCF&pp=gAQBiAQB)
+
+## Project Ideas and More
 
 This section outlines all you need to know about getting involved with the Palisadoes Foundation's GSoC program:
 
