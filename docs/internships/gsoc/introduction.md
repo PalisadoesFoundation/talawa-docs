@@ -46,7 +46,7 @@ This section outlines all you need to know about getting involved with the Palis
    1. Talawa: [https://github.com/PalisadoesFoundation/talawa/issues](https://github.com/PalisadoesFoundation/talawa/issues)
    2. Talawa-API: [https://github.com/PalisadoesFoundation/talawa-api/issues](https://github.com/PalisadoesFoundation/talawa-api/issues)
    3. Talawa-Admin: [https://github.com/PalisadoesFoundation/talawa-admin/issues](https://github.com/PalisadoesFoundation/talawa-admin/issues)
-11. Introduce yourself on our _#introductions_ slack channel. You can join our Slack Channel using the link on the Talawa repository's home page [README.md](http://github.com/PalisadoesFoundation/talawa) file.
+11. Introduce yourself on our `#general` slack channel. You can join our Slack Channel using the link on the Talawa repository's home page [README.md](http://github.com/PalisadoesFoundation/talawa) file.
 12. If you do not see any interesting projects from the proposed ideas or issues, we encourage you to contact the Palisadoes Foundation’s mailing list and propose a new idea. The Palisadoes Foundation does not encourage and will not respond to your personal new open source project ideas which are unrelated to any Palisadoes projects.
    1. You can subscribe to our list at [https://www.freelists.org/list/palisadoes](https://www.freelists.org/list/palisadoes).
    2. You can send queries to:
