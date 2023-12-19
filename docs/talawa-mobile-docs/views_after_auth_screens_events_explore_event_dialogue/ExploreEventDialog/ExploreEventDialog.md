@@ -9,7 +9,7 @@
 
 
 const
-ExploreEventDialog({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
+ExploreEventDialog(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
 
 
 

@@ -45,7 +45,7 @@ This class detects conflict errors and sends those errors to the superclass Appl
 | `message` | `string` | `"Conflicting entry found"` |
 | `code` | ``null`` \| `string` | `null` |
 | `param` | ``null`` \| `string` | `null` |
-| `metadata` | `Record`<`any`, `any`\> | `{}` |
+| `metadata` | `Record`\<`any`, `any`\> | `\{}` |
 
 #### Overrides
 

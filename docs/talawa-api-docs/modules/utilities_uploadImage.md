@@ -12,7 +12,7 @@
 
 ### uploadImage
 
-▸ **uploadImage**(`newImageFile`, `oldImagePath`): `Promise`<{ `imageAlreadyInDbPath`: `undefined` \| `string` ; `newImagePath`: `string`  }\>
+▸ **uploadImage**(`newImageFile`, `oldImagePath`): `Promise`\<\{ `imageAlreadyInDbPath`: `undefined` \| `string` ; `newImagePath`: `string`  }\>
 
 This function uploads the new image and deletes the previously uploaded image if exists.
 
@@ -29,7 +29,7 @@ This is a utility method.
 
 #### Returns
 
-`Promise`<{ `imageAlreadyInDbPath`: `undefined` \| `string` ; `newImagePath`: `string`  }\>
+`Promise`\<\{ `imageAlreadyInDbPath`: `undefined` \| `string` ; `newImagePath`: `string`  }\>
 
 Path of an uploaded image.
 

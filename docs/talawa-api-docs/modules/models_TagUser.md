@@ -16,7 +16,7 @@
 
 ### TagUser
 
-• `Const` **TagUser**: `Model`<[`Interface_TagUser`](../interfaces/models_TagUser.Interface_TagUser.md), {}, {}\>
+• `Const` **TagUser**: `Model`\<[`Interface_TagUser`](../interfaces/models_TagUser.Interface_TagUser.md), \{}, \{}\>
 
 #### Defined in
 

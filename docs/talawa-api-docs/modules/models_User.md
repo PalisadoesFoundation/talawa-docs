@@ -16,7 +16,7 @@
 
 ### User
 
-• `Const` **User**: `PaginateModel`<[`Interface_User`](../interfaces/models_User.Interface_User.md), {}, {}\>
+• `Const` **User**: `PaginateModel`\<[`Interface_User`](../interfaces/models_User.Interface_User.md), \{}, \{}\>
 
 #### Defined in
 

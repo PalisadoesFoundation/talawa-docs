@@ -16,7 +16,7 @@
 
 ### GroupChatMessage
 
-• `Const` **GroupChatMessage**: `Model`<[`Interface_GroupChatMessage`](../interfaces/models_GroupChatMessage.Interface_GroupChatMessage.md), {}, {}\>
+• `Const` **GroupChatMessage**: `Model`\<[`Interface_GroupChatMessage`](../interfaces/models_GroupChatMessage.Interface_GroupChatMessage.md), \{}, \{}\>
 
 #### Defined in
 

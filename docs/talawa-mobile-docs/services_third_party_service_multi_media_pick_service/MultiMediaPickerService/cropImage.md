@@ -11,7 +11,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;[File](https://api.flutter.dev/flutter/dart-io/File-class.html)?> cropImage
-({required [File](https://api.flutter.dev/flutter/dart-io/File-class.html) imageFile})
+(\{required [File](https://api.flutter.dev/flutter/dart-io/File-class.html) imageFile})
 
 
 

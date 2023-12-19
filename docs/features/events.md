@@ -42,9 +42,9 @@ This section is a work in progress.
 
 ### Code: EVT-006
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 27,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _**March 27,2021**_
 
-This feature aims to _ **enhance event creation process** _ by _ ** enabling additional options based on the type of role that creates the event** _.
+This feature aims to _**enhance event creation process**_ by _**enabling additional options based on the type of role that creates the event**_.
 
 ### Overview
 
@@ -87,7 +87,7 @@ NA
 1. **Coordinators want to:**
    1. **Create tasks for an event:** Each event will have a checklist of tasks/ activities to be done before the scheduled event.
    2. **Assign tasks to organisation members:** Some notification must be sent to the member once they are assigned any task.
-   3. ** Mark a task for events as complete ** This could possibly update an overall progress bar for event tasks.
+   3. **Mark a task for events as complete** This could possibly update an overall progress bar for event tasks.
 1. **Admins want to:**
    1. **Elevate members to coordinators** This will enable multiple coordinators for an event
 
@@ -134,9 +134,9 @@ This section is a work in progress.
 
 ### Code: EVT-001
 
-_Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 13, 2021** _
+_Authored by_ _**Shannika Jackson**_ _Last updated on_ _**March 13, 2021**_
 
-This feature aims to _ **streamline member event subscription** _ by _ **simplifying how members elect to join/ subscribe to events** _.
+This feature aims to _**streamline member event subscription**_ by _**simplifying how members elect to join/ subscribe to events**_.
 
 ### Overview
 
@@ -208,9 +208,9 @@ This section is a work in progress.
 
 ### Code: EVT-002
 
-_Authored by\*\* **Shannika Jackson** \*\*Last updated on_ _ **March 13, 2021** _
+_Authored by\*\* **Shannika Jackson** \*\*Last updated on_ _**March 13, 2021**_
 
-This feature aims to* **improve the event viewing options** * by _ **allowing users to group different types of events** _.
+This feature aims to* **improve the event viewing options** * by _**allowing users to group different types of events**_.
 
 ### Overview
 
@@ -281,9 +281,9 @@ This section is a work in progress.
 
 ### Code: EVT-003
 
-_Authored by_ _ **Shannika Jackson** _ _Last updated on_ _ **March 16, 2021** _
+_Authored by_ _**Shannika Jackson**_ _Last updated on_ _**March 16, 2021**_
 
-This feature aims to _ **enhance event management options** _ by _ **allowing coordinators to assign tasks to other members of the organization** _.
+This feature aims to _**enhance event management options**_ by _**allowing coordinators to assign tasks to other members of the organization**_.
 
 ### Overview
 
@@ -371,6 +371,6 @@ This section is a work in progress.
 
 ### Code: EVT-004:
 
-_Authored by\*\* **Shannika Jackson** \*\*Last updated on_ _ **March 16, 2021** _
+_Authored by\*\* **Shannika Jackson** \*\*Last updated on_ _**March 16, 2021**_
 
-This feature aims to _ **enhance event management options** _ by _ **allowing coordinators and admins to view the number and list of members attending an event** _.
+This feature aims to _**enhance event management options**_ by _**allowing coordinators and admins to view the number and list of members attending an event**_.

@@ -157,8 +157,8 @@ node_modules/graphql-tools/dist/schemaVisitor.d.ts:34
 | :------ | :------ |
 | `argument` | `GraphQLArgument` |
 | `details` | `Object` |
-| `details.field` | `GraphQLField`<`any`, `any`, { `[key: string]`: `any`;  }\> |
-| `details.objectType` | `GraphQLObjectType`<`any`, `any`\> \| `GraphQLInterfaceType` |
+| `details.field` | `GraphQLField`\<`any`, `any`, \{ `[key: string]`: `any`;  }\> |
+| `details.objectType` | `GraphQLObjectType`\<`any`, `any`\> \| `GraphQLInterfaceType` |
 
 #### Returns
 
@@ -226,7 +226,7 @@ ___
 
 ### visitFieldDefinition
 
-▸ **visitFieldDefinition**(`field`, `_details`): ``null`` \| `void` \| `GraphQLField`<`any`, `any`, { `[key: string]`: `any`;  }\>
+▸ **visitFieldDefinition**(`field`, `_details`): ``null`` \| `void` \| `GraphQLField`\<`any`, `any`, \{ `[key: string]`: `any`;  }\>
 
 This function authenticates the role of the user and if not validated, then throws an Unauthenticated Error.
 
@@ -234,13 +234,13 @@ This function authenticates the role of the user and if not validated, then thro
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `field` | `GraphQLField`<`any`, `any`, { `[key: string]`: `any`;  }\> | GraphQLField |
+| `field` | `GraphQLField`\<`any`, `any`, \{ `[key: string]`: `any`;  }\> | GraphQLField |
 | `_details` | `Object` | Object |
-| `_details.objectType` | `GraphQLObjectType`<`any`, `any`\> \| `GraphQLInterfaceType` | - |
+| `_details.objectType` | `GraphQLObjectType`\<`any`, `any`\> \| `GraphQLInterfaceType` | - |
 
 #### Returns
 
-``null`` \| `void` \| `GraphQLField`<`any`, `any`, { `[key: string]`: `any`;  }\>
+``null`` \| `void` \| `GraphQLField`\<`any`, `any`, \{ `[key: string]`: `any`;  }\>
 
 resolver function
 
@@ -330,17 +330,17 @@ ___
 
 ### visitObject
 
-▸ **visitObject**(`object`): ``null`` \| `void` \| `GraphQLObjectType`<`any`, `any`\>
+▸ **visitObject**(`object`): ``null`` \| `void` \| `GraphQLObjectType`\<`any`, `any`\>
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `object` | `GraphQLObjectType`<`any`, `any`\> |
+| `object` | `GraphQLObjectType`\<`any`, `any`\> |
 
 #### Returns
 
-``null`` \| `void` \| `GraphQLObjectType`<`any`, `any`\>
+``null`` \| `void` \| `GraphQLObjectType`\<`any`, `any`\>
 
 #### Inherited from
 

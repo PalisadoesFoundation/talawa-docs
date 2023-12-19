@@ -37,7 +37,7 @@ ___
 
 ### metadata
 
-• `Optional` **metadata**: `Record`<`any`, `any`\>
+• `Optional` **metadata**: `Record`\<`any`, `any`\>
 
 #### Defined in
 

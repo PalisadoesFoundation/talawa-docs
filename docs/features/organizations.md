@@ -23,9 +23,9 @@ This section is a work in progress.
 
 ### Code: MEM-005
 
-_Authored by_ _ **Gareth Thomas** _ _. Last updated on_ _ **18/05/21** _
+_Authored by_ _**Gareth Thomas**_ _. Last updated on_ _**18/05/21**_
 
-This feature aims to _ **allow organisations to join the talawa platform** _ by _ **establishing the flow by which this is done** _.
+This feature aims to _**allow organisations to join the talawa platform**_ by _**establishing the flow by which this is done**_.
 
 ### Overview
 

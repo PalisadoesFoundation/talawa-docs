@@ -21,9 +21,9 @@ This section is a work in progress.
 
 ### Code: MEM-004
 
-_Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
+_Authored by_ _**Xavier Bryson**_ _. Last updated on_ _**14/03/21**_
 
-This feature aims to _ **enable member access** _ by _ **allowing members to register for an organization with the use of a unique identifier.** _
+This feature aims to _**enable member access**_ by _**allowing members to register for an organization with the use of a unique identifier.**_
 
 ### Overview
 
@@ -87,9 +87,9 @@ This section is a work in progress.
 
 ### Code: MEM-002
 
-_Authored by_ _ **Gareth Thomas** _ _. Last updated on_ _ **Mar 14,2021** _
+_Authored by **Gareth Thomas**. Last updated on **Mar 14,2021**_
 
-This feature aims to _ **introduce application roles** _ by _ **defining how they work and how they affect the users experience with Talawa** _.
+This feature aims to _**introduce application roles**_ by _**defining how they work and how they affect the users experience with Talawa**_.
 
 ### Overview
 
@@ -164,9 +164,9 @@ This section is a work in progress.
 
 ### Code: MEM-003
 
-_Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
+_Authored by **Xavier Bryson**. Last updated on **14/03/21**_
 
-This feature aims to _ **provide more security within the signup process** _ by _ **incorporating a method for validating new users registering for an organization within the app** _.
+This feature aims to _**provide more security within the signup process**_ by _**incorporating a method for validating new users registering for an organization within the app**_.
 
 ### Overview
 
@@ -236,11 +236,11 @@ Note: Ideally the QR code should contain all the organizations API login informa
 3. Admins will have access to a share button for sending the token/password to a member&#39;s email/whatsapp/phone number.
 4. Member&#39;s will be required to enter the info from the previous step after registering for an organization.
 
-
+   ```
     <center> OR </center>
 
     Member&#39;s will be required to enter the provided token while registering for an organization.
-
+   ```
 ### Important Details To Capture
 
 N/A
@@ -265,9 +265,9 @@ This section is a work in progress.
 
 ### Code: MEM-005
 
-_Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
+_Authored by **Xavier Bryson**. Last updated on **14/03/21**_
 
-This feature aims to _ **limit unwanted access** _ by _ **allowing admins to ban accounts, numbers or phone ids from accessing the application** _.
+This feature aims to _**limit unwanted access**_ by _**allowing admins to ban accounts, numbers or phone ids from accessing the application**_.
 
 ### Overview
 
@@ -328,9 +328,9 @@ This section is a work in progress.
 
 ### Code: MEM-006
 
-_Authored by_ _ **Xavier Bryson** _ _. Last updated on_ _ **14/03/21** _
+_Authored by **Xavier Bryson**. Last updated on **14/03/21**_
 
-This feature aims to _ **prevent account loss** _ by _ **allowing members to recover their access via email** _.
+This feature aims to _**prevent account loss**_ by _**allowing members to recover their access via email**_.
 
 ### Overview
 

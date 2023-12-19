@@ -16,7 +16,7 @@
 
 ### ImageHash
 
-• `Const` **ImageHash**: `Model`<[`Interface_ImageHash`](../interfaces/models_ImageHash.Interface_ImageHash.md), {}, {}\>
+• `Const` **ImageHash**: `Model`\<[`Interface_ImageHash`](../interfaces/models_ImageHash.Interface_ImageHash.md), \{}, \{}\>
 
 #### Defined in
 

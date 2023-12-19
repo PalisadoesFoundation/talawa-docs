@@ -13,7 +13,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;[TimeOfDay](https://api.flutter.dev/flutter/material/TimeOfDay-class.html)> customTimePicker
-({required [TimeOfDay](https://api.flutter.dev/flutter/material/TimeOfDay-class.html) initialTime})
+(\{required [TimeOfDay](https://api.flutter.dev/flutter/material/TimeOfDay-class.html) initialTime})
 
 
 

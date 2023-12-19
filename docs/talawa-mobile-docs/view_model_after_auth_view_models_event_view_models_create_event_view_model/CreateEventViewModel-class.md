@@ -323,7 +323,7 @@ This function fetch all the users in the current organization and return <code>L
 
 
 
-##### [getImageFromGallery](../view_model_after_auth_view_models_event_view_models_create_event_view_model/CreateEventViewModel/getImageFromGallery.md)({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) camera = false}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void>
+##### [getImageFromGallery](../view_model_after_auth_view_models_event_view_models_create_event_view_model/CreateEventViewModel/getImageFromGallery.md)(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) camera = false}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void>
 
 
 
@@ -378,7 +378,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [removeUserFromList](../view_model_after_auth_view_models_event_view_models_create_event_view_model/CreateEventViewModel/removeUserFromList.md)({required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) userId}) void
+##### [removeUserFromList](../view_model_after_auth_view_models_event_view_models_create_event_view_model/CreateEventViewModel/removeUserFromList.md)(\{required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) userId}) void
 
 
 

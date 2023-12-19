@@ -52,9 +52,9 @@ This section is a work in progress.
 
 ### Code: ADM-001
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **May 18,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_  _**May 18,2021**_
 
-This feature aims to _ **enhance the admin role** _ by _ **allowing admin users to send messages to an entire organization** _.
+This feature aims to  _**enhance the admin role**_ by _**allowing admin users to send messages to an entire organization**_.
 
 ### Overview
 
@@ -123,9 +123,9 @@ This section is a work in progress.
 
 ### Code: ADM-004
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 27,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _**March 27,2021**_
 
-This feature aims to _ **enhance the admin portal** _ by _ **allowing admin users to manage other member profiles - such as adding or removing members** _.
+This feature aims to _**enhance the admin portal**_ by _**allowing admin users to manage other member profiles - such as adding or removing members**_.
 
 ---
 
@@ -139,6 +139,6 @@ This section is a work in progress.
 
 ### Code: ADM-003
 
-_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _ **March 14,2021** _
+_Authored by\*\* **Shannika Jackson** \*\*. Last updated on_ _**March 14,2021**_
 
-This feature aims to _ **enhance the admin portal** _ by _ **allowing admin users moderate newsfeed** _.
+This feature aims to _**enhance the admin portal**_ by _**allowing admin users moderate newsfeed**_.

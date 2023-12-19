@@ -45,7 +45,7 @@ This class detects unauthorized errors and sends those errors to the superclass 
 | `message` | `string` | `"UnauthorizedError"` |
 | `code` | ``null`` \| `string` | `null` |
 | `param` | ``null`` \| `string` | `null` |
-| `metadata` | `Record`<`any`, `any`\> | `{}` |
+| `metadata` | `Record`\<`any`, `any`\> | `\{}` |
 
 #### Overrides
 

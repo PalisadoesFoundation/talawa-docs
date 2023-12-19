@@ -16,7 +16,7 @@
 
 ### Group
 
-• `Const` **Group**: `Model`<[`Interface_Group`](../interfaces/models_Group.Interface_Group.md), {}, {}\>
+• `Const` **Group**: `Model`\<[`Interface_Group`](../interfaces/models_Group.Interface_Group.md), \{}, \{}\>
 
 #### Defined in
 

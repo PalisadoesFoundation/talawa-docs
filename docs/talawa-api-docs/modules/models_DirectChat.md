@@ -16,7 +16,7 @@
 
 ### DirectChat
 
-• `Const` **DirectChat**: `Model`<[`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md), {}, {}\>
+• `Const` **DirectChat**: `Model`\<[`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md), \{}, \{}\>
 
 #### Defined in
 

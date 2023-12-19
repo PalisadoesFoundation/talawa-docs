@@ -9,7 +9,7 @@
 
 
 const
-FromPalisadoes({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+FromPalisadoes(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

@@ -41,17 +41,17 @@ Let's delve into the issues related to default GraphQL errors through an example
 Suppose I am making a query on the `signUp` mutation, which requires the parameters `email`, `name`, and `password`. Now, let's consider a scenario where there is no user with the given email. In such a case, the default response is as follows:
 
 ```json
-{
-  "data": {
+\{
+  "data": \{
     "signUp": null
   },
   "errors": [
-    {
+    \{
       "path": [
         "login"
       ],
       "locations": [
-        {
+        \{
           "line": 2,
           "column": 3
         }
@@ -144,7 +144,7 @@ For example Let us look at the `signUp` Mutation.
 The type definitions relevant for `signUp` Mutation->
 
 ```gql
-  input SignUpInput {
+  input SignUpInput \{
     firstName: String!
     lastName: String!
     email: EmailAddress!
@@ -153,7 +153,7 @@ The type definitions relevant for `signUp` Mutation->
     organizationUserBelongsToId: ID
   }
 
-  type AuthData {
+  type AuthData \{
     user: User!
     accessToken: String!
     refreshToken: String!
@@ -161,7 +161,7 @@ The type definitions relevant for `signUp` Mutation->
     iosFirebaseOptions: IOSFirebaseOptions!
   }
 
-  type User {
+  type User \{
     tokenVersion: Int!
     _id: ID
     firstName: String!
@@ -179,19 +179,19 @@ In this context, the interface `UserError` serves as an `interface contract`. Th
 // now begins the Error unions types, we can consume many error types in this
 union SignUpError = EmailTaken | PasswordTooShort | UserError
 
-type EmailTaken implements UserError {
+type EmailTaken implements UserError \{
   message: String!
   path: String!
   suggestion: String!
 }
 
-type PasswordTooShort implements UserError {
+type PasswordTooShort implements UserError \{
   message: String!
   path: String!
   minimumLength: Int!
 }
 
-interface UserError {
+interface UserError \{
   message: String!
   path: String!
 }
@@ -202,12 +202,12 @@ As you can see the `signUp` mutation has a return type of `SignUpResult!` which 
 ```gql
 // Here is the return type of signup mutation  notice how the signUpData is nullable here, well that is optional.
 
-type SignUpResult {
+type SignUpResult \{
     signUpData : AuthData ,
     signUpErrors : [SignUpError!]!
 }
 
-type Mutation {
+type Mutation \{
    signUp(input: SignUpInput!): SignUpResult!
 }
 ```
@@ -215,15 +215,15 @@ type Mutation {
 Let us look at the pseudo code for the resolver now.
 
 ```javascript
-const resolvers = {
-  Mutation: {
-    signUp: async (parent, args, context) => {
+const resolvers = \{
+  Mutation: \{
+    signUp: async (parent, args, context) => \{
           //the general approach of how this would work.
-           userObj = {} ,
+           userObj = \{} ,
            signUpErrors = []
-           If(CHECK DUPLICATION OF EMAIL ) {
+           If(CHECK DUPLICATION OF EMAIL ) \{
                  KEEP THE EMAIL FIELD OF  USEROBJ TO BE RETURNED AS NULL ; 
-                 signUpErrors.push({
+                 signUpErrors.push(\{
                       __typename: "EmailTaken" ,
                         message: "Email is already taken"
                         path: "UserInput.email"
@@ -232,8 +232,8 @@ const resolvers = {
                  })
            }
 
-           If (CHECK args.PASSWORD LENGTH) {
-                   signUpErrors.push({
+           If (CHECK args.PASSWORD LENGTH) \{
+                   signUpErrors.push(\{
                       __typename: "PasswordTooShort" ,
                         message: "Password length is too short"
                         path: "UserInput.password"
@@ -242,8 +242,8 @@ const resolvers = {
            }
            // Approach when we need to fall on a general error based on the interface contract `UserError`
            If (CERTAIN CHECK WHERE WE WOULD NEED TO ADD THAT ERROR IN THE 
-                  signUpErrors ARRAY) {
-                    signUpErrors.push({
+                  signUpErrors ARRAY) \{
+                    signUpErrors.push(\{
                             __typename:"UserError" ,
                             message: "message" , 
                             path: "path"
@@ -252,8 +252,8 @@ const resolvers = {
             }
 
           // Here we will be returning multiple errors in the form on an array of signUpErrors
-          if (IF signUpErrors IS NOT EMPTY) {
-               return  {
+          if (IF signUpErrors IS NOT EMPTY) \{
+               return  \{
                    signUpData:null, 
                    signUpErrors
 
@@ -264,8 +264,8 @@ const resolvers = {
           
           CreatedUserObj = DB.CREATE(USER);
 
-          return  {
-                   signUpData: {
+          return  \{
+                   signUpData: \{
                          user : CreatedUserObj,
                           .... other AuthData fields
                    } , 
@@ -291,17 +291,17 @@ In this approach for resolving Field Errors, two significant features are highli
 Let us take a look at how the clients would be making this query.
 
 ```gql
-mutation {
+mutation \{
   signUp(
-    input: {
+    input: \{
       firstName: "Harry"
       lastName: "Potter"
       email: "someDuplicateEmail"
       password: "12345"
     }
-    ) {
-    signUpData { 
-      user: {
+    ) \{
+    signUpData \{ 
+      user: \{
         _id,
         firstName,
         lastName,
@@ -310,16 +310,16 @@ mutation {
       accessToken,
       refreshToken
      }
-    signUpErrors {
+    signUpErrors \{
       # Specific cases
-      ... on EmailTaken {
+      ... on EmailTaken \{
         __typename
         message
         path
         suggestion
       }
 
-      ... on PasswordTooShort {
+      ... on PasswordTooShort \{
         __typename
         message
         path
@@ -327,7 +327,7 @@ mutation {
       }
 
       # Interface contract to handle general purpose Error
-      ... on UserError {
+      ... on UserError \{
         message
         path
       }
@@ -343,17 +343,17 @@ The inclusion of the `UserError` interface allows for the handling of any genera
 Consequently, the response resulting from this mutation will resemble the following structure:
 
 ```json
-{
-  "data": {
+\{
+  "data": \{
     "signUpData": null,
     "signUpErrors": [
-      {
+      \{
         "__typename": "EmailTaken",
         "message": "Email is already taken",
         "path": "UserInput.email",
         "suggestion": "Try to provide a unique mail or sure you have not created an account already"
       },
-      {
+      \{
         "__typename": "PasswordTooShort",
         "message": "Password length is too short",
         "path": "UserInput.password",
@@ -385,7 +385,7 @@ The type definitions relevant for `login` Mutation->
 
 ```gql
 
-  type User {
+  type User \{
     _id: ID!
     name: String!
     email: String!
@@ -393,27 +393,27 @@ The type definitions relevant for `login` Mutation->
     image: Image!
   }
   
-  type Organization {
+  type Organization \{
     name: String!,
     description: String!
   }
 
-  type Image {
+  type Image \{
     filepath: String!
     size: Int!
   }
 
-  type LoginPayload {
+  type LoginPayload \{
     authtoken: String!
     user: User!
   }
 
-  input LoginInput {
+  input LoginInput \{
     email: EmailAddress!,
     password: String!
   }
 
-  type Mutation {
+  type Mutation \{
     login(input: LoginInput!): LoginPayload!
   }
 ```
@@ -430,17 +430,17 @@ The interface `UserError` will act as an `interface contract`. The exact purpose
   
   union LoginError = EmailNotFound | PasswordInvalid | UserError
 
-  interface UserError {
+  interface UserError \{
     message: String!
     path: String!
   }
 
-  type EmailNotFound implements UserError {
+  type EmailNotFound implements UserError \{
     message: String!
     path: String!
   }
 
-  type PasswordInvalid implements UserError {
+  type PasswordInvalid implements UserError \{
     message: String!
     path: String!
   }
@@ -452,12 +452,12 @@ The `login` mutation has a return type of `LoginResult!` which in turn contains 
 ```gql
 # Here is the return type of login mutation.
 
-  type LoginResult {
+  type LoginResult \{
     loginPayload: LoginPayload
     loginError: [LoginError!]!
   }
 
-  type Mutation {
+  type Mutation \{
     login(input: LoginInput!): LoginResult!
   }
 
@@ -466,37 +466,37 @@ The `login` mutation has a return type of `LoginResult!` which in turn contains 
 Let us look at the pseudo code for the resolvers now. Right now let us just focus on the login resolver. In both cases of Atomic Errors that is `UserNotFound` and `InvalidPassword` the `loginPayload` field returns null whereas the `loginErrors` field returns said errors. For other non-atomic errors which are not "failing errors", can be sent as an array directly along with the User in the db and accesstoken.
 
 ```javascript
-const resolvers = {
+const resolvers = \{
   
-  Mutation: {
-    login: (parent: any, args: { input: LoginInput }) => {
+  Mutation: \{
+    login: (parent: any, args: \{ input: LoginInput }) => \{
       
-      const { email, password } = args.input;
+      const \{ email, password } = args.input;
 
-      userObj = {};
+      userObj = \{};
       loginErrors = [];
 
-      if(IF USER WITH EMAIL DOES NOT EXIST) {
-        loginErrors.push({
+      if(IF USER WITH EMAIL DOES NOT EXIST) \{
+        loginErrors.push(\{
           __typename: "EmailNotFound" ,
           message: "User with Email does not exist"
           path: "LoginInput.email"
         })
 
-        return {
+        return \{
           loginPayload:null,
           loginErrors,
         }
       }
 
-      if(IF PASSWORDS DOES NOT MATCH) {
-        loginErrors.push({
+      if(IF PASSWORDS DOES NOT MATCH) \{
+        loginErrors.push(\{
           __typename: "PasswordInvalid" ,
           message: "Passwords do not match"
           path: "LoginInput.password"
         })
 
-        return {
+        return \{
           loginPayload:null,
           loginErrors
         }
@@ -507,17 +507,17 @@ const resolvers = {
       accessToken = GENERATE AND SAVE ACCESS TOKEN.
 
 
-      if(IF ANY OTHER ERRORS ){
+      if(IF ANY OTHER ERRORS )\{
         FOR EACH ERROR->
-        loginErrors.push({
+        loginErrors.push(\{
           __typename: "UserError" ,
           message: "message"
           path: "PATH"
         })
       }
       
-      return {
-        loginPayload:{
+      return \{
+        loginPayload:\{
           userObj,
           accessToken
         },
@@ -527,19 +527,19 @@ const resolvers = {
   },
 
   // We will expand more into this later in the documentation.
-  User: {
-    email: (parent: { email: string }) => {
+  User: \{
+    email: (parent: \{ email: string }) => \{
       // Logic to restrict PII access to email field
-      if (IF REQUESTING USER IS NOT AUTHORISED TO VIEW THE EMAIL OF SAID USER) {
+      if (IF REQUESTING USER IS NOT AUTHORISED TO VIEW THE EMAIL OF SAID USER) \{
         return '********'; // return ENCRYPTED email value  
       }
       return email;
     },
-    joinedOrganization: (parent: { joinedOrganization: Organization } , args , context) => {
+    joinedOrganization: (parent: \{ joinedOrganization: Organization } , args , context) => \{
       // Logic to retrieve joined organization data
       // You can fetch organization data from a database or another source
       
-      if(IF context.userID IS NOT AUTHORISED TO VIEW THE JOINED ORGANIZATION OF THE REQUESTED USER){
+      if(IF context.userID IS NOT AUTHORISED TO VIEW THE JOINED ORGANIZATION OF THE REQUESTED USER)\{
         return null;
       }
 
@@ -559,32 +559,32 @@ In this approach for resolving Field Errors ->
 Let us take a look at how the clients would be making this query.
 
 ```gql
-mutation {
+mutation \{
   login(
-    input: {
+    input: \{
       email: ""
       password: "12345"
     }
-  ) ... on LoginPayload {
+  ) ... on LoginPayload \{
       authtoken
       # Right now let's just focus on the the fields which will not require a custom scalar unlike `email` or `joinedOrganization`
-      user {
+      user \{
         _id
-        image {
+        image \{
           filepath
           size
         }
       }
     }
-    ... on LoginError {
+    ... on LoginError \{
       __typename
-      ... on EmailNotFound {
+      ... on EmailNotFound \{
         message
       }
-      ... on InvalidPassword {
+      ... on InvalidPassword \{
         message
       }
-      ... on IsPasswordValid {
+      ... on IsPasswordValid \{
         message
       }
     }
@@ -605,12 +605,12 @@ Here's how the response would look like for different error scenarios:
 
 1. If a user with the provided email does not exist:
 ```json
-{
-  "data": {
-    "login": {
+\{
+  "data": \{
+    "login": \{
       "loginPayload": null,
       "loginErrors": [
-        {
+        \{
           "__typename": "EmailNotFound",
           "message": "User with Email does not exist",
           "path": "LoginInput.email"
@@ -625,12 +625,12 @@ Here's how the response would look like for different error scenarios:
 2. If the provided password is invalid:
 
 ```json
-{
-  "data": {
-    "login": {
+\{
+  "data": \{
+    "login": \{
       "loginPayload": null,
       "loginErrors": [
-        {
+        \{
           "__typename": "PasswordInvalid",
           "message": "Passwords do not match",
           "path": "LoginInput.password"
@@ -644,17 +644,17 @@ Here's how the response would look like for different error scenarios:
 3. If there are other unspecified errors in the loginErrors array:
 
 ```json
-{
-  "data": {
-    "login": {
+\{
+  "data": \{
+    "login": \{
       "loginPayload": null,
       "loginErrors": [
-        {
+        \{
           "__typename": "UserError",
           "message": "Some error message",
           "path": "Some path"
         },
-        {
+        \{
           "__typename": "UserError",
           "message": "Another error message",
           "path": "Another path"
@@ -686,29 +686,29 @@ Let's First make a small adjustment to our Schema and Resolvers,
 
 ```gql
 
-  type Organization {
+  type Organization \{
     name: String!
     description: String!
   }
 
-  interface OrganizationError {
+  interface OrganizationError \{
     message: String!
     path: String!
   }
 
-  type UnauthorizedError implements OrganizationError {
+  type UnauthorizedError implements OrganizationError \{
     message: String!
     path: String!
   }
 
   union OrganizationErrors = UnauthorizedError | OrganizationError
 
-  type OrganizationResult {
+  type OrganizationResult \{
     organizationPayload: Organization
     organizationErrors: [OrganizationErrors!]!
   }
 
-  type User {
+  type User \{
     _id: ID!
     email: String!
     joinedOrganization: OrganizationResult!
@@ -732,48 +732,48 @@ This field allows for proper error handling and provides details about any issue
 Let's Modify the nested resolver for `joinedOrganization`
 
 ```javascript
-const resolver  = {
-   Mutation: {
-    login: (parent: any, args: { input: LoginInput }) => {
+const resolver  = \{
+   Mutation: \{
+    login: (parent: any, args: \{ input: LoginInput }) => \{
     // Implementation of the login mutation resolver
     },
   },
-  User:{
-    email:(parent:User) =>{
+  User:\{
+    email:(parent:User) =>\{
       // Implementation of the email resolver which will be explained later
     },
-    joinedOrganization: (parent: User , args , context) => {
+    joinedOrganization: (parent: User , args , context) => \{
       // Logic to retrieve joined organization data
       
-      if (IF parent._id IS PRIVATE AND context.userID IS UNAUTHORISED TO ACCESS THE DATA OF THE REQUESTED USER) {
+      if (IF parent._id IS PRIVATE AND context.userID IS UNAUTHORISED TO ACCESS THE DATA OF THE REQUESTED USER) \{
 
-        const unauthorizedError = {
+        const unauthorizedError = \{
           __typename: 'UnauthorizedError',
           message: 'Unauthorized',
           path: 'User.joinedOrganization',
         };
 
-        return {
+        return \{
           organizationPayload: null,
           organizationErrors: [unauthorizedError],
         };
       }
 
-      if (ANY OTHER ERROR) {
+      if (ANY OTHER ERROR) \{
         
-        const organizationError = {
+        const organizationError = \{
           __typename: 'OrganizationError',
           message: 'Unauthorized',
           path: 'User.joinedOrganization',
         };
 
-        return {
+        return \{
           organizationPayload: null,
           organizationErrors: [organizationError],
         };
       }
 
-      return {
+      return \{
         organizationPayload: organization,
         organizationErrors: [],
       };
@@ -789,28 +789,28 @@ In this updated resolver, the joinedOrganization field resolver for the User typ
 
 
 ```gql
-mutation Login($input: LoginInput!) {
-  login(input: $input) {
-    loginPayload {
+mutation Login($input: LoginInput!) \{
+  login(input: $input) \{
+    loginPayload \{
       authtoken
-      user {
+      user \{
         _id
         email
-        joinedOrganization {
+        joinedOrganization \{
          
-            organizationPayload {
-              ... on Organization {
+            organizationPayload \{
+              ... on Organization \{
                 name
                 description
               }
             }
-            organizationErrors {
+            organizationErrors \{
               __typename
-              ... on UnauthorizedError {
+              ... on UnauthorizedError \{
                 message
                 path
               }
-              ... on OrganizationError {
+              ... on OrganizationError \{
                 message
                 path
               }
@@ -819,17 +819,17 @@ mutation Login($input: LoginInput!) {
         }
       }
     }
-    loginErrors {
+    loginErrors \{
       __typename
-      ... on EmailNotFound {
+      ... on EmailNotFound \{
         message
         path
       }
-      ... on PasswordInvalid {
+      ... on PasswordInvalid \{
         message
         path
       }
-      ... on IsPasswordValid {
+      ... on IsPasswordValid \{
         message
         path
       }
@@ -850,18 +850,18 @@ By including both the `organizationPayload` and `organizationErrors` fields with
 Here's an example of a response from Apollo Server for a query that represents a successful login but unauthorized access to the `joinedOrganization`:
 
 ```json
-{
-  "data": {
-    "login": {
-      "loginPayload": {
+\{
+  "data": \{
+    "login": \{
+      "loginPayload": \{
         "authtoken": "abc123",
-        "user": {
+        "user": \{
           "_id": "123",
           "email": "example@example.com",
-          "joinedOrganization": {
+          "joinedOrganization": \{
             "organizationPayload": null,
             "organizationErrors": [
-              {
+              \{
                 "__typename": "UnauthorizedError",
                 "message": "Unauthorized access to joined organization",
                 "path": "User.joinedOrganization"
@@ -900,24 +900,24 @@ We would need to resolve that field seperately when we are fetching a user and t
 
 ```gql
 
-type EmailAdressResult {
+type EmailAdressResult \{
   emailData:EmailAddress,
   emailErrors:[EmailErrors!].
 }
 
 union EmailErrors = PIIError | AccessControlError
 
-type PIIError implements AccessControlError {
+type PIIError implements AccessControlError \{
   message: String!,
   authorisedRole: String!
 }
 
-interface AccessControlError {
+interface AccessControlError \{
   message: String!,
   authorisedRole: String!
 }
 
-type User {
+type User \{
     _id: ID!
     email: EmailAdressResult!
     joinedOrganization: OrganizationResult!
@@ -929,14 +929,14 @@ type User {
 Now let's take a look at their `user` query  resolver types ->
 
 ```gql
-type UserResult {
+type UserResult \{
     userData: User ,
     userErrors: [UserError!]
 }
 
 
 
-type Query {
+type Query \{
    user(id: ID!): UserResult!
 }
 
@@ -945,32 +945,32 @@ type Query {
 And now finally take a look at their resolvers ->
 
 ```javascript
-const resolver  = {
-   Mutation: {
-    login: (parent: any, args: { input: LoginInput }) => {
+const resolver  = \{
+   Mutation: \{
+    login: (parent: any, args: \{ input: LoginInput }) => \{
     // Implementation of the login mutation resolver
     },
   },
-  User:{
-    email:(parent:User) =>{
+  User:\{
+    email:(parent:User) =>\{
 
       const email = parent.email;
       let emailError= [];
-      if(NOT AUTHRORISED TO VIEW PII OF PARENT USER) {
-        emailErrors.push({
+      if(NOT AUTHRORISED TO VIEW PII OF PARENT USER) \{
+        emailErrors.push(\{
           __typename: "PIIError",
           message: "Cannout access this info",
           authorisedRole: "Authorised roles are : ..."
         })
       }
 
-      return {
+      return \{
         emailData: !emailErrors ? email : encrypted(email),
         emailErrors: emailErrors,
       };
 
     },
-    joinedOrganization: (parent: User , args , context) => {
+    joinedOrganization: (parent: User , args , context) => \{
       // Implementation of the joinedOrganization resolver
     },
 
@@ -985,37 +985,37 @@ If the query is made to access an email of another user like this ->
 
 ```gql
 #Here the requesting user i.e context.user has an id of 1 
-mutation Login($input: LoginInput!) {
-  login(input: $input) {
-    loginPayload {
+mutation Login($input: LoginInput!) \{
+  login(input: $input) \{
+    loginPayload \{
       authtoken
-      user {
+      user \{
         _id
-        email {
+        email \{
           emailData
-          emailErrors {
+          emailErrors \{
             __typename
-            ... on PIIError {
+            ... on PIIError \{
               message
               authorisedRole
             }
           }
         }
-        joinedOrganization {
+        joinedOrganization \{
          
-            organizationPayload {
-              ... on Organization {
+            organizationPayload \{
+              ... on Organization \{
                 name
                 description
               }
             }
-            organizationErrors {
+            organizationErrors \{
               __typename
-              ... on UnauthorizedError {
+              ... on UnauthorizedError \{
                 message
                 path
               }
-              ... on OrganizationError {
+              ... on OrganizationError \{
                 message
                 path
               }
@@ -1024,17 +1024,17 @@ mutation Login($input: LoginInput!) {
         }
       }
     }
-    loginErrors {
+    loginErrors \{
       __typename
-      ... on EmailNotFound {
+      ... on EmailNotFound \{
         message
         path
       }
-      ... on PasswordInvalid {
+      ... on PasswordInvalid \{
         message
         path
       }
-      ... on IsPasswordValid {
+      ... on IsPasswordValid \{
         message
         path
       }
@@ -1046,25 +1046,25 @@ mutation Login($input: LoginInput!) {
 Since here the context user is not allowed to access the email field the returned response is something like this ->
 
 ```json 
-{
-  "data": {
-    "login": {
-      "loginPayload": {
+\{
+  "data": \{
+    "login": \{
+      "loginPayload": \{
         "authtoken": "abc123",
-        "user": {
+        "user": \{
           "_id": "123",
-          "email": {
+          "email": \{
             "emailData": null,
             "emailErrors": [
-              {
+              \{
                 "__typename": "PIIError",
                 "message": "Unauthorized access to email",
                 "authorisedRole": "Admin"
               }
             ]
           },
-          "joinedOrganization": {
-            "organizationPayload": {
+          "joinedOrganization": \{
+            "organizationPayload": \{
               "name": "Example Organization",
               "description": "Organization description"
             },
@@ -1092,7 +1092,7 @@ The purpose of nested resolvers is not "magic", but rather to help organize code
 
 When resolving custom or complex fields within the parent resolver, it is possible to return errors related to those fields within the errors field of that parent resolver. While it is technically feasible to resolve an entire GraphQL schema and all related fields within a single resolver, doing so is not in accordance with GraphQL best practices. This approach differs from the root errors approach in that errors are type-safe, whereas in the root errors list they are not. However, when resolving errors for all fields or nested fields within the parent resolver, a long list of possible errors may result.
 
-Adopting a modular approach by extracting data and errors into resolvers can help isolate information to specific fields' resolvers, whether they are for scalar or complex objects. However, this may lead to the GraphQL schema not directly representing relations. As a result, many fields (scalar or complex) may have {success,errors} objects, which can appear peculiar.
+Adopting a modular approach by extracting data and errors into resolvers can help isolate information to specific fields' resolvers, whether they are for scalar or complex objects. However, this may lead to the GraphQL schema not directly representing relations. As a result, many fields (scalar or complex) may have \{success,errors} objects, which can appear peculiar.
 
 
 ## Errors Defined in Schema Approach vs Default GraphQL Errors

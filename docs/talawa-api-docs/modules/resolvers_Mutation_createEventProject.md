@@ -12,7 +12,7 @@
 
 ### createEventProject
 
-▸ **createEventProject**(`_parent`, `args`, `context`): `Promise`<`LeanDocument`<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md) & `Document`<`any`, `any`, [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>\>\>
+▸ **createEventProject**(`_parent`, `args`, `context`): `Promise`\<`LeanDocument`\<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md) & `Document`\<`any`, `any`, [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>\>\>
 
 This function enables to create an event project.
 
@@ -33,7 +33,7 @@ The following checks are done:
 
 #### Returns
 
-`Promise`<`LeanDocument`<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md) & `Document`<`any`, `any`, [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>\>\>
+`Promise`\<`LeanDocument`\<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md) & `Document`\<`any`, `any`, [`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>\>\>
 
 Created event project
 

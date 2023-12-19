@@ -11,7 +11,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void> getImageFromGallery
-({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) camera = false})
+(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) camera = false})
 
 
 

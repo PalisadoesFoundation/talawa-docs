@@ -16,7 +16,7 @@
 
 ### OrganizationTagUser
 
-• `Const` **OrganizationTagUser**: `Model`<[`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md), {}, {}\>
+• `Const` **OrganizationTagUser**: `Model`\<[`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md), \{}, \{}\>
 
 #### Defined in
 

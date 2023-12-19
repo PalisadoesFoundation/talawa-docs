@@ -9,7 +9,7 @@
 
 
 
-MainScreenArgs({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) fromSignUp = false, required [int](https://api.flutter.dev/flutter/dart-core/int-class.html) mainScreenIndex})
+MainScreenArgs(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) fromSignUp = false, required [int](https://api.flutter.dev/flutter/dart-core/int-class.html) mainScreenIndex})
 
 
 

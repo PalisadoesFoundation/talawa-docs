@@ -12,7 +12,7 @@
 
 ### removeEventProject
 
-▸ **removeEventProject**(`_parent`, `args`, `context`): `Promise`<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
+▸ **removeEventProject**(`_parent`, `args`, `context`): `Promise`\<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
 
 This function enables to remove an event project.
 
@@ -33,7 +33,7 @@ The following checks are done:
 
 #### Returns
 
-`Promise`<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
+`Promise`\<[`Interface_EventProject`](../interfaces/models_EventProject.Interface_EventProject.md)\>
 
 Deleted event project.
 

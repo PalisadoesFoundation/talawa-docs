@@ -9,7 +9,7 @@
 
 
 
-LikedBy({[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? sId})
+LikedBy(\{[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? sId})
 
 
 

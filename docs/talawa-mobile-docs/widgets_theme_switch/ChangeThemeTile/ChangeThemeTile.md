@@ -9,11 +9,7 @@
 
 
 const
-ChangeThemeTile({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
-
-
-
-
+ChangeThemeTile(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 ## Implementation
 

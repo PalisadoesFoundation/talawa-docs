@@ -11,7 +11,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void> deleteEvent
-({required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) eventId})
+(\{required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) eventId})
 
 
 

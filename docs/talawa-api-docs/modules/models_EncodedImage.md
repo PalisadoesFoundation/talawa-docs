@@ -16,7 +16,7 @@
 
 ### EncodedImage
 
-• `Const` **EncodedImage**: `Model`<[`Interface_EncodedImage`](../interfaces/models_EncodedImage.Interface_EncodedImage.md), {}, {}\>
+• `Const` **EncodedImage**: `Model`\<[`Interface_EncodedImage`](../interfaces/models_EncodedImage.Interface_EncodedImage.md), \{}, \{}\>
 
 #### Defined in
 

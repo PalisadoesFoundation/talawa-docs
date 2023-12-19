@@ -17,7 +17,7 @@
 
 ### Language
 
-• `Const` **Language**: `Model`<[`Interface_Language`](../interfaces/models_Language.Interface_Language.md), {}, {}\>
+• `Const` **Language**: `Model`\<[`Interface_Language`](../interfaces/models_Language.Interface_Language.md), \{}, \{}\>
 
 #### Defined in
 

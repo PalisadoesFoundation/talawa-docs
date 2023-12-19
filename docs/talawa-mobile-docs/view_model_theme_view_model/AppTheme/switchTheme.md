@@ -11,7 +11,7 @@
 
 
 void switchTheme
-({required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isOn})
+(\{required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isOn})
 
 
 

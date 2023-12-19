@@ -54,7 +54,7 @@ ___
 
 ### middleware
 
-▸ **middleware**(): (`req`: `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\>, `res`: `Response`<`any`, `Record`<`string`, `any`\>\>, `next`: `NextFunction`) => `void`
+▸ **middleware**(): (`req`: `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>, `res`: `Response`\<`any`, `Record`\<`string`, `any`\>\>, `next`: `NextFunction`) => `void`
 
 #### Returns
 
@@ -66,8 +66,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `req` | `Request`<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`<`string`, `any`\>\> |
-| `res` | `Response`<`any`, `Record`<`string`, `any`\>\> |
+| `req` | `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\> |
+| `res` | `Response`\<`any`, `Record`\<`string`, `any`\>\> |
 | `next` | `NextFunction` |
 
 ##### Returns
@@ -102,7 +102,7 @@ ___
 
 ### trace
 
-▸ **trace**<`T`\>(`tracingId`, `method`): `Promise`<`void`\>
+▸ **trace**\<`T`\>(`tracingId`, `method`): `Promise`\<`void`\>
 
 #### Type parameters
 
@@ -119,7 +119,7 @@ ___
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 

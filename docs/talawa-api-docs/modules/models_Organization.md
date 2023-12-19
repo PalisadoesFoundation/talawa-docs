@@ -16,7 +16,7 @@
 
 ### Organization
 
-• `Const` **Organization**: `Model`<[`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md), {}, {}\>
+• `Const` **Organization**: `Model`\<[`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md), \{}, \{}\>
 
 #### Defined in
 

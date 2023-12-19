@@ -187,7 +187,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [setIsLiked](../view_model_widgets_view_models_like_button_view_model/LikeButtonViewModel/setIsLiked.md)({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) val = true}) void
+##### [setIsLiked](../view_model_widgets_view_models_like_button_view_model/LikeButtonViewModel/setIsLiked.md)(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) val = true}) void
 
 
 

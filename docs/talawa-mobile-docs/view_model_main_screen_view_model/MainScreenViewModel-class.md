@@ -406,7 +406,7 @@ Dynamically adds <code>BottomNavigationBarItems</code> in <code>BottomNavigation
 
 
 
-##### [focusTarget](../view_model_main_screen_view_model/MainScreenViewModel/focusTarget.md)([GlobalKey](https://api.flutter.dev/flutter/widgets/GlobalKey-class.html)&lt;[State](https://api.flutter.dev/flutter/widgets/State-class.html)&lt;[StatefulWidget](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)>> key, [String](https://api.flutter.dev/flutter/dart-core/String-class.html) keyName, [String](https://api.flutter.dev/flutter/dart-core/String-class.html) description, {[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isCircle = false, [ContentAlign](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/ContentAlign.html) align = ContentAlign.bottom, [CrossAxisAlignment](https://api.flutter.dev/flutter/rendering/CrossAxisAlignment.html) crossAlign = CrossAxisAlignment.start, [Alignment](https://api.flutter.dev/flutter/painting/Alignment-class.html) skipAlignment = Alignment.topRight, [Function](https://api.flutter.dev/flutter/dart-core/Function-class.html)? next, [CrossAxisAlignment](https://api.flutter.dev/flutter/rendering/CrossAxisAlignment.html) nextCrossAlign = CrossAxisAlignment.end, [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isEnd = false}) [TargetFocus](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/TargetFocus-class.html)
+##### [focusTarget](../view_model_main_screen_view_model/MainScreenViewModel/focusTarget.md)([GlobalKey](https://api.flutter.dev/flutter/widgets/GlobalKey-class.html)&lt;[State](https://api.flutter.dev/flutter/widgets/State-class.html)&lt;[StatefulWidget](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)>> key, [String](https://api.flutter.dev/flutter/dart-core/String-class.html) keyName, [String](https://api.flutter.dev/flutter/dart-core/String-class.html) description, \{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isCircle = false, [ContentAlign](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/ContentAlign.html) align = ContentAlign.bottom, [CrossAxisAlignment](https://api.flutter.dev/flutter/rendering/CrossAxisAlignment.html) crossAlign = CrossAxisAlignment.start, [Alignment](https://api.flutter.dev/flutter/painting/Alignment-class.html) skipAlignment = Alignment.topRight, [Function](https://api.flutter.dev/flutter/dart-core/Function-class.html)? next, [CrossAxisAlignment](https://api.flutter.dev/flutter/rendering/CrossAxisAlignment.html) nextCrossAlign = CrossAxisAlignment.end, [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isEnd = false}) [TargetFocus](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/TargetFocus-class.html)
 
 
 
@@ -415,7 +415,7 @@ This returns a widget for a step in a tutorial.
 
 
 
-##### [initialise](../view_model_main_screen_view_model/MainScreenViewModel/initialise.md)([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) ctx, {required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) fromSignUp, required [int](https://api.flutter.dev/flutter/dart-core/int-class.html) mainScreenIndex}) void
+##### [initialise](../view_model_main_screen_view_model/MainScreenViewModel/initialise.md)([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) ctx, \{required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) fromSignUp, required [int](https://api.flutter.dev/flutter/dart-core/int-class.html) mainScreenIndex}) void
 
 
 
@@ -479,7 +479,7 @@ This function shows the Home screen.
 
 
 
-##### [showTutorial](../view_model_main_screen_view_model/MainScreenViewModel/showTutorial.md)({required dynamic onClickTarget([TargetFocus](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/TargetFocus-class.html)), required dynamic onFinish()}) void
+##### [showTutorial](../view_model_main_screen_view_model/MainScreenViewModel/showTutorial.md)(\{required dynamic onClickTarget([TargetFocus](https://pub.dev/documentation/tutorial_coach_mark/1.2.9/tutorial_coach_mark/TargetFocus-class.html)), required dynamic onFinish()}) void
 
 
 

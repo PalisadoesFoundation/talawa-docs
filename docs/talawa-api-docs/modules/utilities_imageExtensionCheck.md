@@ -12,7 +12,7 @@
 
 ### imageExtensionCheck
 
-▸ **imageExtensionCheck**(`filename`): `Promise`<`void`\>
+▸ **imageExtensionCheck**(`filename`): `Promise`\<`void`\>
 
 This function checks the extension of the file.
 If the extension isn't of type 'png', or 'jpg', or 'jpeg',
@@ -26,7 +26,7 @@ then the file is deleted and a validation error is thrown.
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 

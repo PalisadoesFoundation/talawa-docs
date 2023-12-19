@@ -45,7 +45,7 @@ This class detects internal server errors and sends those errors to the supercla
 | `message` | `string` | `"Internal Server Error!"` |
 | `code` | ``null`` \| `string` | `null` |
 | `param` | ``null`` \| `string` | `null` |
-| `metadata` | `Record`<`any`, `any`\> | `{}` |
+| `metadata` | `Record`\<`any`, `any`\> | `\{}` |
 
 #### Overrides
 

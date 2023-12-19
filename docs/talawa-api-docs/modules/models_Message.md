@@ -16,7 +16,7 @@
 
 ### Message
 
-• `Const` **Message**: `Model`<[`Interface_Message`](../interfaces/models_Message.Interface_Message.md), {}, {}\>
+• `Const` **Message**: `Model`\<[`Interface_Message`](../interfaces/models_Message.Interface_Message.md), \{}, \{}\>
 
 #### Defined in
 

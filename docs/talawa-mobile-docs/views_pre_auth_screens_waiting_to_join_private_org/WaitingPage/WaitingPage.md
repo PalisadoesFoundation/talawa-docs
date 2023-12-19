@@ -9,7 +9,7 @@
 
 
 const
-WaitingPage({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+WaitingPage(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

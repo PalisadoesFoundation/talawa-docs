@@ -9,7 +9,7 @@
 
 
 const
-EditProfilePage({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+EditProfilePage(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

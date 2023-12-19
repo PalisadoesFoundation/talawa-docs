@@ -12,7 +12,7 @@
 
 ### deleteImage
 
-▸ **deleteImage**(`imageToBeDeleted`, `imageBelongingToItem?`): `Promise`<`void`\>
+▸ **deleteImage**(`imageToBeDeleted`, `imageBelongingToItem?`): `Promise`\<`void`\>
 
 This function deletes an image if it is only used once.
 It is also ensured that the image hash isn't used by multiple users/organization before deleting it
@@ -27,7 +27,7 @@ After deleting the image, the number of uses of the hashed image are decremented
 
 #### Returns
 
-`Promise`<`void`\>
+`Promise`\<`void`\>
 
 #### Defined in
 

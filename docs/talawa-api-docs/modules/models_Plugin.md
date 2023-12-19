@@ -16,7 +16,7 @@
 
 ### Plugin
 
-• `Const` **Plugin**: `Model`<[`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md), {}, {}\>
+• `Const` **Plugin**: `Model`\<[`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md), \{}, \{}\>
 
 #### Defined in
 
