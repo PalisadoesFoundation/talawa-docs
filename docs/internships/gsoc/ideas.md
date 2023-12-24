@@ -199,18 +199,79 @@ Please read the `Research` section of this document for background information
 9. **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
-### Hybrid Innovation
+### Hybrid Innovation - Talawa
 
-1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
-2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
-   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
-   2. Add completely new features not previously stated in ideas.
-   3. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
-   4. Justify 350 hours of work.
-3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+1. **Description:** We know that there are many opportunities to improve our mobile application to make it more usable. If you have answers to the questions below then this section is for you.
+   1. If you have answers to the questions below then this section is for you.
+      1. Do the previous ideas need something more? 
+      2. What completely new thoughts could be applied to the existing ideas?
+   2. Opportunities exist to improve (but are not limited to):
+      1. Usefulness
+      2. The usability of the various workflows
+      3. Long term maintainability
+2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
+   1. Not add any administrative features. These must remain solely in the Talawa-Admin web app.
+   2. Not rely on any third party providers. This will greatly simplify the deployment of the mobile app.
+      1. There must be no requirement to configure files in the mobile app with third party parameters specific to the Palisadoes Foundation or you, the GSoC participant.
+      2. All proposed services must be solely derived from the Talawa-API instance.
+      3. All communication must exclusively be with the Talawa-API instance.
+   3. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
+   4. Add completely new features not previously stated in ideas.
+   5. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
+   6. Justify 350 hours of work.
+3. **Repos to update:** Talawa, Talawa-API
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
 7. **Possible Mentors:** TBD
 8. **Difficulty:** Medium
-9. **Impact Definition:** Risky/Exploratory
+9.  **Impact Definition:** Risky/Exploratory
+
+### Hybrid Innovation - Talawa Admin
+
+1. **Description:** We know that there are many opportunities to improve our web application to make it more usable. 
+   1. If you have answers to the questions below then this section is for you.
+      1. Do the previous ideas need something more? 
+      2. What completely new thoughts could be applied to the existing ideas?
+   2. Opportunities exist to improve (but are not limited to):
+      1. Usefulness to Administrators
+      2. The usability of the various workflows
+      3. Long term maintainability
+2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
+   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
+   2. Add completely new features not previously stated in ideas.
+   3. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
+   4. Justify 350 hours of work.
+3. **Repos to update:** Talawa-API, Talawa-Admin
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** N/A
+6. **Project Size:** 350
+7. **Possible Mentors:** TBD
+8. **Difficulty:** Medium
+9.  **Impact Definition:** Risky/Exploratory
+
+### Hybrid Innovation - Talawa API
+
+1. **Description:** We know that there are many opportunities to improve our backend API to make it more usable. 
+   1. If you have answers to the questions below then this section is for you.
+      1. Do the previous ideas need something more? 
+      2. What completely new thoughts could be applied to the existing ideas?
+   2. Opportunities exist to improve (but are not limited to):
+      1. Performance
+      2. Simplicity
+      3. Functionality
+      4. Long term maintainability
+      5. Support for long term features in the Mobile and Admin apps that need preparatory work now
+   3. The focus for this project idea is improving the API in ways that will be mostly transparent to the other Talawa applications.
+2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
+   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
+   2. Add completely new features not previously stated in ideas.
+   3. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
+   4. Justify 350 hours of work.
+3. **Repos to update:** Talawa-API
+4. **Skills Required:** Code stacks related to repos above. See introduction section.
+5. **Depends on Project:** N/A
+6. **Project Size:** 350
+7. **Possible Mentors:** TBD
+8. **Difficulty:** Medium
+9.  **Impact Definition:** Risky/Exploratory
