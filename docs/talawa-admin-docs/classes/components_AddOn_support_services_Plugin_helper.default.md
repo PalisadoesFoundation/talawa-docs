@@ -54,7 +54,7 @@ ___
 
 ### generateLinks
 
-▸ **generateLinks**(`plugins`): { `name`: `string` ; `url`: `string`  }[]
+▸ **generateLinks**(`plugins`): { `name`: `string` ; `url`: `string`  \}[]
 
 #### Parameters
 
@@ -64,7 +64,7 @@ ___
 
 #### Returns
 
-{ `name`: `string` ; `url`: `string`  }[]
+{ `name`: `string` ; `url`: `string`  \}[]
 
 #### Defined in
 
