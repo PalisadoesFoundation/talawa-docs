@@ -23,7 +23,7 @@
 | Name | Type |
 | :------ | :------ |
 | `handleClose` | () => `void` |
-| `organization` | \{ `_id`: `string` ; `members`: `InterfaceUser`[]  \} |
+| `organization` | { `_id`: `string` ; `members`: `InterfaceUser`[]  } |
 | `organization._id` | `string` |
 | `organization.members` | `InterfaceUser`[] |
 | `refetchData` | () => `void` |
