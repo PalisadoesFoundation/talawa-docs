@@ -21,7 +21,7 @@ function HeaderHero() {
         columnTwo={
           <>
             <h1 className="title">Talawa</h1>
-            <h2 className="tagline">Powering Closer Communities</h2>
+            <h2 className="tagline">Member Management Software</h2>
             <p className="description">
               For religious organizations, charities and other non-profits
             </p>
