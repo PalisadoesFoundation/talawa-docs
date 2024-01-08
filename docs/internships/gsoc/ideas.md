@@ -160,7 +160,7 @@ Please read the `Research` section of this document for background information
 
 ### Self Hosted Chat and Notifications
 
-1. **Description:** The Talawa apps are closely coupled with cloud services which creates operational concerns. This greatly complicates setup as each new service requires new configuration parameters. It also adds greater troubleshooting and billing complexity for organizations that will not be tech-savvy.
+1. **Description:** The Talawa apps are closely coupled with cloud services which creates operational concerns. This greatly complicates setup as each new service requires new configuration parameters. It also adds greater troubleshooting and billing complexity for organizations that will not be tech-savvy. For this idea there must be no dependency on any third party cloud service providers, all the code must run on the API server.
 2. **Expected Outcomes:** 
    1. _Chat_ : A key component of the Talawa application suite is chat. Though some endpoints have been created, the feature has not been fully activated and deployed. Chat must be:
       1. Hosted on the API server. We expect the typical Talawa deployment to be small and hosted by communities with limited funding that may not be able to afford cloud additional services.
