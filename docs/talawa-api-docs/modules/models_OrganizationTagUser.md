@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_OrganizationTagUser](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md)
+- [InterfaceOrganizationTagUser](../interfaces/models_OrganizationTagUser.InterfaceOrganizationTagUser.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### OrganizationTagUser
 
-• `Const` **OrganizationTagUser**: `Model`\<[`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md), \{}, \{}\>
+• `Const` **OrganizationTagUser**: `Model`\<[`InterfaceOrganizationTagUser`](../interfaces/models_OrganizationTagUser.InterfaceOrganizationTagUser.md), {}, {}\>
 
 #### Defined in
 
-src/models/OrganizationTagUser.ts:44
+[src/models/OrganizationTagUser.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/OrganizationTagUser.ts#L45)

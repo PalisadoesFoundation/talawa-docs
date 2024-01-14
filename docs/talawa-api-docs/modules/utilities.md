@@ -6,28 +6,29 @@
 
 ### References
 
-- [Interface\_JwtTokenPayload](utilities.md#interface_jwttokenpayload)
-- [Interface\_MailFields](utilities.md#interface_mailfields)
+- [InterfaceJwtTokenPayload](utilities.md#interfacejwttokenpayload)
+- [InterfaceMailFields](utilities.md#interfacemailfields)
 - [adminCheck](utilities.md#admincheck)
 - [copyToClipboard](utilities.md#copytoclipboard)
 - [createAccessToken](utilities.md#createaccesstoken)
 - [createRefreshToken](utilities.md#createrefreshtoken)
 - [deleteImage](utilities.md#deleteimage)
 - [mailer](utilities.md#mailer)
+- [revokeRefreshToken](utilities.md#revokerefreshtoken)
 - [superAdminCheck](utilities.md#superadmincheck)
 - [uploadImage](utilities.md#uploadimage)
 
 ## References
 
-### Interface\_JwtTokenPayload
+### InterfaceJwtTokenPayload
 
-Re-exports [Interface_JwtTokenPayload](../interfaces/utilities_auth.Interface_JwtTokenPayload.md)
+Re-exports [InterfaceJwtTokenPayload](../interfaces/utilities_auth.InterfaceJwtTokenPayload.md)
 
 ___
 
-### Interface\_MailFields
+### InterfaceMailFields
 
-Re-exports [Interface_MailFields](../interfaces/utilities_mailer.Interface_MailFields.md)
+Re-exports [InterfaceMailFields](../interfaces/utilities_mailer.InterfaceMailFields.md)
 
 ___
 
@@ -64,6 +65,12 @@ ___
 ### mailer
 
 Re-exports [mailer](utilities_mailer.md#mailer)
+
+___
+
+### revokeRefreshToken
+
+Re-exports [revokeRefreshToken](utilities_auth.md#revokerefreshtoken)
 
 ___
 

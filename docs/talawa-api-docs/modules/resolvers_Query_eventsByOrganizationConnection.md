@@ -16,4 +16,4 @@
 
 #### Defined in
 
-src/resolvers/Query/eventsByOrganizationConnection.ts:10
+[src/resolvers/Query/eventsByOrganizationConnection.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Query/eventsByOrganizationConnection.ts#L7)

@@ -9,7 +9,7 @@
 - [ApplicationError](libraries_errors.md#applicationerror)
 - [ConflictError](libraries_errors.md#conflicterror)
 - [InputValidationError](libraries_errors.md#inputvalidationerror)
-- [Interface\_Error](libraries_errors.md#interface_error)
+- [InterfaceError](libraries_errors.md#interfaceerror)
 - [InternalServerError](libraries_errors.md#internalservererror)
 - [InvalidFileTypeError](libraries_errors.md#invalidfiletypeerror)
 - [NotFoundError](libraries_errors.md#notfounderror)
@@ -37,9 +37,9 @@ Re-exports [InputValidationError](../classes/libraries_errors_inputValidationErr
 
 ___
 
-### Interface\_Error
+### InterfaceError
 
-Re-exports [Interface_Error](../interfaces/libraries_errors_applicationError.Interface_Error.md)
+Re-exports [InterfaceError](../interfaces/libraries_errors_applicationError.InterfaceError.md)
 
 ___
 

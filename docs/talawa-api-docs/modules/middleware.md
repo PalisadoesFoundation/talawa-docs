@@ -6,14 +6,14 @@
 
 ### References
 
-- [Interface\_AuthData](middleware.md#interface_authdata)
+- [InterfaceAuthData](middleware.md#interfaceauthdata)
 - [isAuth](middleware.md#isauth)
 
 ## References
 
-### Interface\_AuthData
+### InterfaceAuthData
 
-Re-exports [Interface_AuthData](../interfaces/middleware_isAuth.Interface_AuthData.md)
+Re-exports [InterfaceAuthData](../interfaces/middleware_isAuth.InterfaceAuthData.md)
 
 ___
 

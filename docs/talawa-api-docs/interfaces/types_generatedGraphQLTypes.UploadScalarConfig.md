@@ -22,7 +22,7 @@
 - [parseLiteral](types_generatedGraphQLTypes.UploadScalarConfig.md#parseliteral)
 - [parseValue](types_generatedGraphQLTypes.UploadScalarConfig.md#parsevalue)
 - [serialize](types_generatedGraphQLTypes.UploadScalarConfig.md#serialize)
-- [specifiedByUrl](types_generatedGraphQLTypes.UploadScalarConfig.md#specifiedbyurl)
+- [specifiedByURL](types_generatedGraphQLTypes.UploadScalarConfig.md#specifiedbyurl)
 
 ## Properties
 
@@ -36,7 +36,7 @@ GraphQLScalarTypeConfig.astNode
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:365
+node_modules/graphql/type/definition.d.ts:369
 
 ___
 
@@ -50,7 +50,7 @@ GraphQLScalarTypeConfig.description
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:356
+node_modules/graphql/type/definition.d.ts:360
 
 ___
 
@@ -64,7 +64,7 @@ GraphQLScalarTypeConfig.extensionASTNodes
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:366
+node_modules/graphql/type/definition.d.ts:370
 
 ___
 
@@ -78,7 +78,7 @@ GraphQLScalarTypeConfig.extensions
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:364
+node_modules/graphql/type/definition.d.ts:368
 
 ___
 
@@ -92,7 +92,7 @@ GraphQLScalarTypeConfig.name
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2348
+[src/types/generatedGraphQLTypes.ts:2760](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2760)
 
 ___
 
@@ -100,13 +100,15 @@ ___
 
 • `Optional` **parseLiteral**: `GraphQLScalarLiteralParser`\<`any`\>
 
+Parses an externally provided literal value to use as an input.
+
 #### Inherited from
 
 GraphQLScalarTypeConfig.parseLiteral
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:363
+node_modules/graphql/type/definition.d.ts:367
 
 ___
 
@@ -114,13 +116,15 @@ ___
 
 • `Optional` **parseValue**: `GraphQLScalarValueParser`\<`any`\>
 
+Parses an externally provided value to use as an input.
+
 #### Inherited from
 
 GraphQLScalarTypeConfig.parseValue
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:361
+node_modules/graphql/type/definition.d.ts:365
 
 ___
 
@@ -128,24 +132,26 @@ ___
 
 • `Optional` **serialize**: `GraphQLScalarSerializer`\<`any`\>
 
+Serializes an internal value to include in a response.
+
 #### Inherited from
 
 GraphQLScalarTypeConfig.serialize
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:359
+node_modules/graphql/type/definition.d.ts:363
 
 ___
 
-### specifiedByUrl
+### specifiedByURL
 
-• `Optional` **specifiedByUrl**: `Maybe`\<`string`\>
+• `Optional` **specifiedByURL**: `Maybe`\<`string`\>
 
 #### Inherited from
 
-GraphQLScalarTypeConfig.specifiedByUrl
+GraphQLScalarTypeConfig.specifiedByURL
 
 #### Defined in
 
-node_modules/graphql/type/definition.d.ts:357
+node_modules/graphql/type/definition.d.ts:361

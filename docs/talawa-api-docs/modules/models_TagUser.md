@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_TagUser](../interfaces/models_TagUser.Interface_TagUser.md)
+- [InterfaceTagUser](../interfaces/models_TagUser.InterfaceTagUser.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### TagUser
 
-• `Const` **TagUser**: `Model`\<[`Interface_TagUser`](../interfaces/models_TagUser.Interface_TagUser.md), \{}, \{}\>
+• `Const` **TagUser**: `Model`\<[`InterfaceTagUser`](../interfaces/models_TagUser.InterfaceTagUser.md), {}, {}\>
 
 #### Defined in
 
-src/models/TagUser.ts:30
+[src/models/TagUser.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/TagUser.ts#L32)

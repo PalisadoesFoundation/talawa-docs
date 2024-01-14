@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-src/resolvers/Mutation/createEvent.ts:31
+[src/resolvers/Mutation/createEvent.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Mutation/createEvent.ts#L26)

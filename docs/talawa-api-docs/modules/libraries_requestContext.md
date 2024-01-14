@@ -22,37 +22,17 @@
 
 ### requestContextNamespace
 
-• `Const` **requestContextNamespace**: `Namespace`
+• `Const` **requestContextNamespace**: `Namespace`\<`Record`\<`string`, `any`\>\>
 
 #### Defined in
 
-src/libraries/requestContext.ts:8
+[src/libraries/requestContext.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L8)
 
 ## Functions
 
 ### getRequestContextValue
 
-▸ **getRequestContextValue**(`key`): `any`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `key` | `string` |
-
-#### Returns
-
-`any`
-
-#### Defined in
-
-src/libraries/requestContext.ts:18
-
-___
-
-### init
-
-▸ **init**\<`T`\>(`options?`): `Promise`\<`T`\>
+▸ **getRequestContextValue**\<`T`\>(`key`): `T`
 
 #### Type parameters
 
@@ -64,15 +44,41 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `options` | `Interface_InitOptions`\<`T`\> |
+| `key` | `string` |
 
 #### Returns
 
-`Promise`\<`T`\>
+`T`
 
 #### Defined in
 
-src/libraries/requestContext.ts:44
+[src/libraries/requestContext.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L19)
+
+___
+
+### init
+
+▸ **init**\<`T`\>(`options?`): `T`
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `options` | `InterfaceInitOptions`\<`T`\> |
+
+#### Returns
+
+`T`
+
+#### Defined in
+
+[src/libraries/requestContext.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L45)
 
 ___
 
@@ -100,7 +106,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestContext.ts:27
+[src/libraries/requestContext.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L28)
 
 ___
 
@@ -120,7 +126,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestContext.ts:22
+[src/libraries/requestContext.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L23)
 
 ___
 
@@ -147,7 +153,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestContext.ts:14
+[src/libraries/requestContext.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L14)
 
 ___
 
@@ -167,7 +173,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestContext.ts:60
+[src/libraries/requestContext.ts:62](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L62)
 
 ___
 
@@ -187,4 +193,4 @@ ___
 
 #### Defined in
 
-src/libraries/requestContext.ts:68
+[src/libraries/requestContext.ts:71](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestContext.ts#L71)

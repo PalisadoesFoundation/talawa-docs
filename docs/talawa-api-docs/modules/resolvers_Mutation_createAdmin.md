@@ -39,4 +39,4 @@ The following checks are done:
 
 #### Defined in
 
-src/resolvers/Mutation/createAdmin.ts:24
+[src/resolvers/Mutation/createAdmin.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Mutation/createAdmin.ts#L27)

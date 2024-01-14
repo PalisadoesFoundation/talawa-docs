@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-src/resolvers/Mutation/unregisterForEventByUser.ts:20
+[src/resolvers/Mutation/unregisterForEventByUser.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Mutation/unregisterForEventByUser.ts#L24)

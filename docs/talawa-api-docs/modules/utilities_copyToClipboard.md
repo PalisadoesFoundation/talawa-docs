@@ -16,10 +16,6 @@
 
 This utility function copy the text into the clipboard.
 
-**`Remarks`**
-
-This is a utility method. This works only in development or test mode.
-
 #### Parameters
 
 | Name | Type | Description |
@@ -30,6 +26,10 @@ This is a utility method. This works only in development or test mode.
 
 `void`
 
+**`Remarks`**
+
+This is a utility method. This works only in development or test mode.
+
 #### Defined in
 
-src/utilities/copyToClipboard.ts:9
+[src/utilities/copyToClipboard.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/utilities/copyToClipboard.ts#L9)

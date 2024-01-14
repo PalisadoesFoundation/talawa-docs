@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_AuthData](../interfaces/middleware_isAuth.Interface_AuthData.md)
+- [InterfaceAuthData](../interfaces/middleware_isAuth.InterfaceAuthData.md)
 
 ### Functions
 
@@ -16,7 +16,7 @@
 
 ### isAuth
 
-▸ **isAuth**(`request`): [`Interface_AuthData`](../interfaces/middleware_isAuth.Interface_AuthData.md)
+▸ **isAuth**(`request`): [`InterfaceAuthData`](../interfaces/middleware_isAuth.InterfaceAuthData.md)
 
 This function determines whether the user is authorised and whether the access token has expired.
 
@@ -28,10 +28,10 @@ This function determines whether the user is authorised and whether the access t
 
 #### Returns
 
-[`Interface_AuthData`](../interfaces/middleware_isAuth.Interface_AuthData.md)
+[`InterfaceAuthData`](../interfaces/middleware_isAuth.InterfaceAuthData.md)
 
 Returns `authData` object with `isAuth`, `expired` and `userId` properties.
 
 #### Defined in
 
-src/middleware/isAuth.ts:17
+[src/middleware/isAuth.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/middleware/isAuth.ts#L17)

@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_GroupChat](../interfaces/models_GroupChat.Interface_GroupChat.md)
+- [InterfaceGroupChat](../interfaces/models_GroupChat.InterfaceGroupChat.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### GroupChat
 
-• `Const` **GroupChat**: `Model`\<[`Interface_GroupChat`](../interfaces/models_GroupChat.Interface_GroupChat.md), \{}, \{}\>
+• `Const` **GroupChat**: `Model`\<[`InterfaceGroupChat`](../interfaces/models_GroupChat.InterfaceGroupChat.md), {}, {}\>
 
 #### Defined in
 
-src/models/GroupChat.ts:66
+[src/models/GroupChat.ts:76](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/GroupChat.ts#L76)

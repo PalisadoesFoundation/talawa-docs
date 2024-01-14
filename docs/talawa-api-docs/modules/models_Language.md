@@ -6,8 +6,8 @@
 
 ### Interfaces
 
-- [Interface\_Language](../interfaces/models_Language.Interface_Language.md)
-- [Interface\_LanguageModel](../interfaces/models_Language.Interface_LanguageModel.md)
+- [InterfaceLanguage](../interfaces/models_Language.InterfaceLanguage.md)
+- [InterfaceLanguageModel](../interfaces/models_Language.InterfaceLanguageModel.md)
 
 ### Variables
 
@@ -17,8 +17,8 @@
 
 ### Language
 
-• `Const` **Language**: `Model`\<[`Interface_Language`](../interfaces/models_Language.Interface_Language.md), \{}, \{}\>
+• `Const` **Language**: `Model`\<[`InterfaceLanguage`](../interfaces/models_Language.InterfaceLanguage.md), {}, {}\>
 
 #### Defined in
 
-src/models/Language.ts:76
+[src/models/Language.ts:77](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/Language.ts#L77)

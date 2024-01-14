@@ -36,4 +36,4 @@ The following checks are done:
 
 #### Defined in
 
-src/resolvers/Mutation/createGroupChat.ts:18
+[src/resolvers/Mutation/createGroupChat.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Mutation/createGroupChat.ts#L20)

@@ -36,14 +36,18 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 ### constructor
 
-• **new ValidationError**(`errors?`, `message?`)
+• **new ValidationError**(`errors?`, `message?`): [`ValidationError`](libraries_errors_validationError.ValidationError.md)
 
 #### Parameters
 
 | Name | Type | Default value |
 | :------ | :------ | :------ |
-| `errors` | [`Interface_Error`](../interfaces/libraries_errors_applicationError.Interface_Error.md)[] | `[]` |
+| `errors` | [`InterfaceError`](../interfaces/libraries_errors_applicationError.InterfaceError.md)[] | `[]` |
 | `message` | `string` | `"Validation error"` |
+
+#### Returns
+
+[`ValidationError`](libraries_errors_validationError.ValidationError.md)
 
 #### Overrides
 
@@ -51,13 +55,13 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 #### Defined in
 
-src/libraries/errors/validationError.ts:6
+[src/libraries/errors/validationError.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/errors/validationError.ts#L7)
 
 ## Properties
 
 ### errors
 
-• **errors**: [`Interface_Error`](../interfaces/libraries_errors_applicationError.Interface_Error.md)[]
+• **errors**: [`InterfaceError`](../interfaces/libraries_errors_applicationError.InterfaceError.md)[]
 
 #### Inherited from
 
@@ -65,7 +69,7 @@ src/libraries/errors/validationError.ts:6
 
 #### Defined in
 
-src/libraries/errors/applicationError.ts:11
+[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/errors/applicationError.ts#L11)
 
 ___
 
@@ -79,7 +83,7 @@ ___
 
 #### Defined in
 
-src/libraries/errors/applicationError.ts:12
+[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/errors/applicationError.ts#L12)
 
 ___
 
@@ -93,7 +97,7 @@ ___
 
 #### Defined in
 
-node_modules/typescript/lib/lib.es5.d.ts:1054
+node_modules/typescript/lib/lib.es5.d.ts:1076
 
 ___
 
@@ -107,7 +111,7 @@ ___
 
 #### Defined in
 
-node_modules/typescript/lib/lib.es5.d.ts:1053
+node_modules/typescript/lib/lib.es5.d.ts:1075
 
 ___
 
@@ -121,7 +125,7 @@ ___
 
 #### Defined in
 
-node_modules/typescript/lib/lib.es5.d.ts:1055
+node_modules/typescript/lib/lib.es5.d.ts:1077
 
 ___
 
@@ -129,15 +133,17 @@ ___
 
 ▪ `Static` `Optional` **prepareStackTrace**: (`err`: `Error`, `stackTraces`: `CallSite`[]) => `any`
 
-#### Type declaration
-
-▸ (`err`, `stackTraces`): `any`
-
 Optional override for formatting stack traces
 
 **`See`**
 
 https://v8.dev/docs/stack-trace-api#customizing-stack-traces
+
+#### Type declaration
+
+▸ (`err`, `stackTraces`): `any`
+
+Optional override for formatting stack traces
 
 ##### Parameters
 
@@ -150,13 +156,17 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 `any`
 
+**`See`**
+
+https://v8.dev/docs/stack-trace-api#customizing-stack-traces
+
 #### Inherited from
 
 [ApplicationError](libraries_errors_applicationError.ApplicationError.md).[prepareStackTrace](libraries_errors_applicationError.ApplicationError.md#preparestacktrace)
 
 #### Defined in
 
-node_modules/@types/node/globals.d.ts:11
+node_modules/@types/node/globals.d.ts:27
 
 ___
 
@@ -170,13 +180,13 @@ ___
 
 #### Defined in
 
-node_modules/@types/node/globals.d.ts:13
+node_modules/@types/node/globals.d.ts:29
 
 ## Methods
 
 ### captureStackTrace
 
-▸ `Static` **captureStackTrace**(`targetObject`, `constructorOpt?`): `void`
+▸ **captureStackTrace**(`targetObject`, `constructorOpt?`): `void`
 
 Create .stack property on a target object
 
@@ -197,4 +207,4 @@ Create .stack property on a target object
 
 #### Defined in
 
-node_modules/@types/node/globals.d.ts:4
+node_modules/@types/node/globals.d.ts:20

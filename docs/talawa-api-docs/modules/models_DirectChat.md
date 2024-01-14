@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_DirectChat](../interfaces/models_DirectChat.Interface_DirectChat.md)
+- [InterfaceDirectChat](../interfaces/models_DirectChat.InterfaceDirectChat.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### DirectChat
 
-• `Const` **DirectChat**: `Model`\<[`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md), \{}, \{}\>
+• `Const` **DirectChat**: `Model`\<[`InterfaceDirectChat`](../interfaces/models_DirectChat.InterfaceDirectChat.md), {}, {}\>
 
 #### Defined in
 
-src/models/DirectChat.ts:60
+[src/models/DirectChat.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/DirectChat.ts#L70)
