@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_Comment](../interfaces/models_Comment.Interface_Comment.md)
+- [InterfaceComment](../interfaces/models_Comment.InterfaceComment.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### Comment
 
-• `Const` **Comment**: `Model`\<[`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md), \{}, \{}\>
+• `Const` **Comment**: `Model`\<[`InterfaceComment`](../interfaces/models_Comment.InterfaceComment.md), {}, {}\>
 
 #### Defined in
 
-src/models/Comment.ts:67
+[src/models/Comment.ts:72](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/Comment.ts#L72)

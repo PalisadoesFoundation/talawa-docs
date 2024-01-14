@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_Message](../interfaces/models_Message.Interface_Message.md)
+- [InterfaceMessage](../interfaces/models_Message.InterfaceMessage.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### Message
 
-• `Const` **Message**: `Model`\<[`Interface_Message`](../interfaces/models_Message.Interface_Message.md), \{}, \{}\>
+• `Const` **Message**: `Model`\<[`InterfaceMessage`](../interfaces/models_Message.InterfaceMessage.md), {}, {}\>
 
 #### Defined in
 
-src/models/Message.ts:65
+[src/models/Message.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/Message.ts#L70)

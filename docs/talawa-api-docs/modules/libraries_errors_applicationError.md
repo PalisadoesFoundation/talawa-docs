@@ -10,4 +10,4 @@
 
 ### Interfaces
 
-- [Interface\_Error](../interfaces/libraries_errors_applicationError.Interface_Error.md)
+- [InterfaceError](../interfaces/libraries_errors_applicationError.InterfaceError.md)

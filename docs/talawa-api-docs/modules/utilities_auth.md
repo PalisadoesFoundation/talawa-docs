@@ -6,18 +6,19 @@
 
 ### Interfaces
 
-- [Interface\_JwtTokenPayload](../interfaces/utilities_auth.Interface_JwtTokenPayload.md)
+- [InterfaceJwtTokenPayload](../interfaces/utilities_auth.InterfaceJwtTokenPayload.md)
 
 ### Functions
 
 - [createAccessToken](utilities_auth.md#createaccesstoken)
 - [createRefreshToken](utilities_auth.md#createrefreshtoken)
+- [revokeRefreshToken](utilities_auth.md#revokerefreshtoken)
 
 ## Functions
 
 ### createAccessToken
 
-▸ **createAccessToken**(`user`): `Promise`\<`string`\>
+▸ **createAccessToken**(`user`): `string`
 
 This function creates a json web token which expires in 15 minutes.
 It signs the given payload(user data) into a JSON Web Token string payload.
@@ -26,34 +27,54 @@ It signs the given payload(user data) into a JSON Web Token string payload.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `user` | [`Interface_User`](../interfaces/models_User.Interface_User.md) | User data |
+| `user` | [`InterfaceUser`](../interfaces/models_User.InterfaceUser.md) | User data |
 
 #### Returns
 
-`Promise`\<`string`\>
+`string`
 
 JSON Web Token string payload
 
 #### Defined in
 
-src/utilities/auth.ts:18
+[src/utilities/auth.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/utilities/auth.ts#L19)
 
 ___
 
 ### createRefreshToken
 
-▸ **createRefreshToken**(`user`): `Promise`\<`string`\>
+▸ **createRefreshToken**(`user`): `string`
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`Interface_User`](../interfaces/models_User.Interface_User.md) |
+| `user` | [`InterfaceUser`](../interfaces/models_User.InterfaceUser.md) |
 
 #### Returns
 
-`Promise`\<`string`\>
+`string`
 
 #### Defined in
 
-src/utilities/auth.ts:34
+[src/utilities/auth.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/utilities/auth.ts#L35)
+
+___
+
+### revokeRefreshToken
+
+▸ **revokeRefreshToken**(`userId`): `Promise`\<`void`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `userId` | `string` |
+
+#### Returns
+
+`Promise`\<`void`\>
+
+#### Defined in
+
+[src/utilities/auth.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/utilities/auth.ts#L51)

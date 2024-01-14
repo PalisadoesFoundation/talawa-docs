@@ -24,4 +24,4 @@ An object that contains `lang_code`.
 
 #### Defined in
 
-src/resolvers/Query/getlanguage.ts:9
+[src/resolvers/Query/getlanguage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Query/getlanguage.ts#L12)

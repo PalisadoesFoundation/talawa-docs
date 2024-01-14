@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_Group](../interfaces/models_Group.Interface_Group.md)
+- [InterfaceGroup](../interfaces/models_Group.InterfaceGroup.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### Group
 
-• `Const` **Group**: `Model`\<[`Interface_Group`](../interfaces/models_Group.Interface_Group.md), \{}, \{}\>
+• `Const` **Group**: `Model`\<[`InterfaceGroup`](../interfaces/models_Group.InterfaceGroup.md), {}, {}\>
 
 #### Defined in
 
-src/models/Group.ts:59
+[src/models/Group.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/Group.ts#L64)

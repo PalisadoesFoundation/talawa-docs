@@ -29,13 +29,13 @@ You can learn about `subscription` [here](https://www.apollographql.com/docs/apo
 
 #### Defined in
 
-src/resolvers/Subscription/messageSentToDirectChat.ts:24
+[src/resolvers/Subscription/messageSentToDirectChat.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Subscription/messageSentToDirectChat.ts#L21)
 
 ## Functions
 
 ### filterFunction
 
-▸ **filterFunction**(`payload`, `context`): `Promise`\<`boolean`\>
+▸ **filterFunction**(`payload`, `context`): `boolean`
 
 #### Parameters
 
@@ -46,8 +46,8 @@ src/resolvers/Subscription/messageSentToDirectChat.ts:24
 
 #### Returns
 
-`Promise`\<`boolean`\>
+`boolean`
 
 #### Defined in
 
-src/resolvers/Subscription/messageSentToDirectChat.ts:6
+[src/resolvers/Subscription/messageSentToDirectChat.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Subscription/messageSentToDirectChat.ts#L6)

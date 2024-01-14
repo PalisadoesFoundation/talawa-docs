@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_EncodedImage](../interfaces/models_EncodedImage.Interface_EncodedImage.md)
+- [InterfaceEncodedImage](../interfaces/models_EncodedImage.InterfaceEncodedImage.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### EncodedImage
 
-• `Const` **EncodedImage**: `Model`\<[`Interface_EncodedImage`](../interfaces/models_EncodedImage.Interface_EncodedImage.md), \{}, \{}\>
+• `Const` **EncodedImage**: `Model`\<[`InterfaceEncodedImage`](../interfaces/models_EncodedImage.InterfaceEncodedImage.md), {}, {}\>
 
 #### Defined in
 
-src/models/EncodedImage.ts:37
+[src/models/EncodedImage.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/EncodedImage.ts#L38)

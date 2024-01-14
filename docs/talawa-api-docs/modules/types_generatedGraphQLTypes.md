@@ -6,9 +6,12 @@
 
 ### Interfaces
 
+- [AnyScalarConfig](../interfaces/types_generatedGraphQLTypes.AnyScalarConfig.md)
+- [CountryCodeScalarConfig](../interfaces/types_generatedGraphQLTypes.CountryCodeScalarConfig.md)
 - [DateScalarConfig](../interfaces/types_generatedGraphQLTypes.DateScalarConfig.md)
 - [DateTimeScalarConfig](../interfaces/types_generatedGraphQLTypes.DateTimeScalarConfig.md)
 - [EmailAddressScalarConfig](../interfaces/types_generatedGraphQLTypes.EmailAddressScalarConfig.md)
+- [JsonScalarConfig](../interfaces/types_generatedGraphQLTypes.JsonScalarConfig.md)
 - [LatitudeScalarConfig](../interfaces/types_generatedGraphQLTypes.LatitudeScalarConfig.md)
 - [LongitudeScalarConfig](../interfaces/types_generatedGraphQLTypes.LongitudeScalarConfig.md)
 - [PhoneNumberScalarConfig](../interfaces/types_generatedGraphQLTypes.PhoneNumberScalarConfig.md)
@@ -21,24 +24,35 @@
 
 ### Type Aliases
 
+- [Address](types_generatedGraphQLTypes.md#address)
+- [AddressInput](types_generatedGraphQLTypes.md#addressinput)
+- [AddressResolvers](types_generatedGraphQLTypes.md#addressresolvers)
+- [Advertisement](types_generatedGraphQLTypes.md#advertisement)
+- [AdvertisementResolvers](types_generatedGraphQLTypes.md#advertisementresolvers)
 - [AggregatePost](types_generatedGraphQLTypes.md#aggregatepost)
 - [AggregatePostResolvers](types_generatedGraphQLTypes.md#aggregatepostresolvers)
 - [AggregateUser](types_generatedGraphQLTypes.md#aggregateuser)
 - [AggregateUserResolvers](types_generatedGraphQLTypes.md#aggregateuserresolvers)
-- [AndroidFirebaseOptions](types_generatedGraphQLTypes.md#androidfirebaseoptions)
-- [AndroidFirebaseOptionsResolvers](types_generatedGraphQLTypes.md#androidfirebaseoptionsresolvers)
 - [AuthData](types_generatedGraphQLTypes.md#authdata)
 - [AuthDataResolvers](types_generatedGraphQLTypes.md#authdataresolvers)
 - [AuthDirectiveArgs](types_generatedGraphQLTypes.md#authdirectiveargs)
 - [AuthDirectiveResolver](types_generatedGraphQLTypes.md#authdirectiveresolver)
+- [CheckIn](types_generatedGraphQLTypes.md#checkin)
+- [CheckInInput](types_generatedGraphQLTypes.md#checkininput)
+- [CheckInResolvers](types_generatedGraphQLTypes.md#checkinresolvers)
+- [CheckInStatus](types_generatedGraphQLTypes.md#checkinstatus)
+- [CheckInStatusResolvers](types_generatedGraphQLTypes.md#checkinstatusresolvers)
 - [Comment](types_generatedGraphQLTypes.md#comment)
 - [CommentInput](types_generatedGraphQLTypes.md#commentinput)
 - [CommentResolvers](types_generatedGraphQLTypes.md#commentresolvers)
+- [ConnectionError](types_generatedGraphQLTypes.md#connectionerror)
+- [ConnectionErrorResolvers](types_generatedGraphQLTypes.md#connectionerrorresolvers)
 - [ConnectionPageInfo](types_generatedGraphQLTypes.md#connectionpageinfo)
 - [ConnectionPageInfoResolvers](types_generatedGraphQLTypes.md#connectionpageinforesolvers)
 - [CreateChatInput](types_generatedGraphQLTypes.md#createchatinput)
 - [CreateGroupChatInput](types_generatedGraphQLTypes.md#creategroupchatinput)
 - [CreateUserTagInput](types_generatedGraphQLTypes.md#createusertaginput)
+- [CursorPaginationInput](types_generatedGraphQLTypes.md#cursorpaginationinput)
 - [DeletePayload](types_generatedGraphQLTypes.md#deletepayload)
 - [DeletePayloadResolvers](types_generatedGraphQLTypes.md#deletepayloadresolvers)
 - [DirectChat](types_generatedGraphQLTypes.md#directchat)
@@ -50,28 +64,37 @@
 - [Donation](types_generatedGraphQLTypes.md#donation)
 - [DonationResolvers](types_generatedGraphQLTypes.md#donationresolvers)
 - [DonationWhereInput](types_generatedGraphQLTypes.md#donationwhereinput)
+- [EducationGrade](types_generatedGraphQLTypes.md#educationgrade)
+- [EmploymentStatus](types_generatedGraphQLTypes.md#employmentstatus)
+- [Error](types_generatedGraphQLTypes.md#error)
+- [ErrorResolvers](types_generatedGraphQLTypes.md#errorresolvers)
 - [Event](types_generatedGraphQLTypes.md#event)
 - [EventAdminsArgs](types_generatedGraphQLTypes.md#eventadminsargs)
+- [EventAttendeeInput](types_generatedGraphQLTypes.md#eventattendeeinput)
 - [EventInput](types_generatedGraphQLTypes.md#eventinput)
 - [EventOrderByInput](types_generatedGraphQLTypes.md#eventorderbyinput)
-- [EventRegistrants](types_generatedGraphQLTypes.md#eventregistrants)
-- [EventRegistrantsResolvers](types_generatedGraphQLTypes.md#eventregistrantsresolvers)
 - [EventResolvers](types_generatedGraphQLTypes.md#eventresolvers)
 - [EventWhereInput](types_generatedGraphQLTypes.md#eventwhereinput)
 - [Exact](types_generatedGraphQLTypes.md#exact)
 - [ExtendSession](types_generatedGraphQLTypes.md#extendsession)
 - [ExtendSessionResolvers](types_generatedGraphQLTypes.md#extendsessionresolvers)
+- [Feedback](types_generatedGraphQLTypes.md#feedback)
+- [FeedbackInput](types_generatedGraphQLTypes.md#feedbackinput)
+- [FeedbackResolvers](types_generatedGraphQLTypes.md#feedbackresolvers)
+- [FieldError](types_generatedGraphQLTypes.md#fielderror)
+- [FieldErrorResolvers](types_generatedGraphQLTypes.md#fielderrorresolvers)
 - [ForgotPasswordData](types_generatedGraphQLTypes.md#forgotpassworddata)
+- [Gender](types_generatedGraphQLTypes.md#gender)
 - [Group](types_generatedGraphQLTypes.md#group)
 - [GroupChat](types_generatedGraphQLTypes.md#groupchat)
 - [GroupChatMessage](types_generatedGraphQLTypes.md#groupchatmessage)
 - [GroupChatMessageResolvers](types_generatedGraphQLTypes.md#groupchatmessageresolvers)
 - [GroupChatResolvers](types_generatedGraphQLTypes.md#groupchatresolvers)
-- [GroupInput](types_generatedGraphQLTypes.md#groupinput)
 - [GroupResolvers](types_generatedGraphQLTypes.md#groupresolvers)
+- [Incremental](types_generatedGraphQLTypes.md#incremental)
 - [InputMaybe](types_generatedGraphQLTypes.md#inputmaybe)
-- [IosFirebaseOptions](types_generatedGraphQLTypes.md#iosfirebaseoptions)
-- [IosFirebaseOptionsResolvers](types_generatedGraphQLTypes.md#iosfirebaseoptionsresolvers)
+- [InvalidCursor](types_generatedGraphQLTypes.md#invalidcursor)
+- [InvalidCursorResolvers](types_generatedGraphQLTypes.md#invalidcursorresolvers)
 - [IsTypeOfResolverFn](types_generatedGraphQLTypes.md#istypeofresolverfn)
 - [Language](types_generatedGraphQLTypes.md#language)
 - [LanguageInput](types_generatedGraphQLTypes.md#languageinput)
@@ -79,8 +102,14 @@
 - [LanguageModelResolvers](types_generatedGraphQLTypes.md#languagemodelresolvers)
 - [LanguageResolvers](types_generatedGraphQLTypes.md#languageresolvers)
 - [LoginInput](types_generatedGraphQLTypes.md#logininput)
+- [MakeEmpty](types_generatedGraphQLTypes.md#makeempty)
 - [MakeMaybe](types_generatedGraphQLTypes.md#makemaybe)
 - [MakeOptional](types_generatedGraphQLTypes.md#makeoptional)
+- [MaritalStatus](types_generatedGraphQLTypes.md#maritalstatus)
+- [MaximumLengthError](types_generatedGraphQLTypes.md#maximumlengtherror)
+- [MaximumLengthErrorResolvers](types_generatedGraphQLTypes.md#maximumlengtherrorresolvers)
+- [MaximumValueError](types_generatedGraphQLTypes.md#maximumvalueerror)
+- [MaximumValueErrorResolvers](types_generatedGraphQLTypes.md#maximumvalueerrorresolvers)
 - [Maybe](types_generatedGraphQLTypes.md#maybe)
 - [MembershipRequest](types_generatedGraphQLTypes.md#membershiprequest)
 - [MembershipRequestResolvers](types_generatedGraphQLTypes.md#membershiprequestresolvers)
@@ -89,11 +118,19 @@
 - [MessageChatInput](types_generatedGraphQLTypes.md#messagechatinput)
 - [MessageChatResolvers](types_generatedGraphQLTypes.md#messagechatresolvers)
 - [MessageResolvers](types_generatedGraphQLTypes.md#messageresolvers)
+- [MinimumLengthError](types_generatedGraphQLTypes.md#minimumlengtherror)
+- [MinimumLengthErrorResolvers](types_generatedGraphQLTypes.md#minimumlengtherrorresolvers)
+- [MinimumValueError](types_generatedGraphQLTypes.md#minimumvalueerror)
+- [MinimumValueErrorResolvers](types_generatedGraphQLTypes.md#minimumvalueerrorresolvers)
 - [Mutation](types_generatedGraphQLTypes.md#mutation)
 - [MutationAcceptAdminArgs](types_generatedGraphQLTypes.md#mutationacceptadminargs)
 - [MutationAcceptMembershipRequestArgs](types_generatedGraphQLTypes.md#mutationacceptmembershiprequestargs)
+- [MutationAddEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationaddeventattendeeargs)
+- [MutationAddFeedbackArgs](types_generatedGraphQLTypes.md#mutationaddfeedbackargs)
 - [MutationAddLanguageTranslationArgs](types_generatedGraphQLTypes.md#mutationaddlanguagetranslationargs)
+- [MutationAddOrganizationCustomFieldArgs](types_generatedGraphQLTypes.md#mutationaddorganizationcustomfieldargs)
 - [MutationAddOrganizationImageArgs](types_generatedGraphQLTypes.md#mutationaddorganizationimageargs)
+- [MutationAddUserCustomDataArgs](types_generatedGraphQLTypes.md#mutationaddusercustomdataargs)
 - [MutationAddUserImageArgs](types_generatedGraphQLTypes.md#mutationadduserimageargs)
 - [MutationAddUserToGroupChatArgs](types_generatedGraphQLTypes.md#mutationaddusertogroupchatargs)
 - [MutationAdminRemoveEventArgs](types_generatedGraphQLTypes.md#mutationadminremoveeventargs)
@@ -102,19 +139,21 @@
 - [MutationBlockPluginCreationBySuperadminArgs](types_generatedGraphQLTypes.md#mutationblockplugincreationbysuperadminargs)
 - [MutationBlockUserArgs](types_generatedGraphQLTypes.md#mutationblockuserargs)
 - [MutationCancelMembershipRequestArgs](types_generatedGraphQLTypes.md#mutationcancelmembershiprequestargs)
+- [MutationCheckInArgs](types_generatedGraphQLTypes.md#mutationcheckinargs)
 - [MutationCreateAdminArgs](types_generatedGraphQLTypes.md#mutationcreateadminargs)
+- [MutationCreateAdvertisementArgs](types_generatedGraphQLTypes.md#mutationcreateadvertisementargs)
 - [MutationCreateCommentArgs](types_generatedGraphQLTypes.md#mutationcreatecommentargs)
 - [MutationCreateDirectChatArgs](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs)
 - [MutationCreateDonationArgs](types_generatedGraphQLTypes.md#mutationcreatedonationargs)
 - [MutationCreateEventArgs](types_generatedGraphQLTypes.md#mutationcreateeventargs)
-- [MutationCreateGroupArgs](types_generatedGraphQLTypes.md#mutationcreategroupargs)
 - [MutationCreateGroupChatArgs](types_generatedGraphQLTypes.md#mutationcreategroupchatargs)
+- [MutationCreateMemberArgs](types_generatedGraphQLTypes.md#mutationcreatememberargs)
 - [MutationCreateMessageChatArgs](types_generatedGraphQLTypes.md#mutationcreatemessagechatargs)
 - [MutationCreateOrganizationArgs](types_generatedGraphQLTypes.md#mutationcreateorganizationargs)
 - [MutationCreatePluginArgs](types_generatedGraphQLTypes.md#mutationcreatepluginargs)
 - [MutationCreatePostArgs](types_generatedGraphQLTypes.md#mutationcreatepostargs)
-- [MutationCreateTaskArgs](types_generatedGraphQLTypes.md#mutationcreatetaskargs)
 - [MutationCreateUserTagArgs](types_generatedGraphQLTypes.md#mutationcreateusertagargs)
+- [MutationDeleteAdvertisementByIdArgs](types_generatedGraphQLTypes.md#mutationdeleteadvertisementbyidargs)
 - [MutationDeleteDonationByIdArgs](types_generatedGraphQLTypes.md#mutationdeletedonationbyidargs)
 - [MutationForgotPasswordArgs](types_generatedGraphQLTypes.md#mutationforgotpasswordargs)
 - [MutationJoinPublicOrganizationArgs](types_generatedGraphQLTypes.md#mutationjoinpublicorganizationargs)
@@ -129,19 +168,21 @@
 - [MutationRejectAdminArgs](types_generatedGraphQLTypes.md#mutationrejectadminargs)
 - [MutationRejectMembershipRequestArgs](types_generatedGraphQLTypes.md#mutationrejectmembershiprequestargs)
 - [MutationRemoveAdminArgs](types_generatedGraphQLTypes.md#mutationremoveadminargs)
+- [MutationRemoveAdvertisementArgs](types_generatedGraphQLTypes.md#mutationremoveadvertisementargs)
 - [MutationRemoveCommentArgs](types_generatedGraphQLTypes.md#mutationremovecommentargs)
 - [MutationRemoveDirectChatArgs](types_generatedGraphQLTypes.md#mutationremovedirectchatargs)
 - [MutationRemoveEventArgs](types_generatedGraphQLTypes.md#mutationremoveeventargs)
+- [MutationRemoveEventAttendeeArgs](types_generatedGraphQLTypes.md#mutationremoveeventattendeeargs)
 - [MutationRemoveGroupChatArgs](types_generatedGraphQLTypes.md#mutationremovegroupchatargs)
 - [MutationRemoveMemberArgs](types_generatedGraphQLTypes.md#mutationremovememberargs)
 - [MutationRemoveOrganizationArgs](types_generatedGraphQLTypes.md#mutationremoveorganizationargs)
+- [MutationRemoveOrganizationCustomFieldArgs](types_generatedGraphQLTypes.md#mutationremoveorganizationcustomfieldargs)
 - [MutationRemoveOrganizationImageArgs](types_generatedGraphQLTypes.md#mutationremoveorganizationimageargs)
 - [MutationRemovePostArgs](types_generatedGraphQLTypes.md#mutationremovepostargs)
-- [MutationRemoveTaskArgs](types_generatedGraphQLTypes.md#mutationremovetaskargs)
+- [MutationRemoveUserCustomDataArgs](types_generatedGraphQLTypes.md#mutationremoveusercustomdataargs)
 - [MutationRemoveUserFromGroupChatArgs](types_generatedGraphQLTypes.md#mutationremoveuserfromgroupchatargs)
 - [MutationRemoveUserTagArgs](types_generatedGraphQLTypes.md#mutationremoveusertagargs)
 - [MutationResolvers](types_generatedGraphQLTypes.md#mutationresolvers)
-- [MutationRevokeRefreshTokenForUserArgs](types_generatedGraphQLTypes.md#mutationrevokerefreshtokenforuserargs)
 - [MutationSaveFcmTokenArgs](types_generatedGraphQLTypes.md#mutationsavefcmtokenargs)
 - [MutationSendMembershipRequestArgs](types_generatedGraphQLTypes.md#mutationsendmembershiprequestargs)
 - [MutationSendMessageToDirectChatArgs](types_generatedGraphQLTypes.md#mutationsendmessagetodirectchatargs)
@@ -156,18 +197,19 @@
 - [MutationUpdateEventArgs](types_generatedGraphQLTypes.md#mutationupdateeventargs)
 - [MutationUpdateLanguageArgs](types_generatedGraphQLTypes.md#mutationupdatelanguageargs)
 - [MutationUpdateOrganizationArgs](types_generatedGraphQLTypes.md#mutationupdateorganizationargs)
-- [MutationUpdatePluginInstalledOrgsArgs](types_generatedGraphQLTypes.md#mutationupdateplugininstalledorgsargs)
 - [MutationUpdatePluginStatusArgs](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs)
 - [MutationUpdatePostArgs](types_generatedGraphQLTypes.md#mutationupdatepostargs)
-- [MutationUpdateTaskArgs](types_generatedGraphQLTypes.md#mutationupdatetaskargs)
 - [MutationUpdateUserPasswordArgs](types_generatedGraphQLTypes.md#mutationupdateuserpasswordargs)
 - [MutationUpdateUserProfileArgs](types_generatedGraphQLTypes.md#mutationupdateuserprofileargs)
+- [MutationUpdateUserRoleInOrganizationArgs](types_generatedGraphQLTypes.md#mutationupdateuserroleinorganizationargs)
 - [MutationUpdateUserTagArgs](types_generatedGraphQLTypes.md#mutationupdateusertagargs)
 - [MutationUpdateUserTypeArgs](types_generatedGraphQLTypes.md#mutationupdateusertypeargs)
 - [NextResolverFn](types_generatedGraphQLTypes.md#nextresolverfn)
 - [Omit](types_generatedGraphQLTypes.md#omit)
 - [Organization](types_generatedGraphQLTypes.md#organization)
 - [OrganizationAdminsArgs](types_generatedGraphQLTypes.md#organizationadminsargs)
+- [OrganizationCustomField](types_generatedGraphQLTypes.md#organizationcustomfield)
+- [OrganizationCustomFieldResolvers](types_generatedGraphQLTypes.md#organizationcustomfieldresolvers)
 - [OrganizationInfoNode](types_generatedGraphQLTypes.md#organizationinfonode)
 - [OrganizationInfoNodeResolvers](types_generatedGraphQLTypes.md#organizationinfonoderesolvers)
 - [OrganizationInput](types_generatedGraphQLTypes.md#organizationinput)
@@ -180,6 +222,7 @@
 - [OtpInput](types_generatedGraphQLTypes.md#otpinput)
 - [PageInfo](types_generatedGraphQLTypes.md#pageinfo)
 - [PageInfoResolvers](types_generatedGraphQLTypes.md#pageinforesolvers)
+- [PaginationDirection](types_generatedGraphQLTypes.md#paginationdirection)
 - [Plugin](types_generatedGraphQLTypes.md#plugin)
 - [PluginField](types_generatedGraphQLTypes.md#pluginfield)
 - [PluginFieldInput](types_generatedGraphQLTypes.md#pluginfieldinput)
@@ -196,32 +239,30 @@
 - [PostWhereInput](types_generatedGraphQLTypes.md#postwhereinput)
 - [Query](types_generatedGraphQLTypes.md#query)
 - [QueryAdminPluginArgs](types_generatedGraphQLTypes.md#queryadminpluginargs)
-- [QueryCommentsByPostArgs](types_generatedGraphQLTypes.md#querycommentsbypostargs)
+- [QueryCustomDataByOrganizationArgs](types_generatedGraphQLTypes.md#querycustomdatabyorganizationargs)
+- [QueryCustomFieldsByOrganizationArgs](types_generatedGraphQLTypes.md#querycustomfieldsbyorganizationargs)
 - [QueryDirectChatsByUserIdArgs](types_generatedGraphQLTypes.md#querydirectchatsbyuseridargs)
 - [QueryDirectChatsMessagesByChatIdArgs](types_generatedGraphQLTypes.md#querydirectchatsmessagesbychatidargs)
 - [QueryEventArgs](types_generatedGraphQLTypes.md#queryeventargs)
-- [QueryEventsArgs](types_generatedGraphQLTypes.md#queryeventsargs)
 - [QueryEventsByOrganizationArgs](types_generatedGraphQLTypes.md#queryeventsbyorganizationargs)
 - [QueryEventsByOrganizationConnectionArgs](types_generatedGraphQLTypes.md#queryeventsbyorganizationconnectionargs)
 - [QueryGetDonationByIdArgs](types_generatedGraphQLTypes.md#querygetdonationbyidargs)
 - [QueryGetDonationByOrgIdArgs](types_generatedGraphQLTypes.md#querygetdonationbyorgidargs)
 - [QueryGetDonationByOrgIdConnectionArgs](types_generatedGraphQLTypes.md#querygetdonationbyorgidconnectionargs)
 - [QueryGetlanguageArgs](types_generatedGraphQLTypes.md#querygetlanguageargs)
-- [QueryIsUserRegisterArgs](types_generatedGraphQLTypes.md#queryisuserregisterargs)
+- [QueryHasSubmittedFeedbackArgs](types_generatedGraphQLTypes.md#queryhassubmittedfeedbackargs)
+- [QueryIsSampleOrganizationArgs](types_generatedGraphQLTypes.md#queryissampleorganizationargs)
 - [QueryJoinedOrganizationsArgs](types_generatedGraphQLTypes.md#queryjoinedorganizationsargs)
 - [QueryOrganizationsArgs](types_generatedGraphQLTypes.md#queryorganizationsargs)
 - [QueryOrganizationsConnectionArgs](types_generatedGraphQLTypes.md#queryorganizationsconnectionargs)
 - [QueryOrganizationsMemberConnectionArgs](types_generatedGraphQLTypes.md#queryorganizationsmemberconnectionargs)
 - [QueryPluginArgs](types_generatedGraphQLTypes.md#querypluginargs)
 - [QueryPostArgs](types_generatedGraphQLTypes.md#querypostargs)
-- [QueryPostsArgs](types_generatedGraphQLTypes.md#querypostsargs)
 - [QueryPostsByOrganizationArgs](types_generatedGraphQLTypes.md#querypostsbyorganizationargs)
 - [QueryPostsByOrganizationConnectionArgs](types_generatedGraphQLTypes.md#querypostsbyorganizationconnectionargs)
 - [QueryRegisteredEventsByUserArgs](types_generatedGraphQLTypes.md#queryregisteredeventsbyuserargs)
 - [QueryRegistrantsByEventArgs](types_generatedGraphQLTypes.md#queryregistrantsbyeventargs)
 - [QueryResolvers](types_generatedGraphQLTypes.md#queryresolvers)
-- [QueryTasksByEventArgs](types_generatedGraphQLTypes.md#querytasksbyeventargs)
-- [QueryTasksByUserArgs](types_generatedGraphQLTypes.md#querytasksbyuserargs)
 - [QueryUserArgs](types_generatedGraphQLTypes.md#queryuserargs)
 - [QueryUserLanguageArgs](types_generatedGraphQLTypes.md#queryuserlanguageargs)
 - [QueryUsersArgs](types_generatedGraphQLTypes.md#queryusersargs)
@@ -233,8 +274,10 @@
 - [ResolverFn](types_generatedGraphQLTypes.md#resolverfn)
 - [ResolverTypeWrapper](types_generatedGraphQLTypes.md#resolvertypewrapper)
 - [Resolvers](types_generatedGraphQLTypes.md#resolvers)
+- [ResolversInterfaceTypes](types_generatedGraphQLTypes.md#resolversinterfacetypes)
 - [ResolversParentTypes](types_generatedGraphQLTypes.md#resolversparenttypes)
 - [ResolversTypes](types_generatedGraphQLTypes.md#resolverstypes)
+- [ResolversUnionTypes](types_generatedGraphQLTypes.md#resolversuniontypes)
 - [RoleDirectiveArgs](types_generatedGraphQLTypes.md#roledirectiveargs)
 - [RoleDirectiveResolver](types_generatedGraphQLTypes.md#roledirectiveresolver)
 - [Scalars](types_generatedGraphQLTypes.md#scalars)
@@ -245,32 +288,34 @@
 - [SubscriptionResolver](types_generatedGraphQLTypes.md#subscriptionresolver)
 - [SubscriptionResolvers](types_generatedGraphQLTypes.md#subscriptionresolvers)
 - [SubscriptionSubscribeFn](types_generatedGraphQLTypes.md#subscriptionsubscribefn)
-- [Task](types_generatedGraphQLTypes.md#task)
-- [TaskInput](types_generatedGraphQLTypes.md#taskinput)
-- [TaskOrderByInput](types_generatedGraphQLTypes.md#taskorderbyinput)
-- [TaskResolvers](types_generatedGraphQLTypes.md#taskresolvers)
 - [ToggleUserTagAssignInput](types_generatedGraphQLTypes.md#toggleusertagassigninput)
 - [Translation](types_generatedGraphQLTypes.md#translation)
 - [TranslationResolvers](types_generatedGraphQLTypes.md#translationresolvers)
 - [Type](types_generatedGraphQLTypes.md#type)
 - [TypeResolveFn](types_generatedGraphQLTypes.md#typeresolvefn)
+- [UnauthenticatedError](types_generatedGraphQLTypes.md#unauthenticatederror)
+- [UnauthenticatedErrorResolvers](types_generatedGraphQLTypes.md#unauthenticatederrorresolvers)
+- [UnauthorizedError](types_generatedGraphQLTypes.md#unauthorizederror)
+- [UnauthorizedErrorResolvers](types_generatedGraphQLTypes.md#unauthorizederrorresolvers)
 - [UpdateEventInput](types_generatedGraphQLTypes.md#updateeventinput)
 - [UpdateOrganizationInput](types_generatedGraphQLTypes.md#updateorganizationinput)
-- [UpdateTaskInput](types_generatedGraphQLTypes.md#updatetaskinput)
 - [UpdateUserInput](types_generatedGraphQLTypes.md#updateuserinput)
 - [UpdateUserPasswordInput](types_generatedGraphQLTypes.md#updateuserpasswordinput)
 - [UpdateUserTagInput](types_generatedGraphQLTypes.md#updateusertaginput)
 - [UpdateUserTypeInput](types_generatedGraphQLTypes.md#updateusertypeinput)
 - [User](types_generatedGraphQLTypes.md#user)
 - [UserAndOrganizationInput](types_generatedGraphQLTypes.md#userandorganizationinput)
-- [UserAttende](types_generatedGraphQLTypes.md#userattende)
-- [UserAttendeResolvers](types_generatedGraphQLTypes.md#userattenderesolvers)
 - [UserConnection](types_generatedGraphQLTypes.md#userconnection)
 - [UserConnectionResolvers](types_generatedGraphQLTypes.md#userconnectionresolvers)
+- [UserCustomData](types_generatedGraphQLTypes.md#usercustomdata)
+- [UserCustomDataResolvers](types_generatedGraphQLTypes.md#usercustomdataresolvers)
 - [UserEdge](types_generatedGraphQLTypes.md#useredge)
 - [UserEdgeResolvers](types_generatedGraphQLTypes.md#useredgeresolvers)
 - [UserInput](types_generatedGraphQLTypes.md#userinput)
 - [UserOrderByInput](types_generatedGraphQLTypes.md#userorderbyinput)
+- [UserPhone](types_generatedGraphQLTypes.md#userphone)
+- [UserPhoneInput](types_generatedGraphQLTypes.md#userphoneinput)
+- [UserPhoneResolvers](types_generatedGraphQLTypes.md#userphoneresolvers)
 - [UserResolvers](types_generatedGraphQLTypes.md#userresolvers)
 - [UserTag](types_generatedGraphQLTypes.md#usertag)
 - [UserTagChildTagsArgs](types_generatedGraphQLTypes.md#usertagchildtagsargs)
@@ -280,13 +325,156 @@
 - [UserTagUsersAssignedToArgs](types_generatedGraphQLTypes.md#usertagusersassignedtoargs)
 - [UserTagsAssignedWithArgs](types_generatedGraphQLTypes.md#usertagsassignedwithargs)
 - [UserTagsConnection](types_generatedGraphQLTypes.md#usertagsconnection)
+- [UserTagsConnectionInput](types_generatedGraphQLTypes.md#usertagsconnectioninput)
 - [UserTagsConnectionResolvers](types_generatedGraphQLTypes.md#usertagsconnectionresolvers)
+- [UserTagsConnectionResult](types_generatedGraphQLTypes.md#usertagsconnectionresult)
+- [UserTagsConnectionResultResolvers](types_generatedGraphQLTypes.md#usertagsconnectionresultresolvers)
 - [UserType](types_generatedGraphQLTypes.md#usertype)
 - [UserWhereInput](types_generatedGraphQLTypes.md#userwhereinput)
 - [UsersConnection](types_generatedGraphQLTypes.md#usersconnection)
+- [UsersConnectionInput](types_generatedGraphQLTypes.md#usersconnectioninput)
 - [UsersConnectionResolvers](types_generatedGraphQLTypes.md#usersconnectionresolvers)
+- [UsersConnectionResult](types_generatedGraphQLTypes.md#usersconnectionresult)
+- [UsersConnectionResultResolvers](types_generatedGraphQLTypes.md#usersconnectionresultresolvers)
 
 ## Type Aliases
+
+### Address
+
+Ƭ **Address**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"Address"`` |
+| `city?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `countryCode?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"CountryCode"``][``"output"``]\> |
+| `dependentLocality?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `line1?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `line2?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `postalCode?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `sortingCode?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `state?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:54](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L54)
+
+___
+
+### AddressInput
+
+Ƭ **AddressInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `city?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `countryCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"CountryCode"``][``"input"``]\> |
+| `dependentLocality?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `line1?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `line2?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `postalCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `sortingCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `state?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:66](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L66)
+
+___
+
+### AddressResolvers
+
+Ƭ **AddressResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Address"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Address"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `city?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `countryCode?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"CountryCode"``]\>, `ParentType`, `ContextType`\> |
+| `dependentLocality?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `line1?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `line2?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `postalCode?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `sortingCode?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `state?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2170](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2170)
+
+___
+
+### Advertisement
+
+Ƭ **Advertisement**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"Advertisement"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `link` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `type` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:77](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L77)
+
+___
+
+### AdvertisementResolvers
+
+Ƭ **AdvertisementResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Advertisement"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Advertisement"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
+| `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `link?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `orgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `startDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
+| `type?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2182](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2182)
+
+___
 
 ### AggregatePost
 
@@ -297,11 +485,11 @@
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"AggregatePost"`` |
-| `count` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``] |
+| `count` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:47
+[src/types/generatedGraphQLTypes.ts:91](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L91)
 
 ___
 
@@ -325,7 +513,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1874
+[src/types/generatedGraphQLTypes.ts:2196](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2196)
 
 ___
 
@@ -338,11 +526,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"AggregateUser"`` |
-| `count` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``] |
+| `count` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:52
+[src/types/generatedGraphQLTypes.ts:96](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L96)
 
 ___
 
@@ -366,56 +554,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1879
-
-___
-
-### AndroidFirebaseOptions
-
-Ƭ **AndroidFirebaseOptions**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"AndroidFirebaseOptions"`` |
-| `apiKey?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `messagingSenderId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `projectId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `storageBucket?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:57
-
-___
-
-### AndroidFirebaseOptionsResolvers
-
-Ƭ **AndroidFirebaseOptionsResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"AndroidFirebaseOptions"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"AndroidFirebaseOptions"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `apiKey?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `appId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `messagingSenderId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `projectId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `storageBucket?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1884
+[src/types/generatedGraphQLTypes.ts:2201](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2201)
 
 ___
 
@@ -428,15 +567,13 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"AuthData"`` |
-| `accessToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `androidFirebaseOptions` | [`AndroidFirebaseOptions`](types_generatedGraphQLTypes.md#androidfirebaseoptions) |
-| `iosFirebaseOptions` | [`IosFirebaseOptions`](types_generatedGraphQLTypes.md#iosfirebaseoptions) |
-| `refreshToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `accessToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `refreshToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `user` | [`User`](types_generatedGraphQLTypes.md#user) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:66
+[src/types/generatedGraphQLTypes.ts:101](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L101)
 
 ___
 
@@ -457,14 +594,12 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `accessToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `androidFirebaseOptions?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"AndroidFirebaseOptions"``], `ParentType`, `ContextType`\> |
-| `iosFirebaseOptions?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"IOSFirebaseOptions"``], `ParentType`, `ContextType`\> |
 | `refreshToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1893
+[src/types/generatedGraphQLTypes.ts:2210](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2210)
 
 ___
 
@@ -474,7 +609,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1864
+[src/types/generatedGraphQLTypes.ts:2160](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2160)
 
 ___
 
@@ -493,7 +628,128 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1866
+[src/types/generatedGraphQLTypes.ts:2162](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2162)
+
+___
+
+### CheckIn
+
+Ƭ **CheckIn**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"CheckIn"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `allotedRoom?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `allotedSeat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `event` | [`Event`](types_generatedGraphQLTypes.md#event) |
+| `feedbackSubmitted` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `time` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `user` | [`User`](types_generatedGraphQLTypes.md#user) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:108](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L108)
+
+___
+
+### CheckInInput
+
+Ƭ **CheckInInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `allotedRoom?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `allotedSeat?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:121](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L121)
+
+___
+
+### CheckInResolvers
+
+Ƭ **CheckInResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"CheckIn"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"CheckIn"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `allotedRoom?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `allotedSeat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
+| `feedbackSubmitted?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `time?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2217](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2217)
+
+___
+
+### CheckInStatus
+
+Ƭ **CheckInStatus**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"CheckInStatus"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `checkIn?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`CheckIn`](types_generatedGraphQLTypes.md#checkin)\> |
+| `user` | [`User`](types_generatedGraphQLTypes.md#user) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:128](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L128)
+
+___
+
+### CheckInStatusResolvers
+
+Ƭ **CheckInStatusResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"CheckInStatus"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"CheckInStatus"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `checkIn?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"CheckIn"``]\>, `ParentType`, `ContextType`\> |
+| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2230](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2230)
 
 ___
 
@@ -506,17 +762,18 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Comment"`` |
-| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> |
 | `likedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `post` | [`Post`](types_generatedGraphQLTypes.md#post) |
-| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:75
+[src/types/generatedGraphQLTypes.ts:135](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L135)
 
 ___
 
@@ -528,11 +785,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:86
+[src/types/generatedGraphQLTypes.ts:147](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L147)
 
 ___
 
@@ -552,17 +809,51 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `likeCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
 | `likedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `post?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`\> |
 | `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1902
+[src/types/generatedGraphQLTypes.ts:2237](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2237)
+
+___
+
+### ConnectionError
+
+Ƭ **ConnectionError**: [`InvalidCursor`](types_generatedGraphQLTypes.md#invalidcursor) \| [`MaximumValueError`](types_generatedGraphQLTypes.md#maximumvalueerror)
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:151](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L151)
+
+___
+
+### ConnectionErrorResolvers
+
+Ƭ **ConnectionErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"ConnectionError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"ConnectionError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__resolveType` | [`TypeResolveFn`](types_generatedGraphQLTypes.md#typeresolvefn)\<``"InvalidCursor"`` \| ``"MaximumValueError"``, `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2249](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2249)
 
 ___
 
@@ -575,14 +866,14 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"ConnectionPageInfo"`` |
-| `endCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `startCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `endCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `startCursor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:90
+[src/types/generatedGraphQLTypes.ts:153](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L153)
 
 ___
 
@@ -609,7 +900,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1913
+[src/types/generatedGraphQLTypes.ts:2253](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2253)
 
 ___
 
@@ -621,12 +912,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userIds` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userIds` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1591
+[src/types/generatedGraphQLTypes.ts:1826](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1826)
 
 ___
 
@@ -638,13 +929,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `userIds` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `userIds` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1596
+[src/types/generatedGraphQLTypes.ts:1831](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1831)
 
 ___
 
@@ -656,13 +947,31 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `parentTagId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `parentTagId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:98
+[src/types/generatedGraphQLTypes.ts:161](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L161)
+
+___
+
+### CursorPaginationInput
+
+Ƭ **CursorPaginationInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `cursor?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `direction` | [`PaginationDirection`](types_generatedGraphQLTypes.md#paginationdirection) |
+| `limit` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:167](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L167)
 
 ___
 
@@ -675,11 +984,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"DeletePayload"`` |
-| `success` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `success` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:104
+[src/types/generatedGraphQLTypes.ts:173](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L173)
 
 ___
 
@@ -703,7 +1012,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1929
+[src/types/generatedGraphQLTypes.ts:2273](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2273)
 
 ___
 
@@ -716,15 +1025,17 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"DirectChat"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
 | `messages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `users` | [`User`](types_generatedGraphQLTypes.md#user)[] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:109
+[src/types/generatedGraphQLTypes.ts:178](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L178)
 
 ___
 
@@ -737,16 +1048,17 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"DirectChatMessage"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `directChatMessageBelongsTo` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
-| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `receiver` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `sender` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:118
+[src/types/generatedGraphQLTypes.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L189)
 
 ___
 
@@ -772,10 +1084,11 @@ ___
 | `messageContent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `receiver?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 | `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1943
+[src/types/generatedGraphQLTypes.ts:2289](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2289)
 
 ___
 
@@ -796,14 +1109,16 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `messages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1934
+[src/types/generatedGraphQLTypes.ts:2278](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2278)
 
 ___
 
@@ -815,10 +1130,10 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `TResult` | \{} |
-| `TParent` | \{} |
-| `TContext` | \{} |
-| `TArgs` | \{} |
+| `TResult` | {} |
+| `TParent` | {} |
+| `TContext` | {} |
+| `TArgs` | {} |
 
 #### Type declaration
 
@@ -840,7 +1155,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1657
+[src/types/generatedGraphQLTypes.ts:1892](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1892)
 
 ___
 
@@ -863,7 +1178,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2482
+[src/types/generatedGraphQLTypes.ts:2938](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2938)
 
 ___
 
@@ -876,17 +1191,19 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Donation"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `amount` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``] |
-| `nameOfOrg` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `nameOfUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `payPalId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `amount` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `nameOfOrg` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `nameOfUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `payPalId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:128
+[src/types/generatedGraphQLTypes.ts:200](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L200)
 
 ___
 
@@ -908,15 +1225,17 @@ ___
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
 | `amount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Float"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `nameOfOrg?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `nameOfUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `orgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
 | `payPalId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1953
+[src/types/generatedGraphQLTypes.ts:2300](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2300)
 
 ___
 
@@ -928,22 +1247,82 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `name_of_user?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_of_user_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_of_user_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_of_user_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_of_user_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_of_user_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `name_of_user?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name_of_user_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name_of_user_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `name_of_user_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name_of_user_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `name_of_user_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:139
+[src/types/generatedGraphQLTypes.ts:213](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L213)
+
+___
+
+### EducationGrade
+
+Ƭ **EducationGrade**: ``"GRADE_1"`` \| ``"GRADE_2"`` \| ``"GRADE_3"`` \| ``"GRADE_4"`` \| ``"GRADE_5"`` \| ``"GRADE_6"`` \| ``"GRADE_7"`` \| ``"GRADE_8"`` \| ``"GRADE_9"`` \| ``"GRADE_10"`` \| ``"GRADE_11"`` \| ``"GRADE_12"`` \| ``"GRADUATE"`` \| ``"KG"`` \| ``"NO_GRADE"`` \| ``"PRE_KG"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:228](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L228)
+
+___
+
+### EmploymentStatus
+
+Ƭ **EmploymentStatus**: ``"FULL_TIME"`` \| ``"PART_TIME"`` \| ``"UNEMPLOYED"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:246](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L246)
+
+___
+
+### Error
+
+Ƭ **Error**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:251](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L251)
+
+___
+
+### ErrorResolvers
+
+Ƭ **ErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Error"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Error"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__resolveType` | [`TypeResolveFn`](types_generatedGraphQLTypes.md#typeresolvefn)\<``"UnauthenticatedError"`` \| ``"UnauthorizedError"``, `ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2317](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2317)
 
 ___
 
@@ -956,31 +1335,35 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Event"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `allDay` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `endTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `isRegisterable` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `latitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
-| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `longitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)[]\> |
+| `allDay` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `attendees?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
+| `attendeesCheckInStatus` | [`CheckInStatus`](types_generatedGraphQLTypes.md#checkinstatus)[] |
+| `averageFeedbackScore?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `endTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"output"``]\> |
+| `feedback` | [`Feedback`](types_generatedGraphQLTypes.md#feedback)[] |
+| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `isRegisterable` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `latitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``][``"output"``]\> |
+| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `longitude?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``][``"output"``]\> |
 | `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
 | `recurrance?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
-| `recurring` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `registrants?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserAttende`](types_generatedGraphQLTypes.md#userattende)\>[]\> |
-| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `startTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `recurring` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `startTime?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"output"``]\> |
 | `status` | [`Status`](types_generatedGraphQLTypes.md#status) |
-| `tasks?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
-| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:154
+[src/types/generatedGraphQLTypes.ts:255](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L255)
 
 ___
 
@@ -992,11 +1375,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:180
+[src/types/generatedGraphQLTypes.ts:285](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L285)
+
+___
+
+### EventAttendeeInput
+
+Ƭ **EventAttendeeInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:289](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L289)
 
 ___
 
@@ -1008,25 +1408,25 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `allDay` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `isRegisterable` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `allDay` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"input"``]\> |
+| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `isRegisterable` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``][``"input"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``][``"input"``]\> |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 | `recurrance?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
-| `recurring` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `recurring` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``] |
+| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"input"``]\> |
+| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:184
+[src/types/generatedGraphQLTypes.ts:294](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L294)
 
 ___
 
@@ -1036,50 +1436,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:202
-
-___
-
-### EventRegistrants
-
-Ƭ **EventRegistrants**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"EventRegistrants"`` |
-| `event` | [`Event`](types_generatedGraphQLTypes.md#event) |
-| `isRegistered` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:224
-
-___
-
-### EventRegistrantsResolvers
-
-Ƭ **EventRegistrantsResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"EventRegistrants"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"EventRegistrants"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
-| `isRegistered?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1993
+[src/types/generatedGraphQLTypes.ts:312](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L312)
 
 ___
 
@@ -1100,12 +1457,17 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`EventAdminsArgs`](types_generatedGraphQLTypes.md#eventadminsargs)\>\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][]\>, `ParentType`, `ContextType`, `Partial`\<[`EventAdminsArgs`](types_generatedGraphQLTypes.md#eventadminsargs)\>\> |
 | `allDay?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `attendees?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `attendeesCheckInStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"CheckInStatus"``][], `ParentType`, `ContextType`\> |
+| `averageFeedbackScore?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Float"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `endDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
 | `endTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
+| `feedback?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Feedback"``][], `ParentType`, `ContextType`\> |
 | `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `isRegisterable?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `latitude?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Latitude"``]\>, `ParentType`, `ContextType`\> |
@@ -1114,16 +1476,15 @@ ___
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
 | `recurrance?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Recurrance"``]\>, `ParentType`, `ContextType`\> |
 | `recurring?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
-| `registrants?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserAttende"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `startDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``], `ParentType`, `ContextType`\> |
 | `startTime?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Time"``]\>, `ParentType`, `ContextType`\> |
 | `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
-| `tasks?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1968
+[src/types/generatedGraphQLTypes.ts:2322](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2322)
 
 ___
 
@@ -1135,35 +1496,35 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `location_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `location_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `location_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `location_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `location_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `organization_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `location_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `location_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `location_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `location_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `location_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `organization_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:230
+[src/types/generatedGraphQLTypes.ts:334](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L334)
 
 ___
 
@@ -1179,7 +1540,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:23
+[src/types/generatedGraphQLTypes.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L25)
 
 ___
 
@@ -1192,12 +1553,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"ExtendSession"`` |
-| `accessToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `refreshToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `accessToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `refreshToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:258
+[src/types/generatedGraphQLTypes.ts:362](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L362)
 
 ___
 
@@ -1222,7 +1583,118 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1999
+[src/types/generatedGraphQLTypes.ts:2351](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2351)
+
+___
+
+### Feedback
+
+Ƭ **Feedback**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"Feedback"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `event` | [`Event`](types_generatedGraphQLTypes.md#event) |
+| `rating` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] |
+| `review?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:368](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L368)
+
+___
+
+### FeedbackInput
+
+Ƭ **FeedbackInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `rating` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``] |
+| `review?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:378](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L378)
+
+___
+
+### FeedbackResolvers
+
+Ƭ **FeedbackResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Feedback"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Feedback"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
+| `rating?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
+| `review?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2357](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2357)
+
+___
+
+### FieldError
+
+Ƭ **FieldError**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `path` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``][] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:384](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L384)
+
+___
+
+### FieldErrorResolvers
+
+Ƭ **FieldErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"FieldError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"FieldError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__resolveType` | [`TypeResolveFn`](types_generatedGraphQLTypes.md#typeresolvefn)\<``"InvalidCursor"`` \| ``"MaximumLengthError"`` \| ``"MaximumValueError"`` \| ``"MinimumLengthError"`` \| ``"MinimumValueError"``, `ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `path?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2367](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2367)
 
 ___
 
@@ -1234,13 +1706,23 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `newPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `otpToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `userOtp` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `newPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `otpToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `userOtp` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:264
+[src/types/generatedGraphQLTypes.ts:389](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L389)
+
+___
+
+### Gender
+
+Ƭ **Gender**: ``"FEMALE"`` \| ``"MALE"`` \| ``"OTHER"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:395](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L395)
 
 ___
 
@@ -1253,16 +1735,17 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Group"`` |
-| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `admins` | [`User`](types_generatedGraphQLTypes.md#user)[] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
-| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:270
+[src/types/generatedGraphQLTypes.ts:400](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L400)
 
 ___
 
@@ -1275,15 +1758,17 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"GroupChat"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
 | `messages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\>[]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `users` | [`User`](types_generatedGraphQLTypes.md#user)[] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:280
+[src/types/generatedGraphQLTypes.ts:411](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L411)
 
 ___
 
@@ -1296,15 +1781,16 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"GroupChatMessage"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `groupChatMessageBelongsTo` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
-| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `sender` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:289
+[src/types/generatedGraphQLTypes.ts:422](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L422)
 
 ___
 
@@ -1329,10 +1815,11 @@ ___
 | `groupChatMessageBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`\> |
 | `messageContent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2024
+[src/types/generatedGraphQLTypes.ts:2395](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2395)
 
 ___
 
@@ -1353,32 +1840,16 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `messages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2015
-
-___
-
-### GroupInput
-
-Ƭ **GroupInput**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:298
+[src/types/generatedGraphQLTypes.ts:2384](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2384)
 
 ___
 
@@ -1398,16 +1869,33 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
-| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
-| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2005
+[src/types/generatedGraphQLTypes.ts:2373](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2373)
+
+___
+
+### Incremental
+
+Ƭ **Incremental**\<`T`\>: `T` \| \{ [P in keyof T]?: P extends " $fragmentName" \| "\_\_typename" ? T[P] : never }
+
+#### Type parameters
+
+| Name |
+| :------ |
+| `T` |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L29)
 
 ___
 
@@ -1423,60 +1911,42 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:22
+[src/types/generatedGraphQLTypes.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L24)
 
 ___
 
-### IosFirebaseOptions
+### InvalidCursor
 
-Ƭ **IosFirebaseOptions**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"IOSFirebaseOptions"`` |
-| `apiKey?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `iosBundleId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `iosClientId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `messagingSenderId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `projectId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `storageBucket?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+Ƭ **InvalidCursor**: [`FieldError`](types_generatedGraphQLTypes.md#fielderror) & \{ `__typename?`: ``"InvalidCursor"`` ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] ; `path`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``][]  }
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:304
+[src/types/generatedGraphQLTypes.ts:432](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L432)
 
 ___
 
-### IosFirebaseOptionsResolvers
+### InvalidCursorResolvers
 
-Ƭ **IosFirebaseOptionsResolvers**\<`ContextType`, `ParentType`\>: `Object`
+Ƭ **InvalidCursorResolvers**\<`ContextType`, `ParentType`\>: `Object`
 
 #### Type parameters
 
 | Name | Type |
 | :------ | :------ |
 | `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"IOSFirebaseOptions"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"IOSFirebaseOptions"``] |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"InvalidCursor"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"InvalidCursor"``] |
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `apiKey?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `appId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `iosBundleId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `iosClientId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `messagingSenderId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `projectId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `storageBucket?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `path?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``][], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2033
+[src/types/generatedGraphQLTypes.ts:2405](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2405)
 
 ___
 
@@ -1488,8 +1958,8 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `T` | \{} |
-| `TContext` | \{} |
+| `T` | {} |
+| `TContext` | {} |
 
 #### Type declaration
 
@@ -1509,7 +1979,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1653
+[src/types/generatedGraphQLTypes.ts:1888](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1888)
 
 ___
 
@@ -1522,14 +1992,14 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Language"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `en` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `en` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel)\>[]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:315
+[src/types/generatedGraphQLTypes.ts:438](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L438)
 
 ___
 
@@ -1541,13 +2011,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `en_value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `translation_lang_code` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `translation_value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `en_value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `translation_lang_code` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `translation_value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:323
+[src/types/generatedGraphQLTypes.ts:446](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L446)
 
 ___
 
@@ -1560,15 +2030,15 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"LanguageModel"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
-| `lang_code` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `verified` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `lang_code` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `verified` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:329
+[src/types/generatedGraphQLTypes.ts:452](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L452)
 
 ___
 
@@ -1596,7 +2066,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2052
+[src/types/generatedGraphQLTypes.ts:2423](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2423)
 
 ___
 
@@ -1623,7 +2093,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2044
+[src/types/generatedGraphQLTypes.ts:2415](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2415)
 
 ___
 
@@ -1635,12 +2105,29 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
-| `password` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``] |
+| `password` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:338
+[src/types/generatedGraphQLTypes.ts:461](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L461)
+
+___
+
+### MakeEmpty
+
+Ƭ **MakeEmpty**\<`T`, `K`\>: \{ [\_ in K]?: never }
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `T` | extends `Object` |
+| `K` | extends keyof `T` |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L28)
 
 ___
 
@@ -1657,7 +2144,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:25
+[src/types/generatedGraphQLTypes.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L27)
 
 ___
 
@@ -1674,7 +2161,88 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:24
+[src/types/generatedGraphQLTypes.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L26)
+
+___
+
+### MaritalStatus
+
+Ƭ **MaritalStatus**: ``"DIVORCED"`` \| ``"ENGAGED"`` \| ``"MARRIED"`` \| ``"SEPERATED"`` \| ``"SINGLE"`` \| ``"WIDOWED"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:466](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L466)
+
+___
+
+### MaximumLengthError
+
+Ƭ **MaximumLengthError**: [`FieldError`](types_generatedGraphQLTypes.md#fielderror) & \{ `__typename?`: ``"MaximumLengthError"`` ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] ; `path`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``][]  }
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:474](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L474)
+
+___
+
+### MaximumLengthErrorResolvers
+
+Ƭ **MaximumLengthErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MaximumLengthError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MaximumLengthError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `path?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2440](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2440)
+
+___
+
+### MaximumValueError
+
+Ƭ **MaximumValueError**: [`FieldError`](types_generatedGraphQLTypes.md#fielderror) & \{ `__typename?`: ``"MaximumValueError"`` ; `limit`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] ; `path`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``][]  }
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:480](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L480)
+
+___
+
+### MaximumValueErrorResolvers
+
+Ƭ **MaximumValueErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MaximumValueError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MaximumValueError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `limit?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `path?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2446](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2446)
 
 ___
 
@@ -1690,7 +2258,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:21
+[src/types/generatedGraphQLTypes.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L23)
 
 ___
 
@@ -1703,13 +2271,13 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"MembershipRequest"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `user` | [`User`](types_generatedGraphQLTypes.md#user) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:343
+[src/types/generatedGraphQLTypes.ts:487](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L487)
 
 ___
 
@@ -1735,7 +2303,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2069
+[src/types/generatedGraphQLTypes.ts:2453](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2453)
 
 ___
 
@@ -1748,16 +2316,17 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Message"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
-| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `text?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``]\> |
+| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:350
+[src/types/generatedGraphQLTypes.ts:494](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L494)
 
 ___
 
@@ -1770,16 +2339,17 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"MessageChat"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
-| `languageBarrier?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `languageBarrier?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
+| `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `receiver` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `sender` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:360
+[src/types/generatedGraphQLTypes.ts:505](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L505)
 
 ___
 
@@ -1791,12 +2361,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `receiver` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `message` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `receiver` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:370
+[src/types/generatedGraphQLTypes.ts:516](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L516)
 
 ___
 
@@ -1822,10 +2392,11 @@ ___
 | `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `receiver?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 | `sender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2086
+[src/types/generatedGraphQLTypes.ts:2471](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2471)
 
 ___
 
@@ -1846,15 +2417,87 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `imageUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
-| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `videoUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2076
+[src/types/generatedGraphQLTypes.ts:2460](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2460)
+
+___
+
+### MinimumLengthError
+
+Ƭ **MinimumLengthError**: [`FieldError`](types_generatedGraphQLTypes.md#fielderror) & \{ `__typename?`: ``"MinimumLengthError"`` ; `limit`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] ; `path`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``][]  }
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:521](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L521)
+
+___
+
+### MinimumLengthErrorResolvers
+
+Ƭ **MinimumLengthErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MinimumLengthError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MinimumLengthError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `limit?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `path?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2482](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2482)
+
+___
+
+### MinimumValueError
+
+Ƭ **MinimumValueError**: [`FieldError`](types_generatedGraphQLTypes.md#fielderror) & \{ `__typename?`: ``"MinimumValueError"`` ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] ; `path`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``][]  }
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:528](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L528)
+
+___
+
+### MinimumValueErrorResolvers
+
+Ƭ **MinimumValueErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MinimumValueError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"MinimumValueError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `path?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2489](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2489)
 
 ___
 
@@ -1867,60 +2510,71 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Mutation"`` |
-| `acceptAdmin` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `acceptAdmin` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `acceptMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
+| `addEventAttendee` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `addFeedback` | [`Feedback`](types_generatedGraphQLTypes.md#feedback) |
 | `addLanguageTranslation` | [`Language`](types_generatedGraphQLTypes.md#language) |
+| `addOrganizationCustomField` | [`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield) |
 | `addOrganizationImage` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
+| `addUserCustomData` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata) |
 | `addUserImage` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `addUserToGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `adminRemoveEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
-| `adminRemoveGroup` | [`Message`](types_generatedGraphQLTypes.md#message) |
+| `adminRemoveGroup` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `assignUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
 | `blockPluginCreationBySuperadmin` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `blockUser` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `cancelMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
+| `checkIn` | [`CheckIn`](types_generatedGraphQLTypes.md#checkin) |
 | `createAdmin` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `createAdvertisement` | [`Advertisement`](types_generatedGraphQLTypes.md#advertisement) |
 | `createComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
 | `createDirectChat` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
 | `createDonation` | [`Donation`](types_generatedGraphQLTypes.md#donation) |
 | `createEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
-| `createGroup` | [`Group`](types_generatedGraphQLTypes.md#group) |
 | `createGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
+| `createMember` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `createMessageChat` | [`MessageChat`](types_generatedGraphQLTypes.md#messagechat) |
 | `createOrganization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `createPlugin` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
 | `createPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
-| `createTask` | [`Task`](types_generatedGraphQLTypes.md#task) |
+| `createSampleOrganization` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `createUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
+| `deleteAdvertisementById` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
 | `deleteDonationById` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
-| `forgotPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `forgotPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `joinPublicOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `leaveOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `likeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
 | `likePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
 | `login` | [`AuthData`](types_generatedGraphQLTypes.md#authdata) |
-| `logout` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `logout` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `otp` | [`OtpData`](types_generatedGraphQLTypes.md#otpdata) |
-| `recaptcha` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `recaptcha` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `refreshToken` | [`ExtendSession`](types_generatedGraphQLTypes.md#extendsession) |
 | `registerForEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
-| `rejectAdmin` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `rejectAdmin` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `rejectMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
 | `removeAdmin` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `removeAdvertisement?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement)\> |
 | `removeComment?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\> |
 | `removeDirectChat` | [`DirectChat`](types_generatedGraphQLTypes.md#directchat) |
 | `removeEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
+| `removeEventAttendee` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `removeGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `removeMember` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `removeOrganization` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `removeOrganizationCustomField` | [`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield) |
 | `removeOrganizationImage` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `removePost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
-| `removeTask?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\> |
+| `removeSampleOrganization` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `removeUserCustomData` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata) |
 | `removeUserFromGroupChat` | [`GroupChat`](types_generatedGraphQLTypes.md#groupchat) |
 | `removeUserImage` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `removeUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
-| `revokeRefreshTokenForUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `saveFcmToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `revokeRefreshTokenForUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `saveFcmToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `sendMembershipRequest` | [`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest) |
 | `sendMessageToDirectChat` | [`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage) |
 | `sendMessageToGroupChat` | [`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage) |
@@ -1934,18 +2588,17 @@ ___
 | `updateEvent` | [`Event`](types_generatedGraphQLTypes.md#event) |
 | `updateLanguage` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `updateOrganization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
-| `updatePluginInstalledOrgs` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
 | `updatePluginStatus` | [`Plugin`](types_generatedGraphQLTypes.md#plugin) |
 | `updatePost` | [`Post`](types_generatedGraphQLTypes.md#post) |
-| `updateTask?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\> |
 | `updateUserPassword` | [`User`](types_generatedGraphQLTypes.md#user) |
 | `updateUserProfile` | [`User`](types_generatedGraphQLTypes.md#user) |
+| `updateUserRoleInOrganization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
 | `updateUserTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
-| `updateUserType` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `updateUserType` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:375
+[src/types/generatedGraphQLTypes.ts:534](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L534)
 
 ___
 
@@ -1957,11 +2610,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:455
+[src/types/generatedGraphQLTypes.ts:624](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L624)
 
 ___
 
@@ -1973,11 +2626,43 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `membershipRequestId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `membershipRequestId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:460
+[src/types/generatedGraphQLTypes.ts:629](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L629)
+
+___
+
+### MutationAddEventAttendeeArgs
+
+Ƭ **MutationAddEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:634](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L634)
+
+___
+
+### MutationAddFeedbackArgs
+
+Ƭ **MutationAddFeedbackArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`FeedbackInput`](types_generatedGraphQLTypes.md#feedbackinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:639](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L639)
 
 ___
 
@@ -1993,7 +2678,25 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:465
+[src/types/generatedGraphQLTypes.ts:644](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L644)
+
+___
+
+### MutationAddOrganizationCustomFieldArgs
+
+Ƭ **MutationAddOrganizationCustomFieldArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `type` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:649](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L649)
 
 ___
 
@@ -2005,12 +2708,30 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `file` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `file` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:470
+[src/types/generatedGraphQLTypes.ts:656](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L656)
+
+___
+
+### MutationAddUserCustomDataArgs
+
+Ƭ **MutationAddUserCustomDataArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `dataName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `dataValue` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Any"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:662](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L662)
 
 ___
 
@@ -2022,11 +2743,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `file` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `file` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:476
+[src/types/generatedGraphQLTypes.ts:669](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L669)
 
 ___
 
@@ -2038,12 +2759,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:481
+[src/types/generatedGraphQLTypes.ts:674](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L674)
 
 ___
 
@@ -2055,11 +2776,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:487
+[src/types/generatedGraphQLTypes.ts:680](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L680)
 
 ___
 
@@ -2071,11 +2792,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `groupId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `groupId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:492
+[src/types/generatedGraphQLTypes.ts:685](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L685)
 
 ___
 
@@ -2091,7 +2812,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:497
+[src/types/generatedGraphQLTypes.ts:690](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L690)
 
 ___
 
@@ -2103,12 +2824,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `blockUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `blockUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:502
+[src/types/generatedGraphQLTypes.ts:695](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L695)
 
 ___
 
@@ -2120,12 +2841,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:508
+[src/types/generatedGraphQLTypes.ts:701](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L701)
 
 ___
 
@@ -2137,11 +2858,27 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `membershipRequestId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `membershipRequestId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:514
+[src/types/generatedGraphQLTypes.ts:707](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L707)
+
+___
+
+### MutationCheckInArgs
+
+Ƭ **MutationCheckInArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`CheckInInput`](types_generatedGraphQLTypes.md#checkininput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:712](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L712)
 
 ___
 
@@ -2157,7 +2894,28 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:519
+[src/types/generatedGraphQLTypes.ts:717](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L717)
+
+___
+
+### MutationCreateAdvertisementArgs
+
+Ƭ **MutationCreateAdvertisementArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `endDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``] |
+| `link` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `startDate` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``] |
+| `type` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:722](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L722)
 
 ___
 
@@ -2170,11 +2928,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
-| `postId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `postId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:524
+[src/types/generatedGraphQLTypes.ts:732](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L732)
 
 ___
 
@@ -2186,11 +2944,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput)\> |
+| `data` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:530
+[src/types/generatedGraphQLTypes.ts:738](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L738)
 
 ___
 
@@ -2202,16 +2960,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `amount` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``] |
-| `nameOfOrg` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `nameOfUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `payPalId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `amount` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"input"``] |
+| `nameOfOrg` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `nameOfUser` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `payPalId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:535
+[src/types/generatedGraphQLTypes.ts:743](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L743)
 
 ___
 
@@ -2227,23 +2985,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:545
-
-___
-
-### MutationCreateGroupArgs
-
-Ƭ **MutationCreateGroupArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `data` | [`GroupInput`](types_generatedGraphQLTypes.md#groupinput) |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:550
+[src/types/generatedGraphQLTypes.ts:753](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L753)
 
 ___
 
@@ -2255,11 +2997,27 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput)\> |
+| `data` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:555
+[src/types/generatedGraphQLTypes.ts:758](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L758)
+
+___
+
+### MutationCreateMemberArgs
+
+Ƭ **MutationCreateMemberArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `input` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:763](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L763)
 
 ___
 
@@ -2275,7 +3033,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:560
+[src/types/generatedGraphQLTypes.ts:768](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L768)
 
 ___
 
@@ -2288,11 +3046,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput)\> |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:565
+[src/types/generatedGraphQLTypes.ts:773](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L773)
 
 ___
 
@@ -2304,15 +3062,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `installedOrgs?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `pluginCreatedBy` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `pluginDesc` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `pluginInstallStatus` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `pluginCreatedBy` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `pluginDesc` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `uninstalledOrgs?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:571
+[src/types/generatedGraphQLTypes.ts:779](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L779)
 
 ___
 
@@ -2325,28 +3082,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data` | [`PostInput`](types_generatedGraphQLTypes.md#postinput) |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:580
-
-___
-
-### MutationCreateTaskArgs
-
-Ƭ **MutationCreateTaskArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`TaskInput`](types_generatedGraphQLTypes.md#taskinput)\> |
-| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:586
+[src/types/generatedGraphQLTypes.ts:787](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L787)
 
 ___
 
@@ -2362,7 +3102,23 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:592
+[src/types/generatedGraphQLTypes.ts:793](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L793)
+
+___
+
+### MutationDeleteAdvertisementByIdArgs
+
+Ƭ **MutationDeleteAdvertisementByIdArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:798](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L798)
 
 ___
 
@@ -2374,11 +3130,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:597
+[src/types/generatedGraphQLTypes.ts:803](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L803)
 
 ___
 
@@ -2394,7 +3150,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:602
+[src/types/generatedGraphQLTypes.ts:808](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L808)
 
 ___
 
@@ -2406,11 +3162,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:607
+[src/types/generatedGraphQLTypes.ts:813](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L813)
 
 ___
 
@@ -2422,11 +3178,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:612
+[src/types/generatedGraphQLTypes.ts:818](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L818)
 
 ___
 
@@ -2438,11 +3194,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:617
+[src/types/generatedGraphQLTypes.ts:823](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L823)
 
 ___
 
@@ -2454,11 +3210,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:622
+[src/types/generatedGraphQLTypes.ts:828](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L828)
 
 ___
 
@@ -2474,7 +3230,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:627
+[src/types/generatedGraphQLTypes.ts:833](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L833)
 
 ___
 
@@ -2490,7 +3246,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:632
+[src/types/generatedGraphQLTypes.ts:838](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L838)
 
 ___
 
@@ -2506,7 +3262,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:637
+[src/types/generatedGraphQLTypes.ts:843](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L843)
 
 ___
 
@@ -2518,11 +3274,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `refreshToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `refreshToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:642
+[src/types/generatedGraphQLTypes.ts:848](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L848)
 
 ___
 
@@ -2534,11 +3290,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:647
+[src/types/generatedGraphQLTypes.ts:853](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L853)
 
 ___
 
@@ -2550,11 +3306,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:652
+[src/types/generatedGraphQLTypes.ts:858](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L858)
 
 ___
 
@@ -2566,11 +3322,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `membershipRequestId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `membershipRequestId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:657
+[src/types/generatedGraphQLTypes.ts:863](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L863)
 
 ___
 
@@ -2586,7 +3342,23 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:662
+[src/types/generatedGraphQLTypes.ts:868](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L868)
+
+___
+
+### MutationRemoveAdvertisementArgs
+
+Ƭ **MutationRemoveAdvertisementArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:873](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L873)
 
 ___
 
@@ -2598,11 +3370,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:667
+[src/types/generatedGraphQLTypes.ts:878](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L878)
 
 ___
 
@@ -2614,12 +3386,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:672
+[src/types/generatedGraphQLTypes.ts:883](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L883)
 
 ___
 
@@ -2631,11 +3403,27 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:678
+[src/types/generatedGraphQLTypes.ts:889](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L889)
+
+___
+
+### MutationRemoveEventAttendeeArgs
+
+Ƭ **MutationRemoveEventAttendeeArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `data` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:894](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L894)
 
 ___
 
@@ -2647,11 +3435,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:683
+[src/types/generatedGraphQLTypes.ts:899](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L899)
 
 ___
 
@@ -2667,7 +3455,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:688
+[src/types/generatedGraphQLTypes.ts:904](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L904)
 
 ___
 
@@ -2679,11 +3467,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:693
+[src/types/generatedGraphQLTypes.ts:909](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L909)
+
+___
+
+### MutationRemoveOrganizationCustomFieldArgs
+
+Ƭ **MutationRemoveOrganizationCustomFieldArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `customFieldId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:914](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L914)
 
 ___
 
@@ -2695,11 +3500,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:698
+[src/types/generatedGraphQLTypes.ts:920](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L920)
 
 ___
 
@@ -2711,27 +3516,27 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:703
+[src/types/generatedGraphQLTypes.ts:925](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L925)
 
 ___
 
-### MutationRemoveTaskArgs
+### MutationRemoveUserCustomDataArgs
 
-Ƭ **MutationRemoveTaskArgs**: `Object`
+Ƭ **MutationRemoveUserCustomDataArgs**: `Object`
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:708
+[src/types/generatedGraphQLTypes.ts:930](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L930)
 
 ___
 
@@ -2743,12 +3548,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:713
+[src/types/generatedGraphQLTypes.ts:935](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L935)
 
 ___
 
@@ -2760,11 +3565,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:719
+[src/types/generatedGraphQLTypes.ts:941](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L941)
 
 ___
 
@@ -2785,29 +3590,36 @@ ___
 | :------ | :------ |
 | `acceptAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAcceptAdminArgs`](types_generatedGraphQLTypes.md#mutationacceptadminargs), ``"id"``\>\> |
 | `acceptMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAcceptMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationacceptmembershiprequestargs), ``"membershipRequestId"``\>\> |
+| `addEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationaddeventattendeeargs), ``"data"``\>\> |
+| `addFeedback?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Feedback"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddFeedbackArgs`](types_generatedGraphQLTypes.md#mutationaddfeedbackargs), ``"data"``\>\> |
 | `addLanguageTranslation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Language"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddLanguageTranslationArgs`](types_generatedGraphQLTypes.md#mutationaddlanguagetranslationargs), ``"data"``\>\> |
+| `addOrganizationCustomField?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OrganizationCustomField"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddOrganizationCustomFieldArgs`](types_generatedGraphQLTypes.md#mutationaddorganizationcustomfieldargs), ``"name"`` \| ``"organizationId"`` \| ``"type"``\>\> |
 | `addOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationaddorganizationimageargs), ``"file"`` \| ``"organizationId"``\>\> |
+| `addUserCustomData?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserCustomData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserCustomDataArgs`](types_generatedGraphQLTypes.md#mutationaddusercustomdataargs), ``"dataName"`` \| ``"dataValue"`` \| ``"organizationId"``\>\> |
 | `addUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserImageArgs`](types_generatedGraphQLTypes.md#mutationadduserimageargs), ``"file"``\>\> |
 | `addUserToGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAddUserToGroupChatArgs`](types_generatedGraphQLTypes.md#mutationaddusertogroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
 | `adminRemoveEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationadminremoveeventargs), ``"eventId"``\>\> |
-| `adminRemoveGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Message"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveGroupArgs`](types_generatedGraphQLTypes.md#mutationadminremovegroupargs), ``"groupId"``\>\> |
+| `adminRemoveGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAdminRemoveGroupArgs`](types_generatedGraphQLTypes.md#mutationadminremovegroupargs), ``"groupId"``\>\> |
 | `assignUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationAssignUserTagArgs`](types_generatedGraphQLTypes.md#mutationassignusertagargs), ``"input"``\>\> |
 | `blockPluginCreationBySuperadmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationBlockPluginCreationBySuperadminArgs`](types_generatedGraphQLTypes.md#mutationblockplugincreationbysuperadminargs), ``"blockUser"`` \| ``"userId"``\>\> |
 | `blockUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationBlockUserArgs`](types_generatedGraphQLTypes.md#mutationblockuserargs), ``"organizationId"`` \| ``"userId"``\>\> |
 | `cancelMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCancelMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationcancelmembershiprequestargs), ``"membershipRequestId"``\>\> |
+| `checkIn?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"CheckIn"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCheckInArgs`](types_generatedGraphQLTypes.md#mutationcheckinargs), ``"data"``\>\> |
 | `createAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateAdminArgs`](types_generatedGraphQLTypes.md#mutationcreateadminargs), ``"data"``\>\> |
+| `createAdvertisement?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Advertisement"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateAdvertisementArgs`](types_generatedGraphQLTypes.md#mutationcreateadvertisementargs), ``"endDate"`` \| ``"link"`` \| ``"name"`` \| ``"orgId"`` \| ``"startDate"`` \| ``"type"``\>\> |
 | `createComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateCommentArgs`](types_generatedGraphQLTypes.md#mutationcreatecommentargs), ``"data"`` \| ``"postId"``\>\> |
-| `createDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateDirectChatArgs`](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs)\>\> |
+| `createDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateDirectChatArgs`](types_generatedGraphQLTypes.md#mutationcreatedirectchatargs), ``"data"``\>\> |
 | `createDonation?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateDonationArgs`](types_generatedGraphQLTypes.md#mutationcreatedonationargs), ``"amount"`` \| ``"nameOfOrg"`` \| ``"nameOfUser"`` \| ``"orgId"`` \| ``"payPalId"`` \| ``"userId"``\>\> |
 | `createEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateEventArgs`](types_generatedGraphQLTypes.md#mutationcreateeventargs)\>\> |
-| `createGroup?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Group"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateGroupArgs`](types_generatedGraphQLTypes.md#mutationcreategroupargs), ``"data"``\>\> |
-| `createGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateGroupChatArgs`](types_generatedGraphQLTypes.md#mutationcreategroupchatargs)\>\> |
+| `createGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateGroupChatArgs`](types_generatedGraphQLTypes.md#mutationcreategroupchatargs), ``"data"``\>\> |
+| `createMember?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateMemberArgs`](types_generatedGraphQLTypes.md#mutationcreatememberargs), ``"input"``\>\> |
 | `createMessageChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateMessageChatArgs`](types_generatedGraphQLTypes.md#mutationcreatemessagechatargs), ``"data"``\>\> |
 | `createOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, `Partial`\<[`MutationCreateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationcreateorganizationargs)\>\> |
-| `createPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePluginArgs`](types_generatedGraphQLTypes.md#mutationcreatepluginargs), ``"pluginCreatedBy"`` \| ``"pluginDesc"`` \| ``"pluginInstallStatus"`` \| ``"pluginName"``\>\> |
+| `createPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePluginArgs`](types_generatedGraphQLTypes.md#mutationcreatepluginargs), ``"pluginCreatedBy"`` \| ``"pluginDesc"`` \| ``"pluginName"``\>\> |
 | `createPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreatePostArgs`](types_generatedGraphQLTypes.md#mutationcreatepostargs), ``"data"``\>\> |
-| `createTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateTaskArgs`](types_generatedGraphQLTypes.md#mutationcreatetaskargs), ``"eventId"``\>\> |
+| `createSampleOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `createUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationCreateUserTagArgs`](types_generatedGraphQLTypes.md#mutationcreateusertagargs), ``"input"``\>\> |
+| `deleteAdvertisementById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DeletePayload"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationDeleteAdvertisementByIdArgs`](types_generatedGraphQLTypes.md#mutationdeleteadvertisementbyidargs), ``"id"``\>\> |
 | `deleteDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DeletePayload"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationDeleteDonationByIdArgs`](types_generatedGraphQLTypes.md#mutationdeletedonationbyidargs), ``"id"``\>\> |
 | `forgotPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationForgotPasswordArgs`](types_generatedGraphQLTypes.md#mutationforgotpasswordargs), ``"data"``\>\> |
 | `joinPublicOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationJoinPublicOrganizationArgs`](types_generatedGraphQLTypes.md#mutationjoinpublicorganizationargs), ``"organizationId"``\>\> |
@@ -2823,19 +3635,23 @@ ___
 | `rejectAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRejectAdminArgs`](types_generatedGraphQLTypes.md#mutationrejectadminargs), ``"id"``\>\> |
 | `rejectMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRejectMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationrejectmembershiprequestargs), ``"membershipRequestId"``\>\> |
 | `removeAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveAdminArgs`](types_generatedGraphQLTypes.md#mutationremoveadminargs), ``"data"``\>\> |
+| `removeAdvertisement?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Advertisement"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveAdvertisementArgs`](types_generatedGraphQLTypes.md#mutationremoveadvertisementargs), ``"id"``\>\> |
 | `removeComment?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveCommentArgs`](types_generatedGraphQLTypes.md#mutationremovecommentargs), ``"id"``\>\> |
 | `removeDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveDirectChatArgs`](types_generatedGraphQLTypes.md#mutationremovedirectchatargs), ``"chatId"`` \| ``"organizationId"``\>\> |
 | `removeEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveEventArgs`](types_generatedGraphQLTypes.md#mutationremoveeventargs), ``"id"``\>\> |
+| `removeEventAttendee?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveEventAttendeeArgs`](types_generatedGraphQLTypes.md#mutationremoveeventattendeeargs), ``"data"``\>\> |
 | `removeGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremovegroupchatargs), ``"chatId"``\>\> |
 | `removeMember?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveMemberArgs`](types_generatedGraphQLTypes.md#mutationremovememberargs), ``"data"``\>\> |
 | `removeOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveOrganizationArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationargs), ``"id"``\>\> |
+| `removeOrganizationCustomField?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OrganizationCustomField"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveOrganizationCustomFieldArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationcustomfieldargs), ``"customFieldId"`` \| ``"organizationId"``\>\> |
 | `removeOrganizationImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveOrganizationImageArgs`](types_generatedGraphQLTypes.md#mutationremoveorganizationimageargs), ``"organizationId"``\>\> |
 | `removePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemovePostArgs`](types_generatedGraphQLTypes.md#mutationremovepostargs), ``"id"``\>\> |
-| `removeTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveTaskArgs`](types_generatedGraphQLTypes.md#mutationremovetaskargs), ``"id"``\>\> |
+| `removeSampleOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
+| `removeUserCustomData?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserCustomData"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserCustomDataArgs`](types_generatedGraphQLTypes.md#mutationremoveusercustomdataargs), ``"organizationId"``\>\> |
 | `removeUserFromGroupChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserFromGroupChatArgs`](types_generatedGraphQLTypes.md#mutationremoveuserfromgroupchatargs), ``"chatId"`` \| ``"userId"``\>\> |
 | `removeUserImage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 | `removeUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRemoveUserTagArgs`](types_generatedGraphQLTypes.md#mutationremoveusertagargs), ``"id"``\>\> |
-| `revokeRefreshTokenForUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationRevokeRefreshTokenForUserArgs`](types_generatedGraphQLTypes.md#mutationrevokerefreshtokenforuserargs), ``"userId"``\>\> |
+| `revokeRefreshTokenForUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `saveFcmToken?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, `Partial`\<[`MutationSaveFcmTokenArgs`](types_generatedGraphQLTypes.md#mutationsavefcmtokenargs)\>\> |
 | `sendMembershipRequest?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationSendMembershipRequestArgs`](types_generatedGraphQLTypes.md#mutationsendmembershiprequestargs), ``"organizationId"``\>\> |
 | `sendMessageToDirectChat?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationSendMessageToDirectChatArgs`](types_generatedGraphQLTypes.md#mutationsendmessagetodirectchatargs), ``"chatId"`` \| ``"messageContent"``\>\> |
@@ -2850,34 +3666,17 @@ ___
 | `updateEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateEventArgs`](types_generatedGraphQLTypes.md#mutationupdateeventargs), ``"id"``\>\> |
 | `updateLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateLanguageArgs`](types_generatedGraphQLTypes.md#mutationupdatelanguageargs), ``"languageCode"``\>\> |
 | `updateOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateOrganizationArgs`](types_generatedGraphQLTypes.md#mutationupdateorganizationargs), ``"id"``\>\> |
-| `updatePluginInstalledOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePluginInstalledOrgsArgs`](types_generatedGraphQLTypes.md#mutationupdateplugininstalledorgsargs), ``"id"`` \| ``"orgId"``\>\> |
-| `updatePluginStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePluginStatusArgs`](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs), ``"id"`` \| ``"status"``\>\> |
+| `updatePluginStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePluginStatusArgs`](types_generatedGraphQLTypes.md#mutationupdatepluginstatusargs), ``"id"`` \| ``"orgId"``\>\> |
 | `updatePost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdatePostArgs`](types_generatedGraphQLTypes.md#mutationupdatepostargs), ``"id"``\>\> |
-| `updateTask?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateTaskArgs`](types_generatedGraphQLTypes.md#mutationupdatetaskargs), ``"id"``\>\> |
-| `updateUserPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, `Partial`\<[`MutationUpdateUserPasswordArgs`](types_generatedGraphQLTypes.md#mutationupdateuserpasswordargs)\>\> |
+| `updateUserPassword?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateUserPasswordArgs`](types_generatedGraphQLTypes.md#mutationupdateuserpasswordargs), ``"data"``\>\> |
 | `updateUserProfile?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, `Partial`\<[`MutationUpdateUserProfileArgs`](types_generatedGraphQLTypes.md#mutationupdateuserprofileargs)\>\> |
+| `updateUserRoleInOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateUserRoleInOrganizationArgs`](types_generatedGraphQLTypes.md#mutationupdateuserroleinorganizationargs), ``"organizationId"`` \| ``"role"`` \| ``"userId"``\>\> |
 | `updateUserTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateUserTagArgs`](types_generatedGraphQLTypes.md#mutationupdateusertagargs), ``"input"``\>\> |
 | `updateUserType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`MutationUpdateUserTypeArgs`](types_generatedGraphQLTypes.md#mutationupdateusertypeargs), ``"data"``\>\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2096
-
-___
-
-### MutationRevokeRefreshTokenForUserArgs
-
-Ƭ **MutationRevokeRefreshTokenForUserArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:724
+[src/types/generatedGraphQLTypes.ts:2495](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2495)
 
 ___
 
@@ -2889,11 +3688,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `token?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `token?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:729
+[src/types/generatedGraphQLTypes.ts:946](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L946)
 
 ___
 
@@ -2905,11 +3704,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:734
+[src/types/generatedGraphQLTypes.ts:951](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L951)
 
 ___
 
@@ -2921,12 +3720,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:739
+[src/types/generatedGraphQLTypes.ts:956](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L956)
 
 ___
 
@@ -2938,12 +3737,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `chatId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `messageContent` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:745
+[src/types/generatedGraphQLTypes.ts:962](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L962)
 
 ___
 
@@ -2956,11 +3755,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:751
+[src/types/generatedGraphQLTypes.ts:968](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L968)
 
 ___
 
@@ -2972,11 +3771,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:757
+[src/types/generatedGraphQLTypes.ts:974](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L974)
 
 ___
 
@@ -2992,7 +3791,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:762
+[src/types/generatedGraphQLTypes.ts:979](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L979)
 
 ___
 
@@ -3004,12 +3803,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:767
+[src/types/generatedGraphQLTypes.ts:984](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L984)
 
 ___
 
@@ -3021,11 +3820,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:773
+[src/types/generatedGraphQLTypes.ts:990](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L990)
 
 ___
 
@@ -3037,11 +3836,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:778
+[src/types/generatedGraphQLTypes.ts:995](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L995)
 
 ___
 
@@ -3053,11 +3852,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:783
+[src/types/generatedGraphQLTypes.ts:1000](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1000)
 
 ___
 
@@ -3070,11 +3869,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput)\> |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:788
+[src/types/generatedGraphQLTypes.ts:1005](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1005)
 
 ___
 
@@ -3086,11 +3885,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `languageCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `languageCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:794
+[src/types/generatedGraphQLTypes.ts:1011](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1011)
 
 ___
 
@@ -3103,29 +3902,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput)\> |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:799
-
-___
-
-### MutationUpdatePluginInstalledOrgsArgs
-
-Ƭ **MutationUpdatePluginInstalledOrgsArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:806
+[src/types/generatedGraphQLTypes.ts:1016](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1016)
 
 ___
 
@@ -3137,12 +3919,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `status` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:812
+[src/types/generatedGraphQLTypes.ts:1023](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1023)
 
 ___
 
@@ -3155,28 +3937,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput)\> |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:818
-
-___
-
-### MutationUpdateTaskArgs
-
-Ƭ **MutationUpdateTaskArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateTaskInput`](types_generatedGraphQLTypes.md#updatetaskinput)\> |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:824
+[src/types/generatedGraphQLTypes.ts:1029](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1029)
 
 ___
 
@@ -3188,11 +3953,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput)\> |
+| `data` | [`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:830
+[src/types/generatedGraphQLTypes.ts:1035](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1035)
 
 ___
 
@@ -3205,11 +3970,29 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `data?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput)\> |
-| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `file?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:835
+[src/types/generatedGraphQLTypes.ts:1040](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1040)
+
+___
+
+### MutationUpdateUserRoleInOrganizationArgs
+
+Ƭ **MutationUpdateUserRoleInOrganizationArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `role` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1046](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1046)
 
 ___
 
@@ -3225,7 +4008,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:841
+[src/types/generatedGraphQLTypes.ts:1053](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1053)
 
 ___
 
@@ -3241,7 +4024,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:846
+[src/types/generatedGraphQLTypes.ts:1058](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1058)
 
 ___
 
@@ -3265,7 +4048,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1655
+[src/types/generatedGraphQLTypes.ts:1890](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1890)
 
 ___
 
@@ -3282,7 +4065,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:26
+[src/types/generatedGraphQLTypes.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L30)
 
 ___
 
@@ -3295,26 +4078,28 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Organization"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `admins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)[]\> |
+| `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``] |
 | `blockedUsers?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `customFields` | [`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield)[] |
+| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `location?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `members?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `membershipRequests?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest)\>[]\> |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `pinnedPosts?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `userRegistrationRequired` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `userTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
-| `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:854
+[src/types/generatedGraphQLTypes.ts:1066](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1066)
 
 ___
 
@@ -3326,11 +4111,58 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `adminId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:875
+[src/types/generatedGraphQLTypes.ts:1089](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1089)
+
+___
+
+### OrganizationCustomField
+
+Ƭ **OrganizationCustomField**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"OrganizationCustomField"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `type` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1101](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1101)
+
+___
+
+### OrganizationCustomFieldResolvers
+
+Ƭ **OrganizationCustomFieldResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"OrganizationCustomField"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"OrganizationCustomField"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `organizationId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `type?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2605](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2605)
 
 ___
 
@@ -3343,18 +4175,18 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"OrganizationInfoNode"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``] |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `apiUrl` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `userRegistrationRequired` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:887
+[src/types/generatedGraphQLTypes.ts:1109](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1109)
 
 ___
 
@@ -3376,16 +4208,16 @@ ___
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
 | `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `userRegistrationRequired?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `visibleInSearch?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2194
+[src/types/generatedGraphQLTypes.ts:2613](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2613)
 
 ___
 
@@ -3397,28 +4229,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `attendees?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `isPublic` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `visibleInSearch` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
+| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
+| `attendees?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `image?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `userRegistrationRequired?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:899
+[src/types/generatedGraphQLTypes.ts:1121](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1121)
 
 ___
 
 ### OrganizationOrderByInput
 
-Ƭ **OrganizationOrderByInput**: ``"apiUrl_ASC"`` \| ``"apiUrl_DESC"`` \| ``"description_ASC"`` \| ``"description_DESC"`` \| ``"id_ASC"`` \| ``"id_DESC"`` \| ``"name_ASC"`` \| ``"name_DESC"``
+Ƭ **OrganizationOrderByInput**: ``"apiUrl_ASC"`` \| ``"apiUrl_DESC"`` \| ``"createdAt_ASC"`` \| ``"createdAt_DESC"`` \| ``"description_ASC"`` \| ``"description_DESC"`` \| ``"id_ASC"`` \| ``"id_DESC"`` \| ``"name_ASC"`` \| ``"name_DESC"``
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:910
+[src/types/generatedGraphQLTypes.ts:1132](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1132)
 
 ___
 
@@ -3439,25 +4271,27 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`OrganizationAdminsArgs`](types_generatedGraphQLTypes.md#organizationadminsargs)\>\> |
+| `admins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``][]\>, `ParentType`, `ContextType`, `Partial`\<[`OrganizationAdminsArgs`](types_generatedGraphQLTypes.md#organizationadminsargs)\>\> |
 | `apiUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``], `ParentType`, `ContextType`\> |
 | `blockedUsers?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
+| `customFields?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OrganizationCustomField"``][], `ParentType`, `ContextType`\> |
 | `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `isPublic?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `location?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 | `members?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `membershipRequests?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `pinnedPosts?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `userRegistrationRequired?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `userTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`OrganizationUserTagsArgs`](types_generatedGraphQLTypes.md#organizationusertagsargs)\>\> |
 | `visibleInSearch?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2174
+[src/types/generatedGraphQLTypes.ts:2583](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2583)
 
 ___
 
@@ -3469,14 +4303,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:880
+[src/types/generatedGraphQLTypes.ts:1094](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1094)
 
 ___
 
@@ -3488,36 +4322,36 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `apiUrl_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `apiUrl_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][]\> |
-| `apiUrl_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `apiUrl_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][]\> |
-| `apiUrl_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `name_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `apiUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
+| `apiUrl_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
+| `apiUrl_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``][]\> |
+| `apiUrl_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
+| `apiUrl_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``][]\> |
+| `apiUrl_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `description_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `description_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `description_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `name_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `name_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `userRegistrationRequired?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:920
+[src/types/generatedGraphQLTypes.ts:1144](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1144)
 
 ___
 
@@ -3530,11 +4364,11 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"OtpData"`` |
-| `otpToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `otpToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:949
+[src/types/generatedGraphQLTypes.ts:1173](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1173)
 
 ___
 
@@ -3558,7 +4392,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2206
+[src/types/generatedGraphQLTypes.ts:2625](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2625)
 
 ___
 
@@ -3570,11 +4404,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
+| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:850
+[src/types/generatedGraphQLTypes.ts:1062](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1062)
 
 ___
 
@@ -3589,16 +4423,16 @@ Information about pagination in a connection.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `__typename?` | ``"PageInfo"`` | - |
-| `currPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
-| `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] | When paginating forwards, are there more items? |
-| `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] | When paginating backwards, are there more items? |
-| `nextPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
-| `prevPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
-| `totalPages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> | - |
+| `currPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> | - |
+| `hasNextPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] | When paginating forwards, are there more items? |
+| `hasPreviousPage` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] | When paginating backwards, are there more items? |
+| `nextPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> | - |
+| `prevPageNo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> | - |
+| `totalPages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> | - |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:955
+[src/types/generatedGraphQLTypes.ts:1179](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1179)
 
 ___
 
@@ -3627,7 +4461,17 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2211
+[src/types/generatedGraphQLTypes.ts:2630](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2630)
+
+___
+
+### PaginationDirection
+
+Ƭ **PaginationDirection**: ``"BACKWARD"`` \| ``"FORWARD"``
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1191](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1191)
 
 ___
 
@@ -3640,16 +4484,15 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Plugin"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `installedOrgs` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][] |
-| `pluginCreatedBy` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `pluginDesc` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `pluginInstallStatus` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `pluginCreatedBy` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `pluginDesc` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `uninstalledOrgs?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``][]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:967
+[src/types/generatedGraphQLTypes.ts:1195](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1195)
 
 ___
 
@@ -3662,14 +4505,14 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"PluginField"`` |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `key` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `key` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `status` | [`Status`](types_generatedGraphQLTypes.md#status) |
-| `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:977
+[src/types/generatedGraphQLTypes.ts:1204](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1204)
 
 ___
 
@@ -3681,12 +4524,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `key` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `key` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `value` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:985
+[src/types/generatedGraphQLTypes.ts:1212](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1212)
 
 ___
 
@@ -3706,14 +4549,14 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `key?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
 | `value?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2235
+[src/types/generatedGraphQLTypes.ts:2653](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2653)
 
 ___
 
@@ -3726,14 +4569,14 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `fields?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PluginFieldInput`](types_generatedGraphQLTypes.md#pluginfieldinput)\>[]\> |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `pluginKey?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `pluginKey?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `pluginName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 | `pluginType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Type`](types_generatedGraphQLTypes.md#type)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:990
+[src/types/generatedGraphQLTypes.ts:1217](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1217)
 
 ___
 
@@ -3754,15 +4597,14 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `installedOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``][], `ParentType`, `ContextType`\> |
 | `pluginCreatedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `pluginDesc?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `pluginInstallStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `pluginName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `uninstalledOrgs?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``][]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2225
+[src/types/generatedGraphQLTypes.ts:2644](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2644)
 
 ___
 
@@ -3775,22 +4617,24 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Post"`` |
-| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `commentCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `_id?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``]\> |
+| `commentCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> |
 | `comments?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `creator?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\> |
+| `imageUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``]\> |
+| `likeCount?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> |
 | `likedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `organization` | [`Organization`](types_generatedGraphQLTypes.md#organization) |
-| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `pinned?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
+| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `title?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `videoUrl?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:998
+[src/types/generatedGraphQLTypes.ts:1225](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1225)
 
 ___
 
@@ -3811,7 +4655,7 @@ A connection to a list of items.
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1015
+[src/types/generatedGraphQLTypes.ts:1244](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1244)
 
 ___
 
@@ -3837,7 +4681,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2263
+[src/types/generatedGraphQLTypes.ts:2683](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2683)
 
 ___
 
@@ -3849,17 +4693,17 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `pinned?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `_id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `pinned?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `text` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1024
+[src/types/generatedGraphQLTypes.ts:1253](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1253)
 
 ___
 
@@ -3869,7 +4713,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1034
+[src/types/generatedGraphQLTypes.ts:1263](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1263)
 
 ___
 
@@ -3892,19 +4736,21 @@ ___
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``]\>, `ParentType`, `ContextType`\> |
 | `commentCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
 | `comments?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>, `ParentType`, `ContextType`\> |
 | `imageUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
 | `likeCount?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``]\>, `ParentType`, `ContextType`\> |
 | `likedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``], `ParentType`, `ContextType`\> |
+| `pinned?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
 | `text?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `videoUrl?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"URL"``]\>, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2247
+[src/types/generatedGraphQLTypes.ts:2665](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2665)
 
 ___
 
@@ -3916,14 +4762,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
-| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `imageUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `videoUrl?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1052
+[src/types/generatedGraphQLTypes.ts:1281](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1281)
 
 ___
 
@@ -3935,28 +4781,28 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `text_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `text_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `text_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `text_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `text_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `text?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `text_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `text_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `text_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `text_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `text_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `title_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `title_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `title_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1059
+[src/types/generatedGraphQLTypes.ts:1288](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1288)
 
 ___
 
@@ -3971,49 +4817,41 @@ ___
 | `__typename?` | ``"Query"`` |
 | `adminPlugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
 | `checkAuth` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `comments?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
-| `commentsByPost?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Comment`](types_generatedGraphQLTypes.md#comment)\>[]\> |
-| `directChatMessages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
-| `directChats?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
+| `customDataByOrganization` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata)[] |
+| `customFieldsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield)\>[]\> |
 | `directChatsByUserID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChat`](types_generatedGraphQLTypes.md#directchat)\>[]\> |
 | `directChatsMessagesByChatID?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\>[]\> |
 | `event?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\> |
-| `events?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `eventsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `eventsByOrganizationConnection` | [`Event`](types_generatedGraphQLTypes.md#event)[] |
+| `getAdvertisements?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement)\>[]\> |
 | `getDonationById` | [`Donation`](types_generatedGraphQLTypes.md#donation) |
 | `getDonationByOrgId?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
 | `getDonationByOrgIdConnection` | [`Donation`](types_generatedGraphQLTypes.md#donation)[] |
-| `getDonations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Donation`](types_generatedGraphQLTypes.md#donation)\>[]\> |
 | `getPlugins?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
 | `getlanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Translation`](types_generatedGraphQLTypes.md#translation)\>[]\> |
-| `groupChatMessages?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\>[]\> |
-| `groupChats?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChat`](types_generatedGraphQLTypes.md#groupchat)\>[]\> |
-| `groups?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Group`](types_generatedGraphQLTypes.md#group)\>[]\> |
-| `isUserRegister?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants)\> |
+| `hasSubmittedFeedback?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
+| `isSampleOrganization` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `joinedOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
 | `me` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `myLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `myLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `organizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
 | `organizationsConnection` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[] |
 | `organizationsMemberConnection` | [`UserConnection`](types_generatedGraphQLTypes.md#userconnection) |
 | `plugin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\>[]\> |
 | `post?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\> |
-| `posts?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
 | `postsByOrganization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Post`](types_generatedGraphQLTypes.md#post)\>[]\> |
 | `postsByOrganizationConnection?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection)\> |
 | `registeredEventsByUser?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `registrantsByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
-| `tasksByEvent?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
-| `tasksByUser?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Task`](types_generatedGraphQLTypes.md#task)\>[]\> |
 | `user` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `userLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `userLanguage?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `users?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[]\> |
 | `usersConnection` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`User`](types_generatedGraphQLTypes.md#user)\>[] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1080
+[src/types/generatedGraphQLTypes.ts:1309](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1309)
 
 ___
 
@@ -4025,27 +4863,43 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1126
+[src/types/generatedGraphQLTypes.ts:1347](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1347)
 
 ___
 
-### QueryCommentsByPostArgs
+### QueryCustomDataByOrganizationArgs
 
-Ƭ **QueryCommentsByPostArgs**: `Object`
+Ƭ **QueryCustomDataByOrganizationArgs**: `Object`
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1131
+[src/types/generatedGraphQLTypes.ts:1352](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1352)
+
+___
+
+### QueryCustomFieldsByOrganizationArgs
+
+Ƭ **QueryCustomFieldsByOrganizationArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1357](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1357)
 
 ___
 
@@ -4057,11 +4911,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1136
+[src/types/generatedGraphQLTypes.ts:1362](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1362)
 
 ___
 
@@ -4073,11 +4927,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1141
+[src/types/generatedGraphQLTypes.ts:1367](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1367)
 
 ___
 
@@ -4089,28 +4943,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1146
-
-___
-
-### QueryEventsArgs
-
-Ƭ **QueryEventsArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1151
+[src/types/generatedGraphQLTypes.ts:1372](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1372)
 
 ___
 
@@ -4122,12 +4959,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1157
+[src/types/generatedGraphQLTypes.ts:1377](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1377)
 
 ___
 
@@ -4139,14 +4976,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1163
+[src/types/generatedGraphQLTypes.ts:1383](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1383)
 
 ___
 
@@ -4158,11 +4995,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1171
+[src/types/generatedGraphQLTypes.ts:1391](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1391)
 
 ___
 
@@ -4174,11 +5011,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1176
+[src/types/generatedGraphQLTypes.ts:1396](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1396)
 
 ___
 
@@ -4190,14 +5027,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1181
+[src/types/generatedGraphQLTypes.ts:1401](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1401)
 
 ___
 
@@ -4209,27 +5046,44 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `lang_code` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `lang_code` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1189
+[src/types/generatedGraphQLTypes.ts:1409](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1409)
 
 ___
 
-### QueryIsUserRegisterArgs
+### QueryHasSubmittedFeedbackArgs
 
-Ƭ **QueryIsUserRegisterArgs**: `Object`
+Ƭ **QueryHasSubmittedFeedbackArgs**: `Object`
 
 #### Type declaration
 
 | Name | Type |
 | :------ | :------ |
-| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `eventId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1194
+[src/types/generatedGraphQLTypes.ts:1414](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1414)
+
+___
+
+### QueryIsSampleOrganizationArgs
+
+Ƭ **QueryIsSampleOrganizationArgs**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1420](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1420)
 
 ___
 
@@ -4241,11 +5095,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1199
+[src/types/generatedGraphQLTypes.ts:1425](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1425)
 
 ___
 
@@ -4257,12 +5111,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1204
+[src/types/generatedGraphQLTypes.ts:1430](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1430)
 
 ___
 
@@ -4274,14 +5128,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1210
+[src/types/generatedGraphQLTypes.ts:1436](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1436)
 
 ___
 
@@ -4293,15 +5147,15 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1218
+[src/types/generatedGraphQLTypes.ts:1444](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1444)
 
 ___
 
@@ -4313,11 +5167,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `orgId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1227
+[src/types/generatedGraphQLTypes.ts:1453](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1453)
 
 ___
 
@@ -4329,27 +5183,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1232
-
-___
-
-### QueryPostsArgs
-
-Ƭ **QueryPostsArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1237
+[src/types/generatedGraphQLTypes.ts:1458](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1458)
 
 ___
 
@@ -4361,12 +5199,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1242
+[src/types/generatedGraphQLTypes.ts:1463](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1463)
 
 ___
 
@@ -4378,15 +5216,15 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1248
+[src/types/generatedGraphQLTypes.ts:1469](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1469)
 
 ___
 
@@ -4398,12 +5236,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1257
+[src/types/generatedGraphQLTypes.ts:1478](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1478)
 
 ___
 
@@ -4415,11 +5253,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1263
+[src/types/generatedGraphQLTypes.ts:1484](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1484)
 
 ___
 
@@ -4440,26 +5278,21 @@ ___
 | :------ | :------ |
 | `adminPlugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryAdminPluginArgs`](types_generatedGraphQLTypes.md#queryadminpluginargs), ``"orgId"``\>\> |
 | `checkAuth?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `comments?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `commentsByPost?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Comment"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryCommentsByPostArgs`](types_generatedGraphQLTypes.md#querycommentsbypostargs), ``"id"``\>\> |
-| `directChatMessages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `directChats?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `customDataByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserCustomData"``][], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryCustomDataByOrganizationArgs`](types_generatedGraphQLTypes.md#querycustomdatabyorganizationargs), ``"organizationId"``\>\> |
+| `customFieldsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"OrganizationCustomField"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryCustomFieldsByOrganizationArgs`](types_generatedGraphQLTypes.md#querycustomfieldsbyorganizationargs), ``"id"``\>\> |
 | `directChatsByUserID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChat"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryDirectChatsByUserIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsbyuseridargs), ``"id"``\>\> |
 | `directChatsMessagesByChatID?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryDirectChatsMessagesByChatIdArgs`](types_generatedGraphQLTypes.md#querydirectchatsmessagesbychatidargs), ``"id"``\>\> |
 | `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryEventArgs`](types_generatedGraphQLTypes.md#queryeventargs), ``"id"``\>\> |
-| `events?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryEventsArgs`](types_generatedGraphQLTypes.md#queryeventsargs)\>\> |
 | `eventsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryEventsByOrganizationArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationargs)\>\> |
 | `eventsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``][], `ParentType`, `ContextType`, `Partial`\<[`QueryEventsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#queryeventsbyorganizationconnectionargs)\>\> |
+| `getAdvertisements?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Advertisement"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `getDonationById?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyidargs), ``"id"``\>\> |
 | `getDonationByOrgId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByOrgIdArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidargs), ``"orgId"``\>\> |
 | `getDonationByOrgIdConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``][], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetDonationByOrgIdConnectionArgs`](types_generatedGraphQLTypes.md#querygetdonationbyorgidconnectionargs), ``"orgId"``\>\> |
-| `getDonations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Donation"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `getPlugins?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `getlanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Translation"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryGetlanguageArgs`](types_generatedGraphQLTypes.md#querygetlanguageargs), ``"lang_code"``\>\> |
-| `groupChatMessages?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `groupChats?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChat"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `groups?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Group"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `isUserRegister?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EventRegistrants"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryIsUserRegisterArgs`](types_generatedGraphQLTypes.md#queryisuserregisterargs), ``"eventId"``\>\> |
+| `hasSubmittedFeedback?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryHasSubmittedFeedbackArgs`](types_generatedGraphQLTypes.md#queryhassubmittedfeedbackargs), ``"eventId"`` \| ``"userId"``\>\> |
+| `isSampleOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryIsSampleOrganizationArgs`](types_generatedGraphQLTypes.md#queryissampleorganizationargs), ``"id"``\>\> |
 | `joinedOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryJoinedOrganizationsArgs`](types_generatedGraphQLTypes.md#queryjoinedorganizationsargs)\>\> |
 | `me?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
 | `myLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
@@ -4468,13 +5301,10 @@ ___
 | `organizationsMemberConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserConnection"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryOrganizationsMemberConnectionArgs`](types_generatedGraphQLTypes.md#queryorganizationsmemberconnectionargs), ``"orgId"``\>\> |
 | `plugin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPluginArgs`](types_generatedGraphQLTypes.md#querypluginargs), ``"orgId"``\>\> |
 | `post?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPostArgs`](types_generatedGraphQLTypes.md#querypostargs), ``"id"``\>\> |
-| `posts?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryPostsArgs`](types_generatedGraphQLTypes.md#querypostsargs)\>\> |
 | `postsByOrganization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPostsByOrganizationArgs`](types_generatedGraphQLTypes.md#querypostsbyorganizationargs), ``"id"``\>\> |
 | `postsByOrganizationConnection?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PostConnection"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryPostsByOrganizationConnectionArgs`](types_generatedGraphQLTypes.md#querypostsbyorganizationconnectionargs), ``"id"``\>\> |
 | `registeredEventsByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryRegisteredEventsByUserArgs`](types_generatedGraphQLTypes.md#queryregisteredeventsbyuserargs)\>\> |
 | `registrantsByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryRegistrantsByEventArgs`](types_generatedGraphQLTypes.md#queryregistrantsbyeventargs), ``"id"``\>\> |
-| `tasksByEvent?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryTasksByEventArgs`](types_generatedGraphQLTypes.md#querytasksbyeventargs), ``"id"``\>\> |
-| `tasksByUser?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Task"``]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryTasksByUserArgs`](types_generatedGraphQLTypes.md#querytasksbyuserargs), ``"id"``\>\> |
 | `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryUserArgs`](types_generatedGraphQLTypes.md#queryuserargs), ``"id"``\>\> |
 | `userLanguage?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`QueryUserLanguageArgs`](types_generatedGraphQLTypes.md#queryuserlanguageargs), ``"userId"``\>\> |
 | `users?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]\>, `ParentType`, `ContextType`, `Partial`\<[`QueryUsersArgs`](types_generatedGraphQLTypes.md#queryusersargs)\>\> |
@@ -4482,41 +5312,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2270
-
-___
-
-### QueryTasksByEventArgs
-
-Ƭ **QueryTasksByEventArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput)\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1268
-
-___
-
-### QueryTasksByUserArgs
-
-Ƭ **QueryTasksByUserArgs**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput)\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1274
+[src/types/generatedGraphQLTypes.ts:2690](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2690)
 
 ___
 
@@ -4528,11 +5324,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1280
+[src/types/generatedGraphQLTypes.ts:1489](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1489)
 
 ___
 
@@ -4544,11 +5340,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1285
+[src/types/generatedGraphQLTypes.ts:1494](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1494)
 
 ___
 
@@ -4560,12 +5356,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
+| `adminApproved?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
+| `userType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1290
+[src/types/generatedGraphQLTypes.ts:1499](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1499)
 
 ___
 
@@ -4577,14 +5377,14 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `orderBy?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput)\> |
-| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
+| `skip?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"input"``]\> |
 | `where?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1296
+[src/types/generatedGraphQLTypes.ts:1509](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1509)
 
 ___
 
@@ -4596,11 +5396,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `recaptchaToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `recaptchaToken` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1303
+[src/types/generatedGraphQLTypes.ts:1516](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1516)
 
 ___
 
@@ -4610,7 +5410,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1307
+[src/types/generatedGraphQLTypes.ts:1520](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1520)
 
 ___
 
@@ -4627,7 +5427,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:27
+[src/types/generatedGraphQLTypes.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L31)
 
 ___
 
@@ -4640,13 +5440,13 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `TResult` | `TResult` |
-| `TParent` | \{} |
-| `TContext` | \{} |
-| `TArgs` | \{} |
+| `TParent` | {} |
+| `TContext` | {} |
+| `TArgs` | {} |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1606
+[src/types/generatedGraphQLTypes.ts:1841](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1841)
 
 ___
 
@@ -4682,7 +5482,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1608
+[src/types/generatedGraphQLTypes.ts:1843](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1843)
 
 ___
 
@@ -4698,7 +5498,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1604
+[src/types/generatedGraphQLTypes.ts:1839](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1839)
 
 ___
 
@@ -4716,12 +5516,18 @@ ___
 
 | Name | Type |
 | :------ | :------ |
+| `Address?` | [`AddressResolvers`](types_generatedGraphQLTypes.md#addressresolvers)\<`ContextType`\> |
+| `Advertisement?` | [`AdvertisementResolvers`](types_generatedGraphQLTypes.md#advertisementresolvers)\<`ContextType`\> |
 | `AggregatePost?` | [`AggregatePostResolvers`](types_generatedGraphQLTypes.md#aggregatepostresolvers)\<`ContextType`\> |
 | `AggregateUser?` | [`AggregateUserResolvers`](types_generatedGraphQLTypes.md#aggregateuserresolvers)\<`ContextType`\> |
-| `AndroidFirebaseOptions?` | [`AndroidFirebaseOptionsResolvers`](types_generatedGraphQLTypes.md#androidfirebaseoptionsresolvers)\<`ContextType`\> |
+| `Any?` | `GraphQLScalarType` |
 | `AuthData?` | [`AuthDataResolvers`](types_generatedGraphQLTypes.md#authdataresolvers)\<`ContextType`\> |
+| `CheckIn?` | [`CheckInResolvers`](types_generatedGraphQLTypes.md#checkinresolvers)\<`ContextType`\> |
+| `CheckInStatus?` | [`CheckInStatusResolvers`](types_generatedGraphQLTypes.md#checkinstatusresolvers)\<`ContextType`\> |
 | `Comment?` | [`CommentResolvers`](types_generatedGraphQLTypes.md#commentresolvers)\<`ContextType`\> |
+| `ConnectionError?` | [`ConnectionErrorResolvers`](types_generatedGraphQLTypes.md#connectionerrorresolvers)\<`ContextType`\> |
 | `ConnectionPageInfo?` | [`ConnectionPageInfoResolvers`](types_generatedGraphQLTypes.md#connectionpageinforesolvers)\<`ContextType`\> |
+| `CountryCode?` | `GraphQLScalarType` |
 | `Date?` | `GraphQLScalarType` |
 | `DateTime?` | `GraphQLScalarType` |
 | `DeletePayload?` | [`DeletePayloadResolvers`](types_generatedGraphQLTypes.md#deletepayloadresolvers)\<`ContextType`\> |
@@ -4729,22 +5535,30 @@ ___
 | `DirectChatMessage?` | [`DirectChatMessageResolvers`](types_generatedGraphQLTypes.md#directchatmessageresolvers)\<`ContextType`\> |
 | `Donation?` | [`DonationResolvers`](types_generatedGraphQLTypes.md#donationresolvers)\<`ContextType`\> |
 | `EmailAddress?` | `GraphQLScalarType` |
+| `Error?` | [`ErrorResolvers`](types_generatedGraphQLTypes.md#errorresolvers)\<`ContextType`\> |
 | `Event?` | [`EventResolvers`](types_generatedGraphQLTypes.md#eventresolvers)\<`ContextType`\> |
-| `EventRegistrants?` | [`EventRegistrantsResolvers`](types_generatedGraphQLTypes.md#eventregistrantsresolvers)\<`ContextType`\> |
 | `ExtendSession?` | [`ExtendSessionResolvers`](types_generatedGraphQLTypes.md#extendsessionresolvers)\<`ContextType`\> |
+| `Feedback?` | [`FeedbackResolvers`](types_generatedGraphQLTypes.md#feedbackresolvers)\<`ContextType`\> |
+| `FieldError?` | [`FieldErrorResolvers`](types_generatedGraphQLTypes.md#fielderrorresolvers)\<`ContextType`\> |
 | `Group?` | [`GroupResolvers`](types_generatedGraphQLTypes.md#groupresolvers)\<`ContextType`\> |
 | `GroupChat?` | [`GroupChatResolvers`](types_generatedGraphQLTypes.md#groupchatresolvers)\<`ContextType`\> |
 | `GroupChatMessage?` | [`GroupChatMessageResolvers`](types_generatedGraphQLTypes.md#groupchatmessageresolvers)\<`ContextType`\> |
-| `IOSFirebaseOptions?` | [`IosFirebaseOptionsResolvers`](types_generatedGraphQLTypes.md#iosfirebaseoptionsresolvers)\<`ContextType`\> |
+| `InvalidCursor?` | [`InvalidCursorResolvers`](types_generatedGraphQLTypes.md#invalidcursorresolvers)\<`ContextType`\> |
+| `JSON?` | `GraphQLScalarType` |
 | `Language?` | [`LanguageResolvers`](types_generatedGraphQLTypes.md#languageresolvers)\<`ContextType`\> |
 | `LanguageModel?` | [`LanguageModelResolvers`](types_generatedGraphQLTypes.md#languagemodelresolvers)\<`ContextType`\> |
 | `Latitude?` | `GraphQLScalarType` |
 | `Longitude?` | `GraphQLScalarType` |
+| `MaximumLengthError?` | [`MaximumLengthErrorResolvers`](types_generatedGraphQLTypes.md#maximumlengtherrorresolvers)\<`ContextType`\> |
+| `MaximumValueError?` | [`MaximumValueErrorResolvers`](types_generatedGraphQLTypes.md#maximumvalueerrorresolvers)\<`ContextType`\> |
 | `MembershipRequest?` | [`MembershipRequestResolvers`](types_generatedGraphQLTypes.md#membershiprequestresolvers)\<`ContextType`\> |
 | `Message?` | [`MessageResolvers`](types_generatedGraphQLTypes.md#messageresolvers)\<`ContextType`\> |
 | `MessageChat?` | [`MessageChatResolvers`](types_generatedGraphQLTypes.md#messagechatresolvers)\<`ContextType`\> |
+| `MinimumLengthError?` | [`MinimumLengthErrorResolvers`](types_generatedGraphQLTypes.md#minimumlengtherrorresolvers)\<`ContextType`\> |
+| `MinimumValueError?` | [`MinimumValueErrorResolvers`](types_generatedGraphQLTypes.md#minimumvalueerrorresolvers)\<`ContextType`\> |
 | `Mutation?` | [`MutationResolvers`](types_generatedGraphQLTypes.md#mutationresolvers)\<`ContextType`\> |
 | `Organization?` | [`OrganizationResolvers`](types_generatedGraphQLTypes.md#organizationresolvers)\<`ContextType`\> |
+| `OrganizationCustomField?` | [`OrganizationCustomFieldResolvers`](types_generatedGraphQLTypes.md#organizationcustomfieldresolvers)\<`ContextType`\> |
 | `OrganizationInfoNode?` | [`OrganizationInfoNodeResolvers`](types_generatedGraphQLTypes.md#organizationinfonoderesolvers)\<`ContextType`\> |
 | `OtpData?` | [`OtpDataResolvers`](types_generatedGraphQLTypes.md#otpdataresolvers)\<`ContextType`\> |
 | `PageInfo?` | [`PageInfoResolvers`](types_generatedGraphQLTypes.md#pageinforesolvers)\<`ContextType`\> |
@@ -4756,23 +5570,52 @@ ___
 | `PostConnection?` | [`PostConnectionResolvers`](types_generatedGraphQLTypes.md#postconnectionresolvers)\<`ContextType`\> |
 | `Query?` | [`QueryResolvers`](types_generatedGraphQLTypes.md#queryresolvers)\<`ContextType`\> |
 | `Subscription?` | [`SubscriptionResolvers`](types_generatedGraphQLTypes.md#subscriptionresolvers)\<`ContextType`\> |
-| `Task?` | [`TaskResolvers`](types_generatedGraphQLTypes.md#taskresolvers)\<`ContextType`\> |
 | `Time?` | `GraphQLScalarType` |
 | `Translation?` | [`TranslationResolvers`](types_generatedGraphQLTypes.md#translationresolvers)\<`ContextType`\> |
 | `URL?` | `GraphQLScalarType` |
+| `UnauthenticatedError?` | [`UnauthenticatedErrorResolvers`](types_generatedGraphQLTypes.md#unauthenticatederrorresolvers)\<`ContextType`\> |
+| `UnauthorizedError?` | [`UnauthorizedErrorResolvers`](types_generatedGraphQLTypes.md#unauthorizederrorresolvers)\<`ContextType`\> |
 | `Upload?` | `GraphQLScalarType` |
 | `User?` | [`UserResolvers`](types_generatedGraphQLTypes.md#userresolvers)\<`ContextType`\> |
-| `UserAttende?` | [`UserAttendeResolvers`](types_generatedGraphQLTypes.md#userattenderesolvers)\<`ContextType`\> |
 | `UserConnection?` | [`UserConnectionResolvers`](types_generatedGraphQLTypes.md#userconnectionresolvers)\<`ContextType`\> |
+| `UserCustomData?` | [`UserCustomDataResolvers`](types_generatedGraphQLTypes.md#usercustomdataresolvers)\<`ContextType`\> |
 | `UserEdge?` | [`UserEdgeResolvers`](types_generatedGraphQLTypes.md#useredgeresolvers)\<`ContextType`\> |
+| `UserPhone?` | [`UserPhoneResolvers`](types_generatedGraphQLTypes.md#userphoneresolvers)\<`ContextType`\> |
 | `UserTag?` | [`UserTagResolvers`](types_generatedGraphQLTypes.md#usertagresolvers)\<`ContextType`\> |
 | `UserTagEdge?` | [`UserTagEdgeResolvers`](types_generatedGraphQLTypes.md#usertagedgeresolvers)\<`ContextType`\> |
 | `UserTagsConnection?` | [`UserTagsConnectionResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionresolvers)\<`ContextType`\> |
+| `UserTagsConnectionResult?` | [`UserTagsConnectionResultResolvers`](types_generatedGraphQLTypes.md#usertagsconnectionresultresolvers)\<`ContextType`\> |
 | `UsersConnection?` | [`UsersConnectionResolvers`](types_generatedGraphQLTypes.md#usersconnectionresolvers)\<`ContextType`\> |
+| `UsersConnectionResult?` | [`UsersConnectionResultResolvers`](types_generatedGraphQLTypes.md#usersconnectionresultresolvers)\<`ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2426
+[src/types/generatedGraphQLTypes.ts:2864](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2864)
+
+___
+
+### ResolversInterfaceTypes
+
+Ƭ **ResolversInterfaceTypes**\<`RefType`\>: `Object`
+
+Mapping of interface types
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `RefType` | extends `Record`\<`string`, `unknown`\> |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `Error` | [`UnauthenticatedError`](types_generatedGraphQLTypes.md#unauthenticatederror) \| [`UnauthorizedError`](types_generatedGraphQLTypes.md#unauthorizederror) |
+| `FieldError` | [`InvalidCursor`](types_generatedGraphQLTypes.md#invalidcursor) \| [`MaximumLengthError`](types_generatedGraphQLTypes.md#maximumlengtherror) \| [`MaximumValueError`](types_generatedGraphQLTypes.md#maximumvalueerror) \| [`MinimumLengthError`](types_generatedGraphQLTypes.md#minimumlengtherror) \| [`MinimumValueError`](types_generatedGraphQLTypes.md#minimumvalueerror) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1906](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1906)
 
 ___
 
@@ -4786,101 +5629,124 @@ Mapping between all available schema types and the resolvers parents
 
 | Name | Type |
 | :------ | :------ |
+| `Address` | [`Address`](types_generatedGraphQLTypes.md#address) |
+| `AddressInput` | [`AddressInput`](types_generatedGraphQLTypes.md#addressinput) |
+| `Advertisement` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement), ``"creator"``\> & \{ `creator?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>  } |
 | `AggregatePost` | [`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost) |
 | `AggregateUser` | [`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser) |
-| `AndroidFirebaseOptions` | [`AndroidFirebaseOptions`](types_generatedGraphQLTypes.md#androidfirebaseoptions) |
+| `Any` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Any"``][``"output"``] |
 | `AuthData` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`AuthData`](types_generatedGraphQLTypes.md#authdata), ``"user"``\> & \{ `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
-| `Boolean` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``] |
-| `Comment` | [`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md) |
+| `Boolean` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
+| `CheckIn` | [`InterfaceCheckIn`](../interfaces/models_CheckIn.InterfaceCheckIn.md) |
+| `CheckInInput` | [`CheckInInput`](types_generatedGraphQLTypes.md#checkininput) |
+| `CheckInStatus` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`CheckInStatus`](types_generatedGraphQLTypes.md#checkinstatus), ``"checkIn"`` \| ``"user"``\> & \{ `checkIn?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"CheckIn"``]\> ; `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
+| `Comment` | [`InterfaceComment`](../interfaces/models_Comment.InterfaceComment.md) |
 | `CommentInput` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
+| `ConnectionError` | [`ResolversUnionTypes`](types_generatedGraphQLTypes.md#resolversuniontypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"ConnectionError"``] |
 | `ConnectionPageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
+| `CountryCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"CountryCode"``][``"output"``] |
 | `CreateUserTagInput` | [`CreateUserTagInput`](types_generatedGraphQLTypes.md#createusertaginput) |
-| `Date` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``] |
-| `DateTime` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
+| `CursorPaginationInput` | [`CursorPaginationInput`](types_generatedGraphQLTypes.md#cursorpaginationinput) |
+| `Date` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``] |
+| `DateTime` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `DeletePayload` | [`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload) |
-| `DirectChat` | [`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md) |
-| `DirectChatMessage` | [`Interface_DirectChatMessage`](../interfaces/models_DirectChatMessage.Interface_DirectChatMessage.md) |
-| `Donation` | [`Interface_Donation`](../interfaces/models_Donation.Interface_Donation.md) |
+| `DirectChat` | [`InterfaceDirectChat`](../interfaces/models_DirectChat.InterfaceDirectChat.md) |
+| `DirectChatMessage` | [`InterfaceDirectChatMessage`](../interfaces/models_DirectChatMessage.InterfaceDirectChatMessage.md) |
+| `Donation` | [`InterfaceDonation`](../interfaces/models_Donation.InterfaceDonation.md) |
 | `DonationWhereInput` | [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput) |
-| `EmailAddress` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
-| `Event` | [`Interface_Event`](../interfaces/models_Event.Interface_Event.md) |
+| `EmailAddress` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"output"``] |
+| `Error` | [`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"Error"``] |
+| `Event` | [`InterfaceEvent`](../interfaces/models_Event.InterfaceEvent.md) |
+| `EventAttendeeInput` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
 | `EventInput` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
-| `EventRegistrants` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants), ``"event"``\> & \{ `event`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Event"``]  } |
 | `EventWhereInput` | [`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) |
 | `ExtendSession` | [`ExtendSession`](types_generatedGraphQLTypes.md#extendsession) |
-| `Float` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``] |
+| `Feedback` | [`InterfaceFeedback`](../interfaces/models_Feedback.InterfaceFeedback.md) |
+| `FeedbackInput` | [`FeedbackInput`](types_generatedGraphQLTypes.md#feedbackinput) |
+| `FieldError` | [`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)\>[``"FieldError"``] |
+| `Float` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``] |
 | `ForgotPasswordData` | [`ForgotPasswordData`](types_generatedGraphQLTypes.md#forgotpassworddata) |
-| `Group` | [`Interface_Group`](../interfaces/models_Group.Interface_Group.md) |
-| `GroupChat` | [`Interface_GroupChat`](../interfaces/models_GroupChat.Interface_GroupChat.md) |
-| `GroupChatMessage` | [`Interface_GroupChatMessage`](../interfaces/models_GroupChatMessage.Interface_GroupChatMessage.md) |
-| `GroupInput` | [`GroupInput`](types_generatedGraphQLTypes.md#groupinput) |
-| `ID` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `IOSFirebaseOptions` | [`IosFirebaseOptions`](types_generatedGraphQLTypes.md#iosfirebaseoptions) |
-| `Int` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``] |
-| `Language` | [`Interface_Language`](../interfaces/models_Language.Interface_Language.md) |
+| `Group` | [`InterfaceGroup`](../interfaces/models_Group.InterfaceGroup.md) |
+| `GroupChat` | [`InterfaceGroupChat`](../interfaces/models_GroupChat.InterfaceGroupChat.md) |
+| `GroupChatMessage` | [`InterfaceGroupChatMessage`](../interfaces/models_GroupChatMessage.InterfaceGroupChatMessage.md) |
+| `ID` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `Int` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] |
+| `InvalidCursor` | [`InvalidCursor`](types_generatedGraphQLTypes.md#invalidcursor) |
+| `JSON` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"JSON"``][``"output"``] |
+| `Language` | [`InterfaceLanguage`](../interfaces/models_Language.InterfaceLanguage.md) |
 | `LanguageInput` | [`LanguageInput`](types_generatedGraphQLTypes.md#languageinput) |
 | `LanguageModel` | [`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel) |
-| `Latitude` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``] |
+| `Latitude` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``][``"output"``] |
 | `LoginInput` | [`LoginInput`](types_generatedGraphQLTypes.md#logininput) |
-| `Longitude` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``] |
-| `MembershipRequest` | [`Interface_MembershipRequest`](../interfaces/models_MembershipRequest.Interface_MembershipRequest.md) |
-| `Message` | [`Interface_Message`](../interfaces/models_Message.Interface_Message.md) |
-| `MessageChat` | [`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md) |
+| `Longitude` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``][``"output"``] |
+| `MaximumLengthError` | [`MaximumLengthError`](types_generatedGraphQLTypes.md#maximumlengtherror) |
+| `MaximumValueError` | [`MaximumValueError`](types_generatedGraphQLTypes.md#maximumvalueerror) |
+| `MembershipRequest` | [`InterfaceMembershipRequest`](../interfaces/models_MembershipRequest.InterfaceMembershipRequest.md) |
+| `Message` | [`InterfaceMessage`](../interfaces/models_Message.InterfaceMessage.md) |
+| `MessageChat` | [`InterfaceMessageChat`](../interfaces/models_MessageChat.InterfaceMessageChat.md) |
 | `MessageChatInput` | [`MessageChatInput`](types_generatedGraphQLTypes.md#messagechatinput) |
-| `Mutation` | \{} |
+| `MinimumLengthError` | [`MinimumLengthError`](types_generatedGraphQLTypes.md#minimumlengtherror) |
+| `MinimumValueError` | [`MinimumValueError`](types_generatedGraphQLTypes.md#minimumvalueerror) |
+| `Mutation` | {} |
 | `OTPInput` | [`OtpInput`](types_generatedGraphQLTypes.md#otpinput) |
-| `Organization` | [`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md) |
-| `OrganizationInfoNode` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & \{ `creator`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
+| `Organization` | [`InterfaceOrganization`](../interfaces/models_Organization.InterfaceOrganization.md) |
+| `OrganizationCustomField` | [`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield) |
+| `OrganizationInfoNode` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & \{ `creator?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>  } |
 | `OrganizationInput` | [`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput) |
 | `OrganizationWhereInput` | [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) |
 | `OtpData` | [`OtpData`](types_generatedGraphQLTypes.md#otpdata) |
 | `PageInfo` | [`PageInfo`](types_generatedGraphQLTypes.md#pageinfo) |
-| `PhoneNumber` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``] |
-| `Plugin` | [`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md) |
-| `PluginField` | [`Interface_PluginField`](../interfaces/models_PluginField.Interface_PluginField.md) |
+| `PhoneNumber` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"output"``] |
+| `Plugin` | [`InterfacePlugin`](../interfaces/models_Plugin.InterfacePlugin.md) |
+| `PluginField` | [`InterfacePluginField`](../interfaces/models_PluginField.InterfacePluginField.md) |
 | `PluginFieldInput` | [`PluginFieldInput`](types_generatedGraphQLTypes.md#pluginfieldinput) |
 | `PluginInput` | [`PluginInput`](types_generatedGraphQLTypes.md#plugininput) |
-| `PositiveInt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``] |
-| `Post` | [`Interface_Post`](../interfaces/models_Post.Interface_Post.md) |
+| `PositiveInt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"output"``] |
+| `Post` | [`InterfacePost`](../interfaces/models_Post.InterfacePost.md) |
 | `PostConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Post"``]\>[]  } |
 | `PostInput` | [`PostInput`](types_generatedGraphQLTypes.md#postinput) |
 | `PostUpdateInput` | [`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput) |
 | `PostWhereInput` | [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) |
-| `Query` | \{} |
+| `Query` | {} |
 | `RecaptchaVerification` | [`RecaptchaVerification`](types_generatedGraphQLTypes.md#recaptchaverification) |
-| `String` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `Subscription` | \{} |
-| `Task` | [`Interface_Task`](../interfaces/models_Task.Interface_Task.md) |
-| `TaskInput` | [`TaskInput`](types_generatedGraphQLTypes.md#taskinput) |
-| `Time` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``] |
+| `String` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `Subscription` | {} |
+| `Time` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"output"``] |
 | `ToggleUserTagAssignInput` | [`ToggleUserTagAssignInput`](types_generatedGraphQLTypes.md#toggleusertagassigninput) |
 | `Translation` | [`Translation`](types_generatedGraphQLTypes.md#translation) |
-| `URL` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``] |
+| `URL` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``] |
+| `UnauthenticatedError` | [`UnauthenticatedError`](types_generatedGraphQLTypes.md#unauthenticatederror) |
+| `UnauthorizedError` | [`UnauthorizedError`](types_generatedGraphQLTypes.md#unauthorizederror) |
 | `UpdateEventInput` | [`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput) |
 | `UpdateOrganizationInput` | [`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput) |
-| `UpdateTaskInput` | [`UpdateTaskInput`](types_generatedGraphQLTypes.md#updatetaskinput) |
 | `UpdateUserInput` | [`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput) |
 | `UpdateUserPasswordInput` | [`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput) |
 | `UpdateUserTagInput` | [`UpdateUserTagInput`](types_generatedGraphQLTypes.md#updateusertaginput) |
 | `UpdateUserTypeInput` | [`UpdateUserTypeInput`](types_generatedGraphQLTypes.md#updateusertypeinput) |
-| `Upload` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``] |
-| `User` | [`Interface_User`](../interfaces/models_User.Interface_User.md) |
+| `Upload` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``][``"output"``] |
+| `User` | [`InterfaceUser`](../interfaces/models_User.InterfaceUser.md) |
 | `UserAndOrganizationInput` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
-| `UserAttende` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserAttende`](types_generatedGraphQLTypes.md#userattende), ``"user"``\> & \{ `user`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
 | `UserConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]\>[]  } |
+| `UserCustomData` | [`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata) |
 | `UserEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"User"``]  } |
 | `UserInput` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
-| `UserTag` | [`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md) |
+| `UserPhone` | [`UserPhone`](types_generatedGraphQLTypes.md#userphone) |
+| `UserPhoneInput` | [`UserPhoneInput`](types_generatedGraphQLTypes.md#userphoneinput) |
+| `UserTag` | [`InterfaceOrganizationTagUser`](../interfaces/models_OrganizationTagUser.InterfaceOrganizationTagUser.md) |
 | `UserTagEdge` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & \{ `node`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTag"``]  } |
-| `UserTagsConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``]\>[]\>  } |
+| `UserTagsConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagEdge"``][]  } |
+| `UserTagsConnectionInput` | [`UserTagsConnectionInput`](types_generatedGraphQLTypes.md#usertagsconnectioninput) |
+| `UserTagsConnectionResult` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnectionResult`](types_generatedGraphQLTypes.md#usertagsconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnection"``]\> ; `errors`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"ConnectionError"``][]  } |
 | `UserWhereInput` | [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) |
-| `UsersConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``]\>[]\>  } |
+| `UsersConnection` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserEdge"``][]  } |
+| `UsersConnectionInput` | [`UsersConnectionInput`](types_generatedGraphQLTypes.md#usersconnectioninput) |
+| `UsersConnectionResult` | [`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnectionResult`](types_generatedGraphQLTypes.md#usersconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnection"``]\> ; `errors`: [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"ConnectionError"``][]  } |
 | `createChatInput` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 | `createGroupChatInput` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1770
+[src/types/generatedGraphQLTypes.ts:2043](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2043)
 
 ___
 
@@ -4894,110 +5760,161 @@ Mapping between all available schema types and the resolvers types
 
 | Name | Type |
 | :------ | :------ |
+| `Address` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Address`](types_generatedGraphQLTypes.md#address)\> |
+| `AddressInput` | [`AddressInput`](types_generatedGraphQLTypes.md#addressinput) |
+| `Advertisement` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`Advertisement`](types_generatedGraphQLTypes.md#advertisement), ``"creator"``\> & \{ `creator?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>  }\> |
 | `AggregatePost` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AggregatePost`](types_generatedGraphQLTypes.md#aggregatepost)\> |
 | `AggregateUser` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AggregateUser`](types_generatedGraphQLTypes.md#aggregateuser)\> |
-| `AndroidFirebaseOptions` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`AndroidFirebaseOptions`](types_generatedGraphQLTypes.md#androidfirebaseoptions)\> |
+| `Any` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Any"``][``"output"``]\> |
 | `AuthData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`AuthData`](types_generatedGraphQLTypes.md#authdata), ``"user"``\> & \{ `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
-| `Boolean` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `Comment` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Comment`](../interfaces/models_Comment.Interface_Comment.md)\> |
+| `Boolean` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
+| `CheckIn` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceCheckIn`](../interfaces/models_CheckIn.InterfaceCheckIn.md)\> |
+| `CheckInInput` | [`CheckInInput`](types_generatedGraphQLTypes.md#checkininput) |
+| `CheckInStatus` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`CheckInStatus`](types_generatedGraphQLTypes.md#checkinstatus), ``"checkIn"`` \| ``"user"``\> & \{ `checkIn?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"CheckIn"``]\> ; `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
+| `Comment` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceComment`](../interfaces/models_Comment.InterfaceComment.md)\> |
 | `CommentInput` | [`CommentInput`](types_generatedGraphQLTypes.md#commentinput) |
+| `ConnectionError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversUnionTypes`](types_generatedGraphQLTypes.md#resolversuniontypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"ConnectionError"``]\> |
 | `ConnectionPageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo)\> |
+| `CountryCode` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"CountryCode"``][``"output"``]\> |
 | `CreateUserTagInput` | [`CreateUserTagInput`](types_generatedGraphQLTypes.md#createusertaginput) |
-| `Date` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `DateTime` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `CursorPaginationInput` | [`CursorPaginationInput`](types_generatedGraphQLTypes.md#cursorpaginationinput) |
+| `Date` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
+| `DateTime` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``]\> |
 | `DeletePayload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`DeletePayload`](types_generatedGraphQLTypes.md#deletepayload)\> |
-| `DirectChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_DirectChat`](../interfaces/models_DirectChat.Interface_DirectChat.md)\> |
-| `DirectChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_DirectChatMessage`](../interfaces/models_DirectChatMessage.Interface_DirectChatMessage.md)\> |
-| `Donation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Donation`](../interfaces/models_Donation.Interface_Donation.md)\> |
+| `DirectChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceDirectChat`](../interfaces/models_DirectChat.InterfaceDirectChat.md)\> |
+| `DirectChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceDirectChatMessage`](../interfaces/models_DirectChatMessage.InterfaceDirectChatMessage.md)\> |
+| `Donation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceDonation`](../interfaces/models_Donation.InterfaceDonation.md)\> |
 | `DonationWhereInput` | [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput) |
-| `EmailAddress` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `Event` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Event`](../interfaces/models_Event.Interface_Event.md)\> |
+| `EducationGrade` | [`EducationGrade`](types_generatedGraphQLTypes.md#educationgrade) |
+| `EmailAddress` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"output"``]\> |
+| `EmploymentStatus` | [`EmploymentStatus`](types_generatedGraphQLTypes.md#employmentstatus) |
+| `Error` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"Error"``]\> |
+| `Event` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceEvent`](../interfaces/models_Event.InterfaceEvent.md)\> |
+| `EventAttendeeInput` | [`EventAttendeeInput`](types_generatedGraphQLTypes.md#eventattendeeinput) |
 | `EventInput` | [`EventInput`](types_generatedGraphQLTypes.md#eventinput) |
 | `EventOrderByInput` | [`EventOrderByInput`](types_generatedGraphQLTypes.md#eventorderbyinput) |
-| `EventRegistrants` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`EventRegistrants`](types_generatedGraphQLTypes.md#eventregistrants), ``"event"``\> & \{ `event`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]  }\> |
 | `EventWhereInput` | [`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) |
 | `ExtendSession` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ExtendSession`](types_generatedGraphQLTypes.md#extendsession)\> |
-| `Float` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``]\> |
+| `Feedback` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceFeedback`](../interfaces/models_Feedback.InterfaceFeedback.md)\> |
+| `FeedbackInput` | [`FeedbackInput`](types_generatedGraphQLTypes.md#feedbackinput) |
+| `FieldError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`ResolversInterfaceTypes`](types_generatedGraphQLTypes.md#resolversinterfacetypes)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)\>[``"FieldError"``]\> |
+| `Float` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Float"``][``"output"``]\> |
 | `ForgotPasswordData` | [`ForgotPasswordData`](types_generatedGraphQLTypes.md#forgotpassworddata) |
-| `Group` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Group`](../interfaces/models_Group.Interface_Group.md)\> |
-| `GroupChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_GroupChat`](../interfaces/models_GroupChat.Interface_GroupChat.md)\> |
-| `GroupChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_GroupChatMessage`](../interfaces/models_GroupChatMessage.Interface_GroupChatMessage.md)\> |
-| `GroupInput` | [`GroupInput`](types_generatedGraphQLTypes.md#groupinput) |
-| `ID` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `IOSFirebaseOptions` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`IosFirebaseOptions`](types_generatedGraphQLTypes.md#iosfirebaseoptions)\> |
-| `Int` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``]\> |
-| `Language` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Language`](../interfaces/models_Language.Interface_Language.md)\> |
+| `Gender` | [`Gender`](types_generatedGraphQLTypes.md#gender) |
+| `Group` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceGroup`](../interfaces/models_Group.InterfaceGroup.md)\> |
+| `GroupChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceGroupChat`](../interfaces/models_GroupChat.InterfaceGroupChat.md)\> |
+| `GroupChatMessage` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceGroupChatMessage`](../interfaces/models_GroupChatMessage.InterfaceGroupChatMessage.md)\> |
+| `ID` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``]\> |
+| `Int` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``]\> |
+| `InvalidCursor` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InvalidCursor`](types_generatedGraphQLTypes.md#invalidcursor)\> |
+| `JSON` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"JSON"``][``"output"``]\> |
+| `Language` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceLanguage`](../interfaces/models_Language.InterfaceLanguage.md)\> |
 | `LanguageInput` | [`LanguageInput`](types_generatedGraphQLTypes.md#languageinput) |
 | `LanguageModel` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`LanguageModel`](types_generatedGraphQLTypes.md#languagemodel)\> |
-| `Latitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
+| `Latitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``][``"output"``]\> |
 | `LoginInput` | [`LoginInput`](types_generatedGraphQLTypes.md#logininput) |
-| `Longitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
-| `MembershipRequest` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_MembershipRequest`](../interfaces/models_MembershipRequest.Interface_MembershipRequest.md)\> |
-| `Message` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Message`](../interfaces/models_Message.Interface_Message.md)\> |
-| `MessageChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_MessageChat`](../interfaces/models_MessageChat.Interface_MessageChat.md)\> |
+| `Longitude` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``][``"output"``]\> |
+| `MaritalStatus` | [`MaritalStatus`](types_generatedGraphQLTypes.md#maritalstatus) |
+| `MaximumLengthError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`MaximumLengthError`](types_generatedGraphQLTypes.md#maximumlengtherror)\> |
+| `MaximumValueError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`MaximumValueError`](types_generatedGraphQLTypes.md#maximumvalueerror)\> |
+| `MembershipRequest` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceMembershipRequest`](../interfaces/models_MembershipRequest.InterfaceMembershipRequest.md)\> |
+| `Message` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceMessage`](../interfaces/models_Message.InterfaceMessage.md)\> |
+| `MessageChat` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceMessageChat`](../interfaces/models_MessageChat.InterfaceMessageChat.md)\> |
 | `MessageChatInput` | [`MessageChatInput`](types_generatedGraphQLTypes.md#messagechatinput) |
-| `Mutation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{}\> |
+| `MinimumLengthError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`MinimumLengthError`](types_generatedGraphQLTypes.md#minimumlengtherror)\> |
+| `MinimumValueError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`MinimumValueError`](types_generatedGraphQLTypes.md#minimumvalueerror)\> |
+| `Mutation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<{}\> |
 | `OTPInput` | [`OtpInput`](types_generatedGraphQLTypes.md#otpinput) |
-| `Organization` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Organization`](../interfaces/models_Organization.Interface_Organization.md)\> |
-| `OrganizationInfoNode` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & \{ `creator`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
+| `Organization` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceOrganization`](../interfaces/models_Organization.InterfaceOrganization.md)\> |
+| `OrganizationCustomField` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`OrganizationCustomField`](types_generatedGraphQLTypes.md#organizationcustomfield)\> |
+| `OrganizationInfoNode` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`OrganizationInfoNode`](types_generatedGraphQLTypes.md#organizationinfonode), ``"creator"``\> & \{ `creator?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>  }\> |
 | `OrganizationInput` | [`OrganizationInput`](types_generatedGraphQLTypes.md#organizationinput) |
 | `OrganizationOrderByInput` | [`OrganizationOrderByInput`](types_generatedGraphQLTypes.md#organizationorderbyinput) |
 | `OrganizationWhereInput` | [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) |
 | `OtpData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`OtpData`](types_generatedGraphQLTypes.md#otpdata)\> |
 | `PageInfo` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`PageInfo`](types_generatedGraphQLTypes.md#pageinfo)\> |
-| `PhoneNumber` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``]\> |
-| `Plugin` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md)\> |
-| `PluginField` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_PluginField`](../interfaces/models_PluginField.Interface_PluginField.md)\> |
+| `PaginationDirection` | [`PaginationDirection`](types_generatedGraphQLTypes.md#paginationdirection) |
+| `PhoneNumber` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"output"``]\> |
+| `Plugin` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfacePlugin`](../interfaces/models_Plugin.InterfacePlugin.md)\> |
+| `PluginField` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfacePluginField`](../interfaces/models_PluginField.InterfacePluginField.md)\> |
 | `PluginFieldInput` | [`PluginFieldInput`](types_generatedGraphQLTypes.md#pluginfieldinput) |
 | `PluginInput` | [`PluginInput`](types_generatedGraphQLTypes.md#plugininput) |
-| `PositiveInt` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `Post` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Post`](../interfaces/models_Post.Interface_Post.md)\> |
+| `PositiveInt` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"output"``]\> |
+| `Post` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfacePost`](../interfaces/models_Post.InterfacePost.md)\> |
 | `PostConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`PostConnection`](types_generatedGraphQLTypes.md#postconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Post"``]\>[]  }\> |
 | `PostInput` | [`PostInput`](types_generatedGraphQLTypes.md#postinput) |
 | `PostOrderByInput` | [`PostOrderByInput`](types_generatedGraphQLTypes.md#postorderbyinput) |
 | `PostUpdateInput` | [`PostUpdateInput`](types_generatedGraphQLTypes.md#postupdateinput) |
 | `PostWhereInput` | [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) |
-| `Query` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{}\> |
+| `Query` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<{}\> |
 | `RecaptchaVerification` | [`RecaptchaVerification`](types_generatedGraphQLTypes.md#recaptchaverification) |
 | `Recurrance` | [`Recurrance`](types_generatedGraphQLTypes.md#recurrance) |
 | `Status` | [`Status`](types_generatedGraphQLTypes.md#status) |
-| `String` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `Subscription` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<\{}\> |
-| `Task` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_Task`](../interfaces/models_Task.Interface_Task.md)\> |
-| `TaskInput` | [`TaskInput`](types_generatedGraphQLTypes.md#taskinput) |
-| `TaskOrderByInput` | [`TaskOrderByInput`](types_generatedGraphQLTypes.md#taskorderbyinput) |
-| `Time` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
+| `String` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `Subscription` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<{}\> |
+| `Time` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"output"``]\> |
 | `ToggleUserTagAssignInput` | [`ToggleUserTagAssignInput`](types_generatedGraphQLTypes.md#toggleusertagassigninput) |
 | `Translation` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Translation`](types_generatedGraphQLTypes.md#translation)\> |
 | `Type` | [`Type`](types_generatedGraphQLTypes.md#type) |
-| `URL` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``]\> |
+| `URL` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"URL"``][``"output"``]\> |
+| `UnauthenticatedError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`UnauthenticatedError`](types_generatedGraphQLTypes.md#unauthenticatederror)\> |
+| `UnauthorizedError` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`UnauthorizedError`](types_generatedGraphQLTypes.md#unauthorizederror)\> |
 | `UpdateEventInput` | [`UpdateEventInput`](types_generatedGraphQLTypes.md#updateeventinput) |
 | `UpdateOrganizationInput` | [`UpdateOrganizationInput`](types_generatedGraphQLTypes.md#updateorganizationinput) |
-| `UpdateTaskInput` | [`UpdateTaskInput`](types_generatedGraphQLTypes.md#updatetaskinput) |
 | `UpdateUserInput` | [`UpdateUserInput`](types_generatedGraphQLTypes.md#updateuserinput) |
 | `UpdateUserPasswordInput` | [`UpdateUserPasswordInput`](types_generatedGraphQLTypes.md#updateuserpasswordinput) |
 | `UpdateUserTagInput` | [`UpdateUserTagInput`](types_generatedGraphQLTypes.md#updateusertaginput) |
 | `UpdateUserTypeInput` | [`UpdateUserTypeInput`](types_generatedGraphQLTypes.md#updateusertypeinput) |
-| `Upload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``]\> |
-| `User` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_User`](../interfaces/models_User.Interface_User.md)\> |
+| `Upload` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Upload"``][``"output"``]\> |
+| `User` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceUser`](../interfaces/models_User.InterfaceUser.md)\> |
 | `UserAndOrganizationInput` | [`UserAndOrganizationInput`](types_generatedGraphQLTypes.md#userandorganizationinput) |
-| `UserAttende` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserAttende`](types_generatedGraphQLTypes.md#userattende), ``"user"``\> & \{ `user`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
 | `UserConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserConnection`](types_generatedGraphQLTypes.md#userconnection), ``"edges"``\> & \{ `edges`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]\>[]  }\> |
+| `UserCustomData` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`UserCustomData`](types_generatedGraphQLTypes.md#usercustomdata)\> |
 | `UserEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``]  }\> |
 | `UserInput` | [`UserInput`](types_generatedGraphQLTypes.md#userinput) |
 | `UserOrderByInput` | [`UserOrderByInput`](types_generatedGraphQLTypes.md#userorderbyinput) |
-| `UserTag` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Interface_OrganizationTagUser`](../interfaces/models_OrganizationTagUser.Interface_OrganizationTagUser.md)\> |
+| `UserPhone` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`UserPhone`](types_generatedGraphQLTypes.md#userphone)\> |
+| `UserPhoneInput` | [`UserPhoneInput`](types_generatedGraphQLTypes.md#userphoneinput) |
+| `UserTag` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`InterfaceOrganizationTagUser`](../interfaces/models_OrganizationTagUser.InterfaceOrganizationTagUser.md)\> |
 | `UserTagEdge` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge), ``"node"``\> & \{ `node`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]  }\> |
-| `UserTagsConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``]\>[]\>  }\> |
+| `UserTagsConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection), ``"edges"``\> & \{ `edges`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``][]  }\> |
+| `UserTagsConnectionInput` | [`UserTagsConnectionInput`](types_generatedGraphQLTypes.md#usertagsconnectioninput) |
+| `UserTagsConnectionResult` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UserTagsConnectionResult`](types_generatedGraphQLTypes.md#usertagsconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\> ; `errors`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][]  }\> |
 | `UserType` | [`UserType`](types_generatedGraphQLTypes.md#usertype) |
 | `UserWhereInput` | [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) |
-| `UsersConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``]\>[]\>  }\> |
+| `UsersConnection` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection), ``"edges"``\> & \{ `edges`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``][]  }\> |
+| `UsersConnectionInput` | [`UsersConnectionInput`](types_generatedGraphQLTypes.md#usersconnectioninput) |
+| `UsersConnectionResult` | [`ResolverTypeWrapper`](types_generatedGraphQLTypes.md#resolvertypewrapper)\<[`Omit`](types_generatedGraphQLTypes.md#omit)\<[`UsersConnectionResult`](types_generatedGraphQLTypes.md#usersconnectionresult), ``"data"`` \| ``"errors"``\> & \{ `data?`: [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\> ; `errors`: [`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][]  }\> |
 | `createChatInput` | [`CreateChatInput`](types_generatedGraphQLTypes.md#createchatinput) |
 | `createGroupChatInput` | [`CreateGroupChatInput`](types_generatedGraphQLTypes.md#creategroupchatinput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1666
+[src/types/generatedGraphQLTypes.ts:1912](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1912)
+
+___
+
+### ResolversUnionTypes
+
+Ƭ **ResolversUnionTypes**\<`RefType`\>: `Object`
+
+Mapping of union types
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `RefType` | extends `Record`\<`string`, `unknown`\> |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `ConnectionError` | [`InvalidCursor`](types_generatedGraphQLTypes.md#invalidcursor) \| [`MaximumValueError`](types_generatedGraphQLTypes.md#maximumvalueerror) |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1901](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1901)
 
 ___
 
@@ -5013,7 +5930,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1868
+[src/types/generatedGraphQLTypes.ts:2164](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2164)
 
 ___
 
@@ -5032,7 +5949,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1872
+[src/types/generatedGraphQLTypes.ts:2168](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2168)
 
 ___
 
@@ -5046,25 +5963,64 @@ All built-in and custom scalars, mapped to their actual values
 
 | Name | Type |
 | :------ | :------ |
-| `Boolean` | `boolean` |
-| `Date` | `any` |
-| `DateTime` | `any` |
-| `EmailAddress` | `any` |
-| `Float` | `number` |
-| `ID` | `string` |
-| `Int` | `number` |
-| `Latitude` | `any` |
-| `Longitude` | `any` |
-| `PhoneNumber` | `any` |
-| `PositiveInt` | `any` |
-| `String` | `string` |
-| `Time` | `any` |
-| `URL` | `any` |
-| `Upload` | `any` |
+| `Any` | \{ `input`: `any` ; `output`: `any`  } |
+| `Any.input` | `any` |
+| `Any.output` | `any` |
+| `Boolean` | \{ `input`: `boolean` ; `output`: `boolean`  } |
+| `Boolean.input` | `boolean` |
+| `Boolean.output` | `boolean` |
+| `CountryCode` | \{ `input`: `any` ; `output`: `any`  } |
+| `CountryCode.input` | `any` |
+| `CountryCode.output` | `any` |
+| `Date` | \{ `input`: `any` ; `output`: `any`  } |
+| `Date.input` | `any` |
+| `Date.output` | `any` |
+| `DateTime` | \{ `input`: `any` ; `output`: `any`  } |
+| `DateTime.input` | `any` |
+| `DateTime.output` | `any` |
+| `EmailAddress` | \{ `input`: `any` ; `output`: `any`  } |
+| `EmailAddress.input` | `any` |
+| `EmailAddress.output` | `any` |
+| `Float` | \{ `input`: `number` ; `output`: `number`  } |
+| `Float.input` | `number` |
+| `Float.output` | `number` |
+| `ID` | \{ `input`: `string` ; `output`: `string`  } |
+| `ID.input` | `string` |
+| `ID.output` | `string` |
+| `Int` | \{ `input`: `number` ; `output`: `number`  } |
+| `Int.input` | `number` |
+| `Int.output` | `number` |
+| `JSON` | \{ `input`: `any` ; `output`: `any`  } |
+| `JSON.input` | `any` |
+| `JSON.output` | `any` |
+| `Latitude` | \{ `input`: `any` ; `output`: `any`  } |
+| `Latitude.input` | `any` |
+| `Latitude.output` | `any` |
+| `Longitude` | \{ `input`: `any` ; `output`: `any`  } |
+| `Longitude.input` | `any` |
+| `Longitude.output` | `any` |
+| `PhoneNumber` | \{ `input`: `any` ; `output`: `any`  } |
+| `PhoneNumber.input` | `any` |
+| `PhoneNumber.output` | `any` |
+| `PositiveInt` | \{ `input`: `any` ; `output`: `any`  } |
+| `PositiveInt.input` | `any` |
+| `PositiveInt.output` | `any` |
+| `String` | \{ `input`: `string` ; `output`: `string`  } |
+| `String.input` | `string` |
+| `String.output` | `string` |
+| `Time` | \{ `input`: `any` ; `output`: `any`  } |
+| `Time.input` | `any` |
+| `Time.output` | `any` |
+| `URL` | \{ `input`: `any` ; `output`: `any`  } |
+| `URL.input` | `any` |
+| `URL.output` | `any` |
+| `Upload` | \{ `input`: `any` ; `output`: `any`  } |
+| `Upload.input` | `any` |
+| `Upload.output` | `any` |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:29
+[src/types/generatedGraphQLTypes.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L33)
 
 ___
 
@@ -5074,7 +6030,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1314
+[src/types/generatedGraphQLTypes.ts:1527](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1527)
 
 ___
 
@@ -5090,10 +6046,11 @@ ___
 | `directMessageChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MessageChat`](types_generatedGraphQLTypes.md#messagechat)\> |
 | `messageSentToDirectChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`DirectChatMessage`](types_generatedGraphQLTypes.md#directchatmessage)\> |
 | `messageSentToGroupChat?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`GroupChatMessage`](types_generatedGraphQLTypes.md#groupchatmessage)\> |
+| `onPluginUpdate?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Plugin`](types_generatedGraphQLTypes.md#plugin)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1319
+[src/types/generatedGraphQLTypes.ts:1532](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1532)
 
 ___
 
@@ -5113,7 +6070,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1639
+[src/types/generatedGraphQLTypes.ts:1874](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1874)
 
 ___
 
@@ -5149,7 +6106,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1622
+[src/types/generatedGraphQLTypes.ts:1857](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1857)
 
 ___
 
@@ -5163,13 +6120,13 @@ ___
 | :------ | :------ |
 | `TResult` | `TResult` |
 | `TKey` | extends `string` |
-| `TParent` | \{} |
-| `TContext` | \{} |
-| `TArgs` | \{} |
+| `TParent` | {} |
+| `TContext` | {} |
+| `TArgs` | {} |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1643
+[src/types/generatedGraphQLTypes.ts:1878](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1878)
 
 ___
 
@@ -5191,10 +6148,11 @@ ___
 | `directMessageChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MessageChat"``]\>, ``"directMessageChat"``, `ParentType`, `ContextType`\> |
 | `messageSentToDirectChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DirectChatMessage"``]\>, ``"messageSentToDirectChat"``, `ParentType`, `ContextType`\> |
 | `messageSentToGroupChat?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"GroupChatMessage"``]\>, ``"messageSentToGroupChat"``, `ParentType`, `ContextType`\> |
+| `onPluginUpdate?` | [`SubscriptionResolver`](types_generatedGraphQLTypes.md#subscriptionresolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Plugin"``]\>, ``"onPluginUpdate"``, `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2314
+[src/types/generatedGraphQLTypes.ts:2726](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2726)
 
 ___
 
@@ -5230,88 +6188,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1615
-
-___
-
-### Task
-
-Ƭ **Task**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"Task"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``] |
-| `creator` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `deadline?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `event` | [`Event`](types_generatedGraphQLTypes.md#event) |
-| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1326
-
-___
-
-### TaskInput
-
-Ƭ **TaskInput**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `deadline?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1337
-
-___
-
-### TaskOrderByInput
-
-Ƭ **TaskOrderByInput**: ``"createdAt_ASC"`` \| ``"createdAt_DESC"`` \| ``"deadline_ASC"`` \| ``"deadline_DESC"`` \| ``"description_ASC"`` \| ``"description_DESC"`` \| ``"id_ASC"`` \| ``"id_DESC"`` \| ``"title_ASC"`` \| ``"title_DESC"``
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1343
-
-___
-
-### TaskResolvers
-
-Ƭ **TaskResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Task"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"Task"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
-| `creator?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `deadline?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `description?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
-| `event?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``], `ParentType`, `ContextType`\> |
-| `title?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:2320
+[src/types/generatedGraphQLTypes.ts:1850](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1850)
 
 ___
 
@@ -5323,12 +6200,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `tagId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `tagId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1355
+[src/types/generatedGraphQLTypes.ts:1540](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1540)
 
 ___
 
@@ -5341,14 +6218,14 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"Translation"`` |
-| `en_value?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lang_code?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `verified?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `en_value?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `lang_code?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `translation?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
+| `verified?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1360
+[src/types/generatedGraphQLTypes.ts:1545](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1545)
 
 ___
 
@@ -5375,7 +6252,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2335
+[src/types/generatedGraphQLTypes.ts:2737](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2737)
 
 ___
 
@@ -5385,7 +6262,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1368
+[src/types/generatedGraphQLTypes.ts:1553](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1553)
 
 ___
 
@@ -5398,8 +6275,8 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `TTypes` | `TTypes` |
-| `TParent` | \{} |
-| `TContext` | \{} |
+| `TParent` | {} |
+| `TContext` | {} |
 
 #### Type declaration
 
@@ -5419,7 +6296,75 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1647
+[src/types/generatedGraphQLTypes.ts:1882](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1882)
+
+___
+
+### UnauthenticatedError
+
+Ƭ **UnauthenticatedError**: [`Error`](types_generatedGraphQLTypes.md#error) & \{ `__typename?`: ``"UnauthenticatedError"`` ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]  }
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1557](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1557)
+
+___
+
+### UnauthenticatedErrorResolvers
+
+Ƭ **UnauthenticatedErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UnauthenticatedError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UnauthenticatedError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2749](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2749)
+
+___
+
+### UnauthorizedError
+
+Ƭ **UnauthorizedError**: [`Error`](types_generatedGraphQLTypes.md#error) & \{ `__typename?`: ``"UnauthorizedError"`` ; `message`: [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]  }
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1562](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1562)
+
+___
+
+### UnauthorizedErrorResolvers
+
+Ƭ **UnauthorizedErrorResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UnauthorizedError"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UnauthorizedError"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `message?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2754](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2754)
 
 ___
 
@@ -5431,24 +6376,24 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `allDay?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `isRegisterable?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``]\> |
+| `allDay?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `endDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `endTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"input"``]\> |
+| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `isRegisterable?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `latitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Latitude"``][``"input"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `longitude?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Longitude"``][``"input"``]\> |
 | `recurrance?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Recurrance`](types_generatedGraphQLTypes.md#recurrance)\> |
-| `recurring?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``]\> |
-| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `recurring?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `startDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `startTime?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Time"``][``"input"``]\> |
+| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1372
+[src/types/generatedGraphQLTypes.ts:1567](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1567)
 
 ___
 
@@ -5460,33 +6405,15 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `isPublic?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
-| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `location?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `name?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `userRegistrationRequired?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
+| `visibleInSearch?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1389
-
-___
-
-### UpdateTaskInput
-
-Ƭ **UpdateTaskInput**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `deadline?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `description?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `title?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1397
+[src/types/generatedGraphQLTypes.ts:1584](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1584)
 
 ___
 
@@ -5498,13 +6425,20 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `address?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`AddressInput`](types_generatedGraphQLTypes.md#addressinput)\> |
+| `birthDate?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"input"``]\> |
+| `educationGrade?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EducationGrade`](types_generatedGraphQLTypes.md#educationgrade)\> |
+| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``]\> |
+| `employmentStatus?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`EmploymentStatus`](types_generatedGraphQLTypes.md#employmentstatus)\> |
+| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `gender?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Gender`](types_generatedGraphQLTypes.md#gender)\> |
+| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `maritalStatus?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`MaritalStatus`](types_generatedGraphQLTypes.md#maritalstatus)\> |
+| `phone?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`UserPhoneInput`](types_generatedGraphQLTypes.md#userphoneinput)\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1403
+[src/types/generatedGraphQLTypes.ts:1592](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1592)
 
 ___
 
@@ -5516,13 +6450,13 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `confirmNewPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `newPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `previousPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `confirmNewPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `newPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `previousPassword` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1409
+[src/types/generatedGraphQLTypes.ts:1605](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1605)
 
 ___
 
@@ -5534,12 +6468,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1415
+[src/types/generatedGraphQLTypes.ts:1611](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1611)
 
 ___
 
@@ -5551,12 +6485,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `userType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `userType?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1420
+[src/types/generatedGraphQLTypes.ts:1616](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1616)
 
 ___
 
@@ -5569,31 +6503,39 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"User"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `adminApproved?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `address?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Address`](types_generatedGraphQLTypes.md#address)\> |
+| `adminApproved?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``]\> |
 | `adminFor?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
-| `appLanguageCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
+| `appLanguageCode` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `birthDate?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Date"``][``"output"``]\> |
+| `createdAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
 | `createdEvents?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `createdOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
-| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
+| `educationGrade?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EducationGrade`](types_generatedGraphQLTypes.md#educationgrade)\> |
+| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"output"``] |
+| `employmentStatus?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`EmploymentStatus`](types_generatedGraphQLTypes.md#employmentstatus)\> |
 | `eventAdmin?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
-| `firstName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `firstName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `gender?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Gender`](types_generatedGraphQLTypes.md#gender)\> |
+| `image?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``]\> |
 | `joinedOrganizations?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
-| `lastName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `lastName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
+| `maritalStatus?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MaritalStatus`](types_generatedGraphQLTypes.md#maritalstatus)\> |
 | `membershipRequests?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`MembershipRequest`](types_generatedGraphQLTypes.md#membershiprequest)\>[]\> |
 | `organizationUserBelongsTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
 | `organizationsBlockedBy?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\>[]\> |
-| `pluginCreationAllowed?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``]\> |
+| `phone?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserPhone`](types_generatedGraphQLTypes.md#userphone)\> |
+| `pluginCreationAllowed` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Boolean"``][``"output"``] |
 | `registeredEvents?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Event`](types_generatedGraphQLTypes.md#event)\>[]\> |
 | `tagsAssignedWith?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
-| `tokenVersion` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``] |
-| `userType?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `tokenVersion` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"Int"``][``"output"``] |
+| `updatedAt` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``][``"output"``] |
+| `userType` | [`UserType`](types_generatedGraphQLTypes.md#usertype) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1425
+[src/types/generatedGraphQLTypes.ts:1621](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1621)
 
 ___
 
@@ -5605,61 +6547,12 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1459
-
-___
-
-### UserAttende
-
-Ƭ **UserAttende**: `Object`
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__typename?` | ``"UserAttende"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `createdAt?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"DateTime"``]\> |
-| `status` | [`Status`](types_generatedGraphQLTypes.md#status) |
-| `user` | [`User`](types_generatedGraphQLTypes.md#user) |
-| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:1464
-
-___
-
-### UserAttendeResolvers
-
-Ƭ **UserAttendeResolvers**\<`ContextType`, `ParentType`\>: `Object`
-
-#### Type parameters
-
-| Name | Type |
-| :------ | :------ |
-| `ContextType` | `any` |
-| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserAttende"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserAttende"``] |
-
-#### Type declaration
-
-| Name | Type |
-| :------ | :------ |
-| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
-| `status?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Status"``], `ParentType`, `ContextType`\> |
-| `user?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"User"``], `ParentType`, `ContextType`\> |
-| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-
-#### Defined in
-
-src/types/generatedGraphQLTypes.ts:2376
+[src/types/generatedGraphQLTypes.ts:1663](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1663)
 
 ___
 
@@ -5678,7 +6571,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1473
+[src/types/generatedGraphQLTypes.ts:1668](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1668)
 
 ___
 
@@ -5704,7 +6597,54 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2385
+[src/types/generatedGraphQLTypes.ts:2796](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2796)
+
+___
+
+### UserCustomData
+
+Ƭ **UserCustomData**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"UserCustomData"`` |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `organizationId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `userId` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `values` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"JSON"``][``"output"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1675](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1675)
+
+___
+
+### UserCustomDataResolvers
+
+Ƭ **UserCustomDataResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserCustomData"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserCustomData"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `organizationId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `userId?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `values?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"JSON"``], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2803](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2803)
 
 ___
 
@@ -5717,12 +6657,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UserEdge"`` |
-| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `node` | [`User`](types_generatedGraphQLTypes.md#user) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1480
+[src/types/generatedGraphQLTypes.ts:1683](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1683)
 
 ___
 
@@ -5747,7 +6687,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2392
+[src/types/generatedGraphQLTypes.ts:2811](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2811)
 
 ___
 
@@ -5759,16 +6699,16 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``] |
-| `firstName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `lastName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
-| `organizationUserBelongsToId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `password` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `email` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``] |
+| `firstName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `lastName` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
+| `organizationUserBelongsToId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `password` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``] |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1486
+[src/types/generatedGraphQLTypes.ts:1689](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1689)
 
 ___
 
@@ -5778,7 +6718,70 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1495
+[src/types/generatedGraphQLTypes.ts:1698](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1698)
+
+___
+
+### UserPhone
+
+Ƭ **UserPhone**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"UserPhone"`` |
+| `home?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"output"``]\> |
+| `mobile?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"output"``]\> |
+| `work?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"output"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1710](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1710)
+
+___
+
+### UserPhoneInput
+
+Ƭ **UserPhoneInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `home?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"input"``]\> |
+| `mobile?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"input"``]\> |
+| `work?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PhoneNumber"``][``"input"``]\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1717](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1717)
+
+___
+
+### UserPhoneResolvers
+
+Ƭ **UserPhoneResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserPhone"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserPhone"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `home?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PhoneNumber"``]\>, `ParentType`, `ContextType`\> |
+| `mobile?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PhoneNumber"``]\>, `ParentType`, `ContextType`\> |
+| `work?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"PhoneNumber"``]\>, `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2817](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2817)
 
 ___
 
@@ -5799,30 +6802,38 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
+| `address?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Address"``]\>, `ParentType`, `ContextType`\> |
 | `adminApproved?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
 | `adminFor?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `appLanguageCode?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
-| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``]\>, `ParentType`, `ContextType`\> |
+| `birthDate?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Date"``]\>, `ParentType`, `ContextType`\> |
+| `createdAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
 | `createdEvents?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `createdOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `educationGrade?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EducationGrade"``]\>, `ParentType`, `ContextType`\> |
 | `email?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EmailAddress"``], `ParentType`, `ContextType`\> |
+| `employmentStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"EmploymentStatus"``]\>, `ParentType`, `ContextType`\> |
 | `eventAdmin?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `firstName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `gender?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Gender"``]\>, `ParentType`, `ContextType`\> |
 | `image?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
 | `joinedOrganizations?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `lastName?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
+| `maritalStatus?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MaritalStatus"``]\>, `ParentType`, `ContextType`\> |
 | `membershipRequests?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"MembershipRequest"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `organizationUserBelongsTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
 | `organizationsBlockedBy?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>[]\>, `ParentType`, `ContextType`\> |
-| `pluginCreationAllowed?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``]\>, `ParentType`, `ContextType`\> |
+| `phone?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserPhone"``]\>, `ParentType`, `ContextType`\> |
+| `pluginCreationAllowed?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Boolean"``], `ParentType`, `ContextType`\> |
 | `registeredEvents?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Event"``]\>[]\>, `ParentType`, `ContextType`\> |
 | `tagsAssignedWith?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagsAssignedWithArgs`](types_generatedGraphQLTypes.md#usertagsassignedwithargs)\>\> |
 | `tokenVersion?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Int"``], `ParentType`, `ContextType`\> |
-| `userType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``]\>, `ParentType`, `ContextType`\> |
+| `updatedAt?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"DateTime"``], `ParentType`, `ContextType`\> |
+| `userType?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserType"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2351
+[src/types/generatedGraphQLTypes.ts:2763](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2763)
 
 ___
 
@@ -5835,16 +6846,16 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UserTag"`` |
-| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``] |
-| `childTags?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
-| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `_id` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"output"``] |
+| `childTags` | [`UserTagsConnectionResult`](types_generatedGraphQLTypes.md#usertagsconnectionresult) |
+| `name` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `organization?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Organization`](types_generatedGraphQLTypes.md#organization)\> |
 | `parentTag?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTag`](types_generatedGraphQLTypes.md#usertag)\> |
-| `usersAssignedTo?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection)\> |
+| `usersAssignedTo` | [`UsersConnectionResult`](types_generatedGraphQLTypes.md#usersconnectionresult) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1507
+[src/types/generatedGraphQLTypes.ts:1723](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1723)
 
 ___
 
@@ -5856,14 +6867,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `input` | [`UserTagsConnectionInput`](types_generatedGraphQLTypes.md#usertagsconnectioninput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1518
+[src/types/generatedGraphQLTypes.ts:1734](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1734)
 
 ___
 
@@ -5876,12 +6884,12 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UserTagEdge"`` |
-| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``] |
+| `cursor` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"output"``] |
 | `node` | [`UserTag`](types_generatedGraphQLTypes.md#usertag) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1533
+[src/types/generatedGraphQLTypes.ts:1743](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1743)
 
 ___
 
@@ -5906,7 +6914,7 @@ ___
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2408
+[src/types/generatedGraphQLTypes.ts:2834](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2834)
 
 ___
 
@@ -5927,15 +6935,15 @@ ___
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
 | `_id?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ID"``], `ParentType`, `ContextType`\> |
-| `childTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagChildTagsArgs`](types_generatedGraphQLTypes.md#usertagchildtagsargs)\>\> |
+| `childTags?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnectionResult"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`UserTagChildTagsArgs`](types_generatedGraphQLTypes.md#usertagchildtagsargs), ``"input"``\>\> |
 | `name?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"String"``], `ParentType`, `ContextType`\> |
 | `organization?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"Organization"``]\>, `ParentType`, `ContextType`\> |
 | `parentTag?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTag"``]\>, `ParentType`, `ContextType`\> |
-| `usersAssignedTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\>, `ParentType`, `ContextType`, `Partial`\<[`UserTagUsersAssignedToArgs`](types_generatedGraphQLTypes.md#usertagusersassignedtoargs)\>\> |
+| `usersAssignedTo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnectionResult"``], `ParentType`, `ContextType`, [`RequireFields`](types_generatedGraphQLTypes.md#requirefields)\<[`UserTagUsersAssignedToArgs`](types_generatedGraphQLTypes.md#usertagusersassignedtoargs), ``"input"``\>\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2398
+[src/types/generatedGraphQLTypes.ts:2824](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2824)
 
 ___
 
@@ -5947,14 +6955,11 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
+| `input` | [`UsersConnectionInput`](types_generatedGraphQLTypes.md#usersconnectioninput) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1526
+[src/types/generatedGraphQLTypes.ts:1739](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1739)
 
 ___
 
@@ -5966,15 +6971,15 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``]\> |
-| `organizationId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
+| `after?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `before?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `first?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
+| `last?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``]\> |
+| `organizationId?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1451
+[src/types/generatedGraphQLTypes.ts:1655](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1655)
 
 ___
 
@@ -5987,12 +6992,30 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UserTagsConnection"`` |
-| `edges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge)\>[]\> |
+| `edges` | [`UserTagEdge`](types_generatedGraphQLTypes.md#usertagedge)[] |
 | `pageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1539
+[src/types/generatedGraphQLTypes.ts:1749](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1749)
+
+___
+
+### UserTagsConnectionInput
+
+Ƭ **UserTagsConnectionInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `cursor?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `direction` | [`PaginationDirection`](types_generatedGraphQLTypes.md#paginationdirection) |
+| `limit` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1755](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1755)
 
 ___
 
@@ -6012,22 +7035,65 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagEdge"``][], `ParentType`, `ContextType`\> |
 | `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2414
+[src/types/generatedGraphQLTypes.ts:2840](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2840)
+
+___
+
+### UserTagsConnectionResult
+
+Ƭ **UserTagsConnectionResult**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"UserTagsConnectionResult"`` |
+| `data?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserTagsConnection`](types_generatedGraphQLTypes.md#usertagsconnection)\> |
+| `errors` | [`ConnectionError`](types_generatedGraphQLTypes.md#connectionerror)[] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1761](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1761)
+
+___
+
+### UserTagsConnectionResultResolvers
+
+Ƭ **UserTagsConnectionResultResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionResult"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UserTagsConnectionResult"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `data?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserTagsConnection"``]\>, `ParentType`, `ContextType`\> |
+| `errors?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2846](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2846)
 
 ___
 
 ### UserType
 
-Ƭ **UserType**: ``"ADMIN"`` \| ``"SUPERADMIN"`` \| ``"USER"``
+Ƭ **UserType**: ``"ADMIN"`` \| ``"NON_USER"`` \| ``"SUPERADMIN"`` \| ``"USER"``
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1545
+[src/types/generatedGraphQLTypes.ts:1767](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1767)
 
 ___
 
@@ -6039,42 +7105,42 @@ ___
 
 | Name | Type |
 | :------ | :------ |
-| `admin_for?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appLanguageCode_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appLanguageCode_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `appLanguageCode_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `appLanguageCode_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `appLanguageCode_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `email_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `email_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][]\> |
-| `email_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `email_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][]\> |
-| `email_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``]\> |
-| `event_title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `firstName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `firstName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `firstName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][]\> |
-| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``]\> |
-| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `lastName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
-| `lastName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][]\> |
-| `lastName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``]\> |
+| `admin_for?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `appLanguageCode?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `appLanguageCode_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `appLanguageCode_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `appLanguageCode_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `appLanguageCode_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `appLanguageCode_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `email?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``]\> |
+| `email_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``]\> |
+| `email_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``][]\> |
+| `email_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``]\> |
+| `email_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``][]\> |
+| `email_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"EmailAddress"``][``"input"``]\> |
+| `event_title_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `firstName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `firstName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `firstName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `firstName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `firstName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `firstName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `id?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `id_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``][]\> |
+| `id_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"ID"``][``"input"``]\> |
+| `lastName?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `lastName_contains?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `lastName_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `lastName_not?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `lastName_not_in?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``][]\> |
+| `lastName_starts_with?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1550
+[src/types/generatedGraphQLTypes.ts:1773](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1773)
 
 ___
 
@@ -6087,12 +7153,30 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__typename?` | ``"UsersConnection"`` |
-| `edges?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UserEdge`](types_generatedGraphQLTypes.md#useredge)\>[]\> |
+| `edges` | [`UserEdge`](types_generatedGraphQLTypes.md#useredge)[] |
 | `pageInfo` | [`ConnectionPageInfo`](types_generatedGraphQLTypes.md#connectionpageinfo) |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:1585
+[src/types/generatedGraphQLTypes.ts:1808](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1808)
+
+___
+
+### UsersConnectionInput
+
+Ƭ **UsersConnectionInput**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `cursor?` | [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<[`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"String"``][``"input"``]\> |
+| `direction` | [`PaginationDirection`](types_generatedGraphQLTypes.md#paginationdirection) |
+| `limit` | [`Scalars`](types_generatedGraphQLTypes.md#scalars)[``"PositiveInt"``][``"input"``] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1814](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1814)
 
 ___
 
@@ -6112,9 +7196,52 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
-| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``]\>[]\>, `ParentType`, `ContextType`\> |
+| `edges?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UserEdge"``][], `ParentType`, `ContextType`\> |
 | `pageInfo?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionPageInfo"``], `ParentType`, `ContextType`\> |
 
 #### Defined in
 
-src/types/generatedGraphQLTypes.ts:2420
+[src/types/generatedGraphQLTypes.ts:2852](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2852)
+
+___
+
+### UsersConnectionResult
+
+Ƭ **UsersConnectionResult**: `Object`
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__typename?` | ``"UsersConnectionResult"`` |
+| `data?` | [`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`UsersConnection`](types_generatedGraphQLTypes.md#usersconnection)\> |
+| `errors` | [`ConnectionError`](types_generatedGraphQLTypes.md#connectionerror)[] |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:1820](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L1820)
+
+___
+
+### UsersConnectionResultResolvers
+
+Ƭ **UsersConnectionResultResolvers**\<`ContextType`, `ParentType`\>: `Object`
+
+#### Type parameters
+
+| Name | Type |
+| :------ | :------ |
+| `ContextType` | `any` |
+| `ParentType` | extends [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionResult"``] = [`ResolversParentTypes`](types_generatedGraphQLTypes.md#resolversparenttypes)[``"UsersConnectionResult"``] |
+
+#### Type declaration
+
+| Name | Type |
+| :------ | :------ |
+| `__isTypeOf?` | [`IsTypeOfResolverFn`](types_generatedGraphQLTypes.md#istypeofresolverfn)\<`ParentType`, `ContextType`\> |
+| `data?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`Maybe`](types_generatedGraphQLTypes.md#maybe)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"UsersConnection"``]\>, `ParentType`, `ContextType`\> |
+| `errors?` | [`Resolver`](types_generatedGraphQLTypes.md#resolver)\<[`ResolversTypes`](types_generatedGraphQLTypes.md#resolverstypes)[``"ConnectionError"``][], `ParentType`, `ContextType`\> |
+
+#### Defined in
+
+[src/types/generatedGraphQLTypes.ts:2858](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/types/generatedGraphQLTypes.ts#L2858)

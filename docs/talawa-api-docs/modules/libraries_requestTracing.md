@@ -20,11 +20,11 @@
 
 ### requestTracingNamespace
 
-• `Const` **requestTracingNamespace**: `Namespace`
+• `Const` **requestTracingNamespace**: `Namespace`\<`Record`\<`string`, `any`\>\>
 
 #### Defined in
 
-src/libraries/requestTracing.ts:17
+[src/libraries/requestTracing.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestTracing.ts#L17)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestTracing.ts:21
+[src/libraries/requestTracing.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestTracing.ts#L21)
 
 ## Functions
 
@@ -48,7 +48,7 @@ src/libraries/requestTracing.ts:21
 
 #### Defined in
 
-src/libraries/requestTracing.ts:29
+[src/libraries/requestTracing.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestTracing.ts#L29)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestTracing.ts:33
+[src/libraries/requestTracing.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestTracing.ts#L33)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-src/libraries/requestTracing.ts:25
+[src/libraries/requestTracing.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestTracing.ts#L25)
 
 ___
 
@@ -123,4 +123,4 @@ ___
 
 #### Defined in
 
-src/libraries/requestTracing.ts:50
+[src/libraries/requestTracing.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/libraries/requestTracing.ts#L50)

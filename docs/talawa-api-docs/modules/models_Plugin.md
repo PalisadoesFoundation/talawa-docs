@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_Plugin](../interfaces/models_Plugin.Interface_Plugin.md)
+- [InterfacePlugin](../interfaces/models_Plugin.InterfacePlugin.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### Plugin
 
-• `Const` **Plugin**: `Model`\<[`Interface_Plugin`](../interfaces/models_Plugin.Interface_Plugin.md), \{}, \{}\>
+• `Const` **Plugin**: `Model`\<[`InterfacePlugin`](../interfaces/models_Plugin.InterfacePlugin.md), {}, {}\>
 
 #### Defined in
 
-src/models/Plugin.ts:52
+[src/models/Plugin.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/Plugin.ts#L47)

@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_MailFields](../interfaces/utilities_mailer.Interface_MailFields.md)
+- [InterfaceMailFields](../interfaces/utilities_mailer.InterfaceMailFields.md)
 
 ### Functions
 
@@ -16,26 +16,26 @@
 
 ### mailer
 
-▸ **mailer**(`mailFields`): `Promise`\<`unknown`\>
+▸ **mailer**(`mailFields`): `Promise`\<`any`\>
 
 This function sends emails to the specified user using the node mailer module.
-
-**`Remarks`**
-
-This is a utility method.
 
 #### Parameters
 
 | Name | Type |
 | :------ | :------ |
-| `mailFields` | [`Interface_MailFields`](../interfaces/utilities_mailer.Interface_MailFields.md) |
+| `mailFields` | [`InterfaceMailFields`](../interfaces/utilities_mailer.InterfaceMailFields.md) |
 
 #### Returns
 
-`Promise`\<`unknown`\>
+`Promise`\<`any`\>
 
 Promise along with resolve and reject methods.
 
+**`Remarks`**
+
+This is a utility method.
+
 #### Defined in
 
-src/utilities/mailer.ts:23
+[src/utilities/mailer.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/utilities/mailer.ts#L23)

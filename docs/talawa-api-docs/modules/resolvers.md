@@ -6,14 +6,14 @@
 
 ### Variables
 
-- [resolvers](resolvers.md#resolvers)
+- [composedResolvers](resolvers.md#composedresolvers)
 
 ## Variables
 
-### resolvers
+### composedResolvers
 
-• `Const` **resolvers**: [`Resolvers`](types_generatedGraphQLTypes.md#resolvers)
+• `Const` **composedResolvers**: [`Resolvers`](types_generatedGraphQLTypes.md#resolvers)
 
 #### Defined in
 
-src/resolvers/index.ts:25
+[src/resolvers/index.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/index.ts#L88)

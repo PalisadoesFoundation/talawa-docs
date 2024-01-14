@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-src/resolvers/Mutation/unblockUser.ts:21
+[src/resolvers/Mutation/unblockUser.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/resolvers/Mutation/unblockUser.ts#L25)

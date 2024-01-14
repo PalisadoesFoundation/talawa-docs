@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_Post](../interfaces/models_Post.Interface_Post.md)
+- [InterfacePost](../interfaces/models_Post.InterfacePost.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### Post
 
-• `Const` **Post**: `PaginateModel`\<[`Interface_Post`](../interfaces/models_Post.Interface_Post.md), \{}, \{}\>
+• `Const` **Post**: `PaginateModel`\<[`InterfacePost`](../interfaces/models_Post.InterfacePost.md), {}, {}\>
 
 #### Defined in
 
-src/models/Post.ts:117
+[src/models/Post.ts:106](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/Post.ts#L106)

@@ -18,7 +18,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `user` | [`Interface_User`](../interfaces/models_User.Interface_User.md) |
+| `user` | [`InterfaceUser`](../interfaces/models_User.InterfaceUser.md) |
 
 #### Returns
 
@@ -26,4 +26,4 @@
 
 #### Defined in
 
-src/utilities/superAdminCheck.ts:5
+[src/utilities/superAdminCheck.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/utilities/superAdminCheck.ts#L5)

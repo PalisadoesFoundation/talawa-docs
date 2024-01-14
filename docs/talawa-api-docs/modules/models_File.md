@@ -6,7 +6,7 @@
 
 ### Interfaces
 
-- [Interface\_File](../interfaces/models_File.Interface_File.md)
+- [InterfaceFile](../interfaces/models_File.InterfaceFile.md)
 
 ### Variables
 
@@ -16,8 +16,8 @@
 
 ### File
 
-• `Const` **File**: `Model`\<[`Interface_File`](../interfaces/models_File.Interface_File.md), \{}, \{}\>
+• `Const` **File**: `Model`\<[`InterfaceFile`](../interfaces/models_File.InterfaceFile.md), {}, {}\>
 
 #### Defined in
 
-src/models/File.ts:61
+[src/models/File.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/55cb3be/src/models/File.ts#L65)
