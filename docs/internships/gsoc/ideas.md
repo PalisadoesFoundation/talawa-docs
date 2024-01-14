@@ -158,7 +158,7 @@ Please read the `Research` section of this document for background information
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Core development, Risky/Exploratory
 
-### Self Hosted Chat and Notifications
+### Self Hosted Chat
 
 1. **Description:** The Talawa apps are closely coupled with cloud services which creates operational concerns. 
     1. This greatly complicates setup as each new service requires new externally controlled configuration parameters. 
@@ -176,8 +176,6 @@ Please read the `Research` section of this document for background information
       6. Allow administrators to respond in various ways to complaints about chats.
       7. Have the ability for older chats to be purged from the system
       8. Assume that most communities using the chat system will be small. Research typical community sizes, seating and event attendance for various community based organizations in designing your solution. Consider easy to implement scalability if required.
-   2. _Notifications_
-      1. Identify an acceptable way to have notifications handled on the local server
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
