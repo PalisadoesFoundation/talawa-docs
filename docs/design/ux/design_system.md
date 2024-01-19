@@ -28,7 +28,7 @@ We follow a single Figma file for the designing of the Talawa admin and user por
 
 ### Talawa Admin - Figma Designs
 You can find our most current Figma designs here
-1. [Link to Figma for Talawa Designs](https://www.figma.com/file/ZzTjvWEO80oJBxeEYZzzFC/Talawa-Design-System-(Official)-(Timestamp-20240118-18%3A40)?type=design&node-id=307%3A212&mode=design&t=HMPqkWSmjndJIEad-1)
+1. [Link to Figma for Talawa Designs](https://www.figma.com/file/WksD4uIa5sQJMIk3pR4l0c/Talawa-Design-System-(Official)?type=design&node-id=307%3A212&mode=dev)
 
 ## Other
 Feel free to contribute your suggestions!
