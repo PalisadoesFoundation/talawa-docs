@@ -265,44 +265,6 @@ Please read the `Research` section of this document for background information
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Core development, Risky/Exploratory
 
-### User Task Management
-
-1. **Description:** The oversight of an organization's volunteer activities is an important part of an administrator's role. These lightweight project management features will facilitate improved coordination within membership.
-2. **Expected Outcomes:** 
-   1. _Action Items_ : We need a way to manage the assignment of tasks to Users. These may or may not be related to events. API support for this feature has already been implemented via this [Talawa API issue](https://github.com/PalisadoesFoundation/talawa-api/issues/1595)
-
-        The challenge will be in creating an intuitive UI/UX to make this feature desirable. This would include screens for:
-       1. Sortable, editable tabular lists of action items assigned `to me` and `by me` showing the most important summary fields in the database schema.
-       2. CRUD activities for action items
-      
-      The management of Action Items related to events must be intuitive too, possibly with the creative use of filters.
-   2. _Event Agendas_ : Community based organizations will often need to have agendas for their events. Reasons for this requirement would include:
-       1. The order of ceremony for a wedding
-       2. Agendas for committee meetings
-
-       We need the ability to make events have agendas. This would include screens for: API support for this feature has already been implemented via this [Talawa API issue](https://github.com/PalisadoesFoundation/talawa-api/issues/1588). Desirable features include:
-
-       1. CRUD activities for event agendas 
-       4. When the first section is created, all existing agenda items must be tied to it while maintaining the agenda item order.
-       5. Changing the sequencing of an agenda section must not alter the sequencing of the agenda items within each section.
-       6. Changing the sequencing of agenda items must not alter:
-           1. The sequencing of sections
-           2. The sequencing of any other sections should other sections exist
-     
-       The challenge will be in creating an intuitive UI/UX to make this feature desirable with drag and drop capabilities where applicable. 
-   
-   4. _Other_ : 
-      1. You will need to write valid tests for this work
-      2. You may want to add features to one or more repositories to facilitate your idea.
-
-3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-4. **Skills Required:** Code stacks related to repos above. See introduction section.
-5. **Depends on Project:** N/A
-6. **Project Size:** 350 hours (Large)
-7. **Possible Mentors:** TBD
-8.  **Difficulty:** Medium
-9.  **Impact Definition:** Core development, Risky/Exploratory
-
 ### Self Hosted Chat and Notifications
 
 1. **Description:** The Talawa apps are closely coupled with cloud services which creates operational concerns. 
