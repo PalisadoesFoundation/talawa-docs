@@ -202,6 +202,24 @@ Please read the `Research` section of this document for background information
 9. **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
+### AI-Enhanced Collaboration with Predictive Task Management, Automated Moderation and Summarization, and Sentiment Analysis Features.
+
+1. **Description:** Implement various AI-Enhanced features that create more nuanced community interaction. Selected partipants will on work solutions that are relatively easy to implement and  then integrate these key features in the Talawa Mobile App, for potential use by organizations that have limited resources.
+
+2. **Expected Outcomes:** Consider ways to:
+   1. Integrate sentiment analysis to gauge the emotional tone of discussions, helping to identify and address potential issues within the community.
+   2. Use AI-powered summarization techniques to generate concise summaries of lengthy discussions or documents, making it easier for users to grasp key points.
+   3. Implement predictive analytics to help users and groups estimate the time needed to complete tasks and identify potential bottlenecks in project timelines.
+   4. Use natural language processing (NLP) algorithms to automate content moderation, identifying and flagging inappropriate or spammy content.
+3. **Reference:** An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.
+4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
+5. **Skills Required:** Code stacks related to repos above. See introduction section.
+6. **Depends on Project:** N/A
+7. **Project Size:** 350
+8. **Possible Mentors:** TBD
+9. **Difficulty:** Medium
+10. **Impact Definition:** Risky/Exploratory
+
 ### Hybrid Innovation - Talawa
 
 1. **Description:** We know that there are many opportunities to improve our mobile application to make it more usable. If you have answers to the questions below then this section is for you.
