@@ -151,8 +151,7 @@ Please read the `Research` section of this document for background information
 1. **Description:** The Talawa apps are closely coupled with cloud services which creates operational concerns. 
     1. This greatly complicates setup as each new service requires new externally controlled configuration parameters. 
     2. It also adds greater troubleshooting and billing complexity for organizations that will not be tech-savvy. 
-    3. Small organizations may also find it difficult to comply with new data residency laws when using international services. 
-    
+    3. Small organizations may also find it difficult to comply with new data residency laws when using international services.     
     For this idea there must be no dependency on any third party cloud service providers, all the code must run on the API server. 
 2. **Expected Outcomes:** 
    1. _Chat_ : A key component of the Talawa application suite is chat. Though some endpoints have been created, the feature has not been fully activated and deployed. Chat must be:
@@ -179,7 +178,6 @@ Please read the `Research` section of this document for background information
 ### AI: Automated Moderation, Summarization and Sentiment Analysis
 
 1. **Description:** Implement various AI-Enhanced features that create more nuanced community interaction. Selected participants will on work solutions that are relatively easy to implement and  then integrate these key features in the Talawa Mobile App, for potential use by organizations that have limited resources.
-
 2. **Expected Outcomes:** Consider ways to:
    1. Integrate sentiment analysis to gauge the emotional tone of discussions, helping to identify and address potential issues within the community.
    2. Use AI-powered summarization techniques to generate concise summaries of lengthy discussions or documents, making it easier for users to grasp key points. 
@@ -197,7 +195,6 @@ Please read the `Research` section of this document for background information
 ### AI: Predictive Task Management and User Engagement with Collaborative Filtering
 
 1. **Description:** Create features which anticipate user interactions, receive collaborative recommendations, and streamline task management with data-driven insights. These practical enhancements will optimize engagement and productivity for all users of the Talawa mobile app.
-
 2. **Expected Outcomes:** Consider ways to:
    1. Utilize machine learning models to predict user engagement patterns, helping community organizers understand when to schedule events or post important updates for maximum impact.
    2. Implement collaborative filtering algorithms to suggest groups, subgroups, or content based on what similar users with shared interests are engaging with.
@@ -282,7 +279,6 @@ Please read the `Research` section of this document for background information
       3. You may want to add features to one or more repositories to facilitate your idea.
       4. The challenge will be in creating an intuitive UI/UX to make these features desirable. The UI/UX must conform with our design guide and Figma files found here: https://docs.talawa.io/docs/design/ux/ux-design-system
       5. Support for this feature was added to Talawa API in the past year. We welcome GitHub issues to verify and rectify the expected functionality of this API support during the GSoC evaluation period.
-
 3. **Repos to update:** Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
@@ -296,12 +292,9 @@ Please read the `Research` section of this document for background information
 ### User Tag Management - Talawa Admin
 
 1. **Description**: We need a comprehensive user tag management system for Talawa Admin to address current limitations and enhance community organisation. This system will introduce both automatic and manual tag allotment, hierarchical tag structures, and CRUD operations.
-   
-   The current lack of a robust tag management system hinders effective organisation and communication within the Talawa community. The proposed system aims to streamline user categorization, facilitating targeted communication and enhancing community engagement.
-
-   This should not be confused with hashtags or tagging someone in a chat. This is for applying a label/category to User and Event objects
-
-   Support for this feature was added to Talawa API in the past year. We welcome GitHub issues to verify and rectify the expected functionality of this API support during the GSoC evaluation period.
+   1. The current lack of a robust tag management system hinders effective organisation and communication within the Talawa community. The proposed system aims to streamline user categorization, facilitating targeted communication and enhancing community engagement.
+   2. This should not be confused with hashtags or tagging someone in a chat. This is for applying a label/category to User and Event objects
+   1. Support for this feature was added to Talawa API in the past year. We welcome GitHub issues to verify and rectify the expected functionality of this API support during the GSoC evaluation period.
 2. **Expected Outcomes**:
    1. Automatic tag allotment based on predefined criteria.
    2. Manual tag allotment by Admins and/or Super Admins.
@@ -315,6 +308,7 @@ Please read the `Research` section of this document for background information
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
 7. **Possible Mentors:**
+   1. Rishav Jha - @rishav-jha-mech (Primary)
    1. Nitya Pasrija - @Nitya-Pasrija (Secondary)
    2. Noble Mittal - @beingnoble03 (Secondary)
 8. **Difficulty:** Medium
@@ -337,79 +331,18 @@ Please read the `Research` section of this document for background information
 7. **Difficulty:** Medium
 8.  **Impact Definition:** Risky/Exploratory
 
-### Hybrid Innovation - Talawa
+### Hybrid: Hybrid Innovation
 
-1. **Description:** We know that there are many opportunities to improve our mobile application to make it more usable. If you have answers to the questions below then this section is for you.
-   1. If you have answers to the questions below then this section is for you.
-      1. Do the previous ideas need something more? 
-      2. What completely new thoughts could be applied to the existing ideas?
-   2. Opportunities exist to improve (but are not limited to):
-      1. Usefulness
-      2. The usability of the various workflows
-      3. Long term maintainability
-2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
-   1. Not add any Admin or Super Admin features. These must remain solely in the Talawa-Admin web app.
-   2. Not rely on any third party providers. This will greatly simplify the deployment of the mobile app.
-      1. There must be no requirement to configure files in the mobile app with third party parameters specific to the Palisadoes Foundation or you, the GSoC participant.
-      2. All proposed services must be solely derived from the Talawa-API instance.
-      3. All communication must exclusively be with the Talawa-API instance.
-   3. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
-   4. Add completely new features not previously stated in ideas.
-   5. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
-   6. Justify 350 hours of work.
-3. **Repos to update:** Talawa, Talawa-API
-4. **Skills Required:** Code stacks related to repos above. See introduction section.
-5. **Depends on Project:** N/A
-6. **Project Size:** 350
-7. **Possible Mentors:** TBD
-8. **Difficulty:** Medium
-9.  **Impact Definition:** Risky/Exploratory
-
-### Hybrid Innovation - Talawa Admin
-
-1. **Description:** We know that there are many opportunities to improve our web application to make it more usable. 
-   1. If you have answers to the questions below then this section is for you.
-      1. Do the previous ideas need something more? 
-      2. What completely new thoughts could be applied to the existing ideas?
-   2. Opportunities exist to improve (but are not limited to):
-      1. Usefulness to Administrators
-      2. The usability of the various workflows
-      3. Long term maintainability
-2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
+1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
+2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
    1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
-   2. Add completely new features not previously stated in ideas.
-   3. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
-   4. Justify 350 hours of work.
-3. **Repos to update:** Talawa-API, Talawa-Admin
+   1. Add completely new features not previously stated in ideas.
+   1. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
+   1. Justify 350 hours of work.
+3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
 7. **Possible Mentors:** TBD
 8. **Difficulty:** Medium
-9.  **Impact Definition:** Risky/Exploratory
-
-### Hybrid Innovation - Talawa API
-
-1. **Description:** We know that there are many opportunities to improve our backend API to make it more usable. 
-   1. If you have answers to the questions below then this section is for you.
-      1. Do the previous ideas need something more? 
-      2. What completely new thoughts could be applied to the existing ideas?
-   2. Opportunities exist to improve (but are not limited to):
-      1. Performance
-      2. Simplicity
-      3. Functionality
-      4. Long term maintainability
-      5. Support for long term features in the Mobile and Admin apps that need preparatory work now
-   3. The focus for this project idea is improving the API in ways that will be mostly transparent to the other Talawa applications.
-2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
-   1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
-   2. Add completely new features not previously stated in ideas.
-   3. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
-   4. Justify 350 hours of work.
-3. **Repos to update:** Talawa-API
-4. **Skills Required:** Code stacks related to repos above. See introduction section.
-5. **Depends on Project:** N/A
-6. **Project Size:** 350
-7. **Possible Mentors:** TBD
-8. **Difficulty:** Medium
-9.  **Impact Definition:** Risky/Exploratory
+9. **Impact Definition:** Risky/Exploratory
