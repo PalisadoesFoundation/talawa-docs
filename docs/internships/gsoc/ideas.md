@@ -308,7 +308,7 @@ Please read the `Research` section of this document for background information
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
 7. **Possible Mentors:**
-   1. Rishav Jha - @rishav-jha-mech 
+   1. Rishav Jha - @rishav-jha-mech (Primary)
    1. Nitya Pasrija - @Nitya-Pasrija (Secondary)
    2. Noble Mittal - @beingnoble03 (Secondary)
 8. **Difficulty:** Medium
