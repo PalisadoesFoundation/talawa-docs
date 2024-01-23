@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-internships/gsoc/gsoc-ideas-20240122" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.1.0">
+<title data-rh="true">GSoC Ideas | Talawa Project Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://docs.talawa.io/docs/internships/gsoc/gsoc-ideas-20240122"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="GSoC Ideas | Talawa Project Documentation"><meta data-rh="true" name="description" content="Draft"><meta data-rh="true" property="og:description" content="Draft"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.talawa.io/docs/internships/gsoc/gsoc-ideas-20240122"><link data-rh="true" rel="alternate" href="https://docs.talawa.io/docs/internships/gsoc/gsoc-ideas-20240122" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.talawa.io/docs/internships/gsoc/gsoc-ideas-20240122" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.b819b250.css">
+<script src="/assets/js/runtime~main.14aa1cce.js" defer="defer"></script>
+<script src="/assets/js/main.0ed0eba6.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="Talawa Logo" class="LogoAnimation themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="Talawa Logo" class="LogoAnimation themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Talawa</b></a><a class="navbar__item navbar__link" href="/docs-mobile-user/">Mobile Guide</a><a class="navbar__item navbar__link" href="/docs-web-user/">Web Guide</a><a class="navbar__item navbar__link" href="/docs-admin/">Admin Guide</a><div class="navbar__item dropdown dropdown--hoverable"><a aria-current="page" class="navbar__link active" aria-haspopup="true" aria-expanded="false" role="button" href="/docs/">Developer Guide</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/">General</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/talawa-api-docs/modules">Talawa API</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/talawa-mobile-docs">Talawa Flutter Docs</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/talawa-admin-docs/modules">Talawa Admin</a></li></ul></div></div><div class="navbar__items navbar__items--right"><a href="https://github.com/PalisadoesFoundation" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><a href="https://www.youtube.com/@PalisadoesOrganization" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link header-youtube-link" aria-label="Palisadoes Youtube channel"></a><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>GSoC Ideas</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="draft">Draft<a href="#draft" class="hash-link" aria-label="Direct link to Draft" title="Direct link to Draft">​</a></h2>
+<p>These ideas are subject to change at any time prior to us being accepted as a GSoC 2024 Organization. Ideas may be added, removed or updated up to this time.</p>
+<p><img loading="lazy" alt="Draft" src="data:image/png;base64,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" width="301" height="299" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction">Introduction<a href="#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Welcome to our ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="general-considerations">General Considerations<a href="#general-considerations" class="hash-link" aria-label="Direct link to General Considerations" title="Direct link to General Considerations">​</a></h3>
+<p>This is not an exhaustive list of ideas, but they broadly classify the types of features on which we&#x27;d like to focus our attentions.</p>
+<p>You are open to propose your own solutions.</p>
+<ol>
+<li>We encourage candidates to think laterally.</li>
+<li>Take the initiative and consider something hybrid taking thoughts from various ideas posted here or something totally new.</li>
+</ol>
+<p>We want ideas that will have a material impact on the project</p>
+<p>Remember, the ideas list is just a guide for what we feel could be achieved, and not a strict list of requirements. Think of the overall goal of making a better product. Picking a subset of suggestions and expanding them beyond our expectations shows your initiative.</p>
+<p><strong>NOTE:</strong> If you feel the project ideas will take too much time as stated, then:</p>
+<ol>
+<li>Add that to your proposal</li>
+<li>Include what you think a reasonable scope should be.</li>
+</ol>
+<p>We need your ideas to be completed on time with 100% test cases with each PR.</p>
+<ol>
+<li>Brittle code that breaks easily does not help the project</li>
+<li>Incomplete functionality is not acceptable unless specifically stated.</li>
+</ol>
+<p>If there are any dependencies on other project ideas, then state it. Also include additional or alternative things that you would do if the dependencies are not completed in your desired time frame</p>
+<p>The project is so much in its infancy that we&#x27;ll accept any good idea that users will want or will facilitate that they could want. They must significantly advance our goal of having an MVP within the year.</p>
+<p>We also welcome any other ideas that we could use. Please review the &quot;Desired Features&quot; section of this website for <strong>even more ideas</strong> and further necessary information.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="internship-participants">Internship Participants<a href="#internship-participants" class="hash-link" aria-label="Direct link to Internship Participants" title="Direct link to Internship Participants">​</a></h3>
+<p>Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship, Google Summer of Docs, Outreachy, etc.).</p>
+<ol>
+<li>Make sure to read the relevant <code>Introduction</code> and <code>Application Guide</code>/ <code>Contribution Process</code> pages first.<!-- -->
+<ol>
+<li>GSoC:<!-- -->
+<ol>
+<li><a href="/docs/internships/gsoc/gsoc-introduction">GSoC Introduction</a>.</li>
+<li><a href="/docs/internships/gsoc/gsoc-application-process">GSoC Application Guide</a>.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Review the <a href="/docs/internships/internship-selection-criteria">Selection Criteria</a> to ensure you meet all the requirements for a good proposal.</li>
+<li>Use the <a href="/docs/internships/internship-application-template">Application Template</a> as a guide to formatting your application. The tips on this page are very important.</li>
+</ol>
+<p>Good luck!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="documentation">Documentation<a href="#documentation" class="hash-link" aria-label="Direct link to Documentation" title="Direct link to Documentation">​</a></h3>
+<p>We need to reduce the learning curve of contributors and sysadmins alike. Project work needs to be well documented in our code so that tools can eventually automatically add it to our documentation websites.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="testing">Testing<a href="#testing" class="hash-link" aria-label="Direct link to Testing" title="Direct link to Testing">​</a></h3>
+<p>All code submitted must be tested. We are working towards getting to 100% test code coverage on all Talawa repositories. This will mean that you will have to write tests for new code you write or modify.</p>
+<p>The test percent code coverage requirement will incrementally rise with each pull request. In some cases you may have to write a few extra tests for code you may not have updated. We hope this will be rare.</p>
+<p>Write code that will work in the long term. Eliminate brittle code that will easily break.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="repository-languages-and-skills">Repository Languages and Skills<a href="#repository-languages-and-skills" class="hash-link" aria-label="Direct link to Repository Languages and Skills" title="Direct link to Repository Languages and Skills">​</a></h3>
+<p>Here is a list of basic skills that will be required for each repository.</p>
+<ol>
+<li><strong>Talawa:</strong> Flutter / Dart, GraphQL</li>
+<li><strong>Talawa-API:</strong> Typescript, GraphQL, MongoDB</li>
+<li><strong>Talawa-Admin Portal:</strong> TypeScript</li>
+</ol>
+<p>There are others, but these are the primary ones that will guide your contributions.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="impact-definition">Impact Definition<a href="#impact-definition" class="hash-link" aria-label="Direct link to Impact Definition" title="Direct link to Impact Definition">​</a></h3>
+<p>We have categorized the various ideas according to the degree of impact they will have to the project. Use these definitions to understand how each idea will affect our overall project goals.</p>
+<ol>
+<li><strong>Low-hanging fruit:</strong> These projects require minimal familiarity with the codebase and basic technical knowledge. They are relatively short, with clear goals.</li>
+<li><strong>Risky/Exploratory:</strong> These projects push the scope boundaries of our development efforts. They might require expertise in an area not covered by our current development team. They might take advantage of a new technology. There is a reasonable chance that the project might be less successful, but the potential rewards make it worth the attempt.</li>
+<li><strong>Fun/Peripheral:</strong> These projects might not be related to the current core development focus, but create new innovations and new perspective for our project.</li>
+<li><strong>Core development:</strong> These projects derive from the ongoing work from the core of our development team. The list of features and bugs is never-ending, and help is always welcome.</li>
+<li><strong>Infrastructure/Automation:</strong> These projects are the code that our organization uses to get our development work done; for example, projects that improve the automation of releases, regression tests and automated builds. This is a category in which a contributor can be really helpful, doing work that the development team has been putting off while they focus on core development.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="difficulty">Difficulty<a href="#difficulty" class="hash-link" aria-label="Direct link to Difficulty" title="Direct link to Difficulty">​</a></h3>
+<p>Most of our project ideas require knowledge of two or more programming languages. Meaningful PRs that prove your understanding of the repos will always be beneficial. We have created testing issues specifically for this purpose.</p>
+<ol>
+<li><strong>Hard:</strong> Requires dominion of the language used by the repo most affected by the project. A good working knowledge of the languages used by other affected repositories will be needed.</li>
+<li><strong>Medium:</strong> A good working knowledge of the languages used by affected repositories will be needed.</li>
+<li><strong>Easy:</strong> A beginner&#x27;s level knowledge of the languages is sufficient.</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="research">Research<a href="#research" class="hash-link" aria-label="Direct link to Research" title="Direct link to Research">​</a></h3>
+<p>Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you, and we suggest you research Church and/or Temple Management Software as a starting point. Talawa needs to have a broader reach and your additions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.</p>
+<p>Your solution should ideally consider the:</p>
+<ol>
+<li>ability of typical small community organizations with limited resources to:<!-- -->
+<ol>
+<li>get tech support to maintain the application</li>
+<li>have tech-savvy users</li>
+<li>afford long term costs</li>
+<li>need all membership information completely under their control</li>
+<li>manage services outside the applications</li>
+</ol>
+</li>
+<li>impact of using third party services</li>
+<li>performance / usability trade-offs</li>
+<li>potential data residency law requirements</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="other">Other<a href="#other" class="hash-link" aria-label="Direct link to Other" title="Direct link to Other">​</a></h3>
+<p>We will not support administrative functions in the mobile app.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="idea-areas">Idea Areas<a href="#idea-areas" class="hash-link" aria-label="Direct link to Idea Areas" title="Direct link to Idea Areas">​</a></h2>
+<p>This section outlines the primary features we&#x27;d like to implement in the coming months with impacts on all the applications.</p>
+<p>Please read the <code>Research</code> section of this document for background information</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fail-safe">Fail Safe<a href="#fail-safe" class="hash-link" aria-label="Direct link to Fail Safe" title="Direct link to Fail Safe">​</a></h3>
+<ol>
+<li>
+<p><strong>Description:</strong> Talawa and Talawa-Admin are too closely coupled to Talawa-API. Both these apps crash when the API is unavailable.  ixing this would greatly help the project and will increase the developer base we can attract.</p>
+</li>
+<li>
+<p><strong>Expected Outcomes:</strong></p>
+<ol>
+<li>Developers should also be able to write, navigate and test code without access to the API.</li>
+<li>During normal operation the data required for screens should not appear when the API is down instead of crashing.</li>
+</ol>
+</li>
+<li>
+<p><strong>Repos to update:</strong> Talawa, Talawa-Admin</p>
+</li>
+<li>
+<p><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</p>
+</li>
+<li>
+<p><strong>Depends on Project:</strong> N/A</p>
+</li>
+<li>
+<p><strong>Project Size:</strong> 350</p>
+</li>
+<li>
+<p><strong>Possible Mentors:</strong> TBD</p>
+</li>
+<li>
+<p><strong>Difficulty:</strong> Medium</p>
+</li>
+<li>
+<p><strong>Impact Definition:</strong> Core development</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="improved-file-uploads-and-security">Improved File Uploads and Security<a href="#improved-file-uploads-and-security" class="hash-link" aria-label="Direct link to Improved File Uploads and Security" title="Direct link to Improved File Uploads and Security">​</a></h3>
+<ol>
+<li><strong>Description:</strong> We need a better solution for handling files uploaded from Talawa clients. GraphQL is unsuitable for file access and, storing files in the code tree with only a <code>.gitignore</code> file as protection is risky.</li>
+<li><strong>Expected Outcomes:</strong> Objects must be:<!-- -->
+<ol>
+<li>Stored in a location outside the code tree</li>
+<li>Accessed using industry best practices and libraries that are unlikely to be deprecated or abandoned.</li>
+<li>Deduplicated.</li>
+<li>Encrypted whenever and wherever possible.</li>
+<li>Stored in the same way independent of their size, type or other characteristics.</li>
+<li>Screened for malicious content.</li>
+</ol>
+</li>
+<li><strong>References:</strong> There have been extensive discussions about this which should help in evaluating options.<!-- -->
+<ol>
+<li><a href="https://github.com/PalisadoesFoundation/talawa-api/pull/1168" target="_blank" rel="noopener noreferrer">https://github.com/PalisadoesFoundation/talawa-api/pull/1168</a></li>
+<li><a href="https://github.com/PalisadoesFoundation/talawa-api/issues/952" target="_blank" rel="noopener noreferrer">https://github.com/PalisadoesFoundation/talawa-api/issues/952</a></li>
+</ol>
+</li>
+<li><strong>Repos to update:</strong> Talawa, Talawa-API, Talawa-Admin</li>
+<li><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</li>
+<li><strong>Depends on Project:</strong> N/A</li>
+<li><strong>Project Size:</strong> 350 hours (Large)</li>
+<li><strong>Possible Mentors:</strong> TBD</li>
+<li><strong>Difficulty:</strong> Medium</li>
+<li><strong>Impact Definition:</strong> Core development, Risky/Exploratory</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="self-hosted-chat">Self Hosted Chat<a href="#self-hosted-chat" class="hash-link" aria-label="Direct link to Self Hosted Chat" title="Direct link to Self Hosted Chat">​</a></h3>
+<ol>
+<li><strong>Description:</strong> The Talawa apps are closely coupled with cloud services which creates operational concerns.<!-- -->
+<ol>
+<li>This greatly complicates setup as each new service requires new externally controlled configuration parameters.</li>
+<li>It also adds greater troubleshooting and billing complexity for organizations that will not be tech-savvy.</li>
+<li>Small organizations may also find it difficult to comply with new data residency laws when using international services.</li>
+</ol>
+<!-- -->For this idea there must be no dependency on any third party cloud service providers, all the code must run on the API server.</li>
+<li><strong>Expected Outcomes:</strong>
+<ol>
+<li><em>Chat</em> : A key component of the Talawa application suite is chat. Though some endpoints have been created, the feature has not been fully activated and deployed. Chat must be:<!-- -->
+<ol>
+<li>Hosted on the API server. We expect the typical Talawa deployment to be small and hosted by communities with limited funding that may not be able to afford cloud additional services.</li>
+<li>Available as 1 to 1 and 1 to many group chat options</li>
+<li>Automatically available to registered attendees of events as a dedicated group chat instance.</li>
+<li>Encrypted whenever and wherever possible</li>
+<li>Capable of allowing users to reply to any historical comment.</li>
+<li>Allow administrators to respond in various ways to complaints about chats.</li>
+<li>Have the ability for older chats to be purged from the system</li>
+<li>Assume that most communities using the chat system will be small. Research typical community sizes, seating and event attendance for various community based organizations in designing your solution. Consider easy to implement scalability if required.</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>Repos to update:</strong> Talawa, Talawa-API, Talawa-Admin</li>
+<li><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</li>
+<li><strong>Depends on Project:</strong> N/A</li>
+<li><strong>Project Size:</strong> 350 hours (Large)</li>
+<li><strong>Possible Mentors:</strong> TBD</li>
+<li><strong>Difficulty:</strong> Medium</li>
+<li><strong>Impact Definition:</strong> Core development, Risky/Exploratory</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="artificial-intelligence">Artificial Intelligence<a href="#artificial-intelligence" class="hash-link" aria-label="Direct link to Artificial Intelligence" title="Direct link to Artificial Intelligence">​</a></h3>
+<ol>
+<li><strong>Description:</strong> AI creates many possible opportunities for the Talawa administrator. Solutions must be easy to implement and cost-effective for potential use by organizations that have limited resources.</li>
+<li><strong>Expected Outcomes:</strong> Consider ways to:<!-- -->
+<ol>
+<li>Help improve event attendance</li>
+<li>Suggest volunteers for events</li>
+<li>Create announcements that get better response rates</li>
+<li>Flag spam</li>
+<li>Otherwise improve the management of the application suite</li>
+</ol>
+</li>
+<li><strong>Reference:</strong> An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.</li>
+<li><strong>Repos to update:</strong> Talawa, Talawa-API, Talawa-Admin</li>
+<li><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</li>
+<li><strong>Depends on Project:</strong> N/A</li>
+<li><strong>Project Size:</strong> 350</li>
+<li><strong>Possible Mentors:</strong> TBD</li>
+<li><strong>Difficulty:</strong> Medium</li>
+<li><strong>Impact Definition:</strong> Risky/Exploratory</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ai-enhanced-collaboration-with-automated-moderation-and-summarization-and-sentiment-analysis-features">AI-Enhanced Collaboration with Automated Moderation and Summarization, and Sentiment Analysis Features.<a href="#ai-enhanced-collaboration-with-automated-moderation-and-summarization-and-sentiment-analysis-features" class="hash-link" aria-label="Direct link to AI-Enhanced Collaboration with Automated Moderation and Summarization, and Sentiment Analysis Features." title="Direct link to AI-Enhanced Collaboration with Automated Moderation and Summarization, and Sentiment Analysis Features.">​</a></h3>
+<ol>
+<li>
+<p><strong>Description:</strong> Implement various AI-Enhanced features that create more nuanced community interaction. Selected partipants will on work solutions that are relatively easy to implement and  then integrate these key features in the Talawa Mobile App, for potential use by organizations that have limited resources.</p>
+</li>
+<li>
+<p><strong>Expected Outcomes:</strong> Consider ways to:</p>
+<ol>
+<li>Integrate sentiment analysis to gauge the emotional tone of discussions, helping to identify and address potential issues within the community.</li>
+<li>Use AI-powered summarization techniques to generate concise summaries of lengthy discussions or documents, making it easier for users to grasp key points.</li>
+<li>Use natural language processing (NLP) algorithms to automate content moderation, identifying and flagging inappropriate or spammy content.</li>
+</ol>
+</li>
+<li>
+<p><strong>Reference:</strong> An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.</p>
+</li>
+<li>
+<p><strong>Repos to update:</strong> Talawa, Talawa-API, Talawa-Admin</p>
+</li>
+<li>
+<p><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</p>
+</li>
+<li>
+<p><strong>Depends on Project:</strong> N/A</p>
+</li>
+<li>
+<p><strong>Project Size:</strong> 350</p>
+</li>
+<li>
+<p><strong>Possible Mentors:</strong> TBD</p>
+</li>
+<li>
+<p><strong>Difficulty:</strong> Medium</p>
+</li>
+<li>
+<p><strong>Impact Definition:</strong> Risky/Exploratory</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ai-enhanced-collaboration-with-predictive-task-managementuser-engagement-predictions-and-collaborative-filtering-features">AI-Enhanced Collaboration with Predictive Task Management,User Engagement Predictions and Collaborative Filtering Features.<a href="#ai-enhanced-collaboration-with-predictive-task-managementuser-engagement-predictions-and-collaborative-filtering-features" class="hash-link" aria-label="Direct link to AI-Enhanced Collaboration with Predictive Task Management,User Engagement Predictions and Collaborative Filtering Features." title="Direct link to AI-Enhanced Collaboration with Predictive Task Management,User Engagement Predictions and Collaborative Filtering Features.">​</a></h3>
+<ol>
+<li>
+<p><strong>Description:</strong> Create features which anticipate user interactions, receive collaborative recommendations, and streamline task management with data-driven insights. These practical enhancements will optimize engagement and productivity for all users of the Talawa mobile app.</p>
+</li>
+<li>
+<p><strong>Expected Outcomes:</strong> Consider ways to:</p>
+<ol>
+<li>Utilize machine learning models to predict user engagement patterns, helping community organizers understand when to schedule events or post important updates for maximum impact.</li>
+<li>Implement collaborative filtering algorithms to suggest groups, subgroups, or content based on what similar users with shared interests are engaging with.</li>
+<li>Implement predictive analytics to help users and groups estimate the time needed to complete tasks and identify potential bottlenecks in project timelines.</li>
+</ol>
+</li>
+<li>
+<p><strong>Reference:</strong> An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.</p>
+</li>
+<li>
+<p><strong>Repos to update:</strong> Talawa, Talawa-API, Talawa-Admin</p>
+</li>
+<li>
+<p><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</p>
+</li>
+<li>
+<p><strong>Depends on Project:</strong> N/A</p>
+</li>
+<li>
+<p><strong>Project Size:</strong> 350</p>
+</li>
+<li>
+<p><strong>Possible Mentors:</strong> TBD</p>
+</li>
+<li>
+<p><strong>Difficulty:</strong> Medium</p>
+</li>
+<li>
+<p><strong>Impact Definition:</strong> Risky/Exploratory</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hybrid-innovation---talawa">Hybrid Innovation - Talawa<a href="#hybrid-innovation---talawa" class="hash-link" aria-label="Direct link to Hybrid Innovation - Talawa" title="Direct link to Hybrid Innovation - Talawa">​</a></h3>
+<ol>
+<li><strong>Description:</strong> We know that there are many opportunities to improve our mobile application to make it more usable. If you have answers to the questions below then this section is for you.<!-- -->
+<ol>
+<li>If you have answers to the questions below then this section is for you.<!-- -->
+<ol>
+<li>Do the previous ideas need something more?</li>
+<li>What completely new thoughts could be applied to the existing ideas?</li>
+</ol>
+</li>
+<li>Opportunities exist to improve (but are not limited to):<!-- -->
+<ol>
+<li>Usefulness</li>
+<li>The usability of the various workflows</li>
+<li>Long term maintainability</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>Expected Outcomes:</strong> Your proposal must meet the guidelines below. It must:<!-- -->
+<ol>
+<li>Not add any administrative features. These must remain solely in the Talawa-Admin web app.</li>
+<li>Not rely on any third party providers. This will greatly simplify the deployment of the mobile app.<!-- -->
+<ol>
+<li>There must be no requirement to configure files in the mobile app with third party parameters specific to the Palisadoes Foundation or you, the GSoC participant.</li>
+<li>All proposed services must be solely derived from the Talawa-API instance.</li>
+<li>All communication must exclusively be with the Talawa-API instance.</li>
+</ol>
+</li>
+<li>Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.</li>
+<li>Add completely new features not previously stated in ideas.</li>
+<li>Create features that users will want or facilitate new features that will be the groundwork for features that they would want.</li>
+<li>Justify 350 hours of work.</li>
+</ol>
+</li>
+<li><strong>Repos to update:</strong> Talawa, Talawa-API</li>
+<li><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</li>
+<li><strong>Depends on Project:</strong> N/A</li>
+<li><strong>Project Size:</strong> 350</li>
+<li><strong>Possible Mentors:</strong> TBD</li>
+<li><strong>Difficulty:</strong> Medium</li>
+<li><strong>Impact Definition:</strong> Risky/Exploratory</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hybrid-innovation---talawa-admin">Hybrid Innovation - Talawa Admin<a href="#hybrid-innovation---talawa-admin" class="hash-link" aria-label="Direct link to Hybrid Innovation - Talawa Admin" title="Direct link to Hybrid Innovation - Talawa Admin">​</a></h3>
+<ol>
+<li><strong>Description:</strong> We know that there are many opportunities to improve our web application to make it more usable.<!-- -->
+<ol>
+<li>If you have answers to the questions below then this section is for you.<!-- -->
+<ol>
+<li>Do the previous ideas need something more?</li>
+<li>What completely new thoughts could be applied to the existing ideas?</li>
+</ol>
+</li>
+<li>Opportunities exist to improve (but are not limited to):<!-- -->
+<ol>
+<li>Usefulness to Administrators</li>
+<li>The usability of the various workflows</li>
+<li>Long term maintainability</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><strong>Expected Outcomes:</strong> Your proposal must meet the guidelines below. It must:<!-- -->
+<ol>
+<li>Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.</li>
+<li>Add completely new features not previously stated in ideas.</li>
+<li>Create features that users will want or facilitate new features that will be the groundwork for features that they would want.</li>
+<li>Justify 350 hours of work.</li>
+</ol>
+</li>
+<li><strong>Repos to update:</strong> Talawa-API, Talawa-Admin</li>
+<li><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</li>
+<li><strong>Depends on Project:</strong> N/A</li>
+<li><strong>Project Size:</strong> 350</li>
+<li><strong>Possible Mentors:</strong> TBD</li>
+<li><strong>Difficulty:</strong> Medium</li>
+<li><strong>Impact Definition:</strong> Risky/Exploratory</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hybrid-innovation---talawa-api">Hybrid Innovation - Talawa API<a href="#hybrid-innovation---talawa-api" class="hash-link" aria-label="Direct link to Hybrid Innovation - Talawa API" title="Direct link to Hybrid Innovation - Talawa API">​</a></h3>
+<ol>
+<li><strong>Description:</strong> We know that there are many opportunities to improve our backend API to make it more usable.<!-- -->
+<ol>
+<li>If you have answers to the questions below then this section is for you.<!-- -->
+<ol>
+<li>Do the previous ideas need something more?</li>
+<li>What completely new thoughts could be applied to the existing ideas?</li>
+</ol>
+</li>
+<li>Opportunities exist to improve (but are not limited to):<!-- -->
+<ol>
+<li>Performance</li>
+<li>Simplicity</li>
+<li>Functionality</li>
+<li>Long term maintainability</li>
+<li>Support for long term features in the Mobile and Admin apps that need preparatory work now</li>
+</ol>
+</li>
+<li>The focus for this project idea is improving the API in ways that will be mostly transparent to the other Talawa applications.</li>
+</ol>
+</li>
+<li><strong>Expected Outcomes:</strong> Your proposal must meet the guidelines below. It must:<!-- -->
+<ol>
+<li>Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.</li>
+<li>Add completely new features not previously stated in ideas.</li>
+<li>Create features that users will want or facilitate new features that will be the groundwork for features that they would want.</li>
+<li>Justify 350 hours of work.</li>
+</ol>
+</li>
+<li><strong>Repos to update:</strong> Talawa-API</li>
+<li><strong>Skills Required:</strong> Code stacks related to repos above. See introduction section.</li>
+<li><strong>Depends on Project:</strong> N/A</li>
+<li><strong>Project Size:</strong> 350</li>
+<li><strong>Possible Mentors:</strong> TBD</li>
+<li><strong>Difficulty:</strong> Medium</li>
+<li><strong>Impact Definition:</strong> Risky/Exploratory</li>
+</ol></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="theme-doc-footer-edit-meta-row row"><div class="col"><a href="https://github.com/PalisadoesFoundation/talawa-docs/edit/develop/docs/internships/gsoc/ideas-20240122.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_vwxv"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#draft" class="table-of-contents__link toc-highlight">Draft</a></li><li><a href="#introduction" class="table-of-contents__link toc-highlight">Introduction</a><ul><li><a href="#general-considerations" class="table-of-contents__link toc-highlight">General Considerations</a></li><li><a href="#internship-participants" class="table-of-contents__link toc-highlight">Internship Participants</a></li><li><a href="#documentation" class="table-of-contents__link toc-highlight">Documentation</a></li><li><a href="#testing" class="table-of-contents__link toc-highlight">Testing</a></li><li><a href="#repository-languages-and-skills" class="table-of-contents__link toc-highlight">Repository Languages and Skills</a></li><li><a href="#impact-definition" class="table-of-contents__link toc-highlight">Impact Definition</a></li><li><a href="#difficulty" class="table-of-contents__link toc-highlight">Difficulty</a></li><li><a href="#research" class="table-of-contents__link toc-highlight">Research</a></li><li><a href="#other" class="table-of-contents__link toc-highlight">Other</a></li></ul></li><li><a href="#idea-areas" class="table-of-contents__link toc-highlight">Idea Areas</a><ul><li><a href="#fail-safe" class="table-of-contents__link toc-highlight">Fail Safe</a></li><li><a href="#improved-file-uploads-and-security" class="table-of-contents__link toc-highlight">Improved File Uploads and Security</a></li><li><a href="#self-hosted-chat" class="table-of-contents__link toc-highlight">Self Hosted Chat</a></li><li><a href="#artificial-intelligence" class="table-of-contents__link toc-highlight">Artificial Intelligence</a></li><li><a href="#ai-enhanced-collaboration-with-automated-moderation-and-summarization-and-sentiment-analysis-features" class="table-of-contents__link toc-highlight">AI-Enhanced Collaboration with Automated Moderation and Summarization, and Sentiment Analysis Features.</a></li><li><a href="#ai-enhanced-collaboration-with-predictive-task-managementuser-engagement-predictions-and-collaborative-filtering-features" class="table-of-contents__link toc-highlight">AI-Enhanced Collaboration with Predictive Task Management,User Engagement Predictions and Collaborative Filtering Features.</a></li><li><a href="#hybrid-innovation---talawa" class="table-of-contents__link toc-highlight">Hybrid Innovation - Talawa</a></li><li><a href="#hybrid-innovation---talawa-admin" class="table-of-contents__link toc-highlight">Hybrid Innovation - Talawa Admin</a></li><li><a href="#hybrid-innovation---talawa-api" class="table-of-contents__link toc-highlight">Hybrid Innovation - Talawa API</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/PalisadoesFoundation/talawa#readme" target="_blank" rel="noopener noreferrer" class="footer__icon footer__slack"> Slack</a></li><li class="footer__item"><a href="https://www.palisadoes.org/news/" target="_blank" rel="noopener noreferrer" class="footer__icon footer__news"> News</a></li><li class="footer__item"><a href="https://www.palisadoes.org/contact/" target="_blank" rel="noopener noreferrer" class="footer__icon footer__contact"> Contact Us</a></li></ul></div><div class="col footer__col"><div class="footer__title">Social Media</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://twitter.com/palisadoesorg?lang=en" target="_blank" rel="noopener noreferrer" class="footer__icon footer__twitter"> Twitter</a></li><li class="footer__item"><a href="https://www.facebook.com/palisadoesproject/" target="_blank" rel="noopener noreferrer" class="footer__icon footer__facebook"> Facebook</a></li><li class="footer__item"><a href="https://www.instagram.com/palisadoes/?hl=en" target="_blank" rel="noopener noreferrer" class="footer__icon footer__instagram"> Instagram</a></li></ul></div><div class="col footer__col"><div class="footer__title">Development</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/PalisadoesFoundation" target="_blank" rel="noopener noreferrer" class="footer__icon footer__github"> GitHub</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 The Palisadoes Foundation, LLC. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
