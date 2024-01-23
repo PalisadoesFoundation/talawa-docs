@@ -66,6 +66,8 @@ The Talawa applications are used by different groups of people.
 
 Talawa-API supports the users of Talawa and Talawa-Admin.
 
+There are no administrative functions incorporated in the mobile app by design because phone screens are generally too small to provide a full featured experience. We also don't have the volunteer resources to manage the expanded functionality at this time.
+
 ## Events
 
 Event management is a major Talawa component.
