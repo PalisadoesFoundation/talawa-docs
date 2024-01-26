@@ -240,6 +240,19 @@ const sidebars = {
 
         {
           type: 'category',
+          label: 'GSoD',
+          link: {
+            type: 'generated-index'
+          },
+          collapsed: true,
+          items: [
+            'internships/gsod/gsod-ideas',
+            'internships/gsod/gsod-ideas-2022'
+          ]
+        },
+        
+        {
+          type: 'category',
           label: 'Palisadoes',
           link: {
             type: 'generated-index'
