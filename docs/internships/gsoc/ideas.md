@@ -175,38 +175,24 @@ Please read the `Research` section of this document for background information
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Core development, Risky/Exploratory
 
-### AI: Automated Moderation, Summarization and Sentiment Analysis
+### Enhancing Community Interaction and Moderation with AI
 
-1. **Description:** Implement various AI-Enhanced features that create more nuanced community interaction. Selected participants will on work solutions that are relatively easy to implement and  then integrate these key features in the Talawa Mobile App, for potential use by organizations that have limited resources.
+1. **Description:** Implement various features that leverage AI to create more nuanced community interactions that anticipate user interactions, receive collaborative recommendations, and streamline task management with data-driven insights.  Selected participants will integrate these key features in the Talawa Mobile App, to improve user experience and facilitate efficient moderation.
 2. **Expected Outcomes:** Consider ways to:
    1. Integrate sentiment analysis to gauge the emotional tone of discussions, helping to identify and address potential issues within the community.
    2. Use AI-powered summarization techniques to generate concise summaries of lengthy discussions or documents, making it easier for users to grasp key points. 
    3. Use natural language processing (NLP) algorithms to automate content moderation, identifying and flagging inappropriate or spammy content.
+   4. Utilize machine learning models to predict user engagement patterns, helping community organizers understand when to schedule events or post important updates for maximum impact.
+   5. Implement collaborative filtering algorithms to suggest groups, subgroups, or content based on what similar users with shared interests are engaging with.
+   6. Implement predictive analytics to help users and groups estimate the time needed to complete tasks and identify potential bottlenecks in project timelines.
 3. **Reference:** An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.
 4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** N/A
 7. **Project Size:** 350
 8. **Possible Mentors:**
-   1. Tasneem Koushar - @tasneemkoushar (Primary)
-9.  **Difficulty:** Medium
-10. **Impact Definition:** Risky/Exploratory
-
-### AI: Predictive Task Management and User Engagement with Collaborative Filtering
-
-1. **Description:** Create features which anticipate user interactions, receive collaborative recommendations, and streamline task management with data-driven insights. These practical enhancements will optimize engagement and productivity for all users of the Talawa mobile app.
-2. **Expected Outcomes:** Consider ways to:
-   1. Utilize machine learning models to predict user engagement patterns, helping community organizers understand when to schedule events or post important updates for maximum impact.
-   2. Implement collaborative filtering algorithms to suggest groups, subgroups, or content based on what similar users with shared interests are engaging with.
-   3. Implement predictive analytics to help users and groups estimate the time needed to complete tasks and identify potential bottlenecks in project timelines.
-3. **Reference:** An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.
-4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
-5. **Skills Required:** Code stacks related to repos above. See introduction section.
-6. **Depends on Project:** N/A
-7. **Project Size:** 350
-8. **Possible Mentors:**
-   1. Dominic Mills - @DMills27 (Primary)
-   2. Shannika Jackson - @bonnie-23 (Secondary)
+   1. Tasneem Koushar - @tasneemkoushar (Primary)/Dominic Mills - @DMills27 (Primary)
+   2. 2. Shannika Jackson - @bonnie-23 (Secondary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
