@@ -185,7 +185,9 @@ Please read the `Research` section of this document for background information
    4. Utilize machine learning models to predict user engagement patterns, helping community organizers understand when to schedule events or post important updates for maximum impact.
    5. Implement collaborative filtering algorithms to suggest groups, subgroups, or content based on what similar users with shared interests are engaging with.
    6. Implement predictive analytics to help users and groups estimate the time needed to complete tasks and identify potential bottlenecks in project timelines.
-3. **Reference:** An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.
+3. **Reference:** 
+   1. An Admin must not rely exclusively on AI for the features you suggest as they may not choose to activate AI.
+   2. Non-profit organizations that we expect to use Talawa are often underfunded and will not have budgets to purchase powerful computing resources. As they often have small memberships, they will not have sufficient numbers of users to generate adequate data sets to train models. You will need to consider ways to use external sources that require minimum to no configuration requirements and cost. Open source solutions would be preferred.
 4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** N/A
