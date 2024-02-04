@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/components/AddOn/core/AddOnStore/AddOnStore.tsx:26](https://github.com/PalisadoesFoundation/talawa-admin/blob/01a8c9f/src/components/AddOn/core/AddOnStore/AddOnStore.tsx#L26)
+[src/components/AddOn/core/AddOnStore/AddOnStore.tsx:26](https://github.com/PalisadoesFoundation/talawa-admin/blob/bbd4963/src/components/AddOn/core/AddOnStore/AddOnStore.tsx#L26)

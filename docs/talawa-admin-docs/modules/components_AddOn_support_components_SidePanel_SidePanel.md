@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/components/AddOn/support/components/SidePanel/SidePanel.tsx:10](https://github.com/PalisadoesFoundation/talawa-admin/blob/01a8c9f/src/components/AddOn/support/components/SidePanel/SidePanel.tsx#L10)
+[src/components/AddOn/support/components/SidePanel/SidePanel.tsx:10](https://github.com/PalisadoesFoundation/talawa-admin/blob/bbd4963/src/components/AddOn/support/components/SidePanel/SidePanel.tsx#L10)

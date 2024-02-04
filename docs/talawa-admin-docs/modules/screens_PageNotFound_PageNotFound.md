@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/screens/PageNotFound/PageNotFound.tsx:8](https://github.com/PalisadoesFoundation/talawa-admin/blob/01a8c9f/src/screens/PageNotFound/PageNotFound.tsx#L8)
+[src/screens/PageNotFound/PageNotFound.tsx:8](https://github.com/PalisadoesFoundation/talawa-admin/blob/bbd4963/src/screens/PageNotFound/PageNotFound.tsx#L8)

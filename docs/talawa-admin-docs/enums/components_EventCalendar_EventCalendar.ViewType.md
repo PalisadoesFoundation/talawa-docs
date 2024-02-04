@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/components/EventCalendar/EventCalendar.tsx:46](https://github.com/PalisadoesFoundation/talawa-admin/blob/01a8c9f/src/components/EventCalendar/EventCalendar.tsx#L46)
+[src/components/EventCalendar/EventCalendar.tsx:46](https://github.com/PalisadoesFoundation/talawa-admin/blob/bbd4963/src/components/EventCalendar/EventCalendar.tsx#L46)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/components/EventCalendar/EventCalendar.tsx:47](https://github.com/PalisadoesFoundation/talawa-admin/blob/01a8c9f/src/components/EventCalendar/EventCalendar.tsx#L47)
+[src/components/EventCalendar/EventCalendar.tsx:47](https://github.com/PalisadoesFoundation/talawa-admin/blob/bbd4963/src/components/EventCalendar/EventCalendar.tsx#L47)
