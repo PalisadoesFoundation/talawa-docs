@@ -316,6 +316,7 @@ Please read the `Research` section of this document for background information
 4. **Depends on Project:** N/A
 5. **Project Size:** 350
 6. **Possible Mentors:** TBD
+   1. Md Noman Khan - @noman2002 (Primary), Mikey Lue - @JamaicanFriedChicken
 7. **Difficulty:** Medium
 8.  **Impact Definition:** Risky/Exploratory
 
@@ -332,6 +333,6 @@ Please read the `Research` section of this document for background information
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
 7. **Possible Mentors:** TBD
-   1. Md Noman Khan - @noman2002 (Primary)
+   1. Tyrone Taylor - @ttaylor92 (Primary)
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory
