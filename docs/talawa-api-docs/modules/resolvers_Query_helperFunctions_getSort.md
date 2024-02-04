@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/resolvers/Query/helperFunctions/getSort.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Query/helperFunctions/getSort.ts#L9)
+[src/resolvers/Query/helperFunctions/getSort.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Query/helperFunctions/getSort.ts#L9)

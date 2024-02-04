@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/removeComment.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Mutation/removeComment.ts#L26)
+[src/resolvers/Mutation/removeComment.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/removeComment.ts#L26)

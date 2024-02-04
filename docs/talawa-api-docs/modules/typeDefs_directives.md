@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/directives.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/typeDefs/directives.ts#L4)
+[src/typeDefs/directives.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/typeDefs/directives.ts#L4)

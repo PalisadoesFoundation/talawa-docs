@@ -32,4 +32,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/login.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Mutation/login.ts#L25)
+[src/resolvers/Mutation/login.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/login.ts#L25)

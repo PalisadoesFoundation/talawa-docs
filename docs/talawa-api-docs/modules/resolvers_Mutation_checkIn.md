@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/checkIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Mutation/checkIn.ts#L16)
+[src/resolvers/Mutation/checkIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/checkIn.ts#L16)

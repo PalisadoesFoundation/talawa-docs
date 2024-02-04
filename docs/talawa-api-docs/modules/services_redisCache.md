@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/services/redisCache.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/services/redisCache.ts#L4)
+[src/services/redisCache.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/services/redisCache.ts#L4)

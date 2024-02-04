@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/models/CheckIn.ts#L64)
+[src/models/CheckIn.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/models/CheckIn.ts#L64)

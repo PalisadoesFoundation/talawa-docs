@@ -33,4 +33,4 @@ file name.
 
 #### Defined in
 
-[src/utilities/imageAlreadyInDbCheck.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/utilities/imageAlreadyInDbCheck.ts#L16)
+[src/utilities/imageAlreadyInDbCheck.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/utilities/imageAlreadyInDbCheck.ts#L16)

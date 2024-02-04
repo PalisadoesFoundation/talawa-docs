@@ -29,4 +29,4 @@ learn more about Connection [here](https://relay.dev/graphql/connections.htm).
 
 #### Defined in
 
-[src/resolvers/Query/usersConnection.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Query/usersConnection.ts#L15)
+[src/resolvers/Query/usersConnection.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Query/usersConnection.ts#L15)

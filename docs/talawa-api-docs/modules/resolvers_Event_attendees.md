@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Event/attendees.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Event/attendees.ts#L4)
+[src/resolvers/Event/attendees.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Event/attendees.ts#L4)

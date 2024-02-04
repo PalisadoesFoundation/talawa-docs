@@ -26,4 +26,4 @@ payload provided with the request
 
 #### Defined in
 
-[src/resolvers/Mutation/deleteAdvertisementById.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Mutation/deleteAdvertisementById.ts#L10)
+[src/resolvers/Mutation/deleteAdvertisementById.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/deleteAdvertisementById.ts#L10)

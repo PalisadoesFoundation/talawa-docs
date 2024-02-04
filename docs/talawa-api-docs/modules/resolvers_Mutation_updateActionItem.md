@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/updateActionItem.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/a731ade/src/resolvers/Mutation/updateActionItem.ts#L38)
+[src/resolvers/Mutation/updateActionItem.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/updateActionItem.ts#L38)
