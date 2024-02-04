@@ -34,4 +34,4 @@ Returns `authData` object with `isAuth`, `expired` and `userId` properties.
 
 #### Defined in
 
-[src/middleware/isAuth.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/middleware/isAuth.ts#L17)
+[src/middleware/isAuth.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/806e21a/src/middleware/isAuth.ts#L17)

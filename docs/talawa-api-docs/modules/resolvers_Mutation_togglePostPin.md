@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/togglePostPin.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/togglePostPin.ts#L19)
+[src/resolvers/Mutation/togglePostPin.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/806e21a/src/resolvers/Mutation/togglePostPin.ts#L19)

@@ -32,4 +32,4 @@ This is a utility method. This works only in development or test mode.
 
 #### Defined in
 
-[src/utilities/copyToClipboard.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/utilities/copyToClipboard.ts#L9)
+[src/utilities/copyToClipboard.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/806e21a/src/utilities/copyToClipboard.ts#L9)

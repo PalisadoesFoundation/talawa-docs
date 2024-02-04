@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/scalars.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/typeDefs/scalars.ts#L4)
+[src/typeDefs/scalars.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/806e21a/src/typeDefs/scalars.ts#L4)

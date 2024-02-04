@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/removeSampleOrganization.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/resolvers/Mutation/removeSampleOrganization.ts#L11)
+[src/resolvers/Mutation/removeSampleOrganization.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/806e21a/src/resolvers/Mutation/removeSampleOrganization.ts#L11)

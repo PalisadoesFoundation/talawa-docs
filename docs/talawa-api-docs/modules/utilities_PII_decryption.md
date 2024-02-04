@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[src/utilities/PII/decryption.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/ca38e6d/src/utilities/PII/decryption.ts#L4)
+[src/utilities/PII/decryption.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/806e21a/src/utilities/PII/decryption.ts#L4)
