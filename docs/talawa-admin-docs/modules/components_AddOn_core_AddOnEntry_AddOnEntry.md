@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/components/AddOn/core/AddOnEntry/AddOnEntry.tsx:22](https://github.com/PalisadoesFoundation/talawa-admin/blob/01a8c9f/src/components/AddOn/core/AddOnEntry/AddOnEntry.tsx#L22)
+[src/components/AddOn/core/AddOnEntry/AddOnEntry.tsx:22](https://github.com/palisadoes/talawa-admin/blob/5828937/src/components/AddOn/core/AddOnEntry/AddOnEntry.tsx#L22)
