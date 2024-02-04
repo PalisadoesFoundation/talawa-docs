@@ -144,7 +144,7 @@ Please read the `Research` section of this document for background information
    1. Aashima Wadhwa - @aashimawadhwa (Primary)
    2. Eshaan Aggarwal - @EshaanAgg (Secondary)
 9.  **Difficulty:** Medium
-10. **Impact Definition:** Core development, Risky/Exploratory
+10. **Impact Definition:** Core development
 
 ### Self Hosted Chat and Notifications
 
@@ -194,7 +194,7 @@ Please read the `Research` section of this document for background information
 7. **Project Size:** 350
 8. **Possible Mentors:**
    1. Tasneem Koushar - @tasneemkoushar (Primary)/Dominic Mills - @DMills27 (Primary)
-   2. 2. Shannika Jackson - @bonnie-23 (Secondary)
+   2. Shannika Jackson - @bonnie-23 (Secondary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
@@ -275,7 +275,7 @@ Please read the `Research` section of this document for background information
    1. Shannika Jackson - @bonnie-23 (Primary)
    2. Dominic Mills - @DMills27 (Secondary)
 8.  **Difficulty:** Medium
-9.  **Impact Definition:** Core development, Risky/Exploratory
+9.  **Impact Definition:** Core development
 
 ### User Tag Management - Talawa Admin
 
@@ -318,7 +318,7 @@ Please read the `Research` section of this document for background information
 6. **Possible Mentors:** TBD
    1. Md Noman Khan - @noman2002 (Primary), Mikey Lue - @JamaicanFriedChicken
 7. **Difficulty:** Medium
-8.  **Impact Definition:** Risky/Exploratory
+8.  **Impact Definition:** Core development
 
 ### Hybrid: Hybrid Innovation
 
