@@ -175,9 +175,9 @@ Please read the `Research` section of this document for background information
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Core development, Risky/Exploratory
 
-### Enhancing Community Interaction and Moderation with AI
+### AI Powered Improvements to Community Health
 
-1. **Description:** Implement various features that leverage AI to create more nuanced community interactions that anticipate user interactions, receive collaborative recommendations, and streamline task management with data-driven insights.  Selected participants will integrate these key features in the Talawa Mobile App, to improve user experience and facilitate efficient moderation.
+1. **Description:** We want to enhance community interaction and moderation with AI. Implement various features that leverage AI to create more nuanced community interactions that anticipate user interactions, receive collaborative recommendations, and streamline task management with data-driven insights.  Selected participants will integrate these key features in the Talawa Mobile App, to improve user experience and facilitate efficient moderation.
 2. **Expected Outcomes:** Consider ways to:
    1. Integrate sentiment analysis to gauge the emotional tone of discussions, helping to identify and address potential issues within the community.
    2. Use AI-powered summarization techniques to generate concise summaries of lengthy discussions or documents, making it easier for users to grasp key points. 
@@ -195,6 +195,36 @@ Please read the `Research` section of this document for background information
 8. **Possible Mentors:**
    1. Tasneem Koushar - @tasneemkoushar (Primary)/Dominic Mills - @DMills27 (Primary)
    2. Shannika Jackson - @bonnie-23 (Secondary)
+9.  **Difficulty:** Medium
+10. **Impact Definition:** Risky/Exploratory
+
+### AI Powered Automated Testing
+
+1. **Description:** This project idea aims to implement AI-powered testing automation for both Talawa-Admin and Talawa-API, encompassing test case generation, dynamic test suite optimization, and production environment testing. By leveraging artificial intelligence, the goal is to enhance the efficiency, accuracy, and adaptability of the testing process, ensuring robust and reliable performance.
+2. **Expected Outcomes:**
+   1. _Test Case Generation:_
+      1. Identify and integrate AI tools or frameworks capable of generating test cases based on code changes and requirements.
+      2. Utilize AI algorithms to comprehend code modifications and automatically generate relevant test scenarios.
+      3. Explore tools for AI-assisted test case generation.
+   2. _Dynamic Test Suite Optimization:_
+      1. Implement an AI-driven solution to dynamically optimize the test suite based on code changes.
+      2. Utilize machine learning models to identify test cases that need prioritization or skipping based on the impact of code modifications.
+      3. Ensure efficient resource utilization by dynamically adjusting the test suite.
+   3. _Production Environment Testing:_
+      1. Develop an automated testing pipeline tailored for the production environment.
+      2. Leverage AI to simulate real-world scenarios and user interactions, ensuring a production-like testing environment.
+      3. Implement AI algorithms to identify and prioritize critical test cases for the production environment.
+3. **Reference:** 
+   1. Non-profit organizations using Talawa may have budget constraints and limited computing resources. Consider open-source solutions and external sources that require minimal configuration and cost for AI-powered testing. It is essential to design the solution keeping in mind the resource limitations of the target user base.
+   2. We have been investigating products such as:
+      1. Diffblue Cover
+      2. Parasoft
+      3. TestPilot
+4. **Repos to Update:** Talawa-API, Talawa-Admin
+5. **Skills Required:** Code stacks related to repos above. See introduction section.
+6. **Depends on Project:** N/A
+7. **Project Size:** 175
+8. **Possible Mentors:** TBD
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
