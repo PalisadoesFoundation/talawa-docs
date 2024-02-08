@@ -3,10 +3,6 @@ id: gsoc-ideas
 title: GSoC Ideas
 ---
 
-**NOTE:** These ideas are subject to change at any time prior to us submitting our GSoC 2024 Organization application. Ideas may be added, removed or updated up to this time. 
-
-If we are accepted, there may be additions and minor modifications.
-
 ## Introduction
 
 Welcome to our ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
