@@ -189,7 +189,7 @@ Please read the `Research` section of this document for background information
 6. **Depends on Project:** N/A
 7. **Project Size:** 350
 8. **Possible Mentors:**
-   1. Tasneem Koushar - @tasneemkoushar (Primary)/Dominic Mills - @DMills27 (Primary)
+   1. Dominic Mills - @DMills27 (Primary)
    2. Shannika Jackson - @bonnie-23 (Secondary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
@@ -220,7 +220,7 @@ Please read the `Research` section of this document for background information
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** N/A
 7. **Project Size:** 175
-8. **Possible Mentors:** TBD
+8. **Possible Mentors:** Tasneem Koushar - @tasneemkoushar (Primary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
