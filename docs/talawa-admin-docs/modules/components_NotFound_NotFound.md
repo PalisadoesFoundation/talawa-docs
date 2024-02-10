@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/components/NotFound/NotFound.tsx:11](https://github.com/PalisadoesFoundation/talawa-admin/blob/f07248e/src/components/NotFound/NotFound.tsx#L11)
+[src/components/NotFound/NotFound.tsx:11](https://github.com/chandel-aman/talawa-admin/blob/fa2649b/src/components/NotFound/NotFound.tsx#L11)
