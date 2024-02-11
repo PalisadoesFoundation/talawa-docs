@@ -37,4 +37,4 @@ context of entire application
 
 #### Defined in
 
-[src/resolvers/Mutation/createUserFamily.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fa10711/src/resolvers/Mutation/createUserFamily.ts#L23)
+[src/resolvers/Mutation/createUserFamily.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/12ccdb6/src/resolvers/Mutation/createUserFamily.ts#L23)
