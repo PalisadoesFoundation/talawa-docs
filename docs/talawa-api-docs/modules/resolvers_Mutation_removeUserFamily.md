@@ -24,12 +24,16 @@ parent of current request
 
 payload provided with the request
 
-**`Context`**
+**`Param`**
 
-The following checks are done:
-1. If the user family exists
+context of entire application.
+
+**`Remarks`**
+
+- The following checks are done:
+1. If the user family exists.
 2. If the user is super admin.
 
 #### Defined in
 
-[src/resolvers/Mutation/removeUserFamily.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/b1dd6c9/src/resolvers/Mutation/removeUserFamily.ts#L19)
+[src/resolvers/Mutation/removeUserFamily.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/fa10711/src/resolvers/Mutation/removeUserFamily.ts#L20)
