@@ -360,5 +360,6 @@ Please read the `Research` section of this document for background information
 6. **Project Size:** 350
 7. **Possible Mentors:** TBD
    1. Tyrone Taylor - @ttaylor92 (Primary)
+   2. Ayush Chaudhary - @Ayush0Chaudhary
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory
