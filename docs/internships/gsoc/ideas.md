@@ -5,7 +5,7 @@ title: GSoC Ideas
 
 ## Introduction
 
-Welcome to our ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
+Welcome to our GSoC ideas page! Get familiar with our general philosophy by reading this section. The ideas follow afterwards.
 
 ### General Considerations
 
