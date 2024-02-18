@@ -9,6 +9,8 @@
 - [ActionItem](models.md#actionitem)
 - [ActionItemCategory](models.md#actionitemcategory)
 - [Advertisement](models.md#advertisement)
+- [AgendaCategoryModel](models.md#agendacategorymodel)
+- [AgendaCategorySchema](models.md#agendacategoryschema)
 - [CheckIn](models.md#checkin)
 - [Comment](models.md#comment)
 - [DirectChat](models.md#directchat)
@@ -16,6 +18,7 @@
 - [Donation](models.md#donation)
 - [Event](models.md#event)
 - [EventAttendee](models.md#eventattendee)
+- [EventVolunteer](models.md#eventvolunteer)
 - [Feedback](models.md#feedback)
 - [File](models.md#file)
 - [Group](models.md#group)
@@ -25,6 +28,7 @@
 - [InterfaceActionItem](models.md#interfaceactionitem)
 - [InterfaceActionItemCategory](models.md#interfaceactionitemcategory)
 - [InterfaceAdvertisement](models.md#interfaceadvertisement)
+- [InterfaceAgendaCategory](models.md#interfaceagendacategory)
 - [InterfaceCheckIn](models.md#interfacecheckin)
 - [InterfaceComment](models.md#interfacecomment)
 - [InterfaceDirectChat](models.md#interfacedirectchat)
@@ -32,6 +36,7 @@
 - [InterfaceDonation](models.md#interfacedonation)
 - [InterfaceEvent](models.md#interfaceevent)
 - [InterfaceEventAttendee](models.md#interfaceeventattendee)
+- [InterfaceEventVolunteer](models.md#interfaceeventvolunteer)
 - [InterfaceFeedback](models.md#interfacefeedback)
 - [InterfaceFile](models.md#interfacefile)
 - [InterfaceGroup](models.md#interfacegroup)
@@ -86,6 +91,18 @@ Re-exports [Advertisement](models_Advertisement.md#advertisement)
 
 ___
 
+### AgendaCategoryModel
+
+Re-exports [AgendaCategoryModel](models_AgendaCategory.md#agendacategorymodel)
+
+___
+
+### AgendaCategorySchema
+
+Re-exports [AgendaCategorySchema](models_AgendaCategory.md#agendacategoryschema)
+
+___
+
 ### CheckIn
 
 Re-exports [CheckIn](models_CheckIn.md#checkin)
@@ -125,6 +142,12 @@ ___
 ### EventAttendee
 
 Re-exports [EventAttendee](models_EventAttendee.md#eventattendee)
+
+___
+
+### EventVolunteer
+
+Re-exports [EventVolunteer](models_EventVolunteer.md#eventvolunteer)
 
 ___
 
@@ -182,6 +205,12 @@ Re-exports [InterfaceAdvertisement](../interfaces/models_Advertisement.Interface
 
 ___
 
+### InterfaceAgendaCategory
+
+Re-exports [InterfaceAgendaCategory](../interfaces/models_AgendaCategory.InterfaceAgendaCategory.md)
+
+___
+
 ### InterfaceCheckIn
 
 Re-exports [InterfaceCheckIn](../interfaces/models_CheckIn.InterfaceCheckIn.md)
@@ -221,6 +250,12 @@ ___
 ### InterfaceEventAttendee
 
 Re-exports [InterfaceEventAttendee](../interfaces/models_EventAttendee.InterfaceEventAttendee.md)
+
+___
+
+### InterfaceEventVolunteer
+
+Re-exports [InterfaceEventVolunteer](../interfaces/models_EventVolunteer.InterfaceEventVolunteer.md)
 
 ___
 
