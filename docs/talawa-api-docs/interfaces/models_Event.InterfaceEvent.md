@@ -14,22 +14,18 @@ This is an interface representing a document for an event in the database(MongoD
 - [admins](models_Event.InterfaceEvent.md#admins)
 - [allDay](models_Event.InterfaceEvent.md#allday)
 - [attendees](models_Event.InterfaceEvent.md#attendees)
-- [baseRecurringEventId](models_Event.InterfaceEvent.md#baserecurringeventid)
 - [createdAt](models_Event.InterfaceEvent.md#createdat)
 - [creatorId](models_Event.InterfaceEvent.md#creatorid)
 - [description](models_Event.InterfaceEvent.md#description)
 - [endDate](models_Event.InterfaceEvent.md#enddate)
 - [endTime](models_Event.InterfaceEvent.md#endtime)
-- [isBaseRecurringEvent](models_Event.InterfaceEvent.md#isbaserecurringevent)
 - [isPublic](models_Event.InterfaceEvent.md#ispublic)
-- [isRecurringEventException](models_Event.InterfaceEvent.md#isrecurringeventexception)
 - [isRegisterable](models_Event.InterfaceEvent.md#isregisterable)
 - [latitude](models_Event.InterfaceEvent.md#latitude)
 - [location](models_Event.InterfaceEvent.md#location)
 - [longitude](models_Event.InterfaceEvent.md#longitude)
 - [organization](models_Event.InterfaceEvent.md#organization)
 - [recurrance](models_Event.InterfaceEvent.md#recurrance)
-- [recurrenceRuleId](models_Event.InterfaceEvent.md#recurrenceruleid)
 - [recurring](models_Event.InterfaceEvent.md#recurring)
 - [startDate](models_Event.InterfaceEvent.md#startdate)
 - [startTime](models_Event.InterfaceEvent.md#starttime)
@@ -45,7 +41,7 @@ This is an interface representing a document for an event in the database(MongoD
 
 #### Defined in
 
-[src/models/Event.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L12)
+[src/models/Event.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L10)
 
 ___
 
@@ -55,7 +51,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L33)
+[src/models/Event.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L27)
 
 ___
 
@@ -65,7 +61,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L24)
+[src/models/Event.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L18)
 
 ___
 
@@ -75,17 +71,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L15)
-
-___
-
-### baseRecurringEventId
-
-• **baseRecurringEventId**: `any`
-
-#### Defined in
-
-[src/models/Event.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L23)
+[src/models/Event.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L13)
 
 ___
 
@@ -95,7 +81,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L36)
+[src/models/Event.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L30)
 
 ___
 
@@ -105,7 +91,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L32)
+[src/models/Event.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L26)
 
 ___
 
@@ -115,7 +101,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L14)
+[src/models/Event.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L12)
 
 ___
 
@@ -125,7 +111,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L26)
+[src/models/Event.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L20)
 
 ___
 
@@ -135,17 +121,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L28)
-
-___
-
-### isBaseRecurringEvent
-
-• **isBaseRecurringEvent**: `boolean`
-
-#### Defined in
-
-[src/models/Event.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L21)
+[src/models/Event.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L22)
 
 ___
 
@@ -155,17 +131,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L30)
-
-___
-
-### isRecurringEventException
-
-• **isRecurringEventException**: `boolean`
-
-#### Defined in
-
-[src/models/Event.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L20)
+[src/models/Event.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L24)
 
 ___
 
@@ -175,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L31)
+[src/models/Event.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L25)
 
 ___
 
@@ -185,7 +151,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L17)
+[src/models/Event.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L15)
 
 ___
 
@@ -195,7 +161,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L16)
+[src/models/Event.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L14)
 
 ___
 
@@ -205,7 +171,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L18)
+[src/models/Event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L16)
 
 ___
 
@@ -215,7 +181,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L34)
+[src/models/Event.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L28)
 
 ___
 
@@ -225,17 +191,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L29)
-
-___
-
-### recurrenceRuleId
-
-• **recurrenceRuleId**: `any`
-
-#### Defined in
-
-[src/models/Event.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L22)
+[src/models/Event.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L23)
 
 ___
 
@@ -245,7 +201,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L19)
+[src/models/Event.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L17)
 
 ___
 
@@ -255,7 +211,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L25)
+[src/models/Event.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L19)
 
 ___
 
@@ -265,7 +221,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L27)
+[src/models/Event.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L21)
 
 ___
 
@@ -275,7 +231,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L35)
+[src/models/Event.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L29)
 
 ___
 
@@ -285,7 +241,7 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L13)
+[src/models/Event.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L11)
 
 ___
 
@@ -295,4 +251,4 @@ ___
 
 #### Defined in
 
-[src/models/Event.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/Event.ts#L37)
+[src/models/Event.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/Event.ts#L31)

@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/TagUser.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/TagUser.ts#L35)
+[src/models/TagUser.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/models/TagUser.ts#L32)

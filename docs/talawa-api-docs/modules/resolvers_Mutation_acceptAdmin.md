@@ -30,10 +30,10 @@ context of entire application
 
 **`Remarks`**
 
-The following checks are done:
+THe following checks are done:
 1. Whether the user exists
 2. Whether the user accepting the admin request is a superadmin or not.
 
 #### Defined in
 
-[src/resolvers/Mutation/acceptAdmin.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/resolvers/Mutation/acceptAdmin.ts#L15)
+[src/resolvers/Mutation/acceptAdmin.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/cf57ca9/src/resolvers/Mutation/acceptAdmin.ts#L15)
