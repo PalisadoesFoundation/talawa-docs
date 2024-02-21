@@ -351,23 +351,6 @@ Please read the `Research` section of this document for background information
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Core development, Risky/Exploratory
 
-### Event Parity - Talawa Mobile
-
-1. **Description:** We have recently added many new features to the API to that enhance event management. These are not reflected in our mobile app. 2. **Expected Outcomes:** 
-   1. **Requirements:** Your proposal must meet the guidelines below. It must:
-      1. Provide user feature parity with the Talawa Admin User Portal for event management.
-      2. Not add any Admin or Super Admin features. These must remain solely in the Talawa-Admin web app.
-   2. **Other:** 
-      1. The challenge will be in creating an intuitive UI/UX to make these features desirable. The UI/UX must conform with our design guide and Figma files found here: https://docs.talawa.io/docs/design/ux/ux-design-system
-      2. Significant updates to this feature were added to Talawa API in the past year. We welcome GitHub issues to verify and rectify the expected functionality of this API support during the GSoC evaluation period.
-2. **Repos to update:** Talawa, Talawa-API
-3. **Skills Required:** Code stacks related to repos above. See introduction section.
-4. **Depends on Project:** N/A
-5. **Project Size:** 350
-6. **Possible Mentors:** TBD
-7. **Difficulty:** Medium
-8.  **Impact Definition:** Risky/Exploratory
-
 ### Hybrid: Hybrid Innovation
 
 1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
