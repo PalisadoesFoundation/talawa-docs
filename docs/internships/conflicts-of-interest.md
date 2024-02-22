@@ -17,16 +17,24 @@ The conflicts that we are most concerned with are listed here:
 
 ### Candidates
 
-If you personally know anyone in the Palisadoes Foundation GitHub community who can assign issues or merge PRs then they must not:
+Our volunteers are required to conduct themselves at all times in accordance with good professional judgment in accordance with our stated code of conduct guidelines.
 
-1. Formally evaluate your internship proposals
-2. Assign issues to you
-3. Review your pull requests
-4. Merge your pull requests
+We also expect them to not create a conflict of interest or the appearance of such conflict in our internship selection process.  This means they must refrain from entering into any particular transaction or establishing any relationship with others if our organization’s goals are or may be impaired.
 
-We also err on the side of caution and therefore apply these criteria to persons currently attending the same educational institutions and/or working with the same companies.
+Additional safeguards in our internship review process requires our volunteers to recuse themselves from evaluating application proposals where reviewers and applicants share a current employer or current academic institution, or be at risk of nepotism.
+
+We err on the side of caution, so this means that if the said volunteer can assign issues or merge PRs then they must not:
+
+1. Assign issues to you
+1. Review your pull requests
+1. Merge your pull requests
 
 It's important that all candidates are evaluated on the merit of their contributions and proposals as objectively as possible.
+
+To further ensure this impartiality ideal:
+
+1. We will not review applications from persons who previously attended internship planning meetings, or were part of our internship mentor groups. 
+2. We require internship candidates to refrain from formally approving PRs (As of our GSoC 2024 participation date)
 
 ### Mentors
 
