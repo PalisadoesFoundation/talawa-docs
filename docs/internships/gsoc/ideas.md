@@ -138,7 +138,6 @@ Please read the `Research` section of this document for background information
 7. **Project Size:** 350 hours (Large)
 8. **Possible Mentors:** 
    1. Aashima Wadhwa - @aashimawadhwa (Primary)
-   2. Eshaan Aggarwal - @EshaanAgg (Secondary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Core development
 
