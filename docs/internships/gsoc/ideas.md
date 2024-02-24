@@ -342,7 +342,8 @@ Please read the `Research` section of this document for background information
 4. **Depends on Project:** N/A
 5. **Project Size:** 350
 6. **Possible Mentors:** TBD
-   1. Md Noman Khan - @noman2002 (Primary), Mikey Lue - @JamaicanFriedChicken
+   1. Md Noman Khan - @noman2002 (Primary)
+   2. Mikey Lue - @JamaicanFriedChicken (Secondary)
 7. **Difficulty:** Medium
 8.  **Impact Definition:** Core development
 
@@ -360,6 +361,6 @@ Please read the `Research` section of this document for background information
 6. **Project Size:** 350
 7. **Possible Mentors:** TBD
    1. Tyrone Taylor - @ttaylor92 (Primary)
-   2. Ayush Chaudhary - @Ayush0Chaudhary
+   2. Ayush Chaudhary - @Ayush0Chaudhary (Secondary)
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory

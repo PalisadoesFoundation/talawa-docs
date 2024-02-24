@@ -6,8 +6,7 @@ title: Selection Criteria
 
 Each applicant to The Palisadoes Foundation’s Talawa programs will be assessed using the following criteria
 
-1. Previous Contributions to the Talawa repositories
-    1. This includes contribution before the selection period officially starts
+1. Contributions to the Talawa repositories
 2. Communication Skills
 3. Proposal Quality and End User Impact
 4. Technical Knowledge & Skill
@@ -20,21 +19,22 @@ Read this carefully.
 
 ### Contributions
 
-We will consider your previous contributions to the relevant Talawa repositories. Factors include:
+Contribution evaluation factors include:
 
- 1. The quality of Issues and Pull Requests (PR)
+1. Higher weighting to recent contributions, especially those done during formal evaluation periods as in the GSoC and Calico programs.
+2. The quality of Issues and Pull Requests (PR)
     1. We consider the person’s displayed competence in the code base. Consistent meaningful PR contributions show commitment and hence value. You are much better served submitting fewer, higher quality PRs that showcase your abilities.
-    1. Focus on the priorities stated in our `Getting Started - Developers` YouTube channel playlist.
-    2. Don't submit low quality Issues and PRs. These are **ignored** when assessing participants. Do not get a reputation for doing this. 
- 1. The impact of your merged PRs to our software.
+    2. Focus on the priorities stated in our `Getting Started - Developers` YouTube channel playlist.
+    3. Don't submit low quality Issues and PRs. These are **ignored** when assessing participants. Do not get a reputation for doing this. 
+3. The impact of your merged PRs to our software.
 
 In summary be a conscientious contributor to our long term goals of sustainable software development for the unmet needs of community based organizations.
 
-## Proposals
+### Proposals
 
 The quality of the submitted proposals are important.
 
-### Communication Skills
+#### Communication Skills
 
 We value collaboration greatly. Therefore, the value of your participation in the community will be assessed. This includes your:
  1. Behavior and Attitude toward mentors and other contributors
@@ -48,11 +48,11 @@ We value collaboration greatly. Therefore, the value of your participation in th
 
 Our contributors are spread out around the globe from cultures and backgrounds unknown to you. Each repository has a CODE_OF_CONDUCT.md file outlining additional steps you can take to be a better participant.
 
-### The End User Perspective
+#### The End User Perspective
 
 We highly value proposals that consider practicability, long term support, usability, and the perceived value to both the administrator and user. Limiting your solution to only the desired outcome discussion points will not give you an advantage.
 
-### Innovation
+#### Innovation
 
 Our ideas list gives an outline of what we'd like to see implemented, but do not limit your proposal to this bare minimum. Copying feature functionality from other sources without improving upon them is insufficient, Talawa must always be better. Expand on the possibilities to meet our innovation requirements. We greatly value innovative features and approaches.
 
@@ -75,7 +75,7 @@ Innovation behind the scenes should cover:
 
 Talawa is an open source project with mostly documentation as a technical support resource. The ease of use will always need to be considered.
 
-### Technical Knowledge and Skill
+#### Technical Knowledge and Skill
 
 You should have experience in the technologies we use in the projects. You will not be effective without it. We therefore expect:
 
@@ -110,19 +110,21 @@ We expect that:
 
 Without these prerequisites you will not be successful.
 
-### Proposals
+### Focus Areas
 
-These are some general areas of focus for our application. Participants must clearly outline which areas they are interested in under the following. Participants will be assessed on multiple areas such as:
+These are some general focus areas for our applications by repository.
 
-1. Talawa Front End
+1. Talawa Front End (Web & Mobile)
     1. UI/UX designs & reviews
     2. Development of UI
     3. Development of Features & Functions
+    2. GraphQL
+    3. Security
 2. Talawa API Backend
-    1. MongoDB Database
-    2. NodeJS
-    3. GraphQL
-    4. Security
+    1. MERN stack
+    2. GraphQL
+    3. Security
+    4. Performance
 3. Talawa Admin Web Portal
     1. TypeScript
     2. GraphQL
