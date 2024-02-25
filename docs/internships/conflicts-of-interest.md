@@ -44,10 +44,6 @@ In cases where our volunteer contributors apply to our internship programs:
    1. Assign issues
    2. Review pull requests
    3. Merge pull requests
-3. If they are successful candidates, we ask them not to:
-   1. Assign issues
-   2. Review pull requests
-   3. Merge pull requests
 
 We apply the same evaluation criteria to these participants
 
