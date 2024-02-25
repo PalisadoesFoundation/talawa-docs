@@ -19,7 +19,7 @@ The conflicts that we are most concerned with are listed here:
 
 Our volunteers are required to conduct themselves at all times in accordance with good professional judgment in accordance with our stated code of conduct guidelines.
 
-We also expect them to not create a conflict of interest or the appearance of such conflict in our internship selection process.  This means they must refrain from entering into any particular transaction or establishing any relationship with others if our organization’s goals are or may be impaired.
+We also expect them to not create a conflict of interest or the appearance of such conflict in our internship selection process. This means they must refrain from entering into any particular transaction or establishing any relationship with others if our organization’s goals are or may be impaired.
 
 Additional safeguards in our internship review process requires our volunteers to recuse themselves from evaluating application proposals where reviewers and applicants share a current employer or current academic institution, or be at risk of nepotism.
 
@@ -31,10 +31,25 @@ We err on the side of caution, so this means that if the said volunteer can assi
 
 It's important that all candidates are evaluated on the merit of their contributions and proposals as objectively as possible.
 
-To further ensure this impartiality ideal:
+We abide by the rules of our donors and where the rules are not explicit we try to abide by the donor's overall goals.
 
-1. We will not review applications from persons who previously attended internship planning meetings, or were part of our internship mentor groups. 
-2. We require internship candidates to refrain from formally approving PRs (As of our GSoC 2024 participation date)
+Our internships are open to all, unless otherwise stated. 
+
+In cases where our volunteer contributors apply to our internship programs:
+
+1. We ensure that as of the start of the evaluation period they:
+   1. Don't attend internship mentor meetings 
+   2. Participate in mentor specific communications
+2. During evaluation period we ask them not to:
+   1. Assign issues
+   2. Review pull requests
+   3. Merge pull requests
+3. If they are successful candidates, we ask them not to:
+   1. Assign issues
+   2. Review pull requests
+   3. Merge pull requests
+
+We apply the same evaluation criteria to these participants
 
 ### Mentors
 
