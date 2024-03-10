@@ -346,6 +346,33 @@ Please read the `Research` section of this document for background information
 7. **Difficulty:** Medium
 8.  **Impact Definition:** Core development
 
+### Offline Capability Enhancement - Talawa Mobile
+
+1. **Description:** Talawa's mobile application currently lacks robust offline capabilities, unlike many other social media apps. This compromises the app's stability and reliability. Additionally, the absence of a proper app state caching mechanism leads to performance issues and unnecessary network usage overhead.
+
+2. **Expected Outcomes:**
+   1. Your proposal should focus on enhancing Talawa Mobile's offline capabilities to achieve feature parity with other social media platforms.
+   1. The solution should include:
+  	   1. Implementing offline functionality that gracefully handles offline situations, allowing users to seamlessly interact with the app and cache their actions and app state locally.
+  	   1. Synchronizing user actions and app state with the server once the app regains connectivity.
+  	   1. Implementing a robust caching mechanism throughout the app to enhance user experience, reduce internet usage overhead, and improve performance.
+
+   1. Integrate chat in the mobile app.
+
+ **Other Considerations:**
+   1. Creating an intuitive UI/UX to make the offline features desirable is a significant challenge. The UI/UX must align with Talawa's design guide and Figma files, which can be found [here](https://docs.talawa.io/docs/design/ux/ux-design-system).
+   
+ Note:  Ensure that the proposed features do not include any Admin or Super Admin functionalities, which should remain exclusive to the Talawa-Admin web app.
+
+3. **Repos to Update:** Talawa, Talawa-API
+4. **Skills Required:** Proficiency in the code stacks related to the Talawa and Talawa-API repositories. Refer to the introduction section for more details.
+5. **Depends on Project:** N/A
+6. **Project Size:** 350
+7. **Possible Mentors:** Md Noman Khan (Primary)
+8. **Difficulty:** Medium
+9. **Impact Definition:** Risky/Exploratory
+
+
 ### Hybrid: Hybrid Innovation
 
 1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
