@@ -256,6 +256,20 @@ const sidebars = {
 
         {
           type: "category",
+          label: "Calico",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            "internships/calico/calico-introduction",
+            "internships/calico/calico-ideas",
+            "internships/calico/calico-application-process",
+          ],
+        },
+        
+        {
+          type: "category",
           label: "Palisadoes",
           link: {
             type: "generated-index",

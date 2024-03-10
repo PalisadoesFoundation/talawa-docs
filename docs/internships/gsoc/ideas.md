@@ -41,9 +41,8 @@ We also welcome any other ideas that we could use. Please review the "Desired Fe
 Many of you reading this page are interested in participating in our various internship programs (eg. Google Summer of Code, GitHub Externship, Google Summer of Docs, Outreachy, etc.).
 
 1. Make sure to read the relevant `Introduction` and `Application Guide`/ `Contribution Process` pages first.
-   1. GSoC:
-      1. [GSoC Introduction](./gsoc-introduction).
-      2. [GSoC Application Guide](./gsoc-application-process).
+   1. [GSoC Introduction](./gsoc-introduction).
+   2. [GSoC Application Guide](./gsoc-application-process).
 2. Review the [Selection Criteria](../internship-selection-criteria) to ensure you meet all the requirements for a good proposal.
 3. Use the [Application Template](../internship-application-template) as a guide to formatting your application. The tips on this page are very important.
 
@@ -296,7 +295,7 @@ Please read the `Research` section of this document for background information
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6. **Project Size:** 350 hours (Large)
-7. **Possible Mentors:** TBD
+7. **Possible Mentors:**
    1. Shannika Jackson - @bonnie-23 (Primary)
    2. Dominic Mills - @DMills27 (Secondary)
 8.  **Difficulty:** Medium
@@ -340,7 +339,7 @@ Please read the `Research` section of this document for background information
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
 4. **Depends on Project:** N/A
 5. **Project Size:** 350
-6. **Possible Mentors:** TBD
+6. **Possible Mentors:**
    1. Md Noman Khan - @noman2002 (Primary)
    2. Mikey Lue - @JamaicanFriedChicken (Secondary)
 7. **Difficulty:** Medium
@@ -385,7 +384,7 @@ Please read the `Research` section of this document for background information
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
 6. **Project Size:** 350
-7. **Possible Mentors:** TBD
+7. **Possible Mentors:**
    1. Tyrone Taylor - @ttaylor92 (Primary)
    2. Ayush Chaudhary - @Ayush0Chaudhary (Secondary)
 8. **Difficulty:** Medium
