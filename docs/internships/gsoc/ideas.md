@@ -375,11 +375,12 @@ Please read the `Research` section of this document for background information
 ### Hybrid: Hybrid Innovation
 
 1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
-2. **Expected Outcomes:** Your proposal must meet the guidelines below. They must:
+2. **Expected Outcomes:** Your proposal must meet the guidelines below. It must:
    1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
    1. Add completely new features not previously stated in ideas.
    1. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
-   1. Justify 350 hours of work.
+   2. Be suitable for use by a non-profit organization
+   3. Justify 350 hours of work.
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
