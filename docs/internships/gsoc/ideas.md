@@ -379,7 +379,8 @@ Please read the `Research` section of this document for background information
    1. Not depend on other participants. There should be minimal impact by other participants disappearing or doing a very bad or very good job.
    1. Add completely new features not previously stated in ideas.
    1. Create features that users will want or facilitate new features that will be the groundwork for features that they would want.
-   2. Be suitable for use by a non-profit organization
+   2. Be suitable for use by most non-profit organization.
+      1. We are not interested in membership subscriptions and any related financial management at this time.
    3. Justify 350 hours of work.
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
