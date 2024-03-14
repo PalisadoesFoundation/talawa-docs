@@ -136,6 +136,71 @@ Please read the `Research` section of this document for background information
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Core development
 
+### Mobile App Redesign
+
+1. **Description:** We aim to redesign the Talawa mobile app to provide users with an enhanced and cohesive user experience. This redesign will align with our UI/UX design philosophy, ensuring consistency and usability across all platforms.
+   1. Many of our Admin and User portal screen designs have not been converted to this new UI/UX.
+   2. The new designs for many of these screens have not yet been created
+2. **Expected Outcomes:**
+     1. Create new designs for the mobile app screens based on our official Figma designs, ensuring consistency with the Admin UI redesign.
+     2. Write code to implement the redesigned screens and functionalities into the Talawa mobile app.
+     3. Address any API-related errors or updates needed in the Talawa-API repository to support the redesigned mobile app.
+3. **Other:** Feel free to create GitHub issues to demonstrate your capabilities regarding new designs. This would include:
+   1. An image or Figma link to the proposed page design
+   2. An expectation that you will code the design, submit a PR and have it merged during the evaluation period. Include this in your application.
+4. **References:**
+   1. Our [Design System page](../../design/ux/design_system.md).
+5. **Repos to update:**
+   - Talawa-Mobile
+   - Talawa-API (if API-related changes are required)
+6. **Skills Required:** Code stacks related to repos above. See introduction section.
+7. **Depends on Project:** N/A
+8. **Possible Mentors:** TBD
+9.  **Difficulty:** Medium
+10. **Impact Definition:** Core development
+
+### Improving State Management, Globalizing States, and Standardizing Authentication and Authorization in Talawa Admin
+
+1. **Description:** 
+In addition to improving state management and globalizing states, this project will also focus on fixing and standardizing authentication and authorization mechanisms in Talawa Admin. By ensuring robust authentication and authorization processes, we aim to enhance the security and usability of the application.
+2. **Expected Outcomes:**
+   1. **Authentication Improvement**:
+      - Review the current authentication flow and identify any vulnerabilities or weaknesses.
+      - Implement industry-standard authentication methods such as JWT (JSON Web Tokens) for secure user authentication.
+      - Enhance authentication workflows to support features like multi-factor authentication (MFA) for added security.
+      - Integrate with authentication providers like OAuth or OpenID Connect for seamless authentication experiences.
+
+   2. **Authorization Standardization**:
+      - Evaluate the existing authorization mechanisms across different modules of Talawa Admin.
+      - Establish a standardized approach for role-based access control (RBAC) to manage user permissions effectively.
+      - Implement granular access control lists (ACLs) where necessary to fine-tune user permissions.
+      - Ensure consistent authorization checks throughout the application to prevent unauthorized access to sensitive data or functionalities.
+
+   3. **Integration with State Management**:
+      - Integrate authentication and authorization states seamlessly with the overall state management architecture.
+      - Ensure that user authentication and authorization status are properly managed and reflected across the application's UI components.
+      - Implement Redux middleware or Context API to manage authentication and authorization states efficiently alongside other application states.
+3. **Other:**
+   - Create GitHub issues to track authentication and authorization-related tasks and improvements.
+   - Collaborate with security experts or conduct security audits to identify and address any potential vulnerabilities.
+   - Document authentication and authorization processes and best practices for future reference and onboarding of new team members.
+
+4. **References:** 
+   - Refer to industry best practices and security standards for authentication and authorization implementations.
+   - Utilize insights from Talawa's Design System page to ensure consistency with UI/UX design philosophy.
+5. **Repos to update:**
+   - Talawa-Admin
+   - Talawa-API (if API-related changes are required)
+6. **Skills Required:** 
+   - Proficiency in authentication protocols and standards such as JWT, OAuth, and OpenID Connect.
+   - Experience with role-based access control (RBAC) and access control lists (ACLs).
+   - Familiarity with security principles and best practices for web applications.
+   - Strong understanding of JavaScript/TypeScript, React, Redux, Context API, and Redux Saga for seamless integration with state management.
+7. **Depends on Project:** N/A
+8. **Possible Mentors:** TBD
+9.  **Difficulty:** Medium to High
+10. **Impact Definition:** Core development, as fixing and standardizing authentication and authorization processes will significantly enhance the security posture and user trust in Talawa Admin.
+
 ### Hybrid: Hybrid Innovation
 
 1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
