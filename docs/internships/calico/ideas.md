@@ -201,6 +201,28 @@ In addition to improving state management and globalizing states, this project w
 9.  **Difficulty:** Medium to High
 10. **Impact Definition:** Core development, as fixing and standardizing authentication and authorization processes will significantly enhance the security posture and user trust in Talawa Admin.
 
+### Refactor Codebase - Admin and API
+
+This project idea will be expanded to include the API which has some refactoring challenges too.
+
+1. **Description:** Our Typescript repositories need to be refactored for standardization and industry best practices
+2. **Expected Outcomes:** 
+   1. **Talawa-Admin:**
+      1. Testing:
+         1. Test files are found under the `src/` directory beside the files they are testing.
+         2. This repository's testing directory structure needs to match that of Talawa-API where test files are located:
+            1. Under the `test/` directory 
+            2. In subdirectory trees that match that of the file under test. A file under test named `src/path/to/file/under/test/file.tsx` would have its test file moved to `test/path/to/file/under/test/file.test.tsx`
+         3. All affected tests must pass and be valid
+3. **References:**
+   1. N/A
+4. **Repos to update:** Talawa-Admin, Talawa-API
+5. **Skills Required:** Code stacks related to repos above. See introduction section.
+6. **Depends on Project:** N/A
+7. **Possible Mentors:** TBD
+8.  **Difficulty:** Medium
+9.  **Impact Definition:** Core development
+
 ### Hybrid: Hybrid Innovation
 
 1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
