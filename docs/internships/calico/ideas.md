@@ -201,19 +201,24 @@ In addition to improving state management and globalizing states, this project w
 9.  **Difficulty:** Medium to High
 10. **Impact Definition:** Core development, as fixing and standardizing authentication and authorization processes will significantly enhance the security posture and user trust in Talawa Admin.
 
-### Refactor Codebase - Admin and API
-
-This project idea will be expanded to include the API which has some refactoring challenges too.
+### Refactor the Talawa-Admin Codebase
 
 1. **Description:** Our Typescript repositories need to be refactored for standardization and industry best practices
 2. **Expected Outcomes:** 
-   1. **Talawa-Admin:**
-      1. Testing:
-         1. Test files are found under the `src/` directory beside the files they are testing.
-         2. This repository's testing directory structure needs to match that of Talawa-API where test files are located:
-            1. Under the `test/` directory 
-            2. In subdirectory trees that match that of the file under test. A file under test named `src/path/to/file/under/test/file.tsx` would have its test file moved to `test/path/to/file/under/test/file.test.tsx`
-         3. All affected tests must pass and be valid
+   1. **Testing:**
+      1. Test files are currently found under the `src/` directory beside the files they are testing.
+      2. This repository's testing directory structure needs to match that of Talawa-API where test files are located:
+         1. Under the `test/` directory 
+         2. In subdirectory trees that match that of the file under test. A file under test named `src/path/to/file/under/test/file.tsx` would have its test file moved to `test/path/to/file/under/test/file.test.tsx`
+      3. All affected tests must pass and be valid
+   2. **Code Comments:**
+      1. Not all our code files have comments that explain what the code does. We need to add them to every part of our code, especially at the beginning of each file. This will help everyone understand how things work and make it easier to work together.
+   3. **Standardize Components:**
+      1. We need to make our screens consistent by using common components more often. For example, we have many non-standard input fields, dropdowns, and date pickers. There are many more opportunities that you will find.
+      2. All affected tests must pass and be valid
+   4. **Query Filtering:**
+      1. Many of the queries used by the app download all data from the API and then filters the results. This is not scalable when the app supports large numbers of users and organizations. We need to adjust all queries to use the built-in GraphQL filtering of the API.
+      2. All affected tests must pass and be valid
 3. **References:**
    1. N/A
 4. **Repos to update:** Talawa-Admin, Talawa-API
