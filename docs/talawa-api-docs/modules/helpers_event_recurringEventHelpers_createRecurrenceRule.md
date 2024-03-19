@@ -43,4 +43,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts#L25)
+[src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts:25](https://github.com/adi790uu/talawa-api/blob/5146430/src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts#L25)

@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L22)
+[src/models/RecurrenceRule.ts:22](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L22)
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L18)
+[src/models/RecurrenceRule.ts:18](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L18)
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L23)
+[src/models/RecurrenceRule.ts:23](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L23)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L17)
+[src/models/RecurrenceRule.ts:17](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L17)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L21)
+[src/models/RecurrenceRule.ts:21](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L21)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L19)
+[src/models/RecurrenceRule.ts:19](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L19)
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/RecurrenceRule.ts#L20)
+[src/models/RecurrenceRule.ts:20](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/RecurrenceRule.ts#L20)
