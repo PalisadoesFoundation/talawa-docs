@@ -228,6 +228,22 @@ In addition to improving state management and globalizing states, this project w
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Core development
 
+### Identify and Rectify Security Vulnerabilities - API & Admin
+
+1. **Description:** Our Typescript repositories have never had a code review to identify and rectify security vulnerabilities in the packages used, code base and data storage according to industry best practices
+2. **Expected Outcomes:** 
+   1. Identify meaningful vulnerabilities that must be rectified and implement the changes required.
+   2. Identify PII information stored in the database and ensure that it is secure from malicious attack.
+   3. Identify and rectify meaningful ways of mitigating DDOS and brute force attacks on the applications
+3. **References:**
+   1. Your proposal must identify specific areas for improvement and a plan for you to rectify them during the course of Calico
+4. **Repos to update:** Talawa-Admin, Talawa-API
+5. **Skills Required:** Code stacks related to repos above. See introduction section.
+6. **Depends on Project:** N/A
+7. **Possible Mentors:** TBD
+8.  **Difficulty:** Medium
+9.  **Impact Definition:** Core development
+
 ### Hybrid: Hybrid Innovation
 
 1. **Description:** Do the ideas need something more? What completely new thoughts could be applied to the existing ideas? If you have answers to these questions then this section is for you.
