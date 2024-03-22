@@ -31,7 +31,7 @@ converted date string.
 
 #### Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/utilities/recurrenceDatesUtil.ts#L24)
+[src/utilities/recurrenceDatesUtil.ts:24](https://github.com/adi790uu/talawa-api/blob/5146430/src/utilities/recurrenceDatesUtil.ts#L24)
 
 ___
 
@@ -55,4 +55,4 @@ converted date.
 
 #### Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/utilities/recurrenceDatesUtil.ts#L7)
+[src/utilities/recurrenceDatesUtil.ts:7](https://github.com/adi790uu/talawa-api/blob/5146430/src/utilities/recurrenceDatesUtil.ts#L7)

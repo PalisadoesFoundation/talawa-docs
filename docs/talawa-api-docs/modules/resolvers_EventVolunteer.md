@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/EventVolunteer/index.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/resolvers/EventVolunteer/index.ts#L6)
+[src/resolvers/EventVolunteer/index.ts:6](https://github.com/adi790uu/talawa-api/blob/5146430/src/resolvers/EventVolunteer/index.ts#L6)

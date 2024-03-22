@@ -24,4 +24,4 @@ An object that contains `id` of the Event.
 
 #### Defined in
 
-[src/resolvers/Query/eventVolunteersByEvent.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/resolvers/Query/eventVolunteersByEvent.ts#L9)
+[src/resolvers/Query/eventVolunteersByEvent.ts:9](https://github.com/adi790uu/talawa-api/blob/5146430/src/resolvers/Query/eventVolunteersByEvent.ts#L9)

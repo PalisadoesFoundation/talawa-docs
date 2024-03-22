@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/AgendaCategory.ts#L65)
+[src/models/AgendaCategory.ts:65](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/AgendaCategory.ts#L65)
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • `Const` **AgendaCategorySchema**: `Schema`\<`Document`\<`any`, `any`, `any`\>, `Model`\<`Document`\<`any`, `any`, `any`\>, `any`, `any`\>, `undefined`, \{\}\>
 
-This is the Mongoose schema for an agenda category.
+This is the Mongoose schema for an agenda category (test-change).
 
 **`Param`**
 
@@ -61,4 +61,4 @@ Date when the agenda category was last updated.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/AgendaCategory.ts#L27)
+[src/models/AgendaCategory.ts:27](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/AgendaCategory.ts#L27)

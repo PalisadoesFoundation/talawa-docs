@@ -38,4 +38,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L15)
+[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:15](https://github.com/adi790uu/talawa-api/blob/5146430/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L15)
