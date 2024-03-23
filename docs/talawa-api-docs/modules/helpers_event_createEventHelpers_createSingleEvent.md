@@ -40,4 +40,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/createEventHelpers/createSingleEvent.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/helpers/event/createEventHelpers/createSingleEvent.ts#L19)
+[src/helpers/event/createEventHelpers/createSingleEvent.ts:19](https://github.com/adi790uu/talawa-api/blob/5146430/src/helpers/event/createEventHelpers/createSingleEvent.ts#L19)

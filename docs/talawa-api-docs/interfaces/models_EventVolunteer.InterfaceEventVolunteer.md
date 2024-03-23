@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L8)
+[src/models/EventVolunteer.ts:8](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L8)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L9)
+[src/models/EventVolunteer.ts:9](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L9)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L10)
+[src/models/EventVolunteer.ts:10](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L10)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L11)
+[src/models/EventVolunteer.ts:11](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L11)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L12)
+[src/models/EventVolunteer.ts:12](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L12)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L13)
+[src/models/EventVolunteer.ts:13](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L13)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L14)
+[src/models/EventVolunteer.ts:14](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L14)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L15)
+[src/models/EventVolunteer.ts:15](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L15)
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/models/EventVolunteer.ts#L16)
+[src/models/EventVolunteer.ts:16](https://github.com/adi790uu/talawa-api/blob/5146430/src/models/EventVolunteer.ts#L16)

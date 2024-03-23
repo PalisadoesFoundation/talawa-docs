@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/removeUserFromUserFamily.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/resolvers/Mutation/removeUserFromUserFamily.ts#L25)
+[src/resolvers/Mutation/removeUserFromUserFamily.ts:25](https://github.com/adi790uu/talawa-api/blob/5146430/src/resolvers/Mutation/removeUserFromUserFamily.ts#L25)

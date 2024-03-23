@@ -4,6 +4,10 @@
 
 ## Table of contents
 
+### Interfaces
+
+- [InterfaceRecurringEvent](../interfaces/helpers_event_recurringEventHelpers_generateRecurringEventInstances.InterfaceRecurringEvent.md)
+
 ### Functions
 
 - [generateRecurringEventInstances](helpers_event_recurringEventHelpers_generateRecurringEventInstances.md#generaterecurringeventinstances)
@@ -26,4 +30,4 @@
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/9cb91bb/src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts#L42)
+[src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts:44](https://github.com/adi790uu/talawa-api/blob/5146430/src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts#L44)
