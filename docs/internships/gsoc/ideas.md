@@ -335,9 +335,11 @@ Please read the `Research` section of this document for background information
    2. **Other:** 
       1. The challenge will be in creating an intuitive UI/UX to make these features desirable. The UI/UX must conform with our design guide and Figma files found here: https://docs.talawa.io/docs/design/ux/ux-design-system
       2. Significant updates to this feature were added to Talawa API in the past year. We welcome GitHub issues to verify and rectify the expected functionality of this API support during the GSoC evaluation period.
+      3. Implemet fundraising campaigns. 
+      4. Implement tags in the mobile app. 
 2. **Repos to update:** Talawa, Talawa-API
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
-4. **Depends on Project:** N/A
+4. **Depends on Project:** User Tag Management
 5. **Project Size:** 350
 6. **Possible Mentors:**
    1. Md Noman Khan - @noman2002 (Primary)
@@ -365,7 +367,7 @@ Please read the `Research` section of this document for background information
 
 3. **Repos to Update:** Talawa, Talawa-API
 4. **Skills Required:** Proficiency in the code stacks related to the Talawa and Talawa-API repositories. Refer to the introduction section for more details.
-5. **Depends on Project:** N/A
+5. **Depends on Project:** Self Hosted Chat and Notifications
 6. **Project Size:** 350
 7. **Possible Mentors:** Md Noman Khan (Primary)
 8. **Difficulty:** Medium
