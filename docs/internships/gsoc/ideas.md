@@ -208,6 +208,8 @@ Please read the `Research` section of this document for background information
       1. Develop an automated testing pipeline tailored for the production environment.
       2. Leverage AI to simulate real-world scenarios and user interactions, ensuring a production-like testing environment.
       3. Implement AI algorithms to identify and prioritize critical test cases for the production environment.
+   4. _End to End Testing:_
+      1. We need a way to test the applications end to end for the correct functionality. Our merged PRs often cause functionality to break in ways not dectectable by our unit testsing.
 3. **Reference:** 
    1. Non-profit organizations using Talawa may have budget constraints and limited computing resources. Consider open-source solutions and external sources that require minimal configuration and cost for AI-powered testing. It is essential to design the solution keeping in mind the resource limitations of the target user base.
    2. We have been investigating products such as:
@@ -217,7 +219,7 @@ Please read the `Research` section of this document for background information
 4. **Repos to Update:** Talawa-API, Talawa-Admin
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** N/A
-7. **Project Size:** 175
+7. **Project Size:** 350 hours (Large)
 8. **Possible Mentors:** Tasneem Koushar - @tasneemkoushar (Primary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
