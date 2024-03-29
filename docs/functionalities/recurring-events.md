@@ -164,8 +164,9 @@ A document containing the properties that represents the recurrence rule followe
     recurrenceRuleString: string
     frequency: ["DAILY", "WEEKLY", "MONTHLY", "YEARLY"]
     weekdays: ["MONDAY", ... , "SUNDAY"]
+    interval: number
     count: number
-    // ...more rrule fields could be added
+    weekDayOccurenceInMonth: number
     baseRecurringEventId: ObjectId
   }
 ```
@@ -173,8 +174,12 @@ A document containing the properties that represents the recurrence rule followe
 - **recurrenceRuleString**: an `rrule` string that would be used to generate an `rrule` object, from which we would generate the recurrence dates.
 - **frequency**: Frequency of recurrence.
 - **weekDays**: The days of the week at which the instances would be scheduled.
+- **interval**: Interval of recurrence, i.e every day, every other day, every 5th day, etc.
 - **count**: The number of instances following that recurrence rule.
-- ...more recurrence specific properties could be added to this interface.
+- **weekDayOccurenceInMonth**: The occurence of weekDay in month, i.e whether it's the first Monday, third Monday, or last Monday. It is to be used with Monthly frequency, and a weekDay, e.g.:
+  - for `frequency: MONTHLY` and `weekDays: ["MONDAY"]`:
+    - if `weekDayOccurenceInMonth:2`, it would mean that the recurring event occurs every **_Second Monday_** every month.
+    - if `weekDayOccurenceInMonth:-1`, it would mean every **_Last Monday_** every month.
 - **baseRecurringEventId**: The `BaseRecurringEvent` for that recurring event.
 
 ### BaseRecurringEvent
@@ -228,7 +233,10 @@ Every instance of a recurring event would have these fields:
 
 This is the approach we're following for the _**creation and management of recurring events**_.
 
-_**The functionalities have been implemented with this issue**_: [Recurring Events](https://github.com/PalisadoesFoundation/talawa-api/issues/1583) <br />
-_Go through the **issue** and the associated **PR**s for more details._
+_**The functionalities are being implemented with these issues:**_
+1) [Recurring Events Api](https://github.com/PalisadoesFoundation/talawa-api/issues/1583)
+2) [Recurring Events Admin](https://github.com/PalisadoesFoundation/talawa-admin/issues/1643) <br />
 
-Last updated on _**March 5, 2024**_
+_Go through the **issues** and the associated **PR**s for more details._
+
+Last updated on _**March 29, 2024**_
