@@ -185,7 +185,7 @@ Please read the `Research` section of this document for background information
 4. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** N/A
-7. **Project Size:** 350
+7. **Project Size:** 350 hours (Large)
 8. **Possible Mentors:**
    1. Dominic Mills - @DMills27 (Primary)
    2. Shannika Jackson - @bonnie-23 (Secondary)
@@ -318,7 +318,7 @@ Please read the `Research` section of this document for background information
 3. **Repos to Update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to the mentioned repositories.
 5. **Depends on Project:** N/A
-6. **Project Size:** 350
+6. **Project Size:** 350 hours (Large)
 7. **Possible Mentors:**
    1. Rishav Jha - @rishav-jha-mech (Primary)
    1. Nitya Pasrija - @Nitya-Pasrija (Secondary)
@@ -340,7 +340,7 @@ Please read the `Research` section of this document for background information
 2. **Repos to update:** Talawa, Talawa-API
 3. **Skills Required:** Code stacks related to repos above. See introduction section.
 4. **Depends on Project:** User Tag Management
-5. **Project Size:** 350
+5. **Project Size:** 350 hours (Large)
 6. **Possible Mentors:**
    1. Md Noman Khan - @noman2002 (Primary)
    2. Mikey Lue - @JamaicanFriedChicken (Secondary)
@@ -368,7 +368,7 @@ Please read the `Research` section of this document for background information
 3. **Repos to Update:** Talawa, Talawa-API
 4. **Skills Required:** Proficiency in the code stacks related to the Talawa and Talawa-API repositories. Refer to the introduction section for more details.
 5. **Depends on Project:** Self Hosted Chat and Notifications
-6. **Project Size:** 350
+6. **Project Size:** 350 hours (Large)
 7. **Possible Mentors:** Md Noman Khan (Primary)
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory
@@ -387,7 +387,7 @@ Please read the `Research` section of this document for background information
 3. **Repos to update:** Talawa, Talawa-API, Talawa-Admin
 4. **Skills Required:** Code stacks related to repos above. See introduction section.
 5. **Depends on Project:** N/A
-6. **Project Size:** 350
+6. **Project Size:** 350 hours (Large)
 7. **Possible Mentors:**
    1. Tyrone Taylor - @ttaylor92 (Primary)
    2. Ayush Chaudhary - @Ayush0Chaudhary (Secondary)
