@@ -23,5 +23,5 @@ git add .
 
 git commit -m "Updated talawa api docs"
 
-git pull origin develop
+git pull --rebase origin develop
 git push -u origin develop
