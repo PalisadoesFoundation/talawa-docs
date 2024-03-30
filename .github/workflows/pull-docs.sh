@@ -23,4 +23,7 @@ git add .
 
 git commit -m "Updated talawa api docs"
 
+# Pull latest changes from remote repository
+git pull --rebase origin develop
+
 git push origin develop
