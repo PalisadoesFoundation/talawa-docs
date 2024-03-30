@@ -16,7 +16,7 @@ Both these rules are essential to maintain uniformity in the implementations for
 
 # Filtering and sorting on graphQL connections:-
 
-The relay server specification for graphQL connections doesn't mention anything about filtering and sorting on connections because the relay graphQL client library doesn't concern itself with filtering and sorting the connections. Allowing filtering and sorting on a connection is like requesting an entirely new connection each time you change a filter or sort parameter because positions of the connection edges can no longer be predicted by the virtue of their cursors. This is a custom feature that has to be implemented and maintained both on the client and server side.
+The relay server specification for graphQL connections doesn't mention anything about filtering and sorting on connections because the relay graphQL client library doesn't concern itself with filtering and sorting the connections. Allowing filtering and sorting on a connection is like requesting an entirely new connection each time we change a filter or sort parameter because positions of the connection edges can no longer be predicted by the virtue of their cursors. This is a custom feature that has to be implemented and maintained both on the client and server side.
 
 Since there are no community standards for filtering or sorting on graphQL connections, here we're specifying our own standards that should be followed by developers contributing to talawa-api.
 
@@ -28,11 +28,11 @@ Since there are no community standards for filtering or sorting on graphQL conne
 
 The `where` and `sortedBy` arguments should have strictly defined graphQL schema types that pertain to filtering and sorting logic allowed on the connection they exist on.
 
-The `where` field should be a graphQL input that should be named using syntax `<capitalized_parent_type><capitalized_connection_name>WhereInput`. So, for `User.posts` it will be named `UserPostsWhereInput` and for `Query.posts` it will be named `QueryPostsWhereInput`. Each field you want to allow filtering on should be defined in this input type. Each field should be a graphQL input that specifies all filter actions allowed for that field. If we want to allow filtering on fields that exist on a nested structure within the connection's domain model, then we follow the previous approach recursively for all such fields.
+The `where` field should be a graphQL input that should be named according to syntax `<capitalized_parent_type><capitalized_connection_name>WhereInput`. So, for `User.posts` it will be named `UserPostsWhereInput` and for `Query.posts` it will be named `QueryPostsWhereInput`. Each field we want to allow filtering on should be defined in this input type. Each field should be a graphQL input that specifies all filter actions allowed for that field. If we want to allow filtering on fields that exist on a nested structure within the connection's domain model, then we follow the previous approach recursively for all such fields.
 
-The `sortedBy` field should be graphQL input that should be named using syntax `<capitalized_parent_type><capitalized_connection_name>SortedByInput`. So, for `User.posts` it will be named `UserPostsSortedByInput` and for `Query.posts` it will be named `QueryPostsSortedByInput`. Since, it doesn't make sense to allow sorting on more than one field in one request, each of these inputs should be annotated with graphQL's `oneOf` directive so that only one of the sort fields could be used at any time. Each field we want to allow sorting on should be defined in this input type. Each field should be the graphQL enum `SortedByOrder` that specifies the sort order for that field. If we want to allow sorting on fields that exist on a nested structure within the connection's domain model, then we follow the previous approach recursively for all such fields.
+The `sortedBy` field should be graphQL input that should be named according to syntax `<capitalized_parent_type><capitalized_connection_name>SortedByInput`. So, for `User.posts` it will be named `UserPostsSortedByInput` and for `Query.posts` it will be named `QueryPostsSortedByInput`. Since, it doesn't make sense to allow sorting on more than one field in one request, each of these inputs should be annotated with graphQL's `oneOf` directive so that only one of the sort fields could be used at any time. Each field we want to allow sorting on should be defined in this input type. Each field should be the graphQL enum `SortedByOrder` that specifies the sort order for that field. If we want to allow sorting on fields that exist on a nested structure within the connection's domain model, then we follow the previous approach recursively for all such fields.
 
-Naming conventions for fields within the `where` and `sortedBy` arguments can be understood by taking a look at the following schema implementations below:-
+Naming conventions for schema fields related to the `where` and `sortedBy` connection arguments can be understood by taking a look at the following schema implementations below:-
 
 ## Filtering and sorting on non root Query field connections:-
 
@@ -110,9 +110,9 @@ We expose the argument `sortedBy` which is a graphQL input `UserPostsSortedByInp
 
 ## Filtering and sorting on root Query field connections:-
 
-Like we previously said, connections on the root `Query` field without any filters are mostly useless by themselves. When a connection like `PostsConnection` exists on a domain model like `User` the filter `post.creator.id` is already applied on it by the virtue of hierarchical relationships in graphQL. This isn't the case for root **Query** field connection resolvers. Here we'll have to provide explicit filters to the connection to enable the clients to query for meaningful posts.
+Like we previously said, connections on the root `Query` field without any filters are mostly useless by themselves. When a connection like `PostsConnection` exists on a domain model like `User` the filter `post.creator.id` is already applied on it by the virtue of hierarchical relationships in graphQL. This isn't the case for root **Query** field connection resolvers. Here we'll have to provide explicit filters to the connection to allow the clients to query for posts in a meaningful way.
 
-Let's say we want to provide the capability of filtering the posts connection by the `body` of the post and `id` of the creator of the post. Similarly, we want to provide the capability of sorting the posts connection by the `body` of the post and `id` of the creator of the post. Here's how the graphQL schema for implementing this filtering and sorting logic would look like:-
+The schema implementation below is similar to the previous one except the connection now exists as a field on root **Query** field:-
 
 ```graphql
 enum SortedByOrder {
@@ -180,7 +180,9 @@ type Query {
 }
 ```
 
-Please don't refrain from using verbose naming in the schema. Try as much as possible to convey the intention using proper data structures and naming while also making sure there are no naming collisions.
+Notice the change in names of graphql inputs `QueryPostsSortedByInput` and `QueryPostsWhereInput` corresponding to posts connection arguments `sortedBy` and `where`. Everything else is similar to the schema implementation for non root **Query** posts connection.
+
+Please don't refrain from using verbose naming in the schema. Try as much as possible to convey the intention using proper data structures and naming while also making sure there are no chances for naming collisions in the future.
 
 These connection arguments convey a sane flow of operations to the developer while also sounding like a natural coherent sentence. Take a read:-
 
@@ -218,7 +220,7 @@ Most of the time, filtering and sorting capabilities are only required in dashbo
 
 # When are graphQL connections not needed?
 
-GraphQL connections might not be needed when the amount of records that the connection needs to traverse is very small. For example, think of a list of solar system planet names that are a user's favorite. There are only 8 planets in the solar system, a connection based on this relationship would only ever be used to traverse names of 8 planets. This surely isn't a place for a connection where you need to decisively traverse the records to reduce strain on the database and server. A simple `[String]` or `enum` type list can be returned. Here's an example:-
+GraphQL connections might not be needed when the amount of records that the connection needs to traverse is very small. For example, think of a list of solar system planet names that are a user's favorite. There are only 8 planets in the solar system, a connection based on this relationship would only ever be used to traverse names of 8 planets. This surely isn't a place for a connection where we need to decisively traverse the records to reduce strain on the database and server. A simple `[String]` or `enum` type list can be returned. Here's an example:-
 
 ```graphql
 enum SOLAR_SYSTEM_PLANETS {
