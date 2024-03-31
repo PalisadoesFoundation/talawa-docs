@@ -21,4 +21,4 @@
 
 #### Defined in
 
-[src/models/Language.ts:80](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/models/Language.ts#L80)
+[src/models/Language.ts:80](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/Language.ts#L80)

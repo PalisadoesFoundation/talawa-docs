@@ -54,4 +54,4 @@ The function performs the following checks and operations:
 
 #### Defined in
 
-[src/resolvers/Mutation/checkIn.ts:67](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Mutation/checkIn.ts#L67)
+[src/resolvers/Mutation/checkIn.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/checkIn.ts#L42)

@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/EventCache/cacheEvents.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/services/EventCache/cacheEvents.ts#L6)
+[src/services/EventCache/cacheEvents.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/services/EventCache/cacheEvents.ts#L6)

@@ -26,4 +26,4 @@ An object that contains `id` for the venue.
 
 #### Defined in
 
-[src/resolvers/Query/venue.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Query/venue.ts#L16)
+[src/resolvers/Query/venue.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Query/venue.ts#L16)

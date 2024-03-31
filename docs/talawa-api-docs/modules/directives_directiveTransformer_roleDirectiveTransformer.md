@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[src/directives/directiveTransformer/roleDirectiveTransformer.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/directives/directiveTransformer/roleDirectiveTransformer.ts#L8)
+[src/directives/directiveTransformer/roleDirectiveTransformer.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/directives/directiveTransformer/roleDirectiveTransformer.ts#L8)

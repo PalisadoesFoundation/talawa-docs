@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[src/db.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/db.ts#L6)
+[src/db.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/db.ts#L6)
 
 ## Functions
 
@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[src/db.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/db.ts#L8)
+[src/db.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/db.ts#L8)
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-[src/db.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/db.ts#L52)
+[src/db.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/db.ts#L52)

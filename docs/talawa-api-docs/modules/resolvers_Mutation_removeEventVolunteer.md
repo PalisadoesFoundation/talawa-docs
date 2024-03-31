@@ -33,7 +33,8 @@ context of entire application
 The following checks are done:
 1. If the current user exists
 2. If the Event volunteer to be removed exists.
+3. If the current user is leader of the corresponding event volunteer group.
 
 #### Defined in
 
-[src/resolvers/Mutation/removeEventVolunteer.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Mutation/removeEventVolunteer.ts#L20)
+[src/resolvers/Mutation/removeEventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/removeEventVolunteer.ts#L22)

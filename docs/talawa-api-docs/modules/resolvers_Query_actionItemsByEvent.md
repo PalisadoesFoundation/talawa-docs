@@ -24,4 +24,4 @@ An object that contains `eventId` which is the _id of the Event.
 
 #### Defined in
 
-[src/resolvers/Query/actionItemsByEvent.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Query/actionItemsByEvent.ts#L9)
+[src/resolvers/Query/actionItemsByEvent.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Query/actionItemsByEvent.ts#L9)

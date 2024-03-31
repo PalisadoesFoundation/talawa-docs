@@ -23,7 +23,7 @@ This is an interface that represents a database(MongoDB) document for Encoded Vi
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/models/EncodedVideo.ts#L8)
+[src/models/EncodedVideo.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/EncodedVideo.ts#L8)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/models/EncodedVideo.ts#L10)
+[src/models/EncodedVideo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/EncodedVideo.ts#L10)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/models/EncodedVideo.ts#L9)
+[src/models/EncodedVideo.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/EncodedVideo.ts#L9)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/models/EncodedVideo.ts#L11)
+[src/models/EncodedVideo.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/EncodedVideo.ts#L11)

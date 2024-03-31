@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:241](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/models/FundraisingCampaign.ts#L241)
+[src/models/FundraisingCampaign.ts:241](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/FundraisingCampaign.ts#L241)

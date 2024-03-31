@@ -23,4 +23,4 @@ You can learn about GraphQL `Resolvers`
 
 #### Defined in
 
-[src/resolvers/Query/getCommunityData.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Query/getCommunityData.ts#L11)
+[src/resolvers/Query/getCommunityData.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Query/getCommunityData.ts#L11)

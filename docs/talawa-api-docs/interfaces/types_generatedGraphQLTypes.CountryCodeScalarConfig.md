@@ -92,7 +92,7 @@ GraphQLScalarTypeConfig.name
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3663](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/types/generatedGraphQLTypes.ts#L3663)
+[src/types/generatedGraphQLTypes.ts:3731](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/types/generatedGraphQLTypes.ts#L3731)
 
 ___
 

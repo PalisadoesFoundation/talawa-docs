@@ -14,7 +14,7 @@
 
 • `Const` **updateEventVolunteer**: [`MutationResolvers`](types_generatedGraphQLTypes.md#mutationresolvers)[``"updateEventVolunteer"``]
 
-This function accepts the Event Volunteer Invite sent to a user
+This function enables to update an Event Volunteer
 
 **`Param`**
 
@@ -38,4 +38,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/updateEventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Mutation/updateEventVolunteer.ts#L22)
+[src/resolvers/Mutation/updateEventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/updateEventVolunteer.ts#L22)

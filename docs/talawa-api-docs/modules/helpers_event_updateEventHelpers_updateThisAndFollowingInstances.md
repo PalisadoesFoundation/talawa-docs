@@ -46,4 +46,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/updateEventHelpers/updateThisAndFollowingInstances.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/helpers/event/updateEventHelpers/updateThisAndFollowingInstances.ts#L33)
+[src/helpers/event/updateEventHelpers/updateThisAndFollowingInstances.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/helpers/event/updateEventHelpers/updateThisAndFollowingInstances.ts#L33)

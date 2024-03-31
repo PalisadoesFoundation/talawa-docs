@@ -38,4 +38,4 @@ This is a utility method.
 
 #### Defined in
 
-[src/utilities/mailer.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/utilities/mailer.ts#L24)
+[src/utilities/mailer.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/mailer.ts#L24)

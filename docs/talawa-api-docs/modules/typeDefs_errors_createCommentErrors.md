@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/errors/createCommentErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/typeDefs/errors/createCommentErrors.ts#L3)
+[src/typeDefs/errors/createCommentErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/typeDefs/errors/createCommentErrors.ts#L3)

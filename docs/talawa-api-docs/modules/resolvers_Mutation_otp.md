@@ -31,4 +31,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/otp.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Mutation/otp.ts#L16)
+[src/resolvers/Mutation/otp.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/otp.ts#L16)

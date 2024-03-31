@@ -33,8 +33,10 @@ context of entire application
 The following checks are done:
 1. If the current user exists
 2. if the volunteer user exists
-3. If the event exists, (if sent in args)
+3. If the event exists
+4. If the group exists
+5. If the current user is leader of the group
 
 #### Defined in
 
-[src/resolvers/Mutation/createEventVolunteer.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Mutation/createEventVolunteer.ts#L23)
+[src/resolvers/Mutation/createEventVolunteer.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/createEventVolunteer.ts#L27)

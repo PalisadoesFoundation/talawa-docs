@@ -33,4 +33,4 @@ and updates the organization with the new agenda category.
 
 #### Defined in
 
-[src/resolvers/Mutation/createAgendaCategory.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/4c7d3ea/src/resolvers/Mutation/createAgendaCategory.ts#L29)
+[src/resolvers/Mutation/createAgendaCategory.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/createAgendaCategory.ts#L29)
