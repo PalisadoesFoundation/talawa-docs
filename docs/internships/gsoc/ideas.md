@@ -137,6 +137,7 @@ Please read the `Research` section of this document for background information
 7. **Project Size:** 350 hours (Large)
 8. **Possible Mentors:** 
    1. Aashima Wadhwa - @aashimawadhwa (Primary)
+   2. Tasneem Koushar - @tasneemkoushar (Secondary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Core development
 
@@ -220,7 +221,10 @@ Please read the `Research` section of this document for background information
 5. **Skills Required:** Code stacks related to repos above. See introduction section.
 6. **Depends on Project:** N/A
 7. **Project Size:** 350 hours (Large)
-8. **Possible Mentors:** Tasneem Koushar - @tasneemkoushar (Primary)
+8. **Possible Mentors:** 
+   1. Tasneem Koushar - @tasneemkoushar (Primary)
+   2. Md Noman Khan - @noman2002 (Secondary)
+   3. Kukade Siddhesh Bhupendra - @SiddheshKukade (Scondary)
 9.  **Difficulty:** Medium
 10. **Impact Definition:** Risky/Exploratory
 
@@ -371,7 +375,8 @@ Please read the `Research` section of this document for background information
 4. **Skills Required:** Proficiency in the code stacks related to the Talawa and Talawa-API repositories. Refer to the introduction section for more details.
 5. **Depends on Project:** Self Hosted Chat and Notifications
 6. **Project Size:** 350 hours (Large)
-7. **Possible Mentors:** Md Noman Khan (Primary)
+7. **Possible Mentors:** 
+   1. Md Noman Khan - @noman2002 (Primary)
 8. **Difficulty:** Medium
 9. **Impact Definition:** Risky/Exploratory
 
