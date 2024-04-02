@@ -1,6 +1,6 @@
 ---
 id: gsod-ideas
-title: GSoD 2023 - Improving the accessibility of the Talawa Docs
+title: GSoD 2024 - Improving the accessibility of the Talawa Docs
 ---
 
 ## About Talawa
@@ -93,16 +93,12 @@ This timeline, especially within the May-July period, is not strict and has some
 
 | Item                                                                           | Amount | Running total | Notes                             |
 | ------------------------------------------------------------------------------ | ------ | ------------- | --------------------------------- |
-| Technical Writers (x3)                                                         | 2500   | 10000         |  stipends at $2500 each           |
-| Volunteer Stipends                                                             | 2000   | 12000         |  stipends at $500 each            |
-| Project Manager                                                                | 1000   | 13000         |                                   |       
-| Graphic designer - to assist with visuals in the documentation                 | 1000   | 14000         |                                   |
-| Printed Palisadoes Foundation T-shirts (10 T-shirts)                           | 120    | 14120         |                                   |
-| Sundry expenses                                                                | 880    | 15000         | 3% payment processing fees; mailing fees; paraphernalia for candidates; etc |
+| Technical Writers (x3)                                                         | 2500   | 7500         |  3x stipends at $2500 each         |
+| Volunteer Stipends                                                             | 2000   | 9500         |  4x stipends at $500 each          |
 
 Additional information
 
-- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2023, [2022](https://summerofcode.withgoogle.com/programs/2022/organizations/the-palisadoes-foundation), and [2021](https://summerofcode.withgoogle.com/archive/2021/organizations/4835102856577024) and [Outreachy in 2023](https://www.outreachy.org/apply/project-selection/#palisadoes-foundation). The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in years 2021 and 2022. The mentors have all previously been mentors of GSoC since the Palisadoes Foundation was first accepted. 
+- The Palisadoes Foundation was selected for Google Summer of Code (GSoC) in 2024, 2023, [2022](https://summerofcode.withgoogle.com/programs/2022/organizations/the-palisadoes-foundation), and [2021](https://summerofcode.withgoogle.com/archive/2021/organizations/4835102856577024) and [Outreachy in 2023](https://www.outreachy.org/apply/project-selection/#palisadoes-foundation). The Palisadoes Foundation was also selected for the [Github externship](https://externship.github.in/) on three separate occasions in years 2021 and 2022. The mentors have all previously been mentors of GSoC since the Palisadoes Foundation was first accepted. 
 
 
 ### General Considerations
