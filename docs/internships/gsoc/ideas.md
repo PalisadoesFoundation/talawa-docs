@@ -303,7 +303,8 @@ Please read the `Research` section of this document for background information
 6. **Project Size:** 350 hours (Large)
 7. **Possible Mentors:**
    1. Shannika Jackson - @bonnie-23 (Primary)
-   2. Dominic Mills - @DMills27 (Secondary)
+   1. Dominic Mills - @DMills27 (Secondary)
+   1. Aashima Wadhwa - @aashimawadhwa (Secondary)
 8.  **Difficulty:** Medium
 9.  **Impact Definition:** Core development
 
