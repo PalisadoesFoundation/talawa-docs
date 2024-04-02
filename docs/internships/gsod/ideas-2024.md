@@ -26,13 +26,11 @@ Our main method of documentation creation involves the use of CI/CD pipelines to
 
 While this method was useful in consolidating information, from individual files across the three respositories, several issues became apparent that now need to be addressed, the four most pressing are:
 
-1. Completing the documentation for the remaining Talawa repositories. While we were able to complete the documentation for 100% of the Talawa API, only around 70% of the Talawa Mobile Frontend and 40% of the Talawa Admin were able to be completed during this period, due the overwhelming amount files that span across the three repositories, and still need to be completed. The missing documentetation needs to be prioritized and completed as soon as possible.
+1. Completing the documentation for the remaining Talawa repositories. While we were able to complete the documentation for 100% of the Talawa API, only around 70% of the Talawa Mobile Frontend and 40% of the Talawa Admin were able to be completed during this period, due the overwhelming amount files that span across the three repositories, and still need to be completed. The missing documentation needs to be prioritized and completed as soon as possible.
 
-2. Using a cohesive underlying methodology for organizing and structuring the documentation outside of the automated documentation framework mentioned above. To address this issue, we decided upon using the [Diátaxis](https://diataxis.fr/) methodology to rework much of the existing documentation within the proposed framework of tutorials, how-to guides, technical references, and "explanations". This approach will ensure that the documentation will be restructured and reorganized in a way that can be easily navigated and understood by different types of users, including those with varying levels of technical expertise. This is especially important as Talawa is specifically directed at underserved communities and aims to be inclusive in all respects. 
+2. To improve comprehension, we aim to incorporate more visualizations into the documentation. Through usability tests and informal interactions, we found that presenting high-level summaries and diagrams at the outset of introducing contributors to various topics was highly beneficial. Moreover, there is [scientific evidence](https://www.lesswrong.com/posts/mAdMkFqWzbJRB544m/book-review-how-learning-works#Strategies_) to support the effectiveness of this technique. This approach increases readers' confidence and enables them to establish practical expectations before delving into specific details. Following the previous point, this is in line with the ethos of the Talawa community to provide adequate resources to enable the highest possible number of interested developers to contribute to Talawa.
 
-3. Prioritizing the incorporation of visual aids to enhance the readers' understanding of the content. To improve comprehension, we aim to incorporate more visualizations into the documentation. Through usability tests and informal interactions, we found that presenting high-level summaries and diagrams at the outset of introducing contributors to various topics was highly beneficial. Moreover, there is [scientific evidence](https://www.lesswrong.com/posts/mAdMkFqWzbJRB544m/book-review-how-learning-works#Strategies_) to support the effectiveness of this technique. This approach increases readers' confidence and enables them to establish practical expectations before delving into specific details. Following the previous point, this is in line with the ethos of the Talawa community to provide adequate resources to enable the highest possible number of interested developers to contribute to Talawa.
-
-4. We also identified a lack of documentation in describing how to do auxiliary tasks such as getting set up on different machines, troubleshooting, writing tests, as well as describing the various types of tests and the relevance of code coverage within the testing framework. To address this issue, we recommend creating separate documentation for auxiliary tasks, which will provide more clarity and help users navigate the documentation more easily.
+3. We also identified a lack of documentation in describing how to do auxiliary tasks such as getting set up on different machines, troubleshooting, writing tests, as well as describing the various types of tests and the relevance of code coverage within the testing framework. To address this issue, we recommend creating separate documentation for auxiliary tasks, which will provide more clarity and help users navigate the documentation more easily.
 
 ### Project Scope
 
@@ -70,9 +68,7 @@ To that end, we consider the documentation to be success if it addresses the fol
 
 3. Improved developer satisfaction: Clear, comprehensive documentation can help developers feel more confident and satisfied with their work. By improving documentation, we hope to increase developer satisfaction and reduce frustration or confusion caused by poorly documented code. This can be accomplished using survey data after the programme has completed. We are aiming for 40% increase in satisfaction. 
 
-4. Faster code reviews: By improving the quality of the documentation, we may see faster and more efficient code reviews as reviewers are able to understand the code more easily. This can be done by compare the approval rates of past and present pull requests that seek to be merged. We're aiming for a 40% reduction in the time taken. 
-
-5. Improved code maintainability: Clear, comprehensive documentation can make code easier to maintain in the long term. By improving documentation quality, we may see a reduction in technical debt and increased maintainability of the codebase.
+4. Improved code maintainability: Clear, comprehensive documentation can make code easier to maintain in the long term. By improving documentation quality, we may see a reduction in technical debt and increased maintainability of the codebase.
 
 Achieving these goals will indicate a marked improvement in documentation quality and will have a positive impact on the usability and maintainability of the code. This, in turn, will help us to better serve our users and improve the overall quality of our software.
 
@@ -83,7 +79,7 @@ The project itself will take around six months to complete. Once the tech writer
 | Dates            | Action items                                                                                                                                         |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | May              | Orientation                                                                                                                                          |
-| June-July        | Review the Diátaxis methodology and understand its role in Talawa; Audit current documentation; highlight where in the existing infrastructure would benefit from illustrations |
+| June-July        | Audit current documentation; highlight where in the existing infrastructure would benefit from illustrations                                         |
 | August - October | Begin working on documenting Talawa                                                                                                                  |
 | November         | Project completion and final report due                                                                                                              |
 
@@ -121,7 +117,7 @@ There are others, but these are the main ones that will guide your contributions
 
 ## Ideas List
 
-Here are the features we'd like to implement in the coming months.
+Here are a list of issues we'd like to address in the coming months.
 
 ### Complete the Documentation for the **Talawa**, **Talawa-api** and **Talawa Admin** Repositories
 
@@ -133,28 +129,18 @@ In the Google Season of Docs 2022, our team successfully addressed the backlog o
 - **Possible Mentors:** Dominic Mills (Github: DMills27), Tasneem Koushar (Github: tasneemkoushar)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
-### Documentation of Graphql APIs
-We have graphql APIs, so we are looking for documentation of all our APIs and have one Shareable collection ready for interested contributer either on Postman or [Apollo Graphql](https://www.apollographql.com/docs/). For documentaion, libraries like [spectaQl](https://www.useanvil.com/blog/engineering/building-a-spectaql-theme-for-your-graphql-documentation/) can we be used. 
-Technical Writer is free to pitch new and more efficient libraries and tools to achieve the same in proposal.
 
-- **Repos to update:** Talawa API.
-- **Skills Required:** The ideal candidate should be familiar with GraphQl. They also need to be comfortable with using Git and Github and to update the documentation via pull requests. Additionally, knowledge of TSDocs & docusaurus is also required and automation of documentation is also required.
-- **How we measure sucess:** Complete documentation of all our APIs and a flexible sharable APIs collection.
-- **Possible Mentors:** Dominic Mills (Github: DMills27), Tasneem Koushar (Github: tasneemkoushar)
-- **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
-
-
-### Create user guide for **Talawa** and **Talawa Admin**
+### Create user guides for **Talawa** and **Talawa Admin**
 
 Currently, there are no user guides available to help users get started and become productive within the basic ecosystems of Talawa, and Talawa Admin. Our goal is to accomplish the following (although this list is not exhaustive):
 
-1. Create user guide to help user getting started with our application, how to create account, how to use various features.
+1. Create user guides to help user getting started with our application, such as creating an new account, and using the various features, etc.
 
-2. Interactive Tutorials: These guides go beyond text instructions and incorporate interactive elements like clickable screenshots, quizzes, FAQs or even mini-simulations within the guide itself. This makes learning engaging and reinforces understanding.
+2. Interactive Tutorials: These guides go beyond the basic textual instructions and incorporate interactive elements like clickable screenshots, quizzes, FAQs or even mini-simulations within the guide itself. This makes learning engaging and reinforces understanding.
 
-3. Microlearning approach: Break down information into bite-sized chunks that users can easily digest and complete in short bursts. This is ideal for busy users with limited attention spans
+3. Microlearning approach: Breaks down information into bite-sized chunks that users can easily digest and complete in short bursts. This is ideal for busy users with limited time to ramp up.
 
-4. Palisadoes Foundation is having youtube channel as well, we might have few video tutorials for user guide, explore them and come up with ideas for creating visual user guides.
+4. The inclusion of a few video tutorials for the user guide, that would be available on the Palisadoes Foundation Youtube channel.
 
 - **Repos to update:** Talawa, Talawa Admin, Talawa-docs
 - **Skills Required:** The ideal candidate should have strong writing skills and be able to present samples of their technical writing. They should also be familiar with video editing software such as CapCut, photo editing software such as Adobe Photoshop and experience creating modified screenshots with an appliation such as [Lightshot](https://app.prntscr.com/en/index.html). It's important for the technical writer to have a strong user experience (UX) of our app and needs to understand how users interact with the app.
@@ -163,9 +149,9 @@ Currently, there are no user guides available to help users get started and beco
 - **Possible Mentors:** Dominic Mills (Github: DMills27), Tasneem Koushar (Github: tasneemkoushar)
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
-### Create Style guide **Talawa** and **Talawa Admin**
+### Create style guides **Talawa** and **Talawa Admin**
 
-Currently, there are no style guides available to help future contributors to contribute to our documentation.
+Currently, there are no style guides available to help contribute to our documentation.
 
 1. Develop visual guides and style formats for new technical writers/contributors to ensure that documentation remains organic with the codebase, up-to-date, and adheres to our standards.
 
@@ -181,27 +167,15 @@ Technical writer can refer to [Google Style doc](https://google.github.io/styleg
 - **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
 
 
-### Make documentation website more responsive.
-
-We already have [documentaion website](https://docs.talawa.io/docs/internships/gsod/gsod-ideas), but it is not very responsive and having average UI. In the sidebar, [file indexing](https://docs.talawa.io/docs/talawa-admin-docs/interfaces/components_CheckIn_types.InterfaceAttendeeQueryResponse) is not proper. Additionally technical writer can find some more defects in the UI and pitch to fix that.
-
-- **Repos to update:** Talawa API, Talawa, Talawa Admin
-- **Skills Required:** The ideal candidate should have strong writing skills and be able to present samples of their technical writing as well as automation of documentation, should be familiar with docusarus and inline comments tools like TSDoC.
-- **How we measure sucess:** The UI should look decent, having meaningful file names in the sidebar, responsive UI.
-- **Possible Mentors:** Dominic Mills (Github: DMills27), Tasneem Koushar (Github: tasneemkoushar)
-- **Contact details:** Send your CV along with at least two technical writing samples to ![img](/img/email/mentors.png)
-
-
-
 
 ## Points for Interested Technical Writers
 - **Developer Guide & User Guide:** We already have documentation ready upto 60%-70%, so now we are focussing more quality of documentation, think from the developer perspective and add what could be more useful and efficient.
 Fo User guide, technical writer is free to pitch innovative ideas, but we expect it to be simpler, precise and helpful from user perspective.
 
-- **Workflow:** We have solid workflow for automation of documenatation, working integration of libraries like TSDoC, DartDoC, Docusaurus. We expect technical writer to get familiar with these, since it will be extensively used in the project and technical writer has to make changes on top of these tools only.
+- **Workflow:** We have a solid automation workflow for our documentation, working integration of libraries like TSDoC, DartDoC, Docusaurus. We expect technical writer to get familiar with these, since it will be extensively used in the project and technical writer has to make changes on top of these tools only. Don't worry if you don't have any experience with these tools, we will provide you with the necessary context and assistance to get you up and running.
 
 - **Link:**
-    - [current documentation](https://docs.talawa.io/)
-    - [Automation of documentation](https://www.youtube.com/watch?v=bCyXGxzx--M&t=54s): There has been some changes in current flow, interested Technical write can connect with mentors to get the further details.
+    - [Current documentation](https://docs.talawa.io/)
+    - [Automation of documentation](https://www.youtube.com/watch?v=bCyXGxzx--M&t=54s): There has been some changes in current flow, interested technical writers can connect with mentors to get the further details.
 
-- **New idea:** New ideas are welcome, but focus on having these ideas on top of exiting setup. We don't want to change the existing flow of our current documentation.
+- **New idea:** New ideas are welcome, but focus on having these ideas on top of exiting setup. We are adamant about not changing the existing flow of our current documentation.
