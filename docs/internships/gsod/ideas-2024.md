@@ -9,9 +9,9 @@ Talawa is a mobile application designed to make it easier for community-based or
 
 ## Introduction
 
-Welcome to the Talawa documentation ideas page for 2023! Thanks to our participation in the Google Season of Docs (GSoD) program last year, we significantly improved the documentation in our codebase (to put it lightly!). We are currently focused on improving the learning curve for our existing and future contributors by leveraging the insights gained from our previous participation. Our goal is to increase the user-friendliness of our main repositories through our documentation projects. To achieve this, we will begin with a discussion of the project's issues, scope, and success metrics, followed by a proposed ideas section that will include a timeline and budget.
+Welcome to the Talawa documentation ideas page for 2024! Thanks to our participation in the Google Season of Docs (GSoD) program previously, we significantly improved the documentation in our codebase (to put it lightly!). We are currently focused on improving the learning curve for our existing and future contributors by leveraging the insights gained from our previous participation. Our goal is to increase the user-friendliness of our main repositories through our documentation projects. To achieve this, we will begin with a discussion of the project's issues, scope, and success metrics, followed by a proposed ideas section that will include a timeline and budget.
 
-### How we are generaating documentation
+### How we are generating documentation
 
 
 ### Our Project's Problem
