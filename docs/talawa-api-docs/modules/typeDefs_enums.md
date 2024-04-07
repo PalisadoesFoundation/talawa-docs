@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/enums.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/typeDefs/enums.ts#L4)
+[src/typeDefs/enums.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/typeDefs/enums.ts#L4)

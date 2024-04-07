@@ -40,4 +40,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/editVenue.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/editVenue.ts#L30)
+[src/resolvers/Mutation/editVenue.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/editVenue.ts#L30)

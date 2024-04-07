@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/utilities/reuploadDuplicateCheck.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/reuploadDuplicateCheck.ts#L15)
+[src/utilities/reuploadDuplicateCheck.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/reuploadDuplicateCheck.ts#L15)
 
 ## Functions
 
@@ -50,4 +50,4 @@ This is a utility method.
 
 #### Defined in
 
-[src/utilities/reuploadDuplicateCheck.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/reuploadDuplicateCheck.ts#L43)
+[src/utilities/reuploadDuplicateCheck.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/reuploadDuplicateCheck.ts#L43)

@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/utilities/checkReplicaSet.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/checkReplicaSet.ts#L4)
+[src/utilities/checkReplicaSet.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/checkReplicaSet.ts#L4)

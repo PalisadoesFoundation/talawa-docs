@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/PluginField.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/PluginField.ts#L48)
+[src/models/PluginField.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/PluginField.ts#L48)

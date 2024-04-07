@@ -35,4 +35,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/updateLanguage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/updateLanguage.ts#L13)
+[src/resolvers/Mutation/updateLanguage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/updateLanguage.ts#L13)

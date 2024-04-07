@@ -44,7 +44,7 @@ This is typescript type of the callback function `createCursor`.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L11)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L11)
 
 ___
 
@@ -77,7 +77,7 @@ This is typescript type of the callback function `createNode`.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L16)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L16)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L18)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L18)
 
 ## Functions
 
@@ -165,4 +165,4 @@ return transformToDefaultGraphQLConnection\<
 
 #### Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L53)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L53)

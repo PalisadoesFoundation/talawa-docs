@@ -35,4 +35,4 @@ This is a utility method.
 
 #### Defined in
 
-[src/utilities/userFamilyAdminCheck.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/userFamilyAdminCheck.ts#L14)
+[src/utilities/userFamilyAdminCheck.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/userFamilyAdminCheck.ts#L14)

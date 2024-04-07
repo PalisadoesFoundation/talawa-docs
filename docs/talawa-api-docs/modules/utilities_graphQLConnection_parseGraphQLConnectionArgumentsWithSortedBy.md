@@ -31,7 +31,7 @@ This is typescript type of the object returned from `parseGraphQLConnectionArgum
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L36)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L36)
 
 ___
 
@@ -49,7 +49,7 @@ This is typescript type of the object returned from callback function `parseSort
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L15)
 
 ___
 
@@ -69,7 +69,7 @@ arguments passed to `parseGraphQLConnectionArgumentsWithSortedBy` function.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L29)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L29)
 
 ## Functions
 
@@ -126,4 +126,4 @@ const \{ parsedArgs: \{ cursor, direction, limit, sort \} \} = result;
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L70)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L70)

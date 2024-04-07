@@ -218,7 +218,7 @@ this base graphQL argument error.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/index.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/index.ts#L24)
+[src/utilities/graphQLConnection/index.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/index.ts#L24)
 
 ___
 
@@ -240,7 +240,7 @@ following the relay cursor connection specification, more info here:- [https://r
 
 #### Defined in
 
-[src/utilities/graphQLConnection/index.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/index.ts#L33)
+[src/utilities/graphQLConnection/index.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/index.ts#L33)
 
 ___
 
@@ -252,7 +252,7 @@ This is typescript type of the direction the graphQL connection is to be travers
 
 #### Defined in
 
-[src/utilities/graphQLConnection/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/index.ts#L43)
+[src/utilities/graphQLConnection/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/index.ts#L43)
 
 ## Functions
 
@@ -295,4 +295,4 @@ function print(str: string | null) \{
 
 #### Defined in
 
-[src/utilities/graphQLConnection/index.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/graphQLConnection/index.ts#L15)
+[src/utilities/graphQLConnection/index.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/graphQLConnection/index.ts#L15)

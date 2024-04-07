@@ -25,4 +25,4 @@ You can learn about `subscription` [here](https://www.apollographql.com/docs/apo
 
 #### Defined in
 
-[src/resolvers/Subscription/directMessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Subscription/directMessageChat.ts#L12)
+[src/resolvers/Subscription/directMessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Subscription/directMessageChat.ts#L12)

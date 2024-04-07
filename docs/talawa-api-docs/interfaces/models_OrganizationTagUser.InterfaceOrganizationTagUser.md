@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/OrganizationTagUser.ts#L7)
+[src/models/OrganizationTagUser.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/OrganizationTagUser.ts#L7)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/OrganizationTagUser.ts#L10)
+[src/models/OrganizationTagUser.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/OrganizationTagUser.ts#L10)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/OrganizationTagUser.ts#L8)
+[src/models/OrganizationTagUser.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/OrganizationTagUser.ts#L8)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/OrganizationTagUser.ts#L9)
+[src/models/OrganizationTagUser.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/OrganizationTagUser.ts#L9)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/OrganizationTagUser.ts#L11)
+[src/models/OrganizationTagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/OrganizationTagUser.ts#L11)

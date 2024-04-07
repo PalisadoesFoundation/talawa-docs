@@ -35,4 +35,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/updateUserProfile.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/updateUserProfile.ts#L19)
+[src/resolvers/Mutation/updateUserProfile.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/updateUserProfile.ts#L19)

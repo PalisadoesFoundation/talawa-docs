@@ -38,4 +38,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/removeFund.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/removeFund.ts#L25)
+[src/resolvers/Mutation/removeFund.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/removeFund.ts#L25)

@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/OrganizationCache/deleteOrganizationFromCache.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/services/OrganizationCache/deleteOrganizationFromCache.ts#L4)
+[src/services/OrganizationCache/deleteOrganizationFromCache.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/services/OrganizationCache/deleteOrganizationFromCache.ts#L4)

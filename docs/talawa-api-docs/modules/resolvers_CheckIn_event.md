@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/CheckIn/event.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/CheckIn/event.ts#L4)
+[src/resolvers/CheckIn/event.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/CheckIn/event.ts#L4)
