@@ -39,4 +39,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/updateEventHelpers/updateRecurringEvent.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/helpers/event/updateEventHelpers/updateRecurringEvent.ts#L21)
+[src/helpers/event/updateEventHelpers/updateRecurringEvent.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/helpers/event/updateEventHelpers/updateRecurringEvent.ts#L21)

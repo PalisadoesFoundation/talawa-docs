@@ -18,4 +18,4 @@ Generates sample data for testing or development purposes.
 
 #### Defined in
 
-[src/resolvers/Mutation/createSampleOrganization.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/createSampleOrganization.ts#L14)
+[src/resolvers/Mutation/createSampleOrganization.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/createSampleOrganization.ts#L14)

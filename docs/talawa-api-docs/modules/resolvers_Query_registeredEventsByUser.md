@@ -28,4 +28,4 @@ The query function uses `getSort()` function to sort the data in specified.
 
 #### Defined in
 
-[src/resolvers/Query/registeredEventsByUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Query/registeredEventsByUser.ts#L12)
+[src/resolvers/Query/registeredEventsByUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Query/registeredEventsByUser.ts#L12)

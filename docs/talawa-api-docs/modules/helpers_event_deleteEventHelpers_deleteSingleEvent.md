@@ -35,4 +35,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts#L18)
+[src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts#L18)

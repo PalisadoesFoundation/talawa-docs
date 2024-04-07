@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3069](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/types/generatedGraphQLTypes.ts#L3069)
+[src/types/generatedGraphQLTypes.ts:3073](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/types/generatedGraphQLTypes.ts#L3073)
 
 ___
 
@@ -39,4 +39,4 @@ ___
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:3068](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/types/generatedGraphQLTypes.ts#L3068)
+[src/types/generatedGraphQLTypes.ts:3072](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/types/generatedGraphQLTypes.ts#L3072)

@@ -21,13 +21,19 @@
 
 #### Defined in
 
-[src/db.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/db.ts#L6)
+[src/db.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/db.ts#L6)
 
 ## Functions
 
 ### connect
 
-▸ **connect**(): `Promise`\<`void`\>
+▸ **connect**(`dbName?`): `Promise`\<`void`\>
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `dbName?` | `string` |
 
 #### Returns
 
@@ -35,7 +41,7 @@
 
 #### Defined in
 
-[src/db.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/db.ts#L8)
+[src/db.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/db.ts#L8)
 
 ___
 
@@ -49,4 +55,4 @@ ___
 
 #### Defined in
 
-[src/db.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/db.ts#L52)
+[src/db.ts:54](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/db.ts#L54)

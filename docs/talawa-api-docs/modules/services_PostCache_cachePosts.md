@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/PostCache/cachePosts.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/services/PostCache/cachePosts.ts#L6)
+[src/services/PostCache/cachePosts.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/services/PostCache/cachePosts.ts#L6)

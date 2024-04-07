@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[src/models/CheckOut.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/CheckOut.ts#L14)
+[src/models/CheckOut.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/CheckOut.ts#L14)
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckOut.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/CheckOut.ts#L17)
+[src/models/CheckOut.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/CheckOut.ts#L17)
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckOut.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/CheckOut.ts#L15)
+[src/models/CheckOut.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/CheckOut.ts#L15)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckOut.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/CheckOut.ts#L16)
+[src/models/CheckOut.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/CheckOut.ts#L16)
 
 ___
 
@@ -62,4 +62,4 @@ ___
 
 #### Defined in
 
-[src/models/CheckOut.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/CheckOut.ts#L18)
+[src/models/CheckOut.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/CheckOut.ts#L18)

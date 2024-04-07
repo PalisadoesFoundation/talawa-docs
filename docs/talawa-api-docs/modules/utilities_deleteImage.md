@@ -31,4 +31,4 @@ After deleting the image, the number of uses of the hashed image are decremented
 
 #### Defined in
 
-[src/utilities/deleteImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/deleteImage.ts#L12)
+[src/utilities/deleteImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/deleteImage.ts#L12)

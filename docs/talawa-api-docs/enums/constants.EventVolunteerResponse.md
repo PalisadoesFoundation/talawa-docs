@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/constants.ts:751](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/constants.ts#L751)
+[src/constants.ts:752](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/constants.ts#L752)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/constants.ts:750](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/constants.ts#L750)
+[src/constants.ts:751](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/constants.ts#L751)

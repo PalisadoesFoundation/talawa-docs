@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/Venue.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/models/Venue.ts#L50)
+[src/models/Venue.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/Venue.ts#L50)

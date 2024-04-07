@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/updateUserPassword.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/resolvers/Mutation/updateUserPassword.ts#L12)
+[src/resolvers/Mutation/updateUserPassword.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/updateUserPassword.ts#L12)

@@ -30,4 +30,4 @@ then the file is deleted and a validation error is thrown.
 
 #### Defined in
 
-[src/utilities/imageExtensionCheck.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e5f7a9d/src/utilities/imageExtensionCheck.ts#L10)
+[src/utilities/imageExtensionCheck.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/utilities/imageExtensionCheck.ts#L10)
