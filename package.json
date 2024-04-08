@@ -15,8 +15,8 @@
 		"typecheck": "tsc"
 	},
 	"dependencies": {
-		"@docusaurus/core": "^3.2.0",
-		"@docusaurus/preset-classic": "^3.2.0",
+		"@docusaurus/core": "^3.2.1",
+		"@docusaurus/preset-classic": "^3.2.1",
 		"@graphql-markdown/docusaurus": "^1.17.0",
 		"@graphql-tools/json-file-loader": "^7.4.17",
 		"@mdx-js/react": "^3.0.0",
