@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import classNames from "classnames";
 
 interface Props {
   columnOne: React.ReactNode;
@@ -8,9 +7,9 @@ interface Props {
 }
 
  const TwoColumns: FC<Props> = ({ columnOne, columnTwo, reverse = false }) => {
-  const firstColumnClasses = classNames("column", "first", { "left": !reverse, "right": reverse });
-  const lastColumnClasses = classNames("column", "last", { "right": !reverse, "left": reverse });
-  const containerClasses = classNames("TwoColumns", { "reverse": reverse });
+  const firstColumnClasses = `column first ${reverse? 'right' : 'left'}`;
+  const lastColumnClasses = `column last ${reverse? 'left' : 'right'}`;
+  const containerClasses = `TwoColumns ${reverse? 'reverse' : ''}`;
 
   return (
     <div className={containerClasses}>
