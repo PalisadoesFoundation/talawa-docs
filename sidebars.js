@@ -71,6 +71,7 @@ const sidebars = {
             "developers/talawa-api/schemas",
             "developers/talawa-api/authentication",
             "developers/talawa-api/functionality",
+            "developers/talawa-api/pagination",
             "developers/talawa-api/expectations",
           ],
         },
@@ -267,7 +268,7 @@ const sidebars = {
             "internships/calico/calico-application-process",
           ],
         },
-        
+
         {
           type: "category",
           label: "Palisadoes",
