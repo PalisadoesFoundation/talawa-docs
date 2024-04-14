@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/FundraisingCampaignPledge.ts#L64)
+[src/models/FundraisingCampaignPledge.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/FundraisingCampaignPledge.ts#L64)

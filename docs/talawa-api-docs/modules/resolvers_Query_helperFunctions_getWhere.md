@@ -28,7 +28,7 @@ type if not present before in the intersection type.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `where` | `undefined` \| [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<`Partial`\<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) & [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) & [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) & [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) & [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput) & [`ActionItemWhereInput`](types_generatedGraphQLTypes.md#actionitemwhereinput) & [`FundWhereInput`](types_generatedGraphQLTypes.md#fundwhereinput)\>\> | an object that contains properties that can be used to filter out documents. |
+| `where` | `undefined` \| [`InputMaybe`](types_generatedGraphQLTypes.md#inputmaybe)\<`Partial`\<[`EventWhereInput`](types_generatedGraphQLTypes.md#eventwhereinput) & [`OrganizationWhereInput`](types_generatedGraphQLTypes.md#organizationwhereinput) & [`PostWhereInput`](types_generatedGraphQLTypes.md#postwhereinput) & [`UserWhereInput`](types_generatedGraphQLTypes.md#userwhereinput) & [`DonationWhereInput`](types_generatedGraphQLTypes.md#donationwhereinput) & [`ActionItemWhereInput`](types_generatedGraphQLTypes.md#actionitemwhereinput) & [`FundWhereInput`](types_generatedGraphQLTypes.md#fundwhereinput) & [`VenueWhereInput`](types_generatedGraphQLTypes.md#venuewhereinput)\>\> | an object that contains properties that can be used to filter out documents. |
 
 #### Returns
 
@@ -48,4 +48,4 @@ const inputArgs = getWhere\<InterfaceEvent\>(args.where);
 
 #### Defined in
 
-[src/resolvers/Query/helperFunctions/getWhere.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Query/helperFunctions/getWhere.ts#L26)
+[src/resolvers/Query/helperFunctions/getWhere.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/helperFunctions/getWhere.ts#L27)

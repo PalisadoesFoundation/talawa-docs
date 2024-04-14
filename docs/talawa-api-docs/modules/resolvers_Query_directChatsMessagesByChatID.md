@@ -29,4 +29,4 @@ You can learn about GraphQL `Resolvers`
 
 #### Defined in
 
-[src/resolvers/Query/directChatsMessagesByChatID.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Query/directChatsMessagesByChatID.ts#L16)
+[src/resolvers/Query/directChatsMessagesByChatID.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/directChatsMessagesByChatID.ts#L16)

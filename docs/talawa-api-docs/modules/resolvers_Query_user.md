@@ -26,4 +26,4 @@ An object that contains `id` for the user.
 
 #### Defined in
 
-[src/resolvers/Query/user.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Query/user.ts#L13)
+[src/resolvers/Query/user.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/user.ts#L13)

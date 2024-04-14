@@ -27,7 +27,7 @@ a Promise that resolves to a string.
 
 #### Defined in
 
-[src/setup/MongoDB.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/MongoDB.ts#L68)
+[src/setup/MongoDB.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/MongoDB.ts#L68)
 
 ___
 
@@ -54,7 +54,7 @@ connection to the MongoDB server was successful (true) or not (false).
 
 #### Defined in
 
-[src/setup/MongoDB.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/MongoDB.ts#L41)
+[src/setup/MongoDB.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/MongoDB.ts#L41)
 
 ___
 
@@ -74,4 +74,4 @@ The function `checkExistingMongoDB` returns a promise that resolves to a string 
 
 #### Defined in
 
-[src/setup/MongoDB.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/MongoDB.ts#L10)
+[src/setup/MongoDB.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/MongoDB.ts#L10)

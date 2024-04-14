@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/AppUserProfile.ts#L102)
+[src/models/AppUserProfile.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/AppUserProfile.ts#L102)

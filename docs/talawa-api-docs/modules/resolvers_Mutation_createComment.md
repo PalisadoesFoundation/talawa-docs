@@ -35,4 +35,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/createComment.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/createComment.ts#L17)
+[src/resolvers/Mutation/createComment.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/createComment.ts#L17)

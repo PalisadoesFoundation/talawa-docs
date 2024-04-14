@@ -23,7 +23,7 @@ This is an interface representing a document for a recurrence rule in the databa
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/RecurrenceRule.ts#L13)
+[src/models/RecurrenceRule.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/RecurrenceRule.ts#L13)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/RecurrenceRule.ts#L11)
+[src/models/RecurrenceRule.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/RecurrenceRule.ts#L11)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/RecurrenceRule.ts#L12)
+[src/models/RecurrenceRule.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/RecurrenceRule.ts#L12)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/models/RecurrenceRule.ts#L10)
+[src/models/RecurrenceRule.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/RecurrenceRule.ts#L10)

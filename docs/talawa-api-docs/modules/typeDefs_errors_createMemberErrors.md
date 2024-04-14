@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/errors/createMemberErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/typeDefs/errors/createMemberErrors.ts#L3)
+[src/typeDefs/errors/createMemberErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/typeDefs/errors/createMemberErrors.ts#L3)

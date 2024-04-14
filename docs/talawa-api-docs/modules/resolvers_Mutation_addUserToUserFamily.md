@@ -38,4 +38,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/addUserToUserFamily.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/addUserToUserFamily.ts#L25)
+[src/resolvers/Mutation/addUserToUserFamily.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/addUserToUserFamily.ts#L25)

@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Query/index.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Query/index.ts#L42)
+[src/resolvers/Query/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/index.ts#L43)

@@ -31,4 +31,4 @@ pattern, and false otherwise.
 
 #### Defined in
 
-[src/setup/isValidEmail.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/isValidEmail.ts#L7)
+[src/setup/isValidEmail.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/isValidEmail.ts#L7)

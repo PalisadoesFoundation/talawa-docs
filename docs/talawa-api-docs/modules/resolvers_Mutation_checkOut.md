@@ -26,7 +26,7 @@ The parent resolver.
 
 **`Param`**
 
-Arguments containing data for the check-in, including the eventId, userId, allotedSeat, and allotedRoom.
+Arguments containing data for the check-in, including the eventId, userId
 
 **`Param`**
 
@@ -54,4 +54,4 @@ The function performs the following checks and operations:
 
 #### Defined in
 
-[src/resolvers/Mutation/checkOut.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/checkOut.ts#L44)
+[src/resolvers/Mutation/checkOut.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/checkOut.ts#L44)
