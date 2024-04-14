@@ -28,7 +28,7 @@ properties `host`, `port`, and `password`.
 
 #### Defined in
 
-[src/setup/redisConfiguration.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/redisConfiguration.ts#L36)
+[src/setup/redisConfiguration.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/redisConfiguration.ts#L36)
 
 ___
 
@@ -47,7 +47,7 @@ The function `checkExistingRedis` returns a Promise that resolves to a string or
 
 #### Defined in
 
-[src/setup/redisConfiguration.ts:71](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/redisConfiguration.ts#L71)
+[src/setup/redisConfiguration.ts:71](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/redisConfiguration.ts#L71)
 
 ___
 
@@ -72,4 +72,4 @@ a Promise that resolves to a boolean value.
 
 #### Defined in
 
-[src/setup/redisConfiguration.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/redisConfiguration.ts#L12)
+[src/setup/redisConfiguration.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/redisConfiguration.ts#L12)

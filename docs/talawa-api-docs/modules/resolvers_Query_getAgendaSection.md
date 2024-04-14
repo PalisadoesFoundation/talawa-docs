@@ -28,4 +28,4 @@ The input arguments for the query.
 
 #### Defined in
 
-[src/resolvers/Query/getAgendaSection.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Query/getAgendaSection.ts#L14)
+[src/resolvers/Query/getAgendaSection.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/getAgendaSection.ts#L14)

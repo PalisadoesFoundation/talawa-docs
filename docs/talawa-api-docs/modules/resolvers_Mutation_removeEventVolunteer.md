@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/removeEventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/removeEventVolunteer.ts#L22)
+[src/resolvers/Mutation/removeEventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/removeEventVolunteer.ts#L22)

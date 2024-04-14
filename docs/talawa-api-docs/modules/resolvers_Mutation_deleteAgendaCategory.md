@@ -40,4 +40,4 @@ The input arguments for the mutation.
 
 #### Defined in
 
-[src/resolvers/Mutation/deleteAgendaCategory.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/deleteAgendaCategory.ts#L23)
+[src/resolvers/Mutation/deleteAgendaCategory.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/deleteAgendaCategory.ts#L24)

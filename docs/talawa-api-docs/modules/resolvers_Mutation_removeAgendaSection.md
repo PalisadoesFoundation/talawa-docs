@@ -42,4 +42,4 @@ The context object containing user information.
 
 #### Defined in
 
-[src/resolvers/Mutation/removeAgendaSection.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/removeAgendaSection.ts#L20)
+[src/resolvers/Mutation/removeAgendaSection.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/removeAgendaSection.ts#L20)

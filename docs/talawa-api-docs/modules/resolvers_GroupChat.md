@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/GroupChat/index.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/GroupChat/index.ts#L7)
+[src/resolvers/GroupChat/index.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/GroupChat/index.ts#L7)

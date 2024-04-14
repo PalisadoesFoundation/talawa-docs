@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/unions.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/typeDefs/unions.ts#L4)
+[src/typeDefs/unions.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/typeDefs/unions.ts#L4)

@@ -45,4 +45,4 @@ The context object containing user information.
 
 #### Defined in
 
-[src/resolvers/Mutation/updateAgendaCategory.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/updateAgendaCategory.ts#L29)
+[src/resolvers/Mutation/updateAgendaCategory.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/updateAgendaCategory.ts#L29)

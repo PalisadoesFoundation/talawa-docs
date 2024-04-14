@@ -39,4 +39,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/addOrganizationCustomField.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/addOrganizationCustomField.ts#L32)
+[src/resolvers/Mutation/addOrganizationCustomField.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/addOrganizationCustomField.ts#L32)

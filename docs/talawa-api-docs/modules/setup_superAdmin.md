@@ -25,4 +25,4 @@ The email entered by the user is being returned.
 
 #### Defined in
 
-[src/setup/superAdmin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/superAdmin.ts#L9)
+[src/setup/superAdmin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/superAdmin.ts#L9)

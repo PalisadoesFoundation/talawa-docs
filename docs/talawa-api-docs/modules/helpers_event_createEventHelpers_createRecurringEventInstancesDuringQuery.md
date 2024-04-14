@@ -39,4 +39,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts#L26)
+[src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts#L26)

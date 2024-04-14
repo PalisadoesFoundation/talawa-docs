@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/types.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/typeDefs/types.ts#L4)
+[src/typeDefs/types.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/typeDefs/types.ts#L4)

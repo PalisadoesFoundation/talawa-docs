@@ -26,4 +26,4 @@ a Promise that resolves to a string representing the selected Node environment.
 
 #### Defined in
 
-[src/setup/getNodeEnvironment.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/setup/getNodeEnvironment.ts#L9)
+[src/setup/getNodeEnvironment.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/getNodeEnvironment.ts#L9)

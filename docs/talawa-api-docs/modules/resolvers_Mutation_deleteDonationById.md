@@ -26,4 +26,4 @@ payload provided with the request
 
 #### Defined in
 
-[src/resolvers/Mutation/deleteDonationById.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/53234da/src/resolvers/Mutation/deleteDonationById.ts#L10)
+[src/resolvers/Mutation/deleteDonationById.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/deleteDonationById.ts#L10)
