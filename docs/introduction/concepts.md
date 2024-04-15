@@ -5,6 +5,10 @@ title: Core Concepts
 
 To use and contribute to Talawa effectively, you'll need to understand these important concepts.
 
+Use this diagram as a reference in the sections below.
+
+![image](../../static/img/api-community.png)
+
 ## Community​
 
 Communities are groups of people who participate either directly or indirectly with an installation of the suite of Talawa apps. Each instance of the Talawa API only manages a single community.
@@ -31,10 +35,14 @@ The main purpose of Talawa is to foster closer cooperation between communities o
 
 1. **Users**: These are people who indirectly use Talawa.
    1. For example: People who may attend an event tracked in Talawa and have their information entered into the system as part of the attendance process.
-1. **Members**: These are people who directly use Talawa either with the mobile app, or as an administrator with Talawa Admin.
-   1. Members may register their Talawa mobile app with an organization within a community once the appropriate approvals have been given.
+   1. **Types of Users**: We have two types of users.
+       1. **App Users**: These are users who have registered themselves in Talawa using either the mobile or the web app. 
+       1. **Non App Users**: These are users manually added to Talawa by App Users with Admin privileges. This is to help provide Talawa services to anyone that is a community participant who may or not be willing or able to use the application.
+1. **Members**: These are people who are registered with an organization.
+   1. App Users can become members of an organization after following the registration process via either the mobile or the web app by themselves.
+   1. Non App Users become members of an organization after they are manually added by the organization's Admin Portal provided by the web app.
 
-The use of Talawa by users and members is managed by administrators.
+Talawa users and members are managed by administrators.
 
 #### Administrators
 
