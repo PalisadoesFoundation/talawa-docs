@@ -54,13 +54,13 @@ The VP doesn’t want the branch managers to manage the members who have joined 
 
 It is for this reason that we have two types of administrators. Admins and Super Admins.
 
-1. **Admin**: These are members who use Talawa Admin to manage the people in an organization. This would also include calendars and the organization's news feed. Admins can:
+1. **Admin**: These are members who use Talawa Admin to manage the people in an organization. This would also include organization calendars and the organization's news feed. Admins can:
 
    1. Only manage a single organization and cannot access any data from other organizations. Expanding this capability is a long term goal.
-   1. Promote Users and Members to Admin status for their organization only
+   1. Promote App User Members to Admin status for their organization only
 
 2. **Super Admin**: These are members who use Talawa Admin to manage all organizations in a community. Super Admins:
-   1. Can promote Users and Members to Admin or Super Admin status.
+   1. Can promote App User Members to Admin or Super Admin status.
    2. Have access to all the privileges that an Admin may have over the Admin's organization.
 
 Like other people, an administrator may or may not have joined an organization in the mobile app.
@@ -78,15 +78,9 @@ There are no administrative functions incorporated in the mobile app by design b
 
 ## Events
 
-Event management is a major Talawa component.
+Event management is a major Talawa component. Anyone can create events using either Talawa client.
 
-### 1. Event calendar customization
-
-Admins can easily create events using the Talawa-Admin Calendar functionality by adding crucial parameters such as date, time, description, and location. The user-friendly interface allows them to choose between recurring events, all-day activities, and whether the event is public or private. 
-
-Superadmins can effortlessly track all of these events in a centralized consolidated calendar, gaining visibility into event information and guaranteeing effective coordination and management.
-
-### 2. Event Terminologies
+### 1. Event Terminologies
 
 Here are some important terminologies used in Talawa event management:
 
@@ -95,8 +89,7 @@ Here are some important terminologies used in Talawa event management:
 - **Closed Events**: These are events that are by invitation only.
    - **Private events**: Closed events that only show up in the mobile app calendars of invitees
 
-
-### 3. Event Features
+### 2. Event Features
 
 Events have many features as you can see below.
 
@@ -104,7 +97,7 @@ Events have many features as you can see below.
 
 Events can:
 
-1. be created either in the mobile app or Talawa Admin;
+1. be created either in either Talawa client;
 1. only be edited by the event organizers and admins
 
 - **Event Checkins**
@@ -120,9 +113,7 @@ Talawa includes the ability of members invited or registered to an event to auto
 
 - **Event Roles**
 
-Talawa includes the ability of members attending events to be assigned tasks/roles that can be tracked in their app by all attendees. This helps in event management.
-
-
+Talawa includes the ability of members attending events to become volunteers and/or assigned action items that can be tracked in their app by all attendees. This helps in event management.
 
 ## Newsfeed
 
@@ -144,13 +135,15 @@ Administrators will use Talawa Admin to administer an organization's newsfeed. A
 2. **Reported Posts**: Mobile App users may want Admins to take action on posts that don't match the organization's values. Admins can use the newsfeed to manage these reports.
 3. **Plugin Posts**: The Admin panel may have plugins that need to access the newsfeed. For example these could include the insertion of advertising from local companies.
 
-## Tasks in Talawa
+## Action Items
 
-Through the Talawa mobile app, users who choose to volunteer can efficiently track the tasks assigned to them. The app provides a dedicated task management feature that allows volunteers to view their assigned tasks and monitor progress. 
+The assignment of action items are not just limited to events. 
 
-With this functionality, users can stay organized, prioritize their responsibilities, and contribute effectively to the projects and initiatives they are involved in, ensuring a streamlined and rewarding volunteering experience.
+Administrators can assign action items to any member of their organizations to help with the tracking of general and non-event related activities.
 
 ## Multi-Tenancy / Cloud
+
+We have a long term goal of supporting cloud services.
 
 Under the current model:
 
