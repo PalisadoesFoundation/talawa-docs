@@ -23,7 +23,7 @@ This is an interface that represents a database(MongoDB) document for Language.
 
 #### Defined in
 
-[src/models/Language.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Language.ts#L48)
+[src/models/Language.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Language.ts#L48)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/models/Language.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Language.ts#L51)
+[src/models/Language.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Language.ts#L51)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/models/Language.ts:49](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Language.ts#L49)
+[src/models/Language.ts:49](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Language.ts#L49)
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 #### Defined in
 
-[src/models/Language.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Language.ts#L50)
+[src/models/Language.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Language.ts#L50)

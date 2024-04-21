@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/checks.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/checks.ts#L34)
+[src/checks.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/checks.ts#L33)

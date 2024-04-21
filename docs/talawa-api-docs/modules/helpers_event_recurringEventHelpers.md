@@ -10,6 +10,7 @@
 - [generateRecurrenceRuleString](helpers_event_recurringEventHelpers.md#generaterecurrencerulestring)
 - [generateRecurringEventInstances](helpers_event_recurringEventHelpers.md#generaterecurringeventinstances)
 - [getRecurringInstanceDates](helpers_event_recurringEventHelpers.md#getrecurringinstancedates)
+- [removeDanglingDocuments](helpers_event_recurringEventHelpers.md#removedanglingdocuments)
 
 ## References
 
@@ -34,3 +35,9 @@ ___
 ### getRecurringInstanceDates
 
 Re-exports [getRecurringInstanceDates](helpers_event_recurringEventHelpers_getRecurringInstanceDates.md#getrecurringinstancedates)
+
+___
+
+### removeDanglingDocuments
+
+Re-exports [removeDanglingDocuments](helpers_event_recurringEventHelpers_removeDanglingDocuments.md#removedanglingdocuments)

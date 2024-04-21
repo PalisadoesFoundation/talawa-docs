@@ -36,4 +36,4 @@ The input arguments for the query.
 
 #### Defined in
 
-[src/resolvers/Query/agendaCategory.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/agendaCategory.ts#L19)
+[src/resolvers/Query/agendaCategory.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Query/agendaCategory.ts#L19)

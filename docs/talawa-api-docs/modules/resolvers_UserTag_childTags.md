@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/resolvers/UserTag/childTags.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/UserTag/childTags.ts#L17)
+[src/resolvers/UserTag/childTags.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/UserTag/childTags.ts#L17)
 
 ## Functions
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/resolvers/UserTag/childTags.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/UserTag/childTags.ts#L88)
+[src/resolvers/UserTag/childTags.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/UserTag/childTags.ts#L88)

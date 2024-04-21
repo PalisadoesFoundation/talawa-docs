@@ -15,6 +15,7 @@
 ▸ **updateThisInstance**(`args`, `event`, `session`): `Promise`\<[`InterfaceEvent`](../interfaces/models_Event.InterfaceEvent.md)\>
 
 This function updates only this instance of a recurrence pattern.
+This will make the instance an exception to the recurrence pattern.
 
 #### Parameters
 
@@ -37,4 +38,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/updateEventHelpers/updateThisInstance.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/helpers/event/updateEventHelpers/updateThisInstance.ts#L16)
+[src/helpers/event/updateEventHelpers/updateThisInstance.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/updateEventHelpers/updateThisInstance.ts#L17)

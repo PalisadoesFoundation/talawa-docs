@@ -226,7 +226,7 @@ ___
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/libraries/dbLogger.ts#L37)
+[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/libraries/dbLogger.ts#L37)
 
 ___
 
@@ -281,7 +281,7 @@ Query.then
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:756
+node_modules/mongoose/types/query.d.ts:759
 
 ## Methods
 
@@ -3261,7 +3261,7 @@ ___
 
 ### sort
 
-▸ **sort**(`arg?`): `this`
+▸ **sort**(`arg?`, `options?`): `this`
 
 Sets the sort order. If an object is passed, values allowed are `asc`, `desc`, `ascending`, `descending`, `1`, and `-1`.
 
@@ -3270,6 +3270,8 @@ Sets the sort order. If an object is passed, values allowed are `asc`, `desc`, `
 | Name | Type |
 | :------ | :------ |
 | `arg?` | ``null`` \| `string` \| \{ `[key: string]`: `SortOrder` \| \{ `$meta`: `any`  \};  \} \| [`string`, `SortOrder`][] |
+| `options?` | `Object` |
+| `options.override?` | `boolean` |
 
 #### Returns
 
@@ -3310,7 +3312,7 @@ Query.tailable
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:747
+node_modules/mongoose/types/query.d.ts:750
 
 ___
 
@@ -3336,7 +3338,7 @@ Query.toConstructor
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:759
+node_modules/mongoose/types/query.d.ts:762
 
 ___
 
@@ -3400,7 +3402,7 @@ Query.updateMany
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:767
+node_modules/mongoose/types/query.d.ts:770
 
 ___
 
@@ -3429,7 +3431,7 @@ Query.updateOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:777
+node_modules/mongoose/types/query.d.ts:780
 
 ___
 
@@ -3456,7 +3458,7 @@ Query.w
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:787
+node_modules/mongoose/types/query.d.ts:790
 
 ___
 
@@ -3483,7 +3485,7 @@ Query.where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:790
+node_modules/mongoose/types/query.d.ts:793
 
 ▸ **where**(`obj`): `this`
 
@@ -3503,7 +3505,7 @@ Query.where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:791
+node_modules/mongoose/types/query.d.ts:794
 
 ▸ **where**(): `this`
 
@@ -3517,7 +3519,7 @@ Query.where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:792
+node_modules/mongoose/types/query.d.ts:795
 
 ___
 
@@ -3543,7 +3545,7 @@ Query.within
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:795
+node_modules/mongoose/types/query.d.ts:798
 
 ___
 
@@ -3571,4 +3573,4 @@ Query.wtimeout
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:802
+node_modules/mongoose/types/query.d.ts:805

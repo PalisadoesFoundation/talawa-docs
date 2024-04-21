@@ -35,7 +35,7 @@ GraphQLError Throws an error if the provided arguments are invalid.
 
 #### Defined in
 
-[src/resolvers/User/posts.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/User/posts.ts#L30)
+[src/resolvers/User/posts.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/User/posts.ts#L30)
 
 ## Functions
 
@@ -63,4 +63,4 @@ Error Throws an error if the provided cursor is invalid.
 
 #### Defined in
 
-[src/resolvers/User/posts.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/User/posts.ts#L102)
+[src/resolvers/User/posts.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/User/posts.ts#L102)

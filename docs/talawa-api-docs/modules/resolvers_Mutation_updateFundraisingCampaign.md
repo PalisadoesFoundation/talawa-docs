@@ -40,4 +40,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/updateFundraisingCampaign.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/updateFundraisingCampaign.ts#L35)
+[src/resolvers/Mutation/updateFundraisingCampaign.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Mutation/updateFundraisingCampaign.ts#L42)

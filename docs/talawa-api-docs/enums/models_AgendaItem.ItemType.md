@@ -21,7 +21,7 @@ Enumeration representing the types of agenda items.
 
 #### Defined in
 
-[src/models/AgendaItem.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/AgendaItem.ts#L36)
+[src/models/AgendaItem.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaItem.ts#L36)
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 #### Defined in
 
-[src/models/AgendaItem.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/AgendaItem.ts#L35)
+[src/models/AgendaItem.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaItem.ts#L35)

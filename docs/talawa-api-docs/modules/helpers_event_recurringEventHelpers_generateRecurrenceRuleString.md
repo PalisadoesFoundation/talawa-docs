@@ -12,7 +12,7 @@
 
 ### generateRecurrenceRuleString
 
-▸ **generateRecurrenceRuleString**(`recurrenceRuleData`, `recurrenceStartDate`, `recurrenceEndDate?`): `string`
+▸ **generateRecurrenceRuleString**(`recurrenceRuleData`): `string`
 
 This function generates the recurrence rule (rrule) string.
 
@@ -21,8 +21,6 @@ This function generates the recurrence rule (rrule) string.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `recurrenceRuleData` | [`RecurrenceRuleInput`](types_generatedGraphQLTypes.md#recurrenceruleinput) | the recurrenceRuleInput provided in the args. |
-| `recurrenceStartDate` | `Date` | start date of recurrence. |
-| `recurrenceEndDate?` | `Date` | end date of recurrence. |
 
 #### Returns
 
@@ -38,4 +36,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L16)
+[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L16)

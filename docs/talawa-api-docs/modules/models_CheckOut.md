@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/CheckOut.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckOut.ts#L51)
+[src/models/CheckOut.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckOut.ts#L51)

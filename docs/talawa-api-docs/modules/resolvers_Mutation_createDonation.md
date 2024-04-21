@@ -30,4 +30,4 @@ context of entire application
 
 #### Defined in
 
-[src/resolvers/Mutation/createDonation.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/createDonation.ts#L11)
+[src/resolvers/Mutation/createDonation.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Mutation/createDonation.ts#L11)

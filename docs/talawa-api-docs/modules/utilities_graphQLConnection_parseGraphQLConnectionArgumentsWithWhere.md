@@ -31,7 +31,7 @@ This is typescript type of the object returned from `parseGraphQLConnectionArgum
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L36)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L36)
 
 ___
 
@@ -49,7 +49,7 @@ This is typescript type of the object returned from callback function `parseWher
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)
 
 ___
 
@@ -69,7 +69,7 @@ arguments passed to `parseGraphQLConnectionArgumentsWithWhere` function.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L29)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L29)
 
 ## Functions
 
@@ -126,4 +126,4 @@ const \{ parsedArgs: \{ cursor, direction, filter, limit \} \} = result;
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L70)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L70)

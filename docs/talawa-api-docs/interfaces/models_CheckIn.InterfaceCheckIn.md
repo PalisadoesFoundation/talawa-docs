@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckIn.ts#L14)
+[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckIn.ts#L14)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckIn.ts#L18)
+[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckIn.ts#L18)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckIn.ts#L15)
+[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckIn.ts#L15)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckIn.ts#L17)
+[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckIn.ts#L17)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckIn.ts#L16)
+[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckIn.ts#L16)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/CheckIn.ts#L19)
+[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/CheckIn.ts#L19)

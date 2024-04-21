@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/resolvers/Query/advertisementsConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/advertisementsConnection.ts#L16)
+[src/resolvers/Query/advertisementsConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Query/advertisementsConnection.ts#L16)
 
 ## Functions
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/resolvers/Query/advertisementsConnection.ts:86](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/advertisementsConnection.ts#L86)
+[src/resolvers/Query/advertisementsConnection.ts:86](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Query/advertisementsConnection.ts#L86)

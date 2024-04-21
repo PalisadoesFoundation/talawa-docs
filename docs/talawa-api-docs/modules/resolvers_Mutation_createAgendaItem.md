@@ -30,4 +30,4 @@ context of entire application
 
 #### Defined in
 
-[src/resolvers/Mutation/createAgendaItem.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/createAgendaItem.ts#L30)
+[src/resolvers/Mutation/createAgendaItem.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Mutation/createAgendaItem.ts#L38)

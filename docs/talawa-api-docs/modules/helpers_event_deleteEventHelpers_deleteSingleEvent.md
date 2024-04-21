@@ -12,7 +12,7 @@
 
 ### deleteSingleEvent
 
-▸ **deleteSingleEvent**(`eventId`, `session`): `Promise`\<`void`\>
+▸ **deleteSingleEvent**(`eventId`, `session`, `recurrenceRule?`, `baseRecurringEvent?`): `Promise`\<`void`\>
 
 This function deletes a single event.
 
@@ -22,6 +22,8 @@ This function deletes a single event.
 | :------ | :------ |
 | `eventId` | `string` |
 | `session` | `ClientSession` |
+| `recurrenceRule?` | `string` |
+| `baseRecurringEvent?` | `string` |
 
 #### Returns
 
@@ -35,4 +37,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts#L18)
+[src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts#L19)

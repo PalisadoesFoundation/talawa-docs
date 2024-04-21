@@ -42,4 +42,4 @@ UnauthorizedError Throws an UnauthorizedError if the current user is not authori
 
 #### Defined in
 
-[src/resolvers/Mutation/registerEventAttendee.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/registerEventAttendee.ts#L30)
+[src/resolvers/Mutation/registerEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Mutation/registerEventAttendee.ts#L38)

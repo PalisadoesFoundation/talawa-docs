@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/models/Venue.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Venue.ts#L6)
+[src/models/Venue.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Venue.ts#L6)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/models/Venue.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Venue.ts#L9)
+[src/models/Venue.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Venue.ts#L9)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/models/Venue.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Venue.ts#L8)
+[src/models/Venue.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Venue.ts#L8)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/models/Venue.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Venue.ts#L10)
+[src/models/Venue.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Venue.ts#L10)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[src/models/Venue.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Venue.ts#L7)
+[src/models/Venue.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Venue.ts#L7)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[src/models/Venue.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/Venue.ts#L11)
+[src/models/Venue.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Venue.ts#L11)

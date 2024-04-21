@@ -27,4 +27,4 @@
 
 #### Defined in
 
-[src/libraries/validators/compareTime.ts:1](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/libraries/validators/compareTime.ts#L1)
+[src/libraries/validators/compareTime.ts:1](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/libraries/validators/compareTime.ts#L1)

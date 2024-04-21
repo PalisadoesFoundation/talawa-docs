@@ -24,4 +24,4 @@ An object that contains `id` of the fund.
 
 #### Defined in
 
-[src/resolvers/Query/getFundraisingCampaignPledgeById.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Query/getFundraisingCampaignPledgeById.ts#L12)
+[src/resolvers/Query/getFundraisingCampaignPledgeById.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Query/getFundraisingCampaignPledgeById.ts#L12)

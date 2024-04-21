@@ -31,7 +31,7 @@ The function `checkExistingRedis` returns a void Promise.
 
 #### Defined in
 
-[src/setup/setImageUploadSize.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/setImageUploadSize.ts#L9)
+[src/setup/setImageUploadSize.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/setup/setImageUploadSize.ts#L9)
 
 ___
 
@@ -55,4 +55,4 @@ a boolean value.
 
 #### Defined in
 
-[src/setup/setImageUploadSize.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/setImageUploadSize.ts#L37)
+[src/setup/setImageUploadSize.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/setup/setImageUploadSize.ts#L37)

@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[src/models/AgendaItem.ts:126](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/AgendaItem.ts#L126)
+[src/models/AgendaItem.ts:126](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaItem.ts#L126)
 
 ___
 
@@ -101,4 +101,4 @@ Reference to the organization associated with the agenda item.
 
 #### Defined in
 
-[src/models/AgendaItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/models/AgendaItem.ts#L58)
+[src/models/AgendaItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaItem.ts#L58)

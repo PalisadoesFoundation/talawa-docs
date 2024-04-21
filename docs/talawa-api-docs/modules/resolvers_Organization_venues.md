@@ -22,4 +22,4 @@ An object that contains `id` of the organization.
 
 #### Defined in
 
-[src/resolvers/Organization/venues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Organization/venues.ts#L8)
+[src/resolvers/Organization/venues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Organization/venues.ts#L8)

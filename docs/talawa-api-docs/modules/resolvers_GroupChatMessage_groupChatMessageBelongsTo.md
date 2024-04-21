@@ -22,4 +22,4 @@ An object that is the return value of the resolver for this field's parent.
 
 #### Defined in
 
-[src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts#L10)
+[src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts#L10)

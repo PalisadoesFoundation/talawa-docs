@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/index.ts:125](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/resolvers/Mutation/index.ts#L125)
+[src/resolvers/Mutation/index.ts:124](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Mutation/index.ts#L124)

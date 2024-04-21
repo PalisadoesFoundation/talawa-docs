@@ -37,4 +37,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts#L18)
+[src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts#L22)

@@ -34,4 +34,4 @@ be `true` and the `error` property will be `null`. If the SMTP connection verifi
 
 #### Defined in
 
-[src/setup/verifySmtpConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/setup/verifySmtpConnection.ts#L18)
+[src/setup/verifySmtpConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/setup/verifySmtpConnection.ts#L18)

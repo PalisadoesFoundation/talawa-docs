@@ -36,7 +36,8 @@ The following steps are followed:
 2. remove the associations of the instances.
 3. delete the instances.
 4. update the recurrenceRule and baseRecurringEvent accordingly.
+5. remove any dangling recurrence rule and base recurring event documents.
 
 #### Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/65069df/src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts#L29)
+[src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts#L30)

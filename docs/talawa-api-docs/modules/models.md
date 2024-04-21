@@ -30,6 +30,7 @@
 - [EventVolunteerGroup](models.md#eventvolunteergroup)
 - [Feedback](models.md#feedback)
 - [File](models.md#file)
+- [Frequency](models.md#frequency)
 - [Fund](models.md#fund)
 - [FundraisingCampaign](models.md#fundraisingcampaign)
 - [Group](models.md#group)
@@ -73,6 +74,7 @@
 - [InterfacePlugin](models.md#interfaceplugin)
 - [InterfacePluginField](models.md#interfacepluginfield)
 - [InterfacePost](models.md#interfacepost)
+- [InterfaceRecurrenceRule](models.md#interfacerecurrencerule)
 - [InterfaceSampleData](models.md#interfacesampledata)
 - [InterfaceTagUser](models.md#interfacetaguser)
 - [InterfaceUser](models.md#interfaceuser)
@@ -88,10 +90,12 @@
 - [Plugin](models.md#plugin)
 - [PluginField](models.md#pluginfield)
 - [Post](models.md#post)
+- [RecurrenceRule](models.md#recurrencerule)
 - [SampleData](models.md#sampledata)
 - [TagUser](models.md#taguser)
 - [User](models.md#user)
 - [Venue](models.md#venue)
+- [WeekDays](models.md#weekdays)
 
 ## References
 
@@ -236,6 +240,12 @@ ___
 ### File
 
 Re-exports [File](models_File.md#file)
+
+___
+
+### Frequency
+
+Re-exports [Frequency](../enums/models_RecurrenceRule.Frequency.md)
 
 ___
 
@@ -497,6 +507,12 @@ Re-exports [InterfacePost](../interfaces/models_Post.InterfacePost.md)
 
 ___
 
+### InterfaceRecurrenceRule
+
+Re-exports [InterfaceRecurrenceRule](../interfaces/models_RecurrenceRule.InterfaceRecurrenceRule.md)
+
+___
+
 ### InterfaceSampleData
 
 Re-exports [InterfaceSampleData](../interfaces/models_SampleData.InterfaceSampleData.md)
@@ -587,6 +603,12 @@ Re-exports [Post](models_Post.md#post)
 
 ___
 
+### RecurrenceRule
+
+Re-exports [RecurrenceRule](models_RecurrenceRule.md#recurrencerule)
+
+___
+
 ### SampleData
 
 Re-exports [SampleData](models_SampleData.md#sampledata)
@@ -608,3 +630,9 @@ ___
 ### Venue
 
 Re-exports [Venue](models_Venue.md#venue)
+
+___
+
+### WeekDays
+
+Re-exports [WeekDays](../enums/models_RecurrenceRule.WeekDays.md)
