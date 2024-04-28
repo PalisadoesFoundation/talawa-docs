@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/FundraisingCampaignPledge/index.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/FundraisingCampaignPledge/index.ts#L3)
+[src/resolvers/FundraisingCampaignPledge/index.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/FundraisingCampaignPledge/index.ts#L3)

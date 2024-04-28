@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/UserCache/deleteUserFromCache.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/services/UserCache/deleteUserFromCache.ts#L2)
+[src/services/UserCache/deleteUserFromCache.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/services/UserCache/deleteUserFromCache.ts#L2)

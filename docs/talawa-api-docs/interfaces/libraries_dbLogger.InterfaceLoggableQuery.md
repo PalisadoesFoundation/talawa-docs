@@ -133,7 +133,7 @@ Query.[toStringTag]
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:284
+node_modules/mongoose/types/query.d.ts:269
 
 ___
 
@@ -147,7 +147,7 @@ Query.\_mongooseOptions
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:224
+node_modules/mongoose/types/query.d.ts:209
 
 ___
 
@@ -185,7 +185,7 @@ Query.catch
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:275
+node_modules/mongoose/types/query.d.ts:260
 
 ___
 
@@ -216,7 +216,7 @@ Query.finally
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:281
+node_modules/mongoose/types/query.d.ts:266
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/libraries/dbLogger.ts#L37)
+[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/libraries/dbLogger.ts#L37)
 
 ___
 
@@ -242,7 +242,7 @@ Query.model
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:582
+node_modules/mongoose/types/query.d.ts:567
 
 ___
 
@@ -281,7 +281,7 @@ Query.then
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:759
+node_modules/mongoose/types/query.d.ts:744
 
 ## Methods
 
@@ -305,7 +305,7 @@ Query.$where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:236
+node_modules/mongoose/types/query.d.ts:221
 
 ___
 
@@ -327,7 +327,7 @@ Query.[asyncIterator]
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:231
+node_modules/mongoose/types/query.d.ts:216
 
 ___
 
@@ -354,7 +354,7 @@ Query.all
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:245
+node_modules/mongoose/types/query.d.ts:230
 
 ▸ **all**(`val`): `this`
 
@@ -374,7 +374,7 @@ Query.all
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:246
+node_modules/mongoose/types/query.d.ts:231
 
 ___
 
@@ -400,7 +400,7 @@ Query.allowDiskUse
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:249
+node_modules/mongoose/types/query.d.ts:234
 
 ___
 
@@ -426,7 +426,7 @@ Query.and
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:252
+node_modules/mongoose/types/query.d.ts:237
 
 ___
 
@@ -452,7 +452,7 @@ Query.batchSize
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:255
+node_modules/mongoose/types/query.d.ts:240
 
 ___
 
@@ -479,7 +479,7 @@ Query.box
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:258
+node_modules/mongoose/types/query.d.ts:243
 
 ▸ **box**(`val`): `this`
 
@@ -499,7 +499,7 @@ Query.box
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:259
+node_modules/mongoose/types/query.d.ts:244
 
 ___
 
@@ -528,7 +528,7 @@ Query.cast
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:268
+node_modules/mongoose/types/query.d.ts:253
 
 ___
 
@@ -555,7 +555,7 @@ Query.circle
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:287
+node_modules/mongoose/types/query.d.ts:272
 
 ▸ **circle**(`area`): `this`
 
@@ -575,7 +575,7 @@ Query.circle
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:288
+node_modules/mongoose/types/query.d.ts:273
 
 ___
 
@@ -595,7 +595,7 @@ Query.clone
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:291
+node_modules/mongoose/types/query.d.ts:276
 
 ___
 
@@ -621,7 +621,7 @@ Query.collation
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:294
+node_modules/mongoose/types/query.d.ts:279
 
 ___
 
@@ -647,7 +647,7 @@ Query.comment
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:297
+node_modules/mongoose/types/query.d.ts:282
 
 ___
 
@@ -674,7 +674,7 @@ Query.countDocuments
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:300
+node_modules/mongoose/types/query.d.ts:285
 
 ___
 
@@ -701,7 +701,7 @@ Query.cursor
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:309
+node_modules/mongoose/types/query.d.ts:294
 
 ___
 
@@ -730,7 +730,7 @@ Query.deleteMany
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:316
+node_modules/mongoose/types/query.d.ts:301
 
 ▸ **deleteMany**(`filter`): `Query`\<`any`, `T`, \{\}, `T`, ``"deleteMany"``\>
 
@@ -750,7 +750,7 @@ Query.deleteMany
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:320
+node_modules/mongoose/types/query.d.ts:305
 
 ▸ **deleteMany**(): `Query`\<`any`, `T`, \{\}, `T`, ``"deleteMany"``\>
 
@@ -764,7 +764,7 @@ Query.deleteMany
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:327
+node_modules/mongoose/types/query.d.ts:312
 
 ___
 
@@ -793,7 +793,7 @@ Query.deleteOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:334
+node_modules/mongoose/types/query.d.ts:319
 
 ▸ **deleteOne**(`filter`): `Query`\<`any`, `T`, \{\}, `T`, ``"deleteOne"``\>
 
@@ -813,7 +813,7 @@ Query.deleteOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:338
+node_modules/mongoose/types/query.d.ts:323
 
 ▸ **deleteOne**(): `Query`\<`any`, `T`, \{\}, `T`, ``"deleteOne"``\>
 
@@ -827,7 +827,7 @@ Query.deleteOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:345
+node_modules/mongoose/types/query.d.ts:330
 
 ___
 
@@ -861,7 +861,7 @@ Query.distinct
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:348
+node_modules/mongoose/types/query.d.ts:333
 
 ___
 
@@ -894,7 +894,7 @@ Query.elemMatch
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:354
+node_modules/mongoose/types/query.d.ts:339
 
 ▸ **elemMatch**(`val`): `this`
 
@@ -914,7 +914,7 @@ Query.elemMatch
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:355
+node_modules/mongoose/types/query.d.ts:340
 
 ___
 
@@ -940,7 +940,7 @@ Query.equals
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:365
+node_modules/mongoose/types/query.d.ts:350
 
 ___
 
@@ -961,7 +961,7 @@ Query.error
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:361
+node_modules/mongoose/types/query.d.ts:346
 
 ▸ **error**(`val`): `this`
 
@@ -981,7 +981,7 @@ Query.error
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:362
+node_modules/mongoose/types/query.d.ts:347
 
 ___
 
@@ -1007,7 +1007,7 @@ Query.estimatedDocumentCount
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:368
+node_modules/mongoose/types/query.d.ts:353
 
 ___
 
@@ -1027,7 +1027,7 @@ Query.exec
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:234
+node_modules/mongoose/types/query.d.ts:219
 
 ___
 
@@ -1060,7 +1060,7 @@ Query.exists
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:377
+node_modules/mongoose/types/query.d.ts:362
 
 ▸ **exists**(`val`): `this`
 
@@ -1080,7 +1080,7 @@ Query.exists
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:378
+node_modules/mongoose/types/query.d.ts:363
 
 ___
 
@@ -1109,7 +1109,7 @@ Query.explain
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:386
+node_modules/mongoose/types/query.d.ts:371
 
 ___
 
@@ -1137,7 +1137,7 @@ Query.find
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:389
+node_modules/mongoose/types/query.d.ts:374
 
 ▸ **find**(`filter`, `projection?`): `Query`\<`T`[], `T`, \{\}, `T`, ``"find"``\>
 
@@ -1158,7 +1158,7 @@ Query.find
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:394
+node_modules/mongoose/types/query.d.ts:379
 
 ▸ **find**(`filter`): `Query`\<`T`[], `T`, \{\}, `T`, ``"find"``\>
 
@@ -1178,7 +1178,7 @@ Query.find
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:398
+node_modules/mongoose/types/query.d.ts:383
 
 ▸ **find**(): `Query`\<`T`[], `T`, \{\}, `T`, ``"find"``\>
 
@@ -1192,7 +1192,7 @@ Query.find
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:401
+node_modules/mongoose/types/query.d.ts:386
 
 ___
 
@@ -1220,7 +1220,7 @@ Query.findById
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:441
+node_modules/mongoose/types/query.d.ts:426
 
 ▸ **findById**(`id`, `projection?`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOne"``\>
 
@@ -1241,7 +1241,7 @@ Query.findById
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:446
+node_modules/mongoose/types/query.d.ts:431
 
 ▸ **findById**(`id`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOne"``\>
 
@@ -1261,7 +1261,7 @@ Query.findById
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:450
+node_modules/mongoose/types/query.d.ts:435
 
 ___
 
@@ -1288,7 +1288,7 @@ Query.findByIdAndDelete
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:455
+node_modules/mongoose/types/query.d.ts:440
 
 ▸ **findByIdAndDelete**(`id?`, `options?`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOneAndDelete"``\>
 
@@ -1309,7 +1309,7 @@ Query.findByIdAndDelete
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:459
+node_modules/mongoose/types/query.d.ts:444
 
 ___
 
@@ -1337,7 +1337,7 @@ Query.findByIdAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:465
+node_modules/mongoose/types/query.d.ts:450
 
 ▸ **findByIdAndUpdate**(`id`, `update`, `options`): `Query`\<`T`, `T`, \{\}, `T`, ``"findOneAndUpdate"``\>
 
@@ -1359,7 +1359,7 @@ Query.findByIdAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:470
+node_modules/mongoose/types/query.d.ts:455
 
 ▸ **findByIdAndUpdate**(`id?`, `update?`, `options?`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOneAndUpdate"``\>
 
@@ -1381,7 +1381,7 @@ Query.findByIdAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:475
+node_modules/mongoose/types/query.d.ts:460
 
 ▸ **findByIdAndUpdate**(`id`, `update`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOneAndUpdate"``\>
 
@@ -1402,7 +1402,7 @@ Query.findByIdAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:480
+node_modules/mongoose/types/query.d.ts:465
 
 ___
 
@@ -1430,7 +1430,7 @@ Query.findOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:404
+node_modules/mongoose/types/query.d.ts:389
 
 ▸ **findOne**(`filter?`, `projection?`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOne"``\>
 
@@ -1451,7 +1451,7 @@ Query.findOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:409
+node_modules/mongoose/types/query.d.ts:394
 
 ▸ **findOne**(`filter?`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOne"``\>
 
@@ -1471,7 +1471,7 @@ Query.findOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:413
+node_modules/mongoose/types/query.d.ts:398
 
 ___
 
@@ -1498,7 +1498,7 @@ Query.findOneAndDelete
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:418
+node_modules/mongoose/types/query.d.ts:403
 
 ___
 
@@ -1526,7 +1526,7 @@ Query.findOneAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:424
+node_modules/mongoose/types/query.d.ts:409
 
 ▸ **findOneAndUpdate**(`filter`, `update`, `options`): `Query`\<`T`, `T`, \{\}, `T`, ``"findOneAndUpdate"``\>
 
@@ -1548,7 +1548,7 @@ Query.findOneAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:429
+node_modules/mongoose/types/query.d.ts:414
 
 ▸ **findOneAndUpdate**(`filter?`, `update?`, `options?`): `Query`\<``null`` \| `T`, `T`, \{\}, `T`, ``"findOneAndUpdate"``\>
 
@@ -1570,7 +1570,7 @@ Query.findOneAndUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:434
+node_modules/mongoose/types/query.d.ts:419
 
 ___
 
@@ -1598,7 +1598,7 @@ Query.geometry
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:486
+node_modules/mongoose/types/query.d.ts:471
 
 ___
 
@@ -1626,7 +1626,7 @@ Query.get
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:493
+node_modules/mongoose/types/query.d.ts:478
 
 ___
 
@@ -1646,7 +1646,7 @@ Query.getFilter
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:496
+node_modules/mongoose/types/query.d.ts:481
 
 ___
 
@@ -1666,7 +1666,7 @@ Query.getOptions
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:499
+node_modules/mongoose/types/query.d.ts:484
 
 ___
 
@@ -1686,7 +1686,7 @@ Query.getPopulatedPaths
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:502
+node_modules/mongoose/types/query.d.ts:487
 
 ___
 
@@ -1706,7 +1706,7 @@ Query.getQuery
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:505
+node_modules/mongoose/types/query.d.ts:490
 
 ___
 
@@ -1726,7 +1726,7 @@ Query.getUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:508
+node_modules/mongoose/types/query.d.ts:493
 
 ___
 
@@ -1759,7 +1759,7 @@ Query.gt
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:511
+node_modules/mongoose/types/query.d.ts:496
 
 ▸ **gt**(`val`): `this`
 
@@ -1779,7 +1779,7 @@ Query.gt
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:512
+node_modules/mongoose/types/query.d.ts:497
 
 ___
 
@@ -1812,7 +1812,7 @@ Query.gte
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:515
+node_modules/mongoose/types/query.d.ts:500
 
 ▸ **gte**(`val`): `this`
 
@@ -1832,7 +1832,7 @@ Query.gte
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:516
+node_modules/mongoose/types/query.d.ts:501
 
 ___
 
@@ -1858,7 +1858,7 @@ Query.hint
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:519
+node_modules/mongoose/types/query.d.ts:504
 
 ___
 
@@ -1891,7 +1891,7 @@ Query.in
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:522
+node_modules/mongoose/types/query.d.ts:507
 
 ▸ **in**(`val`): `this`
 
@@ -1911,7 +1911,7 @@ Query.in
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:523
+node_modules/mongoose/types/query.d.ts:508
 
 ___
 
@@ -1937,7 +1937,7 @@ Query.intersects
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:526
+node_modules/mongoose/types/query.d.ts:511
 
 ___
 
@@ -1963,7 +1963,7 @@ Query.j
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:529
+node_modules/mongoose/types/query.d.ts:514
 
 ___
 
@@ -1995,7 +1995,7 @@ Query.lean
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:532
+node_modules/mongoose/types/query.d.ts:517
 
 ___
 
@@ -2021,7 +2021,7 @@ Query.limit
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:547
+node_modules/mongoose/types/query.d.ts:532
 
 ___
 
@@ -2054,7 +2054,7 @@ Query.lt
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:550
+node_modules/mongoose/types/query.d.ts:535
 
 ▸ **lt**(`val`): `this`
 
@@ -2074,7 +2074,7 @@ Query.lt
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:551
+node_modules/mongoose/types/query.d.ts:536
 
 ___
 
@@ -2107,7 +2107,7 @@ Query.lte
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:554
+node_modules/mongoose/types/query.d.ts:539
 
 ▸ **lte**(`val`): `this`
 
@@ -2127,7 +2127,7 @@ Query.lte
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:555
+node_modules/mongoose/types/query.d.ts:540
 
 ___
 
@@ -2154,7 +2154,7 @@ Query.maxDistance
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:564
+node_modules/mongoose/types/query.d.ts:549
 
 ▸ **maxDistance**(`val`): `this`
 
@@ -2174,7 +2174,7 @@ Query.maxDistance
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:565
+node_modules/mongoose/types/query.d.ts:550
 
 ___
 
@@ -2202,7 +2202,7 @@ Query.maxTimeMS
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:572
+node_modules/mongoose/types/query.d.ts:557
 
 ___
 
@@ -2228,7 +2228,7 @@ Query.merge
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:575
+node_modules/mongoose/types/query.d.ts:560
 
 ___
 
@@ -2261,7 +2261,7 @@ Query.mod
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:578
+node_modules/mongoose/types/query.d.ts:563
 
 ▸ **mod**(`val`): `this`
 
@@ -2281,7 +2281,7 @@ Query.mod
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:579
+node_modules/mongoose/types/query.d.ts:564
 
 ___
 
@@ -2308,7 +2308,7 @@ Query.mongooseOptions
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:588
+node_modules/mongoose/types/query.d.ts:573
 
 ___
 
@@ -2341,7 +2341,7 @@ Query.ne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:591
+node_modules/mongoose/types/query.d.ts:576
 
 ▸ **ne**(`val`): `this`
 
@@ -2361,7 +2361,7 @@ Query.ne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:592
+node_modules/mongoose/types/query.d.ts:577
 
 ___
 
@@ -2394,7 +2394,7 @@ Query.near
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:595
+node_modules/mongoose/types/query.d.ts:580
 
 ▸ **near**(`val`): `this`
 
@@ -2414,7 +2414,7 @@ Query.near
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:596
+node_modules/mongoose/types/query.d.ts:581
 
 ___
 
@@ -2447,7 +2447,7 @@ Query.nin
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:599
+node_modules/mongoose/types/query.d.ts:584
 
 ▸ **nin**(`val`): `this`
 
@@ -2467,7 +2467,7 @@ Query.nin
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:600
+node_modules/mongoose/types/query.d.ts:585
 
 ___
 
@@ -2493,7 +2493,7 @@ Query.nor
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:603
+node_modules/mongoose/types/query.d.ts:588
 
 ___
 
@@ -2519,7 +2519,7 @@ Query.or
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:606
+node_modules/mongoose/types/query.d.ts:591
 
 ___
 
@@ -2547,7 +2547,7 @@ Query.orFail
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:613
+node_modules/mongoose/types/query.d.ts:598
 
 ___
 
@@ -2574,7 +2574,7 @@ Query.polygon
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:616
+node_modules/mongoose/types/query.d.ts:601
 
 ▸ **polygon**(`...coordinatePairs`): `this`
 
@@ -2594,7 +2594,7 @@ Query.polygon
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:617
+node_modules/mongoose/types/query.d.ts:602
 
 ___
 
@@ -2629,7 +2629,7 @@ Query.populate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:620
+node_modules/mongoose/types/query.d.ts:605
 
 ▸ **populate**\<`Paths`\>(`options`): `Query`\<keyof `Paths` extends `never` ? `unknown` : `Omit`\<`unknown`, keyof `Paths`\> & `Paths`, `T`, \{\}, `UnpackedIntersection`\<`T`, `Paths`\>, ``"find"``\>
 
@@ -2655,7 +2655,7 @@ Query.populate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:632
+node_modules/mongoose/types/query.d.ts:617
 
 ___
 
@@ -2681,7 +2681,7 @@ Query.post
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:646
+node_modules/mongoose/types/query.d.ts:631
 
 ___
 
@@ -2707,7 +2707,7 @@ Query.pre
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:643
+node_modules/mongoose/types/query.d.ts:628
 
 ___
 
@@ -2733,7 +2733,7 @@ Query.projection
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:649
+node_modules/mongoose/types/query.d.ts:634
 
 ▸ **projection**(`fields`): ``null``
 
@@ -2753,7 +2753,7 @@ Query.projection
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:650
+node_modules/mongoose/types/query.d.ts:635
 
 ▸ **projection**(): ``null`` \| `ProjectionFields`\<`T`\>
 
@@ -2767,7 +2767,7 @@ Query.projection
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:651
+node_modules/mongoose/types/query.d.ts:636
 
 ___
 
@@ -2794,7 +2794,7 @@ Query.read
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:654
+node_modules/mongoose/types/query.d.ts:639
 
 ___
 
@@ -2820,7 +2820,7 @@ Query.readConcern
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:657
+node_modules/mongoose/types/query.d.ts:642
 
 ___
 
@@ -2853,7 +2853,7 @@ Query.regex
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:660
+node_modules/mongoose/types/query.d.ts:645
 
 ▸ **regex**(`val`): `this`
 
@@ -2873,7 +2873,7 @@ Query.regex
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:661
+node_modules/mongoose/types/query.d.ts:646
 
 ___
 
@@ -2903,7 +2903,7 @@ Query.replaceOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:668
+node_modules/mongoose/types/query.d.ts:653
 
 ___
 
@@ -2935,7 +2935,7 @@ Query.select
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:675
+node_modules/mongoose/types/query.d.ts:660
 
 ___
 
@@ -2955,7 +2955,7 @@ Query.selected
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:702
+node_modules/mongoose/types/query.d.ts:687
 
 ___
 
@@ -2975,7 +2975,7 @@ Query.selectedExclusively
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:705
+node_modules/mongoose/types/query.d.ts:690
 
 ___
 
@@ -2995,7 +2995,7 @@ Query.selectedInclusively
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:708
+node_modules/mongoose/types/query.d.ts:693
 
 ___
 
@@ -3023,7 +3023,7 @@ Query.session
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:715
+node_modules/mongoose/types/query.d.ts:700
 
 ___
 
@@ -3052,7 +3052,7 @@ Query.set
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:722
+node_modules/mongoose/types/query.d.ts:707
 
 ___
 
@@ -3079,7 +3079,7 @@ Query.setOptions
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:725
+node_modules/mongoose/types/query.d.ts:710
 
 ___
 
@@ -3105,7 +3105,7 @@ Query.setQuery
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:728
+node_modules/mongoose/types/query.d.ts:713
 
 ___
 
@@ -3129,7 +3129,7 @@ Query.setUpdate
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:730
+node_modules/mongoose/types/query.d.ts:715
 
 ___
 
@@ -3162,7 +3162,7 @@ Query.size
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:733
+node_modules/mongoose/types/query.d.ts:718
 
 ▸ **size**(`val`): `this`
 
@@ -3182,7 +3182,7 @@ Query.size
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:734
+node_modules/mongoose/types/query.d.ts:719
 
 ___
 
@@ -3208,7 +3208,7 @@ Query.skip
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:737
+node_modules/mongoose/types/query.d.ts:722
 
 ___
 
@@ -3235,7 +3235,7 @@ Query.slice
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:740
+node_modules/mongoose/types/query.d.ts:725
 
 ▸ **slice**(`val`): `this`
 
@@ -3255,7 +3255,7 @@ Query.slice
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:741
+node_modules/mongoose/types/query.d.ts:726
 
 ___
 
@@ -3283,7 +3283,7 @@ Query.sort
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:744
+node_modules/mongoose/types/query.d.ts:729
 
 ___
 
@@ -3312,7 +3312,7 @@ Query.tailable
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:750
+node_modules/mongoose/types/query.d.ts:735
 
 ___
 
@@ -3338,7 +3338,7 @@ Query.toConstructor
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:762
+node_modules/mongoose/types/query.d.ts:747
 
 ___
 
@@ -3371,7 +3371,7 @@ Query.transform
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:561
+node_modules/mongoose/types/query.d.ts:546
 
 ___
 
@@ -3402,7 +3402,7 @@ Query.updateMany
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:770
+node_modules/mongoose/types/query.d.ts:755
 
 ___
 
@@ -3431,7 +3431,7 @@ Query.updateOne
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:780
+node_modules/mongoose/types/query.d.ts:765
 
 ___
 
@@ -3458,7 +3458,7 @@ Query.w
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:790
+node_modules/mongoose/types/query.d.ts:775
 
 ___
 
@@ -3485,7 +3485,7 @@ Query.where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:793
+node_modules/mongoose/types/query.d.ts:778
 
 ▸ **where**(`obj`): `this`
 
@@ -3505,7 +3505,7 @@ Query.where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:794
+node_modules/mongoose/types/query.d.ts:779
 
 ▸ **where**(): `this`
 
@@ -3519,7 +3519,7 @@ Query.where
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:795
+node_modules/mongoose/types/query.d.ts:780
 
 ___
 
@@ -3545,7 +3545,7 @@ Query.within
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:798
+node_modules/mongoose/types/query.d.ts:783
 
 ___
 
@@ -3573,4 +3573,4 @@ Query.wtimeout
 
 #### Defined in
 
-node_modules/mongoose/types/query.d.ts:805
+node_modules/mongoose/types/query.d.ts:790

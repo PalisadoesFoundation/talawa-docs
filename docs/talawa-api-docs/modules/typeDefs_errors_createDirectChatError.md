@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/errors/createDirectChatError.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/typeDefs/errors/createDirectChatError.ts#L2)
+[src/typeDefs/errors/createDirectChatError.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/typeDefs/errors/createDirectChatError.ts#L2)

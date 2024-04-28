@@ -30,4 +30,4 @@ a boolean value.
 
 #### Defined in
 
-[src/setup/reCaptcha.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/setup/reCaptcha.ts#L7)
+[src/setup/reCaptcha.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/setup/reCaptcha.ts#L7)

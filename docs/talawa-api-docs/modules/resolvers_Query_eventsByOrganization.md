@@ -14,7 +14,7 @@
 
 • `Const` **eventsByOrganization**: [`QueryResolvers`](types_generatedGraphQLTypes.md#queryresolvers)[``"eventsByOrganization"``]
 
-This query will fetch all events for the organization which have `ACTIVE` status from database.
+This query will fetch all the events for an organization from the database.
 
 **`Param`**
 
@@ -24,4 +24,4 @@ An object that contains `orderBy` to sort the object as specified and `id` of th
 
 #### Defined in
 
-[src/resolvers/Query/eventsByOrganization.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Query/eventsByOrganization.ts#L10)
+[src/resolvers/Query/eventsByOrganization.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Query/eventsByOrganization.ts#L10)

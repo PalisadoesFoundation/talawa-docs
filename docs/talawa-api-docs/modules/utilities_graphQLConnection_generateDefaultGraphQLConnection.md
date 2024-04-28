@@ -39,7 +39,7 @@ to the default type of this base connection object.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts#L18)
+[src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts#L18)
 
 ___
 
@@ -66,7 +66,7 @@ object adheres to the default type of this base connection edge object.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts#L8)
+[src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts#L8)
 
 ## Functions
 
@@ -95,4 +95,4 @@ const connection = generateDefaultGraphQLConnection();
 
 #### Defined in
 
-[src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts#L30)
+[src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/generateDefaultGraphQLConnection.ts#L30)

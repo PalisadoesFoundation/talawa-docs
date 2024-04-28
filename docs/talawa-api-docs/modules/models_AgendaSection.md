@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[src/models/AgendaSection.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaSection.ts#L68)
+[src/models/AgendaSection.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/AgendaSection.ts#L68)
 
 ___
 
@@ -61,4 +61,4 @@ Date when the agenda section was last updated.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaSection.ts#L31)
+[src/models/AgendaSection.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/AgendaSection.ts#L31)

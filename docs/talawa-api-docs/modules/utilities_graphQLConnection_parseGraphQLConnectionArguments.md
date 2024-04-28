@@ -33,7 +33,7 @@ function.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L57)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L57)
 
 ___
 
@@ -65,7 +65,7 @@ This is typescript type of the callback function `parseCursor`.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L39)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L39)
 
 ___
 
@@ -86,7 +86,7 @@ an argument.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L13)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L13)
 
 ___
 
@@ -107,7 +107,7 @@ functions.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L25)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L25)
 
 ___
 
@@ -134,7 +134,7 @@ arguments passed to `parseGraphQLConnectionArguments` function.
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L47)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L47)
 
 ## Functions
 
@@ -187,4 +187,4 @@ const \{ parsedArgs: \{ cursor, direction, limit \} \} = result;
 
 #### Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L88)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L88)

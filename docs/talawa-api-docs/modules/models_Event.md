@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/Event.ts:211](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/Event.ts#L211)
+[src/models/Event.ts:203](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/Event.ts#L203)

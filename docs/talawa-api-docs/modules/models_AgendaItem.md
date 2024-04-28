@@ -25,13 +25,13 @@
 
 #### Defined in
 
-[src/models/AgendaItem.ts:126](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaItem.ts#L126)
+[src/models/AgendaItem.ts:133](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/AgendaItem.ts#L133)
 
 ___
 
 ### AgendaItemSchema
 
-• `Const` **AgendaItemSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, \{\}, \{\}, \{\}, \{\}, `DefaultSchemaOptions`, \{ `attachments`: `string`[] ; `categories`: `ObjectId`[] ; `createdAt`: `undefined` \| ``null`` \| `Date` ; `createdBy`: `undefined` \| ``null`` \| `ObjectId` ; `description`: `undefined` \| ``null`` \| `string` ; `duration`: `string` ; `isNote`: `boolean` ; `itemType`: `undefined` \| ``null`` \| [`Regular`](../enums/models_AgendaItem.ItemType.md#regular) \| [`Note`](../enums/models_AgendaItem.ItemType.md#note) ; `organization`: `undefined` \| ``null`` \| `ObjectId` ; `relatedEventId`: `undefined` \| ``null`` \| `ObjectId` ; `sequence`: `undefined` \| ``null`` \| `number` ; `title`: `string` ; `updatedAt`: `undefined` \| ``null`` \| `Date` ; `updatedBy`: `undefined` \| ``null`` \| `ObjectId` ; `urls`: `string`[] ; `user`: `undefined` \| ``null`` \| `string`  \}, `Document`\<`unknown`, \{\}, `FlatRecord`\<\{ `attachments`: `string`[] ; `categories`: `ObjectId`[] ; `createdAt`: `undefined` \| ``null`` \| `Date` ; `createdBy`: `undefined` \| ``null`` \| `ObjectId` ; `description`: `undefined` \| ``null`` \| `string` ; `duration`: `string` ; `isNote`: `boolean` ; `itemType`: `undefined` \| ``null`` \| [`Regular`](../enums/models_AgendaItem.ItemType.md#regular) \| [`Note`](../enums/models_AgendaItem.ItemType.md#note) ; `organization`: `undefined` \| ``null`` \| `ObjectId` ; `relatedEventId`: `undefined` \| ``null`` \| `ObjectId` ; `sequence`: `undefined` \| ``null`` \| `number` ; `title`: `string` ; `updatedAt`: `undefined` \| ``null`` \| `Date` ; `updatedBy`: `undefined` \| ``null`` \| `ObjectId` ; `urls`: `string`[] ; `user`: `undefined` \| ``null`` \| `string`  \}\>\> & `FlatRecord`\<\{ `attachments`: `string`[] ; `categories`: `ObjectId`[] ; `createdAt`: `undefined` \| ``null`` \| `Date` ; `createdBy`: `undefined` \| ``null`` \| `ObjectId` ; `description`: `undefined` \| ``null`` \| `string` ; `duration`: `string` ; `isNote`: `boolean` ; `itemType`: `undefined` \| ``null`` \| [`Regular`](../enums/models_AgendaItem.ItemType.md#regular) \| [`Note`](../enums/models_AgendaItem.ItemType.md#note) ; `organization`: `undefined` \| ``null`` \| `ObjectId` ; `relatedEventId`: `undefined` \| ``null`` \| `ObjectId` ; `sequence`: `undefined` \| ``null`` \| `number` ; `title`: `string` ; `updatedAt`: `undefined` \| ``null`` \| `Date` ; `updatedBy`: `undefined` \| ``null`` \| `ObjectId` ; `urls`: `string`[] ; `user`: `undefined` \| ``null`` \| `string`  \}\> & \{ `_id`: `ObjectId`  \}\>
+• `Const` **AgendaItemSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, \{\}, \{\}, \{\}, \{\}, `DefaultSchemaOptions`, \{ `attachments`: `string`[] ; `categories`: `ObjectId`[] ; `createdAt`: `undefined` \| ``null`` \| `Date` ; `createdBy`: `undefined` \| ``null`` \| `ObjectId` ; `description`: `undefined` \| ``null`` \| `string` ; `duration`: `string` ; `itemType`: `undefined` \| ``null`` \| [`Regular`](../enums/models_AgendaItem.ItemType.md#regular) \| [`Note`](../enums/models_AgendaItem.ItemType.md#note) ; `notes`: `ObjectId`[] ; `organization`: `undefined` \| ``null`` \| `ObjectId` ; `relatedEventId`: `undefined` \| ``null`` \| `ObjectId` ; `sequence`: `undefined` \| ``null`` \| `number` ; `title`: `string` ; `updatedAt`: `undefined` \| ``null`` \| `Date` ; `updatedBy`: `undefined` \| ``null`` \| `ObjectId` ; `urls`: `string`[] ; `users`: `ObjectId`[]  \}, `Document`\<`unknown`, \{\}, `FlatRecord`\<\{ `attachments`: `string`[] ; `categories`: `ObjectId`[] ; `createdAt`: `undefined` \| ``null`` \| `Date` ; `createdBy`: `undefined` \| ``null`` \| `ObjectId` ; `description`: `undefined` \| ``null`` \| `string` ; `duration`: `string` ; `itemType`: `undefined` \| ``null`` \| [`Regular`](../enums/models_AgendaItem.ItemType.md#regular) \| [`Note`](../enums/models_AgendaItem.ItemType.md#note) ; `notes`: `ObjectId`[] ; `organization`: `undefined` \| ``null`` \| `ObjectId` ; `relatedEventId`: `undefined` \| ``null`` \| `ObjectId` ; `sequence`: `undefined` \| ``null`` \| `number` ; `title`: `string` ; `updatedAt`: `undefined` \| ``null`` \| `Date` ; `updatedBy`: `undefined` \| ``null`` \| `ObjectId` ; `urls`: `string`[] ; `users`: `ObjectId`[]  \}\>\> & `FlatRecord`\<\{ `attachments`: `string`[] ; `categories`: `ObjectId`[] ; `createdAt`: `undefined` \| ``null`` \| `Date` ; `createdBy`: `undefined` \| ``null`` \| `ObjectId` ; `description`: `undefined` \| ``null`` \| `string` ; `duration`: `string` ; `itemType`: `undefined` \| ``null`` \| [`Regular`](../enums/models_AgendaItem.ItemType.md#regular) \| [`Note`](../enums/models_AgendaItem.ItemType.md#note) ; `notes`: `ObjectId`[] ; `organization`: `undefined` \| ``null`` \| `ObjectId` ; `relatedEventId`: `undefined` \| ``null`` \| `ObjectId` ; `sequence`: `undefined` \| ``null`` \| `number` ; `title`: `string` ; `updatedAt`: `undefined` \| ``null`` \| `Date` ; `updatedBy`: `undefined` \| ``null`` \| `ObjectId` ; `urls`: `string`[] ; `users`: `ObjectId`[]  \}\> & \{ `_id`: `ObjectId`  \}\>
 
 This is the Mongoose schema for an agenda item.
 
@@ -65,7 +65,7 @@ Reference to the user who last updated the agenda item.
 
 **`Param`**
 
-Optional array of URLs related to the agenda item.
+Optional users array indicating key note users for the agenda item.
 
 **`Param`**
 
@@ -99,6 +99,10 @@ Indicates whether the agenda item is a note.
 
 Reference to the organization associated with the agenda item.
 
+**`Param`**
+
+Reference to the notes associated with the agenda item.
+
 #### Defined in
 
-[src/models/AgendaItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/models/AgendaItem.ts#L58)
+[src/models/AgendaItem.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/AgendaItem.ts#L60)

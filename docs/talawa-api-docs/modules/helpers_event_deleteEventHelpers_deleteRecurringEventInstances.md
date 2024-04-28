@@ -40,4 +40,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts#L30)
+[src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts#L30)

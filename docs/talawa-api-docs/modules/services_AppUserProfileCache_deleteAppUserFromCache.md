@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/AppUserProfileCache/deleteAppUserFromCache.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/services/AppUserProfileCache/deleteAppUserFromCache.ts#L2)
+[src/services/AppUserProfileCache/deleteAppUserFromCache.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/services/AppUserProfileCache/deleteAppUserFromCache.ts#L2)

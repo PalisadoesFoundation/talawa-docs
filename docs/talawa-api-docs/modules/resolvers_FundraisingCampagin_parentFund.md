@@ -22,4 +22,4 @@ A `fund` object.
 
 #### Defined in
 
-[src/resolvers/FundraisingCampagin/parentFund.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/FundraisingCampagin/parentFund.ts#L10)
+[src/resolvers/FundraisingCampagin/parentFund.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/FundraisingCampagin/parentFund.ts#L10)

@@ -36,4 +36,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L16)
+[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L16)

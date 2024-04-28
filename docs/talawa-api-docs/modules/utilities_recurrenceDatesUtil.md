@@ -32,7 +32,7 @@ converted date string.
 
 #### Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/recurrenceDatesUtil.ts#L24)
+[src/utilities/recurrenceDatesUtil.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/recurrenceDatesUtil.ts#L24)
 
 ___
 
@@ -56,7 +56,7 @@ converted date.
 
 #### Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/recurrenceDatesUtil.ts#L7)
+[src/utilities/recurrenceDatesUtil.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/recurrenceDatesUtil.ts#L7)
 
 ___
 
@@ -80,4 +80,4 @@ total number of mondays.
 
 #### Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/utilities/recurrenceDatesUtil.ts#L40)
+[src/utilities/recurrenceDatesUtil.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/recurrenceDatesUtil.ts#L40)

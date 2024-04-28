@@ -22,4 +22,4 @@ An object that is the return value of the resolver for this field's parent.
 
 #### Defined in
 
-[src/resolvers/Event/recurrenceRule.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Event/recurrenceRule.ts#L10)
+[src/resolvers/Event/recurrenceRule.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Event/recurrenceRule.ts#L10)

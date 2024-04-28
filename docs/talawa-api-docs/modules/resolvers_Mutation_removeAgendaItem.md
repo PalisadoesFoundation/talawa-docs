@@ -38,4 +38,4 @@ UnauthorizedError if the user is not the creator of the agenda item
 
 #### Defined in
 
-[src/resolvers/Mutation/removeAgendaItem.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/resolvers/Mutation/removeAgendaItem.ts#L28)
+[src/resolvers/Mutation/removeAgendaItem.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Mutation/removeAgendaItem.ts#L28)

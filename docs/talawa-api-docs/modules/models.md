@@ -68,6 +68,7 @@
 - [InterfaceMembershipRequest](models.md#interfacemembershiprequest)
 - [InterfaceMessage](models.md#interfacemessage)
 - [InterfaceMessageChat](models.md#interfacemessagechat)
+- [InterfaceNote](models.md#interfacenote)
 - [InterfaceOrganization](models.md#interfaceorganization)
 - [InterfaceOrganizationCustomField](models.md#interfaceorganizationcustomfield)
 - [InterfaceOrganizationTagUser](models.md#interfaceorganizationtaguser)
@@ -84,6 +85,8 @@
 - [MembershipRequest](models.md#membershiprequest)
 - [Message](models.md#message)
 - [MessageChat](models.md#messagechat)
+- [NoteModel](models.md#notemodel)
+- [NoteSchema](models.md#noteschema)
 - [Organization](models.md#organization)
 - [OrganizationCustomField](models.md#organizationcustomfield)
 - [OrganizationTagUser](models.md#organizationtaguser)
@@ -471,6 +474,12 @@ Re-exports [InterfaceMessageChat](../interfaces/models_MessageChat.InterfaceMess
 
 ___
 
+### InterfaceNote
+
+Re-exports [InterfaceNote](../interfaces/models_Note.InterfaceNote.md)
+
+___
+
 ### InterfaceOrganization
 
 Re-exports [InterfaceOrganization](../interfaces/models_Organization.InterfaceOrganization.md)
@@ -564,6 +573,18 @@ ___
 ### MessageChat
 
 Re-exports [MessageChat](models_MessageChat.md#messagechat)
+
+___
+
+### NoteModel
+
+Re-exports [NoteModel](models_Note.md#notemodel)
+
+___
+
+### NoteSchema
+
+Re-exports [NoteSchema](models_Note.md#noteschema)
 
 ___
 

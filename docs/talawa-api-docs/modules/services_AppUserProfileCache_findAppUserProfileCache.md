@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/AppUserProfileCache/findAppUserProfileCache.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/e919df4/src/services/AppUserProfileCache/findAppUserProfileCache.ts#L6)
+[src/services/AppUserProfileCache/findAppUserProfileCache.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/services/AppUserProfileCache/findAppUserProfileCache.ts#L6)
