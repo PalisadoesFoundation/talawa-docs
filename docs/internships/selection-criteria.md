@@ -138,6 +138,27 @@ _NB: Participants will have to work on multiple aspects of the application, but 
 
 Mentors may at any point decide to hold an interview with any applicant to decide whether they are suitable for selection. This is completely optional, so participants may be accepted without participating in an interview.
 
+### Ranking
+
+We review all project proposals, and rank them based on their:
+
+1. likelihood of solving a material deficiency and/or
+1. the urgency of providing desired new or updated features.
+
+This can change based on the:
+
+1. progress of implementing other new features
+1. acceptance of customized proposals into our consideration set.
+1. acceptable quality of proposals
+
+This may mean that project ideas we define with clearly defined goals may be displaced by one or more customized proposals in our ranking.
+
+There is also no guarantee that Google will sponsor all the proposals we submit.
+
+In other words, selection is based on need, talent, thoroughness, the ability to deliver and inventiveness. Each selected proposal has this in varying degrees of weight. It’s not straightforward, and we try to be objective to the best of our ability.
+
+Remember, the needs of the stakeholder using the app and the ability of the code base to meet them in the simplest, most intuitive and maintainable way will always take precedence.
+
 ### Risk Mitigation
 
 Competition for our GSoC slots is tough. We encourage participants to submit multiple proposals. In the past, we noticed people only submitting proposals for the high priority ideas we listed. This was very limiting. To improve the range of useful goals on our product road map, we created the hybrid project idea. This helps people to explore new avenues of innovation where you can differentiate themselves.
