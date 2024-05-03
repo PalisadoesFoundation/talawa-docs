@@ -127,6 +127,8 @@ Each selected proposal has this in varying degrees of weight. It’s not straigh
 
 Remember, the needs of the stakeholder using the app and the ability of the code base to meet them in the simplest, most intuitive and maintainable way will always take precedence.
 
+Each year, we may approach unsuccessful candidates to become formal contributors to the Palisadoes Foundation's GitHub account. This small group will have a wide range of experiences and abilities. In many cases we will be taking a chance. We hope this will encourage you to remain active, improve, add features and be more prepared for your careers and subsequent internship programs either with us or other organizations. This is not a guarantee for selection in our future programs. Formal contributors will have their PR approvals count in GitHub's automated ability to merge the code if all the tests pass. 
+
 ### Risk Mitigation
 
 Competition for our internship programs is tough. We encourage participants to submit multiple proposals. In the past, we noticed people only submitting proposals for the high priority ideas we listed. This was very limiting. To improve the range of useful goals on our product road map, we created the hybrid project idea. This helps people to explore new avenues of innovation where you can differentiate themselves.
