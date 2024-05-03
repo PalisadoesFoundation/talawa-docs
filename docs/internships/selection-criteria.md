@@ -127,6 +127,8 @@ Each selected proposal has this in varying degrees of weight. It’s not straigh
 
 Remember, the needs of the stakeholder using the app and the ability of the code base to meet them in the simplest, most intuitive and maintainable way will always take precedence.
 
+In the past we published the number of GSoC slots requested, slots received and the ranking of proposals. This created a lot of over-analysis and misunderstandings which was unhealthy. We now have a policy of not providing this information for any internship program.
+
 Each year, we may approach unsuccessful candidates to become formal contributors to the Palisadoes Foundation's GitHub account. This small group will have a wide range of experiences and abilities. In many cases we will be taking a chance. We hope this will encourage you to remain active, improve, add features and be more prepared for your careers and subsequent internship programs either with us or other organizations. This is not a guarantee for selection in our future programs. Formal contributors will have their PR approvals count in GitHub's automated ability to merge the code if all the tests pass. 
 
 ### Risk Mitigation
