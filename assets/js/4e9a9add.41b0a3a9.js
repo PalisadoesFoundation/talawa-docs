@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[8939],{47160:e=>{e.exports=JSON.parse('{"title":"Directives overview","slug":"/category/directives","permalink":"/docs/category/directives","navigation":{"next":{"title":"auth","permalink":"/docs/schema/directives/auth"}}}')}}]);

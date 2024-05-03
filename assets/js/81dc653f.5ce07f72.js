@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[85253],{65126:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"mobile-users"}')}}]);

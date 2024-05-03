@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[68017],{98201:s=>{s.exports=JSON.parse('{"title":"Scalars overview","slug":"/category/scalars","permalink":"/docs/category/scalars","navigation":{"previous":{"title":"users","permalink":"/docs/schema/queries/users"},"next":{"title":"Any","permalink":"/docs/schema/scalars/any"}}}')}}]);
