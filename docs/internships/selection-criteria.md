@@ -30,19 +30,6 @@ Contribution evaluation factors include:
 
 In summary be a conscientious contributor to our long term goals of sustainable software development for the unmet needs of community based organizations.
 
-### Mentor Interaction
-
-Use Slack to contact the mentors listed in our ideas pages. They are the ones who evaluate and select projects. Though the Primary mentor leads the decision making of the team, all their opinions are taken into account.
-
-1. Ask them to:
-   1. to review your PRs,
-   2. provide feedback on the ideas pages,
-2. Please do not @ them in the issue comments, ask the issue creators or the listed contacts in the issue descriptions for details.
-
-Focus your mentor interactions to slack and in the PRs themselves. That's the most efficient use of their time.
-
-Read the Application Process pages for your internship of choice on this website for additional guidance.
-
 ### Proposals
 
 The quality of the submitted proposals are important.
@@ -108,6 +95,19 @@ You should have experience in the technologies we use in the projects. You will 
          4. Verifiably testable
 
 We want you to be successful, and these requirements help to ensure this happens.
+
+### Mentor Interaction
+
+Use Slack to contact the mentors listed in our ideas pages. They are the ones who evaluate and select projects. Though the Primary mentor leads the decision making of the team, all their opinions are taken into account.
+
+1. Ask them to:
+   1. to review your PRs,
+   2. provide feedback on the ideas pages,
+2. Please do not @ them in the issue comments, ask the issue creators or the listed contacts in the issue descriptions for details.
+
+Focus your mentor interactions to slack and in the PRs themselves. That's the most efficient use of their time.
+
+Read the Application Process pages for your internship of choice on this website for additional guidance.
 
 ### Ranking
 
