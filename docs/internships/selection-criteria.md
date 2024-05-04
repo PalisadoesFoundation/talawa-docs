@@ -106,7 +106,7 @@ Use Slack to contact the mentors listed in our ideas pages. They are the ones wh
    3. comment on GitHub discussions about PRs and ideas pages,
 2. Please do not @ them in the issue comments, ask the issue creators or the listed contacts in the issue descriptions for details.
 
-Focus your mentor interactions to PR and internship ideas on slack and GitHub. You can @ them there for best results. That's the most efficient use of their time. The more DMs mentors receive, the more they realize they are needed and the more likely they will check slack and GitHub more frequently.
+Focus your mentor interactions to PR and internship ideas on slack and GitHub. You can @ them there for best results. That's the most efficient use of their time. When mentors get DMs, they realize they are needed and the more likely they will check slack and GitHub more frequently.
 
 Read the Application Process pages for your internship of choice on this website for additional guidance.
 
