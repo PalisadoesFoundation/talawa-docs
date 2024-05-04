@@ -25,7 +25,7 @@ Contribution evaluation factors include:
 2. The quality of Issues and Pull Requests (PR)
     1. We consider the person’s displayed competence in the code base. Consistent meaningful PR contributions show commitment and hence value. You are much better served submitting fewer, higher quality PRs that showcase your abilities.
     2. Focus on the priorities stated in our `Getting Started - Developers` YouTube channel playlist.
-    3. Don't submit low quality Issues and PRs. These are **ignored** when assessing participants. Do not get a reputation for doing this. 
+    3. Don't submit low quality Issues and PRs. These are **ignored** when assessing participants. Do not get a reputation for doing this.
 3. The impact of your merged PRs to our software.
 
 In summary be a conscientious contributor to our long term goals of sustainable software development for the unmet needs of community based organizations.
@@ -95,6 +95,19 @@ You should have experience in the technologies we use in the projects. You will 
          4. Verifiably testable
 
 We want you to be successful, and these requirements help to ensure this happens.
+
+### Mentor Interaction
+
+Use Slack to contact the mentors listed in our ideas pages. They are the ones who evaluate and select projects. Though the Primary mentor leads the decision making of the team, all their opinions are taken into account.
+
+1. Ask them to:
+   1. to review your PRs,
+   2. provide feedback on the ideas pages,
+2. Please do not @ them in the issue comments, ask the issue creators or the listed contacts in the issue descriptions for details.
+
+Focus your mentor interactions to slack and in the PRs themselves. That's the most efficient use of their time.
+
+Read the Application Process pages for your internship of choice on this website for additional guidance.
 
 ### Ranking
 
