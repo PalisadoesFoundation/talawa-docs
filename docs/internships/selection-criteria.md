@@ -66,12 +66,14 @@ When the idea has a focus on the end user always consider new or updated feature
 
 Always evaluate how the feature will make the administrator more likely to try Talawa.
 
+This will mean in addition to screenshots and screen designs, you'll need to explain the logic in the sequencing of screens. If the design is unintuitive or the flow is complicated, users won't accept it. We consider all technically sound proposals. The ones that are harder to navigate will have a disadvantage.
+
 **Back End**
 
 Innovation behind the scenes should cover:
 
 1. Ease of management by DevOps teams that may have limited experience.
-1. Improving performance, scalability and reliability
+2. Improving performance, scalability and reliability
 
 Talawa is an open source project with mostly documentation as a technical support resource. The ease of use will always need to be considered.
 
