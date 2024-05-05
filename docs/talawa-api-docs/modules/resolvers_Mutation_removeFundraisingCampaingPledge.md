@@ -37,4 +37,4 @@ The following checks are done:
 
 #### Defined in
 
-[src/resolvers/Mutation/removeFundraisingCampaingPledge.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Mutation/removeFundraisingCampaingPledge.ts#L29)
+[src/resolvers/Mutation/removeFundraisingCampaingPledge.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Mutation/removeFundraisingCampaingPledge.ts#L29)

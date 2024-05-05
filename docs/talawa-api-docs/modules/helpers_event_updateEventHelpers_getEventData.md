@@ -37,4 +37,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/updateEventHelpers/getEventData.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/helpers/event/updateEventHelpers/getEventData.ts#L15)
+[src/helpers/event/updateEventHelpers/getEventData.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/helpers/event/updateEventHelpers/getEventData.ts#L15)

@@ -29,4 +29,4 @@ configuration object.
 
 #### Defined in
 
-[src/setup/updateEnvVariable.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/setup/updateEnvVariable.ts#L11)
+[src/setup/updateEnvVariable.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/setup/updateEnvVariable.ts#L11)

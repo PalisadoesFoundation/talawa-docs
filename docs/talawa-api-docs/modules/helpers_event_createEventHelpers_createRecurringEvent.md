@@ -43,4 +43,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/createEventHelpers/createRecurringEvent.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/helpers/event/createEventHelpers/createRecurringEvent.ts#L27)
+[src/helpers/event/createEventHelpers/createRecurringEvent.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/helpers/event/createEventHelpers/createRecurringEvent.ts#L27)

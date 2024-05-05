@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/EventAttendee.ts:78](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/EventAttendee.ts#L78)
+[src/models/EventAttendee.ts:78](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/EventAttendee.ts#L78)

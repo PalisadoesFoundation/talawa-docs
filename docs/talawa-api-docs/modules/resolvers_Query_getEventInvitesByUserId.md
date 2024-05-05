@@ -26,4 +26,4 @@ An object containing userId.
 
 #### Defined in
 
-[src/resolvers/Query/getEventInvitesByUserId.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Query/getEventInvitesByUserId.ts#L10)
+[src/resolvers/Query/getEventInvitesByUserId.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Query/getEventInvitesByUserId.ts#L10)

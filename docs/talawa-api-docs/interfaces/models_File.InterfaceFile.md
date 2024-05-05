@@ -28,7 +28,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L9)
+[src/models/File.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L9)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L14)
+[src/models/File.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L14)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L16)
+[src/models/File.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L16)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L10)
+[src/models/File.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L10)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L13)
+[src/models/File.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L13)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L12)
+[src/models/File.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L12)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L15)
+[src/models/File.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L15)
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L17)
+[src/models/File.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L17)
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 #### Defined in
 
-[src/models/File.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/File.ts#L11)
+[src/models/File.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/File.ts#L11)

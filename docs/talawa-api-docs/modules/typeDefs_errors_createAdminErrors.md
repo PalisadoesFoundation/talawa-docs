@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/typeDefs/errors/createAdminErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/typeDefs/errors/createAdminErrors.ts#L3)
+[src/typeDefs/errors/createAdminErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/typeDefs/errors/createAdminErrors.ts#L3)

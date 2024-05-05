@@ -25,4 +25,4 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:114](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/RecurrenceRule.ts#L114)
+[src/models/RecurrenceRule.ts:114](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/RecurrenceRule.ts#L114)

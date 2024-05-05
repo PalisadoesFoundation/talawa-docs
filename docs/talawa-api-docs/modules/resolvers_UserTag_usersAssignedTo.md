@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/resolvers/UserTag/usersAssignedTo.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/UserTag/usersAssignedTo.ts#L17)
+[src/resolvers/UserTag/usersAssignedTo.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/UserTag/usersAssignedTo.ts#L17)
 
 ## Functions
 
@@ -40,4 +40,4 @@
 
 #### Defined in
 
-[src/resolvers/UserTag/usersAssignedTo.ts:93](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/UserTag/usersAssignedTo.ts#L93)
+[src/resolvers/UserTag/usersAssignedTo.ts:93](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/UserTag/usersAssignedTo.ts#L93)

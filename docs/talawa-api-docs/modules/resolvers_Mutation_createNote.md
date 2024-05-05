@@ -30,4 +30,4 @@ context of entire application
 
 #### Defined in
 
-[src/resolvers/Mutation/createNote.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Mutation/createNote.ts#L25)
+[src/resolvers/Mutation/createNote.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Mutation/createNote.ts#L25)

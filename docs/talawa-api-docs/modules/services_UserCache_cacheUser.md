@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/services/UserCache/cacheUser.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/services/UserCache/cacheUser.ts#L5)
+[src/services/UserCache/cacheUser.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/services/UserCache/cacheUser.ts#L5)

@@ -95,7 +95,7 @@ GraphQLError.constructor
 
 #### Defined in
 
-[src/utilities/TalawaGraphQLError.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/TalawaGraphQLError.ts#L189)
+[src/utilities/TalawaGraphQLError.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/utilities/TalawaGraphQLError.ts#L189)
 
 ## Properties
 

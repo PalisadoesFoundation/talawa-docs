@@ -30,4 +30,4 @@
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts#L44)
+[src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/helpers/event/recurringEventHelpers/generateRecurringEventInstances.ts#L44)

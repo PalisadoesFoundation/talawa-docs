@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[src/models/AgendaItem.ts:133](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/AgendaItem.ts#L133)
+[src/models/AgendaItem.ts:133](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/AgendaItem.ts#L133)
 
 ___
 
@@ -105,4 +105,4 @@ Reference to the notes associated with the agenda item.
 
 #### Defined in
 
-[src/models/AgendaItem.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/AgendaItem.ts#L60)
+[src/models/AgendaItem.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/AgendaItem.ts#L60)

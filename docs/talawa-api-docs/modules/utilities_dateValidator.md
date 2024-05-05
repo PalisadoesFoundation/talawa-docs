@@ -29,4 +29,4 @@ This function validates the date.
 
 #### Defined in
 
-[src/utilities/dateValidator.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/dateValidator.ts#L11)
+[src/utilities/dateValidator.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/utilities/dateValidator.ts#L11)

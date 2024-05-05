@@ -30,4 +30,4 @@ The context of the entire application.
 
 #### Defined in
 
-[src/resolvers/Mutation/updateAgendaItem.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Mutation/updateAgendaItem.ts#L27)
+[src/resolvers/Mutation/updateAgendaItem.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Mutation/updateAgendaItem.ts#L27)

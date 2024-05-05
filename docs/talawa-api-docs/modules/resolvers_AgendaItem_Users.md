@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/AgendaItem/Users.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/AgendaItem/Users.ts#L4)
+[src/resolvers/AgendaItem/Users.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/AgendaItem/Users.ts#L4)

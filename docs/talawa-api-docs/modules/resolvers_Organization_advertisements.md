@@ -30,7 +30,7 @@ Arguments passed to the resolver.
 
 #### Defined in
 
-[src/resolvers/Organization/advertisements.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Organization/advertisements.ts#L24)
+[src/resolvers/Organization/advertisements.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Organization/advertisements.ts#L24)
 
 ## Functions
 
@@ -50,4 +50,4 @@ Arguments passed to the resolver.
 
 #### Defined in
 
-[src/resolvers/Organization/advertisements.ts:103](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Organization/advertisements.ts#L103)
+[src/resolvers/Organization/advertisements.ts:103](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Organization/advertisements.ts#L103)

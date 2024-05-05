@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/CheckIn/index.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/CheckIn/index.ts#L5)
+[src/resolvers/CheckIn/index.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/CheckIn/index.ts#L5)

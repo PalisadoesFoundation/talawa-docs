@@ -46,4 +46,4 @@ ConflictError if the user is already invited to the event.
 
 #### Defined in
 
-[src/resolvers/Mutation/inviteEventAttendee.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Mutation/inviteEventAttendee.ts#L40)
+[src/resolvers/Mutation/inviteEventAttendee.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Mutation/inviteEventAttendee.ts#L40)

@@ -39,4 +39,4 @@ The following steps are followed:
 
 #### Defined in
 
-[src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts#L23)
+[src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts#L23)

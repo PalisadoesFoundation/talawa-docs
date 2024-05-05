@@ -26,4 +26,4 @@
 
 #### Defined in
 
-[src/utilities/loadDefaultOrg.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/utilities/loadDefaultOrg.ts#L6)
+[src/utilities/loadDefaultOrg.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/utilities/loadDefaultOrg.ts#L6)

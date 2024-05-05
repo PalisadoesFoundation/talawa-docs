@@ -26,4 +26,4 @@ An object that contains relevant data to perform the query.
 
 #### Defined in
 
-[src/resolvers/Organization/membershipRequests.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Organization/membershipRequests.ts#L9)
+[src/resolvers/Organization/membershipRequests.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Organization/membershipRequests.ts#L9)

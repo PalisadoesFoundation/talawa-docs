@@ -16,4 +16,4 @@
 
 #### Defined in
 
-[src/resolvers/Mutation/updateActionItemCategory.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Mutation/updateActionItemCategory.ts#L31)
+[src/resolvers/Mutation/updateActionItemCategory.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Mutation/updateActionItemCategory.ts#L31)

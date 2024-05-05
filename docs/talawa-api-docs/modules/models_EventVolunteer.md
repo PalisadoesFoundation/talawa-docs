@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/models/EventVolunteer.ts#L64)
+[src/models/EventVolunteer.ts:64](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/models/EventVolunteer.ts#L64)

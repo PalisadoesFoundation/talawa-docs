@@ -48,4 +48,4 @@ const inputArgs = getWhere\<InterfaceEvent\>(args.where);
 
 #### Defined in
 
-[src/resolvers/Query/helperFunctions/getWhere.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/resolvers/Query/helperFunctions/getWhere.ts#L27)
+[src/resolvers/Query/helperFunctions/getWhere.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/resolvers/Query/helperFunctions/getWhere.ts#L27)

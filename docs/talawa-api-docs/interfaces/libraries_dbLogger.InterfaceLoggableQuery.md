@@ -226,7 +226,7 @@ ___
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/636e51c/src/libraries/dbLogger.ts#L37)
+[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/9fa6a1c/src/libraries/dbLogger.ts#L37)
 
 ___
 
