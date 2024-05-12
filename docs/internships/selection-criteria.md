@@ -100,13 +100,20 @@ We want you to be successful, and these requirements help to ensure this happens
 
 ### Mentor Interaction
 
-Use Slack to contact the mentors listed in our ideas pages. They are the ones who evaluate and select projects. Though the Primary mentor leads the decision making of the team, all their opinions are taken into account.
+You will find the mentors listed in our ideas pages. They are the ones who evaluate and select projects. Though the Primary mentor leads the decision-making of the team, all their opinions are taken into account.
 
-1. Ask them to:
-   1. review your PRs,
-   2. provide feedback on the ideas pages,
-   3. comment on GitHub discussions about PRs and ideas pages,
-2. Please do not @ them in the issue comments, ask the issue creators or the listed contacts in the issue descriptions for details.
+There are many ways to effectively contact mentors. **Don't rely on just one form of communication**. Try using:
+
+1. DMs via our Slack community
+2. The email addresses listed in the application process guide for feedback on your draft proposals
+3. GitHub
+
+Ask them to:
+
+   1. Review your PRs,
+   2. Provide feedback on the ideas pages,
+   3. Comment on GitHub discussions about PRs and ideas pages,
+      1. Please do not @ them in the issue comments, ask the issue creators or the listed contacts in the issue descriptions for details.
 
 Focus your mentor interactions to PR and internship ideas on slack and GitHub (PRs and Discussions only). You can @ them there for best results. That's the most efficient use of their time. When mentors get DMs, they realize they are needed and the more likely they will check slack and GitHub more frequently.
 
