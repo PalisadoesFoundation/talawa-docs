@@ -39,7 +39,9 @@ It is important to review the following online documents in this section when cr
 
 ### Feedback on Your Draft Proposal
 
-Get feedback on your draft application proposal at:
+It's always best to get guidance on your proposal beforehand.
+
+If you have questions about your draft proposal for the mentor team, then get feedback by sending an email with the appropriate attachments to:
 
 ![img](/img/email/draft-submissions.png)
 
