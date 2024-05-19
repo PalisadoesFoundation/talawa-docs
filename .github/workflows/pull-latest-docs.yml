@@ -17,8 +17,12 @@ jobs:
           git config --global user.email "${{ env.email }}"
           git config --global user.name "${{ github.actor }}"
       
-      - name: Run bash script
-        run: |
-          bash .github/workflows/pull-docs.sh
+      - name: Run bash script for docs API
+        run: bash .github/workflows/pull-docs-api.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Run bash script for docs admin
+        run: bash .github/workflows/pull-docs-admin.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
