@@ -44,6 +44,8 @@ It's always best to get guidance on your proposal beforehand.
 If you have questions about your draft proposal for the mentor team, then get feedback by sending an email with the appropriate attachments to:
 
 ![img](/img/email/draft-submissions.png)
+ 
+Use this address to receive feedback on how to improve your application after the final internship announcement. You can also contact the listed primary mentors in our slack community. 
 
 ### Submitting Your Final Proposal
 
