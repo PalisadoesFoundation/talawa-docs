@@ -1,5 +1,5 @@
 ---
-id: gsod-ideas-2024
+id: gsod-ideas
 title: GSoD 2024 - Improving the accessibility of the Talawa Documentation
 ---
 
