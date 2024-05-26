@@ -9,7 +9,6 @@
 ### Properties
 
 - [hideDrawer](components_LeftDrawer_LeftDrawer.InterfaceLeftDrawerProps.md#hidedrawer)
-- [screenName](components_LeftDrawer_LeftDrawer.InterfaceLeftDrawerProps.md#screenname)
 - [setHideDrawer](components_LeftDrawer_LeftDrawer.InterfaceLeftDrawerProps.md#sethidedrawer)
 
 ## Properties
@@ -20,17 +19,7 @@
 
 #### Defined in
 
-[src/components/LeftDrawer/LeftDrawer.tsx:16](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/LeftDrawer/LeftDrawer.tsx#L16)
-
-___
-
-### screenName
-
-• **screenName**: `string`
-
-#### Defined in
-
-[src/components/LeftDrawer/LeftDrawer.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/LeftDrawer/LeftDrawer.tsx#L18)
+[src/components/LeftDrawer/LeftDrawer.tsx:17](https://github.com/adi790uu/talawa-admin/blob/cdaad16/src/components/LeftDrawer/LeftDrawer.tsx#L17)
 
 ___
 
@@ -40,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/components/LeftDrawer/LeftDrawer.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/LeftDrawer/LeftDrawer.tsx#L17)
+[src/components/LeftDrawer/LeftDrawer.tsx:18](https://github.com/adi790uu/talawa-admin/blob/cdaad16/src/components/LeftDrawer/LeftDrawer.tsx#L18)

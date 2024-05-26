@@ -4,10 +4,6 @@
 
 ## Table of contents
 
-### Interfaces
-
-- [InterfaceOrganizationScreenProps](../interfaces/components_OrganizationScreen_OrganizationScreen.InterfaceOrganizationScreenProps.md)
-
 ### Functions
 
 - [default](components_OrganizationScreen_OrganizationScreen.md#default)
@@ -16,13 +12,7 @@
 
 ### default
 
-▸ **default**(`«destructured»`): `Element`
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `«destructured»` | [`InterfaceOrganizationScreenProps`](../interfaces/components_OrganizationScreen_OrganizationScreen.InterfaceOrganizationScreenProps.md) |
+▸ **default**(): `Element`
 
 #### Returns
 
@@ -30,4 +20,4 @@
 
 #### Defined in
 
-[src/components/OrganizationScreen/OrganizationScreen.tsx:14](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/OrganizationScreen/OrganizationScreen.tsx#L14)
+[src/components/OrganizationScreen/OrganizationScreen.tsx:13](https://github.com/adi790uu/talawa-admin/blob/cdaad16/src/components/OrganizationScreen/OrganizationScreen.tsx#L13)

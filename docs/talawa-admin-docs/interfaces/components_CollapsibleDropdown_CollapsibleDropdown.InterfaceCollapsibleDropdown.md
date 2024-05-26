@@ -8,18 +8,29 @@
 
 ### Properties
 
-- [screenName](components_CollapsibleDropdown_CollapsibleDropdown.InterfaceCollapsibleDropdown.md#screenname)
+- [setShowDropdown](components_CollapsibleDropdown_CollapsibleDropdown.InterfaceCollapsibleDropdown.md#setshowdropdown)
+- [showDropdown](components_CollapsibleDropdown_CollapsibleDropdown.InterfaceCollapsibleDropdown.md#showdropdown)
 - [target](components_CollapsibleDropdown_CollapsibleDropdown.InterfaceCollapsibleDropdown.md#target)
 
 ## Properties
 
-### screenName
+### setShowDropdown
 
-• **screenName**: `string`
+• **setShowDropdown**: `Dispatch`\<`SetStateAction`\<`boolean`\>\>
 
 #### Defined in
 
-[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:9](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L9)
+[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:11](https://github.com/adi790uu/talawa-admin/blob/cdaad16/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L11)
+
+___
+
+### showDropdown
+
+• **showDropdown**: `boolean`
+
+#### Defined in
+
+[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:9](https://github.com/adi790uu/talawa-admin/blob/cdaad16/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L9)
 
 ___
 
@@ -29,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:10](https://github.com/PalisadoesFoundation/talawa-admin/blob/12d9229/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L10)
+[src/components/CollapsibleDropdown/CollapsibleDropdown.tsx:10](https://github.com/adi790uu/talawa-admin/blob/cdaad16/src/components/CollapsibleDropdown/CollapsibleDropdown.tsx#L10)
