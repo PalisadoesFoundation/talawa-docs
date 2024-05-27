@@ -13,8 +13,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Files that cause automated workflows to fail
-docs/talawa-api-docs/README.md
 
 # Dependencies
 /node_modules
