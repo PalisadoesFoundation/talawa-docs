@@ -40,7 +40,7 @@
 		]
 	},
 	"devDependencies": {
-		"@docusaurus/module-type-aliases": "3.3.2",
+		"@docusaurus/module-type-aliases": "3.4.0",
 		"@docusaurus/tsconfig": "3.4.0",
 		"typescript": "~5.4.2",
 		"yarn-audit-fix": "^7.2.3"
