@@ -1,4 +1,4 @@
-name: Pull Talawa API Changes
+name: Pull Talawa API and Admin Changes
 
 on:
   schedule:
