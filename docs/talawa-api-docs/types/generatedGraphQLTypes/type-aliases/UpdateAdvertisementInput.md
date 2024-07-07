@@ -1,0 +1,39 @@
+[**talawa-api**](../../../README.md) • **Docs**
+
+***
+
+[talawa-api](../../../modules.md) / [types/generatedGraphQLTypes](../README.md) / UpdateAdvertisementInput
+
+# Type Alias: UpdateAdvertisementInput
+
+\> **UpdateAdvertisementInput**: `object`
+
+## Type declaration
+
+### \_id
+
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+
+### endDate?
+
+\> `optional` **endDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+
+### mediaFile?
+
+\> `optional` **mediaFile**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+
+### name?
+
+\> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+
+### startDate?
+
+\> `optional` **startDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+
+### type?
+
+\> `optional` **type**: [`InputMaybe`](InputMaybe.md)\<[`AdvertisementType`](AdvertisementType.md)\>
+
+## Defined in
+
+[src/types/generatedGraphQLTypes.ts:2714](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/types/generatedGraphQLTypes.ts#L2714)

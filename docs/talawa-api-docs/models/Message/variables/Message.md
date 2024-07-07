@@ -1,0 +1,13 @@
+[**talawa-api**](../../../README.md) • **Docs**
+
+***
+
+[talawa-api](../../../modules.md) / [models/Message](../README.md) / Message
+
+# Variable: Message
+
+\> `const` **Message**: `Model`\<[`InterfaceMessage`](../interfaces/InterfaceMessage.md), `object`, `object`, `object`, `Document`\<`unknown`, `object`, [`InterfaceMessage`](../interfaces/InterfaceMessage.md)\> & [`InterfaceMessage`](../interfaces/InterfaceMessage.md) & `Required`\<`object`\>, `any`\>
+
+## Defined in
+
+[src/models/Message.ts:73](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Message.ts#L73)

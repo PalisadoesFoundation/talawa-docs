@@ -1,0 +1,23 @@
+[**talawa-api**](../../../README.md) • **Docs**
+
+***
+
+[talawa-api](../../../modules.md) / [types/generatedGraphQLTypes](../README.md) / AuthDirectiveResolver
+
+# Type Alias: AuthDirectiveResolver\<Result, Parent, ContextType, Args\>
+
+\> **AuthDirectiveResolver**\<`Result`, `Parent`, `ContextType`, `Args`\>: [`DirectiveResolverFn`](DirectiveResolverFn.md)\<`Result`, `Parent`, `ContextType`, `Args`\>
+
+## Type Parameters
+
+• **Result**
+
+• **Parent**
+
+• **ContextType** = `any`
+
+• **Args** = [`AuthDirectiveArgs`](AuthDirectiveArgs.md)
+
+## Defined in
+
+[src/types/generatedGraphQLTypes.ts:3624](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/types/generatedGraphQLTypes.ts#L3624)

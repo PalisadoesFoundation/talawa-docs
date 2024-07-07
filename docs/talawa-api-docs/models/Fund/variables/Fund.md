@@ -1,0 +1,13 @@
+[**talawa-api**](../../../README.md) • **Docs**
+
+***
+
+[talawa-api](../../../modules.md) / [models/Fund](../README.md) / Fund
+
+# Variable: Fund
+
+\> `const` **Fund**: `Model`\<[`InterfaceFund`](../interfaces/InterfaceFund.md), `object`, `object`, `object`, `Document`\<`unknown`, `object`, [`InterfaceFund`](../interfaces/InterfaceFund.md)\> & [`InterfaceFund`](../interfaces/InterfaceFund.md) & `Required`\<`object`\>, `any`\>
+
+## Defined in
+
+[src/models/Fund.ts:82](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Fund.ts#L82)
