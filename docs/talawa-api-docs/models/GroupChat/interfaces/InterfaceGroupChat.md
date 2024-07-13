@@ -16,7 +16,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L11)
+[src/models/GroupChat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L16)
+[src/models/GroupChat.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L16)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L15)
+[src/models/GroupChat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L15)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L14)
+[src/models/GroupChat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L14)
 
 ***
 
@@ -56,7 +56,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L18)
+[src/models/GroupChat.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L18)
 
 ***
 
@@ -66,7 +66,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L19)
+[src/models/GroupChat.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L19)
 
 ***
 
@@ -76,7 +76,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L12)
+[src/models/GroupChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L12)
 
 ***
 
@@ -86,7 +86,7 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L17)
+[src/models/GroupChat.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L17)
 
 ***
 
@@ -96,4 +96,4 @@ This is an interface representing a document for a group chat in the database(Mo
 
 #### Defined in
 
-[src/models/GroupChat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/GroupChat.ts#L13)
+[src/models/GroupChat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/GroupChat.ts#L13)

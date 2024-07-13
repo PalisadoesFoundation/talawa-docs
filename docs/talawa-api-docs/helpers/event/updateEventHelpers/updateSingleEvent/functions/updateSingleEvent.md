@@ -28,4 +28,4 @@ The updated event.
 
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/updateSingleEvent.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/helpers/event/updateEventHelpers/updateSingleEvent.ts#L28)
+[src/helpers/event/updateEventHelpers/updateSingleEvent.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/helpers/event/updateEventHelpers/updateSingleEvent.ts#L28)

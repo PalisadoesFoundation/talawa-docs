@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[src/models/EncodedImage.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/EncodedImage.ts#L41)
+[src/models/EncodedImage.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/EncodedImage.ts#L41)

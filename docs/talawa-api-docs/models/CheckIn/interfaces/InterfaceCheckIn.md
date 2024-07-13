@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/CheckIn.ts#L14)
+[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/CheckIn.ts#L14)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/CheckIn.ts#L18)
+[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/CheckIn.ts#L18)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/CheckIn.ts#L15)
+[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/CheckIn.ts#L15)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/CheckIn.ts#L17)
+[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/CheckIn.ts#L17)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/CheckIn.ts#L16)
+[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/CheckIn.ts#L16)
 
 ***
 
@@ -64,4 +64,4 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/CheckIn.ts#L19)
+[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/CheckIn.ts#L19)

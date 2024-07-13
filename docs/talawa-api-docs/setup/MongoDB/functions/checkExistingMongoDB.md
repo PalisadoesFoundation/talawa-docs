@@ -27,4 +27,4 @@ A promise that resolves to a string (if a connection could be made to the existi
 
 ## Defined in
 
-[src/setup/MongoDB.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/setup/MongoDB.ts#L17)
+[src/setup/MongoDB.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/setup/MongoDB.ts#L17)

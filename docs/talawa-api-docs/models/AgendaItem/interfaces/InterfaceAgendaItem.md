@@ -16,7 +16,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L13)
+[src/models/AgendaItem.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L13)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L17)
+[src/models/AgendaItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L17)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L23)
+[src/models/AgendaItem.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L23)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L26)
+[src/models/AgendaItem.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L26)
 
 ***
 
@@ -56,7 +56,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L18)
+[src/models/AgendaItem.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L18)
 
 ***
 
@@ -66,7 +66,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L15)
+[src/models/AgendaItem.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L15)
 
 ***
 
@@ -76,7 +76,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L16)
+[src/models/AgendaItem.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L16)
 
 ***
 
@@ -86,7 +86,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L25)
+[src/models/AgendaItem.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L25)
 
 ***
 
@@ -96,7 +96,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L29)
+[src/models/AgendaItem.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L29)
 
 ***
 
@@ -106,7 +106,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L28)
+[src/models/AgendaItem.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L28)
 
 ***
 
@@ -116,7 +116,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L22)
+[src/models/AgendaItem.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L22)
 
 ***
 
@@ -126,7 +126,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L24)
+[src/models/AgendaItem.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L24)
 
 ***
 
@@ -136,7 +136,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L14)
+[src/models/AgendaItem.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L14)
 
 ***
 
@@ -146,7 +146,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L27)
+[src/models/AgendaItem.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L27)
 
 ***
 
@@ -156,7 +156,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L19)
+[src/models/AgendaItem.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L19)
 
 ***
 
@@ -166,7 +166,7 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L20)
+[src/models/AgendaItem.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L20)
 
 ***
 
@@ -176,4 +176,4 @@ This is an interface representing a document for an agenda item in the database 
 
 #### Defined in
 
-[src/models/AgendaItem.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/AgendaItem.ts#L21)
+[src/models/AgendaItem.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaItem.ts#L21)

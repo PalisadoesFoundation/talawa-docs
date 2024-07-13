@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L23)
+[src/models/RecurrenceRule.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L23)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L19)
+[src/models/RecurrenceRule.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L19)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L24)
+[src/models/RecurrenceRule.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L24)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L18)
+[src/models/RecurrenceRule.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L18)
 
 ***
 
@@ -54,7 +54,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L22)
+[src/models/RecurrenceRule.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L22)
 
 ***
 
@@ -64,7 +64,7 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L20)
+[src/models/RecurrenceRule.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L20)
 
 ***
 
@@ -74,4 +74,4 @@
 
 #### Defined in
 
-[src/models/RecurrenceRule.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/RecurrenceRule.ts#L21)
+[src/models/RecurrenceRule.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/RecurrenceRule.ts#L21)

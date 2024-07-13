@@ -16,7 +16,7 @@ This is an interface that represents a database(MongoDB) document for Plugin.
 
 #### Defined in
 
-[src/models/Plugin.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Plugin.ts#L8)
+[src/models/Plugin.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Plugin.ts#L8)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface that represents a database(MongoDB) document for Plugin.
 
 #### Defined in
 
-[src/models/Plugin.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Plugin.ts#L10)
+[src/models/Plugin.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Plugin.ts#L10)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface that represents a database(MongoDB) document for Plugin.
 
 #### Defined in
 
-[src/models/Plugin.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Plugin.ts#L11)
+[src/models/Plugin.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Plugin.ts#L11)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface that represents a database(MongoDB) document for Plugin.
 
 #### Defined in
 
-[src/models/Plugin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Plugin.ts#L9)
+[src/models/Plugin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Plugin.ts#L9)
 
 ***
 
@@ -56,4 +56,4 @@ This is an interface that represents a database(MongoDB) document for Plugin.
 
 #### Defined in
 
-[src/models/Plugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Plugin.ts#L12)
+[src/models/Plugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Plugin.ts#L12)

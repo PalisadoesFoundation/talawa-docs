@@ -16,7 +16,7 @@ This is an interface that represents a database document.
 
 #### Defined in
 
-[src/models/Language.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Language.ts#L11)
+[src/models/Language.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Language.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface that represents a database document.
 
 #### Defined in
 
-[src/models/Language.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Language.ts#L8)
+[src/models/Language.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Language.ts#L8)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface that represents a database document.
 
 #### Defined in
 
-[src/models/Language.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Language.ts#L9)
+[src/models/Language.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Language.ts#L9)
 
 ***
 
@@ -46,4 +46,4 @@ This is an interface that represents a database document.
 
 #### Defined in
 
-[src/models/Language.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/models/Language.ts#L10)
+[src/models/Language.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Language.ts#L10)

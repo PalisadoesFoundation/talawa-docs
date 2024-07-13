@@ -26,4 +26,4 @@ a Promise that resolves to a boolean value.
 
 ## Defined in
 
-[src/setup/redisConfiguration.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/setup/redisConfiguration.ts#L12)
+[src/setup/redisConfiguration.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/setup/redisConfiguration.ts#L12)

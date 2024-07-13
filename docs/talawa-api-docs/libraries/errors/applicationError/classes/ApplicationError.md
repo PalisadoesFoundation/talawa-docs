@@ -48,7 +48,7 @@ This class is responsible for finding the application errors. It adds those erro
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L14)
+[src/libraries/errors/applicationError.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L14)
 
 ## Properties
 
@@ -58,7 +58,7 @@ This class is responsible for finding the application errors. It adds those erro
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L11)
+[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L11)
 
 ***
 
@@ -68,7 +68,7 @@ This class is responsible for finding the application errors. It adds those erro
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L12)
 
 ***
 

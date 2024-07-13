@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L3)
+[src/libraries/errors/applicationError.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L3)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L2)
+[src/libraries/errors/applicationError.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L2)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L5)
+[src/libraries/errors/applicationError.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L5)
 
 ***
 
@@ -44,4 +44,4 @@
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/libraries/errors/applicationError.ts#L4)
+[src/libraries/errors/applicationError.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L4)

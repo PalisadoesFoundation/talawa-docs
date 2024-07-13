@@ -16,4 +16,4 @@ A promise that resolves when the plugins have been loaded or confirms that they 
 
 ## Defined in
 
-[src/config/plugins/loadPlugins.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/2f8fb6988cd34004fbbf76550c8eef691b861a19/src/config/plugins/loadPlugins.ts#L31)
+[src/config/plugins/loadPlugins.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/config/plugins/loadPlugins.ts#L31)
