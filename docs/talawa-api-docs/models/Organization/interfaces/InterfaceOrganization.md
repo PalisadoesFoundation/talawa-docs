@@ -16,7 +16,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L17)
+[src/models/Organization.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L17)
 
 ***
 
@@ -58,7 +58,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L22)
+[src/models/Organization.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L22)
 
 ***
 
@@ -68,7 +68,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L36)
+[src/models/Organization.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L36)
 
 ***
 
@@ -78,7 +78,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L32)
+[src/models/Organization.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L32)
 
 ***
 
@@ -88,7 +88,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L18)
+[src/models/Organization.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L18)
 
 ***
 
@@ -98,7 +98,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L41)
+[src/models/Organization.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L41)
 
 ***
 
@@ -108,7 +108,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L43)
+[src/models/Organization.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L43)
 
 ***
 
@@ -118,7 +118,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L33)
+[src/models/Organization.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L33)
 
 ***
 
@@ -128,7 +128,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L42)
+[src/models/Organization.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L42)
 
 ***
 
@@ -138,7 +138,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L21)
+[src/models/Organization.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L21)
 
 ***
 
@@ -148,7 +148,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L46)
+[src/models/Organization.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L46)
 
 ***
 
@@ -158,7 +158,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L37)
+[src/models/Organization.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L37)
 
 ***
 
@@ -168,7 +168,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L19)
+[src/models/Organization.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L19)
 
 ***
 
@@ -178,7 +178,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L35)
+[src/models/Organization.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L35)
 
 ***
 
@@ -188,7 +188,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L40)
+[src/models/Organization.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L40)
 
 ***
 
@@ -198,7 +198,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L20)
+[src/models/Organization.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L20)
 
 ***
 
@@ -208,7 +208,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L39)
+[src/models/Organization.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L39)
 
 ***
 
@@ -218,7 +218,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L38)
+[src/models/Organization.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L38)
 
 ***
 
@@ -228,7 +228,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L34)
+[src/models/Organization.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L34)
 
 ***
 
@@ -238,7 +238,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L44)
+[src/models/Organization.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L44)
 
 ***
 
@@ -248,7 +248,7 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L45)
+[src/models/Organization.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L45)
 
 ***
 
@@ -258,4 +258,4 @@ This is an interface that represents a database(MongoDB) document for Organizati
 
 #### Defined in
 
-[src/models/Organization.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/Organization.ts#L47)
+[src/models/Organization.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Organization.ts#L47)

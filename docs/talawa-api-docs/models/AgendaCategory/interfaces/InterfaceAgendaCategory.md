@@ -16,7 +16,7 @@ This is an interface representing a document for an agenda category in the datab
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaCategory.ts#L9)
+[src/models/AgendaCategory.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaCategory.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface representing a document for an agenda category in the datab
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaCategory.ts#L13)
+[src/models/AgendaCategory.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaCategory.ts#L13)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface representing a document for an agenda category in the datab
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaCategory.ts#L11)
+[src/models/AgendaCategory.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaCategory.ts#L11)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface representing a document for an agenda category in the datab
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaCategory.ts#L10)
+[src/models/AgendaCategory.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaCategory.ts#L10)
 
 ***
 
@@ -56,7 +56,7 @@ This is an interface representing a document for an agenda category in the datab
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaCategory.ts#L12)
+[src/models/AgendaCategory.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaCategory.ts#L12)
 
 ***
 
@@ -66,4 +66,4 @@ This is an interface representing a document for an agenda category in the datab
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/models/AgendaCategory.ts#L14)
+[src/models/AgendaCategory.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaCategory.ts#L14)

@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/resolvers/UserTag/usersAssignedTo.ts:93](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/resolvers/UserTag/usersAssignedTo.ts#L93)
+[src/resolvers/UserTag/usersAssignedTo.ts:93](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/UserTag/usersAssignedTo.ts#L93)

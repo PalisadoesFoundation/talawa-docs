@@ -32,4 +32,4 @@ properties `host`, `port`, and `password`.
 
 ## Defined in
 
-[src/setup/redisConfiguration.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/setup/redisConfiguration.ts#L36)
+[src/setup/redisConfiguration.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/setup/redisConfiguration.ts#L36)

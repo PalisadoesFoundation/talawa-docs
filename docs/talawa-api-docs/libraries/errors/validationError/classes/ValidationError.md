@@ -34,7 +34,7 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 #### Defined in
 
-[src/libraries/errors/validationError.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/validationError.ts#L7)
+[src/libraries/errors/validationError.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/validationError.ts#L7)
 
 ## Properties
 
@@ -48,7 +48,7 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L11)
+[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L11)
 
 ***
 
@@ -62,7 +62,7 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L12)
 
 ***
 

@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/utilities/auth.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/utilities/auth.ts#L11)
+[src/utilities/auth.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/auth.ts#L11)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/utilities/auth.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/utilities/auth.ts#L9)
+[src/utilities/auth.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/auth.ts#L9)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/utilities/auth.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/utilities/auth.ts#L10)
+[src/utilities/auth.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/auth.ts#L10)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[src/utilities/auth.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/utilities/auth.ts#L7)
+[src/utilities/auth.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/auth.ts#L7)
 
 ***
 
@@ -54,4 +54,4 @@
 
 #### Defined in
 
-[src/utilities/auth.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/utilities/auth.ts#L8)
+[src/utilities/auth.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/auth.ts#L8)

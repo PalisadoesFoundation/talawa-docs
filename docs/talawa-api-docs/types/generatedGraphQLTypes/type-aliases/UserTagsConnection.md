@@ -24,6 +24,10 @@ A default connection on the UserTag type.
 
 \> **pageInfo**: [`DefaultConnectionPageInfo`](DefaultConnectionPageInfo.md)
 
+### totalCount?
+
+\> `optional` **totalCount**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"PositiveInt"`\]\[`"output"`\]\>
+
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3019](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/types/generatedGraphQLTypes.ts#L3019)
+[src/types/generatedGraphQLTypes.ts:3019](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/types/generatedGraphQLTypes.ts#L3019)

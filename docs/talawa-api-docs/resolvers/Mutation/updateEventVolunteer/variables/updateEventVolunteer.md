@@ -32,4 +32,4 @@ The following checks are done:
 
 ## Defined in
 
-[src/resolvers/Mutation/updateEventVolunteer.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/resolvers/Mutation/updateEventVolunteer.ts#L24)
+[src/resolvers/Mutation/updateEventVolunteer.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/updateEventVolunteer.ts#L24)

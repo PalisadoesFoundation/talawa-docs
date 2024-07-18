@@ -22,4 +22,4 @@ A Promise that resolves to an object that includes a boolean indicating whether 
 
 ## Defined in
 
-[src/resolvers/User/posts.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/resolvers/User/posts.ts#L102)
+[src/resolvers/User/posts.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/User/posts.ts#L102)

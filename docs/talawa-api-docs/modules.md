@@ -324,6 +324,7 @@
 - [resolvers/Organization/membershipRequests](resolvers/Organization/membershipRequests/README.md)
 - [resolvers/Organization/pinnedPosts](resolvers/Organization/pinnedPosts/README.md)
 - [resolvers/Organization/posts](resolvers/Organization/posts/README.md)
+- [resolvers/Organization/userTags](resolvers/Organization/userTags/README.md)
 - [resolvers/Organization/venues](resolvers/Organization/venues/README.md)
 - [resolvers/Post](resolvers/Post/README.md)
 - [resolvers/Post/comments](resolvers/Post/comments/README.md)

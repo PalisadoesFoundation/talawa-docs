@@ -16,4 +16,4 @@ An object that is the return value of the resolver for this field's parent.
 
 ## Defined in
 
-[src/resolvers/GroupChat/organization.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/d0c167bb942c4778fba221c2cdd27665fc7dbf61/src/resolvers/GroupChat/organization.ts#L11)
+[src/resolvers/GroupChat/organization.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/GroupChat/organization.ts#L11)
