@@ -8,12 +8,19 @@
 
 \> `const` **directChatMessageBelongsTo**: [`DirectChatMessageResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/DirectChatMessageResolvers.md)\[`"directChatMessageBelongsTo"`\]
 
-This resolver method will retrieve and return from the database the Direct chat to which the specified message belongs.
+Resolver function for the `directChatMessageBelongsTo` field of a `DirectChatMessage`.
+
+This function retrieves the direct chat to which a specific direct chat message belongs.
 
 ## Param
 
-An object that is the return value of the resolver for this field's parent.
+The parent object representing the direct chat message. It contains information about the direct chat message, including the ID of the direct chat to which it belongs.
+
+## See
+
+ - DirectChat - The DirectChat model used to interact with the direct chats collection in the database.
+ - DirectChatMessageResolvers - The type definition for the resolvers of the DirectChatMessage fields.
 
 ## Defined in
 
-[src/resolvers/DirectChatMessage/directChatMessageBelongsTo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/DirectChatMessage/directChatMessageBelongsTo.ts#L10)
+[src/resolvers/DirectChatMessage/directChatMessageBelongsTo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/DirectChatMessage/directChatMessageBelongsTo.ts#L18)

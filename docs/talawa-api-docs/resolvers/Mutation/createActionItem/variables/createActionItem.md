@@ -8,33 +8,36 @@
 
 \> `const` **createActionItem**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createActionItem"`\]
 
-This function enables to create an action item.
+Creates a new action item and assigns it to a user.
+
+This function performs several checks:
+
+1. Verifies if the current user exists.
+2. Ensures that the current user has an associated app user profile.
+3. Checks if the assignee exists.
+4. Validates if the action item category exists and is not disabled.
+5. Confirms that the assignee is a member of the organization associated with the action item category.
+6. If the action item is related to an event, checks if the event exists and whether the current user is an admin of that event.
+7. Verifies if the current user is an admin of the organization or a superadmin.
 
 ## Param
 
-parent of current request
+The parent object for the mutation (not used in this function).
 
 ## Param
 
-payload provided with the request
+The arguments provided with the request, including:
+  - `data`: An object containing:
+    - `assigneeId`: The ID of the user to whom the action item is assigned.
+    - `preCompletionNotes`: Notes to be added before the action item is completed.
+    - `dueDate`: The due date for the action item.
+    - `eventId` (optional): The ID of the event associated with the action item.
+  - `actionItemCategoryId`: The ID of the action item category.
 
 ## Param
 
-context of entire application
-
-## Remarks
-
-The following checks are done:
-1. If the user exists
-2.If the user has appUserProfile
-3. If the asignee exists
-4. If the actionItemCategory exists
-5. If the actionItemCategory is disabled
-6. If the asignee is a member of the organization
-7. If the user is a member of the organization
-8. If the event exists (if action item related to an event)
-9. If the user is authorized.
+The context of the entire application, including user information and other context-specific data.
 
 ## Defined in
 
-[src/resolvers/Mutation/createActionItem.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createActionItem.ts#L50)
+[src/resolvers/Mutation/createActionItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createActionItem.ts#L58)

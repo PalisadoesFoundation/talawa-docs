@@ -6,15 +6,19 @@
 
 # Interface: InterfaceError
 
+Interface representing the structure of an error.
+
 ## Properties
 
 ### code
 
 \> **code**: `null` \| `string`
 
+The error code, can be null
+
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L3)
+[src/libraries/errors/applicationError.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L8)
 
 ***
 
@@ -22,9 +26,11 @@
 
 \> **message**: `string`
 
+The error message
+
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:2](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L2)
+[src/libraries/errors/applicationError.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L6)
 
 ***
 
@@ -32,9 +38,11 @@
 
 \> `optional` **metadata**: `Record`\<`string`, `string`\>
 
+Optional additional metadata associated with the error
+
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L5)
+[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L12)
 
 ***
 
@@ -42,6 +50,8 @@
 
 \> **param**: `null` \| `string`
 
+The parameter associated with the error, can be null
+
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L4)
+[src/libraries/errors/applicationError.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L10)

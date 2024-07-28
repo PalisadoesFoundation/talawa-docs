@@ -6,7 +6,7 @@
 
 # Interface: InterfacePluginField
 
-This is an interface that represents a database(MongoDB) document for Plugin Field.
+Interface representing a document for a Plugin Field in the database (MongoDB).
 
 ## Properties
 
@@ -16,7 +16,7 @@ This is an interface that represents a database(MongoDB) document for Plugin Fie
 
 #### Defined in
 
-[src/models/PluginField.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/PluginField.ts#L8)
+[src/models/PluginField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/PluginField.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface that represents a database(MongoDB) document for Plugin Fie
 
 #### Defined in
 
-[src/models/PluginField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/PluginField.ts#L12)
+[src/models/PluginField.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/PluginField.ts#L13)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface that represents a database(MongoDB) document for Plugin Fie
 
 #### Defined in
 
-[src/models/PluginField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/PluginField.ts#L9)
+[src/models/PluginField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/PluginField.ts#L10)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface that represents a database(MongoDB) document for Plugin Fie
 
 #### Defined in
 
-[src/models/PluginField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/PluginField.ts#L11)
+[src/models/PluginField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/PluginField.ts#L12)
 
 ***
 
@@ -56,4 +56,4 @@ This is an interface that represents a database(MongoDB) document for Plugin Fie
 
 #### Defined in
 
-[src/models/PluginField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/PluginField.ts#L10)
+[src/models/PluginField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/PluginField.ts#L11)

@@ -6,7 +6,7 @@
 
 # Interface: InterfaceMessage
 
-This is an interface that represents a database(MongoDB) document for Message.
+Interface representing a document for a message in the database (MongoDB).
 
 ## Properties
 
@@ -16,7 +16,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L10)
+[src/models/Message.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L14)
+[src/models/Message.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L15)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L16)
+[src/models/Message.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L17)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L17)
+[src/models/Message.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L18)
 
 ***
 
@@ -56,7 +56,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L12)
+[src/models/Message.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L13)
 
 ***
 
@@ -66,7 +66,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L18)
+[src/models/Message.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L19)
 
 ***
 
@@ -76,7 +76,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L11)
+[src/models/Message.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L12)
 
 ***
 
@@ -86,7 +86,7 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L15)
+[src/models/Message.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L16)
 
 ***
 
@@ -96,4 +96,4 @@ This is an interface that represents a database(MongoDB) document for Message.
 
 #### Defined in
 
-[src/models/Message.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Message.ts#L13)
+[src/models/Message.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Message.ts#L14)

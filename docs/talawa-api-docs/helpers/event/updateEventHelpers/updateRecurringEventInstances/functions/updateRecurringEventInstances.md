@@ -8,6 +8,8 @@
 
 \> **updateRecurringEventInstances**(`args`, `event`, `recurrenceRule`, `baseRecurringEvent`, `recurringEventUpdateType`, `session`): `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
 
+This function updates this and the following instances of a recurring event.
+
 ## Parameters
 
 • **args**: [`MutationUpdateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationUpdateEventArgs.md)
@@ -36,6 +38,19 @@ the base recurring event.
 
 The updated first instance following the recurrence rule.
 
+## Remarks
+
+The following steps are followed:
+1. Check if the recurrence rule has changed.
+2. If the recurrence rule has changed:
+     - get the appropriate data to create new recurring event instances and update the baseRecurringEvent.
+     - get the recurrence dates and generate new instances.
+     - remove the current instances and their associations as a new series has been created.
+   If the recurrence rule hasn't changed:
+     - just perform a regular bulk update.
+3. Update the base recurring event if required.
+4. Removes any dangling recurrence rule and base recurrence rule documents.
+
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts#L45)
+[src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts#L45)

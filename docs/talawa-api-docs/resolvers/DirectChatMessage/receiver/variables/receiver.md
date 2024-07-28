@@ -8,12 +8,19 @@
 
 \> `const` **receiver**: [`DirectChatMessageResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/DirectChatMessageResolvers.md)\[`"receiver"`\]
 
-This resolver function will fetch and return the receiver(user) of the Direct chat from the database.
+Resolver function for the `receiver` field of a `DirectChatMessage`.
+
+This function retrieves the user who received a specific direct chat message.
 
 ## Param
 
-An object that is the return value of the resolver for this field's parent.
+The parent object representing the direct chat message. It contains information about the direct chat message, including the ID of the user who received it.
+
+## See
+
+ - User - The User model used to interact with the users collection in the database.
+ - DirectChatMessageResolvers - The type definition for the resolvers of the DirectChatMessage fields.
 
 ## Defined in
 
-[src/resolvers/DirectChatMessage/receiver.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/DirectChatMessage/receiver.ts#L10)
+[src/resolvers/DirectChatMessage/receiver.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/DirectChatMessage/receiver.ts#L18)

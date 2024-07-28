@@ -8,12 +8,19 @@
 
 \> `const` **actionItems**: [`EventResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventResolvers.md)\[`"actionItems"`\]
 
-This resolver function will fetch and return the action items related to the event from database.
+Resolver function for the `actionItems` field of an `Event`.
+
+This function retrieves the action items associated with a specific event.
 
 ## Param
 
-An object that is the return value of the resolver for this field's parent.
+The parent object representing the event. It contains information about the event, including the ID of the action items associated with it.
+
+## See
+
+ - ActionItem - The ActionItem model used to interact with the action items collection in the database.
+ - EventResolvers - The type definition for the resolvers of the Event fields.
 
 ## Defined in
 
-[src/resolvers/Event/actionItems.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Event/actionItems.ts#L8)
+[src/resolvers/Event/actionItems.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Event/actionItems.ts#L16)

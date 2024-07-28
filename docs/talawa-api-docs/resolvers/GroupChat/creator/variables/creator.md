@@ -8,12 +8,19 @@
 
 \> `const` **creator**: [`GroupChatResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/GroupChatResolvers.md)\[`"creator"`\]
 
-This resolver function will fetch and return the Group Chat creator(User) from the database.
+Resolver function for the `creator` field of a `GroupChat`.
+
+This function retrieves the user who created a specific group chat.
 
 ## Param
 
-An object that is the return value of the resolver for this field's parent.
+The parent object representing the group chat. It contains information about the group chat, including the ID of the user who created it.
+
+## See
+
+ - User - The User model used to interact with the users collection in the database.
+ - GroupChatResolvers - The type definition for the resolvers of the GroupChat fields.
 
 ## Defined in
 
-[src/resolvers/GroupChat/creator.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/GroupChat/creator.ts#L8)
+[src/resolvers/GroupChat/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/GroupChat/creator.ts#L16)

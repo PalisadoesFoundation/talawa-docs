@@ -8,29 +8,33 @@
 
 \> `const` **addOrganizationCustomField**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addOrganizationCustomField"`\]
 
-This function enables an admin to add an organization colleciton field.
+Mutation resolver to add a custom field to an organization.
+
+This function allows an admin to add a new custom field to the collection of fields for a specified organization. It performs several checks:
+
+1. Verifies the existence of the user.
+2. Checks if the user has an application profile.
+3. Confirms that the organization exists.
+4. Ensures that the user is an admin for the organization or has super admin privileges.
+5. Validates that the name and type of the custom field are provided.
+
+If any of these conditions are not met, appropriate errors are thrown.
 
 ## Param
 
-parent of current request
+The parent object for the mutation (not used in this function).
 
 ## Param
 
-payload provided with the request
+The arguments provided with the request, including:
+  - `organizationId`: The ID of the organization to which the custom field will be added.
+  - `name`: The name of the new custom field.
+  - `type`: The type of the new custom field.
 
 ## Param
 
-context of entire application
-
-## Remarks
-
-The following checks are done:
-1. If the user exists
-2. If the user has appProfile
-3. If the organization exists.
-4. If the user is an admin for the organization.
-5. If the required name and value was provided for the new custom field
+The context of the entire application, containing user information and other context-specific data.
 
 ## Defined in
 
-[src/resolvers/Mutation/addOrganizationCustomField.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/addOrganizationCustomField.ts#L37)
+[src/resolvers/Mutation/addOrganizationCustomField.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addOrganizationCustomField.ts#L46)

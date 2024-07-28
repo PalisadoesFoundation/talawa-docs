@@ -32,4 +32,4 @@ UnauthorizedError if the user is not the creator of the note.
 
 ## Defined in
 
-[src/resolvers/Mutation/deleteNote.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/deleteNote.ts#L25)
+[src/resolvers/Mutation/deleteNote.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/deleteNote.ts#L25)

@@ -6,6 +6,8 @@
 
 # Interface: InterfaceNote
 
+Represents a note document in the database.
+
 ## Properties
 
 ### \_id
@@ -14,7 +16,7 @@
 
 #### Defined in
 
-[src/models/Note.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L6)
+[src/models/Note.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L9)
 
 ***
 
@@ -24,7 +26,7 @@
 
 #### Defined in
 
-[src/models/Note.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L12)
+[src/models/Note.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L15)
 
 ***
 
@@ -34,7 +36,7 @@
 
 #### Defined in
 
-[src/models/Note.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L7)
+[src/models/Note.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L10)
 
 ***
 
@@ -44,7 +46,7 @@
 
 #### Defined in
 
-[src/models/Note.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L10)
+[src/models/Note.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L13)
 
 ***
 
@@ -54,7 +56,7 @@
 
 #### Defined in
 
-[src/models/Note.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L8)
+[src/models/Note.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L11)
 
 ***
 
@@ -64,7 +66,7 @@
 
 #### Defined in
 
-[src/models/Note.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L11)
+[src/models/Note.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L14)
 
 ***
 
@@ -74,4 +76,4 @@
 
 #### Defined in
 
-[src/models/Note.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Note.ts#L9)
+[src/models/Note.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L12)

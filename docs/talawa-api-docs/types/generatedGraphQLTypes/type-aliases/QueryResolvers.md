@@ -64,6 +64,10 @@
 
 \> `optional` **customFieldsByOrganization**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"OrganizationCustomField"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryCustomFieldsByOrganizationArgs`](QueryCustomFieldsByOrganizationArgs.md), `"id"`\>\>
 
+### directChatById?
+
+\> `optional` **directChatById**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"DirectChat"`\]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryDirectChatByIdArgs`](QueryDirectChatByIdArgs.md), `"id"`\>\>
+
 ### directChatsByUserID?
 
 \> `optional` **directChatsByUserID**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"DirectChat"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryDirectChatsByUserIdArgs`](QueryDirectChatsByUserIdArgs.md), `"id"`\>\>
@@ -164,6 +168,14 @@
 
 \> `optional` **getlanguage**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Translation"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetlanguageArgs`](QueryGetlanguageArgs.md), `"lang_code"`\>\>
 
+### groupChatById?
+
+\> `optional` **groupChatById**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"GroupChat"`\]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGroupChatByIdArgs`](QueryGroupChatByIdArgs.md), `"id"`\>\>
+
+### groupChatsByUserId?
+
+\> `optional` **groupChatsByUserId**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"GroupChat"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGroupChatsByUserIdArgs`](QueryGroupChatsByUserIdArgs.md), `"id"`\>\>
+
 ### hasSubmittedFeedback?
 
 \> `optional` **hasSubmittedFeedback**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Boolean"`\]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryHasSubmittedFeedbackArgs`](QueryHasSubmittedFeedbackArgs.md), `"eventId"` \| `"userId"`\>\>
@@ -234,4 +246,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4492](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/types/generatedGraphQLTypes.ts#L4492)
+[src/types/generatedGraphQLTypes.ts:4522](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L4522)

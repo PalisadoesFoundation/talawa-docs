@@ -62,6 +62,10 @@
 
 \> `optional` **customFieldsByOrganization**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`OrganizationCustomField`](OrganizationCustomField.md)\>[]\>
 
+### directChatById?
+
+\> `optional` **directChatById**: [`Maybe`](Maybe.md)\<[`DirectChat`](DirectChat.md)\>
+
 ### directChatsByUserID?
 
 \> `optional` **directChatsByUserID**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`DirectChat`](DirectChat.md)\>[]\>
@@ -162,6 +166,14 @@
 
 \> `optional` **getlanguage**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Translation`](Translation.md)\>[]\>
 
+### groupChatById?
+
+\> `optional` **groupChatById**: [`Maybe`](Maybe.md)\<[`GroupChat`](GroupChat.md)\>
+
+### groupChatsByUserId?
+
+\> `optional` **groupChatsByUserId**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`GroupChat`](GroupChat.md)\>[]\>
+
 ### hasSubmittedFeedback?
 
 \> `optional` **hasSubmittedFeedback**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]\>
@@ -232,4 +244,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2248](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/types/generatedGraphQLTypes.ts#L2248)
+[src/types/generatedGraphQLTypes.ts:2249](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2249)

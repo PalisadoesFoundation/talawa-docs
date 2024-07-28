@@ -8,28 +8,42 @@
 
 \> `const` **cancelMembershipRequest**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"cancelMembershipRequest"`\]
 
-This function enables to cancel membership request.
+Mutation resolver function to cancel a membership request.
+
+This function performs the following actions:
+1. Verifies that the membership request specified by `args.membershipRequestId` exists.
+2. Ensures that the organization associated with the membership request exists.
+3. Confirms that the user specified by `context.userId` exists.
+4. Checks if the current user is the creator of the membership request.
+5. Deletes the membership request.
+6. Updates the organization document to remove the membership request from its `membershipRequests` list.
+7. Updates the user's document to remove the membership request from their `membershipRequests` list.
 
 ## Param
 
-parent of current request
+The parent object for the mutation. This parameter is not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The arguments for the mutation, including:
+  - `membershipRequestId`: The ID of the membership request to be canceled.
 
 ## Param
 
-context of entire application
+The context for the mutation, including:
+  - `userId`: The ID of the current user making the request.
 
-## Remarks
+## See
 
-The following checks are done:
-1. If the membership request exists
-2. If the organization exists
-3. If the user exists
-4. If the user is the creator of the request
+ - MembershipRequest - The MembershipRequest model used to interact with the membership requests collection in the database.
+ - Organization - The Organization model used to interact with the organizations collection in the database.
+ - User - The User model used to interact with the users collection in the database.
+ - MutationResolvers - The type definition for the mutation resolvers.
+ - findOrganizationsInCache - Service function to retrieve organizations from cache.
+ - cacheOrganizations - Service function to cache updated organization data.
+ - findUserInCache - Service function to retrieve users from cache.
+ - cacheUsers - Service function to cache updated user data.
 
 ## Defined in
 
-[src/resolvers/Mutation/cancelMembershipRequest.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/cancelMembershipRequest.ts#L27)
+[src/resolvers/Mutation/cancelMembershipRequest.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/cancelMembershipRequest.ts#L45)

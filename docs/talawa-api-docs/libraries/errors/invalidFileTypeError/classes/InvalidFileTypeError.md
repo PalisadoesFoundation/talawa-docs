@@ -6,7 +6,8 @@
 
 # Class: InvalidFileTypeError
 
-This class detects invalid file type errors and sends those errors to the superclass ApplicationError.
+This class represents an error indicating an invalid file type.
+It extends the ApplicationError class to handle and format the error information.
 
 ## Extends
 
@@ -18,15 +19,25 @@ This class detects invalid file type errors and sends those errors to the superc
 
 \> **new InvalidFileTypeError**(`message`, `code`, `param`, `metadata`): [`InvalidFileTypeError`](InvalidFileTypeError.md)
 
+Creates an instance of InvalidFileTypeError.
+
 #### Parameters
 
 • **message**: `string` = `"Invalid File Type"`
 
+The error message (default is "Invalid File Type").
+
 • **code**: `null` \| `string` = `null`
+
+Optional error code (default is null).
 
 • **param**: `null` \| `string` = `null`
 
+Optional parameter associated with the error (default is null).
+
 • **metadata**: `Record`\<`any`, `any`\> = `\{\}`
+
+Optional additional metadata associated with the error (default is an empty object).
 
 #### Returns
 
@@ -38,7 +49,7 @@ This class detects invalid file type errors and sends those errors to the superc
 
 #### Defined in
 
-[src/libraries/errors/invalidFileTypeError.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/invalidFileTypeError.ts#L6)
+[src/libraries/errors/invalidFileTypeError.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/invalidFileTypeError.ts#L16)
 
 ## Properties
 
@@ -46,13 +57,15 @@ This class detects invalid file type errors and sends those errors to the superc
 
 \> **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[]
 
+An array of errors conforming to the InterfaceError interface
+
 #### Inherited from
 
 [`ApplicationError`](../../applicationError/classes/ApplicationError.md).[`errors`](../../applicationError/classes/ApplicationError.md#errors)
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L11)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -60,13 +73,15 @@ This class detects invalid file type errors and sends those errors to the superc
 
 \> **httpCode**: `number`
 
+The HTTP status code associated with the error
+
 #### Inherited from
 
 [`ApplicationError`](../../applicationError/classes/ApplicationError.md).[`httpCode`](../../applicationError/classes/ApplicationError.md#httpcode)
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

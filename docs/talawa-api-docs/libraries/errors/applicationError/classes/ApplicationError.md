@@ -6,7 +6,8 @@
 
 # Class: ApplicationError
 
-This class is responsible for finding the application errors. It adds those errors to superclass called Error.
+This class is responsible for handling application errors.
+It extends the built-in Error class to include additional properties and methods.
 
 ## Extends
 
@@ -30,13 +31,21 @@ This class is responsible for finding the application errors. It adds those erro
 
 \> **new ApplicationError**(`errors`, `httpCode`, `message`): [`ApplicationError`](ApplicationError.md)
 
+Creates an instance of ApplicationError.
+
 #### Parameters
 
 • **errors**: [`InterfaceError`](../interfaces/InterfaceError.md)[]
 
+An array of errors conforming to the InterfaceError interface.
+
 • **httpCode**: `number` = `422`
 
+The HTTP status code associated with the error (default is 422).
+
 • **message**: `string` = `"Error"`
+
+The error message (default is "Error").
 
 #### Returns
 
@@ -48,7 +57,7 @@ This class is responsible for finding the application errors. It adds those erro
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L14)
+[src/libraries/errors/applicationError.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L32)
 
 ## Properties
 
@@ -56,9 +65,11 @@ This class is responsible for finding the application errors. It adds those erro
 
 \> **errors**: [`InterfaceError`](../interfaces/InterfaceError.md)[]
 
+An array of errors conforming to the InterfaceError interface
+
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L11)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -66,9 +77,11 @@ This class is responsible for finding the application errors. It adds those erro
 
 \> **httpCode**: `number`
 
+The HTTP status code associated with the error
+
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

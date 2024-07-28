@@ -6,7 +6,8 @@
 
 # Class: ValidationError
 
-This class detects validation errors and sends those errors to the superclass ApplicationError.
+This class represents an error indicating validation errors.
+It extends the ApplicationError class to handle and format the error information.
 
 ## Extends
 
@@ -18,11 +19,17 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 \> **new ValidationError**(`errors`, `message`): [`ValidationError`](ValidationError.md)
 
+Creates an instance of ValidationError.
+
 #### Parameters
 
 • **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[] = `[]`
 
+An array of errors conforming to the InterfaceError interface (default is an empty array).
+
 • **message**: `string` = `"Validation error"`
+
+The error message (default is "Validation error").
 
 #### Returns
 
@@ -34,7 +41,7 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 #### Defined in
 
-[src/libraries/errors/validationError.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/validationError.ts#L7)
+[src/libraries/errors/validationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/validationError.ts#L15)
 
 ## Properties
 
@@ -42,13 +49,15 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 \> **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[]
 
+An array of errors conforming to the InterfaceError interface
+
 #### Inherited from
 
 [`ApplicationError`](../../applicationError/classes/ApplicationError.md).[`errors`](../../applicationError/classes/ApplicationError.md#errors)
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L11)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -56,13 +65,15 @@ This class detects validation errors and sends those errors to the superclass Ap
 
 \> **httpCode**: `number`
 
+The HTTP status code associated with the error
+
 #### Inherited from
 
 [`ApplicationError`](../../applicationError/classes/ApplicationError.md).[`httpCode`](../../applicationError/classes/ApplicationError.md#httpcode)
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

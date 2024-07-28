@@ -8,26 +8,34 @@
 
 \> `const` **createDirectChat**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createDirectChat"`\]
 
-This function enables to create direct chat.
+Creates a new direct chat and associates it with an organization.
+
+This resolver performs the following steps:
+
+1. Retrieves the organization based on the provided `organizationId`.
+2. Checks if the organization exists, either from cache or database.
+3. Validates that all user IDs provided in `userIds` exist.
+4. Creates a new direct chat with the specified users and organization.
 
 ## Param
 
-parent of current request
+The parent object, not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The input arguments for the mutation, including:
+  - `data`: An object containing:
+    - `organizationId`: The ID of the organization to associate with the direct chat.
+    - `userIds`: An array of user IDs to be included in the direct chat.
 
 ## Param
 
-context of entire application
+The context object containing user information (context.userId).
 
 ## Remarks
 
-The following checks are done:
-1. If the organization exists
-2. If the user exists
+This function includes caching operations to optimize data retrieval and ensures that all user IDs are valid before creating the direct chat.
 
 ## Defined in
 
-[src/resolvers/Mutation/createDirectChat.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createDirectChat.ts#L20)
+[src/resolvers/Mutation/createDirectChat.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createDirectChat.ts#L28)

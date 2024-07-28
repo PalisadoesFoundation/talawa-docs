@@ -8,28 +8,29 @@
 
 \> `const` **addUserToUserFamily**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addUserToUserFamily"`\]
 
-This function adds user to the family.
+Adds a user to a user family.
+
+This function allows an admin to add a user to a specific user family. It performs several checks:
+
+1. Verifies if the user family exists.
+2. Checks if the user exists.
+3. Confirms that the user is not already a member of the family.
+4. Ensures that the current user is an admin of the user family.
 
 ## Param
 
-parent of current request
+The parent object for the mutation (not used in this function).
 
 ## Param
 
-payload provided with the request
+The arguments provided with the request, including:
+  - `familyId`: The ID of the user family to which the user will be added.
+  - `userId`: The ID of the user to be added to the user family.
 
 ## Param
 
-context of the entire application
-
-## Remarks
-
-The following checks are done:
-1. If the family exists
-2. If the user exists
-3. If the user is already member of the family
-4. If the user is admin of the user Family
+The context of the entire application, including user information and other context-specific data.
 
 ## Defined in
 
-[src/resolvers/Mutation/addUserToUserFamily.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/addUserToUserFamily.ts#L28)
+[src/resolvers/Mutation/addUserToUserFamily.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addUserToUserFamily.ts#L36)

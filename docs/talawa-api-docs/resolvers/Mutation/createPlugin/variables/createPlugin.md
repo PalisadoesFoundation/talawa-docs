@@ -8,20 +8,30 @@
 
 \> `const` **createPlugin**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createPlugin"`\]
 
-This function enables to create a plugin.
+Creates a new plugin and triggers a subscription event.
+
+This resolver performs the following steps:
+
+1. Creates a new plugin using the provided arguments.
+2. Publishes an update event to the `TALAWA_PLUGIN_UPDATED` subscription channel with the created plugin details.
 
 ## Param
 
-parent of current request
+The parent object, not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The input arguments for the mutation, which include:
+  - `data`: An object containing the plugin's details.
 
 ## Param
 
-context of entire application
+The context object, which includes the pubsub system for triggering subscriptions.
+
+## Remarks
+
+This function creates a plugin record, updates the subscription channel with the new plugin details, and returns the created plugin.
 
 ## Defined in
 
-[src/resolvers/Mutation/createPlugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createPlugin.ts#L12)
+[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createPlugin.ts#L21)

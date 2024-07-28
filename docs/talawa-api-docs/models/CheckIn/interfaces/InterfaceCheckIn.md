@@ -6,6 +6,8 @@
 
 # Interface: InterfaceCheckIn
 
+Represents a document for a check-in entry in the MongoDB database.
+
 ## Properties
 
 ### \_id
@@ -14,7 +16,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/CheckIn.ts#L14)
+[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/CheckIn.ts#L17)
 
 ***
 
@@ -24,7 +26,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/CheckIn.ts#L18)
+[src/models/CheckIn.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/CheckIn.ts#L21)
 
 ***
 
@@ -34,7 +36,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/CheckIn.ts#L15)
+[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/CheckIn.ts#L18)
 
 ***
 
@@ -44,7 +46,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/CheckIn.ts#L17)
+[src/models/CheckIn.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/CheckIn.ts#L20)
 
 ***
 
@@ -54,7 +56,7 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/CheckIn.ts#L16)
+[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/CheckIn.ts#L19)
 
 ***
 
@@ -64,4 +66,4 @@
 
 #### Defined in
 
-[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/CheckIn.ts#L19)
+[src/models/CheckIn.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/CheckIn.ts#L22)

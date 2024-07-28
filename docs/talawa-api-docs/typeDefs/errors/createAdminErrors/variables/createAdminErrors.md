@@ -8,6 +8,8 @@
 
 \> `const` **createAdminErrors**: `DocumentNode`
 
+GraphQL schema definition for errors related to creating an admin.
+
 ## Defined in
 
-[src/typeDefs/errors/createAdminErrors.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/typeDefs/errors/createAdminErrors.ts#L3)
+[src/typeDefs/errors/createAdminErrors.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/typeDefs/errors/createAdminErrors.ts#L6)

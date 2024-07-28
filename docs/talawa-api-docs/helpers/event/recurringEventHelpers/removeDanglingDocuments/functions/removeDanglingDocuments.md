@@ -35,4 +35,4 @@ If no associated events are found, it deletes the document from the database.
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts#L13)
+[src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts#L13)

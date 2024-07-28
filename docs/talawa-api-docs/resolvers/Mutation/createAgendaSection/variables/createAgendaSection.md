@@ -8,22 +8,35 @@
 
 \> `const` **createAgendaSection**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createAgendaSection"`\]
 
-Resolver function for the GraphQL mutation 'createAgendaSection'.
+Creates a new agenda section and performs authorization checks.
 
-This resolver creates a new agenda section and performs necessary authorization checks.
+This resolver performs the following steps:
 
-## Param
-
-The parent object, not used in this resolver.
-
-## Param
-
-The input arguments for the mutation.
+1. Retrieves the current user based on the userId from the context.
+2. Fetches the associated app user profile for the current user.
+3. Validates the existence of the related event and checks user permissions.
+4. Creates a new agenda section and sets the appropriate metadata.
 
 ## Param
 
-The context object containing user information.
+The parent object for the mutation (not used in this function).
+
+## Param
+
+The arguments provided with the mutation, including:
+  - `input`: An object containing:
+    - `relatedEvent`: The ID of the event to which the new agenda section is related.
+    - Additional fields for the agenda section.
+
+## Param
+
+The context of the entire application, including user information (context.userId).
+
+## Remarks
+
+This function performs caching and retrieval operations to ensure the latest data is used.
+It also verifies that the user has the necessary permissions to create the agenda section in the context of the specified event.
 
 ## Defined in
 
-[src/resolvers/Mutation/createAgendaSection.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createAgendaSection.ts#L25)
+[src/resolvers/Mutation/createAgendaSection.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createAgendaSection.ts#L37)

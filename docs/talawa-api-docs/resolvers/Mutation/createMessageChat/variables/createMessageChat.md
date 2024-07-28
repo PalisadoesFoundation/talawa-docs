@@ -8,27 +8,33 @@
 
 \> `const` **createMessageChat**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createMessageChat"`\]
 
-This function enables to create a chat.
+Creates a new chat message between users.
+
+This function performs the following actions:
+1. Verifies the existence of the current user.
+2. Retrieves and caches the current user's details and application profile if not already cached.
+3. Checks the existence of the receiver user and retrieves their application profile.
+4. Ensures that both the current user and the receiver have valid application profiles.
+5. Compares the language codes of the sender and receiver to determine if there is a language barrier.
+6. Creates a new chat message with the specified content and language barrier status.
+7. Publishes the created message chat to a pub/sub channel for real-time updates.
 
 ## Param
 
-parent of current request
+The parent object for the mutation. This parameter is not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The arguments for the mutation, including:
+  - `data.receiver`: The ID of the user receiving the message.
+  - `data.message`: The content of the message being sent.
 
 ## Param
 
-context of entire application
-
-## Remarks
-
-The following checks are done:
-1. If the receiver user exists
-2. If the sender and receiver users have same language code.
-3. If the sender and receiver users have appProfile.
+The context for the mutation, including:
+  - `userId`: The ID of the current user sending the message.
+  - `pubsub`: The pub/sub instance for publishing real-time updates.
 
 ## Defined in
 
-[src/resolvers/Mutation/createMessageChat.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createMessageChat.ts#L24)
+[src/resolvers/Mutation/createMessageChat.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createMessageChat.ts#L37)

@@ -6,7 +6,7 @@
 
 # Interface: InterfaceEncodedImage
 
-This is an interface that represents a database(MongoDB) document for Encoded Image.
+Represents a document for an encoded image in the MongoDB database.
 
 ## Properties
 
@@ -16,7 +16,7 @@ This is an interface that represents a database(MongoDB) document for Encoded Im
 
 #### Defined in
 
-[src/models/EncodedImage.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EncodedImage.ts#L8)
+[src/models/EncodedImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EncodedImage.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface that represents a database(MongoDB) document for Encoded Im
 
 #### Defined in
 
-[src/models/EncodedImage.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EncodedImage.ts#L10)
+[src/models/EncodedImage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EncodedImage.ts#L11)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface that represents a database(MongoDB) document for Encoded Im
 
 #### Defined in
 
-[src/models/EncodedImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EncodedImage.ts#L9)
+[src/models/EncodedImage.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EncodedImage.ts#L10)
 
 ***
 
@@ -46,4 +46,4 @@ This is an interface that represents a database(MongoDB) document for Encoded Im
 
 #### Defined in
 
-[src/models/EncodedImage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EncodedImage.ts#L11)
+[src/models/EncodedImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EncodedImage.ts#L12)

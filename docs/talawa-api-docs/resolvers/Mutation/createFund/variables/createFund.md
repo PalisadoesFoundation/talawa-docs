@@ -8,28 +8,36 @@
 
 \> `const` **createFund**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createFund"`\]
 
-This function enables to create an organization specific fundraising funds.
+Creates a new fundraising fund for a specified organization.
+
+This function performs the following actions:
+1. Verifies the existence of the current user.
+2. Retrieves and caches the user's profile if not already cached.
+3. Verifies the existence of the specified organization.
+4. Checks if the current user is an admin of the organization.
+5. Verifies that the fund does not already exist for the given organization.
+6. Creates a new fund with the provided details.
+7. Updates the organization's list of funds to include the newly created fund.
 
 ## Param
 
-parent of current request
+The parent object for the mutation. This parameter is not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The arguments for the mutation, including:
+  - `data.organizationId`: The ID of the organization for which the fund is being created.
+  - `data.name`: The name of the fund.
+  - `data.refrenceNumber`: The reference number for the fund.
+  - `data.taxDeductible`: Indicates if the fund is tax-deductible.
+  - `data.isDefault`: Indicates if the fund is a default fund.
+  - `data.isArchived`: Indicates if the fund is archived.
 
 ## Param
 
-context of entire application
-
-## Remarks
-
-The following checks are done:
-1. If the user exists
-2. If the organization exists
-3. If the user is authorized.
-4. If the fund already exists
+The context for the mutation, including:
+  - `userId`: The ID of the current user performing the operation.
 
 ## Defined in
 
-[src/resolvers/Mutation/createFund.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createFund.ts#L30)
+[src/resolvers/Mutation/createFund.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createFund.ts#L43)

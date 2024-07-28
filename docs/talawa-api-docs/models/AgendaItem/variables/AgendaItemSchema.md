@@ -8,7 +8,7 @@
 
 \> `const` **AgendaItemSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
 
-This is the Mongoose schema for an agenda item.
+Mongoose schema definition for an agenda item document.
 
 ## Param
 
@@ -40,11 +40,11 @@ Reference to the user who last updated the agenda item.
 
 ## Param
 
-Optional users array indicating key note users for the agenda item.
+Optional array of URLs related to the agenda item.
 
 ## Param
 
-Optional user associated with the agenda item.
+Optional array of users associated with the agenda item.
 
 ## Param
 
@@ -68,16 +68,12 @@ Date when the agenda item was last updated.
 
 ## Param
 
-Indicates whether the agenda item is a note.
-
-## Param
-
 Reference to the organization associated with the agenda item.
 
 ## Param
 
-Reference to the notes associated with the agenda item.
+Array of notes associated with the agenda item.
 
 ## Defined in
 
-[src/models/AgendaItem.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/AgendaItem.ts#L60)
+[src/models/AgendaItem.ts:59](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaItem.ts#L59)

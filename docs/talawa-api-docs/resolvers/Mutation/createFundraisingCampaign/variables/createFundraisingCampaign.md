@@ -8,29 +8,40 @@
 
 \> `const` **createFundraisingCampaign**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createFundraisingCampaign"`\]
 
-This function enables to create a fundraisingCampaigin .
+Creates a new fundraising campaign and associates it with a specified fund.
+
+This resolver performs the following actions:
+
+1. Validates the existence of the current user.
+2. Checks if the user has an associated profile and if they are authorized.
+3. Ensures that a fundraising campaign with the same name does not already exist.
+4. Validates the provided start and end dates for the campaign.
+5. Verifies the existence of the specified fund and checks if the user is authorized to create a campaign for the fund.
+6. Creates a new fundraising campaign and associates it with the fund.
 
 ## Param
 
-parent of current request
+The parent object, not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The input arguments for the mutation, including:
+  - `data`: An object containing:
+    - `name`: The name of the fundraising campaign.
+    - `fundId`: The ID of the fund to associate the campaign with.
+    - `startDate`: The start date of the campaign.
+    - `endDate`: The end date of the campaign.
+    - `fundingGoal`: The funding goal for the campaign.
+    - `currency`: The currency for the funding goal.
 
 ## Param
 
-context of entire application
+The context object containing user information (context.userId).
 
 ## Remarks
 
-The following checks are done:
-1. If the current user exists
-2 .If the startDate is valid
-3. If the endDate is valid
-4. if the parent fund  exists
-5. If the user is authorized.
+This function checks the cache for user and profile data, validates inputs, and ensures the user has the necessary permissions before creating the campaign.
 
 ## Defined in
 
-[src/resolvers/Mutation/createFundraisingCampaign.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createFundraisingCampaign.ts#L31)
+[src/resolvers/Mutation/createFundraisingCampaign.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createFundraisingCampaign.ts#L45)

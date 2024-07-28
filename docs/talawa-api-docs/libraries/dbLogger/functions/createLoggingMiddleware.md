@@ -8,6 +8,9 @@
 
 \> **createLoggingMiddleware**\<`T`\>(`schema`, `modelName`): `void`
 
+Creates a logging middleware for a Mongoose schema. This middleware logs
+create, update, and delete operations on the specified schema.
+
 ## Type Parameters
 
 • **T** *extends* `Document`\<`any`, `any`, `any`\>
@@ -16,7 +19,11 @@
 
 • **schema**: `Schema`\<`T`, `Model`\<`T`, `any`, `any`, `any`, `IfAny`\<`T`, `any`, `Document`\<`unknown`, `any`, `T`\> & `Require_id`\<`T`\>\>, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `ObtainDocumentType`\<`any`, `T`, `ResolveSchemaOptions`\<`DefaultSchemaOptions`\>\>, `IfAny`\<`FlatRecord`\<`ObtainDocumentType`\<`any`, `T`, `ResolveSchemaOptions`\<`DefaultSchemaOptions`\>\>\>, `any`, `Document`\<`unknown`, `object`, `FlatRecord`\<`ObtainDocumentType`\<`any`, `T`, `ResolveSchemaOptions`\<`DefaultSchemaOptions`\>\>\>\> & `Require_id`\<`FlatRecord`\<`ObtainDocumentType`\<`any`, `T`, `ResolveSchemaOptions`\<`DefaultSchemaOptions`\>\>\>\>\>\>
 
+The Mongoose schema to which the middleware will be added
+
 • **modelName**: `string`
+
+The name of the model associated with the schema
 
 ## Returns
 
@@ -24,4 +31,4 @@
 
 ## Defined in
 
-[src/libraries/dbLogger.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/dbLogger.ts#L40)
+[src/libraries/dbLogger.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L65)

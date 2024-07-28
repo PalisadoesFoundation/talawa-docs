@@ -8,12 +8,35 @@
 
 \> **default**(): `Promise`\<`void`\>
 
+Loads plugin data into the MongoDB database if it is not already present.
+
+This function connects to the MongoDB database using the connection URL specified in the environment variables.
+It checks if the plugin data already exists in the database. If the data does not exist, it inserts the data from
+the provided JSON file (`pluginData.json`). If the data is already present, it logs a message indicating so.
+
 ## Returns
 
 `Promise`\<`void`\>
 
 A promise that resolves when the plugins have been loaded or confirms that they are already present.
 
+## Example
+
+```typescript
+import loadPlugins from './path/to/loadPlugins';
+
+loadPlugins().then(() =\> \{
+  console.log('Plugins loaded successfully.');
+\}).catch(error =\> \{
+  console.error('Error loading plugins:', error);
+\});
+```
+
+## See
+
+Parent File:
+- `src/index.ts`
+
 ## Defined in
 
-[src/config/plugins/loadPlugins.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/config/plugins/loadPlugins.ts#L31)
+[src/config/plugins/loadPlugins.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/config/plugins/loadPlugins.ts#L31)

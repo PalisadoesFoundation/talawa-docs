@@ -6,6 +6,8 @@
 
 # Interface: InterfaceLoggableDocument
 
+Interface for a document that includes logging information.
+
 ## Extends
 
 - `Document`
@@ -195,9 +197,11 @@ node\_modules/mongoose/types/document.d.ts:191
 
 \> **logInfo**: [`TransactionLogInfo`](../type-aliases/TransactionLogInfo.md)
 
+Information about the transaction log
+
 #### Defined in
 
-[src/libraries/dbLogger.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/dbLogger.ts#L33)
+[src/libraries/dbLogger.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L47)
 
 ***
 

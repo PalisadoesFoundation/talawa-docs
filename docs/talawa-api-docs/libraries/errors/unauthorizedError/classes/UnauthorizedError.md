@@ -6,7 +6,8 @@
 
 # Class: UnauthorizedError
 
-This class detects unauthorized errors and sends those errors to the superclass ApplicationError.
+Represents an unauthorized error. It extends the ApplicationError class
+and is used to handle situations where access to a resource is unauthorized.
 
 ## Extends
 
@@ -18,15 +19,25 @@ This class detects unauthorized errors and sends those errors to the superclass 
 
 \> **new UnauthorizedError**(`message`, `code`, `param`, `metadata`): [`UnauthorizedError`](UnauthorizedError.md)
 
+Creates an instance of UnauthorizedError.
+
 #### Parameters
 
 • **message**: `string` = `"UnauthorizedError"`
 
+The error message. Defaults to "UnauthorizedError".
+
 • **code**: `null` \| `string` = `null`
+
+The error code. Can be null. Defaults to null.
 
 • **param**: `null` \| `string` = `null`
 
+The parameter related to the error. Can be null. Defaults to null.
+
 • **metadata**: `Record`\<`any`, `any`\> = `\{\}`
+
+Additional metadata related to the error. Defaults to an empty object.
 
 #### Returns
 
@@ -38,7 +49,7 @@ This class detects unauthorized errors and sends those errors to the superclass 
 
 #### Defined in
 
-[src/libraries/errors/unauthorizedError.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/unauthorizedError.ts#L6)
+[src/libraries/errors/unauthorizedError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/unauthorizedError.ts#L15)
 
 ## Properties
 
@@ -46,13 +57,15 @@ This class detects unauthorized errors and sends those errors to the superclass 
 
 \> **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[]
 
+An array of errors conforming to the InterfaceError interface
+
 #### Inherited from
 
 [`ApplicationError`](../../applicationError/classes/ApplicationError.md).[`errors`](../../applicationError/classes/ApplicationError.md#errors)
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L11)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -60,13 +73,15 @@ This class detects unauthorized errors and sends those errors to the superclass 
 
 \> **httpCode**: `number`
 
+The HTTP status code associated with the error
+
 #### Inherited from
 
 [`ApplicationError`](../../applicationError/classes/ApplicationError.md).[`httpCode`](../../applicationError/classes/ApplicationError.md#httpcode)
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

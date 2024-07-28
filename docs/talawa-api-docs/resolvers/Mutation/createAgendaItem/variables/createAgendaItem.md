@@ -8,20 +8,32 @@
 
 \> `const` **createAgendaItem**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createAgendaItem"`\]
 
-Create an agenda item based on the provided input.
+Creates a new agenda item and associates it with an event if specified.
+
+This function performs the following actions:
+1. Verifies that the current user exists and is authorized.
+2. Checks the existence of the specified organization.
+3. If a related event is specified, verifies its existence and checks if the user is an admin of the event.
+4. Checks if the user is an admin of the organization or has super admin privileges.
+5. Creates the new agenda item and associates it with the event if applicable.
 
 ## Param
 
-parent of current request
+The parent object for the mutation. This parameter is not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The arguments for the mutation, including:
+  - `input`: An object containing:
+    - `organizationId`: The ID of the organization where the agenda item will be created.
+    - `relatedEventId` (optional): The ID of the related event, if applicable.
+    - Other agenda item details.
 
 ## Param
 
-context of entire application
+The context for the mutation, including:
+  - `userId`: The ID of the current user making the request.
 
 ## Defined in
 
-[src/resolvers/Mutation/createAgendaItem.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createAgendaItem.ts#L38)
+[src/resolvers/Mutation/createAgendaItem.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createAgendaItem.ts#L53)

@@ -6,6 +6,9 @@
 
 # Interface: InterfaceEventVolunteerGroup
 
+Represents a document for an event volunteer group in the MongoDB database.
+This interface defines the structure and types of data that an event volunteer group document will hold.
+
 ## Properties
 
 ### \_id
@@ -14,7 +17,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L9)
+[src/models/EventVolunteerGroup.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L13)
 
 ***
 
@@ -24,7 +27,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L10)
+[src/models/EventVolunteerGroup.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L14)
 
 ***
 
@@ -34,7 +37,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L11)
+[src/models/EventVolunteerGroup.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L15)
 
 ***
 
@@ -44,7 +47,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L12)
+[src/models/EventVolunteerGroup.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L16)
 
 ***
 
@@ -54,7 +57,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L13)
+[src/models/EventVolunteerGroup.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L17)
 
 ***
 
@@ -64,7 +67,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L14)
+[src/models/EventVolunteerGroup.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L18)
 
 ***
 
@@ -74,7 +77,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L15)
+[src/models/EventVolunteerGroup.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L19)
 
 ***
 
@@ -84,7 +87,7 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L16)
+[src/models/EventVolunteerGroup.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L20)
 
 ***
 
@@ -94,4 +97,4 @@
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/EventVolunteerGroup.ts#L17)
+[src/models/EventVolunteerGroup.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteerGroup.ts#L21)

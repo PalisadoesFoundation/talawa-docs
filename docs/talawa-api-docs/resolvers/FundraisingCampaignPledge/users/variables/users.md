@@ -8,12 +8,19 @@
 
 \> `const` **users**: [`FundraisingCampaignPledgeResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/FundraisingCampaignPledgeResolvers.md)\[`"users"`\]
 
-This resolver function will fetch and return the list of users who have pledged to the Fundraising Campaign from database.
+Resolver function for the `users` field of a `FundraisingCampaignPledge`.
+
+This function retrieves the users who pledged to donate to a specific fundraising campaign.
 
 ## Param
 
-An object that is the return value of the resolver for this field's parent.
+The parent object representing the fundraising campaign pledge. It contains information about the fundraising campaign pledge, including the IDs of the users who pledged to donate.
+
+## See
+
+ - User - The User model used to interact with the users collection in the database.
+ - FundraisingCampaignPledgeResolvers - The type definition for the resolvers of the FundraisingCampaignPledge fields.
 
 ## Defined in
 
-[src/resolvers/FundraisingCampaignPledge/users.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/FundraisingCampaignPledge/users.ts#L9)
+[src/resolvers/FundraisingCampaignPledge/users.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/FundraisingCampaignPledge/users.ts#L16)

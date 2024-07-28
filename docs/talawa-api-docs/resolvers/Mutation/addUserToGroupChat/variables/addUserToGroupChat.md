@@ -8,29 +8,41 @@
 
 \> `const` **addUserToGroupChat**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addUserToGroupChat"`\]
 
-This function adds user to group chat.
+Mutation resolver function to add a user to a group chat.
+
+This function performs the following actions:
+1. Checks if the group chat specified by `args.chatId` exists.
+2. Checks if the organization associated with the group chat exists.
+3. Verifies that the current user (identified by `context.userId`) is an admin of the organization.
+4. Confirms that the user to be added (specified by `args.userId`) exists.
+5. Ensures that the user is not already a member of the group chat.
+6. Adds the user to the list of users in the group chat and returns the updated group chat.
 
 ## Param
 
-parent of current request
+The parent object for the mutation. This parameter is not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The arguments for the mutation, including:
+  - `chatId`: The ID of the group chat to which the user will be added.
+  - `userId`: The ID of the user to be added to the group chat.
 
 ## Param
 
-context of entire application
+The context for the mutation, including:
+  - `userId`: The ID of the current user making the request.
 
-## Remarks
+## See
 
-The following checks are done:
-1. If the group chat exists
-2. If the organization exists
-3. If the user trying to add the user is an admin of organization
-4. If the user exists
-5. If the user is already a member of the chat
+ - GroupChat - The GroupChat model used to interact with the group chats collection in the database.
+ - Organization - The Organization model used to interact with the organizations collection in the database.
+ - User - The User model used to interact with the users collection in the database.
+ - MutationResolvers - The type definition for the mutation resolvers.
+ - adminCheck - Utility function to check if the current user is an admin of the organization.
+ - findOrganizationsInCache - Service function to retrieve organizations from cache.
+ - cacheOrganizations - Service function to cache updated organization data.
 
 ## Defined in
 
-[src/resolvers/Mutation/addUserToGroupChat.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/addUserToGroupChat.ts#L28)
+[src/resolvers/Mutation/addUserToGroupChat.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addUserToGroupChat.ts#L44)

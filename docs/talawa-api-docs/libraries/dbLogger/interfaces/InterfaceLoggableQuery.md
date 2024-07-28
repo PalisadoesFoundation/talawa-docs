@@ -6,6 +6,8 @@
 
 # Interface: InterfaceLoggableQuery\<T\>
 
+Interface for a query that can include logging information.
+
 ## Extends
 
 - `Query`\<`unknown`, `T`\>
@@ -109,9 +111,11 @@ node\_modules/mongoose/types/query.d.ts:266
 
 \> `optional` **logInfo**: [`TransactionLogInfo`](../type-aliases/TransactionLogInfo.md)
 
+Information about the transaction log (optional)
+
 #### Defined in
 
-[src/libraries/dbLogger.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/dbLogger.ts#L37)
+[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L55)
 
 ***
 

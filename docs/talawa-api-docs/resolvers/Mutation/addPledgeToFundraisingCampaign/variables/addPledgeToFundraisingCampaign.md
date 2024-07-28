@@ -8,27 +8,32 @@
 
 \> `const` **addPledgeToFundraisingCampaign**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addPledgeToFundraisingCampaign"`\]
 
-This function adds  campaign pledge to campaign.
+Mutation resolver to add a pledge to a fundraising campaign.
+
+This function adds a specified pledge to a fundraising campaign. It performs several checks:
+
+1. Verifies that the current user exists.
+2. Confirms that the pledge exists.
+3. Checks that the campaign exists.
+4. Ensures the user has made the pledge.
+5. Verifies that the campaign is not already associated with the pledge.
+
+If any of these conditions are not met, appropriate errors are thrown.
 
 ## Param
 
-parent of current request
+The parent object for the mutation (not used in this function).
 
 ## Param
 
-payload provided with the request
+The arguments provided with the request, including:
+  - `pledgeId`: The ID of the pledge to be added.
+  - `campaignId`: The ID of the campaign to which the pledge will be added.
 
 ## Param
 
-context of entire application
-
-## Remarks
-
-The following checks are done:
-1. If the current user exists
-2. If the pledge exists
-3. If the campaign exists
+The context of the entire application, containing user information and other context-specific data.
 
 ## Defined in
 
-[src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts#L31)
+[src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts#L41)

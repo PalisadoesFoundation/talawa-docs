@@ -8,6 +8,8 @@
 
 \> **middleware**(): (`req`, `res`, `next`) =\> `void`
 
+Middleware to bind the request and response to the request context namespace.
+
 ## Returns
 
 `Function`
@@ -26,4 +28,4 @@
 
 ## Defined in
 
-[src/libraries/requestContext.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/libraries/requestContext.ts#L23)
+[src/libraries/requestContext.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/requestContext.ts#L42)

@@ -8,12 +8,19 @@
 
 \> `const` **user**: [`MembershipRequestResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MembershipRequestResolvers.md)\[`"user"`\]
 
-This resolver function will retrieve and return the user who sent the membership request from the database.
+Resolver function for the `user` field of a `MembershipRequest`.
+
+This function retrieves the user who made a specific membership request.
 
 ## Param
 
-An object that is the return value of the resolver for this field's parent.
+The parent object representing the membership request. It contains information about the membership request, including the ID of the user who made it.
+
+## See
+
+ - User - The User model used to interact with the users collection in the database.
+ - MembershipRequestResolvers - The type definition for the resolvers of the MembershipRequest fields.
 
 ## Defined in
 
-[src/resolvers/MembershipRequest/user.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/MembershipRequest/user.ts#L10)
+[src/resolvers/MembershipRequest/user.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/MembershipRequest/user.ts#L18)

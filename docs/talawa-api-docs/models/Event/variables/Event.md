@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[src/models/Event.ts:203](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/Event.ts#L203)
+[src/models/Event.ts:202](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Event.ts#L202)

@@ -8,29 +8,33 @@
 
 \> `const` **createVenue**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createVenue"`\]
 
-This function enables to create a venue in an organization.
+Creates a new venue within an organization, if the user has appropriate permissions and the venue does not already exist.
+
+This resolver performs the following checks:
+
+1. Verifies the existence of the user and fetches their profile.
+2. Checks if the specified organization exists.
+3. Ensures the user is authorized to create a venue by verifying their admin or superadmin status within the organization.
+4. Validates that a venue name is provided.
+5. Ensures that no venue with the same name already exists within the organization.
+6. Uploads an image if provided and associates it with the venue.
 
 ## Param
 
-parent of current request
+The parent object, not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The input arguments for the mutation, including the venue details and organization ID.
 
 ## Param
 
-context of entire application
+The context object, including the user ID, API root URL, and other necessary context for authorization and image upload.
 
 ## Remarks
 
-The following checks are done:
-1. If the user exists
-2. If the organization exists
-3. Whether the user is admin or superadmin or not
-4. If the venue name is missing
-5. If the same venue already exists in an organization
+This function includes validation for user authorization, venue uniqueness, and handles image uploads if applicable.
 
 ## Defined in
 
-[src/resolvers/Mutation/createVenue.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createVenue.ts#L33)
+[src/resolvers/Mutation/createVenue.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createVenue.ts#L40)

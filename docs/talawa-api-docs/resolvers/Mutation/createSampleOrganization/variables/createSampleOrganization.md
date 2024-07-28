@@ -10,6 +10,29 @@
 
 Generates sample data for testing or development purposes.
 
+This resolver performs the following steps:
+
+1. Verifies that the current user exists and is fetched from the cache or database.
+2. Checks if the current user has a valid application profile and whether they are authorized.
+3. Ensures that the current user is a super admin.
+4. Utilizes a utility function to create a sample organization.
+
+## Param
+
+The parent object, not used in this resolver.
+
+## Param
+
+The arguments for the mutation, not used in this resolver.
+
+## Param
+
+The context object, including the user ID and other necessary context for authorization.
+
+## Remarks
+
+This function is intended for creating sample data and should only be accessible by super admins.
+
 ## Defined in
 
-[src/resolvers/Mutation/createSampleOrganization.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createSampleOrganization.ts#L19)
+[src/resolvers/Mutation/createSampleOrganization.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createSampleOrganization.ts#L33)

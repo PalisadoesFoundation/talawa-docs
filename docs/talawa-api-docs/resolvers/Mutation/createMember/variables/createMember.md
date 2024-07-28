@@ -8,29 +8,34 @@
 
 \> `const` **createMember**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createMember"`\]
 
-This function enables to add a member.
+Adds a user as a member to an organization.
+
+This resolver performs the following actions:
+
+1. Verifies if the current user making the request exists and is either a superAdmin or an admin of the organization.
+2. Checks if the specified organization exists in the cache; if not, fetches it from the database and caches it.
+3. Checks if the specified user exists and is not already a member of the organization.
+4. Adds the user to the organization's member list and updates the user's joinedOrganizations list.
 
 ## Param
 
-parent of current request
+The parent object, not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The input arguments for the mutation, including:
+  - `input`: An object containing:
+    - `organizationId`: The ID of the organization to which the user will be added.
+    - `userId`: The ID of the user to be added as a member.
 
 ## Param
 
-context of entire application
+The context object containing user information (context.userId).
 
 ## Remarks
 
-The following checks are done:
-1. Checks whether current user making the request is an superAdmin or an Admin.
-2. If the organization exists
-3. Checks whether curent user exists.
-4. Checks whether current user has appProfile.
-4. Checks whether user with _id === args.input.userId is already an member of organization..
+This function returns the updated organization and any errors encountered. It ensures that the user is not already a member before adding them and handles caching of the organization.
 
 ## Defined in
 
-[src/resolvers/Mutation/createMember.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createMember.ts#L37)
+[src/resolvers/Mutation/createMember.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createMember.ts#L47)

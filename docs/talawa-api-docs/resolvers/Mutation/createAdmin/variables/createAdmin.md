@@ -8,30 +8,39 @@
 
 \> `const` **createAdmin**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createAdmin"`\]
 
-This function enables to create an admin for an organization.
+Creates an admin for an organization by adding the specified user to the organization's admin list.
+
+This function performs several checks:
+
+1. Verifies if the specified organization exists.
+2. Ensures the current user is found and has an associated app user profile.
+3. Checks if the current user is the creator of the organization.
+4. Checks if the specified user exists and is a member of the organization.
+5. Ensures the specified user is not already an admin of the organization.
 
 ## Param
 
-parent of current request
+The parent object for the mutation (not used in this function).
 
 ## Param
 
-payload provided with the request
+The arguments provided with the request, including:
+  - `data`: An object containing:
+    - `organizationId`: The ID of the organization to which the user will be added as an admin.
+    - `userId`: The ID of the user to be made an admin.
 
 ## Param
 
-context of entire application
+The context of the entire application, including user information and other context-specific data.
 
 ## Remarks
 
-The following checks are done:
-1. If the organization exists
-2. If the user has appUserProfile
-3. If the current user is the creator of the organization
-4. If the user exists
-5. If the user is a member of the organization
-6. If the user is already an admin of the organization
+The function handles the following:
+- Caches and retrieves the organization data.
+- Verifies the existence and profile of the current user.
+- Ensures the user to be added is a member of the organization and is not already an admin.
+- Updates the organization's admin list and the app user profile of the newly added admin.
 
 ## Defined in
 
-[src/resolvers/Mutation/createAdmin.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createAdmin.ts#L32)
+[src/resolvers/Mutation/createAdmin.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createAdmin.ts#L47)

@@ -8,14 +8,20 @@
 
 \> **loadDefaultOrganiation**(`dbName`?): `Promise`\<`void`\>
 
+Loads default organization data into the database.
+
 ## Parameters
 
 • **dbName?**: `string`
+
+Optional name of the database to connect to.
 
 ## Returns
 
 `Promise`\<`void`\>
 
+Promise\<void\>
+
 ## Defined in
 
-[src/utilities/loadDefaultOrg.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/loadDefaultOrg.ts#L6)
+[src/utilities/loadDefaultOrg.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/loadDefaultOrg.ts#L11)

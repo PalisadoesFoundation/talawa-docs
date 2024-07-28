@@ -8,15 +8,23 @@
 
 \> **generateUserData**(`organizationId`, `userType`): `Promise`\<`object`\>
 
+Generates user data for a given organization and user type.
+
 ## Parameters
 
 • **organizationId**: `string`
 
+The ID of the organization the user belongs to
+
 • **userType**: `string`
+
+The type of the user ('ADMIN' or 'USER')
 
 ## Returns
 
 `Promise`\<`object`\>
+
+A promise that resolves to an object containing the created user and their application profile
 
 ### appUserProfile
 
@@ -28,4 +36,4 @@
 
 ## Defined in
 
-[src/utilities/createSampleOrganizationUtil.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/createSampleOrganizationUtil.ts#L17)
+[src/utilities/createSampleOrganizationUtil.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/createSampleOrganizationUtil.ts#L24)

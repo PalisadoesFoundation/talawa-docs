@@ -8,15 +8,14 @@
 
 \> **imageExtensionCheck**(`filename`): `Promise`\<`void`\>
 
-This function checks the extension of the file.
-If the extension isn't of type 'png', or 'jpg', or 'jpeg',
-then the file is deleted and a validation error is thrown.
+Checks the file extension of the given filename.
+If the extension is not 'png', 'jpg', or 'jpeg', deletes the file and throws a validation error.
 
 ## Parameters
 
 • **filename**: `string`
 
-Name of file
+The name of the file to check
 
 ## Returns
 
@@ -24,4 +23,4 @@ Name of file
 
 ## Defined in
 
-[src/utilities/imageExtensionCheck.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/imageExtensionCheck.ts#L10)
+[src/utilities/imageExtensionCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/imageExtensionCheck.ts#L11)

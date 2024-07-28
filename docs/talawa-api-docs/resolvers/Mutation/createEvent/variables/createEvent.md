@@ -8,30 +8,40 @@
 
 \> `const` **createEvent**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createEvent"`\]
 
-This function enables to create an event.
+Creates a new event and associates it with an organization.
+
+This resolver handles both recurring and non-recurring events, performing the following steps:
+
+1. Validates the existence of the user, their app user profile, and the associated organization.
+2. Checks if the user is authorized to create an event in the organization.
+3. Validates the provided event details, including title, description, location, and date range.
+4. Creates the event using the appropriate method based on whether it's recurring or not.
+5. Uses a database transaction to ensure data consistency.
 
 ## Param
 
-parent of current request
+The parent object, not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The input arguments for the mutation, including:
+  - `data`: An object containing:
+    - `organizationId`: The ID of the organization to associate with the event.
+    - `title`: The title of the event (max 256 characters).
+    - `description`: A description of the event (max 500 characters).
+    - `location`: The location of the event (max 50 characters).
+    - `startDate`: The start date of the event.
+    - `endDate`: The end date of the event.
+    - `recurring`: A boolean indicating if the event is recurring.
 
 ## Param
 
-context of entire application
+The context object containing user information (context.userId).
 
 ## Remarks
 
-The following checks are done:
-1. If the user exists
-2.If the user has appUserProfile
-3. If the organization exists
-4. If the user is a part of the organization.
-5. If the event is recurring, create the recurring event instances.
-6. If the event is non-recurring, create a single event.
+This function uses a transaction to ensure that either all operations succeed or none do, maintaining data integrity.
 
 ## Defined in
 
-[src/resolvers/Mutation/createEvent.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/createEvent.ts#L44)
+[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createEvent.ts#L56)

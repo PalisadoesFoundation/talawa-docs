@@ -6,40 +6,6 @@
 
 # Interface: InterfaceFundraisingCampaign
 
-This is the structure of a file
-
-## Param
-
-parent fund to which campaign belongs
-
-## Param
-
-Name of the campaign
-
-## Param
-
-Start date of the campaign
-
-## Param
-
-End date of the campaign
-
-## Param
-
-Goal of the campaign
-
-## Param
-
-Currency of the campaign
-
-## Param
-
-Timestamp of creation
-
-## Param
-
-Timestamp of updation
-
 ## Properties
 
 ### \_id
@@ -48,7 +14,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:186](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L186)
+[src/models/FundraisingCampaign.ts:178](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L178)
 
 ***
 
@@ -58,7 +24,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:194](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L194)
+[src/models/FundraisingCampaign.ts:186](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L186)
 
 ***
 
@@ -68,7 +34,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:192](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L192)
+[src/models/FundraisingCampaign.ts:184](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L184)
 
 ***
 
@@ -78,7 +44,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:190](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L190)
+[src/models/FundraisingCampaign.ts:182](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L182)
 
 ***
 
@@ -88,7 +54,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:187](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L187)
+[src/models/FundraisingCampaign.ts:179](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L179)
 
 ***
 
@@ -98,7 +64,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:191](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L191)
+[src/models/FundraisingCampaign.ts:183](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L183)
 
 ***
 
@@ -108,7 +74,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:188](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L188)
+[src/models/FundraisingCampaign.ts:180](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L180)
 
 ***
 
@@ -118,7 +84,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:193](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L193)
+[src/models/FundraisingCampaign.ts:185](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L185)
 
 ***
 
@@ -128,7 +94,7 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L189)
+[src/models/FundraisingCampaign.ts:181](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L181)
 
 ***
 
@@ -138,4 +104,4 @@ Timestamp of updation
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:195](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/models/FundraisingCampaign.ts#L195)
+[src/models/FundraisingCampaign.ts:187](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L187)

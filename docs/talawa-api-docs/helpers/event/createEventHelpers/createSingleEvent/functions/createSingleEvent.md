@@ -8,6 +8,8 @@
 
 \> **createSingleEvent**(`args`, `creatorId`, `organizationId`, `session`): `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
 
+Creates a single non-recurring event.
+
 ## Parameters
 
 • **args**: [`MutationCreateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationCreateEventArgs.md)
@@ -32,6 +34,21 @@ The MongoDB client session for transactional operations.
 
 The created event instance.
 
+## See
+
+Parent file:
+- `resolvers/Mutation/createEvent.ts`,
+- `resolvers/Query/eventsByOrganizationConnection.ts`
+
+## Remarks
+
+This function follows these steps:
+1. Creates an event document in the database with provided data.
+2. Associates the event with the current user as creator and admin.
+3. Updates user's registered events list with the new event.
+4. Updates user's AppUserProfile with event admin and created events references.
+5. Caches the newly created event for faster access.
+
 ## Defined in
 
-[src/helpers/event/createEventHelpers/createSingleEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/helpers/event/createEventHelpers/createSingleEvent.ts#L29)
+[src/helpers/event/createEventHelpers/createSingleEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/helpers/event/createEventHelpers/createSingleEvent.ts#L29)

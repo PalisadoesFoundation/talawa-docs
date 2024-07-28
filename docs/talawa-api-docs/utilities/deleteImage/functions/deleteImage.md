@@ -8,24 +8,24 @@
 
 \> **deleteImage**(`imageToBeDeleted`, `imageBelongingToItem`?): `Promise`\<`void`\>
 
-This function deletes an image if it is only used once.
-It is also ensured that the image hash isn't used by multiple users/organization before deleting it
-After deleting the image, the number of uses of the hashed image are decremented by one.
+Deletes an image file if it meets deletion criteria based on usage and duplicate checks.
 
 ## Parameters
 
 • **imageToBeDeleted**: `string`
 
-Path of image
+The path of the image file to be deleted
 
 • **imageBelongingToItem?**: `string`
 
-Does image belong to an item
+Optional. Indicates if the image belongs to a specific item for duplicate check
 
 ## Returns
 
 `Promise`\<`void`\>
 
+A promise that resolves once the image is successfully deleted
+
 ## Defined in
 
-[src/utilities/deleteImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/utilities/deleteImage.ts#L12)
+[src/utilities/deleteImage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/deleteImage.ts#L13)

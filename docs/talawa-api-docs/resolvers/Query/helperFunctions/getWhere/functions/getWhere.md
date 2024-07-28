@@ -8,6 +8,10 @@
 
 \> **getWhere**\<`T`\>(`where`): `FilterQuery`\<`T`\>
 
+This function returns FilterQuery object which can be used to find out documents matching specific args as mentioned in `where`.
+When modifying this function, check if the arg to be added isn't present before, and place `where` argument
+type if not present before in the intersection type.
+
 ## Type Parameters
 
 • **T** = `unknown`
@@ -26,6 +30,16 @@ an object that contains properties that can be used to filter out documents.
 
 a FilterQuery object to filter out documents
 
+## Remarks
+
+You can learn about Generics [here](https://www.typescriptlang.org/docs/handbook/2/generics.html).
+
+## Example
+
+```
+const inputArgs = getWhere\<InterfaceEvent\>(args.where);
+```
+
 ## Defined in
 
-[src/resolvers/Query/helperFunctions/getWhere.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Query/helperFunctions/getWhere.ts#L28)
+[src/resolvers/Query/helperFunctions/getWhere.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Query/helperFunctions/getWhere.ts#L28)

@@ -8,12 +8,19 @@
 
 \> `const` **venues**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"venues"`\]
 
-This resolver will fetch the list of all venues within an Organization from database.
+Resolver function for the `venues` field of an `Organization`.
+
+This function retrieves the venues related to a specific organization.
 
 ## Param
 
-An object that contains `id` of the organization.
+The parent object representing the organization. It contains information about the organization, including the ID of the organization.
+
+## See
+
+ - Venue - The Venue model used to interact with the venues collection in the database.
+ - OrganizationResolvers - The type definition for the resolvers of the Organization fields.
 
 ## Defined in
 
-[src/resolvers/Organization/venues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Organization/venues.ts#L8)
+[src/resolvers/Organization/venues.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Organization/venues.ts#L16)

@@ -8,25 +8,43 @@
 
 \> `const` **addUserImage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addUserImage"`\]
 
-This function adds User Image.
+Mutation resolver function to add or update a user's profile image.
+
+This function performs the following actions:
+1. Retrieves the current user from the cache or database based on the `userId` from the context.
+2. Checks if the current user exists. If not, throws a not found error.
+3. Uploads the provided encoded image file and updates the user's profile image with the new file path.
+4. Updates the user document in the database with the new image information.
+5. Caches the updated user data.
 
 ## Param
 
-parent of current request
+The parent object for the mutation. Typically, this is not used in this resolver.
 
 ## Param
 
-payload provided with the request
+The arguments for the mutation, including:
+  - `file`: The encoded image file to be uploaded.
 
 ## Param
 
-context of entire application
+The context for the mutation, including:
+  - `userId`: The ID of the current user making the request.
+
+## See
+
+ - User - The User model used to interact with the users collection in the database.
+ - MutationResolvers - The type definition for the mutation resolvers.
+ - uploadEncodedImage - Utility function to handle the upload of an encoded image file.
+ - cacheUsers - Service function to cache the updated user data.
+ - findUserInCache - Service function to retrieve users from cache.
 
 ## Remarks
 
-The following checks are done:
-1. If the current user exists
+The function first attempts to retrieve the user from the cache using `findUserInCache`.
+If the user is not found in the cache, it queries the database.
+It then performs the image upload and updates the user's profile image before saving the changes to the database.
 
 ## Defined in
 
-[src/resolvers/Mutation/addUserImage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/resolvers/Mutation/addUserImage.ts#L18)
+[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addUserImage.ts#L39)

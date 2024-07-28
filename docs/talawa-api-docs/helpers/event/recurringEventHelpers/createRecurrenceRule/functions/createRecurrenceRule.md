@@ -8,6 +8,8 @@
 
 \> **createRecurrenceRule**(`recurrenceRuleString`, `recurrenceStartDate`, `recurrenceEndDate`, `organizationId`, `baseRecurringEventId`, `latestInstanceDate`, `session`): `Promise`\<[`InterfaceRecurrenceRule`](../../../../../models/RecurrenceRule/interfaces/InterfaceRecurrenceRule.md)\>
 
+Creates a recurrence rule document based on the provided parameters.
+
 ## Parameters
 
 • **recurrenceRuleString**: `string`
@@ -44,6 +46,13 @@ The MongoDB client session for transactional operations.
 
 The created recurrence rule document.
 
+## Remarks
+
+This function performs the following steps:
+1. Parses the recurrenceRuleString into an rrule object using rrule string.
+2. Extracts relevant fields from the rrule object such as frequency, weekdays, interval, etc.
+3. Creates a new RecurrenceRule document in the database with the extracted fields.
+
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/7fc9f13527dc6ead651f268e58527dcc279b95bc/src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts#L26)
+[src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts#L26)
