@@ -6,130 +6,130 @@
 
 # Type Alias: Event
 
-\> **Event**: `object`
+> **Event**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"Event"`
+> `optional` **\_\_typename**: `"Event"`
 
 ### \_id
 
-\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### actionItems?
 
-\> `optional` **actionItems**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ActionItem`](ActionItem.md)\>[]\>
+> `optional` **actionItems**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ActionItem`](ActionItem.md)\>[]\>
 
 ### admins?
 
-\> `optional` **admins**: [`Maybe`](Maybe.md)\<[`User`](User.md)[]\>
+> `optional` **admins**: [`Maybe`](Maybe.md)\<[`User`](User.md)[]\>
 
 ### agendaItems?
 
-\> `optional` **agendaItems**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`AgendaItem`](AgendaItem.md)\>[]\>
+> `optional` **agendaItems**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`AgendaItem`](AgendaItem.md)\>[]\>
 
 ### allDay
 
-\> **allDay**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **allDay**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### attendees?
 
-\> `optional` **attendees**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`User`](User.md)\>[]\>
+> `optional` **attendees**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`User`](User.md)\>[]\>
 
 ### attendeesCheckInStatus
 
-\> **attendeesCheckInStatus**: [`CheckInStatus`](CheckInStatus.md)[]
+> **attendeesCheckInStatus**: [`CheckInStatus`](CheckInStatus.md)[]
 
 ### averageFeedbackScore?
 
-\> `optional` **averageFeedbackScore**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Float"`\]\[`"output"`\]\>
+> `optional` **averageFeedbackScore**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Float"`\]\[`"output"`\]\>
 
 ### baseRecurringEvent?
 
-\> `optional` **baseRecurringEvent**: [`Maybe`](Maybe.md)\<[`Event`](Event.md)\>
+> `optional` **baseRecurringEvent**: [`Maybe`](Maybe.md)\<[`Event`](Event.md)\>
 
 ### createdAt
 
-\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### creator?
 
-\> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
+> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
 
 ### description
 
-\> **description**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **description**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### endDate?
 
-\> `optional` **endDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
+> `optional` **endDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
 
 ### endTime?
 
-\> `optional` **endTime**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"output"`\]\>
+> `optional` **endTime**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"output"`\]\>
 
 ### feedback
 
-\> **feedback**: [`Feedback`](Feedback.md)[]
+> **feedback**: [`Feedback`](Feedback.md)[]
 
 ### images?
 
-\> `optional` **images**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>[]\>
+> `optional` **images**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>[]\>
 
 ### isPublic
 
-\> **isPublic**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **isPublic**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### isRecurringEventException
 
-\> **isRecurringEventException**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **isRecurringEventException**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### isRegisterable
 
-\> **isRegisterable**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **isRegisterable**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### latitude?
 
-\> `optional` **latitude**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Latitude"`\]\[`"output"`\]\>
+> `optional` **latitude**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Latitude"`\]\[`"output"`\]\>
 
 ### location?
 
-\> `optional` **location**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+> `optional` **location**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ### longitude?
 
-\> `optional` **longitude**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Longitude"`\]\[`"output"`\]\>
+> `optional` **longitude**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Longitude"`\]\[`"output"`\]\>
 
 ### organization?
 
-\> `optional` **organization**: [`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>
+> `optional` **organization**: [`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>
 
 ### recurrenceRule?
 
-\> `optional` **recurrenceRule**: [`Maybe`](Maybe.md)\<[`RecurrenceRule`](RecurrenceRule.md)\>
+> `optional` **recurrenceRule**: [`Maybe`](Maybe.md)\<[`RecurrenceRule`](RecurrenceRule.md)\>
 
 ### recurring
 
-\> **recurring**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **recurring**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### startDate
 
-\> **startDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
+> **startDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
 
 ### startTime?
 
-\> `optional` **startTime**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"output"`\]\>
+> `optional` **startTime**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"output"`\]\>
 
 ### title
 
-\> **title**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **title**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### updatedAt
 
-\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:698](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L698)
+[src/types/generatedGraphQLTypes.ts:698](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L698)

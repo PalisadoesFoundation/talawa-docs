@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult\<T0, T1, T2\>
 
-\> **ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult**\<`T0`, `T1`, `T2`\>: `Promise`\<`object` \| `object`\>
+> **ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult**\<`T0`, `T1`, `T2`\>: `Promise`\<`object` \| `object`\>
 
 This is typescript type of the object returned from `parseGraphQLConnectionArgumentsWithSortedByAndWhere` function.
 
@@ -20,4 +20,4 @@ This is typescript type of the object returned from `parseGraphQLConnectionArgum
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts#L25)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts#L25)

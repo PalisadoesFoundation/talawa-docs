@@ -6,7 +6,7 @@
 
 # Variable: sender
 
-\> `const` **sender**: [`DirectChatMessageResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/DirectChatMessageResolvers.md)\[`"sender"`\]
+> `const` **sender**: [`DirectChatMessageResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/DirectChatMessageResolvers.md)\[`"sender"`\]
 
 Resolver function for the `sender` field of a `DirectChatMessage`.
 
@@ -23,4 +23,4 @@ The parent object representing the direct chat message. It contains information 
 
 ## Defined in
 
-[src/resolvers/DirectChatMessage/sender.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/DirectChatMessage/sender.ts#L18)
+[src/resolvers/DirectChatMessage/sender.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/DirectChatMessage/sender.ts#L18)

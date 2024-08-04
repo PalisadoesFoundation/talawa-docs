@@ -6,7 +6,7 @@
 
 # Function: findUserInCache()
 
-\> **findUserInCache**(`ids`): `Promise`\<([`InterfaceUser`](../../../../models/User/interfaces/InterfaceUser.md) \| `null`)[]\>
+> **findUserInCache**(`ids`): `Promise`\<([`InterfaceUser`](../../../../models/User/interfaces/InterfaceUser.md) \| `null`)[]\>
 
 Retrieves user data from cache based on provided IDs.
 
@@ -24,4 +24,4 @@ A promise resolving to an array of InterfaceUser objects or null if not found in
 
 ## Defined in
 
-[src/services/UserCache/findUserInCache.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/UserCache/findUserInCache.ts#L12)
+[src/services/UserCache/findUserInCache.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/UserCache/findUserInCache.ts#L12)

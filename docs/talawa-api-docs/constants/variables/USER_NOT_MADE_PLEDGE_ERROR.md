@@ -6,26 +6,26 @@
 
 # Variable: USER\_NOT\_MADE\_PLEDGE\_ERROR
 
-\> `const` **USER\_NOT\_MADE\_PLEDGE\_ERROR**: `Readonly`\<`object`\>
+> `const` **USER\_NOT\_MADE\_PLEDGE\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"user.notPledged"` = `"user.notPledged"`
+> **CODE**: `"user.notPledged"` = `"user.notPledged"`
 
 ### DESC
 
-\> **DESC**: `"User has not made a pledge"` = `"User has not made a pledge"`
+> **DESC**: `"User has not made a pledge"` = `"User has not made a pledge"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"user.notPledged"` = `"user.notPledged"`
+> **MESSAGE**: `"user.notPledged"` = `"user.notPledged"`
 
 ### PARAM
 
-\> **PARAM**: `"user"` = `"user"`
+> **PARAM**: `"user"` = `"user"`
 
 ## Defined in
 
-[src/constants.ts:565](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L565)
+[src/constants.ts:565](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L565)

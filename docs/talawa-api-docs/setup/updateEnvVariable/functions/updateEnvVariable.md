@@ -6,7 +6,7 @@
 
 # Function: updateEnvVariable()
 
-\> **updateEnvVariable**(`config`): `void`
+> **updateEnvVariable**(`config`): `void`
 
 The function `updateEnvVariable` updates the values of environment variables in a .env file based on the provided
 configuration object.
@@ -25,4 +25,4 @@ need to be updated.
 
 ## Defined in
 
-[src/setup/updateEnvVariable.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/setup/updateEnvVariable.ts#L11)
+[src/setup/updateEnvVariable.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/setup/updateEnvVariable.ts#L11)

@@ -6,7 +6,7 @@
 
 # Variable: createAgendaItem
 
-\> `const` **createAgendaItem**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createAgendaItem"`\]
+> `const` **createAgendaItem**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createAgendaItem"`\]
 
 Creates a new agenda item and associates it with an event if specified.
 
@@ -36,4 +36,4 @@ The context for the mutation, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/createAgendaItem.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createAgendaItem.ts#L53)
+[src/resolvers/Mutation/createAgendaItem.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createAgendaItem.ts#L53)

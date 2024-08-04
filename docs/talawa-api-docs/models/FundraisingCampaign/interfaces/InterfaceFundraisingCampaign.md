@@ -10,98 +10,98 @@
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:178](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L178)
+[src/models/FundraisingCampaign.ts:178](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L178)
 
 ***
 
 ### createdAt
 
-\> **createdAt**: `Date`
+> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:186](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L186)
+[src/models/FundraisingCampaign.ts:186](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L186)
 
 ***
 
 ### currency
 
-\> **currency**: [`CurrencyType`](../enumerations/CurrencyType.md)
+> **currency**: [`CurrencyType`](../enumerations/CurrencyType.md)
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:184](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L184)
+[src/models/FundraisingCampaign.ts:184](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L184)
 
 ***
 
 ### endDate
 
-\> **endDate**: `Date`
+> **endDate**: `Date`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:182](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L182)
+[src/models/FundraisingCampaign.ts:182](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L182)
 
 ***
 
 ### fundId
 
-\> **fundId**: `PopulatedDoc`\<[`InterfaceFund`](../../Fund/interfaces/InterfaceFund.md) & `Document`\>
+> **fundId**: `PopulatedDoc`\<[`InterfaceFund`](../../Fund/interfaces/InterfaceFund.md) & `Document`\>
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:179](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L179)
+[src/models/FundraisingCampaign.ts:179](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L179)
 
 ***
 
 ### fundingGoal
 
-\> **fundingGoal**: `number`
+> **fundingGoal**: `number`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:183](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L183)
+[src/models/FundraisingCampaign.ts:183](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L183)
 
 ***
 
 ### name
 
-\> **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:180](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L180)
+[src/models/FundraisingCampaign.ts:180](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L180)
 
 ***
 
 ### pledges
 
-\> **pledges**: `PopulatedDoc`\<[`InterfaceFundraisingCampaignPledges`](../../FundraisingCampaignPledge/interfaces/InterfaceFundraisingCampaignPledges.md) & `Document`\>[]
+> **pledges**: `PopulatedDoc`\<[`InterfaceFundraisingCampaignPledges`](../../FundraisingCampaignPledge/interfaces/InterfaceFundraisingCampaignPledges.md) & `Document`\>[]
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:185](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L185)
+[src/models/FundraisingCampaign.ts:185](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L185)
 
 ***
 
 ### startDate
 
-\> **startDate**: `Date`
+> **startDate**: `Date`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:181](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L181)
+[src/models/FundraisingCampaign.ts:181](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L181)
 
 ***
 
 ### updatedAt
 
-\> **updatedAt**: `Date`
+> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/FundraisingCampaign.ts:187](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/FundraisingCampaign.ts#L187)
+[src/models/FundraisingCampaign.ts:187](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/FundraisingCampaign.ts#L187)

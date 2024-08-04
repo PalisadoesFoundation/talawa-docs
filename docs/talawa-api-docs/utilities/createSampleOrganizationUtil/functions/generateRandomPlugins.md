@@ -6,7 +6,7 @@
 
 # Function: generateRandomPlugins()
 
-\> **generateRandomPlugins**(`numberOfPlugins`, `users`): `Promise`\<`Promise`\<`any`\>[]\>
+> **generateRandomPlugins**(`numberOfPlugins`, `users`): `Promise`\<`Promise`\<`any`\>[]\>
 
 Generates random plugin data for a given number of plugins and list of users.
 
@@ -28,4 +28,4 @@ A promise that resolves to an array of promises for created plugins
 
 ## Defined in
 
-[src/utilities/createSampleOrganizationUtil.ts:231](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/createSampleOrganizationUtil.ts#L231)
+[src/utilities/createSampleOrganizationUtil.ts:231](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/createSampleOrganizationUtil.ts#L231)

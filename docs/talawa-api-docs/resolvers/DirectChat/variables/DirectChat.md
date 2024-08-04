@@ -6,7 +6,7 @@
 
 # Variable: DirectChat
 
-\> `const` **DirectChat**: [`DirectChatResolvers`](../../../types/generatedGraphQLTypes/type-aliases/DirectChatResolvers.md)
+> `const` **DirectChat**: [`DirectChatResolvers`](../../../types/generatedGraphQLTypes/type-aliases/DirectChatResolvers.md)
 
 Resolver function for the `DirectChat` type.
 
@@ -22,4 +22,4 @@ This resolver is used to resolve the fields of a `DirectChat` type.
 
 ## Defined in
 
-[src/resolvers/DirectChat/index.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/DirectChat/index.ts#L19)
+[src/resolvers/DirectChat/index.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/DirectChat/index.ts#L19)

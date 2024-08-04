@@ -6,7 +6,7 @@
 
 # Function: convertToRRuleDateString()
 
-\> **convertToRRuleDateString**(`date`): `string`
+> **convertToRRuleDateString**(`date`): `string`
 
 This function converts the date to a valid rrule string argument.
 
@@ -24,4 +24,4 @@ converted date string.
 
 ## Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/recurrenceDatesUtil.ts#L24)
+[src/utilities/recurrenceDatesUtil.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/recurrenceDatesUtil.ts#L24)

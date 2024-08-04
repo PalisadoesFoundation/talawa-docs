@@ -6,46 +6,46 @@
 
 # Type Alias: GroupChat
 
-\> **GroupChat**: `object`
+> **GroupChat**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"GroupChat"`
+> `optional` **\_\_typename**: `"GroupChat"`
 
 ### \_id
 
-\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### creator?
 
-\> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
+> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
 
 ### messages?
 
-\> `optional` **messages**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`GroupChatMessage`](GroupChatMessage.md)\>[]\>
+> `optional` **messages**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`GroupChatMessage`](GroupChatMessage.md)\>[]\>
 
 ### organization
 
-\> **organization**: [`Organization`](Organization.md)
+> **organization**: [`Organization`](Organization.md)
 
 ### title
 
-\> **title**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **title**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### updatedAt
 
-\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### users
 
-\> **users**: [`User`](User.md)[]
+> **users**: [`User`](User.md)[]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:997](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L997)
+[src/types/generatedGraphQLTypes.ts:997](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L997)

@@ -6,7 +6,7 @@
 
 # Function: reuploadDuplicateCheck()
 
-\> **reuploadDuplicateCheck**(`oldImagePath`, `newImagePath`): `Promise`\<`boolean`\>
+> **reuploadDuplicateCheck**(`oldImagePath`, `newImagePath`): `Promise`\<`boolean`\>
 
 Checks if a user or organization is attempting to re-upload the same image.
 
@@ -32,4 +32,4 @@ This is a utility method.
 
 ## Defined in
 
-[src/utilities/reuploadDuplicateCheck.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/reuploadDuplicateCheck.ts#L48)
+[src/utilities/reuploadDuplicateCheck.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/reuploadDuplicateCheck.ts#L48)

@@ -6,7 +6,7 @@
 
 # Variable: creator
 
-\> `const` **creator**: [`ActionItemCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemCategoryResolvers.md)\[`"creator"`\]
+> `const` **creator**: [`ActionItemCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemCategoryResolvers.md)\[`"creator"`\]
 
 Resolver function for the `creator` field of an `ActionItemCategory`.
 
@@ -23,4 +23,4 @@ The parent object representing the action item category. It contains information
 
 ## Defined in
 
-[src/resolvers/ActionItemCategory/creator.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/ActionItemCategory/creator.ts#L15)
+[src/resolvers/ActionItemCategory/creator.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/ActionItemCategory/creator.ts#L15)

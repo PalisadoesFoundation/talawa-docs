@@ -6,7 +6,7 @@
 
 # Variable: blockUser
 
-\> `const` **blockUser**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"blockUser"`\]
+> `const` **blockUser**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"blockUser"`\]
 
 Mutation resolver function to block a user from an organization.
 
@@ -45,4 +45,4 @@ The context for the mutation, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/blockUser.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/blockUser.ts#L45)
+[src/resolvers/Mutation/blockUser.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/blockUser.ts#L45)

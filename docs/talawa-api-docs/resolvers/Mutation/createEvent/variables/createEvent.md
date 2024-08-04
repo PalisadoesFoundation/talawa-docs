@@ -6,7 +6,7 @@
 
 # Variable: createEvent
 
-\> `const` **createEvent**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createEvent"`\]
+> `const` **createEvent**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createEvent"`\]
 
 Creates a new event and associates it with an organization.
 
@@ -44,4 +44,4 @@ This function uses a transaction to ensure that either all operations succeed or
 
 ## Defined in
 
-[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createEvent.ts#L56)
+[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createEvent.ts#L56)

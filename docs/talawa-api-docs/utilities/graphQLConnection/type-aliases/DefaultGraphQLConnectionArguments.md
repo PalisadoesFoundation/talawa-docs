@@ -6,7 +6,7 @@
 
 # Type Alias: DefaultGraphQLConnectionArguments
 
-\> **DefaultGraphQLConnectionArguments**: `object`
+> **DefaultGraphQLConnectionArguments**: `object`
 
 This is typescript type of the standard arguments object received by a graphQL connection
 following the relay cursor connection specification, more info here:- [https://relay.dev/graphql/connections.htm](https://relay.dev/graphql/connections.htm)
@@ -15,20 +15,20 @@ following the relay cursor connection specification, more info here:- [https://r
 
 ### after?
 
-\> `optional` **after**: `string` \| `null`
+> `optional` **after**: `string` \| `null`
 
 ### before?
 
-\> `optional` **before**: `string` \| `null`
+> `optional` **before**: `string` \| `null`
 
 ### first?
 
-\> `optional` **first**: `number` \| `null`
+> `optional` **first**: `number` \| `null`
 
 ### last?
 
-\> `optional` **last**: `number` \| `null`
+> `optional` **last**: `number` \| `null`
 
 ## Defined in
 
-[src/utilities/graphQLConnection/index.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/index.ts#L33)
+[src/utilities/graphQLConnection/index.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/index.ts#L33)

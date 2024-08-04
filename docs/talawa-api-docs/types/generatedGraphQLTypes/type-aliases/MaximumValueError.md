@@ -6,26 +6,26 @@
 
 # Type Alias: MaximumValueError
 
-\> **MaximumValueError**: [`FieldError`](FieldError.md) & `object`
+> **MaximumValueError**: [`FieldError`](FieldError.md) & `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"MaximumValueError"`
+> `optional` **\_\_typename**: `"MaximumValueError"`
 
 ### limit
 
-\> **limit**: [`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]
+> **limit**: [`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]
 
 ### message
 
-\> **message**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **message**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### path
 
-\> **path**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\][]
+> **path**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\][]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1071](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1071)
+[src/types/generatedGraphQLTypes.ts:1071](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1071)

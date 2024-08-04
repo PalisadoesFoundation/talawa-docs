@@ -6,22 +6,22 @@
 
 # Type Alias: MutationAddUserCustomDataArgs
 
-\> **MutationAddUserCustomDataArgs**: `object`
+> **MutationAddUserCustomDataArgs**: `object`
 
 ## Type declaration
 
 ### dataName
 
-\> **dataName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **dataName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### dataValue
 
-\> **dataValue**: [`Scalars`](Scalars.md)\[`"Any"`\]\[`"input"`\]
+> **dataValue**: [`Scalars`](Scalars.md)\[`"Any"`\]\[`"input"`\]
 
 ### organizationId
 
-\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1311](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1311)
+[src/types/generatedGraphQLTypes.ts:1311](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1311)

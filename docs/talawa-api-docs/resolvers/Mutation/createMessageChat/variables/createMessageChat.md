@@ -6,7 +6,7 @@
 
 # Variable: createMessageChat
 
-\> `const` **createMessageChat**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createMessageChat"`\]
+> `const` **createMessageChat**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createMessageChat"`\]
 
 Creates a new chat message between users.
 
@@ -37,4 +37,4 @@ The context for the mutation, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/createMessageChat.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createMessageChat.ts#L37)
+[src/resolvers/Mutation/createMessageChat.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createMessageChat.ts#L37)

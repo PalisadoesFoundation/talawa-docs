@@ -13,98 +13,98 @@ This interface defines the structure and types of data that an event volunteer d
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L13)
+[src/models/EventVolunteer.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L13)
 
 ***
 
 ### createdAt
 
-\> **createdAt**: `Date`
+> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L14)
+[src/models/EventVolunteer.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L14)
 
 ***
 
 ### creatorId
 
-\> **creatorId**: `any`
+> **creatorId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L15)
+[src/models/EventVolunteer.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L15)
 
 ***
 
 ### eventId
 
-\> **eventId**: `any`
+> **eventId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L16)
+[src/models/EventVolunteer.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L16)
 
 ***
 
 ### groupId
 
-\> **groupId**: `any`
+> **groupId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L17)
+[src/models/EventVolunteer.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L17)
 
 ***
 
 ### isAssigned
 
-\> **isAssigned**: `boolean`
+> **isAssigned**: `boolean`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L18)
+[src/models/EventVolunteer.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L18)
 
 ***
 
 ### isInvited
 
-\> **isInvited**: `boolean`
+> **isInvited**: `boolean`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L19)
+[src/models/EventVolunteer.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L19)
 
 ***
 
 ### response
 
-\> **response**: `string`
+> **response**: `string`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L20)
+[src/models/EventVolunteer.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L20)
 
 ***
 
 ### updatedAt
 
-\> **updatedAt**: `Date`
+> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L21)
+[src/models/EventVolunteer.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L21)
 
 ***
 
 ### userId
 
-\> **userId**: `any`
+> **userId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/EventVolunteer.ts#L22)
+[src/models/EventVolunteer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/EventVolunteer.ts#L22)

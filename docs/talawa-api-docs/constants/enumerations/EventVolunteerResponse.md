@@ -10,18 +10,18 @@
 
 ### NO
 
-\> **NO**: `"NO"`
+> **NO**: `"NO"`
 
 #### Defined in
 
-[src/constants.ts:787](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L787)
+[src/constants.ts:787](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L787)
 
 ***
 
 ### YES
 
-\> **YES**: `"YES"`
+> **YES**: `"YES"`
 
 #### Defined in
 
-[src/constants.ts:786](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L786)
+[src/constants.ts:786](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L786)

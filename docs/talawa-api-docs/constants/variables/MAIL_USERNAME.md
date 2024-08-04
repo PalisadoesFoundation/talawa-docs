@@ -6,8 +6,8 @@
 
 # Variable: MAIL\_USERNAME
 
-\> `const` **MAIL\_USERNAME**: `undefined` \| `string` = `ENV.MAIL_USERNAME`
+> `const` **MAIL\_USERNAME**: `undefined` \| `string` = `ENV.MAIL_USERNAME`
 
 ## Defined in
 
-[src/constants.ts:715](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L715)
+[src/constants.ts:715](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L715)

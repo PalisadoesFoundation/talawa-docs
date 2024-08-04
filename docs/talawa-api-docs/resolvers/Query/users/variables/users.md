@@ -6,7 +6,7 @@
 
 # Variable: users
 
-\> `const` **users**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"users"`\]
+> `const` **users**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"users"`\]
 
 This query will fetch all the users in specified order from the database.
 
@@ -24,4 +24,4 @@ The query function uses `getSort()` function to sort the data in specified.
 
 ## Defined in
 
-[src/resolvers/Query/users.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Query/users.ts#L17)
+[src/resolvers/Query/users.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/users.ts#L17)

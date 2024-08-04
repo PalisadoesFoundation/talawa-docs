@@ -12,38 +12,38 @@ Represents a MongoDB document for TagUser in the database.
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/TagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/TagUser.ts#L11)
+[src/models/TagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/TagUser.ts#L11)
 
 ***
 
 ### tagColor
 
-\> **tagColor**: `any`
+> **tagColor**: `any`
 
 #### Defined in
 
-[src/models/TagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/TagUser.ts#L14)
+[src/models/TagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/TagUser.ts#L14)
 
 ***
 
 ### tagId
 
-\> **tagId**: `any`
+> **tagId**: `any`
 
 #### Defined in
 
-[src/models/TagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/TagUser.ts#L13)
+[src/models/TagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/TagUser.ts#L13)
 
 ***
 
 ### userId
 
-\> **userId**: `any`
+> **userId**: `any`
 
 #### Defined in
 
-[src/models/TagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/TagUser.ts#L12)
+[src/models/TagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/TagUser.ts#L12)

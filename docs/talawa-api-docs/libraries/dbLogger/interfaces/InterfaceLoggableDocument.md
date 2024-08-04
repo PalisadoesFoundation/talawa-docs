@@ -16,7 +16,7 @@ Interface for a document that includes logging information.
 
 ### $locals
 
-\> **$locals**: `Record`\<`string`, `unknown`\>
+> **$locals**: `Record`\<`string`, `unknown`\>
 
 Empty object that you can use for storing properties on the document. This
 is handy for passing data to middleware without conflicting with Mongoose
@@ -34,7 +34,7 @@ node\_modules/mongoose/types/document.d.ts:71
 
 ### $op
 
-\> **$op**: `null` \| `"validate"` \| `"save"` \| `"remove"`
+> **$op**: `null` \| `"validate"` \| `"save"` \| `"remove"`
 
 A string containing the current operation that Mongoose is executing
 on this document. Can be `null`, `'save'`, `'validate'`, or `'remove'`.
@@ -51,7 +51,7 @@ node\_modules/mongoose/types/document.d.ts:84
 
 ### $where
 
-\> **$where**: `Record`\<`string`, `unknown`\>
+> **$where**: `Record`\<`string`, `unknown`\>
 
 Set this property to add additional query filters when Mongoose saves this document and `isNew` is false.
 
@@ -67,7 +67,7 @@ node\_modules/mongoose/types/document.d.ts:99
 
 ### \_\_v?
 
-\> `optional` **\_\_v**: `any`
+> `optional` **\_\_v**: `any`
 
 This documents __v.
 
@@ -83,7 +83,7 @@ node\_modules/mongoose/types/document.d.ts:26
 
 ### \_id?
 
-\> `optional` **\_id**: `any`
+> `optional` **\_id**: `any`
 
 This documents _id.
 
@@ -99,7 +99,7 @@ node\_modules/mongoose/types/document.d.ts:23
 
 ### baseModelName?
 
-\> `optional` **baseModelName**: `string`
+> `optional` **baseModelName**: `string`
 
 If this is a discriminator model, `baseModelName` is the name of the base model.
 
@@ -115,7 +115,7 @@ node\_modules/mongoose/types/document.d.ts:102
 
 ### collection
 
-\> **collection**: `Collection`\<`Document`\>
+> **collection**: `Collection`\<`Document`\>
 
 Collection the model uses.
 
@@ -131,7 +131,7 @@ node\_modules/mongoose/types/document.d.ts:105
 
 ### db
 
-\> **db**: `Connection`
+> **db**: `Connection`
 
 Connection the model uses.
 
@@ -147,7 +147,7 @@ node\_modules/mongoose/types/document.d.ts:108
 
 ### errors?
 
-\> `optional` **errors**: `ValidationError`
+> `optional` **errors**: `ValidationError`
 
 Returns the current validation errors.
 
@@ -163,7 +163,7 @@ node\_modules/mongoose/types/document.d.ts:142
 
 ### id?
 
-\> `optional` **id**: `any`
+> `optional` **id**: `any`
 
 The string version of this documents _id.
 
@@ -179,7 +179,7 @@ node\_modules/mongoose/types/document.d.ts:155
 
 ### isNew
 
-\> **isNew**: `boolean`
+> **isNew**: `boolean`
 
 Boolean flag specifying if the document is new.
 
@@ -195,19 +195,19 @@ node\_modules/mongoose/types/document.d.ts:191
 
 ### logInfo
 
-\> **logInfo**: [`TransactionLogInfo`](../type-aliases/TransactionLogInfo.md)
+> **logInfo**: [`TransactionLogInfo`](../type-aliases/TransactionLogInfo.md)
 
 Information about the transaction log
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L47)
+[src/libraries/dbLogger.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/dbLogger.ts#L47)
 
 ***
 
 ### schema
 
-\> **schema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `Required`\<`object`\>\>
+> **schema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `Required`\<`object`\>\>
 
 The document's schema.
 
@@ -223,7 +223,7 @@ node\_modules/mongoose/types/document.d.ts:235
 
 ### $assertPopulated()
 
-\> **$assertPopulated**\<`Paths`\>(`path`, `values`?): `Omit`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), keyof `Paths`\> & `Paths`
+> **$assertPopulated**\<`Paths`\>(`path`, `values`?): `Omit`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), keyof `Paths`\> & `Paths`
 
 Assert that a given path or paths is populated. Throws an error if not populated.
 
@@ -253,7 +253,7 @@ node\_modules/mongoose/types/document.d.ts:29
 
 ### $clone()
 
-\> **$clone**(): `this`
+> **$clone**(): `this`
 
 Returns a deep clone of this document
 
@@ -273,7 +273,7 @@ node\_modules/mongoose/types/document.d.ts:32
 
 ### $getAllSubdocs()
 
-\> **$getAllSubdocs**(): `Document`\<`any`, `any`, `any`\>[]
+> **$getAllSubdocs**(): `Document`\<`any`, `any`, `any`\>[]
 
 #### Returns
 
@@ -291,7 +291,7 @@ node\_modules/mongoose/types/document.d.ts:35
 
 ### $getPopulatedDocs()
 
-\> **$getPopulatedDocs**(): `Document`\<`any`, `any`, `any`\>[]
+> **$getPopulatedDocs**(): `Document`\<`any`, `any`, `any`\>[]
 
 Returns an array of all populated documents associated with the query
 
@@ -311,7 +311,7 @@ node\_modules/mongoose/types/document.d.ts:47
 
 ### $ignore()
 
-\> **$ignore**(`path`): `void`
+> **$ignore**(`path`): `void`
 
 Don't run validation on this path or persist changes to this path.
 
@@ -335,7 +335,7 @@ node\_modules/mongoose/types/document.d.ts:38
 
 ### $inc()
 
-\> **$inc**(`path`, `val`?): `this`
+> **$inc**(`path`, `val`?): `this`
 
 Increments the numeric value at `path` by the given `val`.
 When you call `save()` on this document, Mongoose will send a
@@ -363,7 +363,7 @@ node\_modules/mongoose/types/document.d.ts:54
 
 ### $isDefault()
 
-\> **$isDefault**(`path`): `boolean`
+> **$isDefault**(`path`): `boolean`
 
 Checks if a path is set to its default.
 
@@ -387,7 +387,7 @@ node\_modules/mongoose/types/document.d.ts:41
 
 ### $isDeleted()
 
-\> **$isDeleted**(`val`?): `boolean`
+> **$isDeleted**(`val`?): `boolean`
 
 Getter/setter, determines whether the document was removed or not.
 
@@ -411,7 +411,7 @@ node\_modules/mongoose/types/document.d.ts:44
 
 ### $isEmpty()
 
-\> **$isEmpty**(`path`): `boolean`
+> **$isEmpty**(`path`): `boolean`
 
 Returns true if the given path is nullish or only contains empty objects.
 Useful for determining whether this subdoc will get stripped out by the
@@ -437,7 +437,7 @@ node\_modules/mongoose/types/document.d.ts:61
 
 ### $isValid()
 
-\> **$isValid**(`path`): `boolean`
+> **$isValid**(`path`): `boolean`
 
 Checks if a path is invalid
 
@@ -461,7 +461,7 @@ node\_modules/mongoose/types/document.d.ts:64
 
 ### $markValid()
 
-\> **$markValid**(`path`): `void`
+> **$markValid**(`path`): `void`
 
 Marks a path as valid, removing existing validation errors.
 
@@ -487,7 +487,7 @@ node\_modules/mongoose/types/document.d.ts:74
 
 #### $model(name)
 
-\> **$model**\<`ModelType`\>(`name`): `ModelType`
+> **$model**\<`ModelType`\>(`name`): `ModelType`
 
 Returns the model with the given name on this document's associated connection.
 
@@ -513,7 +513,7 @@ node\_modules/mongoose/types/document.d.ts:77
 
 #### $model()
 
-\> **$model**\<`ModelType`\>(): `ModelType`
+> **$model**\<`ModelType`\>(): `ModelType`
 
 ##### Type Parameters
 
@@ -535,7 +535,7 @@ node\_modules/mongoose/types/document.d.ts:78
 
 ### $parent()
 
-\> **$parent**(): `undefined` \| `Document`\<`any`, `any`, `any`\>
+> **$parent**(): `undefined` \| `Document`\<`any`, `any`, `any`\>
 
 If this document is a subdocument or populated document, returns the
 document's parent. Returns undefined otherwise.
@@ -556,7 +556,7 @@ node\_modules/mongoose/types/document.d.ts:219
 
 ### $session()
 
-\> **$session**(`session`?): `null` \| `ClientSession`
+> **$session**(`session`?): `null` \| `ClientSession`
 
 Getter/setter around the session associated with this document. Used to
 automatically set `session` if you `save()` a doc that you got from a
@@ -584,7 +584,7 @@ node\_modules/mongoose/types/document.d.ts:91
 
 #### $set(path, val, type, options)
 
-\> **$set**(`path`, `val`, `type`, `options`?): `this`
+> **$set**(`path`, `val`, `type`, `options`?): `this`
 
 Alias for `set()`, used internally to avoid conflicts
 
@@ -612,7 +612,7 @@ node\_modules/mongoose/types/document.d.ts:94
 
 #### $set(path, val, options)
 
-\> **$set**(`path`, `val`, `options`?): `this`
+> **$set**(`path`, `val`, `options`?): `this`
 
 ##### Parameters
 
@@ -636,7 +636,7 @@ node\_modules/mongoose/types/document.d.ts:95
 
 #### $set(value)
 
-\> **$set**(`value`): `this`
+> **$set**(`value`): `this`
 
 ##### Parameters
 
@@ -658,7 +658,7 @@ node\_modules/mongoose/types/document.d.ts:96
 
 ### deleteOne()
 
-\> **deleteOne**(`options`?): `any`
+> **deleteOne**(`options`?): `any`
 
 Removes this document from the db.
 
@@ -682,7 +682,7 @@ node\_modules/mongoose/types/document.d.ts:111
 
 ### depopulate()
 
-\> **depopulate**(`path`?): `this`
+> **depopulate**(`path`?): `this`
 
 Takes a populated field and returns it to its unpopulated state. If called with
 no arguments, then all populated fields are returned to their unpopulated state.
@@ -707,11 +707,11 @@ node\_modules/mongoose/types/document.d.ts:123
 
 ### directModifiedPaths()
 
-\> **directModifiedPaths**(): `string`[]
+> **directModifiedPaths**(): `string`[]
 
 Returns the list of paths that have been directly modified. A direct
 modified path is a path that you explicitly set, whether via `doc.foo = 'bar'`,
-`Object.assign(doc, \{ foo: 'bar' \})`, or `doc.set('foo', 'bar')`.
+`Object.assign(doc, { foo: 'bar' })`, or `doc.set('foo', 'bar')`.
 
 #### Returns
 
@@ -729,7 +729,7 @@ node\_modules/mongoose/types/document.d.ts:130
 
 ### equals()
 
-\> **equals**(`doc`): `boolean`
+> **equals**(`doc`): `boolean`
 
 Returns true if this document is equal to another document.
 
@@ -759,7 +759,7 @@ node\_modules/mongoose/types/document.d.ts:139
 
 #### get(path, type, options)
 
-\> **get**\<`T`\>(`path`, `type`?, `options`?): `any`
+> **get**\<`T`\>(`path`, `type`?, `options`?): `any`
 
 Returns the value of a path.
 
@@ -789,7 +789,7 @@ node\_modules/mongoose/types/document.d.ts:145
 
 #### get(path, type, options)
 
-\> **get**(`path`, `type`?, `options`?): `any`
+> **get**(`path`, `type`?, `options`?): `any`
 
 ##### Parameters
 
@@ -815,7 +815,7 @@ node\_modules/mongoose/types/document.d.ts:146
 
 ### getChanges()
 
-\> **getChanges**(): `UpdateQuery`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md)\>
+> **getChanges**(): `UpdateQuery`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md)\>
 
 Returns the changes that happened to the document
 in the format that will be sent to MongoDB.
@@ -836,7 +836,7 @@ node\_modules/mongoose/types/document.d.ts:152
 
 ### increment()
 
-\> **increment**(): `this`
+> **increment**(): `this`
 
 Signal that we desire an increment of this documents version.
 
@@ -856,7 +856,7 @@ node\_modules/mongoose/types/document.d.ts:158
 
 ### init()
 
-\> **init**(`obj`, `opts`?): `this`
+> **init**(`obj`, `opts`?): `this`
 
 Initializes the document without setters or marking anything modified.
 Called internally after a document is returned from mongodb. Normally,
@@ -886,7 +886,7 @@ node\_modules/mongoose/types/document.d.ts:165
 
 #### invalidate(path, errorMsg, value, kind)
 
-\> **invalidate**\<`T`\>(`path`, `errorMsg`, `value`?, `kind`?): `null` \| `NativeError`
+> **invalidate**\<`T`\>(`path`, `errorMsg`, `value`?, `kind`?): `null` \| `NativeError`
 
 Marks a path as invalid, causing validation to fail.
 
@@ -918,7 +918,7 @@ node\_modules/mongoose/types/document.d.ts:168
 
 #### invalidate(path, errorMsg, value, kind)
 
-\> **invalidate**(`path`, `errorMsg`, `value`?, `kind`?): `null` \| `NativeError`
+> **invalidate**(`path`, `errorMsg`, `value`?, `kind`?): `null` \| `NativeError`
 
 ##### Parameters
 
@@ -948,7 +948,7 @@ node\_modules/mongoose/types/document.d.ts:169
 
 #### isDirectModified(path)
 
-\> **isDirectModified**\<`T`\>(`path`): `boolean`
+> **isDirectModified**\<`T`\>(`path`): `boolean`
 
 Returns true if `path` was directly set and modified, else false.
 
@@ -974,7 +974,7 @@ node\_modules/mongoose/types/document.d.ts:172
 
 #### isDirectModified(path)
 
-\> **isDirectModified**(`path`): `boolean`
+> **isDirectModified**(`path`): `boolean`
 
 ##### Parameters
 
@@ -998,7 +998,7 @@ node\_modules/mongoose/types/document.d.ts:173
 
 #### isDirectSelected(path)
 
-\> **isDirectSelected**\<`T`\>(`path`): `boolean`
+> **isDirectSelected**\<`T`\>(`path`): `boolean`
 
 Checks if `path` was explicitly selected. If no projection, always returns true.
 
@@ -1024,7 +1024,7 @@ node\_modules/mongoose/types/document.d.ts:176
 
 #### isDirectSelected(path)
 
-\> **isDirectSelected**(`path`): `boolean`
+> **isDirectSelected**(`path`): `boolean`
 
 ##### Parameters
 
@@ -1048,7 +1048,7 @@ node\_modules/mongoose/types/document.d.ts:177
 
 #### isInit(path)
 
-\> **isInit**\<`T`\>(`path`): `boolean`
+> **isInit**\<`T`\>(`path`): `boolean`
 
 Checks if `path` is in the `init` state, that is, it was set by `Document#init()` and not modified since.
 
@@ -1074,7 +1074,7 @@ node\_modules/mongoose/types/document.d.ts:180
 
 #### isInit(path)
 
-\> **isInit**(`path`): `boolean`
+> **isInit**(`path`): `boolean`
 
 ##### Parameters
 
@@ -1098,7 +1098,7 @@ node\_modules/mongoose/types/document.d.ts:181
 
 #### isModified(path, options)
 
-\> **isModified**\<`T`\>(`path`?, `options`?): `boolean`
+> **isModified**\<`T`\>(`path`?, `options`?): `boolean`
 
 Returns true if any of the given paths are modified, else false. If no arguments, returns `true` if any path
 in this document is modified.
@@ -1127,7 +1127,7 @@ node\_modules/mongoose/types/document.d.ts:187
 
 #### isModified(path, options)
 
-\> **isModified**(`path`?, `options`?): `boolean`
+> **isModified**(`path`?, `options`?): `boolean`
 
 ##### Parameters
 
@@ -1153,7 +1153,7 @@ node\_modules/mongoose/types/document.d.ts:188
 
 #### isSelected(path)
 
-\> **isSelected**\<`T`\>(`path`): `boolean`
+> **isSelected**\<`T`\>(`path`): `boolean`
 
 Checks if `path` was selected in the source query which initialized this document.
 
@@ -1179,7 +1179,7 @@ node\_modules/mongoose/types/document.d.ts:194
 
 #### isSelected(path)
 
-\> **isSelected**(`path`): `boolean`
+> **isSelected**(`path`): `boolean`
 
 ##### Parameters
 
@@ -1203,7 +1203,7 @@ node\_modules/mongoose/types/document.d.ts:195
 
 #### markModified(path, scope)
 
-\> **markModified**\<`T`\>(`path`, `scope`?): `void`
+> **markModified**\<`T`\>(`path`, `scope`?): `void`
 
 Marks the path as having pending changes to write to the db.
 
@@ -1231,7 +1231,7 @@ node\_modules/mongoose/types/document.d.ts:198
 
 #### markModified(path, scope)
 
-\> **markModified**(`path`, `scope`?): `void`
+> **markModified**(`path`, `scope`?): `void`
 
 ##### Parameters
 
@@ -1257,7 +1257,7 @@ node\_modules/mongoose/types/document.d.ts:199
 
 #### model(name)
 
-\> **model**\<`ModelType`\>(`name`): `ModelType`
+> **model**\<`ModelType`\>(`name`): `ModelType`
 
 Returns the model with the given name on this document's associated connection.
 
@@ -1283,7 +1283,7 @@ node\_modules/mongoose/types/document.d.ts:202
 
 #### model()
 
-\> **model**\<`ModelType`\>(): `ModelType`
+> **model**\<`ModelType`\>(): `ModelType`
 
 ##### Type Parameters
 
@@ -1305,7 +1305,7 @@ node\_modules/mongoose/types/document.d.ts:203
 
 ### modifiedPaths()
 
-\> **modifiedPaths**(`options`?): `string`[]
+> **modifiedPaths**(`options`?): `string`[]
 
 Returns the list of paths that have been modified.
 
@@ -1331,7 +1331,7 @@ node\_modules/mongoose/types/document.d.ts:206
 
 ### overwrite()
 
-\> **overwrite**(`obj`): `this`
+> **overwrite**(`obj`): `this`
 
 Overwrite all values in this document with the values of `obj`, except
 for immutable properties. Behaves similarly to `set()`, except for it
@@ -1359,7 +1359,7 @@ node\_modules/mongoose/types/document.d.ts:213
 
 #### populate(path)
 
-\> **populate**\<`Paths`\>(`path`): `Promise`\<`MergeType`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `Paths`\>\>
+> **populate**\<`Paths`\>(`path`): `Promise`\<`MergeType`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `Paths`\>\>
 
 Populates document references.
 
@@ -1385,7 +1385,7 @@ node\_modules/mongoose/types/document.d.ts:222
 
 #### populate(path, select, model, match, options)
 
-\> **populate**\<`Paths`\>(`path`, `select`?, `model`?, `match`?, `options`?): `Promise`\<`MergeType`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `Paths`\>\>
+> **populate**\<`Paths`\>(`path`, `select`?, `model`?, `match`?, `options`?): `Promise`\<`MergeType`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `Paths`\>\>
 
 ##### Type Parameters
 
@@ -1419,7 +1419,7 @@ node\_modules/mongoose/types/document.d.ts:223
 
 ### populated()
 
-\> **populated**(`path`): `any`
+> **populated**(`path`): `any`
 
 Gets _id(s) used during population of the given `path`. If the path was not populated, returns `undefined`.
 
@@ -1443,7 +1443,7 @@ node\_modules/mongoose/types/document.d.ts:226
 
 ### replaceOne()
 
-\> **replaceOne**(`replacement`?, `options`?): `Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`\>
+> **replaceOne**(`replacement`?, `options`?): `Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`, `Record`\<`string`, `never`\>\>
 
 Sends a replaceOne command with this document `_id` as the query selector.
 
@@ -1455,7 +1455,7 @@ Sends a replaceOne command with this document `_id` as the query selector.
 
 #### Returns
 
-`Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`\>
+`Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`, `Record`\<`string`, `never`\>\>
 
 #### Inherited from
 
@@ -1469,7 +1469,7 @@ node\_modules/mongoose/types/document.d.ts:229
 
 ### save()
 
-\> **save**(`options`?): `Promise`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md)\>
+> **save**(`options`?): `Promise`\<[`InterfaceLoggableDocument`](InterfaceLoggableDocument.md)\>
 
 Saves this document by inserting a new document into the database if [document.isNew](/docs/api/document.html#document_Document-isNew) is `true`, or sends an [updateOne](/docs/api/document.html#document_Document-updateOne) operation with just the modified paths if `isNew` is `false`.
 
@@ -1495,7 +1495,7 @@ node\_modules/mongoose/types/document.d.ts:232
 
 #### set(path, val, type, options)
 
-\> **set**\<`T`\>(`path`, `val`, `type`, `options`?): `this`
+> **set**\<`T`\>(`path`, `val`, `type`, `options`?): `this`
 
 Sets the value of a path, or many paths.
 
@@ -1527,7 +1527,7 @@ node\_modules/mongoose/types/document.d.ts:238
 
 #### set(path, val, type, options)
 
-\> **set**(`path`, `val`, `type`, `options`?): `this`
+> **set**(`path`, `val`, `type`, `options`?): `this`
 
 ##### Parameters
 
@@ -1553,7 +1553,7 @@ node\_modules/mongoose/types/document.d.ts:239
 
 #### set(path, val, options)
 
-\> **set**(`path`, `val`, `options`?): `this`
+> **set**(`path`, `val`, `options`?): `this`
 
 ##### Parameters
 
@@ -1577,7 +1577,7 @@ node\_modules/mongoose/types/document.d.ts:240
 
 #### set(value)
 
-\> **set**(`value`): `this`
+> **set**(`value`): `this`
 
 ##### Parameters
 
@@ -1601,7 +1601,7 @@ node\_modules/mongoose/types/document.d.ts:241
 
 #### toJSON(options)
 
-\> **toJSON**\<`T`\>(`options`?): `FlattenMaps`\<`T`\>
+> **toJSON**\<`T`\>(`options`?): `FlattenMaps`\<`T`\>
 
 The return value of this method is used in calls to JSON.stringify(doc).
 
@@ -1627,7 +1627,7 @@ node\_modules/mongoose/types/document.d.ts:244
 
 #### toJSON(options)
 
-\> **toJSON**\<`T`\>(`options`): `T`
+> **toJSON**\<`T`\>(`options`): `T`
 
 ##### Type Parameters
 
@@ -1653,7 +1653,7 @@ node\_modules/mongoose/types/document.d.ts:245
 
 ### toObject()
 
-\> **toObject**\<`T`\>(`options`?): `Require_id`\<`T`\>
+> **toObject**\<`T`\>(`options`?): `Require_id`\<`T`\>
 
 Converts this document into a plain-old JavaScript object ([POJO](https://masteringjs.io/tutorials/fundamentals/pojo)).
 
@@ -1683,7 +1683,7 @@ node\_modules/mongoose/types/document.d.ts:248
 
 #### unmarkModified(path)
 
-\> **unmarkModified**\<`T`\>(`path`): `void`
+> **unmarkModified**\<`T`\>(`path`): `void`
 
 Clears the modified state on the specified path.
 
@@ -1709,7 +1709,7 @@ node\_modules/mongoose/types/document.d.ts:251
 
 #### unmarkModified(path)
 
-\> **unmarkModified**(`path`): `void`
+> **unmarkModified**(`path`): `void`
 
 ##### Parameters
 
@@ -1731,7 +1731,7 @@ node\_modules/mongoose/types/document.d.ts:252
 
 ### updateOne()
 
-\> **updateOne**(`update`?, `options`?): `Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`\>
+> **updateOne**(`update`?, `options`?): `Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`, `Record`\<`string`, `never`\>\>
 
 Sends an updateOne command with this document `_id` as the query selector.
 
@@ -1743,7 +1743,7 @@ Sends an updateOne command with this document `_id` as the query selector.
 
 #### Returns
 
-`Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`\>
+`Query`\<`any`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `object`, [`InterfaceLoggableDocument`](InterfaceLoggableDocument.md), `"find"`, `Record`\<`string`, `never`\>\>
 
 #### Inherited from
 
@@ -1759,7 +1759,7 @@ node\_modules/mongoose/types/document.d.ts:255
 
 #### validate(pathsToValidate, options)
 
-\> **validate**\<`T`\>(`pathsToValidate`?, `options`?): `Promise`\<`void`\>
+> **validate**\<`T`\>(`pathsToValidate`?, `options`?): `Promise`\<`void`\>
 
 Executes registered validation rules for this document.
 
@@ -1787,7 +1787,7 @@ node\_modules/mongoose/types/document.d.ts:258
 
 #### validate(pathsToValidate, options)
 
-\> **validate**(`pathsToValidate`?, `options`?): `Promise`\<`void`\>
+> **validate**(`pathsToValidate`?, `options`?): `Promise`\<`void`\>
 
 ##### Parameters
 
@@ -1809,7 +1809,7 @@ node\_modules/mongoose/types/document.d.ts:259
 
 #### validate(options)
 
-\> **validate**(`options`): `Promise`\<`void`\>
+> **validate**(`options`): `Promise`\<`void`\>
 
 ##### Parameters
 
@@ -1835,7 +1835,7 @@ node\_modules/mongoose/types/document.d.ts:260
 
 #### validateSync(options)
 
-\> **validateSync**(`options`): `null` \| `ValidationError`
+> **validateSync**(`options`): `null` \| `ValidationError`
 
 Executes registered validation rules (skipping asynchronous validators) for this document.
 
@@ -1859,7 +1859,7 @@ node\_modules/mongoose/types/document.d.ts:263
 
 #### validateSync(pathsToValidate, options)
 
-\> **validateSync**\<`T`\>(`pathsToValidate`?, `options`?): `null` \| `ValidationError`
+> **validateSync**\<`T`\>(`pathsToValidate`?, `options`?): `null` \| `ValidationError`
 
 ##### Type Parameters
 
@@ -1885,7 +1885,7 @@ node\_modules/mongoose/types/document.d.ts:264
 
 #### validateSync(pathsToValidate, options)
 
-\> **validateSync**(`pathsToValidate`?, `options`?): `null` \| `ValidationError`
+> **validateSync**(`pathsToValidate`?, `options`?): `null` \| `ValidationError`
 
 ##### Parameters
 

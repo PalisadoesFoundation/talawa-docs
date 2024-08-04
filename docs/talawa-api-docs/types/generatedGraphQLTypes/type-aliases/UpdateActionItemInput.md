@@ -6,34 +6,34 @@
 
 # Type Alias: UpdateActionItemInput
 
-\> **UpdateActionItemInput**: `object`
+> **UpdateActionItemInput**: `object`
 
 ## Type declaration
 
 ### assigneeId?
 
-\> `optional` **assigneeId**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
+> `optional` **assigneeId**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
 
 ### completionDate?
 
-\> `optional` **completionDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+> `optional` **completionDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
 
 ### dueDate?
 
-\> `optional` **dueDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+> `optional` **dueDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
 
 ### isCompleted?
 
-\> `optional` **isCompleted**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+> `optional` **isCompleted**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### postCompletionNotes?
 
-\> `optional` **postCompletionNotes**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+> `optional` **postCompletionNotes**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### preCompletionNotes?
 
-\> `optional` **preCompletionNotes**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+> `optional` **preCompletionNotes**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2734](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2734)
+[src/types/generatedGraphQLTypes.ts:2734](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2734)

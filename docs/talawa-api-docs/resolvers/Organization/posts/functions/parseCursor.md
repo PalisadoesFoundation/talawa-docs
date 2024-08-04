@@ -6,7 +6,7 @@
 
 # Function: parseCursor()
 
-\> **parseCursor**(`__namedParameters`): [`ParseGraphQLConnectionCursorResult`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorResult.md)\<`string`\>
+> **parseCursor**(`__namedParameters`): [`ParseGraphQLConnectionCursorResult`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorResult.md)\<`string`\>
 
 Parses the cursor value for the `posts` connection resolver.
 
@@ -30,4 +30,4 @@ An object containing the parsed cursor value or an array of errors if the cursor
 
 ## Defined in
 
-[src/resolvers/Organization/posts.ts:131](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Organization/posts.ts#L131)
+[src/resolvers/Organization/posts.ts:131](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Organization/posts.ts#L131)

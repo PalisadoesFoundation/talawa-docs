@@ -6,7 +6,7 @@
 
 # Variable: registerEventAttendee
 
-\> `const` **registerEventAttendee**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"registerEventAttendee"`\]
+> `const` **registerEventAttendee**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"registerEventAttendee"`\]
 
 Registers an attendee for an event.
 
@@ -36,4 +36,4 @@ UnauthorizedError Throws an UnauthorizedError if the current user is not authori
 
 ## Defined in
 
-[src/resolvers/Mutation/registerEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/registerEventAttendee.ts#L38)
+[src/resolvers/Mutation/registerEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/registerEventAttendee.ts#L38)

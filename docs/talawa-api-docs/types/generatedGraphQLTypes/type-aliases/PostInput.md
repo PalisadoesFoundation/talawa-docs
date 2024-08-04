@@ -6,38 +6,38 @@
 
 # Type Alias: PostInput
 
-\> **PostInput**: `object`
+> **PostInput**: `object`
 
 ## Type declaration
 
 ### \_id?
 
-\> `optional` **\_id**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
+> `optional` **\_id**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
 
 ### imageUrl?
 
-\> `optional` **imageUrl**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
+> `optional` **imageUrl**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
 
 ### organizationId
 
-\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### pinned?
 
-\> `optional` **pinned**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+> `optional` **pinned**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### text
 
-\> **text**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **text**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### title?
 
-\> `optional` **title**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+> `optional` **title**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### videoUrl?
 
-\> `optional` **videoUrl**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
+> `optional` **videoUrl**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2181](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2181)
+[src/types/generatedGraphQLTypes.ts:2181](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2181)

@@ -6,7 +6,7 @@
 
 # Variable: creator
 
-\> `const` **creator**: [`ActionItemResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemResolvers.md)\[`"creator"`\]
+> `const` **creator**: [`ActionItemResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemResolvers.md)\[`"creator"`\]
 
 Resolver function for the `creator` field of an `ActionItem`.
 
@@ -21,14 +21,14 @@ The parent `ActionItem` object. This contains the `creatorId` field, which is us
 ## Example
 
 ```typescript
-const actionItem = \{
+const actionItem = {
   creatorId: "60d0fe4f5311236168a109cb"
-\};
+};
 const user = await creator(actionItem);
 console.log(user);
-// Output might be: \{ _id: "60d0fe4f5311236168a109cb", name: "Jane Doe", email: "jane.doe@example.com" \}
+// Output might be: { _id: "60d0fe4f5311236168a109cb", name: "Jane Doe", email: "jane.doe@example.com" }
 ```
 
 ## Defined in
 
-[src/resolvers/ActionItem/creator.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/ActionItem/creator.ts#L24)
+[src/resolvers/ActionItem/creator.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/ActionItem/creator.ts#L24)

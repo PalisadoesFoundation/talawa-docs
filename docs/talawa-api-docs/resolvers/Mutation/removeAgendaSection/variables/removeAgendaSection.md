@@ -6,7 +6,7 @@
 
 # Variable: removeAgendaSection
 
-\> `const` **removeAgendaSection**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"removeAgendaSection"`\]
+> `const` **removeAgendaSection**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"removeAgendaSection"`\]
 
 Resolver function for the GraphQL mutation 'removeAgendaSection'.
 
@@ -26,4 +26,4 @@ The context object containing user information.
 
 ## Defined in
 
-[src/resolvers/Mutation/removeAgendaSection.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/removeAgendaSection.ts#L25)
+[src/resolvers/Mutation/removeAgendaSection.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/removeAgendaSection.ts#L25)

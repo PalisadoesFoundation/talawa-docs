@@ -6,7 +6,7 @@
 
 # Function: createPluginUpdateResponse()
 
-\> **createPluginUpdateResponse**(`payload`): `any`
+> **createPluginUpdateResponse**(`payload`): `any`
 
 This function creates a response object for the `onPluginUpdate` subscription.
 
@@ -24,4 +24,4 @@ The response object for the subscription.
 
 ## Defined in
 
-[src/resolvers/Subscription/onPluginUpdate.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Subscription/onPluginUpdate.ts#L35)
+[src/resolvers/Subscription/onPluginUpdate.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Subscription/onPluginUpdate.ts#L35)

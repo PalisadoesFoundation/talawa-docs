@@ -6,7 +6,7 @@
 
 # Function: isValidEmail()
 
-\> **isValidEmail**(`email`): `boolean`
+> **isValidEmail**(`email`): `boolean`
 
 The function `isValidEmail` checks if a given email address is valid according to a specific pattern.
 
@@ -25,4 +25,4 @@ pattern, and false otherwise.
 
 ## Defined in
 
-[src/setup/isValidEmail.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/setup/isValidEmail.ts#L7)
+[src/setup/isValidEmail.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/setup/isValidEmail.ts#L7)

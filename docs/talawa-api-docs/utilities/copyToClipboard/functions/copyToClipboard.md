@@ -6,7 +6,7 @@
 
 # Function: copyToClipboard()
 
-\> **copyToClipboard**(`text`): `void`
+> **copyToClipboard**(`text`): `void`
 
 Copies the given text to the clipboard.
 
@@ -26,4 +26,4 @@ This is a utility method and works only in development or test mode.
 
 ## Defined in
 
-[src/utilities/copyToClipboard.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/copyToClipboard.ts#L10)
+[src/utilities/copyToClipboard.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/copyToClipboard.ts#L10)

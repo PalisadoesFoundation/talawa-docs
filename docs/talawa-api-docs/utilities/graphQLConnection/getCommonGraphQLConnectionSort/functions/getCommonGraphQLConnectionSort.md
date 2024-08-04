@@ -6,7 +6,7 @@
 
 # Function: getCommonGraphQLConnectionSort()
 
-\> **getCommonGraphQLConnectionSort**(`__namedParameters`): `CommmonGraphQLConnectionSort`
+> **getCommonGraphQLConnectionSort**(`__namedParameters`): `CommmonGraphQLConnectionSort`
 
 This function is used to get an object containing common mongoose sorting logic.
 
@@ -37,12 +37,12 @@ document.
 ## Example
 
 ```ts
-const sort = getCommonGraphQLConnectionSort(\{
+const sort = getCommonGraphQLConnectionSort({
   direction: "BACKWARD"
- \});
+ });
 const objectList = await User.find().sort(sort).limit(10);
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/getCommonGraphQLConnectionSort.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/getCommonGraphQLConnectionSort.ts#L34)
+[src/utilities/graphQLConnection/getCommonGraphQLConnectionSort.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/getCommonGraphQLConnectionSort.ts#L34)

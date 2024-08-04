@@ -6,22 +6,22 @@
 
 # Type Alias: QueryActionItemsByOrganizationArgs
 
-\> **QueryActionItemsByOrganizationArgs**: `object`
+> **QueryActionItemsByOrganizationArgs**: `object`
 
 ## Type declaration
 
 ### orderBy?
 
-\> `optional` **orderBy**: [`InputMaybe`](InputMaybe.md)\<[`ActionItemsOrderByInput`](ActionItemsOrderByInput.md)\>
+> `optional` **orderBy**: [`InputMaybe`](InputMaybe.md)\<[`ActionItemsOrderByInput`](ActionItemsOrderByInput.md)\>
 
 ### organizationId
 
-\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### where?
 
-\> `optional` **where**: [`InputMaybe`](InputMaybe.md)\<[`ActionItemWhereInput`](ActionItemWhereInput.md)\>
+> `optional` **where**: [`InputMaybe`](InputMaybe.md)\<[`ActionItemWhereInput`](ActionItemWhereInput.md)\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2321](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2321)
+[src/types/generatedGraphQLTypes.ts:2321](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2321)

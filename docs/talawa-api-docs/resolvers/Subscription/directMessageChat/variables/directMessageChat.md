@@ -6,7 +6,7 @@
 
 # Variable: directMessageChat
 
-\> `const` **directMessageChat**: [`SubscriptionResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/SubscriptionResolvers.md)\[`"directMessageChat"`\]
+> `const` **directMessageChat**: [`SubscriptionResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/SubscriptionResolvers.md)\[`"directMessageChat"`\]
 
 This property contained a `subscribe` field, which is used to subscribe
 the user to get updates for the `CHAT_CHANNEL` event.
@@ -19,4 +19,4 @@ You can learn about `subscription` [here](https://www.apollographql.com/docs/apo
 
 ## Defined in
 
-[src/resolvers/Subscription/directMessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Subscription/directMessageChat.ts#L12)
+[src/resolvers/Subscription/directMessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Subscription/directMessageChat.ts#L12)

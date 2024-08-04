@@ -6,7 +6,7 @@
 
 # Variable: addUserImage
 
-\> `const` **addUserImage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addUserImage"`\]
+> `const` **addUserImage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addUserImage"`\]
 
 Mutation resolver function to add or update a user's profile image.
 
@@ -47,4 +47,4 @@ It then performs the image upload and updates the user's profile image before sa
 
 ## Defined in
 
-[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addUserImage.ts#L39)
+[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/addUserImage.ts#L39)

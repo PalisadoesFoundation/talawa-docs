@@ -6,7 +6,7 @@
 
 # Function: filterFunction()
 
-\> **filterFunction**(`payload`, `context`): `Promise`\<`boolean`\>
+> **filterFunction**(`payload`, `context`): `Promise`\<`boolean`\>
 
 This property included a `subscribe` method, which is used to
 subscribe the `current_user` to get updates for Group chats.
@@ -29,4 +29,4 @@ You can learn about `subscription` [here](https://www.apollographql.com/docs/apo
 
 ## Defined in
 
-[src/resolvers/Subscription/onPluginUpdate.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Subscription/onPluginUpdate.ts#L20)
+[src/resolvers/Subscription/onPluginUpdate.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Subscription/onPluginUpdate.ts#L20)

@@ -8,7 +8,7 @@ In order to give everyone a chance to submit a issues reports and contribute to 
 
 ## Table of Contents
 
-\<!-- toc --\>
+<!-- toc -->
 
 - [Issue Management](#issue-management)
   - [New Issues](#new-issues)
@@ -17,7 +17,7 @@ In order to give everyone a chance to submit a issues reports and contribute to 
   - [Monitoring the Creation of New Issues](#monitoring-the-creation-of-new-issues)
 - [General Guidelines](#general-guidelines)
 
-\<!-- tocstop --\>
+<!-- tocstop -->
 
 ---
 

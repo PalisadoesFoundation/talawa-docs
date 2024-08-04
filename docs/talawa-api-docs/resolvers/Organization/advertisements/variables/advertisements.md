@@ -6,7 +6,7 @@
 
 # Variable: advertisements
 
-\> `const` **advertisements**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"advertisements"`\]
+> `const` **advertisements**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"advertisements"`\]
 
 Resolver function for the `advertisements` field of an `Organization`.
 
@@ -37,4 +37,4 @@ The context object passed to the GraphQL resolvers. It contains the API root URL
 
 ## Defined in
 
-[src/resolvers/Organization/advertisements.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Organization/advertisements.ts#L38)
+[src/resolvers/Organization/advertisements.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Organization/advertisements.ts#L38)

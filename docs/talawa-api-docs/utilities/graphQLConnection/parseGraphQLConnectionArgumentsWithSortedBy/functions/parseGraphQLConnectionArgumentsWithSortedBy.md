@@ -6,7 +6,7 @@
 
 # Function: parseGraphQLConnectionArgumentsWithSortedBy()
 
-\> **parseGraphQLConnectionArgumentsWithSortedBy**\<`T0`, `T1`\>(`__namedParameters`): [`ParseGraphQLConnectionArgumentsWithSortedByResult`](../type-aliases/ParseGraphQLConnectionArgumentsWithSortedByResult.md)\<`T0`, `T1`\>
+> **parseGraphQLConnectionArgumentsWithSortedBy**\<`T0`, `T1`\>(`__namedParameters`): [`ParseGraphQLConnectionArgumentsWithSortedByResult`](../type-aliases/ParseGraphQLConnectionArgumentsWithSortedByResult.md)\<`T0`, `T1`\>
 
 This function is used for validating and transforming arguments for a graphQL connection that
 also provides sorting capabilities.
@@ -36,26 +36,26 @@ also provides sorting capabilities.
 ## Example
 
 ```ts
-const result = await parseGraphQLConnectionArgumentsWithSortedBy(\{
-  args: \{
+const result = await parseGraphQLConnectionArgumentsWithSortedBy({
+  args: {
     after,
     first,
-  \},
+  },
   maximumLimit: 20,
   parseCursor,
   parseSortedBy,
-\})
-if (result.isSuccessful === false) \{
-   throw new GraphQLError("Invalid arguments provided.", \{
-     extensions: \{
+})
+if (result.isSuccessful === false) {
+   throw new GraphQLError("Invalid arguments provided.", {
+     extensions: {
        code: "INVALID_ARGUMENTS",
        errors: result.errors
-     \}
-  \})
-\}
-const \{ parsedArgs: \{ cursor, direction, limit, sort \} \} = result;
+     }
+  })
+}
+const { parsedArgs: { cursor, direction, limit, sort } } = result;
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L70)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L70)

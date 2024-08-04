@@ -6,7 +6,7 @@
 
 # Type Alias: UsersConnectionEdge
 
-\> **UsersConnectionEdge**: `object`
+> **UsersConnectionEdge**: `object`
 
 A default connection edge on the User type for UsersConnection.
 
@@ -14,16 +14,16 @@ A default connection edge on the User type for UsersConnection.
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"UsersConnectionEdge"`
+> `optional` **\_\_typename**: `"UsersConnectionEdge"`
 
 ### cursor
 
-\> **cursor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **cursor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### node
 
-\> **node**: [`User`](User.md)
+> **node**: [`User`](User.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3104](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L3104)
+[src/types/generatedGraphQLTypes.ts:3104](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L3104)

@@ -6,26 +6,26 @@
 
 # Variable: FUND\_NOT\_FOUND\_ERROR
 
-\> `const` **FUND\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
+> `const` **FUND\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"fund.notFound"` = `"fund.notFound"`
+> **CODE**: `"fund.notFound"` = `"fund.notFound"`
 
 ### DESC
 
-\> **DESC**: `"Fund not found"` = `"Fund not found"`
+> **DESC**: `"Fund not found"` = `"Fund not found"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"fund.notFound"` = `"fund.notFound"`
+> **MESSAGE**: `"fund.notFound"` = `"fund.notFound"`
 
 ### PARAM
 
-\> **PARAM**: `"fund"` = `"fund"`
+> **PARAM**: `"fund"` = `"fund"`
 
 ## Defined in
 
-[src/constants.ts:138](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L138)
+[src/constants.ts:138](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L138)

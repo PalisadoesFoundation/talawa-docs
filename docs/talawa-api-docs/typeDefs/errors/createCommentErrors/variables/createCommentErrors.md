@@ -6,10 +6,10 @@
 
 # Variable: createCommentErrors
 
-\> `const` **createCommentErrors**: `DocumentNode`
+> `const` **createCommentErrors**: `DocumentNode`
 
 GraphQL schema definition for errors related to creating a comment.
 
 ## Defined in
 
-[src/typeDefs/errors/createCommentErrors.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/typeDefs/errors/createCommentErrors.ts#L7)
+[src/typeDefs/errors/createCommentErrors.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/typeDefs/errors/createCommentErrors.ts#L7)

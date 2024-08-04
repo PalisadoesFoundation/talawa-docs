@@ -6,22 +6,22 @@
 
 # Type Alias: LanguageInput
 
-\> **LanguageInput**: `object`
+> **LanguageInput**: `object`
 
 ## Type declaration
 
 ### en\_value
 
-\> **en\_value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **en\_value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### translation\_lang\_code
 
-\> **translation\_lang\_code**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **translation\_lang\_code**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### translation\_value
 
-\> **translation\_value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **translation\_value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1037](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1037)
+[src/types/generatedGraphQLTypes.ts:1037](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1037)

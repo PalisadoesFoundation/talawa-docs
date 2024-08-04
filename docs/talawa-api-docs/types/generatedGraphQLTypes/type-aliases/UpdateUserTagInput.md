@@ -6,22 +6,22 @@
 
 # Type Alias: UpdateUserTagInput
 
-\> **UpdateUserTagInput**: `object`
+> **UpdateUserTagInput**: `object`
 
 ## Type declaration
 
 ### \_id
 
-\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### name
 
-\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### tagColor
 
-\> **tagColor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **tagColor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2875](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2875)
+[src/types/generatedGraphQLTypes.ts:2875](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2875)

@@ -6,10 +6,10 @@
 
 # Variable: tracingIdHeaderName
 
-\> `const` **tracingIdHeaderName**: `"X-Tracing-Id"` = `"X-Tracing-Id"`
+> `const` **tracingIdHeaderName**: `"X-Tracing-Id"` = `"X-Tracing-Id"`
 
 Name of the header where the tracing ID will be stored.
 
 ## Defined in
 
-[src/libraries/requestTracing.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/requestTracing.ts#L28)
+[src/libraries/requestTracing.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/requestTracing.ts#L28)

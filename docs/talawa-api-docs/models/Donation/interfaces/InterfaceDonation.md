@@ -12,78 +12,78 @@ Interface representing a document for a donation in MongoDB.
 
 ### amount
 
-\> **amount**: `number`
+> **amount**: `number`
 
 #### Defined in
 
-[src/models/Donation.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L14)
+[src/models/Donation.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L14)
 
 ***
 
 ### createdAt
 
-\> **createdAt**: `Date`
+> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/Donation.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L15)
+[src/models/Donation.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L15)
 
 ***
 
 ### nameOfOrg
 
-\> **nameOfOrg**: `string`
+> **nameOfOrg**: `string`
 
 #### Defined in
 
-[src/models/Donation.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L11)
+[src/models/Donation.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L11)
 
 ***
 
 ### nameOfUser
 
-\> **nameOfUser**: `string`
+> **nameOfUser**: `string`
 
 #### Defined in
 
-[src/models/Donation.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L13)
+[src/models/Donation.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L13)
 
 ***
 
 ### orgId
 
-\> **orgId**: `string` \| `ObjectId`
+> **orgId**: `string` \| `ObjectId`
 
 #### Defined in
 
-[src/models/Donation.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L10)
+[src/models/Donation.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L10)
 
 ***
 
 ### payPalId
 
-\> **payPalId**: `string`
+> **payPalId**: `string`
 
 #### Defined in
 
-[src/models/Donation.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L12)
+[src/models/Donation.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L12)
 
 ***
 
 ### updatedAt
 
-\> **updatedAt**: `Date`
+> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/Donation.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L16)
+[src/models/Donation.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L16)
 
 ***
 
 ### userId
 
-\> **userId**: `string` \| `ObjectId`
+> **userId**: `string` \| `ObjectId`
 
 #### Defined in
 
-[src/models/Donation.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Donation.ts#L9)
+[src/models/Donation.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Donation.ts#L9)

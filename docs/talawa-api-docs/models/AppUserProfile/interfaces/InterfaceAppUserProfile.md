@@ -10,108 +10,108 @@
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L9)
+[src/models/AppUserProfile.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L9)
 
 ***
 
 ### adminFor
 
-\> **adminFor**: `PopulatedDoc`\<[`InterfaceOrganization`](../../Organization/interfaces/InterfaceOrganization.md) & `Document`\>[]
+> **adminFor**: `PopulatedDoc`\<[`InterfaceOrganization`](../../Organization/interfaces/InterfaceOrganization.md) & `Document`\>[]
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L11)
+[src/models/AppUserProfile.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L11)
 
 ***
 
 ### appLanguageCode
 
-\> **appLanguageCode**: `string`
+> **appLanguageCode**: `string`
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L12)
+[src/models/AppUserProfile.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L12)
 
 ***
 
 ### createdEvents
 
-\> **createdEvents**: `PopulatedDoc`\<[`InterfaceEvent`](../../Event/interfaces/InterfaceEvent.md) & `Document`\>[]
+> **createdEvents**: `PopulatedDoc`\<[`InterfaceEvent`](../../Event/interfaces/InterfaceEvent.md) & `Document`\>[]
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L13)
+[src/models/AppUserProfile.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L13)
 
 ***
 
 ### createdOrganizations
 
-\> **createdOrganizations**: `PopulatedDoc`\<[`InterfaceOrganization`](../../Organization/interfaces/InterfaceOrganization.md) & `Document`\>[]
+> **createdOrganizations**: `PopulatedDoc`\<[`InterfaceOrganization`](../../Organization/interfaces/InterfaceOrganization.md) & `Document`\>[]
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L14)
+[src/models/AppUserProfile.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L14)
 
 ***
 
 ### eventAdmin
 
-\> **eventAdmin**: `PopulatedDoc`\<[`InterfaceEvent`](../../Event/interfaces/InterfaceEvent.md) & `Document`\>[]
+> **eventAdmin**: `PopulatedDoc`\<[`InterfaceEvent`](../../Event/interfaces/InterfaceEvent.md) & `Document`\>[]
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L15)
+[src/models/AppUserProfile.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L15)
 
 ***
 
 ### isSuperAdmin
 
-\> **isSuperAdmin**: `boolean`
+> **isSuperAdmin**: `boolean`
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L19)
+[src/models/AppUserProfile.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L19)
 
 ***
 
 ### pluginCreationAllowed
 
-\> **pluginCreationAllowed**: `boolean`
+> **pluginCreationAllowed**: `boolean`
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L16)
+[src/models/AppUserProfile.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L16)
 
 ***
 
 ### token
 
-\> **token**: `undefined` \| `string`
+> **token**: `undefined` \| `string`
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L17)
+[src/models/AppUserProfile.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L17)
 
 ***
 
 ### tokenVersion
 
-\> **tokenVersion**: `number`
+> **tokenVersion**: `number`
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L18)
+[src/models/AppUserProfile.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L18)
 
 ***
 
 ### userId
 
-\> **userId**: `PopulatedDoc`\<[`InterfaceUser`](../../User/interfaces/InterfaceUser.md) & `Document`\>
+> **userId**: `PopulatedDoc`\<[`InterfaceUser`](../../User/interfaces/InterfaceUser.md) & `Document`\>
 
 #### Defined in
 
-[src/models/AppUserProfile.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AppUserProfile.ts#L10)
+[src/models/AppUserProfile.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AppUserProfile.ts#L10)

@@ -6,7 +6,7 @@
 
 # Variable: createEventVolunteerGroup
 
-\> `const` **createEventVolunteerGroup**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createEventVolunteerGroup"`\]
+> `const` **createEventVolunteerGroup**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createEventVolunteerGroup"`\]
 
 Creates a new event volunteer group and associates it with an event.
 
@@ -40,4 +40,4 @@ This function first checks the cache for the current user and then queries the d
 
 ## Defined in
 
-[src/resolvers/Mutation/createEventVolunteerGroup.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createEventVolunteerGroup.ts#L36)
+[src/resolvers/Mutation/createEventVolunteerGroup.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createEventVolunteerGroup.ts#L36)

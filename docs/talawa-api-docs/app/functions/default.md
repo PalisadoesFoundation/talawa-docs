@@ -8,7 +8,7 @@
 
 ## default(req, res)
 
-\> **default**(`req`, `res`): `any`
+> **default**(`req`, `res`): `any`
 
 Express instance itself is a request handler, which could be invoked without
 third argument.
@@ -25,11 +25,11 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/app.ts#L14)
+[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/app.ts#L14)
 
 ## default(req, res, next)
 
-\> **default**(`req`, `res`, `next`): `void`
+> **default**(`req`, `res`, `next`): `void`
 
 ### Parameters
 
@@ -45,4 +45,4 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/app.ts#L14)
+[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/app.ts#L14)

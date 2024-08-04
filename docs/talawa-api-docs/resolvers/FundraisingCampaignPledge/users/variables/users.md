@@ -6,7 +6,7 @@
 
 # Variable: users
 
-\> `const` **users**: [`FundraisingCampaignPledgeResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/FundraisingCampaignPledgeResolvers.md)\[`"users"`\]
+> `const` **users**: [`FundraisingCampaignPledgeResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/FundraisingCampaignPledgeResolvers.md)\[`"users"`\]
 
 Resolver function for the `users` field of a `FundraisingCampaignPledge`.
 
@@ -23,4 +23,4 @@ The parent object representing the fundraising campaign pledge. It contains info
 
 ## Defined in
 
-[src/resolvers/FundraisingCampaignPledge/users.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/FundraisingCampaignPledge/users.ts#L16)
+[src/resolvers/FundraisingCampaignPledge/users.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/FundraisingCampaignPledge/users.ts#L16)

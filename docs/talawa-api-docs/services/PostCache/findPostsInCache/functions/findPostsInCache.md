@@ -6,7 +6,7 @@
 
 # Function: findPostsInCache()
 
-\> **findPostsInCache**(`ids`): `Promise`\<([`InterfacePost`](../../../../models/Post/interfaces/InterfacePost.md) \| `null`)[]\>
+> **findPostsInCache**(`ids`): `Promise`\<([`InterfacePost`](../../../../models/Post/interfaces/InterfacePost.md) \| `null`)[]\>
 
 ## Parameters
 
@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/services/PostCache/findPostsInCache.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/PostCache/findPostsInCache.ts#L6)
+[src/services/PostCache/findPostsInCache.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/PostCache/findPostsInCache.ts#L6)

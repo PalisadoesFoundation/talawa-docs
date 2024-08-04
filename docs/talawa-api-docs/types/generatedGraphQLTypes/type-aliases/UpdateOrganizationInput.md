@@ -6,30 +6,30 @@
 
 # Type Alias: UpdateOrganizationInput
 
-\> **UpdateOrganizationInput**: `object`
+> **UpdateOrganizationInput**: `object`
 
 ## Type declaration
 
 ### address?
 
-\> `optional` **address**: [`InputMaybe`](InputMaybe.md)\<[`AddressInput`](AddressInput.md)\>
+> `optional` **address**: [`InputMaybe`](InputMaybe.md)\<[`AddressInput`](AddressInput.md)\>
 
 ### description?
 
-\> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### name?
 
-\> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### userRegistrationRequired?
 
-\> `optional` **userRegistrationRequired**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+> `optional` **userRegistrationRequired**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### visibleInSearch?
 
-\> `optional` **visibleInSearch**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+> `optional` **visibleInSearch**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2847](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2847)
+[src/types/generatedGraphQLTypes.ts:2847](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2847)

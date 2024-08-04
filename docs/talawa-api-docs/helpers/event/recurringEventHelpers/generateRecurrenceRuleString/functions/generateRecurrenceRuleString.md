@@ -6,7 +6,7 @@
 
 # Function: generateRecurrenceRuleString()
 
-\> **generateRecurrenceRuleString**(`recurrenceRuleData`): `string`
+> **generateRecurrenceRuleString**(`recurrenceRuleData`): `string`
 
 Generates a recurrence rule (RRULE) string based on the provided recurrence rule input.
 
@@ -31,4 +31,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L15)
+[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L15)

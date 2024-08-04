@@ -6,7 +6,7 @@
 
 # Function: findEventsInCache()
 
-\> **findEventsInCache**(`ids`): `Promise`\<([`InterfaceEvent`](../../../../models/Event/interfaces/InterfaceEvent.md) \| `null`)[]\>
+> **findEventsInCache**(`ids`): `Promise`\<([`InterfaceEvent`](../../../../models/Event/interfaces/InterfaceEvent.md) \| `null`)[]\>
 
 ## Parameters
 
@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/services/EventCache/findEventInCache.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/EventCache/findEventInCache.ts#L6)
+[src/services/EventCache/findEventInCache.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/EventCache/findEventInCache.ts#L6)

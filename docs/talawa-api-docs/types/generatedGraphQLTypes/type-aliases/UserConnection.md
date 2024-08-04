@@ -6,26 +6,26 @@
 
 # Type Alias: UserConnection
 
-\> **UserConnection**: `object`
+> **UserConnection**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"UserConnection"`
+> `optional` **\_\_typename**: `"UserConnection"`
 
 ### aggregate
 
-\> **aggregate**: [`AggregateUser`](AggregateUser.md)
+> **aggregate**: [`AggregateUser`](AggregateUser.md)
 
 ### edges
 
-\> **edges**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>[]
+> **edges**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>[]
 
 ### pageInfo
 
-\> **pageInfo**: [`PageInfo`](PageInfo.md)
+> **pageInfo**: [`PageInfo`](PageInfo.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2930](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2930)
+[src/types/generatedGraphQLTypes.ts:2930](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2930)

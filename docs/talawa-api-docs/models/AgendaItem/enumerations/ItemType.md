@@ -12,18 +12,18 @@ Enumeration representing the types of agenda items.
 
 ### Note
 
-\> **Note**: `"Note"`
+> **Note**: `"Note"`
 
 #### Defined in
 
-[src/models/AgendaItem.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaItem.ts#L37)
+[src/models/AgendaItem.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaItem.ts#L37)
 
 ***
 
 ### Regular
 
-\> **Regular**: `"Regular"`
+> **Regular**: `"Regular"`
 
 #### Defined in
 
-[src/models/AgendaItem.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaItem.ts#L36)
+[src/models/AgendaItem.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaItem.ts#L36)

@@ -6,26 +6,26 @@
 
 # Variable: USER\_NOT\_FOUND\_ERROR
 
-\> `const` **USER\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
+> `const` **USER\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"user.notFound"` = `"user.notFound"`
+> **CODE**: `"user.notFound"` = `"user.notFound"`
 
 ### DESC
 
-\> **DESC**: `"User not found"` = `"User not found"`
+> **DESC**: `"User not found"` = `"User not found"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"user.notFound"` = `"user.notFound"`
+> **MESSAGE**: `"user.notFound"` = `"user.notFound"`
 
 ### PARAM
 
-\> **PARAM**: `"user"` = `"user"`
+> **PARAM**: `"user"` = `"user"`
 
 ## Defined in
 
-[src/constants.ts:559](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L559)
+[src/constants.ts:559](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L559)

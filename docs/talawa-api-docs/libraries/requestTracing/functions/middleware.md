@@ -6,7 +6,7 @@
 
 # Function: middleware()
 
-\> **middleware**(): (`req`, `res`, `next`) =\> `void`
+> **middleware**(): (`req`, `res`, `next`) => `void`
 
 Middleware to handle request tracing. It generates or retrieves a tracing ID,
 sets it in the headers of the request and response, and stores it in the namespace context.
@@ -31,4 +31,4 @@ A middleware function.
 
 ## Defined in
 
-[src/libraries/requestTracing.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/requestTracing.ts#L57)
+[src/libraries/requestTracing.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/requestTracing.ts#L57)

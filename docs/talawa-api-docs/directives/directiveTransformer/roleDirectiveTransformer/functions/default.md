@@ -6,7 +6,7 @@
 
 # Function: default()
 
-\> **default**(`schema`, `directiveName`): `GraphQLSchema`
+> **default**(`schema`, `directiveName`): `GraphQLSchema`
 
 A function to transform a GraphQL schema by adding role-based authorization
 logic to the fields with the specified directive.
@@ -40,4 +40,4 @@ const transformedSchema = roleDirectiveTransformer(originalSchema, 'role');
 
 ## Defined in
 
-[src/directives/directiveTransformer/roleDirectiveTransformer.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/directives/directiveTransformer/roleDirectiveTransformer.ts#L24)
+[src/directives/directiveTransformer/roleDirectiveTransformer.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/directives/directiveTransformer/roleDirectiveTransformer.ts#L24)

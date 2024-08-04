@@ -6,7 +6,7 @@
 
 # Variable: inviteEventAttendee
 
-\> `const` **inviteEventAttendee**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"inviteEventAttendee"`\]
+> `const` **inviteEventAttendee**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"inviteEventAttendee"`\]
 
 Invites an attendee to an event.
 
@@ -40,4 +40,4 @@ ConflictError if the user is already invited to the event.
 
 ## Defined in
 
-[src/resolvers/Mutation/inviteEventAttendee.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/inviteEventAttendee.ts#L40)
+[src/resolvers/Mutation/inviteEventAttendee.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/inviteEventAttendee.ts#L40)

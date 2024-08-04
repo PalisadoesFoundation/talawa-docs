@@ -6,7 +6,7 @@
 
 # Function: init()
 
-\> **init**\<`T`\>(`options`): `T`
+> **init**\<`T`\>(`options`): `T`
 
 Initializes the request context and i18n.
 
@@ -16,7 +16,7 @@ Initializes the request context and i18n.
 
 ## Parameters
 
-• **options**: `InterfaceInitOptions`\<`T`\> = `\{\}`
+• **options**: `InterfaceInitOptions`\<`T`\> = `{}`
 
 The initialization options.
 
@@ -28,4 +28,4 @@ The result of the request handler or an empty object if not provided.
 
 ## Defined in
 
-[src/libraries/requestContext.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/requestContext.ts#L65)
+[src/libraries/requestContext.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/requestContext.ts#L65)

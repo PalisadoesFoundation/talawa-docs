@@ -6,7 +6,7 @@
 
 # Variable: registerForEvent
 
-\> `const` **registerForEvent**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"registerForEvent"`\]
+> `const` **registerForEvent**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"registerForEvent"`\]
 
 Enables a user to register for an event.
 
@@ -43,4 +43,4 @@ If the user is invited, their registration status is updated. Otherwise, a new e
 
 ## Defined in
 
-[src/resolvers/Mutation/registerForEvent.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/registerForEvent.ts#L34)
+[src/resolvers/Mutation/registerForEvent.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/registerForEvent.ts#L34)

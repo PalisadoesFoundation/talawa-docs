@@ -6,7 +6,7 @@
 
 # Function: cacheAppUserProfile()
 
-\> **cacheAppUserProfile**(`appUserProfiles`): `Promise`\<`void`\>
+> **cacheAppUserProfile**(`appUserProfiles`): `Promise`\<`void`\>
 
 Stores app user profiles in Redis cache with a specified time-to-live (TTL).
 
@@ -20,8 +20,8 @@ Array of app user profiles to be cached.
 
 `Promise`\<`void`\>
 
-Promise\<void\>
+Promise<void>
 
 ## Defined in
 
-[src/services/AppUserProfileCache/cacheAppUserProfile.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/AppUserProfileCache/cacheAppUserProfile.ts#L10)
+[src/services/AppUserProfileCache/cacheAppUserProfile.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/AppUserProfileCache/cacheAppUserProfile.ts#L10)

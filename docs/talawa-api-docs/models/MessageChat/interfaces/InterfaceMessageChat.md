@@ -12,68 +12,68 @@ Interface representing a document for a chat in the database (MongoDB).
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/MessageChat.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L9)
+[src/models/MessageChat.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L9)
 
 ***
 
 ### createdAt
 
-\> **createdAt**: `Date`
+> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/MessageChat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L14)
+[src/models/MessageChat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L14)
 
 ***
 
 ### languageBarrier
 
-\> **languageBarrier**: `boolean`
+> **languageBarrier**: `boolean`
 
 #### Defined in
 
-[src/models/MessageChat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L11)
+[src/models/MessageChat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L11)
 
 ***
 
 ### message
 
-\> **message**: `string`
+> **message**: `string`
 
 #### Defined in
 
-[src/models/MessageChat.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L10)
+[src/models/MessageChat.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L10)
 
 ***
 
 ### receiver
 
-\> **receiver**: `any`
+> **receiver**: `any`
 
 #### Defined in
 
-[src/models/MessageChat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L13)
+[src/models/MessageChat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L13)
 
 ***
 
 ### sender
 
-\> **sender**: `any`
+> **sender**: `any`
 
 #### Defined in
 
-[src/models/MessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L12)
+[src/models/MessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L12)
 
 ***
 
 ### updatedAt
 
-\> **updatedAt**: `Date`
+> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/MessageChat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/MessageChat.ts#L15)
+[src/models/MessageChat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/MessageChat.ts#L15)

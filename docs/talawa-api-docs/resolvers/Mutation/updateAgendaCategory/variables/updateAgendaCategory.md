@@ -6,7 +6,7 @@
 
 # Variable: updateAgendaCategory
 
-\> `const` **updateAgendaCategory**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateAgendaCategory"`\]
+> `const` **updateAgendaCategory**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateAgendaCategory"`\]
 
 This is a resolver function for the GraphQL mutation 'updateAgendaCategory'.
 
@@ -39,4 +39,4 @@ The context object containing user information.
 
 ## Defined in
 
-[src/resolvers/Mutation/updateAgendaCategory.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/updateAgendaCategory.ts#L36)
+[src/resolvers/Mutation/updateAgendaCategory.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/updateAgendaCategory.ts#L36)

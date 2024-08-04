@@ -6,7 +6,7 @@
 
 # Variable: organization
 
-\> `const` **organization**: [`AdvertisementResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AdvertisementResolvers.md)\[`"organization"`\]
+> `const` **organization**: [`AdvertisementResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AdvertisementResolvers.md)\[`"organization"`\]
 
 Resolver function for the `organization` field of an `Advertisement`.
 
@@ -20,4 +20,4 @@ The parent `Advertisement` object. This contains the `organizationId` field, whi
 
 ## Defined in
 
-[src/resolvers/Advertisement/organization.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Advertisement/organization.ts#L15)
+[src/resolvers/Advertisement/organization.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Advertisement/organization.ts#L15)

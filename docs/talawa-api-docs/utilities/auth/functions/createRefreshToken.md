@@ -6,7 +6,7 @@
 
 # Function: createRefreshToken()
 
-\> **createRefreshToken**(`user`, `appUserProfile`): `string`
+> **createRefreshToken**(`user`, `appUserProfile`): `string`
 
 Creates a refresh token (JWT) for a user that expires in 30 days.
 The token contains user data and is signed with the refresh token secret.
@@ -29,4 +29,4 @@ JSON Web Token string payload
 
 ## Defined in
 
-[src/utilities/auth.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/auth.ts#L52)
+[src/utilities/auth.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/auth.ts#L52)

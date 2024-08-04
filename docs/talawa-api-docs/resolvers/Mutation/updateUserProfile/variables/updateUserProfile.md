@@ -6,7 +6,7 @@
 
 # Variable: updateUserProfile
 
-\> `const` **updateUserProfile**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateUserProfile"`\]
+> `const` **updateUserProfile**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateUserProfile"`\]
 
 This function enables to update user profile.
 
@@ -29,4 +29,4 @@ The following checks are done:
 
 ## Defined in
 
-[src/resolvers/Mutation/updateUserProfile.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/updateUserProfile.ts#L22)
+[src/resolvers/Mutation/updateUserProfile.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/updateUserProfile.ts#L22)

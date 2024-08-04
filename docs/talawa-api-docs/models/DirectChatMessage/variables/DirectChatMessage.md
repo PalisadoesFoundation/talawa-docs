@@ -6,8 +6,8 @@
 
 # Variable: DirectChatMessage
 
-\> `const` **DirectChatMessage**: `Model`\<[`InterfaceDirectChatMessage`](../interfaces/InterfaceDirectChatMessage.md), `object`, `object`, `object`, `Document`\<`unknown`, `object`, [`InterfaceDirectChatMessage`](../interfaces/InterfaceDirectChatMessage.md)\> & [`InterfaceDirectChatMessage`](../interfaces/InterfaceDirectChatMessage.md) & `Required`\<`object`\>, `any`\>
+> `const` **DirectChatMessage**: `Model`\<[`InterfaceDirectChatMessage`](../interfaces/InterfaceDirectChatMessage.md), `object`, `object`, `object`, `Document`\<`unknown`, `object`, [`InterfaceDirectChatMessage`](../interfaces/InterfaceDirectChatMessage.md)\> & [`InterfaceDirectChatMessage`](../interfaces/InterfaceDirectChatMessage.md) & `Required`\<`object`\>, `any`\>
 
 ## Defined in
 
-[src/models/DirectChatMessage.ts:77](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L77)
+[src/models/DirectChatMessage.ts:77](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L77)

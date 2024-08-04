@@ -6,8 +6,8 @@
 
 # Variable: GroupChatMessage
 
-\> `const` **GroupChatMessage**: [`GroupChatMessageResolvers`](../../../types/generatedGraphQLTypes/type-aliases/GroupChatMessageResolvers.md)
+> `const` **GroupChatMessage**: [`GroupChatMessageResolvers`](../../../types/generatedGraphQLTypes/type-aliases/GroupChatMessageResolvers.md)
 
 ## Defined in
 
-[src/resolvers/GroupChatMessage/index.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/GroupChatMessage/index.ts#L5)
+[src/resolvers/GroupChatMessage/index.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/GroupChatMessage/index.ts#L5)

@@ -6,7 +6,7 @@
 
 # Function: default()
 
-\> **default**(): `Promise`\<`void`\>
+> **default**(): `Promise`\<`void`\>
 
 Loads plugin data into the MongoDB database if it is not already present.
 
@@ -25,11 +25,11 @@ A promise that resolves when the plugins have been loaded or confirms that they 
 ```typescript
 import loadPlugins from './path/to/loadPlugins';
 
-loadPlugins().then(() =\> \{
+loadPlugins().then(() => {
   console.log('Plugins loaded successfully.');
-\}).catch(error =\> \{
+}).catch(error => {
   console.error('Error loading plugins:', error);
-\});
+});
 ```
 
 ## See
@@ -39,4 +39,4 @@ Parent File:
 
 ## Defined in
 
-[src/config/plugins/loadPlugins.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/config/plugins/loadPlugins.ts#L31)
+[src/config/plugins/loadPlugins.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/config/plugins/loadPlugins.ts#L31)

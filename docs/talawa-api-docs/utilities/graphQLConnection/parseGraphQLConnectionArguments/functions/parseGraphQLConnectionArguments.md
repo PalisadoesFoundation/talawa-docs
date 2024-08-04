@@ -6,7 +6,7 @@
 
 # Function: parseGraphQLConnectionArguments()
 
-\> **parseGraphQLConnectionArguments**\<`T0`\>(`__namedParameters`): `Promise`\<[`ParseGraphQLConnectionArgumentsResult`](../type-aliases/ParseGraphQLConnectionArgumentsResult.md)\<`T0`\>\>
+> **parseGraphQLConnectionArguments**\<`T0`\>(`__namedParameters`): `Promise`\<[`ParseGraphQLConnectionArgumentsResult`](../type-aliases/ParseGraphQLConnectionArgumentsResult.md)\<`T0`\>\>
 
 This function handles validating and transforming arguments of a base graphQL connection.
 
@@ -31,25 +31,25 @@ This function handles validating and transforming arguments of a base graphQL co
 ## Example
 
 ```ts
-const result = await parseGraphQLConnectionArguments(\{
-  args: \{
+const result = await parseGraphQLConnectionArguments({
+  args: {
     after,
     first,
-  \},
+  },
   maximumLimit: 20,
   parseCursor
-\})
-if (result.isSuccessful === false) \{
-   throw new GraphQLError("Invalid arguments provided.", \{
-     extensions: \{
+})
+if (result.isSuccessful === false) {
+   throw new GraphQLError("Invalid arguments provided.", {
+     extensions: {
        code: "INVALID_ARGUMENTS",
        errors: result.errors
-     \}
-  \})
-\}
-const \{ parsedArgs: \{ cursor, direction, limit \} \} = result;
+     }
+  })
+}
+const { parsedArgs: { cursor, direction, limit } } = result;
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L88)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:88](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L88)

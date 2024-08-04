@@ -6,7 +6,7 @@
 
 # Variable: NoteSchema
 
-\> `const` **NoteSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
+> `const` **NoteSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
 
 Mongoose schema definition for Note documents.
 
@@ -36,4 +36,4 @@ The ID of the agenda item associated with the note.
 
 ## Defined in
 
-[src/models/Note.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Note.ts#L27)
+[src/models/Note.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Note.ts#L27)

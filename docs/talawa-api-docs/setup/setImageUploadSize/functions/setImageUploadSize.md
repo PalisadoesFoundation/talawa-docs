@@ -6,7 +6,7 @@
 
 # Function: setImageUploadSize()
 
-\> **setImageUploadSize**(`size`): `Promise`\<`void`\>
+> **setImageUploadSize**(`size`): `Promise`\<`void`\>
 
 The function `setImageUploadSize` sets the image upload size environment variable and changes the .env file
 
@@ -22,4 +22,4 @@ The function `checkExistingRedis` returns a void Promise.
 
 ## Defined in
 
-[src/setup/setImageUploadSize.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/setup/setImageUploadSize.ts#L9)
+[src/setup/setImageUploadSize.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/setup/setImageUploadSize.ts#L9)

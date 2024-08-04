@@ -10,58 +10,58 @@
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/Venue.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Venue.ts#L6)
+[src/models/Venue.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Venue.ts#L6)
 
 ***
 
 ### capacity
 
-\> **capacity**: `number`
+> **capacity**: `number`
 
 #### Defined in
 
-[src/models/Venue.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Venue.ts#L9)
+[src/models/Venue.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Venue.ts#L9)
 
 ***
 
 ### description
 
-\> **description**: `undefined` \| `null` \| `string`
+> **description**: `undefined` \| `null` \| `string`
 
 #### Defined in
 
-[src/models/Venue.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Venue.ts#L8)
+[src/models/Venue.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Venue.ts#L8)
 
 ***
 
 ### imageUrl
 
-\> **imageUrl**: `undefined` \| `null` \| `string`
+> **imageUrl**: `undefined` \| `null` \| `string`
 
 #### Defined in
 
-[src/models/Venue.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Venue.ts#L10)
+[src/models/Venue.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Venue.ts#L10)
 
 ***
 
 ### name
 
-\> **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[src/models/Venue.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Venue.ts#L7)
+[src/models/Venue.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Venue.ts#L7)
 
 ***
 
 ### organization
 
-\> **organization**: `PopulatedDoc`\<[`InterfaceOrganization`](../../Organization/interfaces/InterfaceOrganization.md) & `Document`\>
+> **organization**: `PopulatedDoc`\<[`InterfaceOrganization`](../../Organization/interfaces/InterfaceOrganization.md) & `Document`\>
 
 #### Defined in
 
-[src/models/Venue.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/Venue.ts#L11)
+[src/models/Venue.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/Venue.ts#L11)

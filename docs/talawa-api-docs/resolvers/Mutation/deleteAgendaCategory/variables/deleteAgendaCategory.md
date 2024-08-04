@@ -6,7 +6,7 @@
 
 # Variable: deleteAgendaCategory
 
-\> `const` **deleteAgendaCategory**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"deleteAgendaCategory"`\]
+> `const` **deleteAgendaCategory**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"deleteAgendaCategory"`\]
 
 This is a resolver function for the GraphQL mutation 'deleteAgendaCategory'.
 
@@ -34,4 +34,4 @@ The input arguments for the mutation.
 
 ## Defined in
 
-[src/resolvers/Mutation/deleteAgendaCategory.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/deleteAgendaCategory.ts#L29)
+[src/resolvers/Mutation/deleteAgendaCategory.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/deleteAgendaCategory.ts#L29)

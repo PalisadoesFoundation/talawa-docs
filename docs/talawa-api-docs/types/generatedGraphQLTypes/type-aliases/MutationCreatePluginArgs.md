@@ -6,26 +6,26 @@
 
 # Type Alias: MutationCreatePluginArgs
 
-\> **MutationCreatePluginArgs**: `object`
+> **MutationCreatePluginArgs**: `object`
 
 ## Type declaration
 
 ### pluginCreatedBy
 
-\> **pluginCreatedBy**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **pluginCreatedBy**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### pluginDesc
 
-\> **pluginDesc**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **pluginDesc**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### pluginName
 
-\> **pluginName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **pluginName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### uninstalledOrgs?
 
-\> `optional` **uninstalledOrgs**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]\>
+> `optional` **uninstalledOrgs**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1487](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1487)
+[src/types/generatedGraphQLTypes.ts:1487](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1487)

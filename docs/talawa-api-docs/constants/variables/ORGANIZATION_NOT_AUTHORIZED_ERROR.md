@@ -6,26 +6,26 @@
 
 # Variable: ORGANIZATION\_NOT\_AUTHORIZED\_ERROR
 
-\> `const` **ORGANIZATION\_NOT\_AUTHORIZED\_ERROR**: `Readonly`\<`object`\>
+> `const` **ORGANIZATION\_NOT\_AUTHORIZED\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"org.notAuthorized"` = `"org.notAuthorized"`
+> **CODE**: `"org.notAuthorized"` = `"org.notAuthorized"`
 
 ### DESC
 
-\> **DESC**: `"Organization is not authorized"` = `"Organization is not authorized"`
+> **DESC**: `"Organization is not authorized"` = `"Organization is not authorized"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"org.notAuthorized"` = `"org.notAuthorized"`
+> **MESSAGE**: `"org.notAuthorized"` = `"org.notAuthorized"`
 
 ### PARAM
 
-\> **PARAM**: `"org"` = `"org"`
+> **PARAM**: `"org"` = `"org"`
 
 ## Defined in
 
-[src/constants.ts:173](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L173)
+[src/constants.ts:173](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L173)

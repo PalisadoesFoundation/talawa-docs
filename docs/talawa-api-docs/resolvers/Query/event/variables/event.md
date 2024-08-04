@@ -6,7 +6,7 @@
 
 # Variable: event
 
-\> `const` **event**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"event"`\]
+> `const` **event**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"event"`\]
 
 This query will fetch the event with _id === args.id from the database.
 
@@ -23,4 +23,4 @@ You can learn about GraphQL `Resolvers`
 
 ## Defined in
 
-[src/resolvers/Query/event.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Query/event.ts#L13)
+[src/resolvers/Query/event.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/event.ts#L13)

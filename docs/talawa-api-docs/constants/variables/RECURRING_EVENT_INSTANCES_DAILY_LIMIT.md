@@ -6,8 +6,8 @@
 
 # Variable: RECURRING\_EVENT\_INSTANCES\_DAILY\_LIMIT
 
-\> `const` **RECURRING\_EVENT\_INSTANCES\_DAILY\_LIMIT**: `1` = `1`
+> `const` **RECURRING\_EVENT\_INSTANCES\_DAILY\_LIMIT**: `1` = `1`
 
 ## Defined in
 
-[src/constants.ts:741](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L741)
+[src/constants.ts:741](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L741)

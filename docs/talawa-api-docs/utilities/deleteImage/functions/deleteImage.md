@@ -6,7 +6,7 @@
 
 # Function: deleteImage()
 
-\> **deleteImage**(`imageToBeDeleted`, `imageBelongingToItem`?): `Promise`\<`void`\>
+> **deleteImage**(`imageToBeDeleted`, `imageBelongingToItem`?): `Promise`\<`void`\>
 
 Deletes an image file if it meets deletion criteria based on usage and duplicate checks.
 
@@ -28,4 +28,4 @@ A promise that resolves once the image is successfully deleted
 
 ## Defined in
 
-[src/utilities/deleteImage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/deleteImage.ts#L13)
+[src/utilities/deleteImage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/deleteImage.ts#L13)

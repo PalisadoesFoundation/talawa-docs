@@ -6,14 +6,14 @@
 
 # Type Alias: MutationRemoveFundArgs
 
-\> **MutationRemoveFundArgs**: `object`
+> **MutationRemoveFundArgs**: `object`
 
 ## Type declaration
 
 ### id
 
-\> **id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1668](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1668)
+[src/types/generatedGraphQLTypes.ts:1668](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1668)

@@ -12,48 +12,48 @@ Interface representing a MongoDB document for User Family.
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/userFamily.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/userFamily.ts#L9)
+[src/models/userFamily.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/userFamily.ts#L9)
 
 ***
 
 ### admins
 
-\> **admins**: `any`[]
+> **admins**: `any`[]
 
 #### Defined in
 
-[src/models/userFamily.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/userFamily.ts#L12)
+[src/models/userFamily.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/userFamily.ts#L12)
 
 ***
 
 ### creator
 
-\> **creator**: `any`[]
+> **creator**: `any`[]
 
 #### Defined in
 
-[src/models/userFamily.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/userFamily.ts#L13)
+[src/models/userFamily.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/userFamily.ts#L13)
 
 ***
 
 ### title
 
-\> **title**: `string`
+> **title**: `string`
 
 #### Defined in
 
-[src/models/userFamily.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/userFamily.ts#L10)
+[src/models/userFamily.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/userFamily.ts#L10)
 
 ***
 
 ### users
 
-\> **users**: `any`[]
+> **users**: `any`[]
 
 #### Defined in
 
-[src/models/userFamily.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/userFamily.ts#L11)
+[src/models/userFamily.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/userFamily.ts#L11)

@@ -12,78 +12,78 @@ Represents a document for an agenda category in the MongoDB database.
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L10)
+[src/models/AgendaCategory.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L10)
 
 ***
 
 ### createdAt
 
-\> **createdAt**: `Date`
+> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L16)
+[src/models/AgendaCategory.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L16)
 
 ***
 
 ### createdBy
 
-\> **createdBy**: `any`
+> **createdBy**: `any`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L14)
+[src/models/AgendaCategory.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L14)
 
 ***
 
 ### description?
 
-\> `optional` **description**: `string`
+> `optional` **description**: `string`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L12)
+[src/models/AgendaCategory.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L12)
 
 ***
 
 ### name
 
-\> **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L11)
+[src/models/AgendaCategory.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L11)
 
 ***
 
 ### organizationId
 
-\> **organizationId**: `any`
+> **organizationId**: `any`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L13)
+[src/models/AgendaCategory.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L13)
 
 ***
 
 ### updatedAt
 
-\> **updatedAt**: `Date`
+> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L17)
+[src/models/AgendaCategory.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L17)
 
 ***
 
 ### updatedBy
 
-\> **updatedBy**: `any`
+> **updatedBy**: `any`
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L15)
+[src/models/AgendaCategory.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L15)

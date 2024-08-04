@@ -6,7 +6,7 @@
 
 # Function: middleware()
 
-\> **middleware**(): (`req`, `res`, `next`) =\> `void`
+> **middleware**(): (`req`, `res`, `next`) => `void`
 
 Middleware to bind the request and response to the request context namespace.
 
@@ -28,4 +28,4 @@ Middleware to bind the request and response to the request context namespace.
 
 ## Defined in
 
-[src/libraries/requestContext.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/requestContext.ts#L42)
+[src/libraries/requestContext.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/requestContext.ts#L42)

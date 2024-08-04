@@ -6,14 +6,14 @@
 
 # Type Alias: MutationUpdateCommunityArgs
 
-\> **MutationUpdateCommunityArgs**: `object`
+> **MutationUpdateCommunityArgs**: `object`
 
 ## Type declaration
 
 ### data
 
-\> **data**: [`UpdateCommunityInput`](UpdateCommunityInput.md)
+> **data**: [`UpdateCommunityInput`](UpdateCommunityInput.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1836](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1836)
+[src/types/generatedGraphQLTypes.ts:1836](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1836)

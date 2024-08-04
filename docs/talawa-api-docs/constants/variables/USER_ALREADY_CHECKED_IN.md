@@ -6,22 +6,22 @@
 
 # Variable: USER\_ALREADY\_CHECKED\_IN
 
-\> `const` **USER\_ALREADY\_CHECKED\_IN**: `Readonly`\<`object`\>
+> `const` **USER\_ALREADY\_CHECKED\_IN**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"user.alreadyCheckedIn"` = `"user.alreadyCheckedIn"`
+> **CODE**: `"user.alreadyCheckedIn"` = `"user.alreadyCheckedIn"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"The user has already been checked in for this event."` = `"The user has already been checked in for this event."`
+> **MESSAGE**: `"The user has already been checked in for this event."` = `"The user has already been checked in for this event."`
 
 ### PARAM
 
-\> **PARAM**: `"user.alreadyCheckedIn"` = `"user.alreadyCheckedIn"`
+> **PARAM**: `"user.alreadyCheckedIn"` = `"user.alreadyCheckedIn"`
 
 ## Defined in
 
-[src/constants.ts:643](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L643)
+[src/constants.ts:643](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L643)

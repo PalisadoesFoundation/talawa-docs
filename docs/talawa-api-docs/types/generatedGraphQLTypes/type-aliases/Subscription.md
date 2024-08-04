@@ -6,30 +6,30 @@
 
 # Type Alias: Subscription
 
-\> **Subscription**: `object`
+> **Subscription**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"Subscription"`
+> `optional` **\_\_typename**: `"Subscription"`
 
 ### directMessageChat?
 
-\> `optional` **directMessageChat**: [`Maybe`](Maybe.md)\<[`MessageChat`](MessageChat.md)\>
+> `optional` **directMessageChat**: [`Maybe`](Maybe.md)\<[`MessageChat`](MessageChat.md)\>
 
 ### messageSentToDirectChat?
 
-\> `optional` **messageSentToDirectChat**: [`Maybe`](Maybe.md)\<[`DirectChatMessage`](DirectChatMessage.md)\>
+> `optional` **messageSentToDirectChat**: [`Maybe`](Maybe.md)\<[`DirectChatMessage`](DirectChatMessage.md)\>
 
 ### messageSentToGroupChat?
 
-\> `optional` **messageSentToGroupChat**: [`Maybe`](Maybe.md)\<[`GroupChatMessage`](GroupChatMessage.md)\>
+> `optional` **messageSentToGroupChat**: [`Maybe`](Maybe.md)\<[`GroupChatMessage`](GroupChatMessage.md)\>
 
 ### onPluginUpdate?
 
-\> `optional` **onPluginUpdate**: [`Maybe`](Maybe.md)\<[`Plugin`](Plugin.md)\>
+> `optional` **onPluginUpdate**: [`Maybe`](Maybe.md)\<[`Plugin`](Plugin.md)\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2684](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L2684)
+[src/types/generatedGraphQLTypes.ts:2684](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2684)

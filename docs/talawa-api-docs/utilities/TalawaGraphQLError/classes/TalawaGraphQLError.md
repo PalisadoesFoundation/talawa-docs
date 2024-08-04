@@ -20,21 +20,21 @@ This is the definition of a graphQL resolver for resolving the user record of th
 ## Example
 
 ```ts
-export const bestFriend = async (parent) =\> \{
- const user = await dbClient.query.user.findFirst(\{
-     where(fields, operators) \{
+export const bestFriend = async (parent) =\> {
+ const user = await dbClient.query.user.findFirst({
+     where(fields, operators) {
          return operators.eq(fields.id, parent.bestFriendId);
-     \}
- \});
+     }
+ });
 
- if (user === undefined) \{
-     throw new TalawaGraphQLError("Best friend not found", \{
+ if (user === undefined) {
+     throw new TalawaGraphQLError("Best friend not found", {
          code: "RESOURCE_NOT_FOUND"
-     \})
- \}
+     })
+ }
 
  return user;
-\}
+}
 ```
 
 ## Extends
@@ -45,7 +45,7 @@ export const bestFriend = async (parent) =\> \{
 
 ### new TalawaGraphQLError()
 
-\> **new TalawaGraphQLError**(`message`, `options`): [`TalawaGraphQLError`](TalawaGraphQLError.md)
+> **new TalawaGraphQLError**(`message`, `options`): [`TalawaGraphQLError`](TalawaGraphQLError.md)
 
 #### Parameters
 
@@ -63,13 +63,13 @@ export const bestFriend = async (parent) =\> \{
 
 #### Defined in
 
-[src/utilities/TalawaGraphQLError.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/TalawaGraphQLError.ts#L189)
+[src/utilities/TalawaGraphQLError.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/TalawaGraphQLError.ts#L189)
 
 ## Properties
 
 ### extensions
 
-\> `readonly` **extensions**: `GraphQLErrorExtensions`
+> `readonly` **extensions**: `GraphQLErrorExtensions`
 
 Extension fields to add to the formatted error.
 
@@ -85,9 +85,9 @@ node\_modules/graphql/error/GraphQLError.d.ts:77
 
 ### locations
 
-\> `readonly` **locations**: `undefined` \| readonly `SourceLocation`[]
+> `readonly` **locations**: `undefined` \| readonly `SourceLocation`[]
 
-An array of `\{ line, column \}` locations within the source GraphQL document
+An array of `{ line, column }` locations within the source GraphQL document
 which correspond to this error.
 
 Errors during validation often contain multiple locations, for example to
@@ -108,7 +108,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:46
 
 ### message
 
-\> **message**: `string`
+> **message**: `string`
 
 #### Inherited from
 
@@ -122,7 +122,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1077
 
 ### name
 
-\> **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
@@ -136,7 +136,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 ### nodes
 
-\> `readonly` **nodes**: `undefined` \| readonly `ASTNode`[]
+> `readonly` **nodes**: `undefined` \| readonly `ASTNode`[]
 
 An array of GraphQL AST Nodes corresponding to this error.
 
@@ -152,7 +152,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:57
 
 ### originalError
 
-\> `readonly` **originalError**: `undefined` \| `Error`
+> `readonly` **originalError**: `undefined` \| `Error`
 
 The original error thrown from a field resolver during execution.
 
@@ -168,7 +168,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:73
 
 ### path
 
-\> `readonly` **path**: `undefined` \| readonly (`string` \| `number`)[]
+> `readonly` **path**: `undefined` \| readonly (`string` \| `number`)[]
 
 An array describing the JSON-path into the execution response which
 corresponds to this error. Only included for errors during execution.
@@ -187,7 +187,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:53
 
 ### positions
 
-\> `readonly` **positions**: `undefined` \| readonly `number`[]
+> `readonly` **positions**: `undefined` \| readonly `number`[]
 
 An array of character offsets within the source GraphQL document
 which correspond to this error.
@@ -204,7 +204,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:69
 
 ### source
 
-\> `readonly` **source**: `undefined` \| `Source`
+> `readonly` **source**: `undefined` \| `Source`
 
 The source GraphQL document for the first location of this error.
 
@@ -223,7 +223,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:64
 
 ### stack?
 
-\> `optional` **stack**: `string`
+> `optional` **stack**: `string`
 
 #### Inherited from
 
@@ -237,7 +237,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 ### prepareStackTrace()?
 
-\> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) =\> `any`
+> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) => `any`
 
 Optional override for formatting stack traces
 
@@ -267,7 +267,7 @@ node\_modules/@types/node/globals.d.ts:28
 
 ### stackTraceLimit
 
-\> `static` **stackTraceLimit**: `number`
+> `static` **stackTraceLimit**: `number`
 
 #### Inherited from
 
@@ -281,7 +281,7 @@ node\_modules/@types/node/globals.d.ts:30
 
 ### \[toStringTag\]
 
-\> `get` **\[toStringTag\]**(): `string`
+> `get` **\[toStringTag\]**(): `string`
 
 #### Returns
 
@@ -299,7 +299,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:95
 
 ### toJSON()
 
-\> **toJSON**(): `GraphQLFormattedError`
+> **toJSON**(): `GraphQLFormattedError`
 
 #### Returns
 
@@ -317,7 +317,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:97
 
 ### toString()
 
-\> **toString**(): `string`
+> **toString**(): `string`
 
 Returns a string representation of an object.
 
@@ -337,7 +337,7 @@ node\_modules/graphql/error/GraphQLError.d.ts:96
 
 ### captureStackTrace()
 
-\> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
+> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
 
 Create .stack property on a target object
 

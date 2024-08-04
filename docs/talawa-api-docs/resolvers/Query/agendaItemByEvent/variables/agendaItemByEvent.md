@@ -6,7 +6,7 @@
 
 # Variable: agendaItemByEvent
 
-\> `const` **agendaItemByEvent**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"agendaItemByEvent"`\]
+> `const` **agendaItemByEvent**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"agendaItemByEvent"`\]
 
 This query will fetch all items for the organization from database.
 
@@ -18,4 +18,4 @@ An object that contains `organizationId` which is the _id of the Organization.
 
 ## Defined in
 
-[src/resolvers/Query/agendaItemByEvent.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Query/agendaItemByEvent.ts#L10)
+[src/resolvers/Query/agendaItemByEvent.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/agendaItemByEvent.ts#L10)

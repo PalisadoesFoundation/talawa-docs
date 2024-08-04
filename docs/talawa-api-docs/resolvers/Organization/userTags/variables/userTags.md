@@ -6,7 +6,7 @@
 
 # Variable: userTags
 
-\> `const` **userTags**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"userTags"`\]
+> `const` **userTags**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"userTags"`\]
 
 Resolver function for the `userTags` field of an `Organization`.
 
@@ -33,4 +33,4 @@ The arguments provided to the field. These arguments are used to filter, sort, a
 
 ## Defined in
 
-[src/resolvers/Organization/userTags.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Organization/userTags.ts#L36)
+[src/resolvers/Organization/userTags.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Organization/userTags.ts#L36)

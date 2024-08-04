@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionSortedByResult\<T0\>
 
-\> **ParseGraphQLConnectionSortedByResult**\<`T0`\>: `object` \| `object`
+> **ParseGraphQLConnectionSortedByResult**\<`T0`\>: `object` \| `object`
 
 This is typescript type of the object returned from callback function `parseSortedBy`.
 
@@ -16,4 +16,4 @@ This is typescript type of the object returned from callback function `parseSort
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L15)

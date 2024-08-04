@@ -6,8 +6,8 @@
 
 # Variable: EventVolunteer
 
-\> `const` **EventVolunteer**: [`EventVolunteerResolvers`](../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerResolvers.md)
+> `const` **EventVolunteer**: [`EventVolunteerResolvers`](../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerResolvers.md)
 
 ## Defined in
 
-[src/resolvers/EventVolunteer/index.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/EventVolunteer/index.ts#L7)
+[src/resolvers/EventVolunteer/index.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/EventVolunteer/index.ts#L7)

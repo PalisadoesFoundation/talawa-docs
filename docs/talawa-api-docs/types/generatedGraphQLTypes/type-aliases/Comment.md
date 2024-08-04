@@ -6,46 +6,46 @@
 
 # Type Alias: Comment
 
-\> **Comment**: `object`
+> **Comment**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"Comment"`
+> `optional` **\_\_typename**: `"Comment"`
 
 ### \_id
 
-\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### creator?
 
-\> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
+> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
 
 ### likeCount?
 
-\> `optional` **likeCount**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+> `optional` **likeCount**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ### likedBy?
 
-\> `optional` **likedBy**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`User`](User.md)\>[]\>
+> `optional` **likedBy**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`User`](User.md)\>[]\>
 
 ### post
 
-\> **post**: [`Post`](Post.md)
+> **post**: [`Post`](Post.md)
 
 ### text
 
-\> **text**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **text**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### updatedAt
 
-\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:285](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L285)
+[src/types/generatedGraphQLTypes.ts:285](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L285)

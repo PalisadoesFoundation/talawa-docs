@@ -27,13 +27,13 @@ Core features include:
 
 ## Table of Contents
 
-\<!-- toc --\>
+<!-- toc -->
 
   - [Talawa Components](#talawa-components)
 - [Documentation](#documentation)
 - [Videos](#videos)
 
-\<!-- tocstop --\>
+<!-- tocstop -->
 
 ## Talawa Components
 

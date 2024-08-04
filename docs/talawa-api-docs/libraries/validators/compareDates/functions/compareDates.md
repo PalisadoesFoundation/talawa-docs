@@ -6,7 +6,7 @@
 
 # Function: compareDates()
 
-\> **compareDates**(`date1`, `date2`): `string`
+> **compareDates**(`date1`, `date2`): `string`
 
 Compares two dates and returns a message if the first date is later than the second date.
 
@@ -28,4 +28,4 @@ A message indicating that the start date must be earlier than the end date, or a
 
 ## Defined in
 
-[src/libraries/validators/compareDates.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/validators/compareDates.ts#L8)
+[src/libraries/validators/compareDates.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/validators/compareDates.ts#L8)

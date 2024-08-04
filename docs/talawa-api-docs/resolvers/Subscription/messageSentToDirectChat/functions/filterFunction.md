@@ -6,7 +6,7 @@
 
 # Function: filterFunction()
 
-\> **filterFunction**(`payload`, `variables`): `boolean`
+> **filterFunction**(`payload`, `variables`): `boolean`
 
 ## Parameters
 
@@ -20,4 +20,4 @@
 
 ## Defined in
 
-[src/resolvers/Subscription/messageSentToDirectChat.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Subscription/messageSentToDirectChat.ts#L7)
+[src/resolvers/Subscription/messageSentToDirectChat.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Subscription/messageSentToDirectChat.ts#L7)

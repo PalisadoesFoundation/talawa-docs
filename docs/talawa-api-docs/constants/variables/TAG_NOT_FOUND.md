@@ -6,22 +6,22 @@
 
 # Variable: TAG\_NOT\_FOUND
 
-\> `const` **TAG\_NOT\_FOUND**: `Readonly`\<`object`\>
+> `const` **TAG\_NOT\_FOUND**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"tag.doesNotExist"` = `"tag.doesNotExist"`
+> **CODE**: `"tag.doesNotExist"` = `"tag.doesNotExist"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"The tag with the specified ID doesn't exist."` = `"The tag with the specified ID doesn't exist."`
+> **MESSAGE**: `"The tag with the specified ID doesn't exist."` = `"The tag with the specified ID doesn't exist."`
 
 ### PARAM
 
-\> **PARAM**: `"tag.doesNotExist"` = `"tag.doesNotExist"`
+> **PARAM**: `"tag.doesNotExist"` = `"tag.doesNotExist"`
 
 ## Defined in
 
-[src/constants.ts:411](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L411)
+[src/constants.ts:411](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L411)

@@ -6,22 +6,22 @@
 
 # Type Alias: CreateMemberPayload
 
-\> **CreateMemberPayload**: `object`
+> **CreateMemberPayload**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"CreateMemberPayload"`
+> `optional` **\_\_typename**: `"CreateMemberPayload"`
 
 ### organization?
 
-\> `optional` **organization**: [`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>
+> `optional` **organization**: [`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>
 
 ### userErrors
 
-\> **userErrors**: [`CreateMemberError`](CreateMemberError.md)[]
+> **userErrors**: [`CreateMemberError`](CreateMemberError.md)[]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:407](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L407)
+[src/types/generatedGraphQLTypes.ts:407](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L407)

@@ -6,7 +6,7 @@
 
 # Type Alias: UserTagsConnectionEdge
 
-\> **UserTagsConnectionEdge**: `object`
+> **UserTagsConnectionEdge**: `object`
 
 A default connection edge on the UserTag type for UserTagsConnection.
 
@@ -14,16 +14,16 @@ A default connection edge on the UserTag type for UserTagsConnection.
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"UserTagsConnectionEdge"`
+> `optional` **\_\_typename**: `"UserTagsConnectionEdge"`
 
 ### cursor
 
-\> **cursor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **cursor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### node
 
-\> **node**: [`UserTag`](UserTag.md)
+> **node**: [`UserTag`](UserTag.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3056](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L3056)
+[src/types/generatedGraphQLTypes.ts:3056](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L3056)

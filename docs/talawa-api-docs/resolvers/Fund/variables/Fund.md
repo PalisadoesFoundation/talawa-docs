@@ -6,7 +6,7 @@
 
 # Variable: Fund
 
-\> `const` **Fund**: [`FundResolvers`](../../../types/generatedGraphQLTypes/type-aliases/FundResolvers.md)
+> `const` **Fund**: [`FundResolvers`](../../../types/generatedGraphQLTypes/type-aliases/FundResolvers.md)
 
 Resolver functions for the fields of a `Fund`.
 
@@ -18,4 +18,4 @@ FundResolvers - The type definition for the resolvers of the Fund fields.
 
 ## Defined in
 
-[src/resolvers/Fund/index.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Fund/index.ts#L12)
+[src/resolvers/Fund/index.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Fund/index.ts#L12)

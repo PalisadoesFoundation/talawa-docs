@@ -6,7 +6,7 @@
 
 # Variable: organization
 
-\> `const` **organization**: [`GroupChatResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/GroupChatResolvers.md)\[`"organization"`\]
+> `const` **organization**: [`GroupChatResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/GroupChatResolvers.md)\[`"organization"`\]
 
 Resolver function for the `organization` field of a `GroupChat`.
 
@@ -23,4 +23,4 @@ The parent object representing the group chat. It contains information about the
 
 ## Defined in
 
-[src/resolvers/GroupChat/organization.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/GroupChat/organization.ts#L19)
+[src/resolvers/GroupChat/organization.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/GroupChat/organization.ts#L19)

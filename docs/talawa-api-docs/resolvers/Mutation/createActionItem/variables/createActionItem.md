@@ -6,7 +6,7 @@
 
 # Variable: createActionItem
 
-\> `const` **createActionItem**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createActionItem"`\]
+> `const` **createActionItem**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createActionItem"`\]
 
 Creates a new action item and assigns it to a user.
 
@@ -40,4 +40,4 @@ The context of the entire application, including user information and other cont
 
 ## Defined in
 
-[src/resolvers/Mutation/createActionItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createActionItem.ts#L58)
+[src/resolvers/Mutation/createActionItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createActionItem.ts#L58)

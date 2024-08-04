@@ -6,7 +6,7 @@
 
 # Type Alias: Scalars
 
-\> **Scalars**: `object`
+> **Scalars**: `object`
 
 All built-in and custom scalars, mapped to their actual values
 
@@ -14,220 +14,220 @@ All built-in and custom scalars, mapped to their actual values
 
 ### Any
 
-\> **Any**: `object`
+> **Any**: `object`
 
 ### Any.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### Any.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### Boolean
 
-\> **Boolean**: `object`
+> **Boolean**: `object`
 
 ### Boolean.input
 
-\> **input**: `boolean`
+> **input**: `boolean`
 
 ### Boolean.output
 
-\> **output**: `boolean`
+> **output**: `boolean`
 
 ### CountryCode
 
-\> **CountryCode**: `object`
+> **CountryCode**: `object`
 
 ### CountryCode.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### CountryCode.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### Date
 
-\> **Date**: `object`
+> **Date**: `object`
 
 ### Date.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### Date.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### DateTime
 
-\> **DateTime**: `object`
+> **DateTime**: `object`
 
 ### DateTime.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### DateTime.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### EmailAddress
 
-\> **EmailAddress**: `object`
+> **EmailAddress**: `object`
 
 ### EmailAddress.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### EmailAddress.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### Float
 
-\> **Float**: `object`
+> **Float**: `object`
 
 ### Float.input
 
-\> **input**: `number`
+> **input**: `number`
 
 ### Float.output
 
-\> **output**: `number`
+> **output**: `number`
 
 ### ID
 
-\> **ID**: `object`
+> **ID**: `object`
 
 ### ID.input
 
-\> **input**: `string`
+> **input**: `string`
 
 ### ID.output
 
-\> **output**: `string`
+> **output**: `string`
 
 ### Int
 
-\> **Int**: `object`
+> **Int**: `object`
 
 ### Int.input
 
-\> **input**: `number`
+> **input**: `number`
 
 ### Int.output
 
-\> **output**: `number`
+> **output**: `number`
 
 ### JSON
 
-\> **JSON**: `object`
+> **JSON**: `object`
 
 ### JSON.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### JSON.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### Latitude
 
-\> **Latitude**: `object`
+> **Latitude**: `object`
 
 ### Latitude.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### Latitude.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### Longitude
 
-\> **Longitude**: `object`
+> **Longitude**: `object`
 
 ### Longitude.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### Longitude.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### PhoneNumber
 
-\> **PhoneNumber**: `object`
+> **PhoneNumber**: `object`
 
 ### PhoneNumber.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### PhoneNumber.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### PositiveInt
 
-\> **PositiveInt**: `object`
+> **PositiveInt**: `object`
 
 ### PositiveInt.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### PositiveInt.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### String
 
-\> **String**: `object`
+> **String**: `object`
 
 ### String.input
 
-\> **input**: `string`
+> **input**: `string`
 
 ### String.output
 
-\> **output**: `string`
+> **output**: `string`
 
 ### Time
 
-\> **Time**: `object`
+> **Time**: `object`
 
 ### Time.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### Time.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### URL
 
-\> **URL**: `object`
+> **URL**: `object`
 
 ### URL.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### URL.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ### Upload
 
-\> **Upload**: `object`
+> **Upload**: `object`
 
 ### Upload.input
 
-\> **input**: `any`
+> **input**: `any`
 
 ### Upload.output
 
-\> **output**: `any`
+> **output**: `any`
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L50)
+[src/types/generatedGraphQLTypes.ts:50](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L50)

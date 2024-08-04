@@ -6,7 +6,7 @@
 
 # Function: transformToDefaultGraphQLConnection()
 
-\> **transformToDefaultGraphQLConnection**\<`T0`, `T1`, `T2`\>(`__namedParameters`): [`DefaultGraphQLConnection`](../../generateDefaultGraphQLConnection/type-aliases/DefaultGraphQLConnection.md)\<`T2`\>
+> **transformToDefaultGraphQLConnection**\<`T0`, `T1`, `T2`\>(`__namedParameters`): [`DefaultGraphQLConnection`](../../generateDefaultGraphQLConnection/type-aliases/DefaultGraphQLConnection.md)\<`T2`\>
 
 This function is used to transform a list of objects to a standard graphQL connection object.
 
@@ -49,13 +49,13 @@ return transformToDefaultGraphQLConnection\<
  String,
  DatabaseUser,
  DatabaseUser
-\>(\{
+\>({
  objectList,
  parsedArgs,
  totalCount,
-\});
+});
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L53)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L53)

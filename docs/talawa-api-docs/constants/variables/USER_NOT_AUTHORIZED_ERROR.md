@@ -6,26 +6,26 @@
 
 # Variable: USER\_NOT\_AUTHORIZED\_ERROR
 
-\> `const` **USER\_NOT\_AUTHORIZED\_ERROR**: `Readonly`\<`object`\>
+> `const` **USER\_NOT\_AUTHORIZED\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"user.notAuthorized"` = `"user.notAuthorized"`
+> **CODE**: `"user.notAuthorized"` = `"user.notAuthorized"`
 
 ### DESC
 
-\> **DESC**: `"User is not authorized for performing this operation"` = `"User is not authorized for performing this operation"`
+> **DESC**: `"User is not authorized for performing this operation"` = `"User is not authorized for performing this operation"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"user.notAuthorized"` = `"user.notAuthorized"`
+> **MESSAGE**: `"user.notAuthorized"` = `"user.notAuthorized"`
 
 ### PARAM
 
-\> **PARAM**: `"user"` = `"user"`
+> **PARAM**: `"user"` = `"user"`
 
 ## Defined in
 
-[src/constants.ts:502](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L502)
+[src/constants.ts:502](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L502)

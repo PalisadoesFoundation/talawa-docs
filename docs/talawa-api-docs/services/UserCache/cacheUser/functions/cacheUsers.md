@@ -6,7 +6,7 @@
 
 # Function: cacheUsers()
 
-\> **cacheUsers**(`users`): `Promise`\<`void`\>
+> **cacheUsers**(`users`): `Promise`\<`void`\>
 
 Caches the provided array of InterfaceUser objects in Redis.
 
@@ -24,4 +24,4 @@ A promise resolving to void.
 
 ## Defined in
 
-[src/services/UserCache/cacheUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/UserCache/cacheUser.ts#L11)
+[src/services/UserCache/cacheUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/UserCache/cacheUser.ts#L11)

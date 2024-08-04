@@ -6,7 +6,7 @@
 
 # Function: cacheComments()
 
-\> **cacheComments**(`comments`): `Promise`\<`void`\>
+> **cacheComments**(`comments`): `Promise`\<`void`\>
 
 Stores comments in Redis cache with a specified time-to-live (TTL).
 
@@ -20,8 +20,8 @@ Array of comments to be cached.
 
 `Promise`\<`void`\>
 
-Promise\<void\>
+Promise<void>
 
 ## Defined in
 
-[src/services/CommentCache/cacheComments.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/CommentCache/cacheComments.ts#L10)
+[src/services/CommentCache/cacheComments.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/CommentCache/cacheComments.ts#L10)

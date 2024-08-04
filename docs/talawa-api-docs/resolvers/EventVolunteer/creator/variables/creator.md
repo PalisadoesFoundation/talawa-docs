@@ -6,7 +6,7 @@
 
 # Variable: creator
 
-\> `const` **creator**: [`EventVolunteerResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerResolvers.md)\[`"creator"`\]
+> `const` **creator**: [`EventVolunteerResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerResolvers.md)\[`"creator"`\]
 
 Resolver function for the `creator` field of an `EventVolunteer`.
 
@@ -23,4 +23,4 @@ The parent object representing the event volunteer. It contains information abou
 
 ## Defined in
 
-[src/resolvers/EventVolunteer/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/EventVolunteer/creator.ts#L16)
+[src/resolvers/EventVolunteer/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/EventVolunteer/creator.ts#L16)

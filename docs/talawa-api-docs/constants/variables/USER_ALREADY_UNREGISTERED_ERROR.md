@@ -6,26 +6,26 @@
 
 # Variable: USER\_ALREADY\_UNREGISTERED\_ERROR
 
-\> `const` **USER\_ALREADY\_UNREGISTERED\_ERROR**: `Readonly`\<`object`\>
+> `const` **USER\_ALREADY\_UNREGISTERED\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"registrant.alreadyUnregistered"` = `"registrant.alreadyUnregistered"`
+> **CODE**: `"registrant.alreadyUnregistered"` = `"registrant.alreadyUnregistered"`
 
 ### DESC
 
-\> **DESC**: `"Already registered for the event"` = `"Already registered for the event"`
+> **DESC**: `"Already registered for the event"` = `"Already registered for the event"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"registrant.alreadyUnregistered"` = `"registrant.alreadyUnregistered"`
+> **MESSAGE**: `"registrant.alreadyUnregistered"` = `"registrant.alreadyUnregistered"`
 
 ### PARAM
 
-\> **PARAM**: `"registrant"` = `"registrant"`
+> **PARAM**: `"registrant"` = `"registrant"`
 
 ## Defined in
 
-[src/constants.ts:496](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L496)
+[src/constants.ts:496](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L496)

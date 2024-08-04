@@ -6,7 +6,7 @@
 
 # Type Alias: CreateNode()\<T0, T1\>
 
-\> **CreateNode**\<`T0`, `T1`\>: (`object`) =\> `T1`
+> **CreateNode**\<`T0`, `T1`\>: (`object`) => `T1`
 
 This is typescript type of the callback function `createNode`.
 
@@ -26,4 +26,4 @@ This is typescript type of the callback function `createNode`.
 
 ## Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L16)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L16)

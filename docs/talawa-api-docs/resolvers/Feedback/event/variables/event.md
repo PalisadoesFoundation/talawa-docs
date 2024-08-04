@@ -6,7 +6,7 @@
 
 # Variable: event
 
-\> `const` **event**: [`FeedbackResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/FeedbackResolvers.md)\[`"event"`\]
+> `const` **event**: [`FeedbackResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/FeedbackResolvers.md)\[`"event"`\]
 
 Resolver function for the `event` field of a `Feedback`.
 
@@ -23,4 +23,4 @@ The parent object representing the feedback. It contains information about the f
 
 ## Defined in
 
-[src/resolvers/Feedback/event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Feedback/event.ts#L16)
+[src/resolvers/Feedback/event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Feedback/event.ts#L16)

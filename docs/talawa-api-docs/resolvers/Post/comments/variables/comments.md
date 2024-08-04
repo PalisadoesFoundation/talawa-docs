@@ -6,7 +6,7 @@
 
 # Variable: comments
 
-\> `const` **comments**: [`PostResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/PostResolvers.md)\[`"comments"`\]
+> `const` **comments**: [`PostResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/PostResolvers.md)\[`"comments"`\]
 
 Resolver function for the `comments` field of a `Post`.
 
@@ -23,4 +23,4 @@ The parent object representing the post. It contains information about the post,
 
 ## Defined in
 
-[src/resolvers/Post/comments.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Post/comments.ts#L18)
+[src/resolvers/Post/comments.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Post/comments.ts#L18)

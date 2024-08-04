@@ -6,8 +6,8 @@
 
 # Variable: MONGO\_DB\_URL
 
-\> `const` **MONGO\_DB\_URL**: `undefined` \| `string` = `ENV.MONGO_DB_URL`
+> `const` **MONGO\_DB\_URL**: `undefined` \| `string` = `ENV.MONGO_DB_URL`
 
 ## Defined in
 
-[src/constants.ts:711](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L711)
+[src/constants.ts:711](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L711)

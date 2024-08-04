@@ -6,7 +6,7 @@
 
 # Variable: usersConnection
 
-\> `const` **usersConnection**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"usersConnection"`\]
+> `const` **usersConnection**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"usersConnection"`\]
 
 This query will fetch all the users in a specified order to paginate from the database.
 
@@ -23,4 +23,4 @@ learn more about Connection [here](https://relay.dev/graphql/connections.htm).
 
 ## Defined in
 
-[src/resolvers/Query/usersConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Query/usersConnection.ts#L16)
+[src/resolvers/Query/usersConnection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/usersConnection.ts#L16)

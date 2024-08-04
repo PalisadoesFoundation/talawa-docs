@@ -6,7 +6,7 @@
 
 # Variable: groupChatMessageBelongsTo
 
-\> `const` **groupChatMessageBelongsTo**: [`GroupChatMessageResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/GroupChatMessageResolvers.md)\[`"groupChatMessageBelongsTo"`\]
+> `const` **groupChatMessageBelongsTo**: [`GroupChatMessageResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/GroupChatMessageResolvers.md)\[`"groupChatMessageBelongsTo"`\]
 
 Resolver function for the `groupChatMessageBelongsTo` field of a `GroupChatMessage`.
 
@@ -23,4 +23,4 @@ The parent object representing the group chat message. It contains information a
 
 ## Defined in
 
-[src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts#L18)
+[src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/GroupChatMessage/groupChatMessageBelongsTo.ts#L18)

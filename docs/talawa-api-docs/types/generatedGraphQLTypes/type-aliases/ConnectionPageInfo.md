@@ -6,7 +6,7 @@
 
 # Type Alias: ConnectionPageInfo
 
-\> **ConnectionPageInfo**: `object`
+> **ConnectionPageInfo**: `object`
 
 The standard graphQL connection page info that contains metadata about a
 particular instance of a connection. ALl other custom connection page info
@@ -16,32 +16,32 @@ types must implement this interface.
 
 ### endCursor?
 
-\> `optional` **endCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+> `optional` **endCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 A field to tell the value of cursor for the last edge of a particular instance of a
 connection.
 
 ### hasNextPage
 
-\> **hasNextPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **hasNextPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 A field to tell whether the connection has additional edges after the
 edge with endCursor as its cursor.
 
 ### hasPreviousPage
 
-\> **hasPreviousPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+> **hasPreviousPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 A field to tell whether the connection has additional edges
 before the edge with startCursor as its cursor.
 
 ### startCursor?
 
-\> `optional` **startCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+> `optional` **startCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 A field to tell the value of cursor for the first edge of a particular instance of a
 connection.
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:317](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L317)
+[src/types/generatedGraphQLTypes.ts:317](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L317)

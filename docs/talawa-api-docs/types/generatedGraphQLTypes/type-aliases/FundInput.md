@@ -6,34 +6,34 @@
 
 # Type Alias: FundInput
 
-\> **FundInput**: `object`
+> **FundInput**: `object`
 
 ## Type declaration
 
 ### isArchived
 
-\> **isArchived**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
+> **isArchived**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
 
 ### isDefault
 
-\> **isDefault**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
+> **isDefault**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
 
 ### name
 
-\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### organizationId
 
-\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### refrenceNumber?
 
-\> `optional` **refrenceNumber**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+> `optional` **refrenceNumber**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### taxDeductible
 
-\> **taxDeductible**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
+> **taxDeductible**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:939](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L939)
+[src/types/generatedGraphQLTypes.ts:939](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L939)

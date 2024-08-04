@@ -6,7 +6,7 @@
 
 # Function: parseGraphQLConnectionArgumentsWithWhere()
 
-\> **parseGraphQLConnectionArgumentsWithWhere**\<`T0`, `T1`\>(`__namedParameters`): [`ParseGraphQLConnectionArgumentsWithWhereResult`](../type-aliases/ParseGraphQLConnectionArgumentsWithWhereResult.md)\<`T0`, `T1`\>
+> **parseGraphQLConnectionArgumentsWithWhere**\<`T0`, `T1`\>(`__namedParameters`): [`ParseGraphQLConnectionArgumentsWithWhereResult`](../type-aliases/ParseGraphQLConnectionArgumentsWithWhereResult.md)\<`T0`, `T1`\>
 
 This function handles validating and transforming arguments for a custom graphQL connection
 that also provides filtering capabilities.
@@ -36,26 +36,26 @@ that also provides filtering capabilities.
 ## Example
 
 ```ts
-const result = await parseGraphQLConnectionArgumentsWithSortedBy(\{
-  args: \{
+const result = await parseGraphQLConnectionArgumentsWithSortedBy({
+  args: {
     after,
     first,
-  \},
+  },
   maximumLimit: 20,
   parseCursor,
   parseSortedBy,
-\})
-if (result.isSuccessful === false) \{
-   throw new GraphQLError("Invalid arguments provided.", \{
-     extensions: \{
+})
+if (result.isSuccessful === false) {
+   throw new GraphQLError("Invalid arguments provided.", {
+     extensions: {
        code: "INVALID_ARGUMENTS",
        errors: result.errors
-     \}
-  \})
-\}
-const \{ parsedArgs: \{ cursor, direction, filter, limit \} \} = result;
+     }
+  })
+}
+const { parsedArgs: { cursor, direction, filter, limit } } = result;
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L70)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:70](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L70)

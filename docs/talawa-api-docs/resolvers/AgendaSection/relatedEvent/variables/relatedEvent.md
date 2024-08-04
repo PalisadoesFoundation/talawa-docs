@@ -6,7 +6,7 @@
 
 # Variable: relatedEvent
 
-\> `const` **relatedEvent**: [`AgendaSectionResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaSectionResolvers.md)\[`"relatedEvent"`\]
+> `const` **relatedEvent**: [`AgendaSectionResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaSectionResolvers.md)\[`"relatedEvent"`\]
 
 Resolver function for the `relatedEvent` field of an `AgendaSection`.
 
@@ -23,4 +23,4 @@ The parent object representing the agenda section. It contains information about
 
 ## Defined in
 
-[src/resolvers/AgendaSection/relatedEvent.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/AgendaSection/relatedEvent.ts#L17)
+[src/resolvers/AgendaSection/relatedEvent.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/AgendaSection/relatedEvent.ts#L17)

@@ -6,7 +6,7 @@
 
 # Function: createLoggingMiddleware()
 
-\> **createLoggingMiddleware**\<`T`\>(`schema`, `modelName`): `void`
+> **createLoggingMiddleware**\<`T`\>(`schema`, `modelName`): `void`
 
 Creates a logging middleware for a Mongoose schema. This middleware logs
 create, update, and delete operations on the specified schema.
@@ -31,4 +31,4 @@ The name of the model associated with the schema
 
 ## Defined in
 
-[src/libraries/dbLogger.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L65)
+[src/libraries/dbLogger.ts:65](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/dbLogger.ts#L65)

@@ -6,7 +6,7 @@
 
 # Function: encodedImageExtentionCheck()
 
-\> **encodedImageExtentionCheck**(`encodedUrl`): `boolean`
+> **encodedImageExtentionCheck**(`encodedUrl`): `boolean`
 
 Checks if the extension of an encoded image URL is valid (png, jpg, jpeg).
 
@@ -24,4 +24,4 @@ Encoded URL of the image.
 
 ## Defined in
 
-[src/utilities/encodedImageStorage/encodedImageExtensionCheck.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/encodedImageStorage/encodedImageExtensionCheck.ts#L6)
+[src/utilities/encodedImageStorage/encodedImageExtensionCheck.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/encodedImageStorage/encodedImageExtensionCheck.ts#L6)

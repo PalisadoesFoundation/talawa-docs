@@ -6,7 +6,7 @@
 
 # Variable: user
 
-\> `const` **user**: [`CheckInResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/CheckInResolvers.md)\[`"user"`\]
+> `const` **user**: [`CheckInResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/CheckInResolvers.md)\[`"user"`\]
 
 Resolver function for the `user` field of a `CheckIn`.
 
@@ -23,4 +23,4 @@ The parent object representing the check-in. It contains information about the c
 
 ## Defined in
 
-[src/resolvers/CheckIn/user.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/CheckIn/user.ts#L16)
+[src/resolvers/CheckIn/user.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/CheckIn/user.ts#L16)

@@ -6,22 +6,22 @@
 
 # Variable: LENGTH\_VALIDATION\_ERROR
 
-\> `const` **LENGTH\_VALIDATION\_ERROR**: `Readonly`\<`object`\>
+> `const` **LENGTH\_VALIDATION\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"string.notValid"` = `"string.notValid"`
+> **CODE**: `"string.notValid"` = `"string.notValid"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"Error: Length must be greater than 0 and less than"` = `"Error: Length must be greater than 0 and less than"`
+> **MESSAGE**: `"Error: Length must be greater than 0 and less than"` = `"Error: Length must be greater than 0 and less than"`
 
 ### PARAM
 
-\> **PARAM**: `"stringValidation"` = `"stringValidation"`
+> **PARAM**: `"stringValidation"` = `"stringValidation"`
 
 ## Defined in
 
-[src/constants.ts:288](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L288)
+[src/constants.ts:288](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L288)

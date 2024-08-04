@@ -12,78 +12,78 @@ Represents a document for a direct chat message in the MongoDB database.
 
 ### \_id
 
-\> **\_id**: `ObjectId`
+> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L11)
+[src/models/DirectChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L11)
 
 ***
 
 ### createdAt
 
-\> **createdAt**: `Date`
+> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L17)
+[src/models/DirectChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L17)
 
 ***
 
 ### directChatMessageBelongsTo
 
-\> **directChatMessageBelongsTo**: `any`
+> **directChatMessageBelongsTo**: `any`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L12)
+[src/models/DirectChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L12)
 
 ***
 
 ### messageContent
 
-\> **messageContent**: `string`
+> **messageContent**: `string`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L15)
+[src/models/DirectChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L15)
 
 ***
 
 ### receiver
 
-\> **receiver**: `any`
+> **receiver**: `any`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L14)
+[src/models/DirectChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L14)
 
 ***
 
 ### sender
 
-\> **sender**: `any`
+> **sender**: `any`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L13)
+[src/models/DirectChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L13)
 
 ***
 
 ### status
 
-\> **status**: `string`
+> **status**: `string`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L16)
+[src/models/DirectChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L16)
 
 ***
 
 ### updatedAt
 
-\> **updatedAt**: `Date`
+> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/DirectChatMessage.ts#L18)
+[src/models/DirectChatMessage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/DirectChatMessage.ts#L18)

@@ -6,22 +6,22 @@
 
 # Variable: USER\_ALREADY\_HAS\_TAG
 
-\> `const` **USER\_ALREADY\_HAS\_TAG**: `Readonly`\<`object`\>
+> `const` **USER\_ALREADY\_HAS\_TAG**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"user.alreadyHasTag"` = `"user.alreadyHasTag"`
+> **CODE**: `"user.alreadyHasTag"` = `"user.alreadyHasTag"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"The user already has the tag that it is being requested to assigned."` = `"The user already has the tag that it is being requested to assigned."`
+> **MESSAGE**: `"The user already has the tag that it is being requested to assigned."` = `"The user already has the tag that it is being requested to assigned."`
 
 ### PARAM
 
-\> **PARAM**: `"user.alreadyHasTag"` = `"user.alreadyHasTag"`
+> **PARAM**: `"user.alreadyHasTag"` = `"user.alreadyHasTag"`
 
 ## Defined in
 
-[src/constants.ts:458](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L458)
+[src/constants.ts:458](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L458)

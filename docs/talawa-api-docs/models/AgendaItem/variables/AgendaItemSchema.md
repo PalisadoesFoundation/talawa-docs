@@ -6,7 +6,7 @@
 
 # Variable: AgendaItemSchema
 
-\> `const` **AgendaItemSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
+> `const` **AgendaItemSchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
 
 Mongoose schema definition for an agenda item document.
 
@@ -76,4 +76,4 @@ Array of notes associated with the agenda item.
 
 ## Defined in
 
-[src/models/AgendaItem.ts:59](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaItem.ts#L59)
+[src/models/AgendaItem.ts:59](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaItem.ts#L59)

@@ -6,22 +6,22 @@
 
 # Variable: INVALID\_TAG\_INPUT
 
-\> `const` **INVALID\_TAG\_INPUT**: `Readonly`\<`object`\>
+> `const` **INVALID\_TAG\_INPUT**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"invalidArgs"` = `"invalidArgs"`
+> **CODE**: `"invalidArgs"` = `"invalidArgs"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"Either an organizatin ID or a parent tag ID must be provided for this operation."` = `"Either an organizatin ID or a parent tag ID must be provided for this operation."`
+> **MESSAGE**: `"Either an organizatin ID or a parent tag ID must be provided for this operation."` = `"Either an organizatin ID or a parent tag ID must be provided for this operation."`
 
 ### PARAM
 
-\> **PARAM**: `"invalidArgs"` = `"invalidArgs"`
+> **PARAM**: `"invalidArgs"` = `"invalidArgs"`
 
 ## Defined in
 
-[src/constants.ts:424](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L424)
+[src/constants.ts:424](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L424)

@@ -6,7 +6,7 @@
 
 # Type Alias: ResolverFn()\<TResult, TParent, TContext, TArgs\>
 
-\> **ResolverFn**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`, `args`, `context`, `info`?) =\> `Promise`\<`TResult`\> \| `TResult`
+> **ResolverFn**\<`TResult`, `TParent`, `TContext`, `TArgs`\>: (`parent`, `args`, `context`, `info`?) => `Promise`\<`TResult`\> \| `TResult`
 
 ## Type Parameters
 
@@ -34,4 +34,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3176](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L3176)
+[src/types/generatedGraphQLTypes.ts:3176](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L3176)

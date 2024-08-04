@@ -6,18 +6,18 @@
 
 # Type Alias: MutationBlockPluginCreationBySuperadminArgs
 
-\> **MutationBlockPluginCreationBySuperadminArgs**: `object`
+> **MutationBlockPluginCreationBySuperadminArgs**: `object`
 
 ## Type declaration
 
 ### blockUser
 
-\> **blockUser**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
+> **blockUser**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]
 
 ### userId
 
-\> **userId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+> **userId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1345](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1345)
+[src/types/generatedGraphQLTypes.ts:1345](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1345)

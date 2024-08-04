@@ -6,7 +6,7 @@
 
 # Type Alias: TransactionLogInfo
 
-\> **TransactionLogInfo**: `object`
+> **TransactionLogInfo**: `object`
 
 The structure of a transaction log entry.
 
@@ -14,34 +14,34 @@ The structure of a transaction log entry.
 
 ### model
 
-\> **model**: `string`
+> **model**: `string`
 
 The name of the model associated with the log entry
 
 ### query?
 
-\> `optional` **query**: `string`
+> `optional` **query**: `string`
 
 The query executed (optional)
 
 ### timestamp
 
-\> **timestamp**: `string`
+> **timestamp**: `string`
 
 The timestamp when the log entry was created
 
 ### type
 
-\> **type**: `string`
+> **type**: `string`
 
 The type of transaction (e.g., create, update, delete)
 
 ### update?
 
-\> `optional` **update**: `string`
+> `optional` **update**: `string`
 
 The update performed (optional)
 
 ## Defined in
 
-[src/libraries/dbLogger.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L8)
+[src/libraries/dbLogger.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/dbLogger.ts#L8)

@@ -6,7 +6,7 @@
 
 # Function: validateImageFileSize()
 
-\> **validateImageFileSize**(`size`): `boolean`
+> **validateImageFileSize**(`size`): `boolean`
 
 The function validates whether a given image size is less than 20 and greater than 0.
 
@@ -22,4 +22,4 @@ a boolean value.
 
 ## Defined in
 
-[src/setup/setImageUploadSize.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/setup/setImageUploadSize.ts#L37)
+[src/setup/setImageUploadSize.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/setup/setImageUploadSize.ts#L37)

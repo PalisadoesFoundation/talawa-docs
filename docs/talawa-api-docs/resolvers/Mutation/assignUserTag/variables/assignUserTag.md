@@ -6,7 +6,7 @@
 
 # Variable: assignUserTag
 
-\> `const` **assignUserTag**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"assignUserTag"`\]
+> `const` **assignUserTag**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"assignUserTag"`\]
 
 This function enables an admin to assign tag to user or not.
 
@@ -35,4 +35,4 @@ The following checks are done:
 
 ## Defined in
 
-[src/resolvers/Mutation/assignUserTag.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/assignUserTag.ts#L39)
+[src/resolvers/Mutation/assignUserTag.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/assignUserTag.ts#L39)

@@ -6,18 +6,18 @@
 
 # Type Alias: MemberNotFoundError
 
-\> **MemberNotFoundError**: [`Error`](Error.md) & `object`
+> **MemberNotFoundError**: [`Error`](Error.md) & `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-\> `optional` **\_\_typename**: `"MemberNotFoundError"`
+> `optional` **\_\_typename**: `"MemberNotFoundError"`
 
 ### message
 
-\> **message**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+> **message**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1078](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/types/generatedGraphQLTypes.ts#L1078)
+[src/types/generatedGraphQLTypes.ts:1078](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L1078)

@@ -6,8 +6,8 @@
 
 # Variable: TagUser
 
-\> `const` **TagUser**: `Model`\<[`InterfaceTagUser`](../interfaces/InterfaceTagUser.md), `object`, `object`, `object`, `Document`\<`unknown`, `object`, [`InterfaceTagUser`](../interfaces/InterfaceTagUser.md)\> & [`InterfaceTagUser`](../interfaces/InterfaceTagUser.md) & `Required`\<`object`\>, `any`\>
+> `const` **TagUser**: `Model`\<[`InterfaceTagUser`](../interfaces/InterfaceTagUser.md), `object`, `object`, `object`, `Document`\<`unknown`, `object`, [`InterfaceTagUser`](../interfaces/InterfaceTagUser.md)\> & [`InterfaceTagUser`](../interfaces/InterfaceTagUser.md) & `Required`\<`object`\>, `any`\>
 
 ## Defined in
 
-[src/models/TagUser.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/TagUser.ts#L51)
+[src/models/TagUser.ts:51](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/TagUser.ts#L51)

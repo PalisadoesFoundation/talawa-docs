@@ -6,22 +6,22 @@
 
 # Variable: REGEX\_VALIDATION\_ERROR
 
-\> `const` **REGEX\_VALIDATION\_ERROR**: `Readonly`\<`object`\>
+> `const` **REGEX\_VALIDATION\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"string.notValid"` = `"string.notValid"`
+> **CODE**: `"string.notValid"` = `"string.notValid"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"Error: Entered value must be a valid string"` = `"Error: Entered value must be a valid string"`
+> **MESSAGE**: `"Error: Entered value must be a valid string"` = `"Error: Entered value must be a valid string"`
 
 ### PARAM
 
-\> **PARAM**: `"stringValidation"` = `"stringValidation"`
+> **PARAM**: `"stringValidation"` = `"stringValidation"`
 
 ## Defined in
 
-[src/constants.ts:300](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L300)
+[src/constants.ts:300](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L300)

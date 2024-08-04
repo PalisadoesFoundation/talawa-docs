@@ -6,8 +6,8 @@
 
 # Variable: unions
 
-\> `const` **unions**: `DocumentNode`
+> `const` **unions**: `DocumentNode`
 
 ## Defined in
 
-[src/typeDefs/unions.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/typeDefs/unions.ts#L4)
+[src/typeDefs/unions.ts:4](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/typeDefs/unions.ts#L4)

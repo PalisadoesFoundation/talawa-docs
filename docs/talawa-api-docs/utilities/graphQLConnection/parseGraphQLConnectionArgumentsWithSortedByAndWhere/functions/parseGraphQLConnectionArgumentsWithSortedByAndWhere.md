@@ -6,7 +6,7 @@
 
 # Function: parseGraphQLConnectionArgumentsWithSortedByAndWhere()
 
-\> **parseGraphQLConnectionArgumentsWithSortedByAndWhere**\<`T0`, `T1`, `T2`\>(`__namedParameters`): [`ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult`](../type-aliases/ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult.md)\<`T0`, `T1`, `T2`\>
+> **parseGraphQLConnectionArgumentsWithSortedByAndWhere**\<`T0`, `T1`, `T2`\>(`__namedParameters`): [`ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult`](../type-aliases/ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult.md)\<`T0`, `T1`, `T2`\>
 
 This function is used for validating and transforming arguments for a custom graphQL
 connection that also provides filtering and sorting capabilities.
@@ -40,27 +40,27 @@ connection that also provides filtering and sorting capabilities.
 ## Example
 
 ```ts
-const result = await parseGraphQLConnectionArgumentsWithSortedBy(\{
-  args: \{
+const result = await parseGraphQLConnectionArgumentsWithSortedBy({
+  args: {
     after,
     first,
-  \},
+  },
   maximumLimit: 20,
   parseCursor,
   parseSortedBy,
   parseWhere,
-\})
-if (result.isSuccessful === false) \{
-   throw new GraphQLError("Invalid arguments provided.", \{
-     extensions: \{
+})
+if (result.isSuccessful === false) {
+   throw new GraphQLError("Invalid arguments provided.", {
+     extensions: {
        code: "INVALID_ARGUMENTS",
        errors: result.errors
-     \}
-  \})
-\}
-const \{ parsedArgs: \{ cursor, direction, filter, limit, sort \} \} = result;
+     }
+  })
+}
+const { parsedArgs: { cursor, direction, filter, limit, sort } } = result;
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts#L68)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts#L68)

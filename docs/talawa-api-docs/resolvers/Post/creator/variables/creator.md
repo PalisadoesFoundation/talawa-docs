@@ -6,7 +6,7 @@
 
 # Variable: creator
 
-\> `const` **creator**: [`PostResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/PostResolvers.md)\[`"creator"`\]
+> `const` **creator**: [`PostResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/PostResolvers.md)\[`"creator"`\]
 
 Resolver function for the `creator` field of a `Post`.
 
@@ -23,4 +23,4 @@ The parent object representing the post. It contains information about the post,
 
 ## Defined in
 
-[src/resolvers/Post/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Post/creator.ts#L16)
+[src/resolvers/Post/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Post/creator.ts#L16)

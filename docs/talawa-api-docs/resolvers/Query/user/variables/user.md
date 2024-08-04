@@ -6,7 +6,7 @@
 
 # Variable: user
 
-\> `const` **user**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"user"`\]
+> `const` **user**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"user"`\]
 
 This query fetch the user from the database.
 
@@ -20,4 +20,4 @@ An object that contains `id` for the user.
 
 ## Defined in
 
-[src/resolvers/Query/user.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Query/user.ts#L13)
+[src/resolvers/Query/user.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/user.ts#L13)

@@ -6,7 +6,7 @@
 
 # Function: trace()
 
-\> **trace**\<`T`\>(`tracingId`, `method`): `Promise`\<`void`\>
+> **trace**\<`T`\>(`tracingId`, `method`): `Promise`\<`void`\>
 
 Runs a method within the context of a tracing ID. If a tracing ID is provided, it uses that ID;
 otherwise, it generates a new one.
@@ -33,4 +33,4 @@ A promise that resolves when the method completes.
 
 ## Defined in
 
-[src/libraries/requestTracing.ts:81](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/requestTracing.ts#L81)
+[src/libraries/requestTracing.ts:81](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/requestTracing.ts#L81)

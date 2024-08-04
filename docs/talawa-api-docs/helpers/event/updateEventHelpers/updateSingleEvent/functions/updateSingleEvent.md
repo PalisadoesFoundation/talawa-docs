@@ -6,7 +6,7 @@
 
 # Function: updateSingleEvent()
 
-\> **updateSingleEvent**(`args`, `event`, `session`): `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
+> **updateSingleEvent**(`args`, `event`, `session`): `Promise`\<[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)\>
 
 This function updates a single non-recurring event.
 
@@ -40,4 +40,4 @@ The following steps are followed:
 
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/updateSingleEvent.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/helpers/event/updateEventHelpers/updateSingleEvent.ts#L28)
+[src/helpers/event/updateEventHelpers/updateSingleEvent.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/helpers/event/updateEventHelpers/updateSingleEvent.ts#L28)

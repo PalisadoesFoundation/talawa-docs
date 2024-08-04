@@ -6,7 +6,7 @@
 
 # Function: deletePostFromCache()
 
-\> **deletePostFromCache**(`postId`): `Promise`\<`void`\>
+> **deletePostFromCache**(`postId`): `Promise`\<`void`\>
 
 Deletes a post from Redis cache based on its postId.
 
@@ -20,8 +20,8 @@ The unique identifier of the post to delete.
 
 `Promise`\<`void`\>
 
-Promise\<void\>
+Promise<void>
 
 ## Defined in
 
-[src/services/PostCache/deletePostFromCache.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/PostCache/deletePostFromCache.ts#L8)
+[src/services/PostCache/deletePostFromCache.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/PostCache/deletePostFromCache.ts#L8)

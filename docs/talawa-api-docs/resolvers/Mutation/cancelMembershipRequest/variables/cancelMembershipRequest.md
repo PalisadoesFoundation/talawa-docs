@@ -6,7 +6,7 @@
 
 # Variable: cancelMembershipRequest
 
-\> `const` **cancelMembershipRequest**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"cancelMembershipRequest"`\]
+> `const` **cancelMembershipRequest**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"cancelMembershipRequest"`\]
 
 Mutation resolver function to cancel a membership request.
 
@@ -46,4 +46,4 @@ The context for the mutation, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/cancelMembershipRequest.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/cancelMembershipRequest.ts#L45)
+[src/resolvers/Mutation/cancelMembershipRequest.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/cancelMembershipRequest.ts#L45)

@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionCursorArguments
 
-\> **ParseGraphQLConnectionCursorArguments**: `object`
+> **ParseGraphQLConnectionCursorArguments**: `object`
 
 This is typescript type of the single object callback function `parseCursor` takes in as
 an argument.
@@ -15,16 +15,16 @@ an argument.
 
 ### cursorName
 
-\> **cursorName**: `"after"` \| `"before"`
+> **cursorName**: `"after"` \| `"before"`
 
 ### cursorPath
 
-\> **cursorPath**: `string`[]
+> **cursorPath**: `string`[]
 
 ### cursorValue
 
-\> **cursorValue**: `string`
+> **cursorValue**: `string`
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L13)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L13)

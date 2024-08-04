@@ -6,7 +6,7 @@
 
 # Function: deleteUserFromCache()
 
-\> **deleteUserFromCache**(`userId`): `Promise`\<`void`\>
+> **deleteUserFromCache**(`userId`): `Promise`\<`void`\>
 
 ## Parameters
 
@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/services/UserCache/deleteUserFromCache.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/UserCache/deleteUserFromCache.ts#L3)
+[src/services/UserCache/deleteUserFromCache.ts:3](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/UserCache/deleteUserFromCache.ts#L3)

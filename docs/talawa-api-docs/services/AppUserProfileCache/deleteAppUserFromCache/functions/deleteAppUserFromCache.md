@@ -6,7 +6,7 @@
 
 # Function: deleteAppUserFromCache()
 
-\> **deleteAppUserFromCache**(`appUserProfileId`): `Promise`\<`void`\>
+> **deleteAppUserFromCache**(`appUserProfileId`): `Promise`\<`void`\>
 
 Deletes the specified app user profile from Redis cache.
 
@@ -24,4 +24,4 @@ A promise resolving to void.
 
 ## Defined in
 
-[src/services/AppUserProfileCache/deleteAppUserFromCache.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/services/AppUserProfileCache/deleteAppUserFromCache.ts#L9)
+[src/services/AppUserProfileCache/deleteAppUserFromCache.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/services/AppUserProfileCache/deleteAppUserFromCache.ts#L9)

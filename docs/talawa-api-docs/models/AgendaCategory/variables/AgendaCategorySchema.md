@@ -6,7 +6,7 @@
 
 # Variable: AgendaCategorySchema
 
-\> `const` **AgendaCategorySchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
+> `const` **AgendaCategorySchema**: `Schema`\<`any`, `Model`\<`any`, `any`, `any`, `any`, `any`, `any`\>, `object`, `object`, `object`, `object`, `DefaultSchemaOptions`, `object`, `Document`\<`unknown`, `object`, `FlatRecord`\<`object`\>\> & `FlatRecord`\<`object`\> & `object`\>
 
 Mongoose schema definition for an agenda category document.
 
@@ -40,4 +40,4 @@ Date when the agenda category was last updated.
 
 ## Defined in
 
-[src/models/AgendaCategory.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/models/AgendaCategory.ts#L30)
+[src/models/AgendaCategory.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/AgendaCategory.ts#L30)

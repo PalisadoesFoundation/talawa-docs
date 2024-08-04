@@ -6,7 +6,7 @@
 
 # Variable: categories
 
-\> `const` **categories**: [`AgendaItemResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaItemResolvers.md)\[`"categories"`\]
+> `const` **categories**: [`AgendaItemResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaItemResolvers.md)\[`"categories"`\]
 
 Resolver function for the `categories` field of an `AgendaItem`.
 
@@ -23,4 +23,4 @@ The parent object representing the agenda item. It contains a list of category I
 
 ## Defined in
 
-[src/resolvers/AgendaItem/categories.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/AgendaItem/categories.ts#L17)
+[src/resolvers/AgendaItem/categories.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/AgendaItem/categories.ts#L17)

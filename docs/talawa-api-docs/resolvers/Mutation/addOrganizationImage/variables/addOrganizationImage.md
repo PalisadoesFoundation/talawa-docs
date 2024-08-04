@@ -6,7 +6,7 @@
 
 # Variable: addOrganizationImage
 
-\> `const` **addOrganizationImage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addOrganizationImage"`\]
+> `const` **addOrganizationImage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addOrganizationImage"`\]
 
 Mutation resolver function to add or update an organization's image.
 
@@ -50,4 +50,4 @@ It then verifies the user's admin status and performs the image upload before up
 
 ## Defined in
 
-[src/resolvers/Mutation/addOrganizationImage.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/addOrganizationImage.ts#L44)
+[src/resolvers/Mutation/addOrganizationImage.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/addOrganizationImage.ts#L44)

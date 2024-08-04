@@ -6,7 +6,7 @@
 
 # Variable: createActionItemCategory
 
-\> `const` **createActionItemCategory**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createActionItemCategory"`\]
+> `const` **createActionItemCategory**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createActionItemCategory"`\]
 
 Mutation resolver function to create a new ActionItemCategory.
 
@@ -46,4 +46,4 @@ The context for the mutation, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/createActionItemCategory.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/resolvers/Mutation/createActionItemCategory.ts#L46)
+[src/resolvers/Mutation/createActionItemCategory.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createActionItemCategory.ts#L46)

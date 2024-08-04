@@ -6,26 +6,26 @@
 
 # Variable: ACTION\_ITEM\_CATEGORY\_IS\_DISABLED
 
-\> `const` **ACTION\_ITEM\_CATEGORY\_IS\_DISABLED**: `Readonly`\<`object`\>
+> `const` **ACTION\_ITEM\_CATEGORY\_IS\_DISABLED**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"actionItemCategory.isDisabled"` = `"actionItemCategory.isDisabled"`
+> **CODE**: `"actionItemCategory.isDisabled"` = `"actionItemCategory.isDisabled"`
 
 ### DESC
 
-\> **DESC**: `"Action Item Category is disabled"` = `"Action Item Category is disabled"`
+> **DESC**: `"Action Item Category is disabled"` = `"Action Item Category is disabled"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"actionItemCategory.isDisabled"` = `"actionItemCategory.isDisabled"`
+> **MESSAGE**: `"actionItemCategory.isDisabled"` = `"actionItemCategory.isDisabled"`
 
 ### PARAM
 
-\> **PARAM**: `"actionItemCategory"` = `"actionItemCategory"`
+> **PARAM**: `"actionItemCategory"` = `"actionItemCategory"`
 
 ## Defined in
 
-[src/constants.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L32)
+[src/constants.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L32)

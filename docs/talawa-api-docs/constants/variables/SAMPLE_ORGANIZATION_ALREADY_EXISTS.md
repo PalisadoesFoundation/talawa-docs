@@ -6,26 +6,26 @@
 
 # Variable: SAMPLE\_ORGANIZATION\_ALREADY\_EXISTS
 
-\> `const` **SAMPLE\_ORGANIZATION\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
+> `const` **SAMPLE\_ORGANIZATION\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"sampleOrganization.duplicate"` = `"sampleOrganization.duplicate"`
+> **CODE**: `"sampleOrganization.duplicate"` = `"sampleOrganization.duplicate"`
 
 ### DESC
 
-\> **DESC**: `"Sample Organization was already generated"` = `"Sample Organization was already generated"`
+> **DESC**: `"Sample Organization was already generated"` = `"Sample Organization was already generated"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"sampleOrganization.duplicate"` = `"sampleOrganization.duplicate"`
+> **MESSAGE**: `"sampleOrganization.duplicate"` = `"sampleOrganization.duplicate"`
 
 ### PARAM
 
-\> **PARAM**: `"sampleOrganization"` = `"sampleOrganization"`
+> **PARAM**: `"sampleOrganization"` = `"sampleOrganization"`
 
 ## Defined in
 
-[src/constants.ts:655](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L655)
+[src/constants.ts:655](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L655)

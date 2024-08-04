@@ -6,8 +6,8 @@
 
 # Variable: default
 
-\> **default**: `winston.Logger` \| `null` = `null`
+> **default**: `winston.Logger` \| `null` = `null`
 
 ## Defined in
 
-[src/libraries/dbLogger.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/libraries/dbLogger.ts#L22)
+[src/libraries/dbLogger.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/libraries/dbLogger.ts#L22)

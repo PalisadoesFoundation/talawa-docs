@@ -6,22 +6,22 @@
 
 # Variable: FEEDBACK\_ALREADY\_SUBMITTED
 
-\> `const` **FEEDBACK\_ALREADY\_SUBMITTED**: `Readonly`\<`object`\>
+> `const` **FEEDBACK\_ALREADY\_SUBMITTED**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-\> **CODE**: `"feedback.alreadySubmitted"` = `"feedback.alreadySubmitted"`
+> **CODE**: `"feedback.alreadySubmitted"` = `"feedback.alreadySubmitted"`
 
 ### MESSAGE
 
-\> **MESSAGE**: `"The user has already submitted a feedback for this event."` = `"The user has already submitted a feedback for this event."`
+> **MESSAGE**: `"The user has already submitted a feedback for this event."` = `"The user has already submitted a feedback for this event."`
 
 ### PARAM
 
-\> **PARAM**: `"feedback.alreadySubmitted"` = `"feedback.alreadySubmitted"`
+> **PARAM**: `"feedback.alreadySubmitted"` = `"feedback.alreadySubmitted"`
 
 ## Defined in
 
-[src/constants.ts:97](https://github.com/PalisadoesFoundation/talawa-api/blob/1f38da5423898626c6ebfa24896a9c3d008195c6/src/constants.ts#L97)
+[src/constants.ts:97](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/constants.ts#L97)
