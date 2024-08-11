@@ -28,9 +28,9 @@
 
 > `optional` **amount**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Float"`\], `ParentType`, `ContextType`\>
 
-### campaigns?
+### campaign?
 
-> `optional` **campaigns**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaign"`\]\>[], `ParentType`, `ContextType`\>
+> `optional` **campaign**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaign"`\], `ParentType`, `ContextType`\>
 
 ### currency?
 
@@ -50,4 +50,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4108](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L4108)
+[src/types/generatedGraphQLTypes.ts:4136](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L4136)

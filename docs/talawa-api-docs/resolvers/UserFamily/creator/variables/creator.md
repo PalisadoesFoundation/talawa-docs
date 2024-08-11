@@ -23,4 +23,4 @@ The parent object representing the user family. It contains information about th
 
 ## Defined in
 
-[src/resolvers/UserFamily/creator.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/UserFamily/creator.ts#L18)
+[src/resolvers/UserFamily/creator.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/UserFamily/creator.ts#L18)

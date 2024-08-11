@@ -532,6 +532,10 @@ Mapping between all available schema types and the resolvers types
 
 > **PledgeOrderByInput**: [`PledgeOrderByInput`](PledgeOrderByInput.md)
 
+### PledgeWhereInput
+
+> **PledgeWhereInput**: [`PledgeWhereInput`](PledgeWhereInput.md)
+
 ### Plugin
 
 > **Plugin**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfacePlugin`](../../../models/Plugin/interfaces/InterfacePlugin.md)\>
@@ -854,4 +858,4 @@ Mapping between all available schema types and the resolvers types
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3250](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L3250)
+[src/types/generatedGraphQLTypes.ts:3273](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L3273)

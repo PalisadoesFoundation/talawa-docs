@@ -34,4 +34,4 @@ This function creates a plugin record, updates the subscription channel with the
 
 ## Defined in
 
-[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/createPlugin.ts#L21)
+[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Mutation/createPlugin.ts#L21)

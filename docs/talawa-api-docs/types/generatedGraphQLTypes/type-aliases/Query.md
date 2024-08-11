@@ -142,17 +142,21 @@
 
 > **getFundById**: [`Fund`](Fund.md)
 
-### getFundraisingCampaignById
-
-> **getFundraisingCampaignById**: [`FundraisingCampaign`](FundraisingCampaign.md)
-
 ### getFundraisingCampaignPledgeById
 
 > **getFundraisingCampaignPledgeById**: [`FundraisingCampaignPledge`](FundraisingCampaignPledge.md)
 
+### getFundraisingCampaigns
+
+> **getFundraisingCampaigns**: [`Maybe`](Maybe.md)\<[`FundraisingCampaign`](FundraisingCampaign.md)\>[]
+
 ### getNoteById
 
 > **getNoteById**: [`Note`](Note.md)
+
+### getPledgesByUserId?
+
+> `optional` **getPledgesByUserId**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`FundraisingCampaignPledge`](FundraisingCampaignPledge.md)\>[]\>
 
 ### getPlugins?
 
@@ -244,4 +248,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2249](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L2249)
+[src/types/generatedGraphQLTypes.ts:2263](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L2263)

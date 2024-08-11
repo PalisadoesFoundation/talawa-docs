@@ -16,7 +16,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/CheckOut.ts#L17)
+[src/models/CheckOut.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/CheckOut.ts#L17)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/CheckOut.ts#L20)
+[src/models/CheckOut.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/CheckOut.ts#L20)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/CheckOut.ts#L18)
+[src/models/CheckOut.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/CheckOut.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/CheckOut.ts#L19)
+[src/models/CheckOut.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/CheckOut.ts#L19)
 
 ***
 
@@ -56,4 +56,4 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/models/CheckOut.ts#L21)
+[src/models/CheckOut.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/CheckOut.ts#L21)

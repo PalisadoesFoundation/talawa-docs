@@ -63,7 +63,7 @@ export const bestFriend = async (parent) =\> {
 
 #### Defined in
 
-[src/utilities/TalawaGraphQLError.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/utilities/TalawaGraphQLError.ts#L189)
+[src/utilities/TalawaGraphQLError.ts:189](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/utilities/TalawaGraphQLError.ts#L189)
 
 ## Properties
 

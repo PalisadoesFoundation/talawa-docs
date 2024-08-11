@@ -26,4 +26,4 @@ learn more about Connection [here](https://relay.dev/graphql/connections.htm).
 
 ## Defined in
 
-[src/resolvers/Query/organizationsConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/organizationsConnection.ts#L18)
+[src/resolvers/Query/organizationsConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Query/organizationsConnection.ts#L18)

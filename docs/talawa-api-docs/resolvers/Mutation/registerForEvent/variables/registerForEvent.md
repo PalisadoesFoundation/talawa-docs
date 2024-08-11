@@ -43,4 +43,4 @@ If the user is invited, their registration status is updated. Otherwise, a new e
 
 ## Defined in
 
-[src/resolvers/Mutation/registerForEvent.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Mutation/registerForEvent.ts#L34)
+[src/resolvers/Mutation/registerForEvent.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Mutation/registerForEvent.ts#L34)

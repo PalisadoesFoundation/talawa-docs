@@ -23,4 +23,4 @@ The parent object representing the event volunteer. It contains information abou
 
 ## Defined in
 
-[src/resolvers/EventVolunteer/user.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/EventVolunteer/user.ts#L16)
+[src/resolvers/EventVolunteer/user.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/EventVolunteer/user.ts#L16)

@@ -144,17 +144,21 @@
 
 > `optional` **getFundById**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Fund"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetFundByIdArgs`](QueryGetFundByIdArgs.md), `"id"`\>\>
 
-### getFundraisingCampaignById?
-
-> `optional` **getFundraisingCampaignById**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaign"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetFundraisingCampaignByIdArgs`](QueryGetFundraisingCampaignByIdArgs.md), `"id"`\>\>
-
 ### getFundraisingCampaignPledgeById?
 
 > `optional` **getFundraisingCampaignPledgeById**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaignPledge"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetFundraisingCampaignPledgeByIdArgs`](QueryGetFundraisingCampaignPledgeByIdArgs.md), `"id"`\>\>
 
+### getFundraisingCampaigns?
+
+> `optional` **getFundraisingCampaigns**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaign"`\]\>[], `ParentType`, `ContextType`, `Partial`\<[`QueryGetFundraisingCampaignsArgs`](QueryGetFundraisingCampaignsArgs.md)\>\>
+
 ### getNoteById?
 
 > `optional` **getNoteById**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Note"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetNoteByIdArgs`](QueryGetNoteByIdArgs.md), `"id"`\>\>
+
+### getPledgesByUserId?
+
+> `optional` **getPledgesByUserId**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaignPledge"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetPledgesByUserIdArgs`](QueryGetPledgesByUserIdArgs.md), `"userId"`\>\>
 
 ### getPlugins?
 
@@ -246,4 +250,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4522](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L4522)
+[src/types/generatedGraphQLTypes.ts:4550](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L4550)

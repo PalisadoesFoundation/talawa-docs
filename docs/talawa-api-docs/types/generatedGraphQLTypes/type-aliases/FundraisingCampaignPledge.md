@@ -22,9 +22,9 @@
 
 > **amount**: [`Scalars`](Scalars.md)\[`"Float"`\]\[`"output"`\]
 
-### campaigns
+### campaign
 
-> **campaigns**: [`Maybe`](Maybe.md)\<[`FundraisingCampaign`](FundraisingCampaign.md)\>[]
+> **campaign**: [`FundraisingCampaign`](FundraisingCampaign.md)
 
 ### currency
 
@@ -44,4 +44,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:970](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/types/generatedGraphQLTypes.ts#L970)
+[src/types/generatedGraphQLTypes.ts:977](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L977)

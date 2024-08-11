@@ -28,4 +28,4 @@ You can learn about GraphQL `Resolvers` [here](https://www.apollographql.com/doc
 
 ## Defined in
 
-[src/resolvers/Query/checkAuth.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/6712e9940a5702665afc506fa9f6e9d7e1dc7991/src/resolvers/Query/checkAuth.ts#L13)
+[src/resolvers/Query/checkAuth.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Query/checkAuth.ts#L13)
