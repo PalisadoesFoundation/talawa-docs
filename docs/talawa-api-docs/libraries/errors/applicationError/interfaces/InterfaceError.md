@@ -18,7 +18,7 @@ The error code, can be null
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/applicationError.ts#L8)
+[src/libraries/errors/applicationError.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L8)
 
 ***
 
@@ -30,7 +30,7 @@ The error message
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/applicationError.ts#L6)
+[src/libraries/errors/applicationError.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L6)
 
 ***
 
@@ -42,7 +42,7 @@ Optional additional metadata associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/applicationError.ts#L12)
+[src/libraries/errors/applicationError.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L12)
 
 ***
 
@@ -54,4 +54,4 @@ The parameter associated with the error, can be null
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/applicationError.ts#L10)
+[src/libraries/errors/applicationError.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L10)

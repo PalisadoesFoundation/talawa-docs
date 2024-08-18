@@ -8,6 +8,21 @@
 
 > `const` **fundsByOrganization**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"fundsByOrganization"`\]
 
+Retrieves funds associated with a specific organization based on the provided query parameters.
+
+This function performs the following steps:
+1. Builds a query filter (`where`) and sorting parameters based on the provided arguments.
+2. Queries the database for funds associated with the specified organization ID and matching the filter criteria.
+3. Sorts the results based on the provided sorting order.
+
+## Param
+
+This parameter is not used in this resolver function.
+
+## Param
+
+The arguments provided by the GraphQL query, including the organization ID (`organizationId`), filter criteria (`where`), and sorting order (`orderBy`).
+
 ## Defined in
 
-[src/resolvers/Query/fundsByOrganization.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Query/fundsByOrganization.ts#L7)
+[src/resolvers/Query/fundsByOrganization.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Query/fundsByOrganization.ts#L20)

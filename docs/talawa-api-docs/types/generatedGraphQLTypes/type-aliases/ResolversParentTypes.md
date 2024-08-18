@@ -334,6 +334,10 @@ Mapping between all available schema types and the resolvers parents
 
 > **EventVolunteerGroupInput**: [`EventVolunteerGroupInput`](EventVolunteerGroupInput.md)
 
+### EventVolunteerGroupWhereInput
+
+> **EventVolunteerGroupWhereInput**: [`EventVolunteerGroupWhereInput`](EventVolunteerGroupWhereInput.md)
+
 ### EventVolunteerInput
 
 > **EventVolunteerInput**: [`EventVolunteerInput`](EventVolunteerInput.md)
@@ -906,4 +910,4 @@ Mapping between all available schema types and the resolvers parents
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3488](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L3488)
+[src/types/generatedGraphQLTypes.ts:3514](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L3514)

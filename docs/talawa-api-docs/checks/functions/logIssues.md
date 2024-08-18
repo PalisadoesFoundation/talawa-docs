@@ -18,4 +18,4 @@ It also logs warnings regarding the LAST_RESORT_SUPERADMIN_EMAIL variable.
 
 ## Defined in
 
-[src/checks.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/checks.ts#L46)
+[src/checks.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/checks.ts#L46)

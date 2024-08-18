@@ -8,6 +8,22 @@
 
 > `const` **removeUserCustomData**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"removeUserCustomData"`\]
 
+Removes custom data associated with the current user within a specified organization.
+
+This function allows an authorized user, such as an organization admin or super admin, to remove custom data associated with the user within a specific organization. The function first verifies the user's identity and authorization, then proceeds to delete the custom data if it exists.
+
+## Param
+
+This parameter represents the parent resolver in the GraphQL schema and is not used in this function.
+
+## Param
+
+The arguments passed to the GraphQL mutation, including the `organizationId` for which the custom data should be removed.
+
+## Param
+
+Provides contextual information, including the current user's ID. This is used to authenticate and authorize the request.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeUserCustomData.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Mutation/removeUserCustomData.ts#L18)
+[src/resolvers/Mutation/removeUserCustomData.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/removeUserCustomData.ts#L30)

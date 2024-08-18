@@ -50,6 +50,10 @@ node\_modules/mongoose/types/query.d.ts:209
 
 > **catch**: \<`TResult`\>(`onrejected`?) => `Promise`\<`unknown`\>
 
+Executes the query returning a `Promise` which will be
+resolved with either the doc(s) or rejected with the error.
+Like `.then()`, but only takes a rejection handler.
+
 Attaches a callback for only the rejection of the Promise.
 
 #### Type Parameters
@@ -81,6 +85,9 @@ node\_modules/mongoose/types/query.d.ts:260
 ### finally()
 
 > **finally**: (`onfinally`?) => `Promise`\<`unknown`\>
+
+Executes the query returning a `Promise` which will be
+resolved with `.finally()` chained.
 
 Attaches a callback that is invoked when the Promise is settled (fulfilled or rejected). The
 resolved value cannot be modified from the callback.
@@ -115,7 +122,7 @@ Information about the transaction log (optional)
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/dbLogger.ts#L55)
+[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/dbLogger.ts#L55)
 
 ***
 
@@ -138,6 +145,9 @@ node\_modules/mongoose/types/query.d.ts:567
 ### then()
 
 > **then**: \<`TResult1`, `TResult2`\>(`onfulfilled`?, `onrejected`?) => `Promise`\<`TResult1` \| `TResult2`\>
+
+Executes the query returning a `Promise` which will be
+resolved with either the doc(s) or rejected with the error.
 
 Attaches callbacks for the resolution and/or rejection of the Promise.
 

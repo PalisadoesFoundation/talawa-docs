@@ -16,7 +16,7 @@ Interface representing the payload of a JWT token.
 
 #### Defined in
 
-[src/utilities/auth.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/utilities/auth.ts#L14)
+[src/utilities/auth.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L14)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing the payload of a JWT token.
 
 #### Defined in
 
-[src/utilities/auth.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/utilities/auth.ts#L12)
+[src/utilities/auth.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L12)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing the payload of a JWT token.
 
 #### Defined in
 
-[src/utilities/auth.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/utilities/auth.ts#L13)
+[src/utilities/auth.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L13)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing the payload of a JWT token.
 
 #### Defined in
 
-[src/utilities/auth.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/utilities/auth.ts#L10)
+[src/utilities/auth.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L10)
 
 ***
 
@@ -56,4 +56,4 @@ Interface representing the payload of a JWT token.
 
 #### Defined in
 
-[src/utilities/auth.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/utilities/auth.ts#L11)
+[src/utilities/auth.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L11)

@@ -140,6 +140,10 @@
 
 > `optional` **getEventInvitesByUserId**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"EventAttendee"`\][], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetEventInvitesByUserIdArgs`](QueryGetEventInvitesByUserIdArgs.md), `"userId"`\>\>
 
+### getEventVolunteerGroups?
+
+> `optional` **getEventVolunteerGroups**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"EventVolunteerGroup"`\]\>[], `ParentType`, `ContextType`, `Partial`\<[`QueryGetEventVolunteerGroupsArgs`](QueryGetEventVolunteerGroupsArgs.md)\>\>
+
 ### getFundById?
 
 > `optional` **getFundById**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Fund"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetFundByIdArgs`](QueryGetFundByIdArgs.md), `"id"`\>\>
@@ -163,6 +167,14 @@
 ### getPlugins?
 
 > `optional` **getPlugins**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Plugin"`\]\>[]\>, `ParentType`, `ContextType`\>
+
+### getUserTag?
+
+> `optional` **getUserTag**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"UserTag"`\]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetUserTagArgs`](QueryGetUserTagArgs.md), `"id"`\>\>
+
+### getUserTagAncestors?
+
+> `optional` **getUserTagAncestors**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"UserTag"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetUserTagAncestorsArgs`](QueryGetUserTagAncestorsArgs.md), `"id"`\>\>
 
 ### getVenueByOrgId?
 
@@ -250,4 +262,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4550](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L4550)
+[src/types/generatedGraphQLTypes.ts:4577](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L4577)

@@ -16,7 +16,7 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/Community.ts#L8)
+[src/models/Community.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L8)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/Community.ts#L10)
+[src/models/Community.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L10)
 
 ***
 
@@ -36,13 +36,17 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/Community.ts#L9)
+[src/models/Community.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L9)
 
 ***
 
 ### socialMediaUrls
 
 > **socialMediaUrls**: `object`
+
+#### X
+
+> **X**: `string`
 
 #### facebook
 
@@ -68,17 +72,13 @@ Interface representing a document for a community in MongoDB.
 
 > **slack**: `string`
 
-#### twitter
-
-> **twitter**: `string`
-
 #### youTube
 
 > **youTube**: `string`
 
 #### Defined in
 
-[src/models/Community.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/Community.ts#L12)
+[src/models/Community.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L12)
 
 ***
 
@@ -88,4 +88,4 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/Community.ts#L11)
+[src/models/Community.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L11)

@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[src/models/EventAttendee.ts:94](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/models/EventAttendee.ts#L94)
+[src/models/EventAttendee.ts:94](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L94)

@@ -10,18 +10,18 @@
 
 ## Type declaration
 
-### \_id
-
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
-
 ### name
 
 > **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
-### tagColor
+### tagColor?
 
-> **tagColor**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+> `optional` **tagColor**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+
+### tagId
+
+> **tagId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2898](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L2898)
+[src/types/generatedGraphQLTypes.ts:2922](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2922)

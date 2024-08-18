@@ -8,6 +8,22 @@
 
 > `const` **updateAdvertisement**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateAdvertisement"`\]
 
+Updates an advertisement with new details, including handling media file uploads and validating input fields.
+
+This function updates an existing advertisement based on the provided input. It checks for required fields, validates dates, handles media file uploads, and performs authorization checks to ensure that the current user has the right to update the advertisement. The function returns the updated advertisement after applying changes.
+
+## Param
+
+This parameter represents the parent resolver in the GraphQL schema and is not used in this function.
+
+## Param
+
+The arguments passed to the GraphQL mutation, including the advertisement's `_id` and other fields to update. This may include `startDate`, `endDate`, and `mediaFile`.
+
+## Param
+
+Provides contextual information, including the current user's ID. This is used to authenticate and authorize the request.
+
 ## Defined in
 
-[src/resolvers/Mutation/updateAdvertisement.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Mutation/updateAdvertisement.ts#L26)
+[src/resolvers/Mutation/updateAdvertisement.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/updateAdvertisement.ts#L37)

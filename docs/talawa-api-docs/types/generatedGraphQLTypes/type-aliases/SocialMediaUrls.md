@@ -10,6 +10,10 @@
 
 ## Type declaration
 
+### X?
+
+> `optional` **X**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+
 ### \_\_typename?
 
 > `optional` **\_\_typename**: `"SocialMediaUrls"`
@@ -38,14 +42,10 @@
 
 > `optional` **slack**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
-### twitter?
-
-> `optional` **twitter**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
-
 ### youTube?
 
 > `optional` **youTube**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2663](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/types/generatedGraphQLTypes.ts#L2663)
+[src/types/generatedGraphQLTypes.ts:2687](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2687)

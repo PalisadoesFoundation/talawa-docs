@@ -49,7 +49,7 @@ Additional metadata related to the error. Defaults to an empty object.
 
 #### Defined in
 
-[src/libraries/errors/inputValidationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/inputValidationError.ts#L15)
+[src/libraries/errors/inputValidationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/inputValidationError.ts#L15)
 
 ## Properties
 
@@ -65,7 +65,7 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -81,7 +81,7 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

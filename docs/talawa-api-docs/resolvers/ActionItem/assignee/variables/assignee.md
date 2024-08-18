@@ -29,4 +29,4 @@ If the action item with an ID of `123` is assigned to a user with an ID of `456`
 
 ## Defined in
 
-[src/resolvers/ActionItem/assignee.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/ActionItem/assignee.ts#L18)
+[src/resolvers/ActionItem/assignee.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/ActionItem/assignee.ts#L18)

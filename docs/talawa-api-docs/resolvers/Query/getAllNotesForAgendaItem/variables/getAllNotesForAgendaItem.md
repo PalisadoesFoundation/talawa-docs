@@ -8,6 +8,20 @@
 
 > `const` **getAllNotesForAgendaItem**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"getAllNotesForAgendaItem"`\]
 
+Retrieves all notes associated with a specific agenda item from the database.
+
+This function performs the following steps:
+1. Queries the database for notes that are associated with the specified agenda item ID.
+2. Returns the list of notes for the given agenda item.
+
+## Param
+
+This parameter is not used in this resolver function but is included for compatibility with GraphQL resolver signatures.
+
+## Param
+
+The arguments provided by the GraphQL query, including the agenda item ID (`agendaItemId`) for which notes are to be retrieved.
+
 ## Defined in
 
-[src/resolvers/Query/getAllNotesForAgendaItem.ts:5](https://github.com/PalisadoesFoundation/talawa-api/blob/fe65d855b3d1e3e4af621340e7e8bfa0325634c1/src/resolvers/Query/getAllNotesForAgendaItem.ts#L5)
+[src/resolvers/Query/getAllNotesForAgendaItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Query/getAllNotesForAgendaItem.ts#L17)
