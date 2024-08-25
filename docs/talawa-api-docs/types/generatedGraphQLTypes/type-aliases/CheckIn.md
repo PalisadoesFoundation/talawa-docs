@@ -6,42 +6,42 @@
 
 # Type Alias: CheckIn
 
-> **CheckIn**: `object`
+\> **CheckIn**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"CheckIn"`
+\> `optional` **\_\_typename**: `"CheckIn"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### event
 
-> **event**: [`Event`](Event.md)
+\> **event**: [`Event`](Event.md)
 
 ### feedbackSubmitted
 
-> **feedbackSubmitted**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **feedbackSubmitted**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### time
 
-> **time**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **time**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### updatedAt
 
-> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### user
 
-> **user**: [`User`](User.md)
+\> **user**: [`User`](User.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:258](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L258)
+[src/types/generatedGraphQLTypes.ts:258](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L258)

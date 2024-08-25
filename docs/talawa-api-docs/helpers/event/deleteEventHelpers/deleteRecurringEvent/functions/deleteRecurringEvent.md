@@ -6,7 +6,7 @@
 
 # Function: deleteRecurringEvent()
 
-> **deleteRecurringEvent**(`args`, `event`, `session`): `Promise`\<`void`\>
+\> **deleteRecurringEvent**(`args`, `event`, `session`): `Promise`\<`void`\>
 
 Deletes instances of a recurring event based on the delete type specified.
 Delete types include: thisInstance, allInstances, thisAndFollowingInstances.
@@ -40,4 +40,4 @@ This function follows these steps:
 
 ## Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts#L29)
+[src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts#L29)

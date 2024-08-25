@@ -6,14 +6,14 @@
 
 # Type Alias: MutationUpdateUserPasswordArgs
 
-> **MutationUpdateUserPasswordArgs**: `object`
+\> **MutationUpdateUserPasswordArgs**: `object`
 
 ## Type declaration
 
 ### data
 
-> **data**: [`UpdateUserPasswordInput`](UpdateUserPasswordInput.md)
+\> **data**: [`UpdateUserPasswordInput`](UpdateUserPasswordInput.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1922](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L1922)
+[src/types/generatedGraphQLTypes.ts:1922](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L1922)

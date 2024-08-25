@@ -6,18 +6,18 @@
 
 # Type Alias: UnauthenticatedError
 
-> **UnauthenticatedError**: [`Error`](Error.md) & `object`
+\> **UnauthenticatedError**: [`Error`](Error.md) & `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"UnauthenticatedError"`
+\> `optional` **\_\_typename**: `"UnauthenticatedError"`
 
 ### message
 
-> **message**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **message**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2766](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2766)
+[src/types/generatedGraphQLTypes.ts:2766](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2766)

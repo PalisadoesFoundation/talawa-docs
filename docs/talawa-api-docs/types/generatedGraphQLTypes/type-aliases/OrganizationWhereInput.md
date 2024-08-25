@@ -6,114 +6,114 @@
 
 # Type Alias: OrganizationWhereInput
 
-> **OrganizationWhereInput**: `object`
+\> **OrganizationWhereInput**: `object`
 
 ## Type declaration
 
 ### apiUrl?
 
-> `optional` **apiUrl**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
+\> `optional` **apiUrl**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
 
 ### apiUrl\_contains?
 
-> `optional` **apiUrl\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
+\> `optional` **apiUrl\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
 
 ### apiUrl\_in?
 
-> `optional` **apiUrl\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\][]\>
+\> `optional` **apiUrl\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\][]\>
 
 ### apiUrl\_not?
 
-> `optional` **apiUrl\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
+\> `optional` **apiUrl\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
 
 ### apiUrl\_not\_in?
 
-> `optional` **apiUrl\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\][]\>
+\> `optional` **apiUrl\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\][]\>
 
 ### apiUrl\_starts\_with?
 
-> `optional` **apiUrl\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
+\> `optional` **apiUrl\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"input"`\]\>
 
 ### description?
 
-> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### description\_contains?
 
-> `optional` **description\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **description\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### description\_in?
 
-> `optional` **description\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
+\> `optional` **description\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
 
 ### description\_not?
 
-> `optional` **description\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **description\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### description\_not\_in?
 
-> `optional` **description\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
+\> `optional` **description\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
 
 ### description\_starts\_with?
 
-> `optional` **description\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **description\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### id?
 
-> `optional` **id**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
+\> `optional` **id**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
 
 ### id\_contains?
 
-> `optional` **id\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
+\> `optional` **id\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
 
 ### id\_in?
 
-> `optional` **id\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]\>
+\> `optional` **id\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]\>
 
 ### id\_not?
 
-> `optional` **id\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
+\> `optional` **id\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
 
 ### id\_not\_in?
 
-> `optional` **id\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]\>
+\> `optional` **id\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]\>
 
 ### id\_starts\_with?
 
-> `optional` **id\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
+\> `optional` **id\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]\>
 
 ### name?
 
-> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### name\_contains?
 
-> `optional` **name\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **name\_contains**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### name\_in?
 
-> `optional` **name\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
+\> `optional` **name\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
 
 ### name\_not?
 
-> `optional` **name\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **name\_not**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### name\_not\_in?
 
-> `optional` **name\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
+\> `optional` **name\_not\_in**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\][]\>
 
 ### name\_starts\_with?
 
-> `optional` **name\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **name\_starts\_with**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### userRegistrationRequired?
 
-> `optional` **userRegistrationRequired**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **userRegistrationRequired**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### visibleInSearch?
 
-> `optional` **visibleInSearch**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **visibleInSearch**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2081](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2081)
+[src/types/generatedGraphQLTypes.ts:2081](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2081)

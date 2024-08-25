@@ -13,88 +13,88 @@ This interface defines the structure and types of data that an event volunteer g
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L13)
+[src/models/EventVolunteerGroup.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L13)
 
 ***
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L14)
+[src/models/EventVolunteerGroup.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L14)
 
 ***
 
 ### creatorId
 
-> **creatorId**: `any`
+\> **creatorId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L15)
+[src/models/EventVolunteerGroup.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L15)
 
 ***
 
 ### eventId
 
-> **eventId**: `any`
+\> **eventId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L16)
+[src/models/EventVolunteerGroup.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L16)
 
 ***
 
 ### leaderId
 
-> **leaderId**: `any`
+\> **leaderId**: `any`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L17)
+[src/models/EventVolunteerGroup.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L17)
 
 ***
 
 ### name
 
-> **name**: `string`
+\> **name**: `string`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L18)
+[src/models/EventVolunteerGroup.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L18)
 
 ***
 
 ### updatedAt
 
-> **updatedAt**: `Date`
+\> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L19)
+[src/models/EventVolunteerGroup.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L19)
 
 ***
 
 ### volunteers
 
-> **volunteers**: `any`[]
+\> **volunteers**: `any`[]
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L20)
+[src/models/EventVolunteerGroup.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L20)
 
 ***
 
 ### volunteersRequired?
 
-> `optional` **volunteersRequired**: `number`
+\> `optional` **volunteersRequired**: `number`
 
 #### Defined in
 
-[src/models/EventVolunteerGroup.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventVolunteerGroup.ts#L21)
+[src/models/EventVolunteerGroup.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventVolunteerGroup.ts#L21)

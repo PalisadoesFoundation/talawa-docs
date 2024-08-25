@@ -12,78 +12,78 @@ Interface representing a document for a group in the database (MongoDB).
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/Group.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L10)
+[src/models/Group.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L10)
 
 ***
 
 ### admins
 
-> **admins**: `any`[]
+\> **admins**: `any`[]
 
 #### Defined in
 
-[src/models/Group.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L15)
+[src/models/Group.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L15)
 
 ***
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/Group.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L16)
+[src/models/Group.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L16)
 
 ***
 
 ### description
 
-> **description**: `undefined` \| `string`
+\> **description**: `undefined` \| `string`
 
 #### Defined in
 
-[src/models/Group.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L12)
+[src/models/Group.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L12)
 
 ***
 
 ### organization
 
-> **organization**: `any`
+\> **organization**: `any`
 
 #### Defined in
 
-[src/models/Group.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L13)
+[src/models/Group.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L13)
 
 ***
 
 ### status
 
-> **status**: `string`
+\> **status**: `string`
 
 #### Defined in
 
-[src/models/Group.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L14)
+[src/models/Group.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L14)
 
 ***
 
 ### title
 
-> **title**: `string`
+\> **title**: `string`
 
 #### Defined in
 
-[src/models/Group.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L11)
+[src/models/Group.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L11)
 
 ***
 
 ### updatedAt
 
-> **updatedAt**: `Date`
+\> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/Group.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Group.ts#L17)
+[src/models/Group.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Group.ts#L17)

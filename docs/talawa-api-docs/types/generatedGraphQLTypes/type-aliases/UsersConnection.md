@@ -6,7 +6,7 @@
 
 # Type Alias: UsersConnection
 
-> **UsersConnection**: `object`
+\> **UsersConnection**: `object`
 
 A default connection on the User type.
 
@@ -14,20 +14,20 @@ A default connection on the User type.
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"UsersConnection"`
+\> `optional` **\_\_typename**: `"UsersConnection"`
 
 ### edges
 
-> **edges**: [`UsersConnectionEdge`](UsersConnectionEdge.md)[]
+\> **edges**: [`UsersConnectionEdge`](UsersConnectionEdge.md)[]
 
 ### pageInfo
 
-> **pageInfo**: [`DefaultConnectionPageInfo`](DefaultConnectionPageInfo.md)
+\> **pageInfo**: [`DefaultConnectionPageInfo`](DefaultConnectionPageInfo.md)
 
 ### totalCount?
 
-> `optional` **totalCount**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+\> `optional` **totalCount**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3144](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L3144)
+[src/types/generatedGraphQLTypes.ts:3144](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L3144)

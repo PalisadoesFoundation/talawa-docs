@@ -6,7 +6,7 @@
 
 # Type Alias: PageInfo
 
-> **PageInfo**: `object`
+\> **PageInfo**: `object`
 
 Information about pagination in a connection.
 
@@ -14,36 +14,36 @@ Information about pagination in a connection.
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"PageInfo"`
+\> `optional` **\_\_typename**: `"PageInfo"`
 
 ### currPageNo?
 
-> `optional` **currPageNo**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+\> `optional` **currPageNo**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ### hasNextPage
 
-> **hasNextPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **hasNextPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 When paginating forwards, are there more items?
 
 ### hasPreviousPage
 
-> **hasPreviousPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **hasPreviousPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 When paginating backwards, are there more items?
 
 ### nextPageNo?
 
-> `optional` **nextPageNo**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+\> `optional` **nextPageNo**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ### prevPageNo?
 
-> `optional` **prevPageNo**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+\> `optional` **prevPageNo**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ### totalPages?
 
-> `optional` **totalPages**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+\> `optional` **totalPages**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2116](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2116)
+[src/types/generatedGraphQLTypes.ts:2116](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2116)

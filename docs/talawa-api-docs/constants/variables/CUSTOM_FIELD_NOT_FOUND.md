@@ -6,22 +6,22 @@
 
 # Variable: CUSTOM\_FIELD\_NOT\_FOUND
 
-> `const` **CUSTOM\_FIELD\_NOT\_FOUND**: `Readonly`\<`object`\>
+\> `const` **CUSTOM\_FIELD\_NOT\_FOUND**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"customField.notFound"` = `"customField.notFound"`
+\> **CODE**: `"customField.notFound"` = `"customField.notFound"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Unable to remove non-existent custom field"` = `"Unable to remove non-existent custom field"`
+\> **MESSAGE**: `"Unable to remove non-existent custom field"` = `"Unable to remove non-existent custom field"`
 
 ### PARAM
 
-> **PARAM**: `"customField.notFound"` = `"customField.notFound"`
+\> **PARAM**: `"customField.notFound"` = `"customField.notFound"`
 
 ## Defined in
 
-[src/constants.ts:668](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L668)
+[src/constants.ts:668](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L668)

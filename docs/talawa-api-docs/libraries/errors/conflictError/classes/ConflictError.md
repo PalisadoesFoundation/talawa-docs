@@ -17,7 +17,7 @@ and is used to handle situations where a conflicting entry is found.
 
 ### new ConflictError()
 
-> **new ConflictError**(`message`, `code`, `param`, `metadata`): [`ConflictError`](ConflictError.md)
+\> **new ConflictError**(`message`, `code`, `param`, `metadata`): [`ConflictError`](ConflictError.md)
 
 Creates an instance of ConflictError.
 
@@ -35,7 +35,7 @@ The error code. Can be null. Defaults to null.
 
 The parameter related to the error. Can be null. Defaults to null.
 
-• **metadata**: `Record`\<`any`, `any`\> = `{}`
+• **metadata**: `Record`\<`any`, `any`\> = `\{\}`
 
 Additional metadata related to the error. Defaults to an empty object.
 
@@ -49,13 +49,13 @@ Additional metadata related to the error. Defaults to an empty object.
 
 #### Defined in
 
-[src/libraries/errors/conflictError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/conflictError.ts#L15)
+[src/libraries/errors/conflictError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/errors/conflictError.ts#L15)
 
 ## Properties
 
 ### errors
 
-> **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[]
+\> **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[]
 
 An array of errors conforming to the InterfaceError interface
 
@@ -65,13 +65,13 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
 ### httpCode
 
-> **httpCode**: `number`
+\> **httpCode**: `number`
 
 The HTTP status code associated with the error
 
@@ -81,13 +81,13 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/errors/applicationError.ts#L23)
 
 ***
 
 ### message
 
-> **message**: `string`
+\> **message**: `string`
 
 #### Inherited from
 
@@ -101,7 +101,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1077
 
 ### name
 
-> **name**: `string`
+\> **name**: `string`
 
 #### Inherited from
 
@@ -115,7 +115,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 ### stack?
 
-> `optional` **stack**: `string`
+\> `optional` **stack**: `string`
 
 #### Inherited from
 
@@ -129,7 +129,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 ### prepareStackTrace()?
 
-> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) => `any`
+\> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) =\> `any`
 
 Optional override for formatting stack traces
 
@@ -159,7 +159,7 @@ node\_modules/@types/node/globals.d.ts:28
 
 ### stackTraceLimit
 
-> `static` **stackTraceLimit**: `number`
+\> `static` **stackTraceLimit**: `number`
 
 #### Inherited from
 
@@ -173,7 +173,7 @@ node\_modules/@types/node/globals.d.ts:30
 
 ### captureStackTrace()
 
-> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
+\> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
 
 Create .stack property on a target object
 

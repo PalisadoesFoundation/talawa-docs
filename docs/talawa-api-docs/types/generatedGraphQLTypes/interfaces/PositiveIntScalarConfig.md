@@ -14,7 +14,7 @@
 
 ### astNode?
 
-> `optional` **astNode**: `Maybe`\<`ScalarTypeDefinitionNode`\>
+\> `optional` **astNode**: `Maybe`\<`ScalarTypeDefinitionNode`\>
 
 #### Inherited from
 
@@ -28,7 +28,7 @@ node\_modules/graphql/type/definition.d.ts:369
 
 ### description?
 
-> `optional` **description**: `Maybe`\<`string`\>
+\> `optional` **description**: `Maybe`\<`string`\>
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ node\_modules/graphql/type/definition.d.ts:360
 
 ### extensionASTNodes?
 
-> `optional` **extensionASTNodes**: `Maybe`\<readonly `ScalarTypeExtensionNode`[]\>
+\> `optional` **extensionASTNodes**: `Maybe`\<readonly `ScalarTypeExtensionNode`[]\>
 
 #### Inherited from
 
@@ -56,7 +56,7 @@ node\_modules/graphql/type/definition.d.ts:370
 
 ### extensions?
 
-> `optional` **extensions**: `Maybe`\<`Readonly`\<`GraphQLScalarTypeExtensions`\>\>
+\> `optional` **extensions**: `Maybe`\<`Readonly`\<`GraphQLScalarTypeExtensions`\>\>
 
 #### Inherited from
 
@@ -70,7 +70,7 @@ node\_modules/graphql/type/definition.d.ts:368
 
 ### name
 
-> **name**: `"PositiveInt"`
+\> **name**: `"PositiveInt"`
 
 #### Overrides
 
@@ -78,13 +78,13 @@ node\_modules/graphql/type/definition.d.ts:368
 
 #### Defined in
 
-[src/types/generatedGraphQLTypes.ts:4538](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L4538)
+[src/types/generatedGraphQLTypes.ts:4538](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L4538)
 
 ***
 
 ### parseLiteral?
 
-> `optional` **parseLiteral**: `GraphQLScalarLiteralParser`\<`any`\>
+\> `optional` **parseLiteral**: `GraphQLScalarLiteralParser`\<`any`\>
 
 Parses an externally provided literal value to use as an input.
 
@@ -100,7 +100,7 @@ node\_modules/graphql/type/definition.d.ts:367
 
 ### parseValue?
 
-> `optional` **parseValue**: `GraphQLScalarValueParser`\<`any`\>
+\> `optional` **parseValue**: `GraphQLScalarValueParser`\<`any`\>
 
 Parses an externally provided value to use as an input.
 
@@ -116,7 +116,7 @@ node\_modules/graphql/type/definition.d.ts:365
 
 ### serialize?
 
-> `optional` **serialize**: `GraphQLScalarSerializer`\<`any`\>
+\> `optional` **serialize**: `GraphQLScalarSerializer`\<`any`\>
 
 Serializes an internal value to include in a response.
 
@@ -132,7 +132,7 @@ node\_modules/graphql/type/definition.d.ts:363
 
 ### specifiedByURL?
 
-> `optional` **specifiedByURL**: `Maybe`\<`string`\>
+\> `optional` **specifiedByURL**: `Maybe`\<`string`\>
 
 #### Inherited from
 

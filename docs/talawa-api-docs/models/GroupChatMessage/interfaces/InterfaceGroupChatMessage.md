@@ -12,68 +12,68 @@ Interface representing a document for a group chat message in the database (Mong
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L11)
+[src/models/GroupChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L11)
 
 ***
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L14)
+[src/models/GroupChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L14)
 
 ***
 
 ### groupChatMessageBelongsTo
 
-> **groupChatMessageBelongsTo**: `any`
+\> **groupChatMessageBelongsTo**: `any`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L12)
+[src/models/GroupChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L12)
 
 ***
 
 ### messageContent
 
-> **messageContent**: `string`
+\> **messageContent**: `string`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L16)
+[src/models/GroupChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L16)
 
 ***
 
 ### sender
 
-> **sender**: `any`
+\> **sender**: `any`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L13)
+[src/models/GroupChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L13)
 
 ***
 
 ### status
 
-> **status**: `string`
+\> **status**: `string`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L17)
+[src/models/GroupChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L17)
 
 ***
 
 ### updatedAt
 
-> **updatedAt**: `Date`
+\> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/GroupChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/GroupChatMessage.ts#L15)
+[src/models/GroupChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/GroupChatMessage.ts#L15)

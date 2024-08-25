@@ -6,34 +6,34 @@
 
 # Type Alias: UpdateAdvertisementInput
 
-> **UpdateAdvertisementInput**: `object`
+\> **UpdateAdvertisementInput**: `object`
 
 ## Type declaration
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### endDate?
 
-> `optional` **endDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+\> `optional` **endDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
 
 ### mediaFile?
 
-> `optional` **mediaFile**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **mediaFile**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### name?
 
-> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **name**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### startDate?
 
-> `optional` **startDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+\> `optional` **startDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
 
 ### type?
 
-> `optional` **type**: [`InputMaybe`](InputMaybe.md)\<[`AdvertisementType`](AdvertisementType.md)\>
+\> `optional` **type**: [`InputMaybe`](InputMaybe.md)\<[`AdvertisementType`](AdvertisementType.md)\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2790](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2790)
+[src/types/generatedGraphQLTypes.ts:2790](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2790)

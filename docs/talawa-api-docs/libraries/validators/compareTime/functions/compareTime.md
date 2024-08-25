@@ -6,7 +6,7 @@
 
 # Function: compareTime()
 
-> **compareTime**(`time1`, `time2`): `string`
+\> **compareTime**(`time1`, `time2`): `string`
 
 Compares two times and returns a message if the first time is later than the second time.
 
@@ -28,4 +28,4 @@ A message indicating that the start time must be earlier than the end time, or a
 
 ## Defined in
 
-[src/libraries/validators/compareTime.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/validators/compareTime.ts#L8)
+[src/libraries/validators/compareTime.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/validators/compareTime.ts#L8)

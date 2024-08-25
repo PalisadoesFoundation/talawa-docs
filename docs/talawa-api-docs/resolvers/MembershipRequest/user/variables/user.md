@@ -6,7 +6,7 @@
 
 # Variable: user
 
-> `const` **user**: [`MembershipRequestResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MembershipRequestResolvers.md)\[`"user"`\]
+\> `const` **user**: [`MembershipRequestResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MembershipRequestResolvers.md)\[`"user"`\]
 
 Resolver function for the `user` field of a `MembershipRequest`.
 
@@ -23,4 +23,4 @@ The parent object representing the membership request. It contains information a
 
 ## Defined in
 
-[src/resolvers/MembershipRequest/user.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/MembershipRequest/user.ts#L18)
+[src/resolvers/MembershipRequest/user.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/MembershipRequest/user.ts#L18)

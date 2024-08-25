@@ -12,80 +12,80 @@ Interface representing a document for a community in MongoDB.
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/Community.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L8)
+[src/models/Community.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Community.ts#L8)
 
 ***
 
 ### logoUrl
 
-> **logoUrl**: `string`
+\> **logoUrl**: `string`
 
 #### Defined in
 
-[src/models/Community.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L10)
+[src/models/Community.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Community.ts#L10)
 
 ***
 
 ### name
 
-> **name**: `string`
+\> **name**: `string`
 
 #### Defined in
 
-[src/models/Community.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L9)
+[src/models/Community.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Community.ts#L9)
 
 ***
 
 ### socialMediaUrls
 
-> **socialMediaUrls**: `object`
+\> **socialMediaUrls**: `object`
 
 #### X
 
-> **X**: `string`
+\> **X**: `string`
 
 #### facebook
 
-> **facebook**: `string`
+\> **facebook**: `string`
 
 #### gitHub
 
-> **gitHub**: `string`
+\> **gitHub**: `string`
 
 #### instagram
 
-> **instagram**: `string`
+\> **instagram**: `string`
 
 #### linkedIn
 
-> **linkedIn**: `string`
+\> **linkedIn**: `string`
 
 #### reddit
 
-> **reddit**: `string`
+\> **reddit**: `string`
 
 #### slack
 
-> **slack**: `string`
+\> **slack**: `string`
 
 #### youTube
 
-> **youTube**: `string`
+\> **youTube**: `string`
 
 #### Defined in
 
-[src/models/Community.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L12)
+[src/models/Community.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Community.ts#L12)
 
 ***
 
 ### websiteLink
 
-> **websiteLink**: `string`
+\> **websiteLink**: `string`
 
 #### Defined in
 
-[src/models/Community.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Community.ts#L11)
+[src/models/Community.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Community.ts#L11)

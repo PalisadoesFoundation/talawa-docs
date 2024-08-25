@@ -12,28 +12,28 @@ Interface for the fields required to send an email.
 
 ### body
 
-> **body**: `string`
+\> **body**: `string`
 
 #### Defined in
 
-[src/utilities/mailer.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/mailer.ts#L17)
+[src/utilities/mailer.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/mailer.ts#L17)
 
 ***
 
 ### emailTo
 
-> **emailTo**: `string`
+\> **emailTo**: `string`
 
 #### Defined in
 
-[src/utilities/mailer.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/mailer.ts#L15)
+[src/utilities/mailer.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/mailer.ts#L15)
 
 ***
 
 ### subject
 
-> **subject**: `string`
+\> **subject**: `string`
 
 #### Defined in
 
-[src/utilities/mailer.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/mailer.ts#L16)
+[src/utilities/mailer.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/mailer.ts#L16)

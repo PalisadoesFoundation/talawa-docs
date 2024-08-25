@@ -6,26 +6,26 @@
 
 # Variable: FUND\_ALREADY\_EXISTS
 
-> `const` **FUND\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
+\> `const` **FUND\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"fund.alreadyExists"` = `"fund.alreadyExists"`
+\> **CODE**: `"fund.alreadyExists"` = `"fund.alreadyExists"`
 
 ### DESC
 
-> **DESC**: `"Fund already exists"` = `"Fund already exists"`
+\> **DESC**: `"Fund already exists"` = `"Fund already exists"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"fund.alreadyExists"` = `"fund.alreadyExists"`
+\> **MESSAGE**: `"fund.alreadyExists"` = `"fund.alreadyExists"`
 
 ### PARAM
 
-> **PARAM**: `"fund"` = `"fund"`
+\> **PARAM**: `"fund"` = `"fund"`
 
 ## Defined in
 
-[src/constants.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L102)
+[src/constants.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L102)

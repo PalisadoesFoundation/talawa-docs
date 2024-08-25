@@ -6,7 +6,7 @@
 
 # Type Alias: ResolversUnionTypes\<_RefType\>
 
-> **ResolversUnionTypes**\<`_RefType`\>: `object`
+\> **ResolversUnionTypes**\<`_RefType`\>: `object`
 
 Mapping of union types
 
@@ -18,24 +18,24 @@ Mapping of union types
 
 ### ConnectionError
 
-> **ConnectionError**: [`InvalidCursor`](InvalidCursor.md) \| [`MaximumValueError`](MaximumValueError.md)
+\> **ConnectionError**: [`InvalidCursor`](InvalidCursor.md) \| [`MaximumValueError`](MaximumValueError.md)
 
 ### CreateAdminError
 
-> **CreateAdminError**: [`OrganizationMemberNotFoundError`](OrganizationMemberNotFoundError.md) \| [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`UserNotAuthorizedError`](UserNotAuthorizedError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
+\> **CreateAdminError**: [`OrganizationMemberNotFoundError`](OrganizationMemberNotFoundError.md) \| [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`UserNotAuthorizedError`](UserNotAuthorizedError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
 
 ### CreateCommentError
 
-> **CreateCommentError**: [`PostNotFoundError`](PostNotFoundError.md)
+\> **CreateCommentError**: [`PostNotFoundError`](PostNotFoundError.md)
 
 ### CreateDirectChatError
 
-> **CreateDirectChatError**: [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
+\> **CreateDirectChatError**: [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
 
 ### CreateMemberError
 
-> **CreateMemberError**: [`MemberNotFoundError`](MemberNotFoundError.md) \| [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`UserNotAuthorizedAdminError`](UserNotAuthorizedAdminError.md) \| [`UserNotAuthorizedError`](UserNotAuthorizedError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
+\> **CreateMemberError**: [`MemberNotFoundError`](MemberNotFoundError.md) \| [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`UserNotAuthorizedAdminError`](UserNotAuthorizedAdminError.md) \| [`UserNotAuthorizedError`](UserNotAuthorizedError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3282](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L3282)
+[src/types/generatedGraphQLTypes.ts:3282](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L3282)

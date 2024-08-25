@@ -6,8 +6,8 @@
 
 # Type Alias: EventOrderByInput
 
-> **EventOrderByInput**: `"allDay_ASC"` \| `"allDay_DESC"` \| `"description_ASC"` \| `"description_DESC"` \| `"endDate_ASC"` \| `"endDate_DESC"` \| `"endTime_ASC"` \| `"endTime_DESC"` \| `"id_ASC"` \| `"id_DESC"` \| `"location_ASC"` \| `"location_DESC"` \| `"recurrance_ASC"` \| `"recurrance_DESC"` \| `"startDate_ASC"` \| `"startDate_DESC"` \| `"startTime_ASC"` \| `"startTime_DESC"` \| `"title_ASC"` \| `"title_DESC"`
+\> **EventOrderByInput**: `"allDay_ASC"` \| `"allDay_DESC"` \| `"description_ASC"` \| `"description_DESC"` \| `"endDate_ASC"` \| `"endDate_DESC"` \| `"endTime_ASC"` \| `"endTime_DESC"` \| `"id_ASC"` \| `"id_DESC"` \| `"location_ASC"` \| `"location_DESC"` \| `"recurrance_ASC"` \| `"recurrance_DESC"` \| `"startDate_ASC"` \| `"startDate_DESC"` \| `"startTime_ASC"` \| `"startTime_DESC"` \| `"title_ASC"` \| `"title_DESC"`
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:779](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L779)
+[src/types/generatedGraphQLTypes.ts:779](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L779)

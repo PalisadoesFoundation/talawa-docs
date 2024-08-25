@@ -6,26 +6,26 @@
 
 # Variable: INVALID\_ROLE\_TYPE
 
-> `const` **INVALID\_ROLE\_TYPE**: `Readonly`\<`object`\>
+\> `const` **INVALID\_ROLE\_TYPE**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"internalServerError"` = `"internalServerError"`
+\> **CODE**: `"internalServerError"` = `"internalServerError"`
 
 ### DESC
 
-> **DESC**: `"Invalid Role Type"` = `"Invalid Role Type"`
+\> **DESC**: `"Invalid Role Type"` = `"Invalid Role Type"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"invalid.roleType"` = `"invalid.roleType"`
+\> **MESSAGE**: `"invalid.roleType"` = `"invalid.roleType"`
 
 ### PARAM
 
-> **PARAM**: `"internalServerError"` = `"internalServerError"`
+\> **PARAM**: `"internalServerError"` = `"internalServerError"`
 
 ## Defined in
 
-[src/constants.ts:244](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L244)
+[src/constants.ts:244](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L244)

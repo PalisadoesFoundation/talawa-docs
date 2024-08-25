@@ -6,7 +6,7 @@
 
 # Function: checkReplicaSet()
 
-> **checkReplicaSet**(): `Promise`\<`boolean`\>
+\> **checkReplicaSet**(): `Promise`\<`boolean`\>
 
 Checks if the MongoDB connection is part of a replica set.
 This function sends a 'hello' command to the MongoDB admin database to retrieve server information,
@@ -20,4 +20,4 @@ A promise that resolves to a boolean indicating whether the connection is part o
 
 ## Defined in
 
-[src/utilities/checkReplicaSet.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/checkReplicaSet.ts#L11)
+[src/utilities/checkReplicaSet.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/checkReplicaSet.ts#L11)

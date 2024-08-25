@@ -6,7 +6,7 @@
 
 # Variable: addPledgeToFundraisingCampaign
 
-> `const` **addPledgeToFundraisingCampaign**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addPledgeToFundraisingCampaign"`\]
+\> `const` **addPledgeToFundraisingCampaign**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"addPledgeToFundraisingCampaign"`\]
 
 Mutation resolver to add a pledge to a fundraising campaign.
 
@@ -36,4 +36,4 @@ The context of the entire application, containing user information and other con
 
 ## Defined in
 
-[src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts#L41)
+[src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Mutation/addPledgeToFundraisingCampaign.ts#L41)

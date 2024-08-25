@@ -6,7 +6,7 @@
 
 # Variable: leader
 
-> `const` **leader**: [`EventVolunteerGroupResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerGroupResolvers.md)\[`"leader"`\]
+\> `const` **leader**: [`EventVolunteerGroupResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerGroupResolvers.md)\[`"leader"`\]
 
 Resolver function for the `leader` field of an `EventVolunteerGroup`.
 
@@ -23,4 +23,4 @@ The parent object representing the event volunteer group. It contains informatio
 
 ## Defined in
 
-[src/resolvers/EventVolunteerGroup/leader.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/EventVolunteerGroup/leader.ts#L17)
+[src/resolvers/EventVolunteerGroup/leader.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/EventVolunteerGroup/leader.ts#L17)

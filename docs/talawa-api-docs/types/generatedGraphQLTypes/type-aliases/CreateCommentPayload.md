@@ -6,22 +6,22 @@
 
 # Type Alias: CreateCommentPayload
 
-> **CreateCommentPayload**: `object`
+\> **CreateCommentPayload**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"CreateCommentPayload"`
+\> `optional` **\_\_typename**: `"CreateCommentPayload"`
 
 ### comment?
 
-> `optional` **comment**: [`Maybe`](Maybe.md)\<[`Comment`](Comment.md)\>
+\> `optional` **comment**: [`Maybe`](Maybe.md)\<[`Comment`](Comment.md)\>
 
 ### userErrors
 
-> **userErrors**: [`CreateCommentError`](CreateCommentError.md)[]
+\> **userErrors**: [`CreateCommentError`](CreateCommentError.md)[]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:402](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L402)
+[src/types/generatedGraphQLTypes.ts:402](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L402)

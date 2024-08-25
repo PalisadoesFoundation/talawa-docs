@@ -6,7 +6,7 @@
 
 # Variable: updateUserPassword
 
-> `const` **updateUserPassword**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateUserPassword"`\]
+\> `const` **updateUserPassword**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateUserPassword"`\]
 
 Updates the password for the currently authenticated user.
 
@@ -35,4 +35,4 @@ The context of the request, containing information about the currently authentic
 
 ## Defined in
 
-[src/resolvers/Mutation/updateUserPassword.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/updateUserPassword.ts#L39)
+[src/resolvers/Mutation/updateUserPassword.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Mutation/updateUserPassword.ts#L39)

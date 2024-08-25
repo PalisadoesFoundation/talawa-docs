@@ -6,58 +6,58 @@
 
 # Type Alias: FundraisingCampaign
 
-> **FundraisingCampaign**: `object`
+\> **FundraisingCampaign**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"FundraisingCampaign"`
+\> `optional` **\_\_typename**: `"FundraisingCampaign"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### currency
 
-> **currency**: [`Currency`](Currency.md)
+\> **currency**: [`Currency`](Currency.md)
 
 ### endDate
 
-> **endDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
+\> **endDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
 
 ### fundId
 
-> **fundId**: [`Fund`](Fund.md)
+\> **fundId**: [`Fund`](Fund.md)
 
 ### fundingGoal
 
-> **fundingGoal**: [`Scalars`](Scalars.md)\[`"Float"`\]\[`"output"`\]
+\> **fundingGoal**: [`Scalars`](Scalars.md)\[`"Float"`\]\[`"output"`\]
 
 ### name
 
-> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### organizationId
 
-> **organizationId**: [`Organization`](Organization.md)
+\> **organizationId**: [`Organization`](Organization.md)
 
 ### pledges?
 
-> `optional` **pledges**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`FundraisingCampaignPledge`](FundraisingCampaignPledge.md)\>[]\>
+\> `optional` **pledges**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`FundraisingCampaignPledge`](FundraisingCampaignPledge.md)\>[]\>
 
 ### startDate
 
-> **startDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
+\> **startDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
 
 ### updatedAt
 
-> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:968](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L968)
+[src/types/generatedGraphQLTypes.ts:968](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L968)

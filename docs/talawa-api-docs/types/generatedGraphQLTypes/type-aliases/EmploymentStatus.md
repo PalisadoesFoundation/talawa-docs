@@ -6,8 +6,8 @@
 
 # Type Alias: EmploymentStatus
 
-> **EmploymentStatus**: `"FULL_TIME"` \| `"PART_TIME"` \| `"UNEMPLOYED"`
+\> **EmploymentStatus**: `"FULL_TIME"` \| `"PART_TIME"` \| `"UNEMPLOYED"`
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:694](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L694)
+[src/types/generatedGraphQLTypes.ts:694](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L694)

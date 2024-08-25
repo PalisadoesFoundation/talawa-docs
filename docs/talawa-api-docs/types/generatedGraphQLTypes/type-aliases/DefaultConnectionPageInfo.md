@@ -6,7 +6,7 @@
 
 # Type Alias: DefaultConnectionPageInfo
 
-> **DefaultConnectionPageInfo**: [`ConnectionPageInfo`](ConnectionPageInfo.md) & `object`
+\> **DefaultConnectionPageInfo**: [`ConnectionPageInfo`](ConnectionPageInfo.md) & `object`
 
 Default connection page info for containing the metadata for a connection
 instance.
@@ -15,24 +15,24 @@ instance.
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"DefaultConnectionPageInfo"`
+\> `optional` **\_\_typename**: `"DefaultConnectionPageInfo"`
 
 ### endCursor?
 
-> `optional` **endCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **endCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ### hasNextPage
 
-> **hasNextPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **hasNextPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### hasPreviousPage
 
-> **hasPreviousPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **hasPreviousPage**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### startCursor?
 
-> `optional` **startCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **startCursor**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:600](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L600)
+[src/types/generatedGraphQLTypes.ts:600](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L600)

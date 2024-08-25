@@ -6,34 +6,34 @@
 
 # Type Alias: UserInput
 
-> **UserInput**: `object`
+\> **UserInput**: `object`
 
 ## Type declaration
 
 ### appLanguageCode?
 
-> `optional` **appLanguageCode**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **appLanguageCode**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### email
 
-> **email**: [`Scalars`](Scalars.md)\[`"EmailAddress"`\]\[`"input"`\]
+\> **email**: [`Scalars`](Scalars.md)\[`"EmailAddress"`\]\[`"input"`\]
 
 ### firstName
 
-> **firstName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+\> **firstName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### lastName
 
-> **lastName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+\> **lastName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### password
 
-> **password**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+\> **password**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### selectedOrganization
 
-> **selectedOrganization**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **selectedOrganization**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3007](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L3007)
+[src/types/generatedGraphQLTypes.ts:3007](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L3007)

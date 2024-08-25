@@ -6,34 +6,34 @@
 
 # Type Alias: CreateAdvertisementInput
 
-> **CreateAdvertisementInput**: `object`
+\> **CreateAdvertisementInput**: `object`
 
 ## Type declaration
 
 ### endDate
 
-> **endDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]
+\> **endDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]
 
 ### mediaFile
 
-> **mediaFile**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+\> **mediaFile**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### name
 
-> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### organizationId
 
-> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### startDate
 
-> **startDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]
+\> **startDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]
 
 ### type
 
-> **type**: [`AdvertisementType`](AdvertisementType.md)
+\> **type**: [`AdvertisementType`](AdvertisementType.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:360](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L360)
+[src/types/generatedGraphQLTypes.ts:360](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L360)

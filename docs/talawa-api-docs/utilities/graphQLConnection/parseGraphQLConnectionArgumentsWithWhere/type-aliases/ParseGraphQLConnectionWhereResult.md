@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionWhereResult\<T0\>
 
-> **ParseGraphQLConnectionWhereResult**\<`T0`\>: `object` \| `object`
+\> **ParseGraphQLConnectionWhereResult**\<`T0`\>: `object` \| `object`
 
 This is typescript type of the object returned from callback function `parseWhere`.
 
@@ -16,4 +16,4 @@ This is typescript type of the object returned from callback function `parseWher
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)

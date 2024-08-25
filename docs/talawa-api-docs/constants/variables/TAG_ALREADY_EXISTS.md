@@ -6,22 +6,22 @@
 
 # Variable: TAG\_ALREADY\_EXISTS
 
-> `const` **TAG\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
+\> `const` **TAG\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"tag.alreadyExists"` = `"tag.alreadyExists"`
+\> **CODE**: `"tag.alreadyExists"` = `"tag.alreadyExists"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"A tag with the same name and the same parent tag already exists for this organization."` = `"A tag with the same name and the same parent tag already exists for this organization."`
+\> **MESSAGE**: `"A tag with the same name and the same parent tag already exists for this organization."` = `"A tag with the same name and the same parent tag already exists for this organization."`
 
 ### PARAM
 
-> **PARAM**: `"tag.alreadyExists"` = `"tag.alreadyExists"`
+\> **PARAM**: `"tag.alreadyExists"` = `"tag.alreadyExists"`
 
 ## Defined in
 
-[src/constants.ts:444](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L444)
+[src/constants.ts:444](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L444)

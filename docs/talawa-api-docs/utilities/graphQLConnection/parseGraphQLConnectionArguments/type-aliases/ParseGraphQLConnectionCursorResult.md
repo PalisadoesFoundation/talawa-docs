@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionCursorResult\<T0\>
 
-> **ParseGraphQLConnectionCursorResult**\<`T0`\>: `Promise`\<`object` \| `object`\>
+\> **ParseGraphQLConnectionCursorResult**\<`T0`\>: `Promise`\<`object` \| `object`\>
 
 This is typescript type of object returned from the callback function `parseCursor` passed
 as an argument to `parseGraphQLConnectionArguments`, `parseGraphQLConnectionArgumentsWithSortedBy`,
@@ -19,4 +19,4 @@ functions.
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L25)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L25)

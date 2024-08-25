@@ -6,7 +6,7 @@
 
 # Variable: createPlugin
 
-> `const` **createPlugin**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createPlugin"`\]
+\> `const` **createPlugin**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"createPlugin"`\]
 
 Creates a new plugin and triggers a subscription event.
 
@@ -34,4 +34,4 @@ This function creates a plugin record, updates the subscription channel with the
 
 ## Defined in
 
-[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/createPlugin.ts#L21)
+[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Mutation/createPlugin.ts#L21)

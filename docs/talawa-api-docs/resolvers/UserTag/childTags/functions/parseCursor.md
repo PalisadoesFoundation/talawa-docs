@@ -6,7 +6,7 @@
 
 # Function: parseCursor()
 
-> **parseCursor**(`__namedParameters`): [`ParseGraphQLConnectionCursorResult`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorResult.md)\<`string`\>
+\> **parseCursor**(`__namedParameters`): [`ParseGraphQLConnectionCursorResult`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorResult.md)\<`string`\>
 
 ## Parameters
 
@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/resolvers/UserTag/childTags.ts:107](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/UserTag/childTags.ts#L107)
+[src/resolvers/UserTag/childTags.ts:107](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/UserTag/childTags.ts#L107)

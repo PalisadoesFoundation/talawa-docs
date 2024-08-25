@@ -6,7 +6,7 @@
 
 # Function: isValidString()
 
-> **isValidString**(`str`, `maxLength`): `object`
+\> **isValidString**(`str`, `maxLength`): `object`
 
 Checks if a given string is less than a specified maximum length.
 
@@ -28,8 +28,8 @@ An object containing a boolean indicating if the string is less than the maximum
 
 ### isLessThanMaxLength
 
-> **isLessThanMaxLength**: `boolean`
+\> **isLessThanMaxLength**: `boolean`
 
 ## Defined in
 
-[src/libraries/validators/validateString.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/validators/validateString.ts#L8)
+[src/libraries/validators/validateString.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/validators/validateString.ts#L8)

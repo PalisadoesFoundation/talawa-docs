@@ -6,22 +6,22 @@
 
 # Variable: FIELD\_NON\_EMPTY\_ERROR
 
-> `const` **FIELD\_NON\_EMPTY\_ERROR**: `Readonly`\<`object`\>
+\> `const` **FIELD\_NON\_EMPTY\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"field_non_empty_error"` = `"field_non_empty_error"`
+\> **CODE**: `"field_non_empty_error"` = `"field_non_empty_error"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Error: Field cannot be null, an empty string, or contain only spaces."` = `"Error: Field cannot be null, an empty string, or contain only spaces."`
+\> **MESSAGE**: `"Error: Field cannot be null, an empty string, or contain only spaces."` = `"Error: Field cannot be null, an empty string, or contain only spaces."`
 
 ### PARAM
 
-> **PARAM**: `"field"` = `"field"`
+\> **PARAM**: `"field"` = `"field"`
 
 ## Defined in
 
-[src/constants.ts:281](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L281)
+[src/constants.ts:281](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L281)

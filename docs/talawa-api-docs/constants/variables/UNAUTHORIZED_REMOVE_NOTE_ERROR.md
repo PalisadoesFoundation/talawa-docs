@@ -6,22 +6,22 @@
 
 # Variable: UNAUTHORIZED\_REMOVE\_NOTE\_ERROR
 
-> `const` **UNAUTHORIZED\_REMOVE\_NOTE\_ERROR**: `Readonly`\<`object`\>
+\> `const` **UNAUTHORIZED\_REMOVE\_NOTE\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"note.unauthorizedRemove"` = `"note.unauthorizedRemove"`
+\> **CODE**: `"note.unauthorizedRemove"` = `"note.unauthorizedRemove"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Error: Unauthorized to remove note"` = `"Error: Unauthorized to remove note"`
+\> **MESSAGE**: `"Error: Unauthorized to remove note"` = `"Error: Unauthorized to remove note"`
 
 ### PARAM
 
-> **PARAM**: `"noteRemovalValidation"` = `"noteRemovalValidation"`
+\> **PARAM**: `"noteRemovalValidation"` = `"noteRemovalValidation"`
 
 ## Defined in
 
-[src/constants.ts:547](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L547)
+[src/constants.ts:547](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L547)

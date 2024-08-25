@@ -6,7 +6,7 @@
 
 # Variable: updatePost
 
-> `const` **updatePost**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updatePost"`\]
+\> `const` **updatePost**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updatePost"`\]
 
 Updates a post with new details, including handling image and video URL uploads and validating input fields.
 
@@ -26,4 +26,4 @@ Provides contextual information, including the current user's ID. This is used t
 
 ## Defined in
 
-[src/resolvers/Mutation/updatePost.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/updatePost.ts#L39)
+[src/resolvers/Mutation/updatePost.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Mutation/updatePost.ts#L39)

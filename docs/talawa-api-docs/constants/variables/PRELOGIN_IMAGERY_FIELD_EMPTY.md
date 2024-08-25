@@ -6,22 +6,22 @@
 
 # Variable: PRELOGIN\_IMAGERY\_FIELD\_EMPTY
 
-> `const` **PRELOGIN\_IMAGERY\_FIELD\_EMPTY**: `Readonly`\<`object`\>
+\> `const` **PRELOGIN\_IMAGERY\_FIELD\_EMPTY**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"preLoginImagery.empty"` = `"preLoginImagery.empty"`
+\> **CODE**: `"preLoginImagery.empty"` = `"preLoginImagery.empty"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Website name, website link and the website logo cannot be empty"` = `"Website name, website link and the website logo cannot be empty"`
+\> **MESSAGE**: `"Website name, website link and the website logo cannot be empty"` = `"Website name, website link and the website logo cannot be empty"`
 
 ### PARAM
 
-> **PARAM**: `"preLoginImagery.empty"` = `"preLoginImagery.empty"`
+\> **PARAM**: `"preLoginImagery.empty"` = `"preLoginImagery.empty"`
 
 ## Defined in
 
-[src/constants.ts:693](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L693)
+[src/constants.ts:693](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L693)

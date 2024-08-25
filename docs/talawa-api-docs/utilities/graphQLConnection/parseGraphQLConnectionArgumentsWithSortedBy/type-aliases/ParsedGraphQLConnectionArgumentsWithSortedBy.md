@@ -6,7 +6,7 @@
 
 # Type Alias: ParsedGraphQLConnectionArgumentsWithSortedBy\<T0, T1\>
 
-> **ParsedGraphQLConnectionArgumentsWithSortedBy**\<`T0`, `T1`\>: `object` & [`ParsedGraphQLConnectionArguments`](../../parseGraphQLConnectionArguments/type-aliases/ParsedGraphQLConnectionArguments.md)\<`T0`\>
+\> **ParsedGraphQLConnectionArgumentsWithSortedBy**\<`T0`, `T1`\>: `object` & [`ParsedGraphQLConnectionArguments`](../../parseGraphQLConnectionArguments/type-aliases/ParsedGraphQLConnectionArguments.md)\<`T0`\>
 
 This is typescript type of the object containing validated and transformed connection
 arguments passed to `parseGraphQLConnectionArgumentsWithSortedBy` function.
@@ -15,7 +15,7 @@ arguments passed to `parseGraphQLConnectionArgumentsWithSortedBy` function.
 
 ### sort
 
-> **sort**: `T1`
+\> **sort**: `T1`
 
 ## Type Parameters
 
@@ -25,4 +25,4 @@ arguments passed to `parseGraphQLConnectionArgumentsWithSortedBy` function.
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L29)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L29)

@@ -6,7 +6,7 @@
 
 # Variable: assigner
 
-> `const` **assigner**: [`ActionItemResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemResolvers.md)\[`"assigner"`\]
+\> `const` **assigner**: [`ActionItemResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemResolvers.md)\[`"assigner"`\]
 
 Resolver function for the `assigner` field of an `ActionItem`.
 
@@ -20,4 +20,4 @@ The parent `ActionItem` object. This contains the `assignerId` field, which is u
 
 ## Defined in
 
-[src/resolvers/ActionItem/assigner.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/ActionItem/assigner.ts#L15)
+[src/resolvers/ActionItem/assigner.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/ActionItem/assigner.ts#L15)

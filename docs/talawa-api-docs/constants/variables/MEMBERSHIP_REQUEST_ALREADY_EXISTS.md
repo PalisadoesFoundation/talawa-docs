@@ -6,26 +6,26 @@
 
 # Variable: MEMBERSHIP\_REQUEST\_ALREADY\_EXISTS
 
-> `const` **MEMBERSHIP\_REQUEST\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
+\> `const` **MEMBERSHIP\_REQUEST\_ALREADY\_EXISTS**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"membershipRequest.alreadyExists"` = `"membershipRequest.alreadyExists"`
+\> **CODE**: `"membershipRequest.alreadyExists"` = `"membershipRequest.alreadyExists"`
 
 ### DESC
 
-> **DESC**: `"Membership Request already exists"` = `"Membership Request already exists"`
+\> **DESC**: `"Membership Request already exists"` = `"Membership Request already exists"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"membershipRequest.alreadyExists"` = `"membershipRequest.alreadyExists"`
+\> **MESSAGE**: `"membershipRequest.alreadyExists"` = `"membershipRequest.alreadyExists"`
 
 ### PARAM
 
-> **PARAM**: `"membershipRequest"` = `"membershipRequest"`
+\> **PARAM**: `"membershipRequest"` = `"membershipRequest"`
 
 ## Defined in
 
-[src/constants.ts:160](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L160)
+[src/constants.ts:160](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L160)

@@ -6,7 +6,7 @@
 
 # Type Alias: TransformToDefaultGraphQLConnectionArguments\<T0, T1, T2\>
 
-> **TransformToDefaultGraphQLConnectionArguments**\<`T0`, `T1`, `T2`\>: `object`
+\> **TransformToDefaultGraphQLConnectionArguments**\<`T0`, `T1`, `T2`\>: `object`
 
 ## Type Parameters
 
@@ -20,24 +20,24 @@
 
 ### createCursor?
 
-> `optional` **createCursor**: [`CreateCursor`](CreateCursor.md)\<`T1`\>
+\> `optional` **createCursor**: [`CreateCursor`](CreateCursor.md)\<`T1`\>
 
 ### createNode?
 
-> `optional` **createNode**: [`CreateNode`](CreateNode.md)\<`T1`, `T2`\>
+\> `optional` **createNode**: [`CreateNode`](CreateNode.md)\<`T1`, `T2`\>
 
 ### objectList
 
-> **objectList**: `T1`[]
+\> **objectList**: `T1`[]
 
 ### parsedArgs
 
-> **parsedArgs**: [`ParsedGraphQLConnectionArguments`](../../parseGraphQLConnectionArguments/type-aliases/ParsedGraphQLConnectionArguments.md)\<`T0`\>
+\> **parsedArgs**: [`ParsedGraphQLConnectionArguments`](../../parseGraphQLConnectionArguments/type-aliases/ParsedGraphQLConnectionArguments.md)\<`T0`\>
 
 ### totalCount
 
-> **totalCount**: `number`
+\> **totalCount**: `number`
 
 ## Defined in
 
-[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L18)
+[src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/transformToDefaultGraphQLConnection.ts#L18)

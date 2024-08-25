@@ -6,7 +6,7 @@
 
 # Function: isNotNullish()
 
-> **isNotNullish**\<`T0`\>(`value`): `value is T0`
+\> **isNotNullish**\<`T0`\>(`value`): `value is T0`
 
 This function is used to check nullish state of a value passed to it. Nullish means the
 value being either `null` or `undefined`. If the value is found to be nullish, the function
@@ -28,15 +28,15 @@ returns the boolean `false`, else it returns the boolean `true`.
 
 ```ts
 Here's an example:-
-function print(str: string | null) {
-  if(isNotNullish(str)) {
-    console.log(`the string is ${str}`)
-  } else {
+function print(str: string | null) \{
+  if(isNotNullish(str)) \{
+    console.log(`the string is $\{str\}`)
+  \} else \{
     console.log(`the string is null`)
-  }
-}
+  \}
+\}
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/index.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/index.ts#L15)
+[src/utilities/graphQLConnection/index.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/index.ts#L15)

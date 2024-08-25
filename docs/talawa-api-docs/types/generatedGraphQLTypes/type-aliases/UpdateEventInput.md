@@ -6,70 +6,70 @@
 
 # Type Alias: UpdateEventInput
 
-> **UpdateEventInput**: `object`
+\> **UpdateEventInput**: `object`
 
 ## Type declaration
 
 ### allDay?
 
-> `optional` **allDay**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **allDay**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### description?
 
-> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### endDate?
 
-> `optional` **endDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+\> `optional` **endDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
 
 ### endTime?
 
-> `optional` **endTime**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"input"`\]\>
+\> `optional` **endTime**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"input"`\]\>
 
 ### images?
 
-> `optional` **images**: [`InputMaybe`](InputMaybe.md)\<[`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>[]\>
+\> `optional` **images**: [`InputMaybe`](InputMaybe.md)\<[`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>[]\>
 
 ### isPublic?
 
-> `optional` **isPublic**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **isPublic**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### isRecurringEventException?
 
-> `optional` **isRecurringEventException**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **isRecurringEventException**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### isRegisterable?
 
-> `optional` **isRegisterable**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **isRegisterable**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### latitude?
 
-> `optional` **latitude**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Latitude"`\]\[`"input"`\]\>
+\> `optional` **latitude**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Latitude"`\]\[`"input"`\]\>
 
 ### location?
 
-> `optional` **location**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **location**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### longitude?
 
-> `optional` **longitude**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Longitude"`\]\[`"input"`\]\>
+\> `optional` **longitude**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Longitude"`\]\[`"input"`\]\>
 
 ### recurring?
 
-> `optional` **recurring**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
+\> `optional` **recurring**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"input"`\]\>
 
 ### startDate?
 
-> `optional` **startDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
+\> `optional` **startDate**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"input"`\]\>
 
 ### startTime?
 
-> `optional` **startTime**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"input"`\]\>
+\> `optional` **startTime**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Time"`\]\[`"input"`\]\>
 
 ### title?
 
-> `optional` **title**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **title**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2834](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2834)
+[src/types/generatedGraphQLTypes.ts:2834](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2834)

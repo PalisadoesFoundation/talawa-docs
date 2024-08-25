@@ -12,38 +12,38 @@ Interface representing a Language Model document in the database (MongoDB).
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/Language.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Language.ts#L12)
+[src/models/Language.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Language.ts#L12)
 
 ***
 
 ### lang\_code
 
-> **lang\_code**: `string`
+\> **lang\_code**: `string`
 
 #### Defined in
 
-[src/models/Language.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Language.ts#L9)
+[src/models/Language.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Language.ts#L9)
 
 ***
 
 ### value
 
-> **value**: `string`
+\> **value**: `string`
 
 #### Defined in
 
-[src/models/Language.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Language.ts#L10)
+[src/models/Language.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Language.ts#L10)
 
 ***
 
 ### verified
 
-> **verified**: `boolean`
+\> **verified**: `boolean`
 
 #### Defined in
 
-[src/models/Language.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Language.ts#L11)
+[src/models/Language.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Language.ts#L11)

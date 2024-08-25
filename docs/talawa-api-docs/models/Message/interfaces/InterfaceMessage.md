@@ -12,88 +12,88 @@ Interface representing a document for a message in the database (MongoDB).
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/Message.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L11)
+[src/models/Message.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L11)
 
 ***
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/Message.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L15)
+[src/models/Message.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L15)
 
 ***
 
 ### creatorId
 
-> **creatorId**: `any`
+\> **creatorId**: `any`
 
 #### Defined in
 
-[src/models/Message.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L17)
+[src/models/Message.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L17)
 
 ***
 
 ### group
 
-> **group**: `any`
+\> **group**: `any`
 
 #### Defined in
 
-[src/models/Message.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L18)
+[src/models/Message.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L18)
 
 ***
 
 ### imageUrl
 
-> **imageUrl**: `undefined` \| `string`
+\> **imageUrl**: `undefined` \| `string`
 
 #### Defined in
 
-[src/models/Message.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L13)
+[src/models/Message.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L13)
 
 ***
 
 ### status
 
-> **status**: `string`
+\> **status**: `string`
 
 #### Defined in
 
-[src/models/Message.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L19)
+[src/models/Message.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L19)
 
 ***
 
 ### text
 
-> **text**: `string`
+\> **text**: `string`
 
 #### Defined in
 
-[src/models/Message.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L12)
+[src/models/Message.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L12)
 
 ***
 
 ### updatedAt
 
-> **updatedAt**: `Date`
+\> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/Message.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L16)
+[src/models/Message.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L16)
 
 ***
 
 ### videoUrl
 
-> **videoUrl**: `undefined` \| `string`
+\> **videoUrl**: `undefined` \| `string`
 
 #### Defined in
 
-[src/models/Message.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Message.ts#L14)
+[src/models/Message.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Message.ts#L14)

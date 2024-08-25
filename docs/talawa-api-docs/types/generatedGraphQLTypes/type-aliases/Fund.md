@@ -6,58 +6,58 @@
 
 # Type Alias: Fund
 
-> **Fund**: `object`
+\> **Fund**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"Fund"`
+\> `optional` **\_\_typename**: `"Fund"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### campaigns?
 
-> `optional` **campaigns**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`FundraisingCampaign`](FundraisingCampaign.md)\>[]\>
+\> `optional` **campaigns**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`FundraisingCampaign`](FundraisingCampaign.md)\>[]\>
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### creator?
 
-> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
+\> `optional` **creator**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
 
 ### isArchived
 
-> **isArchived**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **isArchived**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### isDefault
 
-> **isDefault**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **isDefault**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### name
 
-> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### organizationId
 
-> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### refrenceNumber?
 
-> `optional` **refrenceNumber**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **refrenceNumber**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ### taxDeductible
 
-> **taxDeductible**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **taxDeductible**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### updatedAt
 
-> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:917](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L917)
+[src/types/generatedGraphQLTypes.ts:917](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L917)

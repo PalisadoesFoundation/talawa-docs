@@ -6,22 +6,22 @@
 
 # Type Alias: QueryGetFundraisingCampaignsArgs
 
-> **QueryGetFundraisingCampaignsArgs**: `object`
+\> **QueryGetFundraisingCampaignsArgs**: `object`
 
 ## Type declaration
 
 ### campaignOrderby?
 
-> `optional` **campaignOrderby**: [`InputMaybe`](InputMaybe.md)\<[`CampaignOrderByInput`](CampaignOrderByInput.md)\>
+\> `optional` **campaignOrderby**: [`InputMaybe`](InputMaybe.md)\<[`CampaignOrderByInput`](CampaignOrderByInput.md)\>
 
 ### pledgeOrderBy?
 
-> `optional` **pledgeOrderBy**: [`InputMaybe`](InputMaybe.md)\<[`PledgeOrderByInput`](PledgeOrderByInput.md)\>
+\> `optional` **pledgeOrderBy**: [`InputMaybe`](InputMaybe.md)\<[`PledgeOrderByInput`](PledgeOrderByInput.md)\>
 
 ### where?
 
-> `optional` **where**: [`InputMaybe`](InputMaybe.md)\<[`CampaignWhereInput`](CampaignWhereInput.md)\>
+\> `optional` **where**: [`InputMaybe`](InputMaybe.md)\<[`CampaignWhereInput`](CampaignWhereInput.md)\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2507](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2507)
+[src/types/generatedGraphQLTypes.ts:2507](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2507)

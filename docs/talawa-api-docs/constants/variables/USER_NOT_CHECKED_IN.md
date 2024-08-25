@@ -6,22 +6,22 @@
 
 # Variable: USER\_NOT\_CHECKED\_IN
 
-> `const` **USER\_NOT\_CHECKED\_IN**: `Readonly`\<`object`\>
+\> `const` **USER\_NOT\_CHECKED\_IN**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"user.notCheckedIn"` = `"user.notCheckedIn"`
+\> **CODE**: `"user.notCheckedIn"` = `"user.notCheckedIn"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"The user did not check in for the event."` = `"The user did not check in for the event."`
+\> **MESSAGE**: `"The user did not check in for the event."` = `"The user did not check in for the event."`
 
 ### PARAM
 
-> **PARAM**: `"user.notCheckedIn"` = `"user.notCheckedIn"`
+\> **PARAM**: `"user.notCheckedIn"` = `"user.notCheckedIn"`
 
 ## Defined in
 
-[src/constants.ts:342](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L342)
+[src/constants.ts:342](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L342)

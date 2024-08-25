@@ -6,7 +6,7 @@
 
 # Variable: updateLanguage
 
-> `const` **updateLanguage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateLanguage"`\]
+\> `const` **updateLanguage**: [`MutationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/MutationResolvers.md)\[`"updateLanguage"`\]
 
 This function enables to update language.
 
@@ -29,4 +29,4 @@ The following checks are done:
 
 ## Defined in
 
-[src/resolvers/Mutation/updateLanguage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Mutation/updateLanguage.ts#L13)
+[src/resolvers/Mutation/updateLanguage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Mutation/updateLanguage.ts#L13)

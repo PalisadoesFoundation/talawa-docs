@@ -12,38 +12,38 @@ Interface representing a document for an encoded video in MongoDB.
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedVideo.ts#L9)
+[src/models/EncodedVideo.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedVideo.ts#L9)
 
 ***
 
 ### content
 
-> **content**: `string`
+\> **content**: `string`
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedVideo.ts#L11)
+[src/models/EncodedVideo.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedVideo.ts#L11)
 
 ***
 
 ### fileName
 
-> **fileName**: `string`
+\> **fileName**: `string`
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedVideo.ts#L10)
+[src/models/EncodedVideo.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedVideo.ts#L10)
 
 ***
 
 ### numberOfUses
 
-> **numberOfUses**: `number`
+\> **numberOfUses**: `number`
 
 #### Defined in
 
-[src/models/EncodedVideo.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedVideo.ts#L12)
+[src/models/EncodedVideo.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedVideo.ts#L12)

@@ -6,7 +6,7 @@
 
 # Function: validateDate()
 
-> **validateDate**(`startDate`, `endDate`): `void`
+\> **validateDate**(`startDate`, `endDate`): `void`
 
 Validates the start and end dates.
 
@@ -26,4 +26,4 @@ The ending date.
 
 ## Defined in
 
-[src/utilities/dateValidator.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/dateValidator.ts#L12)
+[src/utilities/dateValidator.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/dateValidator.ts#L12)

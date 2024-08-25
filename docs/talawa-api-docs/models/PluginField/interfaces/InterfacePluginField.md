@@ -12,48 +12,48 @@ Interface representing a document for a Plugin Field in the database (MongoDB).
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/PluginField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/PluginField.ts#L9)
+[src/models/PluginField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/PluginField.ts#L9)
 
 ***
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/PluginField.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/PluginField.ts#L13)
+[src/models/PluginField.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/PluginField.ts#L13)
 
 ***
 
 ### key
 
-> **key**: `string`
+\> **key**: `string`
 
 #### Defined in
 
-[src/models/PluginField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/PluginField.ts#L10)
+[src/models/PluginField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/PluginField.ts#L10)
 
 ***
 
 ### status
 
-> **status**: `string`
+\> **status**: `string`
 
 #### Defined in
 
-[src/models/PluginField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/PluginField.ts#L12)
+[src/models/PluginField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/PluginField.ts#L12)
 
 ***
 
 ### value
 
-> **value**: `string`
+\> **value**: `string`
 
 #### Defined in
 
-[src/models/PluginField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/PluginField.ts#L11)
+[src/models/PluginField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/PluginField.ts#L11)

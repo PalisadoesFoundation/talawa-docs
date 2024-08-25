@@ -6,7 +6,7 @@
 
 # Variable: messageSentToGroupChat
 
-> `const` **messageSentToGroupChat**: [`SubscriptionResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/SubscriptionResolvers.md)\[`"messageSentToGroupChat"`\]
+\> `const` **messageSentToGroupChat**: [`SubscriptionResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/SubscriptionResolvers.md)\[`"messageSentToGroupChat"`\]
 
 This property included a `subscribe` method, which is used to
 subscribe the `current_user` to get updates for Group chats.
@@ -19,4 +19,4 @@ You can learn about `subscription` [here](https://www.apollographql.com/docs/apo
 
 ## Defined in
 
-[src/resolvers/Subscription/messageSentToGroupChat.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Subscription/messageSentToGroupChat.ts#L43)
+[src/resolvers/Subscription/messageSentToGroupChat.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Subscription/messageSentToGroupChat.ts#L43)

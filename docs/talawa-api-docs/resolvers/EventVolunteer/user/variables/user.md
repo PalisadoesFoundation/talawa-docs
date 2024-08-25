@@ -6,7 +6,7 @@
 
 # Variable: user
 
-> `const` **user**: [`EventVolunteerResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerResolvers.md)\[`"user"`\]
+\> `const` **user**: [`EventVolunteerResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerResolvers.md)\[`"user"`\]
 
 Resolver function for the `user` field of an `EventVolunteer`.
 
@@ -23,4 +23,4 @@ The parent object representing the event volunteer. It contains information abou
 
 ## Defined in
 
-[src/resolvers/EventVolunteer/user.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/EventVolunteer/user.ts#L16)
+[src/resolvers/EventVolunteer/user.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/EventVolunteer/user.ts#L16)

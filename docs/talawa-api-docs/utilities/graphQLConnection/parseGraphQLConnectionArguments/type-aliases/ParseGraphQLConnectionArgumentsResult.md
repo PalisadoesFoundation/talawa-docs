@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionArgumentsResult\<T0\>
 
-> **ParseGraphQLConnectionArgumentsResult**\<`T0`\>: `object` \| `object`
+\> **ParseGraphQLConnectionArgumentsResult**\<`T0`\>: `object` \| `object`
 
 This is typescript type of the object returned from `parseGraphQLConnectionArguments`
 function.
@@ -17,4 +17,4 @@ function.
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L57)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L57)

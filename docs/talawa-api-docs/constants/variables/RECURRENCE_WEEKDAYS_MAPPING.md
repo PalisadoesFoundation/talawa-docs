@@ -6,38 +6,38 @@
 
 # Variable: RECURRENCE\_WEEKDAYS\_MAPPING
 
-> `const` **RECURRENCE\_WEEKDAYS\_MAPPING**: `object`
+\> `const` **RECURRENCE\_WEEKDAYS\_MAPPING**: `object`
 
 ## Type declaration
 
 ### FRIDAY
 
-> **FRIDAY**: `string` = `"FR"`
+\> **FRIDAY**: `string` = `"FR"`
 
 ### MONDAY
 
-> **MONDAY**: `string` = `"MO"`
+\> **MONDAY**: `string` = `"MO"`
 
 ### SATURDAY
 
-> **SATURDAY**: `string` = `"SA"`
+\> **SATURDAY**: `string` = `"SA"`
 
 ### SUNDAY
 
-> **SUNDAY**: `string` = `"SU"`
+\> **SUNDAY**: `string` = `"SU"`
 
 ### THURSDAY
 
-> **THURSDAY**: `string` = `"TH"`
+\> **THURSDAY**: `string` = `"TH"`
 
 ### TUESDAY
 
-> **TUESDAY**: `string` = `"TU"`
+\> **TUESDAY**: `string` = `"TU"`
 
 ### WEDNESDAY
 
-> **WEDNESDAY**: `string` = `"WE"`
+\> **WEDNESDAY**: `string` = `"WE"`
 
 ## Defined in
 
-[src/constants.ts:762](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L762)
+[src/constants.ts:762](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L762)

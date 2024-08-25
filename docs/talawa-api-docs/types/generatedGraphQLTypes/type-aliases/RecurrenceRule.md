@@ -6,58 +6,58 @@
 
 # Type Alias: RecurrenceRule
 
-> **RecurrenceRule**: `object`
+\> **RecurrenceRule**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"RecurrenceRule"`
+\> `optional` **\_\_typename**: `"RecurrenceRule"`
 
 ### baseRecurringEvent?
 
-> `optional` **baseRecurringEvent**: [`Maybe`](Maybe.md)\<[`Event`](Event.md)\>
+\> `optional` **baseRecurringEvent**: [`Maybe`](Maybe.md)\<[`Event`](Event.md)\>
 
 ### count?
 
-> `optional` **count**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"PositiveInt"`\]\[`"output"`\]\>
+\> `optional` **count**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"PositiveInt"`\]\[`"output"`\]\>
 
 ### frequency
 
-> **frequency**: [`Frequency`](Frequency.md)
+\> **frequency**: [`Frequency`](Frequency.md)
 
 ### interval
 
-> **interval**: [`Scalars`](Scalars.md)\[`"PositiveInt"`\]\[`"output"`\]
+\> **interval**: [`Scalars`](Scalars.md)\[`"PositiveInt"`\]\[`"output"`\]
 
 ### latestInstanceDate?
 
-> `optional` **latestInstanceDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
+\> `optional` **latestInstanceDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
 
 ### organization?
 
-> `optional` **organization**: [`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>
+\> `optional` **organization**: [`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>
 
 ### recurrenceEndDate?
 
-> `optional` **recurrenceEndDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
+\> `optional` **recurrenceEndDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
 
 ### recurrenceRuleString
 
-> **recurrenceRuleString**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **recurrenceRuleString**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### recurrenceStartDate
 
-> **recurrenceStartDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
+\> **recurrenceStartDate**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
 
 ### weekDayOccurenceInMonth?
 
-> `optional` **weekDayOccurenceInMonth**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
+\> `optional` **weekDayOccurenceInMonth**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]\>
 
 ### weekDays?
 
-> `optional` **weekDays**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`WeekDays`](WeekDays.md)\>[]\>
+\> `optional` **weekDays**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`WeekDays`](WeekDays.md)\>[]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2657](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2657)
+[src/types/generatedGraphQLTypes.ts:2657](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2657)

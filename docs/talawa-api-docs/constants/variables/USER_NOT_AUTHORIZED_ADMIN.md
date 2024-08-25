@@ -6,22 +6,22 @@
 
 # Variable: USER\_NOT\_AUTHORIZED\_ADMIN
 
-> `const` **USER\_NOT\_AUTHORIZED\_ADMIN**: `Readonly`\<`object`\>
+\> `const` **USER\_NOT\_AUTHORIZED\_ADMIN**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"role.notValid.admin"` = `"role.notValid.admin"`
+\> **CODE**: `"role.notValid.admin"` = `"role.notValid.admin"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Error: Current user must be an ADMIN or a SUPERADMIN"` = `"Error: Current user must be an ADMIN or a SUPERADMIN"`
+\> **MESSAGE**: `"Error: Current user must be an ADMIN or a SUPERADMIN"` = `"Error: Current user must be an ADMIN or a SUPERADMIN"`
 
 ### PARAM
 
-> **PARAM**: `"roleValidationAdmin"` = `"roleValidationAdmin"`
+\> **PARAM**: `"roleValidationAdmin"` = `"roleValidationAdmin"`
 
 ## Defined in
 
-[src/constants.ts:318](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L318)
+[src/constants.ts:318](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L318)

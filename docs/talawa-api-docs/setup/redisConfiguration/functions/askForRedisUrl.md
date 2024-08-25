@@ -6,7 +6,7 @@
 
 # Function: askForRedisUrl()
 
-> **askForRedisUrl**(): `Promise`\<`object`\>
+\> **askForRedisUrl**(): `Promise`\<`object`\>
 
 The function `askForRedisUrl` prompts the user to enter the Redis hostname, port, and password, and
 returns an object with these values.
@@ -20,16 +20,16 @@ properties `host`, `port`, and `password`.
 
 ### host
 
-> **host**: `string`
+\> **host**: `string`
 
 ### password
 
-> **password**: `string`
+\> **password**: `string`
 
 ### port
 
-> **port**: `number`
+\> **port**: `number`
 
 ## Defined in
 
-[src/setup/redisConfiguration.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/setup/redisConfiguration.ts#L36)
+[src/setup/redisConfiguration.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/setup/redisConfiguration.ts#L36)

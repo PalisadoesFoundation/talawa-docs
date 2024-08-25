@@ -6,22 +6,22 @@
 
 # Variable: PLEASE\_PROVIDE\_TITLE
 
-> `const` **PLEASE\_PROVIDE\_TITLE**: `Readonly`\<`object`\>
+\> `const` **PLEASE\_PROVIDE\_TITLE**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"post.provideTitle"` = `"post.provideTitle"`
+\> **CODE**: `"post.provideTitle"` = `"post.provideTitle"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Please provide a title to pin post"` = `"Please provide a title to pin post"`
+\> **MESSAGE**: `"Please provide a title to pin post"` = `"Please provide a title to pin post"`
 
 ### PARAM
 
-> **PARAM**: `"post.provideTitle"` = `"post.provideTitle"`
+\> **PARAM**: `"post.provideTitle"` = `"post.provideTitle"`
 
 ## Defined in
 
-[src/constants.ts:398](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L398)
+[src/constants.ts:398](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L398)

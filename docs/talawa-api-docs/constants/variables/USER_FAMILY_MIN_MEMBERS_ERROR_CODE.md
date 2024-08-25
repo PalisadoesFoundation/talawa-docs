@@ -6,22 +6,22 @@
 
 # Variable: USER\_FAMILY\_MIN\_MEMBERS\_ERROR\_CODE
 
-> `const` **USER\_FAMILY\_MIN\_MEMBERS\_ERROR\_CODE**: `Readonly`\<`object`\>
+\> `const` **USER\_FAMILY\_MIN\_MEMBERS\_ERROR\_CODE**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"membersInUserFamilyLessThanOne"` = `"membersInUserFamilyLessThanOne"`
+\> **CODE**: `"membersInUserFamilyLessThanOne"` = `"membersInUserFamilyLessThanOne"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"InputValidationError"` = `"InputValidationError"`
+\> **MESSAGE**: `"InputValidationError"` = `"InputValidationError"`
 
 ### PARAM
 
-> **PARAM**: `"membersInUserFamilyLessThanOne"` = `"membersInUserFamilyLessThanOne"`
+\> **PARAM**: `"membersInUserFamilyLessThanOne"` = `"membersInUserFamilyLessThanOne"`
 
 ## Defined in
 
-[src/constants.ts:294](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L294)
+[src/constants.ts:294](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L294)

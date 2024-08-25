@@ -12,88 +12,88 @@ Interface representing a document for an event attendee in MongoDB.
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L13)
+[src/models/EventAttendee.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L13)
 
 ***
 
 ### checkInId
 
-> **checkInId**: `any`
+\> **checkInId**: `any`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L16)
+[src/models/EventAttendee.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L16)
 
 ***
 
 ### checkOutId
 
-> **checkOutId**: `any`
+\> **checkOutId**: `any`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L17)
+[src/models/EventAttendee.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L17)
 
 ***
 
 ### eventId
 
-> **eventId**: `any`
+\> **eventId**: `any`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L15)
+[src/models/EventAttendee.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L15)
 
 ***
 
 ### isCheckedIn
 
-> **isCheckedIn**: `boolean`
+\> **isCheckedIn**: `boolean`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L20)
+[src/models/EventAttendee.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L20)
 
 ***
 
 ### isCheckedOut
 
-> **isCheckedOut**: `boolean`
+\> **isCheckedOut**: `boolean`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L21)
+[src/models/EventAttendee.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L21)
 
 ***
 
 ### isInvited
 
-> **isInvited**: `boolean`
+\> **isInvited**: `boolean`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L18)
+[src/models/EventAttendee.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L18)
 
 ***
 
 ### isRegistered
 
-> **isRegistered**: `boolean`
+\> **isRegistered**: `boolean`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L19)
+[src/models/EventAttendee.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L19)
 
 ***
 
 ### userId
 
-> **userId**: `any`
+\> **userId**: `any`
 
 #### Defined in
 
-[src/models/EventAttendee.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EventAttendee.ts#L14)
+[src/models/EventAttendee.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EventAttendee.ts#L14)

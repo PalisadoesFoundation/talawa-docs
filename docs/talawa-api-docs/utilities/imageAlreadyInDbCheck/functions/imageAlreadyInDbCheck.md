@@ -6,7 +6,7 @@
 
 # Function: imageAlreadyInDbCheck()
 
-> **imageAlreadyInDbCheck**(`oldImagePath`, `newImagePath`): `Promise`\<`string`\>
+\> **imageAlreadyInDbCheck**(`oldImagePath`, `newImagePath`): `Promise`\<`string`\>
 
 Checks if an image already exists in the database using its hash value.
 If the image exists, it points to the existing image and removes the newly uploaded image.
@@ -30,4 +30,4 @@ The file name of the existing image if found; otherwise, undefined.
 
 ## Defined in
 
-[src/utilities/imageAlreadyInDbCheck.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/imageAlreadyInDbCheck.ts#L16)
+[src/utilities/imageAlreadyInDbCheck.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/imageAlreadyInDbCheck.ts#L16)

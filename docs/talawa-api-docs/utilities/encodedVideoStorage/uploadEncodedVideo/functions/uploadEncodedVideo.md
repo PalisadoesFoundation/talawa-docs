@@ -6,7 +6,7 @@
 
 # Function: uploadEncodedVideo()
 
-> **uploadEncodedVideo**(`encodedVideoURL`, `previousVideoPath`?): `Promise`\<`string`\>
+\> **uploadEncodedVideo**(`encodedVideoURL`, `previousVideoPath`?): `Promise`\<`string`\>
 
 Uploads an encoded video to the server.
 
@@ -28,4 +28,4 @@ The file name of the uploaded video.
 
 ## Defined in
 
-[src/utilities/encodedVideoStorage/uploadEncodedVideo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/encodedVideoStorage/uploadEncodedVideo.ts#L18)
+[src/utilities/encodedVideoStorage/uploadEncodedVideo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/encodedVideoStorage/uploadEncodedVideo.ts#L18)

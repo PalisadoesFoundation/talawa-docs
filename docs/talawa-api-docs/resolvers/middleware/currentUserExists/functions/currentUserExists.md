@@ -6,7 +6,7 @@
 
 # Function: currentUserExists()
 
-> **currentUserExists**(): (`next`) => (`root`, `args`, `context`, `info`) => `Promise`\<`any`\>
+\> **currentUserExists**(): (`next`) =\> (`root`, `args`, `context`, `info`) =\> `Promise`\<`any`\>
 
 Middleware function to check if the current user exists in the database.
 
@@ -51,4 +51,4 @@ The result of the next function in the resolver chain.
 
 ## Defined in
 
-[src/resolvers/middleware/currentUserExists.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/middleware/currentUserExists.ts#L21)
+[src/resolvers/middleware/currentUserExists.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/middleware/currentUserExists.ts#L21)

@@ -6,7 +6,7 @@
 
 # Function: getCommonGraphQLConnectionFilter()
 
-> **getCommonGraphQLConnectionFilter**(`__namedParameters`): `CommonGraphQLConnectionFilter`
+\> **getCommonGraphQLConnectionFilter**(`__namedParameters`): `CommonGraphQLConnectionFilter`
 
 This function is used to get an object containing common mongoose filtering logic.
 
@@ -39,13 +39,13 @@ document.
 ## Example
 
 ```ts
-const filter = getCommonGraphQLConnectionFilter({
+const filter = getCommonGraphQLConnectionFilter(\{
  cursor: "65da3f8df35eb5bfd52c5368",
  direction: "BACKWARD"
-});
+\});
 const objectList = await User.find(filter).limit(10);
 ```
 
 ## Defined in
 
-[src/utilities/graphQLConnection/getCommonGraphQLConnectionFilter.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/getCommonGraphQLConnectionFilter.ts#L44)
+[src/utilities/graphQLConnection/getCommonGraphQLConnectionFilter.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/getCommonGraphQLConnectionFilter.ts#L44)

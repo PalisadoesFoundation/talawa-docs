@@ -6,26 +6,26 @@
 
 # Variable: VENUE\_ALREADY\_EXISTS\_ERROR
 
-> `const` **VENUE\_ALREADY\_EXISTS\_ERROR**: `Readonly`\<`object`\>
+\> `const` **VENUE\_ALREADY\_EXISTS\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"venue.alreadyExists"` = `"venue.alreadyExists"`
+\> **CODE**: `"venue.alreadyExists"` = `"venue.alreadyExists"`
 
 ### DESC
 
-> **DESC**: `"Venue already exists"` = `"Venue already exists"`
+\> **DESC**: `"Venue already exists"` = `"Venue already exists"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"venue.alreadyExists"` = `"venue.alreadyExists"`
+\> **MESSAGE**: `"venue.alreadyExists"` = `"venue.alreadyExists"`
 
 ### PARAM
 
-> **PARAM**: `"venue"` = `"venue"`
+\> **PARAM**: `"venue"` = `"venue"`
 
 ## Defined in
 
-[src/constants.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L60)
+[src/constants.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L60)

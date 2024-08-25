@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionCursor()\<T0\>
 
-> **ParseGraphQLConnectionCursor**\<`T0`\>: (`args`) => [`ParseGraphQLConnectionCursorResult`](ParseGraphQLConnectionCursorResult.md)\<`T0`\>
+\> **ParseGraphQLConnectionCursor**\<`T0`\>: (`args`) =\> [`ParseGraphQLConnectionCursorResult`](ParseGraphQLConnectionCursorResult.md)\<`T0`\>
 
 This is typescript type of the callback function `parseCursor`.
 
@@ -24,4 +24,4 @@ This is typescript type of the callback function `parseCursor`.
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L39)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L39)

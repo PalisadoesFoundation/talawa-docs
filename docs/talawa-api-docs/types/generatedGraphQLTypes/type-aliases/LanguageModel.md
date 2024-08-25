@@ -6,34 +6,34 @@
 
 # Type Alias: LanguageModel
 
-> **LanguageModel**: `object`
+\> **LanguageModel**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"LanguageModel"`
+\> `optional` **\_\_typename**: `"LanguageModel"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### lang\_code
 
-> **lang\_code**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **lang\_code**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### value
 
-> **value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### verified
 
-> **verified**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **verified**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:1056](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L1056)
+[src/types/generatedGraphQLTypes.ts:1056](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L1056)

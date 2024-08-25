@@ -6,7 +6,7 @@
 
 # Function: adminCheck()
 
-> **adminCheck**(`userId`, `organization`): `Promise`\<`void`\>
+\> **adminCheck**(`userId`, `organization`): `Promise`\<`void`\>
 
 Checks if the current user is an admin of the organization.
 If the user is an admin, the function completes successfully. Otherwise, it throws an UnauthorizedError.
@@ -33,4 +33,4 @@ This is a utility method.
 
 ## Defined in
 
-[src/utilities/adminCheck.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/adminCheck.ts#L17)
+[src/utilities/adminCheck.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/adminCheck.ts#L17)

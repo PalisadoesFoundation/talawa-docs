@@ -6,7 +6,7 @@
 
 # Variable: updatedBy
 
-> `const` **updatedBy**: [`AgendaCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaCategoryResolvers.md)\[`"updatedBy"`\]
+\> `const` **updatedBy**: [`AgendaCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaCategoryResolvers.md)\[`"updatedBy"`\]
 
 Resolver function for the `updatedBy` field of an `AgendaCategory`.
 
@@ -22,9 +22,9 @@ The parent object representing the agenda category. It contains information abou
  - AgendaCategoryResolvers - The type definition for the resolvers of the AgendaCategory fields.
 
 ```typescript
-return User.findOne({ _id: parent.updatedBy }).lean();
+return User.findOne(\{ _id: parent.updatedBy \}).lean();
 ```
 
 ## Defined in
 
-[src/resolvers/AgendaCategory/updatedBy.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/AgendaCategory/updatedBy.ts#L19)
+[src/resolvers/AgendaCategory/updatedBy.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/AgendaCategory/updatedBy.ts#L19)

@@ -6,26 +6,26 @@
 
 # Variable: ORGANIZATION\_NOT\_FOUND\_ERROR
 
-> `const` **ORGANIZATION\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
+\> `const` **ORGANIZATION\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"organization.notFound"` = `"organization.notFound"`
+\> **CODE**: `"organization.notFound"` = `"organization.notFound"`
 
 ### DESC
 
-> **DESC**: `"Organization not found"` = `"Organization not found"`
+\> **DESC**: `"Organization not found"` = `"Organization not found"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"organization.notFound"` = `"organization.notFound"`
+\> **MESSAGE**: `"organization.notFound"` = `"organization.notFound"`
 
 ### PARAM
 
-> **PARAM**: `"organization"` = `"organization"`
+\> **PARAM**: `"organization"` = `"organization"`
 
 ## Defined in
 
-[src/constants.ts:179](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L179)
+[src/constants.ts:179](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L179)

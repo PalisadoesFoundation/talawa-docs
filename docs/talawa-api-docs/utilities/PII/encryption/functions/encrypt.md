@@ -6,7 +6,7 @@
 
 # Function: encrypt()
 
-> **encrypt**(`text`, `key`, `iv`): `string`
+\> **encrypt**(`text`, `key`, `iv`): `string`
 
 Encrypts plaintext using AES-256-CBC encryption.
 
@@ -32,4 +32,4 @@ The encrypted ciphertext as a hexadecimal string.
 
 ## Defined in
 
-[src/utilities/PII/encryption.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/PII/encryption.ts#L10)
+[src/utilities/PII/encryption.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/PII/encryption.ts#L10)

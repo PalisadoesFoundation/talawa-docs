@@ -12,138 +12,138 @@ Interface representing a database document for ActionItem in MongoDB.
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/ActionItem.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L12)
+[src/models/ActionItem.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L12)
 
 ***
 
 ### actionItemCategoryId
 
-> **actionItemCategoryId**: `any`
+\> **actionItemCategoryId**: `any`
 
 #### Defined in
 
-[src/models/ActionItem.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L15)
+[src/models/ActionItem.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L15)
 
 ***
 
 ### assigneeId
 
-> **assigneeId**: `any`
+\> **assigneeId**: `any`
 
 #### Defined in
 
-[src/models/ActionItem.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L13)
+[src/models/ActionItem.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L13)
 
 ***
 
 ### assignerId
 
-> **assignerId**: `any`
+\> **assignerId**: `any`
 
 #### Defined in
 
-[src/models/ActionItem.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L14)
+[src/models/ActionItem.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L14)
 
 ***
 
 ### assignmentDate
 
-> **assignmentDate**: `Date`
+\> **assignmentDate**: `Date`
 
 #### Defined in
 
-[src/models/ActionItem.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L18)
+[src/models/ActionItem.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L18)
 
 ***
 
 ### completionDate
 
-> **completionDate**: `Date`
+\> **completionDate**: `Date`
 
 #### Defined in
 
-[src/models/ActionItem.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L20)
+[src/models/ActionItem.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L20)
 
 ***
 
 ### createdAt
 
-> **createdAt**: `Date`
+\> **createdAt**: `Date`
 
 #### Defined in
 
-[src/models/ActionItem.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L24)
+[src/models/ActionItem.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L24)
 
 ***
 
 ### creatorId
 
-> **creatorId**: `any`
+\> **creatorId**: `any`
 
 #### Defined in
 
-[src/models/ActionItem.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L23)
+[src/models/ActionItem.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L23)
 
 ***
 
 ### dueDate
 
-> **dueDate**: `Date`
+\> **dueDate**: `Date`
 
 #### Defined in
 
-[src/models/ActionItem.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L19)
+[src/models/ActionItem.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L19)
 
 ***
 
 ### eventId
 
-> **eventId**: `any`
+\> **eventId**: `any`
 
 #### Defined in
 
-[src/models/ActionItem.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L22)
+[src/models/ActionItem.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L22)
 
 ***
 
 ### isCompleted
 
-> **isCompleted**: `boolean`
+\> **isCompleted**: `boolean`
 
 #### Defined in
 
-[src/models/ActionItem.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L21)
+[src/models/ActionItem.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L21)
 
 ***
 
 ### postCompletionNotes
 
-> **postCompletionNotes**: `string`
+\> **postCompletionNotes**: `string`
 
 #### Defined in
 
-[src/models/ActionItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L17)
+[src/models/ActionItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L17)
 
 ***
 
 ### preCompletionNotes
 
-> **preCompletionNotes**: `string`
+\> **preCompletionNotes**: `string`
 
 #### Defined in
 
-[src/models/ActionItem.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L16)
+[src/models/ActionItem.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L16)
 
 ***
 
 ### updatedAt
 
-> **updatedAt**: `Date`
+\> **updatedAt**: `Date`
 
 #### Defined in
 
-[src/models/ActionItem.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/ActionItem.ts#L25)
+[src/models/ActionItem.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/ActionItem.ts#L25)

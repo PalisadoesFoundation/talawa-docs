@@ -12,38 +12,38 @@ Represents the structure of an organization custom field in the database.
 
 ### \_id
 
-> **\_id**: `string`
+\> **\_id**: `string`
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationCustomField.ts#L9)
+[src/models/OrganizationCustomField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationCustomField.ts#L9)
 
 ***
 
 ### name
 
-> **name**: `string`
+\> **name**: `string`
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationCustomField.ts#L12)
+[src/models/OrganizationCustomField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationCustomField.ts#L12)
 
 ***
 
 ### organizationId
 
-> **organizationId**: `string`
+\> **organizationId**: `string`
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationCustomField.ts#L10)
+[src/models/OrganizationCustomField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationCustomField.ts#L10)
 
 ***
 
 ### type
 
-> **type**: `string`
+\> **type**: `string`
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationCustomField.ts#L11)
+[src/models/OrganizationCustomField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationCustomField.ts#L11)

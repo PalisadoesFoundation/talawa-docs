@@ -12,48 +12,48 @@ Interface representing a document for an Organization Tag User in the database (
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationTagUser.ts#L10)
+[src/models/OrganizationTagUser.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationTagUser.ts#L10)
 
 ***
 
 ### name
 
-> **name**: `string`
+\> **name**: `string`
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationTagUser.ts#L13)
+[src/models/OrganizationTagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationTagUser.ts#L13)
 
 ***
 
 ### organizationId
 
-> **organizationId**: `any`
+\> **organizationId**: `any`
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationTagUser.ts#L11)
+[src/models/OrganizationTagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationTagUser.ts#L11)
 
 ***
 
 ### parentTagId
 
-> **parentTagId**: `any`
+\> **parentTagId**: `any`
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationTagUser.ts#L12)
+[src/models/OrganizationTagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationTagUser.ts#L12)
 
 ***
 
 ### tagColor
 
-> **tagColor**: `string`
+\> **tagColor**: `string`
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/OrganizationTagUser.ts#L14)
+[src/models/OrganizationTagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/OrganizationTagUser.ts#L14)

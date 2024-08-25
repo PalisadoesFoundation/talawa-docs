@@ -6,34 +6,34 @@
 
 # Type Alias: CheckOut
 
-> **CheckOut**: `object`
+\> **CheckOut**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"CheckOut"`
+\> `optional` **\_\_typename**: `"CheckOut"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### eventAttendeeId
 
-> **eventAttendeeId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **eventAttendeeId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### time
 
-> **time**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **time**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### updatedAt
 
-> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:281](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L281)
+[src/types/generatedGraphQLTypes.ts:281](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L281)

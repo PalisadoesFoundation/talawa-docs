@@ -6,7 +6,7 @@
 
 # Variable: creator
 
-> `const` **creator**: [`CommentResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/CommentResolvers.md)\[`"creator"`\]
+\> `const` **creator**: [`CommentResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/CommentResolvers.md)\[`"creator"`\]
 
 Resolver function for the `creator` field of a `Comment`.
 
@@ -23,4 +23,4 @@ The parent object representing the comment. It contains information about the co
 
 ## Defined in
 
-[src/resolvers/Comment/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Comment/creator.ts#L16)
+[src/resolvers/Comment/creator.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Comment/creator.ts#L16)

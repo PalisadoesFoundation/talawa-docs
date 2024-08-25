@@ -6,22 +6,22 @@
 
 # Variable: CUSTOM\_DATA\_NOT\_FOUND
 
-> `const` **CUSTOM\_DATA\_NOT\_FOUND**: `Readonly`\<`object`\>
+\> `const` **CUSTOM\_DATA\_NOT\_FOUND**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"customData.notFound"` = `"customData.notFound"`
+\> **CODE**: `"customData.notFound"` = `"customData.notFound"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Unable to remove non-existent custom data"` = `"Unable to remove non-existent custom data"`
+\> **MESSAGE**: `"Unable to remove non-existent custom data"` = `"Unable to remove non-existent custom data"`
 
 ### PARAM
 
-> **PARAM**: `"customData.notFound"` = `"customData.notFound"`
+\> **PARAM**: `"customData.notFound"` = `"customData.notFound"`
 
 ## Defined in
 
-[src/constants.ts:662](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L662)
+[src/constants.ts:662](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L662)

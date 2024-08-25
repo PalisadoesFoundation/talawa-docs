@@ -12,38 +12,38 @@ Represents a document for an encoded image in the MongoDB database.
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/EncodedImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedImage.ts#L9)
+[src/models/EncodedImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L9)
 
 ***
 
 ### content
 
-> **content**: `string`
+\> **content**: `string`
 
 #### Defined in
 
-[src/models/EncodedImage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedImage.ts#L11)
+[src/models/EncodedImage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L11)
 
 ***
 
 ### fileName
 
-> **fileName**: `string`
+\> **fileName**: `string`
 
 #### Defined in
 
-[src/models/EncodedImage.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedImage.ts#L10)
+[src/models/EncodedImage.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L10)
 
 ***
 
 ### numberOfUses
 
-> **numberOfUses**: `number`
+\> **numberOfUses**: `number`
 
 #### Defined in
 
-[src/models/EncodedImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/EncodedImage.ts#L12)
+[src/models/EncodedImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L12)

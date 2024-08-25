@@ -6,7 +6,7 @@
 
 # Variable: organization
 
-> `const` **organization**: [`UserTagResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/UserTagResolvers.md)\[`"organization"`\]
+\> `const` **organization**: [`UserTagResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/UserTagResolvers.md)\[`"organization"`\]
 
 Resolver function for the `organization` field of a `UserTag`.
 
@@ -23,4 +23,4 @@ The parent object representing the user tag. It contains information about the u
 
 ## Defined in
 
-[src/resolvers/UserTag/organization.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/UserTag/organization.ts#L16)
+[src/resolvers/UserTag/organization.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/UserTag/organization.ts#L16)

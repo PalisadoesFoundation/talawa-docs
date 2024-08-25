@@ -12,48 +12,48 @@ Represents a MongoDB document for Plugin in the database.
 
 ### \_id
 
-> **\_id**: `ObjectId`
+\> **\_id**: `ObjectId`
 
 #### Defined in
 
-[src/models/Plugin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Plugin.ts#L9)
+[src/models/Plugin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Plugin.ts#L9)
 
 ***
 
 ### pluginCreatedBy
 
-> **pluginCreatedBy**: `string`
+\> **pluginCreatedBy**: `string`
 
 #### Defined in
 
-[src/models/Plugin.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Plugin.ts#L11)
+[src/models/Plugin.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Plugin.ts#L11)
 
 ***
 
 ### pluginDesc
 
-> **pluginDesc**: `string`
+\> **pluginDesc**: `string`
 
 #### Defined in
 
-[src/models/Plugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Plugin.ts#L12)
+[src/models/Plugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Plugin.ts#L12)
 
 ***
 
 ### pluginName
 
-> **pluginName**: `string`
+\> **pluginName**: `string`
 
 #### Defined in
 
-[src/models/Plugin.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Plugin.ts#L10)
+[src/models/Plugin.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Plugin.ts#L10)
 
 ***
 
 ### uninstalledOrgs
 
-> **uninstalledOrgs**: `ObjectId`[]
+\> **uninstalledOrgs**: `ObjectId`[]
 
 #### Defined in
 
-[src/models/Plugin.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/models/Plugin.ts#L13)
+[src/models/Plugin.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/Plugin.ts#L13)

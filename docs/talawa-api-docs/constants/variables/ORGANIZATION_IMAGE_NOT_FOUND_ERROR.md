@@ -6,26 +6,26 @@
 
 # Variable: ORGANIZATION\_IMAGE\_NOT\_FOUND\_ERROR
 
-> `const` **ORGANIZATION\_IMAGE\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
+\> `const` **ORGANIZATION\_IMAGE\_NOT\_FOUND\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"organizationImage.notFound"` = `"organizationImage.notFound"`
+\> **CODE**: `"organizationImage.notFound"` = `"organizationImage.notFound"`
 
 ### DESC
 
-> **DESC**: `"OrganizationImage not found"` = `"OrganizationImage not found"`
+\> **DESC**: `"OrganizationImage not found"` = `"OrganizationImage not found"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"organizationImage.notFound"` = `"organizationImage.notFound"`
+\> **MESSAGE**: `"organizationImage.notFound"` = `"organizationImage.notFound"`
 
 ### PARAM
 
-> **PARAM**: `"organizationImage"` = `"organizationImage"`
+\> **PARAM**: `"organizationImage"` = `"organizationImage"`
 
 ## Defined in
 
-[src/constants.ts:207](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L207)
+[src/constants.ts:207](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L207)

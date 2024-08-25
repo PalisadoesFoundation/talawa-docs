@@ -6,7 +6,7 @@
 
 # Variable: organization
 
-> `const` **organization**: [`ActionItemCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemCategoryResolvers.md)\[`"organization"`\]
+\> `const` **organization**: [`ActionItemCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/ActionItemCategoryResolvers.md)\[`"organization"`\]
 
 Resolver function for the `organization` field of an `ActionItemCategory`.
 
@@ -21,14 +21,14 @@ The parent `ActionItemCategory` object. This contains the `organizationId` field
 ## Example
 
 ```typescript
-const actionItemCategory = {
+const actionItemCategory = \{
   organizationId: "60d0fe4f5311236168a109cc"
-};
+\};
 const organization = await organization(actionItemCategory);
 console.log(organization);
-// Output might be: { _id: "60d0fe4f5311236168a109cc", name: "Tech Corp", address: "123 Tech Lane" }
+// Output might be: \{ _id: "60d0fe4f5311236168a109cc", name: "Tech Corp", address: "123 Tech Lane" \}
 ```
 
 ## Defined in
 
-[src/resolvers/ActionItemCategory/organization.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/ActionItemCategory/organization.ts#L24)
+[src/resolvers/ActionItemCategory/organization.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/ActionItemCategory/organization.ts#L24)

@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-<!-- toc -->
+\<!-- toc --\>
 
 - [Our Pledge](#our-pledge)
 - [Our Standards](#our-standards)
@@ -16,7 +16,7 @@
   - [4. Permanent Ban](#4-permanent-ban)
 - [Attribution](#attribution)
 
-<!-- tocstop -->
+\<!-- tocstop --\>
 
 ## Our Pledge
 

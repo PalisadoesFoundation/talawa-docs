@@ -6,30 +6,30 @@
 
 # Type Alias: VenueInput
 
-> **VenueInput**: `object`
+\> **VenueInput**: `object`
 
 ## Type declaration
 
 ### capacity
 
-> **capacity**: [`Scalars`](Scalars.md)\[`"Int"`\]\[`"input"`\]
+\> **capacity**: [`Scalars`](Scalars.md)\[`"Int"`\]\[`"input"`\]
 
 ### description?
 
-> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **description**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### file?
 
-> `optional` **file**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
+\> `optional` **file**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]\>
 
 ### name
 
-> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
+\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
 ### organizationId
 
-> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **organizationId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3168](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L3168)
+[src/types/generatedGraphQLTypes.ts:3168](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L3168)

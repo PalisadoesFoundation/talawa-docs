@@ -6,7 +6,7 @@
 
 # Function: isAuthorised()
 
-> **isAuthorised**(`requestingUser`, `requestedUser`): `boolean`
+\> **isAuthorised**(`requestingUser`, `requestedUser`): `boolean`
 
 Checks if the requesting user is authorized to access or modify the requested user's data.
 
@@ -28,4 +28,4 @@ The user whose data is being requested or modified.
 
 ## Defined in
 
-[src/utilities/PII/isAuthorised.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/PII/isAuthorised.ts#L9)
+[src/utilities/PII/isAuthorised.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/PII/isAuthorised.ts#L9)

@@ -6,50 +6,50 @@
 
 # Type Alias: AgendaSection
 
-> **AgendaSection**: `object`
+\> **AgendaSection**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"AgendaSection"`
+\> `optional` **\_\_typename**: `"AgendaSection"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]
 
 ### createdBy?
 
-> `optional` **createdBy**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
+\> `optional` **createdBy**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
 
 ### description
 
-> **description**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **description**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### items?
 
-> `optional` **items**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`AgendaItem`](AgendaItem.md)\>[]\>
+\> `optional` **items**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`AgendaItem`](AgendaItem.md)\>[]\>
 
 ### relatedEvent?
 
-> `optional` **relatedEvent**: [`Maybe`](Maybe.md)\<[`Event`](Event.md)\>
+\> `optional` **relatedEvent**: [`Maybe`](Maybe.md)\<[`Event`](Event.md)\>
 
 ### sequence
 
-> **sequence**: [`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]
+\> **sequence**: [`Scalars`](Scalars.md)\[`"Int"`\]\[`"output"`\]
 
 ### updatedAt?
 
-> `optional` **updatedAt**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
+\> `optional` **updatedAt**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
 
 ### updatedBy?
 
-> `optional` **updatedBy**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
+\> `optional` **updatedBy**: [`Maybe`](Maybe.md)\<[`User`](User.md)\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:197](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L197)
+[src/types/generatedGraphQLTypes.ts:197](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L197)

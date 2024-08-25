@@ -6,22 +6,22 @@
 
 # Variable: ADMIN\_REMOVING\_CREATOR
 
-> `const` **ADMIN\_REMOVING\_CREATOR**: `Readonly`\<`object`\>
+\> `const` **ADMIN\_REMOVING\_CREATOR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"admin.removeCreator"` = `"admin.removeCreator"`
+\> **CODE**: `"admin.removeCreator"` = `"admin.removeCreator"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Error: Current admin cannot remove the creator of the Org"` = `"Error: Current admin cannot remove the creator of the Org"`
+\> **MESSAGE**: `"Error: Current admin cannot remove the creator of the Org"` = `"Error: Current admin cannot remove the creator of the Org"`
 
 ### PARAM
 
-> **PARAM**: `"admin.removeCreator"` = `"admin.removeCreator"`
+\> **PARAM**: `"admin.removeCreator"` = `"admin.removeCreator"`
 
 ## Defined in
 
-[src/constants.ts:373](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L373)
+[src/constants.ts:373](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L373)

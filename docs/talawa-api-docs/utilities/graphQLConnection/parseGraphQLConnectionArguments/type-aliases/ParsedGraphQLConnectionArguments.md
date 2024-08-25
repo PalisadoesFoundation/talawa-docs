@@ -6,7 +6,7 @@
 
 # Type Alias: ParsedGraphQLConnectionArguments\<T0\>
 
-> **ParsedGraphQLConnectionArguments**\<`T0`\>: `object`
+\> **ParsedGraphQLConnectionArguments**\<`T0`\>: `object`
 
 This is typescript type of the object containing the validated and transformed connection
 arguments passed to `parseGraphQLConnectionArguments` function.
@@ -19,16 +19,16 @@ arguments passed to `parseGraphQLConnectionArguments` function.
 
 ### cursor
 
-> **cursor**: `T0` \| `null`
+\> **cursor**: `T0` \| `null`
 
 ### direction
 
-> **direction**: [`GraphQLConnectionTraversalDirection`](../../type-aliases/GraphQLConnectionTraversalDirection.md)
+\> **direction**: [`GraphQLConnectionTraversalDirection`](../../type-aliases/GraphQLConnectionTraversalDirection.md)
 
 ### limit
 
-> **limit**: `number`
+\> **limit**: `number`
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L47)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L47)

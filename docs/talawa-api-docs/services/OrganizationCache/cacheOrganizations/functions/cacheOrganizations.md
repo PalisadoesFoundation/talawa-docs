@@ -6,7 +6,7 @@
 
 # Function: cacheOrganizations()
 
-> **cacheOrganizations**(`organizations`): `Promise`\<`void`\>
+\> **cacheOrganizations**(`organizations`): `Promise`\<`void`\>
 
 Stores organizations in Redis cache with a specified time-to-live (TTL).
 
@@ -20,8 +20,8 @@ Array of organizations to be cached.
 
 `Promise`\<`void`\>
 
-Promise<void>
+Promise\<void\>
 
 ## Defined in
 
-[src/services/OrganizationCache/cacheOrganizations.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/services/OrganizationCache/cacheOrganizations.ts#L10)
+[src/services/OrganizationCache/cacheOrganizations.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/services/OrganizationCache/cacheOrganizations.ts#L10)

@@ -6,30 +6,30 @@
 
 # Type Alias: PluginField
 
-> **PluginField**: `object`
+\> **PluginField**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"PluginField"`
+\> `optional` **\_\_typename**: `"PluginField"`
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### key
 
-> **key**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **key**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### status
 
-> **status**: [`Status`](Status.md)
+\> **status**: [`Status`](Status.md)
 
 ### value
 
-> **value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **value**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2156](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2156)
+[src/types/generatedGraphQLTypes.ts:2156](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2156)

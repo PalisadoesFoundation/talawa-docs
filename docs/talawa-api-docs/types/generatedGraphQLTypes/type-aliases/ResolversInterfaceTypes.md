@@ -6,7 +6,7 @@
 
 # Type Alias: ResolversInterfaceTypes\<_RefType\>
 
-> **ResolversInterfaceTypes**\<`_RefType`\>: `object`
+\> **ResolversInterfaceTypes**\<`_RefType`\>: `object`
 
 Mapping of interface types
 
@@ -18,16 +18,16 @@ Mapping of interface types
 
 ### ConnectionPageInfo
 
-> **ConnectionPageInfo**: [`DefaultConnectionPageInfo`](DefaultConnectionPageInfo.md)
+\> **ConnectionPageInfo**: [`DefaultConnectionPageInfo`](DefaultConnectionPageInfo.md)
 
 ### Error
 
-> **Error**: [`MemberNotFoundError`](MemberNotFoundError.md) \| [`OrganizationMemberNotFoundError`](OrganizationMemberNotFoundError.md) \| [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`PostNotFoundError`](PostNotFoundError.md) \| [`UnauthenticatedError`](UnauthenticatedError.md) \| [`UnauthorizedError`](UnauthorizedError.md) \| [`UserNotAuthorizedAdminError`](UserNotAuthorizedAdminError.md) \| [`UserNotAuthorizedError`](UserNotAuthorizedError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
+\> **Error**: [`MemberNotFoundError`](MemberNotFoundError.md) \| [`OrganizationMemberNotFoundError`](OrganizationMemberNotFoundError.md) \| [`OrganizationNotFoundError`](OrganizationNotFoundError.md) \| [`PostNotFoundError`](PostNotFoundError.md) \| [`UnauthenticatedError`](UnauthenticatedError.md) \| [`UnauthorizedError`](UnauthorizedError.md) \| [`UserNotAuthorizedAdminError`](UserNotAuthorizedAdminError.md) \| [`UserNotAuthorizedError`](UserNotAuthorizedError.md) \| [`UserNotFoundError`](UserNotFoundError.md)
 
 ### FieldError
 
-> **FieldError**: [`InvalidCursor`](InvalidCursor.md) \| [`MaximumLengthError`](MaximumLengthError.md) \| [`MaximumValueError`](MaximumValueError.md) \| [`MinimumLengthError`](MinimumLengthError.md) \| [`MinimumValueError`](MinimumValueError.md)
+\> **FieldError**: [`InvalidCursor`](InvalidCursor.md) \| [`MaximumLengthError`](MaximumLengthError.md) \| [`MaximumValueError`](MaximumValueError.md) \| [`MinimumLengthError`](MinimumLengthError.md) \| [`MinimumValueError`](MinimumValueError.md)
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3291](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L3291)
+[src/types/generatedGraphQLTypes.ts:3291](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L3291)

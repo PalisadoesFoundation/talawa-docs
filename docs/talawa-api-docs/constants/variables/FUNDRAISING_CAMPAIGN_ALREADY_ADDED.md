@@ -6,26 +6,26 @@
 
 # Variable: FUNDRAISING\_CAMPAIGN\_ALREADY\_ADDED
 
-> `const` **FUNDRAISING\_CAMPAIGN\_ALREADY\_ADDED**: `Readonly`\<`object`\>
+\> `const` **FUNDRAISING\_CAMPAIGN\_ALREADY\_ADDED**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"fundraisingCampaign.alreadyAdded"` = `"fundraisingCampaign.alreadyAdded"`
+\> **CODE**: `"fundraisingCampaign.alreadyAdded"` = `"fundraisingCampaign.alreadyAdded"`
 
 ### DESC
 
-> **DESC**: `"Fundraising Campaign already added"` = `"Fundraising Campaign already added"`
+\> **DESC**: `"Fundraising Campaign already added"` = `"Fundraising Campaign already added"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"fundraisingCampaign.alreadyAdded"` = `"fundraisingCampaign.alreadyAdded"`
+\> **MESSAGE**: `"fundraisingCampaign.alreadyAdded"` = `"fundraisingCampaign.alreadyAdded"`
 
 ### PARAM
 
-> **PARAM**: `"fundraisingCampaign"` = `"fundraisingCampaign"`
+\> **PARAM**: `"fundraisingCampaign"` = `"fundraisingCampaign"`
 
 ## Defined in
 
-[src/constants.ts:120](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L120)
+[src/constants.ts:120](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L120)

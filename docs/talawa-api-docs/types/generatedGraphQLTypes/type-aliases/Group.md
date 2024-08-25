@@ -6,42 +6,42 @@
 
 # Type Alias: Group
 
-> **Group**: `object`
+\> **Group**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"Group"`
+\> `optional` **\_\_typename**: `"Group"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### admins
 
-> **admins**: [`User`](User.md)[]
+\> **admins**: [`User`](User.md)[]
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### description?
 
-> `optional` **description**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **description**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ### organization
 
-> **organization**: [`Organization`](Organization.md)
+\> **organization**: [`Organization`](Organization.md)
 
 ### title
 
-> **title**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **title**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### updatedAt
 
-> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:999](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L999)
+[src/types/generatedGraphQLTypes.ts:999](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L999)

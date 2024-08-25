@@ -6,106 +6,106 @@
 
 # Type Alias: User
 
-> **User**: `object`
+\> **User**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"User"`
+\> `optional` **\_\_typename**: `"User"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### address?
 
-> `optional` **address**: [`Maybe`](Maybe.md)\<[`Address`](Address.md)\>
+\> `optional` **address**: [`Maybe`](Maybe.md)\<[`Address`](Address.md)\>
 
 ### appUserProfileId?
 
-> `optional` **appUserProfileId**: [`Maybe`](Maybe.md)\<[`AppUserProfile`](AppUserProfile.md)\>
+\> `optional` **appUserProfileId**: [`Maybe`](Maybe.md)\<[`AppUserProfile`](AppUserProfile.md)\>
 
 ### birthDate?
 
-> `optional` **birthDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
+\> `optional` **birthDate**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"Date"`\]\[`"output"`\]\>
 
 ### createdAt
 
-> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **createdAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ### educationGrade?
 
-> `optional` **educationGrade**: [`Maybe`](Maybe.md)\<[`EducationGrade`](EducationGrade.md)\>
+\> `optional` **educationGrade**: [`Maybe`](Maybe.md)\<[`EducationGrade`](EducationGrade.md)\>
 
 ### email
 
-> **email**: [`Scalars`](Scalars.md)\[`"EmailAddress"`\]\[`"output"`\]
+\> **email**: [`Scalars`](Scalars.md)\[`"EmailAddress"`\]\[`"output"`\]
 
 ### employmentStatus?
 
-> `optional` **employmentStatus**: [`Maybe`](Maybe.md)\<[`EmploymentStatus`](EmploymentStatus.md)\>
+\> `optional` **employmentStatus**: [`Maybe`](Maybe.md)\<[`EmploymentStatus`](EmploymentStatus.md)\>
 
 ### eventAdmin?
 
-> `optional` **eventAdmin**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Event`](Event.md)\>[]\>
+\> `optional` **eventAdmin**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Event`](Event.md)\>[]\>
 
 ### firstName
 
-> **firstName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **firstName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### gender?
 
-> `optional` **gender**: [`Maybe`](Maybe.md)\<[`Gender`](Gender.md)\>
+\> `optional` **gender**: [`Maybe`](Maybe.md)\<[`Gender`](Gender.md)\>
 
 ### image?
 
-> `optional` **image**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **image**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ### joinedOrganizations?
 
-> `optional` **joinedOrganizations**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>[]\>
+\> `optional` **joinedOrganizations**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>[]\>
 
 ### lastName
 
-> **lastName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **lastName**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### maritalStatus?
 
-> `optional` **maritalStatus**: [`Maybe`](Maybe.md)\<[`MaritalStatus`](MaritalStatus.md)\>
+\> `optional` **maritalStatus**: [`Maybe`](Maybe.md)\<[`MaritalStatus`](MaritalStatus.md)\>
 
 ### membershipRequests?
 
-> `optional` **membershipRequests**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`MembershipRequest`](MembershipRequest.md)\>[]\>
+\> `optional` **membershipRequests**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`MembershipRequest`](MembershipRequest.md)\>[]\>
 
 ### organizationsBlockedBy?
 
-> `optional` **organizationsBlockedBy**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>[]\>
+\> `optional` **organizationsBlockedBy**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Organization`](Organization.md)\>[]\>
 
 ### phone?
 
-> `optional` **phone**: [`Maybe`](Maybe.md)\<[`UserPhone`](UserPhone.md)\>
+\> `optional` **phone**: [`Maybe`](Maybe.md)\<[`UserPhone`](UserPhone.md)\>
 
 ### pluginCreationAllowed
 
-> **pluginCreationAllowed**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
+\> **pluginCreationAllowed**: [`Scalars`](Scalars.md)\[`"Boolean"`\]\[`"output"`\]
 
 ### posts?
 
-> `optional` **posts**: [`Maybe`](Maybe.md)\<[`PostsConnection`](PostsConnection.md)\>
+\> `optional` **posts**: [`Maybe`](Maybe.md)\<[`PostsConnection`](PostsConnection.md)\>
 
 ### registeredEvents?
 
-> `optional` **registeredEvents**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Event`](Event.md)\>[]\>
+\> `optional` **registeredEvents**: [`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`Event`](Event.md)\>[]\>
 
 ### tagsAssignedWith?
 
-> `optional` **tagsAssignedWith**: [`Maybe`](Maybe.md)\<[`UserTagsConnection`](UserTagsConnection.md)\>
+\> `optional` **tagsAssignedWith**: [`Maybe`](Maybe.md)\<[`UserTagsConnection`](UserTagsConnection.md)\>
 
 ### updatedAt
 
-> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
+\> **updatedAt**: [`Scalars`](Scalars.md)\[`"DateTime"`\]\[`"output"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2928](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L2928)
+[src/types/generatedGraphQLTypes.ts:2928](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L2928)

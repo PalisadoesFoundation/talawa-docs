@@ -6,26 +6,26 @@
 
 # Variable: BASE\_RECURRING\_EVENT\_NOT\_FOUND
 
-> `const` **BASE\_RECURRING\_EVENT\_NOT\_FOUND**: `Readonly`\<`object`\>
+\> `const` **BASE\_RECURRING\_EVENT\_NOT\_FOUND**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"baseRecurringEvent.notFound"` = `"baseRecurringEvent.notFound"`
+\> **CODE**: `"baseRecurringEvent.notFound"` = `"baseRecurringEvent.notFound"`
 
 ### DESC
 
-> **DESC**: `"Base Recurring Event not found"` = `"Base Recurring Event not found"`
+\> **DESC**: `"Base Recurring Event not found"` = `"Base Recurring Event not found"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"baseRecurringEvent.notFound"` = `"baseRecurringEvent.notFound"`
+\> **MESSAGE**: `"baseRecurringEvent.notFound"` = `"baseRecurringEvent.notFound"`
 
 ### PARAM
 
-> **PARAM**: `"baseRecurringEvent"` = `"baseRecurringEvent"`
+\> **PARAM**: `"baseRecurringEvent"` = `"baseRecurringEvent"`
 
 ## Defined in
 
-[src/constants.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L46)
+[src/constants.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L46)

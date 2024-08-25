@@ -6,22 +6,22 @@
 
 # Variable: START\_DATE\_VALIDATION\_ERROR
 
-> `const` **START\_DATE\_VALIDATION\_ERROR**: `Readonly`\<`object`\>
+\> `const` **START\_DATE\_VALIDATION\_ERROR**: `Readonly`\<`object`\>
 
 ## Type declaration
 
 ### CODE
 
-> **CODE**: `"startdate.notvalid"` = `"startdate.notvalid"`
+\> **CODE**: `"startdate.notvalid"` = `"startdate.notvalid"`
 
 ### MESSAGE
 
-> **MESSAGE**: `"Error: Start date must be greater than or equal to current date."` = `"Error: Start date must be greater than or equal to current date."`
+\> **MESSAGE**: `"Error: Start date must be greater than or equal to current date."` = `"Error: Start date must be greater than or equal to current date."`
 
 ### PARAM
 
-> **PARAM**: `"dateValidation"` = `"dateValidation"`
+\> **PARAM**: `"dateValidation"` = `"dateValidation"`
 
 ## Defined in
 
-[src/constants.ts:275](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/constants.ts#L275)
+[src/constants.ts:275](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/constants.ts#L275)

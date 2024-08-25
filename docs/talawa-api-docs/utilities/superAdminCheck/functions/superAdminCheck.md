@@ -6,7 +6,7 @@
 
 # Function: superAdminCheck()
 
-> **superAdminCheck**(`appUserProfile`): `void`
+\> **superAdminCheck**(`appUserProfile`): `void`
 
 Checks if the provided application user profile is a super admin.
 Throws an UnauthorizedError if the user is not a super admin.
@@ -23,4 +23,4 @@ The user profile of the application.
 
 ## Defined in
 
-[src/utilities/superAdminCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/superAdminCheck.ts#L11)
+[src/utilities/superAdminCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/superAdminCheck.ts#L11)

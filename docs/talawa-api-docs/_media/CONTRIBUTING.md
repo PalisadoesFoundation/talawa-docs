@@ -6,7 +6,7 @@ If you are new to contributing to open source, please read the Open Source Guide
 
 ## Table of Contents
 
-<!-- toc -->
+\<!-- toc --\>
 
 - [Code of Conduct](#code-of-conduct)
 - [Ways to Contribute](#ways-to-contribute)
@@ -33,7 +33,7 @@ If you are new to contributing to open source, please read the Open Source Guide
 - [Internships](#internships)
 - [Community](#community)
 
-<!-- tocstop -->
+\<!-- tocstop --\>
 ## Code of Conduct
 
 A safe environment is required for everyone to contribute. Read our [Code of Conduct Guide](CODE_OF_CONDUCT.md) to understand what this means. Let us know immediately if you have unacceptable experiences in this area.
@@ -98,7 +98,7 @@ Make sure you have read the [Documentation for Setting up the Project](INSTALLAT
 The process of proposing a change to Talawa API can be summarized as:
 
 1. Fork the Talawa API repository and branch off `develop`.
-1. Your newly forked repository can be cloned locally using `git clone <YOUR FORKED REPO URL>`.
+1. Your newly forked repository can be cloned locally using `git clone \<YOUR FORKED REPO URL\>`.
 1. Make the Palisadoes Foundation's repo your `git upstream` for your local repo.
 1. Make the desired changes to the Talawa API source.
 1. Run the app and test your changes.
@@ -114,7 +114,7 @@ The process of proposing a change to Talawa API can be summarized as:
          ```
       2. Test using these commands (Single test):
          ```
-         npm run test -- -t <Name_of_Test>
+         npm run test -- -t \<Name_of_Test\>
          ```
       3. Here are some useful testing resources:
          1. Documentation:
@@ -143,9 +143,9 @@ The process of proposing a change to Talawa API can be summarized as:
          3. Remember to add the `Repository Upload Token` for your forked repo. This can be found under `Settings` of your `codecov.io` account.
          4. Use the value of this token to create a secret named CODE_COV for your forked repo.
          5. You will see your code coverage reports with every push to your repo after following these steps
-1. After making changes you can add them to git locally using `git add <file_name>`(to add changes only in a particular file) or `git add .` (to add all changes).
-1. After adding the changes you need to commit them using `git commit -m '<commit message>'`(look at the commit guidelines below for commit messages).
-1. Once you have successfully commited your changes, you need to push the changes to the forked repo on github using: `git push origin <branch_name>`.(Here branch name must be name of the branch you want to push the changes to.)
+1. After making changes you can add them to git locally using `git add \<file_name\>`(to add changes only in a particular file) or `git add .` (to add all changes).
+1. After adding the changes you need to commit them using `git commit -m '\<commit message\>'`(look at the commit guidelines below for commit messages).
+1. Once you have successfully commited your changes, you need to push the changes to the forked repo on github using: `git push origin \<branch_name\>`.(Here branch name must be name of the branch you want to push the changes to.)
 1. Now create a pull request to the Talawa repository from your forked repo. Open an issue regarding the same and link your PR to it.
 1. Ensure the test suite passes, either locally or on CI once a PR has been created.
 1. Review and address comments on your pull request if requested.
@@ -158,21 +158,21 @@ To do we will help you setup an upstream and origin for your repository, which w
 
 #### Setting up Upstream and Origin
 
-After cloning your forked repository, your origin remote is pointing to your fork (`{{GITHUB USERNAME}}/talawa-api`). To stay up to date with the main `PalisadoesFoundation/talawa-api` repository, add it as a remote called upstream. You'll first need to move into the `talawa-api` directory that was created by the clone operation.
+After cloning your forked repository, your origin remote is pointing to your fork (`\{\{GITHUB USERNAME\}\}/talawa-api`). To stay up to date with the main `PalisadoesFoundation/talawa-api` repository, add it as a remote called upstream. You'll first need to move into the `talawa-api` directory that was created by the clone operation.
 
 ```
 $ cd talawa-api
 $ git remote add upstream https://github.com/PalisadoesFoundation/talawa-api.git
 $ git remote -v
-origin     https://github.com/{{GITHUB USERNAME}}/talawa-api.git (fetch)
-origin     https://github.com/{{GITHUB USERNAME}}/talawa-api (push)
+origin     https://github.com/\{\{GITHUB USERNAME\}\}/talawa-api.git (fetch)
+origin     https://github.com/\{\{GITHUB USERNAME\}\}/talawa-api (push)
 upstream   https://github.com/PalisadoesFoundation/talawa-api.git (fetch)
 upstream   https://github.com/PalisadoesFoundation/talawa-api.git (push)
 ```
 
 The git remote -v command at the end shows all your current remotes.
 
-Now you can pull in changes from `PalisadoesFoundation/talawa-api` by running `git pull upstream {{branch}}` and push your changes to your fork by running `git push origin {{branch}}`.
+Now you can pull in changes from `PalisadoesFoundation/talawa-api` by running `git pull upstream \{\{branch\}\}` and push your changes to your fork by running `git push origin \{\{branch\}\}`.
 
 We have established a clean setup now. We can make any changes we like and push it to this forked repository, and then make a pull request for getting the changes merged into the original repository. Here's a nice picture explaining the process ([image source](https://github.com/Rafase282/My-FreeCodeCamp-Code/wiki/Lesson-Save-your-Code-Revisions-Forever-with-Git)).
 
@@ -188,7 +188,7 @@ git fetch upstream
 git reset upstream/develop --hard
 ```
 
-Now we make a new branch (with `git checkout -b {{ BRANCH_NAME }}` ), do the changes on the branch, add and commit them (with `git add . && git commit -m {{ COMMIT_MESSAGE }}` ), push the branch to forked repository (with `git push origin {{ BRANCH_NAME }} --force` ), and make a PR from Github interface (from our new branch to the `develop` branch of `PalisadoesFoundation/talawa-api` s).
+Now we make a new branch (with `git checkout -b \{\{ BRANCH_NAME \}\}` ), do the changes on the branch, add and commit them (with `git add . && git commit -m \{\{ COMMIT_MESSAGE \}\}` ), push the branch to forked repository (with `git push origin \{\{ BRANCH_NAME \}\} --force` ), and make a PR from Github interface (from our new branch to the `develop` branch of `PalisadoesFoundation/talawa-api` s).
 
 We use a different branch to make changes so that we can work on multiple issues while still having a clean version in develop branch.
 
@@ -196,11 +196,11 @@ We use a different branch to make changes so that we can work on multiple issues
 
 On making a PR, we use GitHub actions to check that your code is properly formatted, doesn't have typescript type errors and is properly linted. Here are the checks:-
 
-<br/>
+\<br/\>
 
 ### Type checking code files
 
-<br/>
+\<br/\>
 
 We make use of official typescript compiler(tsc) to check the codebase for type errors.
 
@@ -208,11 +208,11 @@ To check for type errors use this command:-
 
         npm run typecheck
 
-<br/>
+\<br/\>
 
 ### Linting code files
 
-<br/>
+\<br/\>
 
 We make use of `eslint` to enforce a strict linting convention in code.
 
@@ -226,11 +226,11 @@ To check and fix lint errors in code use this command:-
 
 Eslint might throw lint errors even after running the `lint:fix` command as those lint errors require manual intervention to be fixed. You have to fix those lint errors manually.
 
-<br/>
+\<br/\>
 
 ### Formatting code files
 
-<br/>
+\<br/\>
 
 We make use of `prettier` to enforce a strict formatting convention in code.
 
@@ -242,7 +242,7 @@ To fix formatting issues in code use this command:-
 
         npm run format:fix
 
-<br/>
+\<br/\>
 
 ### Generating Table of Contents
 
@@ -259,16 +259,16 @@ npx markdown-toc -i README.md
 ```
 
 Remember to replace `README.md` with the name of the file you want to generate table of contents for.
-</br>
+\</br\>
 For more information on how to use `markdown-toc` package, visit [this link](https://www.npmjs.com/package/markdown-toc).
 
 ### Automation using husky
 
-<br/>
+\<br/\>
 
 We are using the package `Husky` to run git hooks that run according to different git workflows.
 
-<br/>
+\<br/\>
 
 #### Pre-Commit hook
 
@@ -278,7 +278,7 @@ If you don't want these pre-commit checks running on each commit, you can manual
 
         git commit -m "commit message" --no-verify
 
-<br/>
+\<br/\>
 
 #### Post-Merge hook
 
@@ -288,7 +288,7 @@ If you don't want this hook to run, you can manually opt out of this using the `
 
         git pull --no-verify
 
-<br/>
+\<br/\>
 
 ### GraphQL Voyager
 

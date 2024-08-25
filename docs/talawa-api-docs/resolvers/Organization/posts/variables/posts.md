@@ -6,7 +6,7 @@
 
 # Variable: posts
 
-> `const` **posts**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"posts"`\]
+\> `const` **posts**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"posts"`\]
 
 Resolver function for the `posts` field of an `Organization`.
 
@@ -37,4 +37,4 @@ The context object passed to the GraphQL resolvers. It contains the API root URL
 
 ## Defined in
 
-[src/resolvers/Organization/posts.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Organization/posts.ts#L39)
+[src/resolvers/Organization/posts.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Organization/posts.ts#L39)

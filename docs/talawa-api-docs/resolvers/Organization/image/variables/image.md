@@ -6,7 +6,7 @@
 
 # Variable: image
 
-> `const` **image**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"image"`\]
+\> `const` **image**: [`OrganizationResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/OrganizationResolvers.md)\[`"image"`\]
 
 Resolver function for the `image` field of an `Organization`.
 
@@ -22,4 +22,4 @@ OrganizationResolvers - The type definition for the resolvers of the Organizatio
 
 ## Defined in
 
-[src/resolvers/Organization/image.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Organization/image.ts#L15)
+[src/resolvers/Organization/image.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Organization/image.ts#L15)

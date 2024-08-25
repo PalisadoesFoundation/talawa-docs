@@ -6,22 +6,22 @@
 
 # Type Alias: EventVolunteerInput
 
-> **EventVolunteerInput**: `object`
+\> **EventVolunteerInput**: `object`
 
 ## Type declaration
 
 ### eventId
 
-> **eventId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **eventId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### groupId
 
-> **groupId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **groupId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ### userId
 
-> **userId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
+\> **userId**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\]
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:840](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L840)
+[src/types/generatedGraphQLTypes.ts:840](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L840)

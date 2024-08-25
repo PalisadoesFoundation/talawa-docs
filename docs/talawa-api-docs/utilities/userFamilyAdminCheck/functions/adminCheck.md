@@ -6,7 +6,7 @@
 
 # Function: adminCheck()
 
-> **adminCheck**(`userId`, `userFamily`): `Promise`\<`void`\>
+\> **adminCheck**(`userId`, `userFamily`): `Promise`\<`void`\>
 
 Checks if the current user is an admin of the organization or a super admin.
 Throws an UnauthorizedError if the user is neither an admin nor a super admin.
@@ -32,4 +32,4 @@ Additionally, it queries the `AppUserProfile` to check if the `userId` is a supe
 
 ## Defined in
 
-[src/utilities/userFamilyAdminCheck.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/userFamilyAdminCheck.ts#L19)
+[src/utilities/userFamilyAdminCheck.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/userFamilyAdminCheck.ts#L19)

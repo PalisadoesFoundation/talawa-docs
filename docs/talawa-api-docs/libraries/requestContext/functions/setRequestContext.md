@@ -6,7 +6,7 @@
 
 # Function: setRequestContext()
 
-> **setRequestContext**(`obj`): `void`
+\> **setRequestContext**(`obj`): `void`
 
 Sets the translation functions in the request context.
 
@@ -22,4 +22,4 @@ The object containing translation functions.
 
 ## Defined in
 
-[src/libraries/requestContext.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/requestContext.ts#L34)
+[src/libraries/requestContext.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/requestContext.ts#L34)

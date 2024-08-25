@@ -6,7 +6,7 @@
 
 # Type Alias: DefaultGraphQLArgumentError
 
-> **DefaultGraphQLArgumentError**: `object`
+\> **DefaultGraphQLArgumentError**: `object`
 
 This is typescript type of a base graphQL argument error. This argument error type can be
 extended to create custom argument error types as long as they adhere to the default type of
@@ -16,12 +16,12 @@ this base graphQL argument error.
 
 ### message
 
-> **message**: `string`
+\> **message**: `string`
 
 ### path
 
-> **path**: `string`[]
+\> **path**: `string`[]
 
 ## Defined in
 
-[src/utilities/graphQLConnection/index.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/graphQLConnection/index.ts#L24)
+[src/utilities/graphQLConnection/index.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/index.ts#L24)

@@ -6,7 +6,7 @@
 
 # Variable: createdBy
 
-> `const` **createdBy**: [`AgendaCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaCategoryResolvers.md)\[`"createdBy"`\]
+\> `const` **createdBy**: [`AgendaCategoryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/AgendaCategoryResolvers.md)\[`"createdBy"`\]
 
 Resolver function for the `createdBy` field of an `AgendaCategory`.
 
@@ -23,4 +23,4 @@ The parent object representing the agenda category. It contains information abou
 
 ## Defined in
 
-[src/resolvers/AgendaCategory/createdBy.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/AgendaCategory/createdBy.ts#L17)
+[src/resolvers/AgendaCategory/createdBy.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/AgendaCategory/createdBy.ts#L17)

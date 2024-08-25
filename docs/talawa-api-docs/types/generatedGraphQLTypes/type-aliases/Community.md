@@ -6,34 +6,34 @@
 
 # Type Alias: Community
 
-> **Community**: `object`
+\> **Community**: `object`
 
 ## Type declaration
 
 ### \_\_typename?
 
-> `optional` **\_\_typename**: `"Community"`
+\> `optional` **\_\_typename**: `"Community"`
 
 ### \_id
 
-> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
+\> **\_id**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"output"`\]
 
 ### logoUrl?
 
-> `optional` **logoUrl**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **logoUrl**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ### name
 
-> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
+\> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]
 
 ### socialMediaUrls?
 
-> `optional` **socialMediaUrls**: [`Maybe`](Maybe.md)\<[`SocialMediaUrls`](SocialMediaUrls.md)\>
+\> `optional` **socialMediaUrls**: [`Maybe`](Maybe.md)\<[`SocialMediaUrls`](SocialMediaUrls.md)\>
 
 ### websiteLink?
 
-> `optional` **websiteLink**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
+\> `optional` **websiteLink**: [`Maybe`](Maybe.md)\<[`Scalars`](Scalars.md)\[`"String"`\]\[`"output"`\]\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:306](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L306)
+[src/types/generatedGraphQLTypes.ts:306](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L306)

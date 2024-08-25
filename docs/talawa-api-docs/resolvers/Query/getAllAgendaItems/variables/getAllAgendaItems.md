@@ -6,7 +6,7 @@
 
 # Variable: getAllAgendaItems
 
-> `const` **getAllAgendaItems**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"getAllAgendaItems"`\]
+\> `const` **getAllAgendaItems**: [`QueryResolvers`](../../../../types/generatedGraphQLTypes/type-aliases/QueryResolvers.md)\[`"getAllAgendaItems"`\]
 
 Retrieves all agenda items from the database.
 
@@ -24,4 +24,4 @@ This parameter is not used in this resolver function but is included for compati
 
 ## Defined in
 
-[src/resolvers/Query/getAllAgendaItems.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/resolvers/Query/getAllAgendaItems.ts#L17)
+[src/resolvers/Query/getAllAgendaItems.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Query/getAllAgendaItems.ts#L17)

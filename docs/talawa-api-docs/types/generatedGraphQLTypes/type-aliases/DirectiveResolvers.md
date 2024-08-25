@@ -6,7 +6,7 @@
 
 # Type Alias: DirectiveResolvers\<ContextType\>
 
-> **DirectiveResolvers**\<`ContextType`\>: `object`
+\> **DirectiveResolvers**\<`ContextType`\>: `object`
 
 ## Type Parameters
 
@@ -16,12 +16,12 @@
 
 ### auth?
 
-> `optional` **auth**: [`AuthDirectiveResolver`](AuthDirectiveResolver.md)\<`any`, `any`, `ContextType`\>
+\> `optional` **auth**: [`AuthDirectiveResolver`](AuthDirectiveResolver.md)\<`any`, `any`, `ContextType`\>
 
 ### role?
 
-> `optional` **role**: [`RoleDirectiveResolver`](RoleDirectiveResolver.md)\<`any`, `any`, `ContextType`\>
+\> `optional` **role**: [`RoleDirectiveResolver`](RoleDirectiveResolver.md)\<`any`, `any`, `ContextType`\>
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4955](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/types/generatedGraphQLTypes.ts#L4955)
+[src/types/generatedGraphQLTypes.ts:4955](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/types/generatedGraphQLTypes.ts#L4955)

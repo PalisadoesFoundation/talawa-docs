@@ -12,48 +12,48 @@ Interface representing the payload of a JWT token.
 
 ### email
 
-> **email**: `string`
+\> **email**: `string`
 
 #### Defined in
 
-[src/utilities/auth.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L14)
+[src/utilities/auth.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/auth.ts#L14)
 
 ***
 
 ### firstName
 
-> **firstName**: `string`
+\> **firstName**: `string`
 
 #### Defined in
 
-[src/utilities/auth.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L12)
+[src/utilities/auth.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/auth.ts#L12)
 
 ***
 
 ### lastName
 
-> **lastName**: `string`
+\> **lastName**: `string`
 
 #### Defined in
 
-[src/utilities/auth.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L13)
+[src/utilities/auth.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/auth.ts#L13)
 
 ***
 
 ### tokenVersion
 
-> **tokenVersion**: `number`
+\> **tokenVersion**: `number`
 
 #### Defined in
 
-[src/utilities/auth.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L10)
+[src/utilities/auth.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/auth.ts#L10)
 
 ***
 
 ### userId
 
-> **userId**: `string`
+\> **userId**: `string`
 
 #### Defined in
 
-[src/utilities/auth.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/utilities/auth.ts#L11)
+[src/utilities/auth.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/auth.ts#L11)

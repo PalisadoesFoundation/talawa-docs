@@ -29,7 +29,7 @@ It extends the built-in Error class to include additional properties and methods
 
 ### new ApplicationError()
 
-> **new ApplicationError**(`errors`, `httpCode`, `message`): [`ApplicationError`](ApplicationError.md)
+\> **new ApplicationError**(`errors`, `httpCode`, `message`): [`ApplicationError`](ApplicationError.md)
 
 Creates an instance of ApplicationError.
 
@@ -57,37 +57,37 @@ The error message (default is "Error").
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L32)
+[src/libraries/errors/applicationError.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/errors/applicationError.ts#L32)
 
 ## Properties
 
 ### errors
 
-> **errors**: [`InterfaceError`](../interfaces/InterfaceError.md)[]
+\> **errors**: [`InterfaceError`](../interfaces/InterfaceError.md)[]
 
 An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
 ### httpCode
 
-> **httpCode**: `number`
+\> **httpCode**: `number`
 
 The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/errors/applicationError.ts#L23)
 
 ***
 
 ### message
 
-> **message**: `string`
+\> **message**: `string`
 
 #### Inherited from
 
@@ -101,7 +101,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1077
 
 ### name
 
-> **name**: `string`
+\> **name**: `string`
 
 #### Inherited from
 
@@ -115,7 +115,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 ### stack?
 
-> `optional` **stack**: `string`
+\> `optional` **stack**: `string`
 
 #### Inherited from
 
@@ -129,7 +129,7 @@ node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 ### prepareStackTrace()?
 
-> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) => `any`
+\> `static` `optional` **prepareStackTrace**: (`err`, `stackTraces`) =\> `any`
 
 Optional override for formatting stack traces
 
@@ -159,7 +159,7 @@ node\_modules/@types/node/globals.d.ts:28
 
 ### stackTraceLimit
 
-> `static` **stackTraceLimit**: `number`
+\> `static` **stackTraceLimit**: `number`
 
 #### Inherited from
 
@@ -173,7 +173,7 @@ node\_modules/@types/node/globals.d.ts:30
 
 ### captureStackTrace()
 
-> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
+\> `static` **captureStackTrace**(`targetObject`, `constructorOpt`?): `void`
 
 Create .stack property on a target object
 

@@ -4,7 +4,7 @@ This document provides instructions on how to set up and start a running instanc
 
 # Table of Contents
 
-<!-- TOC -->
+\<!-- TOC --\>
 
 - [Talawa-API Installation](#talawa-api-installation)
 - [Table of Contents](#table-of-contents)
@@ -77,7 +77,7 @@ This document provides instructions on how to set up and start a running instanc
   - [Changing default talawa-api port](#changing-default-talawa-api-port)
 - [Testing](#testing)
 
-<!-- toc -->
+\<!-- toc --\>
 
 - [Installation Steps Summary](#installation-steps-summary)
 - [Prerequisites](#prerequisites)
@@ -150,7 +150,7 @@ This document provides instructions on how to set up and start a running instanc
   - [Changing default talawa-api port](#changing-default-talawa-api-port)
 - [Testing](#testing)
 
-<!-- tocstop -->
+\<!-- tocstop --\>
 
 # Installation Steps Summary
 
@@ -197,9 +197,9 @@ First you need a local copy of `talawa-api`. Run the following command in the di
 
       ![Image of user's clone](public/markdown/images/install2.png)
 
-   1. Clone the repository to your local computer (replacing the values in `{{}}`):
+   1. Clone the repository to your local computer (replacing the values in `\{\{\}\}`):
       ```bash
-      $ git clone https://github.com/{{YOUR GITHUB USERNAME}}/talawa-api.git
+      $ git clone https://github.com/\{\{YOUR GITHUB USERNAME\}\}/talawa-api.git
       cd talawa-api
       git checkout develop
       ```
@@ -632,7 +632,7 @@ Your MongoDB installation may include either the `mongo` or `mongosh` command li
 There are a few more steps that need to be done in a Windows environment.
 
 1. Download the MongoDB Shell from the tools section at the following link:[Mongo Shell](https://www.mongodb.com/try/download/shell)
-1. Extract the downloaded shell folder, locate the `mongosh` application, and paste it to the following location: `Program Files` -> `MongoDB` -> `bin`.
+1. Extract the downloaded shell folder, locate the `mongosh` application, and paste it to the following location: `Program Files` -\> `MongoDB` -\> `bin`.
    1. You will find the mongosh application inside the `bin` folder]
 1. Add the path of the location where you pasted the `mongosh` application to your system's environment variables.
 1. In a separate terminal, run the `mongod` command to start the local instance of the database.
@@ -779,7 +779,7 @@ If the parameter value is set to `true`, you should be able to see colorized log
 There are different logging levels that can be configured by setting this parameter. The severity order of levels are displayed numerically ascending from most important to least important.
 
 ```
- levels = {
+ levels = \{
     error: 0,
     warn: 1,
     info: 2,
@@ -787,7 +787,7 @@ There are different logging levels that can be configured by setting this parame
     verbose: 4,
     debug: 5,
     silly: 6
-  }
+  \}
 ```
 
 On setting this parameter value, log messages are displayed in the console only if the `message.level` is less than or equal to the `LOG_LEVEL` set.
@@ -877,7 +877,7 @@ These are some important URLs for coding and troubleshooting :
    - If you navigate to the endpoint you and see a `JSON` response like this it means talawa-api is running successfully:
 
      ```
-     {"talawa-version":"v1","status":"healthy"}
+     \{"talawa-version":"v1","status":"healthy"\}
      ```
 
 2. The graphQL endpoint for handling `queries` and `mutations` is this:
@@ -915,7 +915,7 @@ If Talawa Mobile App is installed on a Real Mobile Device, follow the below step
 1. Now, use this IP address (`192.168.0.105` in our case) to access the API instance using the following URL pattern:
 
    ```
-   http://{IP_Address}:4000/graphql
+   http://\{IP_Address\}:4000/graphql
    ```
 
    For example:
@@ -1001,15 +1001,15 @@ You can skip these instructions for now if you don't have running instance of Ta
 2. In the `mongosh` terminal use the following commands to edit the `appuserprofiles` collections data:
    1. Find the user:
       ```
-      const currentUser = db.users.findOne({ firstName: '<user's first name>'})
+      const currentUser = db.users.findOne(\{ firstName: '\<user's first name\>'\})
       ```
    2. Elevate permission of this user in its `AppUserProfile`, i.e. set `isSuperAdmin` to `true`:
       ```
-      db.appuserprofiles.updateOne({ _id_: currentUser.appUserProfileId },{ $set: { isSuperAdmin: true }})
+      db.appuserprofiles.updateOne(\{ _id_: currentUser.appUserProfileId \},\{ $set: \{ isSuperAdmin: true \}\})
       ```
    3. To verify the details were updated correctly use:
       ```
-      db.appuserprofiles.findOne({ _id_: currentUser.appUserProfileId })
+      db.appuserprofiles.findOne(\{ _id_: currentUser.appUserProfileId \})
       ```
 
 **Note**: You can make the edit via any of these two methods.
@@ -1023,15 +1023,15 @@ These are some other factors to consider
 If port `4000` is not free on your system you can pass a custom environment variable named `PORT` to the script to make it use a different port on your system's localhost. Here's the syntax for it:
 
 ```
-PORT=<CUSTOM_PORT_VALUE> npm run dev
+PORT=\<CUSTOM_PORT_VALUE\> npm run dev
 ```
 
-where `<CUSTOM_PORT_VALUE>` is whatever value you want the `PORT` to be.
+where `\<CUSTOM_PORT_VALUE\>` is whatever value you want the `PORT` to be.
 
 Whatever you pass will be substituted as the value for port and talawa-api development server on that port.
 
 ```
-http://localhost:<CUSTOM_PORT_VALUE>/
+http://localhost:\<CUSTOM_PORT_VALUE\>/
 ```
 
 For example using this command:

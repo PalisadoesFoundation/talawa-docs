@@ -6,7 +6,7 @@
 
 # Function: askToKeepValues()
 
-> **askToKeepValues**(): `Promise`\<`boolean`\>
+\> **askToKeepValues**(): `Promise`\<`boolean`\>
 
 Function to ask if the user wants to keep the entered values
 The function `askToKeepValues` prompts the user with a confirmation message and returns a boolean
@@ -20,4 +20,4 @@ a boolean value, either true or false.
 
 ## Defined in
 
-[src/setup/askToKeepValues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/3bacbf38707ebd3e3e5f1bc5b4cc7aa3b2adc169/src/setup/askToKeepValues.ts#L8)
+[src/setup/askToKeepValues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/setup/askToKeepValues.ts#L8)
