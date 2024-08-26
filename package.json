@@ -43,7 +43,7 @@
 		"@docusaurus/module-type-aliases": "3.4.0",
 		"@docusaurus/tsconfig": "3.4.0",
 		"typescript": "~5.5.4",
-		"yarn-audit-fix": "^7.2.3"
+		"yarn-audit-fix": "^10.0.9"
 	},
 	"engines": {
 		"node": ">=18.0"
