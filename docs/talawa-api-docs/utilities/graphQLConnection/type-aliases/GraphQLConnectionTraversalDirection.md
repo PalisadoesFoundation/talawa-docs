@@ -12,4 +12,4 @@ This is typescript type of the direction the graphQL connection is to be travers
 
 ## Defined in
 
-[src/utilities/graphQLConnection/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/graphQLConnection/index.ts#L43)
+[src/utilities/graphQLConnection/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/utilities/graphQLConnection/index.ts#L43)

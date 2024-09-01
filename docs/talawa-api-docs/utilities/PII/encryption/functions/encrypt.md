@@ -32,4 +32,4 @@ The encrypted ciphertext as a hexadecimal string.
 
 ## Defined in
 
-[src/utilities/PII/encryption.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/utilities/PII/encryption.ts#L10)
+[src/utilities/PII/encryption.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/utilities/PII/encryption.ts#L10)

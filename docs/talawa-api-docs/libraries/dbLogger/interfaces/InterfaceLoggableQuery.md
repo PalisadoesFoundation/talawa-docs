@@ -122,7 +122,7 @@ Information about the transaction log (optional)
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/libraries/dbLogger.ts#L55)
+[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/libraries/dbLogger.ts#L55)
 
 ***
 

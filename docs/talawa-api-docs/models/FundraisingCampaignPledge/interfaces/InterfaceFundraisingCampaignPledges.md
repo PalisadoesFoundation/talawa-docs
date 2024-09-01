@@ -16,7 +16,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L13)
+[src/models/FundraisingCampaignPledge.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L13)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L18)
+[src/models/FundraisingCampaignPledge.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L18)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L14)
+[src/models/FundraisingCampaignPledge.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L14)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L20)
+[src/models/FundraisingCampaignPledge.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L20)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L19)
+[src/models/FundraisingCampaignPledge.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L19)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L17)
+[src/models/FundraisingCampaignPledge.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L17)
 
 ***
 
@@ -76,7 +76,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L16)
+[src/models/FundraisingCampaignPledge.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L16)
 
 ***
 
@@ -86,7 +86,7 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L21)
+[src/models/FundraisingCampaignPledge.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L21)
 
 ***
 
@@ -96,4 +96,4 @@ Interface representing a document for a fundraising campaign pledge in the datab
 
 #### Defined in
 
-[src/models/FundraisingCampaignPledge.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/FundraisingCampaignPledge.ts#L15)
+[src/models/FundraisingCampaignPledge.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/FundraisingCampaignPledge.ts#L15)
