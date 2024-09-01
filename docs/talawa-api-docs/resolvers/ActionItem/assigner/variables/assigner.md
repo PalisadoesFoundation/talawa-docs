@@ -20,4 +20,4 @@ The parent `ActionItem` object. This contains the `assignerId` field, which is u
 
 ## Defined in
 
-[src/resolvers/ActionItem/assigner.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/ActionItem/assigner.ts#L15)
+[src/resolvers/ActionItem/assigner.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/ActionItem/assigner.ts#L15)

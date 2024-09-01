@@ -16,7 +16,7 @@ Represents a document for an encoded image in the MongoDB database.
 
 #### Defined in
 
-[src/models/EncodedImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L9)
+[src/models/EncodedImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/EncodedImage.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for an encoded image in the MongoDB database.
 
 #### Defined in
 
-[src/models/EncodedImage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L11)
+[src/models/EncodedImage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/EncodedImage.ts#L11)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for an encoded image in the MongoDB database.
 
 #### Defined in
 
-[src/models/EncodedImage.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L10)
+[src/models/EncodedImage.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/EncodedImage.ts#L10)
 
 ***
 
@@ -46,4 +46,4 @@ Represents a document for an encoded image in the MongoDB database.
 
 #### Defined in
 
-[src/models/EncodedImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/models/EncodedImage.ts#L12)
+[src/models/EncodedImage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/EncodedImage.ts#L12)

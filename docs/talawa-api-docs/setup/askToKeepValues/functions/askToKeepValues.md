@@ -20,4 +20,4 @@ a boolean value, either true or false.
 
 ## Defined in
 
-[src/setup/askToKeepValues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/setup/askToKeepValues.ts#L8)
+[src/setup/askToKeepValues.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/setup/askToKeepValues.ts#L8)

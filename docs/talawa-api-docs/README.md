@@ -31,7 +31,7 @@ Core features include:
 
   - [Talawa Components](#talawa-components)
 - [Documentation](#documentation)
-- [Videos](#videos)
+  - [Videos](#videos)
 
 \<!-- tocstop --\>
 

@@ -23,4 +23,4 @@ The parent object representing the organization. It contains information about t
 
 ## Defined in
 
-[src/resolvers/Organization/pinnedPosts.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/Organization/pinnedPosts.ts#L18)
+[src/resolvers/Organization/pinnedPosts.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/Organization/pinnedPosts.ts#L18)

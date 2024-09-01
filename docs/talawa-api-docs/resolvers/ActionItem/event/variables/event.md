@@ -38,4 +38,4 @@ If the action item with an ID of `123` is associated with an event with an ID of
 
 ## Defined in
 
-[src/resolvers/ActionItem/event.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/a87b45a1c490c996c3a8a52e117ecbaa4742ef49/src/resolvers/ActionItem/event.ts#L28)
+[src/resolvers/ActionItem/event.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/ActionItem/event.ts#L28)
