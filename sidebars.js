@@ -218,6 +218,22 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Documentation Generation Guide",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: true,
+      items: [
+        "documentation_generation_guide/documentation_workflow",
+        "documentation_generation_guide/admin_documentation_flow",
+        "documentation_generation_guide/api_documentation_flow",
+        "documentation_generation_guide/why_mdx_compatibility_script",
+        "documentation_generation_guide/tsdoc_guide",
+        "documentation_generation_guide/github_actions_tsdoc_validation",
+      ],
+    },
+    {
+      type: "category",
       label: "Internships",
       link: {
         type: "generated-index",
