@@ -31,6 +31,7 @@
 - [ActionItem](type-aliases/ActionItem.md)
 - [ActionItemCategory](type-aliases/ActionItemCategory.md)
 - [ActionItemCategoryResolvers](type-aliases/ActionItemCategoryResolvers.md)
+- [ActionItemCategoryWhereInput](type-aliases/ActionItemCategoryWhereInput.md)
 - [ActionItemResolvers](type-aliases/ActionItemResolvers.md)
 - [ActionItemWhereInput](type-aliases/ActionItemWhereInput.md)
 - [ActionItemsOrderByInput](type-aliases/ActionItemsOrderByInput.md)

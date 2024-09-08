@@ -44,4 +44,4 @@ This function checks the cache for user and profile data, validates inputs, and 
 
 ## Defined in
 
-[src/resolvers/Mutation/createFundraisingCampaign.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/Mutation/createFundraisingCampaign.ts#L45)
+[src/resolvers/Mutation/createFundraisingCampaign.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/resolvers/Mutation/createFundraisingCampaign.ts#L45)

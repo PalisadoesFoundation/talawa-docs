@@ -37,4 +37,4 @@ The context object passed to the GraphQL resolvers. It contains the API root URL
 
 ## Defined in
 
-[src/resolvers/Organization/advertisements.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/Organization/advertisements.ts#L38)
+[src/resolvers/Organization/advertisements.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/resolvers/Organization/advertisements.ts#L38)

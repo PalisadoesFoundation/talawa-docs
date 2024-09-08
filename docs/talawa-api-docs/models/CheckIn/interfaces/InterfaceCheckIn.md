@@ -16,7 +16,7 @@ Represents a document for a check-in entry in the MongoDB database.
 
 #### Defined in
 
-[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/CheckIn.ts#L17)
+[src/models/CheckIn.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/CheckIn.ts#L17)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for a check-in entry in the MongoDB database.
 
 #### Defined in
 
-[src/models/CheckIn.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/CheckIn.ts#L21)
+[src/models/CheckIn.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/CheckIn.ts#L21)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for a check-in entry in the MongoDB database.
 
 #### Defined in
 
-[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/CheckIn.ts#L18)
+[src/models/CheckIn.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/CheckIn.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a document for a check-in entry in the MongoDB database.
 
 #### Defined in
 
-[src/models/CheckIn.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/CheckIn.ts#L20)
+[src/models/CheckIn.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/CheckIn.ts#L20)
 
 ***
 
@@ -56,7 +56,7 @@ Represents a document for a check-in entry in the MongoDB database.
 
 #### Defined in
 
-[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/CheckIn.ts#L19)
+[src/models/CheckIn.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/CheckIn.ts#L19)
 
 ***
 
@@ -66,4 +66,4 @@ Represents a document for a check-in entry in the MongoDB database.
 
 #### Defined in
 
-[src/models/CheckIn.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/CheckIn.ts#L22)
+[src/models/CheckIn.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/CheckIn.ts#L22)

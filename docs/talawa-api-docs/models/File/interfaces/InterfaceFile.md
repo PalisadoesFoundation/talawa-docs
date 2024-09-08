@@ -16,7 +16,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L9)
+[src/models/File.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L14)
+[src/models/File.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L14)
 
 ***
 
@@ -36,7 +36,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L16)
+[src/models/File.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L16)
 
 ***
 
@@ -46,7 +46,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L10)
+[src/models/File.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L10)
 
 ***
 
@@ -56,7 +56,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L13)
+[src/models/File.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L13)
 
 ***
 
@@ -66,7 +66,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L12)
+[src/models/File.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L12)
 
 ***
 
@@ -76,7 +76,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L15)
+[src/models/File.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L15)
 
 ***
 
@@ -86,7 +86,7 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L17)
+[src/models/File.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L17)
 
 ***
 
@@ -96,4 +96,4 @@ This is an interface representing a document for a file in the database(MongoDB)
 
 #### Defined in
 
-[src/models/File.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/File.ts#L11)
+[src/models/File.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/File.ts#L11)

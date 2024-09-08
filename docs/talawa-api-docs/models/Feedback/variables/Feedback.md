@@ -13,4 +13,4 @@ This syntax ensures we don't get an OverwriteModelError while running tests.
 
 ## Defined in
 
-[src/models/Feedback.ts:73](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/Feedback.ts#L73)
+[src/models/Feedback.ts:73](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/Feedback.ts#L73)
