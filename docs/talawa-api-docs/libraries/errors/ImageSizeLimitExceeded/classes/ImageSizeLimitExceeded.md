@@ -49,7 +49,7 @@ Optional additional metadata associated with the error (default is an empty obje
 
 #### Defined in
 
-[src/libraries/errors/ImageSizeLimitExceeded.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/libraries/errors/ImageSizeLimitExceeded.ts#L16)
+[src/libraries/errors/ImageSizeLimitExceeded.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/libraries/errors/ImageSizeLimitExceeded.ts#L16)
 
 ## Properties
 
@@ -65,7 +65,7 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -81,7 +81,7 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/libraries/errors/applicationError.ts#L23)
 
 ***
 
@@ -153,7 +153,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 #### Defined in
 
-node\_modules/@types/node/globals.d.ts:28
+node\_modules/@types/node/globals.d.ts:143
 
 ***
 
@@ -167,7 +167,7 @@ node\_modules/@types/node/globals.d.ts:28
 
 #### Defined in
 
-node\_modules/@types/node/globals.d.ts:30
+node\_modules/@types/node/globals.d.ts:145
 
 ## Methods
 
@@ -193,4 +193,4 @@ Create .stack property on a target object
 
 #### Defined in
 
-node\_modules/@types/node/globals.d.ts:21
+node\_modules/@types/node/globals.d.ts:136

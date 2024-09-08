@@ -23,4 +23,4 @@ The parent object representing the user tag. It contains information about the u
 
 ## Defined in
 
-[src/resolvers/UserTag/organization.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/UserTag/organization.ts#L16)
+[src/resolvers/UserTag/organization.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/resolvers/UserTag/organization.ts#L16)

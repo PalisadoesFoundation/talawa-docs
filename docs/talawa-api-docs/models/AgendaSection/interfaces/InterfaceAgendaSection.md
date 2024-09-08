@@ -16,7 +16,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L11)
+[src/models/AgendaSection.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L16)
+[src/models/AgendaSection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L16)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L18)
+[src/models/AgendaSection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L13)
+[src/models/AgendaSection.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L13)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L14)
+[src/models/AgendaSection.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L14)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L12)
+[src/models/AgendaSection.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L12)
 
 ***
 
@@ -76,7 +76,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L15)
+[src/models/AgendaSection.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L15)
 
 ***
 
@@ -86,7 +86,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L17)
+[src/models/AgendaSection.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L17)
 
 ***
 
@@ -96,4 +96,4 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/models/AgendaSection.ts#L19)
+[src/models/AgendaSection.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaSection.ts#L19)

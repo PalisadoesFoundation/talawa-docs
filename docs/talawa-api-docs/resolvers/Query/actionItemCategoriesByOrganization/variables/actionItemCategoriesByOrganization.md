@@ -14,8 +14,8 @@ This query will fetch all categories for the organization from database.
 
 ## Param
 
-An object that contains `organizationId` which is the _id of the Organization.
+An object that contains `organizationId` which is the _id of the Organization and `orderBy` which is the sorting order & where which is the filter.
 
 ## Defined in
 
-[src/resolvers/Query/actionItemCategoriesByOrganization.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/resolvers/Query/actionItemCategoriesByOrganization.ts#L9)
+[src/resolvers/Query/actionItemCategoriesByOrganization.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/resolvers/Query/actionItemCategoriesByOrganization.ts#L11)

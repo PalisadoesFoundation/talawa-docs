@@ -28,6 +28,10 @@
 
 \> `optional` **actionItemCategory**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"ActionItemCategory"`\]\>, `ParentType`, `ContextType`\>
 
+### allotedHours?
+
+\> `optional` **allotedHours**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Float"`\]\>, `ParentType`, `ContextType`\>
+
 ### assignee?
 
 \> `optional` **assignee**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"User"`\]\>, `ParentType`, `ContextType`\>
@@ -78,4 +82,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3714](https://github.com/PalisadoesFoundation/talawa-api/blob/67d017fd9312183a6b2bae1b160bc814f56ab5c2/src/types/generatedGraphQLTypes.ts#L3714)
+[src/types/generatedGraphQLTypes.ts:3731](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/types/generatedGraphQLTypes.ts#L3731)
