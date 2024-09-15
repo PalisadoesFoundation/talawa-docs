@@ -16,7 +16,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L10)
+[src/models/AgendaCategory.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L10)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L16)
+[src/models/AgendaCategory.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L16)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L14)
+[src/models/AgendaCategory.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L14)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L12)
+[src/models/AgendaCategory.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L12)
 
 ***
 
@@ -56,7 +56,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L11)
+[src/models/AgendaCategory.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L11)
 
 ***
 
@@ -66,7 +66,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L13)
+[src/models/AgendaCategory.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L13)
 
 ***
 
@@ -76,7 +76,7 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L17)
+[src/models/AgendaCategory.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L17)
 
 ***
 
@@ -86,4 +86,4 @@ Represents a document for an agenda category in the MongoDB database.
 
 #### Defined in
 
-[src/models/AgendaCategory.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/AgendaCategory.ts#L15)
+[src/models/AgendaCategory.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/AgendaCategory.ts#L15)

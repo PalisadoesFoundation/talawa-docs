@@ -25,7 +25,7 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/app.ts#L14)
+[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/app.ts#L14)
 
 ## default(req, res, next)
 
@@ -45,4 +45,4 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/app.ts#L14)
+[src/app.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/app.ts#L14)

@@ -283,8 +283,6 @@
 - [MutationRemoveEventAttendeeArgs](type-aliases/MutationRemoveEventAttendeeArgs.md)
 - [MutationRemoveEventVolunteerArgs](type-aliases/MutationRemoveEventVolunteerArgs.md)
 - [MutationRemoveEventVolunteerGroupArgs](type-aliases/MutationRemoveEventVolunteerGroupArgs.md)
-- [MutationRemoveFundArgs](type-aliases/MutationRemoveFundArgs.md)
-- [MutationRemoveFundraisingCampaignArgs](type-aliases/MutationRemoveFundraisingCampaignArgs.md)
 - [MutationRemoveFundraisingCampaignPledgeArgs](type-aliases/MutationRemoveFundraisingCampaignPledgeArgs.md)
 - [MutationRemoveGroupChatArgs](type-aliases/MutationRemoveGroupChatArgs.md)
 - [MutationRemoveMemberArgs](type-aliases/MutationRemoveMemberArgs.md)

@@ -16,7 +16,7 @@ Represents a database document for Membership Request.
 
 #### Defined in
 
-[src/models/MembershipRequest.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/MembershipRequest.ts#L10)
+[src/models/MembershipRequest.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MembershipRequest.ts#L10)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a database document for Membership Request.
 
 #### Defined in
 
-[src/models/MembershipRequest.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/MembershipRequest.ts#L11)
+[src/models/MembershipRequest.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MembershipRequest.ts#L11)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a database document for Membership Request.
 
 #### Defined in
 
-[src/models/MembershipRequest.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/MembershipRequest.ts#L13)
+[src/models/MembershipRequest.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MembershipRequest.ts#L13)
 
 ***
 
@@ -46,4 +46,4 @@ Represents a database document for Membership Request.
 
 #### Defined in
 
-[src/models/MembershipRequest.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/MembershipRequest.ts#L12)
+[src/models/MembershipRequest.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MembershipRequest.ts#L12)

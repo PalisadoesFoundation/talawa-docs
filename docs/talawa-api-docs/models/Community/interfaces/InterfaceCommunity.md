@@ -16,7 +16,7 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/Community.ts#L8)
+[src/models/Community.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Community.ts#L8)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/Community.ts#L10)
+[src/models/Community.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Community.ts#L10)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/Community.ts#L9)
+[src/models/Community.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Community.ts#L9)
 
 ***
 
@@ -78,7 +78,7 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/Community.ts#L12)
+[src/models/Community.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Community.ts#L12)
 
 ***
 
@@ -88,4 +88,4 @@ Interface representing a document for a community in MongoDB.
 
 #### Defined in
 
-[src/models/Community.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/Community.ts#L11)
+[src/models/Community.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Community.ts#L11)

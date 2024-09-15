@@ -20,4 +20,4 @@ A promise that resolves to a boolean indicating whether the connection is part o
 
 ## Defined in
 
-[src/utilities/checkReplicaSet.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/utilities/checkReplicaSet.ts#L11)
+[src/utilities/checkReplicaSet.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/utilities/checkReplicaSet.ts#L11)

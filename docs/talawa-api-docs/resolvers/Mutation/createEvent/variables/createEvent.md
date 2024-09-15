@@ -44,4 +44,4 @@ This function uses a transaction to ensure that either all operations succeed or
 
 ## Defined in
 
-[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/resolvers/Mutation/createEvent.ts#L56)
+[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/resolvers/Mutation/createEvent.ts#L56)

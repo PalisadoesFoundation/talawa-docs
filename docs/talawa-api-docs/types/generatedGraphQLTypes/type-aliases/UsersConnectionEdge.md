@@ -26,4 +26,4 @@ A default connection edge on the User type for UsersConnection.
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3167](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/types/generatedGraphQLTypes.ts#L3167)
+[src/types/generatedGraphQLTypes.ts:3156](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/types/generatedGraphQLTypes.ts#L3156)

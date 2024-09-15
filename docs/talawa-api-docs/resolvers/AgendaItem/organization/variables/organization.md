@@ -23,4 +23,4 @@ The parent object representing the agenda item. It contains information about th
 
 ## Defined in
 
-[src/resolvers/AgendaItem/organization.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/resolvers/AgendaItem/organization.ts#L18)
+[src/resolvers/AgendaItem/organization.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/resolvers/AgendaItem/organization.ts#L18)

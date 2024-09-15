@@ -18,4 +18,4 @@ A promise that resolves when the sample organization and its related data have b
 
 ## Defined in
 
-[src/utilities/createSampleOrganizationUtil.ts:266](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/utilities/createSampleOrganizationUtil.ts#L266)
+[src/utilities/createSampleOrganizationUtil.ts:266](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/utilities/createSampleOrganizationUtil.ts#L266)

@@ -41,7 +41,7 @@ The error message (default is "Validation error").
 
 #### Defined in
 
-[src/libraries/errors/validationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/libraries/errors/validationError.ts#L15)
+[src/libraries/errors/validationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/libraries/errors/validationError.ts#L15)
 
 ## Properties
 
@@ -57,7 +57,7 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -73,7 +73,7 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

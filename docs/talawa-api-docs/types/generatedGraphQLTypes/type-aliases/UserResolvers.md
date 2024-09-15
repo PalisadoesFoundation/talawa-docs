@@ -64,6 +64,10 @@
 
 \> `optional` **gender**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Gender"`\]\>, `ParentType`, `ContextType`\>
 
+### identifier?
+
+\> `optional` **identifier**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Int"`\], `ParentType`, `ContextType`\>
+
 ### image?
 
 \> `optional` **image**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"String"`\]\>, `ParentType`, `ContextType`\>
@@ -114,4 +118,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4728](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/types/generatedGraphQLTypes.ts#L4728)
+[src/types/generatedGraphQLTypes.ts:4715](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/types/generatedGraphQLTypes.ts#L4715)

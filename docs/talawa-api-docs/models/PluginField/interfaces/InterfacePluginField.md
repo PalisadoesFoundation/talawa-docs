@@ -16,7 +16,7 @@ Interface representing a document for a Plugin Field in the database (MongoDB).
 
 #### Defined in
 
-[src/models/PluginField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/PluginField.ts#L9)
+[src/models/PluginField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/PluginField.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a Plugin Field in the database (MongoDB).
 
 #### Defined in
 
-[src/models/PluginField.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/PluginField.ts#L13)
+[src/models/PluginField.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/PluginField.ts#L13)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a Plugin Field in the database (MongoDB).
 
 #### Defined in
 
-[src/models/PluginField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/PluginField.ts#L10)
+[src/models/PluginField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/PluginField.ts#L10)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for a Plugin Field in the database (MongoDB).
 
 #### Defined in
 
-[src/models/PluginField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/PluginField.ts#L12)
+[src/models/PluginField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/PluginField.ts#L12)
 
 ***
 
@@ -56,4 +56,4 @@ Interface representing a document for a Plugin Field in the database (MongoDB).
 
 #### Defined in
 
-[src/models/PluginField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/models/PluginField.ts#L11)
+[src/models/PluginField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/PluginField.ts#L11)

@@ -320,14 +320,6 @@
 
 \> `optional` **removeEventVolunteerGroup**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"EventVolunteerGroup"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationRemoveEventVolunteerGroupArgs`](MutationRemoveEventVolunteerGroupArgs.md), `"id"`\>\>
 
-### removeFund?
-
-\> `optional` **removeFund**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Fund"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationRemoveFundArgs`](MutationRemoveFundArgs.md), `"id"`\>\>
-
-### removeFundraisingCampaign?
-
-\> `optional` **removeFundraisingCampaign**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaign"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationRemoveFundraisingCampaignArgs`](MutationRemoveFundraisingCampaignArgs.md), `"id"`\>\>
-
 ### removeFundraisingCampaignPledge?
 
 \> `optional` **removeFundraisingCampaignPledge**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaignPledge"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationRemoveFundraisingCampaignPledgeArgs`](MutationRemoveFundraisingCampaignPledgeArgs.md), `"id"`\>\>
@@ -526,4 +518,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4320](https://github.com/PalisadoesFoundation/talawa-api/blob/0e711c6a6b57f55ab5776fc9c8edfc5ebc0b3d70/src/types/generatedGraphQLTypes.ts#L4320)
+[src/types/generatedGraphQLTypes.ts:4309](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/types/generatedGraphQLTypes.ts#L4309)
