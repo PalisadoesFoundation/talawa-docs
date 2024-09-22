@@ -16,7 +16,7 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L9)
+[src/models/MessageChat.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L14)
+[src/models/MessageChat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L14)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L11)
+[src/models/MessageChat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L11)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L10)
+[src/models/MessageChat.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L10)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L13)
+[src/models/MessageChat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L13)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L12)
+[src/models/MessageChat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L12)
 
 ***
 
@@ -76,4 +76,4 @@ Interface representing a document for a chat in the database (MongoDB).
 
 #### Defined in
 
-[src/models/MessageChat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/MessageChat.ts#L15)
+[src/models/MessageChat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/MessageChat.ts#L15)

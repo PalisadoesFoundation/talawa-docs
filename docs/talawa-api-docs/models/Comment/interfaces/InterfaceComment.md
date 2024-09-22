@@ -16,7 +16,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L11)
+[src/models/Comment.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L13)
+[src/models/Comment.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L13)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L14)
+[src/models/Comment.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L14)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L18)
+[src/models/Comment.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L18)
 
 ***
 
@@ -56,7 +56,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L17)
+[src/models/Comment.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L17)
 
 ***
 
@@ -66,7 +66,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L16)
+[src/models/Comment.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L16)
 
 ***
 
@@ -76,7 +76,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L19)
+[src/models/Comment.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L19)
 
 ***
 
@@ -86,7 +86,7 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L12)
+[src/models/Comment.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L12)
 
 ***
 
@@ -96,4 +96,4 @@ Represents a document for a comment in the MongoDB database.
 
 #### Defined in
 
-[src/models/Comment.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/models/Comment.ts#L15)
+[src/models/Comment.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/Comment.ts#L15)

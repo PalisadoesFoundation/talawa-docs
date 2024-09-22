@@ -24,4 +24,4 @@ A promise resolving to an array of InterfaceUser objects or null if not found in
 
 ## Defined in
 
-[src/services/UserCache/findUserInCache.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/60937520d7a29ccf883a9c6a7c2d186bae92a81b/src/services/UserCache/findUserInCache.ts#L12)
+[src/services/UserCache/findUserInCache.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/services/UserCache/findUserInCache.ts#L12)
