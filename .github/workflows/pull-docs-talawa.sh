@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Clone the Talawa repo
-git clone --depth=1 --branch develop https://github.com/gautam-divyanshu/talawa.git
+git clone --depth=1 --branch develop https://github.com/PalisadoesFoundation/talawa.git
 
 # Create a folder for Talawa mobile docs
 mkdir -p docs/talawa-mobile-docs
