@@ -28,4 +28,4 @@ The file name of the uploaded image.
 
 ## Defined in
 
-[src/utilities/encodedImageStorage/uploadEncodedImage.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/utilities/encodedImageStorage/uploadEncodedImage.ts#L45)
+[src/utilities/encodedImageStorage/uploadEncodedImage.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/utilities/encodedImageStorage/uploadEncodedImage.ts#L45)

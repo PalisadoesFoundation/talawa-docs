@@ -23,4 +23,4 @@ The parent object representing the agenda category. It contains information abou
 
 ## Defined in
 
-[src/resolvers/AgendaCategory/createdBy.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/resolvers/AgendaCategory/createdBy.ts#L17)
+[src/resolvers/AgendaCategory/createdBy.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaCategory/createdBy.ts#L17)

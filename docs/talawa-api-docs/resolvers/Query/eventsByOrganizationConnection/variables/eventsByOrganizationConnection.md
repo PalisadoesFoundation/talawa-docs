@@ -25,4 +25,4 @@ The arguments provided by the GraphQL query, including filters (`where`), sortin
 
 ## Defined in
 
-[src/resolvers/Query/eventsByOrganizationConnection.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/resolvers/Query/eventsByOrganizationConnection.ts#L21)
+[src/resolvers/Query/eventsByOrganizationConnection.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/eventsByOrganizationConnection.ts#L21)

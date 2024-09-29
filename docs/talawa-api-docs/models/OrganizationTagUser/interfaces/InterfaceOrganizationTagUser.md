@@ -16,7 +16,7 @@ Interface representing a document for an Organization Tag User in the database (
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/OrganizationTagUser.ts#L10)
+[src/models/OrganizationTagUser.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/OrganizationTagUser.ts#L10)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for an Organization Tag User in the database (
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/OrganizationTagUser.ts#L13)
+[src/models/OrganizationTagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/OrganizationTagUser.ts#L13)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for an Organization Tag User in the database (
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/OrganizationTagUser.ts#L11)
+[src/models/OrganizationTagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/OrganizationTagUser.ts#L11)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for an Organization Tag User in the database (
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/OrganizationTagUser.ts#L12)
+[src/models/OrganizationTagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/OrganizationTagUser.ts#L12)
 
 ***
 
@@ -56,4 +56,4 @@ Interface representing a document for an Organization Tag User in the database (
 
 #### Defined in
 
-[src/models/OrganizationTagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/c952c7a3bfd4b8b910fbae10313f5402ade5a9d4/src/models/OrganizationTagUser.ts#L14)
+[src/models/OrganizationTagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/OrganizationTagUser.ts#L14)
