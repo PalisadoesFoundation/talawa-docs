@@ -11,7 +11,7 @@
 
 
 void showTalawaErrorSnackBar
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) errorMessage, [MessageType](../../enums_enums/MessageType.md) messageType, \{[Duration](https://api.flutter.dev/flutter/dart-core/Duration-class.html) duration = const Duration(seconds: 2)})
+([String](https://api.flutter.dev/flutter/dart-core/String-class.html) errorMessage, [MessageType](../../enums_enums/MessageType.md) messageType, {[Duration](https://api.flutter.dev/flutter/dart-core/Duration-class.html) duration = const Duration(seconds: 2)})
 
 
 

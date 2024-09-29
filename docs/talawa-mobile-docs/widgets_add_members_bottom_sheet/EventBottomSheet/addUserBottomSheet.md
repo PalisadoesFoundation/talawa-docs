@@ -11,7 +11,7 @@
 
 
 void addUserBottomSheet
-(\{required [BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context, required [CreateEventViewModel](../../view_model_after_auth_view_models_event_view_models_create_event_view_model/CreateEventViewModel-class.md) model})
+({required [BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context, required [CreateEventViewModel](../../view_model_after_auth_view_models_event_view_models_create_event_view_model/CreateEventViewModel-class.md) model})
 
 
 

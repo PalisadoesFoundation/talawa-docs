@@ -9,7 +9,7 @@
 
 
 const
-EventChats(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+EventChats({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

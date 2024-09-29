@@ -9,7 +9,7 @@
 
 
 const
-DirectChats(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+DirectChats({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

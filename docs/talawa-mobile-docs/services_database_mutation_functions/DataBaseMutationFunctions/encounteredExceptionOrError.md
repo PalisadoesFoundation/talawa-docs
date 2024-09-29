@@ -11,7 +11,7 @@
 
 
 [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html)? encounteredExceptionOrError
-([OperationException](https://pub.dev/documentation/graphql/5.2.0-beta.4/graphql/OperationException-class.html) exception, \{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) showSnackBar = true})
+([OperationException](https://pub.dev/documentation/graphql/5.2.0-beta.4/graphql/OperationException-class.html) exception, {[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) showSnackBar = true})
 
 
 

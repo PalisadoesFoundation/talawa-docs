@@ -13,7 +13,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;[DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html)> customDatePicker
-(\{required [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) initialDate})
+({required [DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) initialDate})
 
 
 

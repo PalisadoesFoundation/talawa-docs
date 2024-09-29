@@ -9,7 +9,7 @@
 
 
 const
-Recover(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
+Recover({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
 
 
 

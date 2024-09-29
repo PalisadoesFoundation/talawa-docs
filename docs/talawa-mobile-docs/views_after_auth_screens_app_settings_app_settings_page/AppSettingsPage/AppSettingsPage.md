@@ -9,7 +9,7 @@
 
 
 const
-AppSettingsPage(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+AppSettingsPage({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

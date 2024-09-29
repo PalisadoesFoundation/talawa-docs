@@ -175,7 +175,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [switchTheme](../view_model_theme_view_model/AppTheme/switchTheme.md)(\{required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isOn}) void
+##### [switchTheme](../view_model_theme_view_model/AppTheme/switchTheme.md)({required [bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isOn}) void
 
 
 

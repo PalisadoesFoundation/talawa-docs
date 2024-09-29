@@ -9,7 +9,7 @@
 
 
 const
-EventTasksPage(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key, required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) eventId})
+EventTasksPage({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key, required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) eventId})
 
 
 

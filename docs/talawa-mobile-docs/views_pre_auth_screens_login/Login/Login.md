@@ -9,7 +9,7 @@
 
 
 const
-Login(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
+Login({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
 
 
 

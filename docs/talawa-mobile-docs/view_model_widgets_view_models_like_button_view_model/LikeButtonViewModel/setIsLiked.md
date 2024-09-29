@@ -11,7 +11,7 @@
 
 
 void setIsLiked
-(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) val = true})
+({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) val = true})
 
 
 

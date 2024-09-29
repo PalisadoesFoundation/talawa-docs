@@ -9,7 +9,7 @@
 
 
 const
-SignUpDetails(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key, required [OrgInfo](../../models_organization_org_info/OrgInfo-class.md) selectedOrg})
+SignUpDetails({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key, required [OrgInfo](../../models_organization_org_info/OrgInfo-class.md) selectedOrg})
 
 
 

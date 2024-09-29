@@ -11,7 +11,7 @@
 
 
 void initialise
-(\{[String](https://api.flutter.dev/flutter/dart-core/String-class.html) inviteUrl = ''})
+({[String](https://api.flutter.dev/flutter/dart-core/String-class.html) inviteUrl = ''})
 
 
 

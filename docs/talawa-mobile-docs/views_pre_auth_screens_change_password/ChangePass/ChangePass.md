@@ -9,7 +9,7 @@
 
 
 const
-ChangePass(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
+ChangePass({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key})
 
 
 

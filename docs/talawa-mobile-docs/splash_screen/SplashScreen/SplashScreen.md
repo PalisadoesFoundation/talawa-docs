@@ -9,7 +9,7 @@
 
 
 const
-SplashScreen(\{required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key, [int](https://api.flutter.dev/flutter/dart-core/int-class.html) mainScreenIndex = 0})
+SplashScreen({required [Key](https://api.flutter.dev/flutter/foundation/Key-class.html) key, [int](https://api.flutter.dev/flutter/dart-core/int-class.html) mainScreenIndex = 0})
 
 
 

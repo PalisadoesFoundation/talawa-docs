@@ -147,7 +147,7 @@ _<span class="feature">inherited</span>_
 
 
 
-##### [updateAccessToken](../services_user_config/UserConfig/updateAccessToken.md)(\{required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) accessToken, required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) refreshToken}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)
+##### [updateAccessToken](../services_user_config/UserConfig/updateAccessToken.md)({required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) accessToken, required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) refreshToken}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)
 
 
 

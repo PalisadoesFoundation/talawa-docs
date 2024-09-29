@@ -9,7 +9,7 @@
 
 
 const
-EventInfoBody(\{[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
+EventInfoBody({[Key](https://api.flutter.dev/flutter/foundation/Key-class.html)? key})
 
 
 

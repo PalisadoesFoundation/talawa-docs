@@ -84,7 +84,7 @@ This function is used to cancel the stream subscription of an organization.
 
 
 
-##### [editEvent](../services_event_service/EventService/editEvent.md)(\{required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) eventId, required [Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> variables}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void>
+##### [editEvent](../services_event_service/EventService/editEvent.md)({required [String](https://api.flutter.dev/flutter/dart-core/String-class.html) eventId, required [Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> variables}) [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void>
 
 
 

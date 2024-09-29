@@ -179,7 +179,7 @@ This function fetches new posts in the organization.
 
 
 
-##### [initialise](../view_model_after_auth_view_models_feed_view_models_organization_feed_view_model/OrganizationFeedViewModel/initialise.md)(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false}) void
+##### [initialise](../view_model_after_auth_view_models_feed_view_models_organization_feed_view_model/OrganizationFeedViewModel/initialise.md)({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false}) void
 
 
 

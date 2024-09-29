@@ -11,7 +11,7 @@
 
 
 [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html) pushScreen
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) routeName, \{dynamic arguments})
+([String](https://api.flutter.dev/flutter/dart-core/String-class.html) routeName, {dynamic arguments})
 
 
 

@@ -41,7 +41,7 @@ The class provides methods that set's the language, change the language in the m
 
 ## Constructors
 
-[AppLanguage](../view_model_lang_view_model/AppLanguage/AppLanguage.md) (\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false})
+[AppLanguage](../view_model_lang_view_model/AppLanguage/AppLanguage.md) ({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false})
 
    
 

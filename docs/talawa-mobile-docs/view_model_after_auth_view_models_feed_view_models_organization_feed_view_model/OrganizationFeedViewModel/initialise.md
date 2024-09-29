@@ -11,7 +11,7 @@
 
 
 void initialise
-(\{[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false})
+({[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isTest = false})
 
 
 
