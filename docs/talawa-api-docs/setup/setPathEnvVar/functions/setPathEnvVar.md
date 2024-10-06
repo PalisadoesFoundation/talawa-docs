@@ -37,4 +37,4 @@ Error If updating the PATH environment variable fails.
 
 ## Defined in
 
-[src/setup/setPathEnvVar.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/setup/setPathEnvVar.ts#L24)
+[src/setup/setPathEnvVar.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/setup/setPathEnvVar.ts#L24)

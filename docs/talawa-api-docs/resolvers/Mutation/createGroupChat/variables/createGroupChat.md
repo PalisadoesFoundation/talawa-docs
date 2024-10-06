@@ -33,10 +33,14 @@ The input arguments for the mutation, including:
 
 The context object containing user information (context.userId).
 
+## Returns
+
+A promise that resolves to the created group chat object.
+
 ## Remarks
 
 This function ensures the existence of the organization and users, and caches the organization if it is not already cached. It returns the created group chat object.
 
 ## Defined in
 
-[src/resolvers/Mutation/createGroupChat.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createGroupChat.ts#L33)
+[src/resolvers/Mutation/createGroupChat.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createGroupChat.ts#L33)

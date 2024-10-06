@@ -33,6 +33,10 @@ The arguments provided with the request, including:
 
 The context of the entire application, including user information and other context-specific data.
 
+## Returns
+
+A promise that resolves to the newly added or updated user custom data object.
+
 ## Defined in
 
-[src/resolvers/Mutation/addUserCustomData.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/addUserCustomData.ts#L34)
+[src/resolvers/Mutation/addUserCustomData.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/addUserCustomData.ts#L34)

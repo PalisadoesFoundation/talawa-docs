@@ -16,6 +16,10 @@ This query will fetch eventVolunteerGroups as a transaction from database.
 
 An object that contains where object for eventVolunteerGroups.
 
+## Returns
+
+An array of `eventVolunteerGroup` object.
+
 ## Defined in
 
-[src/resolvers/Query/getEventVolunteerGroups.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getEventVolunteerGroups.ts#L10)
+[src/resolvers/Query/getEventVolunteerGroups.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getEventVolunteerGroups.ts#L10)

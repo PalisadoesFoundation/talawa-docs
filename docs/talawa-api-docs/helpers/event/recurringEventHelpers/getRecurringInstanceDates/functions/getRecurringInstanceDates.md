@@ -42,4 +42,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts#L23)
+[src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts#L23)

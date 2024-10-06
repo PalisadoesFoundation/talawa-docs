@@ -16,6 +16,10 @@ This function retrieves the recurrence rule associated with a specific event.
 
 The parent object representing the event. It contains information about the event, including the ID of the recurrence rule associated with it.
 
+## Returns
+
+A promise that resolves to the recurrence rule document found in the database. This document represents the recurrence rule associated with the event.
+
 ## See
 
  - RecurrenceRule - The RecurrenceRule model used to interact with the recurrence rules collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the event. It contains information about the even
 
 ## Defined in
 
-[src/resolvers/Event/recurrenceRule.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Event/recurrenceRule.ts#L17)
+[src/resolvers/Event/recurrenceRule.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Event/recurrenceRule.ts#L17)

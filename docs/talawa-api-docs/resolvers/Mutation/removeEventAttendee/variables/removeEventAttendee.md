@@ -28,6 +28,10 @@ Contains the arguments passed to the GraphQL mutation, specifically the event ID
 
 Provides contextual information, including the current user's ID. This is used to authenticate and authorize the request.
 
+## Returns
+
+The details of the removed user if the removal was successful.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeEventAttendee.ts#L38)
+[src/resolvers/Mutation/removeEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeEventAttendee.ts#L38)

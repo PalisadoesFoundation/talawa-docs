@@ -26,4 +26,4 @@ A default connection edge on the UserTag type for UserTagsConnection.
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3107](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/types/generatedGraphQLTypes.ts#L3107)
+[src/types/generatedGraphQLTypes.ts:3107](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/types/generatedGraphQLTypes.ts#L3107)

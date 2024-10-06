@@ -26,6 +26,10 @@ The following tasks are done:
 3. Checks whether otp is valid.
 4. Updates password field for user's document with email === email.
 
+## Returns
+
+True if the operation is successful.
+
 ## Defined in
 
-[src/resolvers/Mutation/forgotPassword.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/forgotPassword.ts#L23)
+[src/resolvers/Mutation/forgotPassword.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/forgotPassword.ts#L23)

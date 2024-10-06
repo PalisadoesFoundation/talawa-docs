@@ -28,4 +28,4 @@ A message indicating that the start time must be earlier than the end time, or a
 
 ## Defined in
 
-[src/libraries/validators/compareTime.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/libraries/validators/compareTime.ts#L8)
+[src/libraries/validators/compareTime.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/libraries/validators/compareTime.ts#L8)

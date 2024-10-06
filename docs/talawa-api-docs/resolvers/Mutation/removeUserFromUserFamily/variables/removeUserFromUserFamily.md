@@ -29,6 +29,10 @@ The following checks are done:
 2. If the user to be removed is member of the organisation.
 3. If the user is admin of the family
 
+## Returns
+
+Updated group chat.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeUserFromUserFamily.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeUserFromUserFamily.ts#L29)
+[src/resolvers/Mutation/removeUserFromUserFamily.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeUserFromUserFamily.ts#L29)

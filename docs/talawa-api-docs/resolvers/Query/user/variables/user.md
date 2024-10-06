@@ -18,6 +18,10 @@ An object that contains `id` for the user.
 
 ## Param
 
+## Returns
+
+An object that contains user data. If the user is not found then it throws a `NotFoundError` error.
+
 ## Defined in
 
-[src/resolvers/Query/user.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/user.ts#L13)
+[src/resolvers/Query/user.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/user.ts#L13)

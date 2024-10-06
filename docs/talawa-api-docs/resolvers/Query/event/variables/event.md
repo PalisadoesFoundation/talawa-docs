@@ -16,6 +16,10 @@ This query will fetch the event with _id === args.id from the database.
 
 An object that contains `id` of the event that need to be fetched.
 
+## Returns
+
+An `event` object. If the `event` object is null then it throws `NotFoundError` error.
+
 ## Remarks
 
 You can learn about GraphQL `Resolvers`
@@ -23,4 +27,4 @@ You can learn about GraphQL `Resolvers`
 
 ## Defined in
 
-[src/resolvers/Query/event.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/event.ts#L13)
+[src/resolvers/Query/event.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/event.ts#L13)

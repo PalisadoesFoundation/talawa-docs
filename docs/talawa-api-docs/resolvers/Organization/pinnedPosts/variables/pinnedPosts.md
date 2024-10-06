@@ -16,6 +16,10 @@ This function retrieves the posts that are pinned by a specific organization.
 
 The parent object representing the organization. It contains information about the organization, including the IDs of the posts that are pinned.
 
+## Returns
+
+A promise that resolves to the post documents found in the database. These documents represent the posts that are pinned by the organization.
+
 ## See
 
  - Post - The Post model used to interact with the posts collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the organization. It contains information about t
 
 ## Defined in
 
-[src/resolvers/Organization/pinnedPosts.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Organization/pinnedPosts.ts#L18)
+[src/resolvers/Organization/pinnedPosts.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Organization/pinnedPosts.ts#L18)

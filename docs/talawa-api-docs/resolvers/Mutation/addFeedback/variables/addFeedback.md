@@ -33,6 +33,10 @@ The arguments for the mutation, including:
 The context for the mutation, including:
   - `userId`: The ID of the current user making the request.
 
+## Returns
+
+A promise that resolves to the newly created feedback document.
+
 ## See
 
  - Event - The Event model used to interact with the events collection in the database.
@@ -43,4 +47,4 @@ The context for the mutation, including:
 
 ## Defined in
 
-[src/resolvers/Mutation/addFeedback.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/addFeedback.ts#L37)
+[src/resolvers/Mutation/addFeedback.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/addFeedback.ts#L37)

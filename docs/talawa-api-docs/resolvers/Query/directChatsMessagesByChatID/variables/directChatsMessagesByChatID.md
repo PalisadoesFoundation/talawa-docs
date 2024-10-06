@@ -16,6 +16,11 @@ This query will fetch all messages for a certain direct chat for the user from d
 
 An object that contains `id` of the direct chat.
 
+## Returns
+
+A `directChatsMessages` object that holds all of the messages from the specified direct chat.
+If the `directChatsMessages` object is null then it throws `NotFoundError` error.
+
 ## Remarks
 
 You can learn about GraphQL `Resolvers`
@@ -23,4 +28,4 @@ You can learn about GraphQL `Resolvers`
 
 ## Defined in
 
-[src/resolvers/Query/directChatsMessagesByChatID.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/directChatsMessagesByChatID.ts#L16)
+[src/resolvers/Query/directChatsMessagesByChatID.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/directChatsMessagesByChatID.ts#L16)

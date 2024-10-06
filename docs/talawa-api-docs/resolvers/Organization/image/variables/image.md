@@ -16,10 +16,14 @@ This function retrieves the image URL of a specific organization.
 
 The parent object representing the organization. It contains information about the organization, including the image URL.
 
+## Returns
+
+The URL of the image of the organization.
+
 ## See
 
 OrganizationResolvers - The type definition for the resolvers of the Organization fields.
 
 ## Defined in
 
-[src/resolvers/Organization/image.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Organization/image.ts#L15)
+[src/resolvers/Organization/image.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Organization/image.ts#L15)

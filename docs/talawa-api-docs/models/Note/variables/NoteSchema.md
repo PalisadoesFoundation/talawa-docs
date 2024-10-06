@@ -36,4 +36,4 @@ The ID of the agenda item associated with the note.
 
 ## Defined in
 
-[src/models/Note.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/Note.ts#L27)
+[src/models/Note.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Note.ts#L27)

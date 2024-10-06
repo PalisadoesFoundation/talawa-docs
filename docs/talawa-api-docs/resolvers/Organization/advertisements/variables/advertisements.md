@@ -24,6 +24,10 @@ The arguments provided to the field. These arguments are used to filter, sort, a
 
 The context object passed to the GraphQL resolvers. It contains the API root URL, which is used to construct the media URL for each advertisement.
 
+## Returns
+
+A promise that resolves to a connection object containing the advertisements of the organization.
+
 ## See
 
  - Advertisement - The Advertisement model used to interact with the advertisements collection in the database.
@@ -37,4 +41,4 @@ The context object passed to the GraphQL resolvers. It contains the API root URL
 
 ## Defined in
 
-[src/resolvers/Organization/advertisements.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Organization/advertisements.ts#L38)
+[src/resolvers/Organization/advertisements.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Organization/advertisements.ts#L38)

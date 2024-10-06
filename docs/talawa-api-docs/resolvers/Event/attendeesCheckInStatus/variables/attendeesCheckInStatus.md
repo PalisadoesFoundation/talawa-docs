@@ -16,6 +16,10 @@ This function retrieves the attendees of an event and their check-in status.
 
 The parent object representing the event. It contains information about the event, including the ID.
 
+## Returns
+
+A promise that resolves to an array of objects. Each object contains information about an attendee of the event, including the user document and the check-in document.
+
 ## See
 
  - EventAttendee - The EventAttendee model used to interact with the event attendees collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the event. It contains information about the even
 
 ## Defined in
 
-[src/resolvers/Event/attendeesCheckInStatus.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Event/attendeesCheckInStatus.ts#L16)
+[src/resolvers/Event/attendeesCheckInStatus.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Event/attendeesCheckInStatus.ts#L16)

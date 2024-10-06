@@ -18,6 +18,10 @@ The user details are then returned as a plain JavaScript object.
 
 The parent `AgendaItem` object. This contains the `createdBy` field, which is used to query the user.
 
+## Returns
+
+A promise that resolves to the user object found in the database, or `null` if no user is found.
+
 ## Defined in
 
-[src/resolvers/AgendaItem/createdBy.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaItem/createdBy.ts#L16)
+[src/resolvers/AgendaItem/createdBy.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/AgendaItem/createdBy.ts#L16)

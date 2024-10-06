@@ -29,6 +29,10 @@ Contains the arguments passed to the GraphQL mutation, specifically the ID of th
 
 Provides contextual information such as the current user's ID and API root URL. This is used to find the user and validate permissions.
 
+## Returns
+
+The deleted advertisement's details, including the advertisement ID and media URL, if the deletion was successful.
+
 ## Defined in
 
-[src/resolvers/Mutation/deleteAdvertisement.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/deleteAdvertisement.ts#L32)
+[src/resolvers/Mutation/deleteAdvertisement.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/deleteAdvertisement.ts#L32)

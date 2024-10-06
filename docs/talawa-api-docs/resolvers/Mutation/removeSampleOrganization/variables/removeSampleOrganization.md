@@ -26,6 +26,10 @@ The arguments passed to the GraphQL mutation, which are not used in this functio
 
 Provides contextual information, including the current user's ID. This is used to authenticate and authorize the request.
 
+## Returns
+
+A boolean value indicating whether the operation was successful.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeSampleOrganization.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeSampleOrganization.ts#L31)
+[src/resolvers/Mutation/removeSampleOrganization.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeSampleOrganization.ts#L31)

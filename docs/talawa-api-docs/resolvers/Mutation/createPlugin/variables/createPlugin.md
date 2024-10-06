@@ -28,10 +28,14 @@ The input arguments for the mutation, which include:
 
 The context object, which includes the pubsub system for triggering subscriptions.
 
+## Returns
+
+The created plugin object.
+
 ## Remarks
 
 This function creates a plugin record, updates the subscription channel with the new plugin details, and returns the created plugin.
 
 ## Defined in
 
-[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createPlugin.ts#L21)
+[src/resolvers/Mutation/createPlugin.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createPlugin.ts#L21)

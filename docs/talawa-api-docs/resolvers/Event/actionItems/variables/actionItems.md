@@ -16,6 +16,10 @@ This function retrieves the action items associated with a specific event.
 
 The parent object representing the event. It contains information about the event, including the ID of the action items associated with it.
 
+## Returns
+
+A promise that resolves to an array of action item documents found in the database. These documents represent the action items associated with the event.
+
 ## See
 
  - ActionItem - The ActionItem model used to interact with the action items collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the event. It contains information about the even
 
 ## Defined in
 
-[src/resolvers/Event/actionItems.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Event/actionItems.ts#L16)
+[src/resolvers/Event/actionItems.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Event/actionItems.ts#L16)

@@ -25,6 +25,10 @@ The input arguments for the mutation.
 
 The context object containing user information.
 
+## Returns
+
+A promise that resolves to the updated agenda category.
+
 ## Throws
 
 `NotFoundError` If the agenda category or user is not found.
@@ -39,4 +43,4 @@ The context object containing user information.
 
 ## Defined in
 
-[src/resolvers/Mutation/updateAgendaCategory.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/updateAgendaCategory.ts#L36)
+[src/resolvers/Mutation/updateAgendaCategory.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/updateAgendaCategory.ts#L36)

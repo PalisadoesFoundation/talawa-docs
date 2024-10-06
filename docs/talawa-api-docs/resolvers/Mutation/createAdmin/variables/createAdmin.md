@@ -33,6 +33,12 @@ The arguments provided with the request, including:
 
 The context of the entire application, including user information and other context-specific data.
 
+## Returns
+
+An object containing:
+  - `user`: The updated app user profile of the user being added as an admin.
+  - `userErrors`: An array of error objects if any errors occurred, otherwise an empty array.
+
 ## Remarks
 
 The function handles the following:
@@ -43,4 +49,4 @@ The function handles the following:
 
 ## Defined in
 
-[src/resolvers/Mutation/createAdmin.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createAdmin.ts#L47)
+[src/resolvers/Mutation/createAdmin.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createAdmin.ts#L47)

@@ -10,6 +10,10 @@
 
 This function returns list of plugins from the database.
 
+## Returns
+
+An object that contains a list of plugins.
+
 ## Defined in
 
-[src/resolvers/Query/getPlugins.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getPlugins.ts#L8)
+[src/resolvers/Query/getPlugins.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getPlugins.ts#L8)

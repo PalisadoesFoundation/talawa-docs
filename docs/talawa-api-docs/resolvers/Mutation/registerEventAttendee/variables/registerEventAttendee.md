@@ -26,6 +26,10 @@ Arguments passed to the resolver containing registration data.
 
 Context object containing user authentication and request information.
 
+## Returns
+
+Promise\<object\> Returns a promise resolving to the registered attendee data.
+
 ## Throws
 
 NotFoundError Throws a NotFoundError if the user or event is not found.
@@ -36,4 +40,4 @@ UnauthorizedError Throws an UnauthorizedError if the current user is not authori
 
 ## Defined in
 
-[src/resolvers/Mutation/registerEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/registerEventAttendee.ts#L38)
+[src/resolvers/Mutation/registerEventAttendee.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/registerEventAttendee.ts#L38)

@@ -16,6 +16,10 @@ This query will fetch all the events for an organization from the database.
 
 An object that contains `orderBy` to sort the object as specified and `id` of the Organization.
 
+## Returns
+
+An `events` object that holds all the events for the Organization.
+
 ## Defined in
 
-[src/resolvers/Query/eventsByOrganization.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/eventsByOrganization.ts#L10)
+[src/resolvers/Query/eventsByOrganization.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/eventsByOrganization.ts#L10)

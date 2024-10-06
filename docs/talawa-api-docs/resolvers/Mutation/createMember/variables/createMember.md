@@ -32,10 +32,16 @@ The input arguments for the mutation, including:
 
 The context object containing user information (context.userId).
 
+## Returns
+
+An object containing:
+  - `organization`: The updated organization object.
+  - `userErrors`: A list of errors encountered during the process.
+
 ## Remarks
 
 This function returns the updated organization and any errors encountered. It ensures that the user is not already a member before adding them and handles caching of the organization.
 
 ## Defined in
 
-[src/resolvers/Mutation/createMember.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createMember.ts#L47)
+[src/resolvers/Mutation/createMember.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createMember.ts#L47)

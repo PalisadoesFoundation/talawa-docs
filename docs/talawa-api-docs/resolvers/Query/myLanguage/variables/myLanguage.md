@@ -18,6 +18,11 @@ This query fetch the current user language from the database.
 
 An object that contains `userId`.
 
+## Returns
+
+A string `appLanguageCode` that contains language code.
+If the `appLanguageCode` field not found then it throws a `NotFoundError` error.
+
 ## Defined in
 
-[src/resolvers/Query/myLanguage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/myLanguage.ts#L13)
+[src/resolvers/Query/myLanguage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/myLanguage.ts#L13)

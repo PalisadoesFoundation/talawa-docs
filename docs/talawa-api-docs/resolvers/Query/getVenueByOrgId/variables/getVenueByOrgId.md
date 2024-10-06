@@ -30,6 +30,10 @@ The arguments provided by the GraphQL query, including:
   - `first`: Optional limit on the number of results to return.
   - `skip`: Optional number of results to skip for pagination.
 
+## Returns
+
+A promise that resolves to an array of venues matching the query criteria.
+
 ## Defined in
 
-[src/resolvers/Query/getVenueByOrgId.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getVenueByOrgId.ts#L27)
+[src/resolvers/Query/getVenueByOrgId.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getVenueByOrgId.ts#L27)

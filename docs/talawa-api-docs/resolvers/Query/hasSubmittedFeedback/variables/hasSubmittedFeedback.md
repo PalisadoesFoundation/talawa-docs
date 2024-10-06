@@ -22,6 +22,10 @@ The arguments provided to the GraphQL query. Should include:
   - `userId` (string): The ID of the user to check.
   - `eventId` (string): The ID of the event to check.
 
+## Returns
+
+A boolean value indicating whether the user has submitted feedback for the event. This is determined by checking the `feedbackSubmitted` property of the check-in record.
+
 ## Defined in
 
-[src/resolvers/Query/hasSubmittedFeedback.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/hasSubmittedFeedback.ts#L22)
+[src/resolvers/Query/hasSubmittedFeedback.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/hasSubmittedFeedback.ts#L22)

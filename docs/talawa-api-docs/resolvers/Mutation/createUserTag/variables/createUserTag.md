@@ -32,10 +32,14 @@ The input arguments for the mutation, including the tag details and organization
 
 The context object, including the user ID and other necessary context for authorization.
 
+## Returns
+
+The created tag object.
+
 ## Remarks
 
 This function is intended for creating new tags within an organization and includes validation to ensure the integrity of the tag creation process.
 
 ## Defined in
 
-[src/resolvers/Mutation/createUserTag.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createUserTag.ts#L46)
+[src/resolvers/Mutation/createUserTag.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createUserTag.ts#L46)

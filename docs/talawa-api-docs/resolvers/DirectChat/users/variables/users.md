@@ -14,6 +14,10 @@ This resolver function will fetch and return the list of all direct chat users f
 
 An object that is the return value of the resolver for this field's parent.
 
+## Returns
+
+An `object` that contains the list of users.
+
 ## Defined in
 
-[src/resolvers/DirectChat/users.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/DirectChat/users.ts#L8)
+[src/resolvers/DirectChat/users.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/DirectChat/users.ts#L8)

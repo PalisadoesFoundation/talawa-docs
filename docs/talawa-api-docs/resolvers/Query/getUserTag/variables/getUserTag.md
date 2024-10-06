@@ -21,6 +21,10 @@ This parameter is not used in this resolver function.
 
 The arguments provided by the GraphQL query, including the ID of the user tag to retrieve.
 
+## Returns
+
+The user tag with the specified ID.
+
 ## Defined in
 
-[src/resolvers/Query/getUserTag.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getUserTag.ts#L18)
+[src/resolvers/Query/getUserTag.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getUserTag.ts#L18)

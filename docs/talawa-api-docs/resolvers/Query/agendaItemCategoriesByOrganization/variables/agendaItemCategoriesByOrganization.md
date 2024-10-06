@@ -16,6 +16,10 @@ This query will fetch all categories for the organization from database.
 
 An object that contains `organizationId` which is the _id of the Organization.
 
+## Returns
+
+A `categories` object that holds all categories for the Organization.
+
 ## Defined in
 
-[src/resolvers/Query/agendaItemCategoriesByOrganization.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/agendaItemCategoriesByOrganization.ts#L9)
+[src/resolvers/Query/agendaItemCategoriesByOrganization.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/agendaItemCategoriesByOrganization.ts#L9)

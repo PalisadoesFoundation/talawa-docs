@@ -16,6 +16,10 @@ This function retrieves the event related to a specific agenda section.
 
 The parent object representing the agenda section. It contains information about the agenda section, including the ID of the related event.
 
+## Returns
+
+A promise that resolves to the event document found in the database. This document represents the event related to the agenda section.
+
 ## See
 
  - Event - The Event model used to interact with the events collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the agenda section. It contains information about
 
 ## Defined in
 
-[src/resolvers/AgendaSection/relatedEvent.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaSection/relatedEvent.ts#L17)
+[src/resolvers/AgendaSection/relatedEvent.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/AgendaSection/relatedEvent.ts#L17)

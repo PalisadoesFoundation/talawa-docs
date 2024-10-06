@@ -27,6 +27,10 @@ context of entire application
 The following checks are done:
 1. If the user exists
 
+## Returns
+
+True if the operation is successful.
+
 ## Defined in
 
-[src/resolvers/Mutation/logout.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/logout.ts#L13)
+[src/resolvers/Mutation/logout.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/logout.ts#L13)

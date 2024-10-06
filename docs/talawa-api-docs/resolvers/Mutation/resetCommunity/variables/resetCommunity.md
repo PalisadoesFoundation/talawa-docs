@@ -28,6 +28,10 @@ The following checks are done:
 1. If the user exists.
 2. If the user is super admin.
 
+## Returns
+
+Boolean.
+
 ## Defined in
 
-[src/resolvers/Mutation/resetCommunity.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/resetCommunity.ts#L25)
+[src/resolvers/Mutation/resetCommunity.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/resetCommunity.ts#L25)

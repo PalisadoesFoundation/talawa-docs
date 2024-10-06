@@ -32,6 +32,10 @@ The arguments provided with the mutation, including:
 
 The context of the entire application, including user information (context.userId).
 
+## Returns
+
+A promise that resolves to the created agenda section object.
+
 ## Remarks
 
 This function performs caching and retrieval operations to ensure the latest data is used.
@@ -39,4 +43,4 @@ It also verifies that the user has the necessary permissions to create the agend
 
 ## Defined in
 
-[src/resolvers/Mutation/createAgendaSection.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createAgendaSection.ts#L37)
+[src/resolvers/Mutation/createAgendaSection.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createAgendaSection.ts#L37)

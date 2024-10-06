@@ -16,6 +16,10 @@ This function retrieves the user who sent a specific direct chat message.
 
 The parent object representing the direct chat message. It contains information about the direct chat message, including the ID of the user who sent it.
 
+## Returns
+
+A promise that resolves to the user document found in the database. This document represents the user who sent the direct chat message.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the direct chat message. It contains information 
 
 ## Defined in
 
-[src/resolvers/DirectChatMessage/sender.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/DirectChatMessage/sender.ts#L18)
+[src/resolvers/DirectChatMessage/sender.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/DirectChatMessage/sender.ts#L18)

@@ -16,6 +16,10 @@ This function retrieves the parent tag associated with a specific user tag.
 
 The parent object representing the user tag. It contains information about the user tag, including the ID of the parent tag associated with it.
 
+## Returns
+
+A promise that resolves to the user tag document found in the database. This document represents the parent tag associated with the user tag.
+
 ## See
 
  - OrganizationTagUser - The OrganizationTagUser model used to interact with the user tags collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the user tag. It contains information about the u
 
 ## Defined in
 
-[src/resolvers/UserTag/parentTag.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/UserTag/parentTag.ts#L16)
+[src/resolvers/UserTag/parentTag.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/UserTag/parentTag.ts#L16)

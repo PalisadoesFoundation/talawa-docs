@@ -16,6 +16,10 @@ This function retrieves the organization associated with a specific agenda item.
 
 The parent object representing the agenda item. It contains information about the agenda item, including the ID of the organization it is associated with.
 
+## Returns
+
+A promise that resolves to the organization document found in the database. This document represents the organization associated with the agenda item.
+
 ## See
 
  - Organization - The Organization model used to interact with the organizations collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the agenda item. It contains information about th
 
 ## Defined in
 
-[src/resolvers/AgendaItem/organization.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaItem/organization.ts#L18)
+[src/resolvers/AgendaItem/organization.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/AgendaItem/organization.ts#L18)

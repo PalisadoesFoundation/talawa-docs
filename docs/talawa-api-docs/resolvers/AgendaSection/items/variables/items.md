@@ -16,6 +16,10 @@ This function retrieves the agenda items associated with a specific agenda secti
 
 The parent object representing the agenda section. It contains information about the agenda section, including the IDs of the agenda items associated with it.
 
+## Returns
+
+A promise that resolves to the agenda item documents found in the database. These documents represent the agenda items associated with the agenda section.
+
 ## See
 
  - AgendaItemModel - The AgendaItem model used to interact with the agenda items collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the agenda section. It contains information about
 
 ## Defined in
 
-[src/resolvers/AgendaSection/items.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaSection/items.ts#L17)
+[src/resolvers/AgendaSection/items.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/AgendaSection/items.ts#L17)

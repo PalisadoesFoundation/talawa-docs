@@ -16,6 +16,10 @@ This function retrieves the feedback associated with a specific event.
 
 The parent object representing the event. It contains information about the event, including the ID of the feedback associated with it.
 
+## Returns
+
+A promise that resolves to an array of feedback documents found in the database. These documents represent the feedback associated with the event.
+
 ## See
 
  - Feedback - The Feedback model used to interact with the feedback collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the event. It contains information about the even
 
 ## Defined in
 
-[src/resolvers/Event/feedback.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Event/feedback.ts#L16)
+[src/resolvers/Event/feedback.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Event/feedback.ts#L16)

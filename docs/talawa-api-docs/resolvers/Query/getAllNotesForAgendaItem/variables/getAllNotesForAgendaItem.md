@@ -22,6 +22,10 @@ This parameter is not used in this resolver function but is included for compati
 
 The arguments provided by the GraphQL query, including the agenda item ID (`agendaItemId`) for which notes are to be retrieved.
 
+## Returns
+
+A list of notes associated with the specified agenda item.
+
 ## Defined in
 
-[src/resolvers/Query/getAllNotesForAgendaItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getAllNotesForAgendaItem.ts#L17)
+[src/resolvers/Query/getAllNotesForAgendaItem.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getAllNotesForAgendaItem.ts#L17)

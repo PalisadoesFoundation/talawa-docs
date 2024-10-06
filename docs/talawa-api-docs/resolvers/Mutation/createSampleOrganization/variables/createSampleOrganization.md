@@ -29,10 +29,14 @@ The arguments for the mutation, not used in this resolver.
 
 The context object, including the user ID and other necessary context for authorization.
 
+## Returns
+
+True if the sample data generation is successful; false otherwise.
+
 ## Remarks
 
 This function is intended for creating sample data and should only be accessible by super admins.
 
 ## Defined in
 
-[src/resolvers/Mutation/createSampleOrganization.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createSampleOrganization.ts#L33)
+[src/resolvers/Mutation/createSampleOrganization.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createSampleOrganization.ts#L33)

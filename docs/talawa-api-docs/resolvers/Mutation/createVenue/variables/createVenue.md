@@ -31,10 +31,14 @@ The input arguments for the mutation, including the venue details and organizati
 
 The context object, including the user ID, API root URL, and other necessary context for authorization and image upload.
 
+## Returns
+
+The created venue object, including the associated organization.
+
 ## Remarks
 
 This function includes validation for user authorization, venue uniqueness, and handles image uploads if applicable.
 
 ## Defined in
 
-[src/resolvers/Mutation/createVenue.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createVenue.ts#L40)
+[src/resolvers/Mutation/createVenue.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createVenue.ts#L40)

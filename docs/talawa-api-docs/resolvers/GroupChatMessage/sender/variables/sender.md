@@ -16,6 +16,10 @@ This function retrieves the user who sent a specific group chat message.
 
 The parent object representing the group chat message. It contains information about the group chat message, including the ID of the user who sent it.
 
+## Returns
+
+A promise that resolves to the user document found in the database. This document represents the user who sent the group chat message.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the group chat message. It contains information a
 
 ## Defined in
 
-[src/resolvers/GroupChatMessage/sender.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/GroupChatMessage/sender.ts#L18)
+[src/resolvers/GroupChatMessage/sender.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/GroupChatMessage/sender.ts#L18)

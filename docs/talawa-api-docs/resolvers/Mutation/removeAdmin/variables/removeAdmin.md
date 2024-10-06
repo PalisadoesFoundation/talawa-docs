@@ -31,6 +31,10 @@ The following checks are done:
 4. If the user removing the admin is the creator of the organization
 5 .If the current user and user has appUserProfile or not
 
+## Returns
+
+Updated appUserProfile.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeAdmin.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeAdmin.ts#L37)
+[src/resolvers/Mutation/removeAdmin.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeAdmin.ts#L37)

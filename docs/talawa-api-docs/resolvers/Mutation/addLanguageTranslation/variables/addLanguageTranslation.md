@@ -28,6 +28,10 @@ The arguments for the mutation, including:
   - `data.translation_lang_code`: The language code for the translation being added.
   - `data.translation_value`: The translation value to be added.
 
+## Returns
+
+A promise that resolves to the updated or newly created language document.
+
 ## See
 
  - Language - The Language model used to interact with the languages collection in the database.
@@ -41,4 +45,4 @@ If the language does not exist, a nsnew entry is created with the provided trala
 
 ## Defined in
 
-[src/resolvers/Mutation/addLanguageTranslation.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/addLanguageTranslation.ts#L33)
+[src/resolvers/Mutation/addLanguageTranslation.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/addLanguageTranslation.ts#L33)

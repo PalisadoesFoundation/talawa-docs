@@ -16,6 +16,10 @@ This function retrieves the user who is the leader of a specific event volunteer
 
 The parent object representing the event volunteer group. It contains information about the event volunteer group, including the ID of the user who is the leader.
 
+## Returns
+
+A promise that resolves to the user document found in the database. This document represents the user who is the leader of the event volunteer group.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the event volunteer group. It contains informatio
 
 ## Defined in
 
-[src/resolvers/EventVolunteerGroup/leader.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/EventVolunteerGroup/leader.ts#L17)
+[src/resolvers/EventVolunteerGroup/leader.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/EventVolunteerGroup/leader.ts#L17)

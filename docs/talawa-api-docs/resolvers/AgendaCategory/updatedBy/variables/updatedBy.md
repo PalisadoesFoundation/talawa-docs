@@ -16,6 +16,10 @@ This function retrieves the user who last updated a specific agenda category.
 
 The parent object representing the agenda category. It contains information about the agenda category, including the ID of the user who last updated it.
 
+## Returns
+
+A promise that resolves to the user document found in the database. This document represents the user who last updated the agenda category.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -27,4 +31,4 @@ return User.findOne(\{ _id: parent.updatedBy \}).lean();
 
 ## Defined in
 
-[src/resolvers/AgendaCategory/updatedBy.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaCategory/updatedBy.ts#L19)
+[src/resolvers/AgendaCategory/updatedBy.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/AgendaCategory/updatedBy.ts#L19)

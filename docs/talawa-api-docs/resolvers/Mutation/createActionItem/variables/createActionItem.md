@@ -38,6 +38,10 @@ The arguments provided with the request, including:
 
 The context of the entire application, including user information and other context-specific data.
 
+## Returns
+
+A promise that resolves to the created action item object.
+
 ## Defined in
 
-[src/resolvers/Mutation/createActionItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createActionItem.ts#L58)
+[src/resolvers/Mutation/createActionItem.ts:58](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createActionItem.ts#L58)

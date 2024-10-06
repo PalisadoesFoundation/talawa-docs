@@ -30,6 +30,10 @@ The following checks are done:
 3. If the user to be rejected exists.
 4. If the user is the admin of the organization.
 
+## Returns
+
+Deleted membership request.
+
 ## Defined in
 
-[src/resolvers/Mutation/rejectMembershipRequest.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/rejectMembershipRequest.ts#L23)
+[src/resolvers/Mutation/rejectMembershipRequest.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/rejectMembershipRequest.ts#L23)

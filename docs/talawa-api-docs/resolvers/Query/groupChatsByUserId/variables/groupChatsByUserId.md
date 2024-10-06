@@ -16,6 +16,11 @@ This query will fetch all the Direct chats for the current user from the databas
 
 An object that contains `id` of the user.
 
+## Returns
+
+An object `GroupChat` that contains all direct chats of the current user.
+If the `directChats` object is null then it throws `NotFoundError` error.
+
 ## Remarks
 
 You can learn about GraphQL `Resolvers`
@@ -23,4 +28,4 @@ You can learn about GraphQL `Resolvers`
 
 ## Defined in
 
-[src/resolvers/Query/groupChatsByUserId.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/groupChatsByUserId.ts#L13)
+[src/resolvers/Query/groupChatsByUserId.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/groupChatsByUserId.ts#L13)

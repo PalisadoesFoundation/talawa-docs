@@ -38,10 +38,14 @@ The input arguments for the mutation, including:
 
 The context object containing user information (context.userId).
 
+## Returns
+
+The created organization object.
+
 ## Remarks
 
 This function creates an organization, uploads an optional image, validates the input data, creates a default action item category, updates user records, and manages caching.
 
 ## Defined in
 
-[src/resolvers/Mutation/createOrganization.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createOrganization.ts#L55)
+[src/resolvers/Mutation/createOrganization.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createOrganization.ts#L55)

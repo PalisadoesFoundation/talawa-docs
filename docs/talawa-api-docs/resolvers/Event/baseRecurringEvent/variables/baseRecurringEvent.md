@@ -16,6 +16,10 @@ This function retrieves the base recurring event of a specific event.
 
 The parent object representing the event. It contains information about the event, including the ID of the base recurring event.
 
+## Returns
+
+A promise that resolves to the event document found in the database. This document represents the base recurring event of the event.
+
 ## See
 
  - Event - The Event model used to interact with the events collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the event. It contains information about the even
 
 ## Defined in
 
-[src/resolvers/Event/baseRecurringEvent.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Event/baseRecurringEvent.ts#L16)
+[src/resolvers/Event/baseRecurringEvent.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Event/baseRecurringEvent.ts#L16)

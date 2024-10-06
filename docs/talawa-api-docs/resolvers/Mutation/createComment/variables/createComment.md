@@ -31,6 +31,10 @@ The arguments for the mutation, including:
 The context for the mutation, including:
   - `userId`: The ID of the current user creating the comment.
 
+## Returns
+
+The created comment.
+
 ## Defined in
 
-[src/resolvers/Mutation/createComment.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createComment.ts#L27)
+[src/resolvers/Mutation/createComment.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createComment.ts#L27)

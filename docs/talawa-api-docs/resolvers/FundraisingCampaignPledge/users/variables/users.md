@@ -16,6 +16,10 @@ This function retrieves the users who pledged to donate to a specific fundraisin
 
 The parent object representing the fundraising campaign pledge. It contains information about the fundraising campaign pledge, including the IDs of the users who pledged to donate.
 
+## Returns
+
+A promise that resolves to an array of user documents found in the database. These documents represent the users who pledged to donate to the fundraising campaign.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the fundraising campaign pledge. It contains info
 
 ## Defined in
 
-[src/resolvers/FundraisingCampaignPledge/users.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/FundraisingCampaignPledge/users.ts#L16)
+[src/resolvers/FundraisingCampaignPledge/users.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/FundraisingCampaignPledge/users.ts#L16)

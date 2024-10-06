@@ -22,6 +22,10 @@ payload provided with the request
 
 context of the entire application
 
+## Returns
+
+ID of the deleted note.
+
 ## Throws
 
 NotFoundError if the user or note is not found
@@ -32,4 +36,4 @@ UnauthorizedError if the user is not the creator of the note.
 
 ## Defined in
 
-[src/resolvers/Mutation/deleteNote.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/deleteNote.ts#L25)
+[src/resolvers/Mutation/deleteNote.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/deleteNote.ts#L25)

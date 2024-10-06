@@ -23,6 +23,10 @@ This parameter is not used in this resolver function.
 
 The arguments provided by the GraphQL query, including filters (`where`), sorting order (`orderBy`), pagination options (`first` and `skip`), and any other query parameters.
 
+## Returns
+
+A list of events matching the query parameters, with related data populated.
+
 ## Defined in
 
-[src/resolvers/Query/eventsByOrganizationConnection.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/eventsByOrganizationConnection.ts#L21)
+[src/resolvers/Query/eventsByOrganizationConnection.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/eventsByOrganizationConnection.ts#L21)

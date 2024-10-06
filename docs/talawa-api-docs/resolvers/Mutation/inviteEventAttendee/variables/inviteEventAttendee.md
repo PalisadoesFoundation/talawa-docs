@@ -26,6 +26,10 @@ Arguments containing data for the invitation, including the eventId and userId.
 
 Context object providing information about the current user.
 
+## Returns
+
+Promise resolving to the invited user data.
+
 ## Throws
 
 NotFoundError if the user or event is not found.
@@ -40,4 +44,4 @@ ConflictError if the user is already invited to the event.
 
 ## Defined in
 
-[src/resolvers/Mutation/inviteEventAttendee.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/inviteEventAttendee.ts#L40)
+[src/resolvers/Mutation/inviteEventAttendee.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/inviteEventAttendee.ts#L40)

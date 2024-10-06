@@ -22,6 +22,11 @@ payload provided with the request
 
 context of entire application
 
+## Returns
+
+Updated organization.
+Only SUPERADMIN & ADMIN of a organization can update the role of a user in an organization.
+
 ## Defined in
 
-[src/resolvers/Mutation/updateUserRoleInOrganization.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/updateUserRoleInOrganization.ts#L24)
+[src/resolvers/Mutation/updateUserRoleInOrganization.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/updateUserRoleInOrganization.ts#L24)

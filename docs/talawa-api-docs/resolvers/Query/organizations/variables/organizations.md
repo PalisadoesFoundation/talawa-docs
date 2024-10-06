@@ -17,10 +17,14 @@ otherwise, it will return all organisations with a size of limit 100.
 
 An object containing `orderBy` and `id` of the Organization.
 
+## Returns
+
+The organization if valid `id` is provided else return organizations with size limit 100.
+
 ## Remarks
 
 `id` in the args is optional.
 
 ## Defined in
 
-[src/resolvers/Query/organizations.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/organizations.ts#L16)
+[src/resolvers/Query/organizations.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/organizations.ts#L16)

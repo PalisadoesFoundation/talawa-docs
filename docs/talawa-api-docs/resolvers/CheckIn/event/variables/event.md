@@ -16,6 +16,10 @@ This function retrieves the event associated with a specific check-in.
 
 The parent object representing the check-in. It contains information about the check-in, including the ID of the event attendee it is associated with.
 
+## Returns
+
+A promise that resolves to the event document found in the database. This document represents the event associated with the check-in.
+
 ## See
 
  - EventAttendee - The EventAttendee model used to interact with the event attendees collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the check-in. It contains information about the c
 
 ## Defined in
 
-[src/resolvers/CheckIn/event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/CheckIn/event.ts#L16)
+[src/resolvers/CheckIn/event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/CheckIn/event.ts#L16)

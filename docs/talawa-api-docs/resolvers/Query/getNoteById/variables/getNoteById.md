@@ -24,6 +24,10 @@ This parameter is not used in this resolver function but is included for compati
 The arguments provided by the GraphQL query, including:
   - `id`: The ID of the note to be retrieved.
 
+## Returns
+
+The note record corresponding to the provided ID.
+
 ## Defined in
 
-[src/resolvers/Query/getNoteById.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getNoteById.ts#L22)
+[src/resolvers/Query/getNoteById.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getNoteById.ts#L22)

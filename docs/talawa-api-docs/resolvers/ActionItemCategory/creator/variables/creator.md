@@ -16,6 +16,10 @@ This function retrieves the user who created a specific action item category.
 
 The parent object representing the action item category. It contains information about the action item category, including the ID of the user who created it.
 
+## Returns
+
+A promise that resolves to the user document found in the database. This document represents the user who created the action item category.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the action item category. It contains information
 
 ## Defined in
 
-[src/resolvers/ActionItemCategory/creator.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/ActionItemCategory/creator.ts#L15)
+[src/resolvers/ActionItemCategory/creator.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/ActionItemCategory/creator.ts#L15)

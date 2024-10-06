@@ -29,6 +29,10 @@ The following checks are done:
 2. If the user exists.
 3. If the membership request already exists.
 
+## Returns
+
+Membership request.
+
 ## Defined in
 
-[src/resolvers/Mutation/sendMembershipRequest.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/sendMembershipRequest.ts#L25)
+[src/resolvers/Mutation/sendMembershipRequest.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/sendMembershipRequest.ts#L25)

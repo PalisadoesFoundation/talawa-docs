@@ -31,6 +31,10 @@ The arguments for the mutation, including:
 The context for the mutation, including:
   - `userId`: The ID of the current user making the request.
 
+## Returns
+
+A promise that resolves to the updated user document with the new image.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -47,4 +51,4 @@ It then performs the image upload and updates the user's profile image before sa
 
 ## Defined in
 
-[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/addUserImage.ts#L39)
+[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/addUserImage.ts#L39)

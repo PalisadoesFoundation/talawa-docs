@@ -26,6 +26,10 @@ The payload provided with the request, including the ID of the event to register
 
 The context of the entire application, containing user authentication and request information.
 
+## Returns
+
+The updated event object after registration.
+
 ## Throws
 
 NotFoundError if the specified event is not found.
@@ -43,4 +47,4 @@ If the user is invited, their registration status is updated. Otherwise, a new e
 
 ## Defined in
 
-[src/resolvers/Mutation/registerForEvent.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/registerForEvent.ts#L34)
+[src/resolvers/Mutation/registerForEvent.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/registerForEvent.ts#L34)

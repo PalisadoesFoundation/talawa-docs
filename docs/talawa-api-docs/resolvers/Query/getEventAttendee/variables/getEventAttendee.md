@@ -24,6 +24,10 @@ The arguments provided by the GraphQL query, including:
   - `eventId`: The ID of the event for which the attendee is being retrieved.
   - `userId`: The ID of the user for whom the attendee record is being retrieved.
 
+## Returns
+
+The attendee record for the specified event and user, or `null` if no record is found.
+
 ## Defined in
 
-[src/resolvers/Query/getEventAttendee.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/getEventAttendee.ts#L19)
+[src/resolvers/Query/getEventAttendee.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/getEventAttendee.ts#L19)

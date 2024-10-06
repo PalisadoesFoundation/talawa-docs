@@ -31,6 +31,10 @@ The arguments for the mutation, including:
 
 The context for the mutation, which is not used in this resolver.
 
+## Returns
+
+The created donation record.
+
 ## Defined in
 
-[src/resolvers/Mutation/createDonation.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createDonation.ts#L23)
+[src/resolvers/Mutation/createDonation.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createDonation.ts#L23)

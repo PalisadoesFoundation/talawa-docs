@@ -20,6 +20,10 @@ The parent object representing the user tag. It contains information about the u
 
 The arguments provided to the field. These arguments are used to filter, sort, and paginate the users assigned to the user tag.
 
+## Returns
+
+A promise that resolves to a connection object containing the users assigned to the user tag.
+
 ## See
 
  - TagUser - The TagUser model used to interact with the tag users collection in the database.
@@ -33,4 +37,4 @@ The arguments provided to the field. These arguments are used to filter, sort, a
 
 ## Defined in
 
-[src/resolvers/UserTag/usersAssignedTo.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/UserTag/usersAssignedTo.ts#L36)
+[src/resolvers/UserTag/usersAssignedTo.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/UserTag/usersAssignedTo.ts#L36)

@@ -24,6 +24,10 @@ The arguments passed to the GraphQL mutation, including the advertisement's `_id
 
 Provides contextual information, including the current user's ID. This is used to authenticate and authorize the request.
 
+## Returns
+
+An object containing the updated advertisement with all its fields.
+
 ## Defined in
 
-[src/resolvers/Mutation/updateAdvertisement.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/updateAdvertisement.ts#L37)
+[src/resolvers/Mutation/updateAdvertisement.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/updateAdvertisement.ts#L37)

@@ -35,6 +35,10 @@ The arguments provided with the request, including:
 
 The context of the entire application, containing user information and other context-specific data.
 
+## Returns
+
+A promise that resolves to the newly added custom field object.
+
 ## Defined in
 
-[src/resolvers/Mutation/addOrganizationCustomField.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/addOrganizationCustomField.ts#L46)
+[src/resolvers/Mutation/addOrganizationCustomField.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/addOrganizationCustomField.ts#L46)

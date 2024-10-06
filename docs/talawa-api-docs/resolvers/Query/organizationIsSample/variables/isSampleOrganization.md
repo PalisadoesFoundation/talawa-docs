@@ -25,6 +25,10 @@ This parameter is not used in this resolver function but is included for compati
 The arguments provided by the GraphQL query, including:
   - `id`: The ID of the organization to check.
 
+## Returns
+
+A promise that resolves to `true` if the organization is a sample organization, otherwise `false`.
+
 ## Defined in
 
-[src/resolvers/Query/organizationIsSample.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/organizationIsSample.ts#L21)
+[src/resolvers/Query/organizationIsSample.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/organizationIsSample.ts#L21)

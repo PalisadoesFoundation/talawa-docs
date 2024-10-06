@@ -16,6 +16,10 @@ This query will fetch the specified Post from the database.
 
 An object that contains `id` of the Post.
 
+## Returns
+
+An object `post`. If the `appLanguageCode` field not found then it throws a `NotFoundError` error.
+
 ## Defined in
 
-[src/resolvers/Query/post.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/post.ts#L11)
+[src/resolvers/Query/post.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/post.ts#L11)

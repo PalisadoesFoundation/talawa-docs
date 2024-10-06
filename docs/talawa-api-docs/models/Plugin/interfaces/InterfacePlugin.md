@@ -16,7 +16,7 @@ Represents a MongoDB document for Plugin in the database.
 
 #### Defined in
 
-[src/models/Plugin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/Plugin.ts#L9)
+[src/models/Plugin.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Plugin.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a MongoDB document for Plugin in the database.
 
 #### Defined in
 
-[src/models/Plugin.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/Plugin.ts#L11)
+[src/models/Plugin.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Plugin.ts#L11)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a MongoDB document for Plugin in the database.
 
 #### Defined in
 
-[src/models/Plugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/Plugin.ts#L12)
+[src/models/Plugin.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Plugin.ts#L12)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a MongoDB document for Plugin in the database.
 
 #### Defined in
 
-[src/models/Plugin.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/Plugin.ts#L10)
+[src/models/Plugin.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Plugin.ts#L10)
 
 ***
 
@@ -56,4 +56,4 @@ Represents a MongoDB document for Plugin in the database.
 
 #### Defined in
 
-[src/models/Plugin.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/models/Plugin.ts#L13)
+[src/models/Plugin.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Plugin.ts#L13)

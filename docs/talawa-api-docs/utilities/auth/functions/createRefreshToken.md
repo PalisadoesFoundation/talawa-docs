@@ -29,4 +29,4 @@ JSON Web Token string payload
 
 ## Defined in
 
-[src/utilities/auth.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/utilities/auth.ts#L52)
+[src/utilities/auth.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/utilities/auth.ts#L52)

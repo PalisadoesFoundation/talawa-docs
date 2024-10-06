@@ -38,10 +38,14 @@ The input arguments for the mutation, including:
 
 The context object containing user information (context.userId).
 
+## Returns
+
+A promise that resolves to the created event object.
+
 ## Remarks
 
 This function uses a transaction to ensure that either all operations succeed or none do, maintaining data integrity.
 
 ## Defined in
 
-[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createEvent.ts#L56)
+[src/resolvers/Mutation/createEvent.ts:56](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createEvent.ts#L56)

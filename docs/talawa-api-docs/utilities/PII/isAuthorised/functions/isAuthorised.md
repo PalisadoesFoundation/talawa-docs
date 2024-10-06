@@ -28,4 +28,4 @@ The user whose data is being requested or modified.
 
 ## Defined in
 
-[src/utilities/PII/isAuthorised.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/utilities/PII/isAuthorised.ts#L9)
+[src/utilities/PII/isAuthorised.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/utilities/PII/isAuthorised.ts#L9)

@@ -29,6 +29,10 @@ The following checks are done:
 2. If the Event volunteer group to be removed exists.
 3. If the current user is the admin of the corresponding event
 
+## Returns
+
+Event Volunteer group.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeEventVolunteerGroup.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeEventVolunteerGroup.ts#L25)
+[src/resolvers/Mutation/removeEventVolunteerGroup.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeEventVolunteerGroup.ts#L25)

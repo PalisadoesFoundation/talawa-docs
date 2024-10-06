@@ -24,6 +24,10 @@ The arguments passed to the GraphQL query, including pagination and filter crite
 
 Provides contextual information, including the API root URL. This is used to construct the media URLs for the advertisements.
 
+## Returns
+
+A paginated connection object containing the advertisements, their total count, and the pagination information.
+
 ## Defined in
 
-[src/resolvers/Query/advertisementsConnection.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Query/advertisementsConnection.ts#L28)
+[src/resolvers/Query/advertisementsConnection.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Query/advertisementsConnection.ts#L28)

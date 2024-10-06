@@ -30,6 +30,10 @@ The following checks are done:
 3. Whether the user is admin or superadmin or not
 4. If the venue exists
 
+## Returns
+
+Deleted venue
+
 ## Defined in
 
-[src/resolvers/Mutation/deleteVenue.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/deleteVenue.ts#L30)
+[src/resolvers/Mutation/deleteVenue.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/deleteVenue.ts#L30)

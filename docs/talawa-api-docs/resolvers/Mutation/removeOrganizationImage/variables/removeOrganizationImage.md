@@ -29,6 +29,10 @@ The following checks are done:
 2. If the organization exists
 3. If the user is the admin of the organization.
 
+## Returns
+
+Updated Organization.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeOrganizationImage.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeOrganizationImage.ts#L23)
+[src/resolvers/Mutation/removeOrganizationImage.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeOrganizationImage.ts#L23)

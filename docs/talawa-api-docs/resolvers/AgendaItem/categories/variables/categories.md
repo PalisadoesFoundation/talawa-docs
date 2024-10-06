@@ -16,6 +16,10 @@ This function retrieves the categories associated with a specific agenda item.
 
 The parent object representing the agenda item. It contains a list of category IDs associated with it.
 
+## Returns
+
+A promise that resolves to an array of category documents found in the database. These documents represent the categories associated with the agenda item.
+
 ## See
 
  - AgendaCategoryModel - The model used to interact with the categories collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the agenda item. It contains a list of category I
 
 ## Defined in
 
-[src/resolvers/AgendaItem/categories.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/AgendaItem/categories.ts#L17)
+[src/resolvers/AgendaItem/categories.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/AgendaItem/categories.ts#L17)

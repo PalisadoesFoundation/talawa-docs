@@ -16,6 +16,10 @@ This function retrieves the membership requests related to a specific organizati
 
 The parent object representing the organization. It contains information about the organization, including the IDs of the membership requests.
 
+## Returns
+
+A promise that resolves to an array of membership request documents found in the database. These documents represent the membership requests related to the organization.
+
 ## See
 
  - MembershipRequest - The MembershipRequest model used to interact with the membership requests collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the organization. It contains information about t
 
 ## Defined in
 
-[src/resolvers/Organization/membershipRequests.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Organization/membershipRequests.ts#L16)
+[src/resolvers/Organization/membershipRequests.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Organization/membershipRequests.ts#L16)

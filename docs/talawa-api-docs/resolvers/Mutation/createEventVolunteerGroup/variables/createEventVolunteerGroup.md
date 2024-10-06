@@ -34,10 +34,14 @@ The input arguments for the mutation, including:
 
 The context object containing user information (context.userId).
 
+## Returns
+
+A promise that resolves to the created event volunteer group object.
+
 ## Remarks
 
 This function first checks the cache for the current user and then queries the database if needed. It ensures that the user is authorized to create a volunteer group for the event before proceeding.
 
 ## Defined in
 
-[src/resolvers/Mutation/createEventVolunteerGroup.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/createEventVolunteerGroup.ts#L36)
+[src/resolvers/Mutation/createEventVolunteerGroup.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/createEventVolunteerGroup.ts#L36)

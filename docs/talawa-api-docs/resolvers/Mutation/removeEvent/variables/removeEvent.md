@@ -31,6 +31,10 @@ The following checks are done:
 4. If the user is an admin of the event.
 5. If the user has appUserProfile
 
+## Returns
+
+Deleted event.
+
 ## Defined in
 
-[src/resolvers/Mutation/removeEvent.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/removeEvent.ts#L39)
+[src/resolvers/Mutation/removeEvent.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/removeEvent.ts#L39)

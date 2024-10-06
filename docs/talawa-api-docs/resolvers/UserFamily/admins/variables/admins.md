@@ -16,6 +16,10 @@ This function retrieves the users who are admins of a specific user family.
 
 The parent object representing the user family. It contains information about the user family, including the IDs of the users who are admins.
 
+## Returns
+
+A promise that resolves to an array of user documents found in the database. These documents represent the users who are admins of the user family.
+
 ## See
 
  - User - The User model used to interact with the users collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the user family. It contains information about th
 
 ## Defined in
 
-[src/resolvers/UserFamily/admins.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/UserFamily/admins.ts#L16)
+[src/resolvers/UserFamily/admins.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/UserFamily/admins.ts#L16)

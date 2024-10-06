@@ -16,6 +16,10 @@ This function retrieves the messages associated with a specific group chat.
 
 The parent object representing the group chat. It contains information about the group chat, including the IDs of the messages associated with it.
 
+## Returns
+
+A promise that resolves to the message documents found in the database. These documents represent the messages associated with the group chat.
+
 ## See
 
  - GroupChatMessage - The GroupChatMessage model used to interact with the group chat messages collection in the database.
@@ -23,4 +27,4 @@ The parent object representing the group chat. It contains information about the
 
 ## Defined in
 
-[src/resolvers/GroupChat/messages.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/GroupChat/messages.ts#L16)
+[src/resolvers/GroupChat/messages.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/GroupChat/messages.ts#L16)

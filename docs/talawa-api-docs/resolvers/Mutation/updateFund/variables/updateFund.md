@@ -31,6 +31,10 @@ The following checks are done:
 4.If the user is authorized to update the fund.
 5. If the fund already exists with the same name.
 
+## Returns
+
+Updated Fund.
+
 ## Defined in
 
-[src/resolvers/Mutation/updateFund.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/fb5076f344cd74d4e51c692cbc70fc337bf1ac39/src/resolvers/Mutation/updateFund.ts#L33)
+[src/resolvers/Mutation/updateFund.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Mutation/updateFund.ts#L33)
