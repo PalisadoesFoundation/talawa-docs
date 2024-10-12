@@ -17,7 +17,7 @@ After five years of success, members of the Jamaican diaspora suggested we expan
 
 Since 2018 we have focused on creating the Talawa mobile and web apps to help community organizations like ourselves better manage their membership. We first saw the need for a social media component to keep in contact with our volunteers. Later, we realized that these organizations often faced challenges with the project management of events and keeping track of volunteer abilities, roles and responsibilities.
 
-We want to make Talawa useful for any community-based organization such as clubs, small religious institutions, neighborhood groups, and volunteer associations. 
+We want to make Talawa useful for any community-based organization such as clubs, open source projects, neighborhood groups, non-profits, and volunteer associations. 
 
 There are many software applications that exist for these types of organizations but they assume their memberships are fully literate and have access to email. We wanted to create a system that would work for countries with similar technology and education challenges as Jamaica.
 
