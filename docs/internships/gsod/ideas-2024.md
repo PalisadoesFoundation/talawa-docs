@@ -5,7 +5,7 @@ title: GSoD 2024 - Improving the accessibility of the Talawa Documentation
 
 ## About Talawa
 
-Talawa is a mobile application designed to make it easier for community-based organizations to collaborate with their members, including religious groups, non-profits, social groups, and businesses. Unlike other software solutions in this space, Talawa is specifically designed to work in countries with limited technology and education resources, such as in Jamaica. Talawa is run by the Palisadoes Foundation which is an entirely decentralized organization that relies solely on volunteer participation to meet its goals. 
+Talawa is a mobile application designed to make it easier for community-based organizations to collaborate with their members, including open source projects, non-profits, social groups, and businesses. Unlike other software solutions in this space, Talawa is specifically designed to work in countries with limited technology and education resources, such as in Jamaica. Talawa is run by the Palisadoes Foundation which is an entirely decentralized organization that relies solely on volunteer participation to meet its goals. 
 
 ## Introduction
 
