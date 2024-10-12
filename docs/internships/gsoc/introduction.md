@@ -13,7 +13,7 @@ This web pages has:
 
 ## About Talawa
 
-The Palisadoes Foundation has been sponsoring work on this open-source project for a number of years. We hope to launch it in alpha at the end of the summer. Talawa is a modular open source project to help community-based organizations such as clubs, neighborhood groups, volunteer associations, non-profits and small religious institutions manage their daily activities. Most user interaction is via a mobile app.
+The Palisadoes Foundation has been sponsoring work on this open-source project for a number of years. We hope to launch it in alpha at the end of the summer. Talawa is a modular open source project to help community-based organizations such as clubs, neighborhood groups, volunteer associations, non-profits and open source projects manage their daily activities. Most user interaction is via a mobile app.
 
 ## YouTube Introduction
 
