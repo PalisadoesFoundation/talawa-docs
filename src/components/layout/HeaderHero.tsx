@@ -23,7 +23,7 @@ function HeaderHero() {
             <h1 className="title">Talawa</h1>
             <h2 className="tagline">Member Management Software</h2>
             <p className="description">
-              For religious organizations, charities and other non-profits
+              For open source projects, charities and other non-profits
             </p>
             <div className="buttons">
               <HomeCallToAction />
