@@ -10,7 +10,7 @@ Talawa helps community based organizations collaborate with their membership.
 
 What do we mean by community based organizations? These are groups of people participating in a common social cause for the benefit of their local communities mostly through volunteers. These include:
 
-1. religious groups;
+1. open source software projects;
 2. non-profit charities;
 3. social groups;
 4. and in limited cases, businesses.
