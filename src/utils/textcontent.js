@@ -24,8 +24,8 @@
       <Header title="Welcome to Talawa"/>
       <Text style={heading}>Step One</Text>
       <Text>
-      Talawa is powerful, yet intuitive community management software made for religious
-      organizations, clubs, charities and other non-profits
+      Talawa is powerful, yet intuitive community management software made for open
+      source projects, clubs, charities and other non-profits
       </Text>
       <Text>
       Designed to help you save time, reduce frustration, and accomplish your goals.
