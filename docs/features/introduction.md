@@ -15,7 +15,7 @@ One of the key features of this feature is the ability for the organization crea
 
 With our advanced admin capabilities, admins and coordinators would be able to elevate members to coordinators and moderate the newsfeed by enabling or disabling comments and allowing for thumbs up or down reactions. Admins can also mute users and send organization-wide messages for effective communication.
 
-We understand that managing organizations can be challenging, but with our advanced admin capabilities, we are confident that admins and coordinators will find managing their organizations to be a breeze. [Click here to know more](https://docs.talawa.io/docs/features/admin-role)
+We understand that managing organizations can be challenging, but with our advanced admin capabilities, we are confident that admins and coordinators will find managing their organizations to be a easily intuitive. [Click here to know more](https://docs.talawa.io/docs/features/admin-role)
 
 ### Chat and Messaging
 As a potential feature that we aim to develop, we plan to introduce a Chat and Messaging module to enhance communication and collaboration among users. This module will allow any user to create a group chat, enabling them to connect and interact with other members of the organization.

@@ -90,7 +90,7 @@ Most of our project ideas require knowledge of two or more programming languages
 
 ### Research
 
-Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you, and we suggest you research church, temple and/or synagogue management software as a starting point. Talawa needs to have a broader reach and your additions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
+Talawa is a suite of applications that are aimed at managing the memberships of community based organizations. This concept may be new to you, and we suggest you research non-profit organization and open source software project management software as a starting point. Talawa needs to have a broader reach and your additions to our ideas will make the difference. We have included links to YouTube videos on this page that will be useful in improving your understanding.
 
 Your solution should ideally consider the:
 

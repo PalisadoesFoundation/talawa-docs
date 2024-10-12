@@ -11,7 +11,7 @@ They can change organization details, remove members from public organizations a
 
 Administrators can remove any event, group chat or post belonging to the organization they're responsible for.
 
-An administrator for an organization would be similar to a pastor for a church or the manager of a business.
+An administrator for an organization would be similar to the code owner for an open source software project, the leader of a non-profit organization or the manager of a business.
 
 ## What should an `Admin` do ?
 

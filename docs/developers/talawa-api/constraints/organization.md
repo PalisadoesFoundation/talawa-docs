@@ -5,7 +5,7 @@ title: Organization
 
 ## What Is An `Organization`?
 
-An organization is simply a body of one or more people. This includes but isn't limited to businesses, schools and religious institutions. An Organization comprises of `Users`, `Administrators`, `Group chats`, `Events` and a general news feed.
+An organization is simply a body of one or more people. This includes but isn't limited to businesses, schools, non-profit institutions and open source software projects. An Organization comprises of `Users`, `Administrators`, `Group chats`, `Events` and a general news feed.
 
 ## How to create `Organization` ?
 
