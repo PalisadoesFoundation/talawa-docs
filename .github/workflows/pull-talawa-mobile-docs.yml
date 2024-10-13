@@ -8,7 +8,7 @@ on:
 jobs:
   pull:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout current repository
         uses: actions/checkout@v2
@@ -17,8 +17,16 @@ jobs:
         run: |
           git config --global user.email "${{ env.email }}"
           git config --global user.name "${{ github.actor }}"
-      
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.22.3'
+          channel: 'stable'
+
       - name: Run bash script to fetch Talawa mobile docs
-        run: bash .github/workflows/pull-docs-talawa.sh
+        run: bash .github/workflows/pull-talawa-mobile-docs.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+
