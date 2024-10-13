@@ -9,9 +9,9 @@
 
 
 
-[double](https://api.flutter.dev/flutter/dart-core/double-class.html)? screenWidth
+[double](https:api.flutter.dev/flutter/dart-core/double-class.html)? screenWidth
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

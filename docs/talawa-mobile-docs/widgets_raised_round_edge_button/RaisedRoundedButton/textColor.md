@@ -9,9 +9,9 @@
 
 
 
-[Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) textColor
+[Color](https:api.flutter.dev/flutter/dart-ui/Color-class.html) textColor
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

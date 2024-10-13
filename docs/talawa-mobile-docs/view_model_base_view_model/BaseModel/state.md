@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-ViewState get state => _state;
+ViewState get state =\> _state;
 ```
 
 

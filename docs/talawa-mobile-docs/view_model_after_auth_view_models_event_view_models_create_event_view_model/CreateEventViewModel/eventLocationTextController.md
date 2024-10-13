@@ -9,13 +9,13 @@
 
 
 
-[TextEditingController](https://api.flutter.dev/flutter/widgets/TextEditingController-class.html) eventLocationTextController
+[TextEditingController](https:api.flutter.dev/flutter/widgets/TextEditingController-class.html) eventLocationTextController
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>Event Location Text Controller.</p>
+\<p\>Event Location Text Controller.\</p\>
 
 
 

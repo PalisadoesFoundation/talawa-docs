@@ -22,7 +22,7 @@
 
 GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.
 Talawa uses graphQL for the integrating with the API's.
-You can go through talawa-api, <a href="https://github.com/PalisadoesFoundation/talawa-api">here</a>.
+You can go through talawa-api, \<a href="https:github.com/PalisadoesFoundation/talawa-api"\>here\</a\>.
 GraphqlConfig class provides service to configure graph ql API with talawa mobile-app.
 
 

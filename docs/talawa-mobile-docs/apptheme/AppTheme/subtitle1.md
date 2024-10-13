@@ -9,9 +9,9 @@
 
 
 
-[TextStyle](https://api.flutter.dev/flutter/painting/TextStyle-class.html) subtitle1
+[TextStyle](https:api.flutter.dev/flutter/painting/TextStyle-class.html) subtitle1
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

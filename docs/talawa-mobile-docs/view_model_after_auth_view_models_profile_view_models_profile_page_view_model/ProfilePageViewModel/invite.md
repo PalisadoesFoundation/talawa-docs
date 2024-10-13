@@ -11,28 +11,28 @@
 
 
 void invite
-([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
+([BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
 
 
 
 
 
-<p>This function generates the organization invitation link in a Dialog Box.
-Dialog box contains the QR-code of organization invite link and social media sharing options.</p>
+\<p\>This function generates the organization invitation link in a Dialog Box.
+Dialog box contains the QR-code of organization invite link and social media sharing options.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void invite(BuildContext context) {
+void invite(BuildContext context) \{
   _appLanguageService.initialize();
-  // organization url
+  organization url
   final String url =
-      'https://cyberwake.github.io/applink/invite?selectLang=${_appLanguageService.appLocal.languageCode}&setUrl=${GraphqlConfig.orgURI}&selectOrg=${userConfig.currentOrg.id!}';
-  // QR
+      'https:cyberwake.github.io/applink/invite?selectLang=$\{_appLanguageService.appLocal.languageCode\}&setUrl=$\{GraphqlConfig.orgURI\}&selectOrg=$\{userConfig.currentOrg.id!\}';
+  QR
   final String qrData =
-      '${GraphqlConfig.orgURI}?orgid=${userConfig.currentOrg.id!}';
+      '$\{GraphqlConfig.orgURI\}?orgid=$\{userConfig.currentOrg.id!\}';
   print(url);
   print(qrData);
   showModalBottomSheet(
@@ -43,7 +43,7 @@ void invite(BuildContext context) {
         topRight: Radius.circular(30),
       ),
     ),
-    builder: (BuildContext context) {
+    builder: (BuildContext context) \{
       return ClipRRect(
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(30),
@@ -69,7 +69,7 @@ void invite(BuildContext context) {
                 height: SizeConfig.screenHeight! * 0.08,
               ),
               Text(
-                'Scan the QR to join ${userConfig.currentOrg.name}',
+                'Scan the QR to join $\{userConfig.currentOrg.name\}',
                 style: const TextStyle(color: Colors.black),
               ),
               SizedBox(
@@ -85,27 +85,27 @@ void invite(BuildContext context) {
                       size: 35,
                       color: Color(0xFF1DA1F2),
                     ),
-                    () async => SocialShare.shareTwitter('Join us', url: url),
+                    () async =\> SocialShare.shareTwitter('Join us', url: url),
                   ),
                   iconButton(
                     CustomPaint(
                       size: const Size(
                         50,
                         50 * 1.004,
-                      ), //You can Replace [WIDTH] with your desired width for Custom Paint and height will be calculated automatically
+                      ), You can Replace [WIDTH] with your desired width for Custom Paint and height will be calculated automatically
                       painter: WhatsappLogo(),
                     ),
-                    () async => SocialShare.shareWhatsapp(url),
+                    () async =\> SocialShare.shareWhatsapp(url),
                   ),
                   iconButton(
                     CustomPaint(
                       size: Size(
                         45,
                         (45 * 1).toDouble(),
-                      ), //You can Replace [WIDTH] with your desired width for Custom Paint and height will be calculated automatically
+                      ), You can Replace [WIDTH] with your desired width for Custom Paint and height will be calculated automatically
                       painter: TelegramLogo(),
                     ),
-                    () async => SocialShare.shareTelegram(url),
+                    () async =\> SocialShare.shareTelegram(url),
                   ),
                   iconButton(
                     const FaIcon(
@@ -113,7 +113,7 @@ void invite(BuildContext context) {
                       size: 30,
                       color: Color(0xff40c351),
                     ),
-                    () async => SocialShare.shareOptions(url),
+                    () async =\> SocialShare.shareOptions(url),
                   ),
                 ],
               )
@@ -121,9 +121,9 @@ void invite(BuildContext context) {
           ),
         ),
       );
-    },
+    \},
   );
-}
+\}
 ```
 
 

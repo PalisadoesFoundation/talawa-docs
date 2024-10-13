@@ -9,13 +9,13 @@
 
 
 
-[DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html)? createdAt
+[DateTime](https:api.flutter.dev/flutter/dart-core/DateTime-class.html)? createdAt
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>createdAt for post.</p>
+\<p\>createdAt for post.\</p\>
 
 
 

@@ -9,13 +9,13 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) sId
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) sId
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>unique identifier for post.</p>
+\<p\>unique identifier for post.\</p\>
 
 
 

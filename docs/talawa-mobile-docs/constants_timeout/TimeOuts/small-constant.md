@@ -9,13 +9,13 @@
 
 
 
-[int](https://api.flutter.dev/flutter/dart-core/int-class.html) const small
+[int](https:api.flutter.dev/flutter/dart-core/int-class.html) const small
   
 
 
 
 
-<p>For small timeout, used for small data fetch.</p>
+\<p\>For small timeout, used for small data fetch.\</p\>
 
 
 

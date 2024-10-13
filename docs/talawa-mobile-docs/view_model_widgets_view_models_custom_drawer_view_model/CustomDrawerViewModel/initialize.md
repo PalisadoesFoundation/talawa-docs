@@ -11,7 +11,7 @@
 
 
 void initialize
-([MainScreenViewModel](../../view_model_main_screen_view_model/MainScreenViewModel-class.md) homeModel, [BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
+([MainScreenViewModel](../../view_model_main_screen_view_model/MainScreenViewModel-class.md) homeModel, [BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
 
 
 
@@ -23,17 +23,17 @@ void initialize
 ## Implementation
 
 ```dart
-void initialize(MainScreenViewModel homeModel, BuildContext context) {
+void initialize(MainScreenViewModel homeModel, BuildContext context) \{
   _currentOrganizationStreamSubscription =
       userConfig.currentOrgInfoStream.listen(
-    (updatedOrganization) {
+    (updatedOrganization) \{
       setSelectedOrganizationName(updatedOrganization);
-    },
+    \},
   );
   _currentUser = userConfig.currentUser;
   _selectedOrg = userConfig.currentOrg;
   _switchAbleOrg = _currentUser.joinedOrganizations!;
-}
+\}
 ```
 
 

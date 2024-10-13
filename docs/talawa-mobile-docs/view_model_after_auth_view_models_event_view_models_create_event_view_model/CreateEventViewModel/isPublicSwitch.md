@@ -9,13 +9,13 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isPublicSwitch
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) isPublicSwitch
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>Public Event or Not.</p>
+\<p\>Public Event or Not.\</p\>
 
 
 

@@ -17,18 +17,18 @@ void tourAddPost
 
 
 
-<p>This function show the tutorial to add Post in the organization.</p>
-<p><strong>params</strong>:
-  None</p>
-<p><strong>returns</strong>:
-  None</p>
+\<p\>This function show the tutorial to add Post in the organization.\</p\>
+\<p\>\<strong\>params\</strong\>:
+  None\</p\>
+\<p\>\<strong\>returns\</strong\>:
+  None\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void tourAddPost() {
+void tourAddPost() \{
   targets.clear();
   targets.add(
     focusTarget(
@@ -40,15 +40,15 @@ void tourAddPost() {
     ),
   );
   showTutorial(
-    onFinish: () {
+    onFinish: () \{
       onTabTapped(currentPageIndex + 1);
-      if (!tourComplete && !tourSkipped) {
+      if (!tourComplete && !tourSkipped) \{
         tourChat();
-      }
-    },
-    onClickTarget: (TargetFocus a) {},
+      \}
+    \},
+    onClickTarget: (TargetFocus a) \{\},
   );
-}
+\}
 ```
 
 

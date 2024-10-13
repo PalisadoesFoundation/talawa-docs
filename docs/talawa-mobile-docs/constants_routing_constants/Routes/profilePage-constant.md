@@ -9,13 +9,13 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) const profilePage
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) const profilePage
   
 
 
 
 
-<p>static variables.</p>
+\<p\>static variables.\</p\>
 
 
 

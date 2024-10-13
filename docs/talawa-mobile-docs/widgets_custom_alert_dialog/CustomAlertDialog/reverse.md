@@ -9,9 +9,9 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) reverse
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) reverse
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

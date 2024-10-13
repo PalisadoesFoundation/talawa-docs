@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-OrgInfo? get selectedOrg => _selectedOrg;
+OrgInfo? get selectedOrg =\> _selectedOrg;
 ```
 
 

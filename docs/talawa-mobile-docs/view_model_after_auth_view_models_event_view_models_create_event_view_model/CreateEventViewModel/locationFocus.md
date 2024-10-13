@@ -9,13 +9,13 @@
 
 
 
-[FocusNode](https://api.flutter.dev/flutter/widgets/FocusNode-class.html) locationFocus
+[FocusNode](https:api.flutter.dev/flutter/widgets/FocusNode-class.html) locationFocus
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>LocationFocus FocusNode.</p>
+\<p\>LocationFocus FocusNode.\</p\>
 
 
 

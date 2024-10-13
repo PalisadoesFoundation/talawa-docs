@@ -21,7 +21,7 @@
 
 ## Functions
 
-##### [iconButton](../widgets_invite_child/iconButton.md)([String](https://api.flutter.dev/flutter/dart-core/String-class.html) key, [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) icon, [Function](https://api.flutter.dev/flutter/dart-core/Function-class.html) onTap) [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)
+##### [iconButton](../widgets_invite_child/iconButton.md)([String](https:api.flutter.dev/flutter/dart-core/String-class.html) key, [Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html) icon, [Function](https:api.flutter.dev/flutter/dart-core/Function-class.html) onTap) [Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html)
 
 
 
@@ -31,7 +31,7 @@ It prints "tapped" in the console for the developer to know that the button was 
 
 
 
-##### [invite](../widgets_invite_child/invite.md)([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context) [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)
+##### [invite](../widgets_invite_child/invite.md)([BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context) [Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html)
 
 
 

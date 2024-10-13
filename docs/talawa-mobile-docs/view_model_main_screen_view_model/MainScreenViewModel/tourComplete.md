@@ -9,13 +9,13 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) tourComplete
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) tourComplete
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>bool to determine if apptour is complete.</p>
+\<p\>bool to determine if apptour is complete.\</p\>
 
 
 

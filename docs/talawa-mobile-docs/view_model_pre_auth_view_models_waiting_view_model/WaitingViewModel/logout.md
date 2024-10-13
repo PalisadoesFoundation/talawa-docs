@@ -17,15 +17,15 @@ void logout
 
 
 
-<p>This function ends the session for the user or logout the user from the application.</p>
+\<p\>This function ends the session for the user or logout the user from the application.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void logout() {
-  final user = Hive.box<User>('currentUser');
+void logout() \{
+  final user = Hive.box\<User\>('currentUser');
   final url = Hive.box('url');
   user.clear();
   url.clear();
@@ -34,7 +34,7 @@ void logout() {
     Routes.splashScreen,
     arguments: '0',
   );
-}
+\}
 ```
 
 

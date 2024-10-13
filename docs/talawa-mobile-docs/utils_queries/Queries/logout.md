@@ -10,7 +10,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) logout
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) logout
 ()
 
 
@@ -23,13 +23,13 @@
 ## Implementation
 
 ```dart
-String logout() {
+String logout() \{
   return """
-      mutation {
+      mutation \{
         logout
-      }
+      \}
   """;
-}
+\}
 ```
 
 

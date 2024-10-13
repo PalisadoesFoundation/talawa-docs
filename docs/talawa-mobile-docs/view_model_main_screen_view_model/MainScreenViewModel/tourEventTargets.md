@@ -17,18 +17,18 @@ void tourEventTargets
 
 
 
-<p>This function show the tutorial for Events.</p>
-<p><strong>params</strong>:
-  None</p>
-<p><strong>returns</strong>:
-  None</p>
+\<p\>This function show the tutorial for Events.\</p\>
+\<p\>\<strong\>params\</strong\>:
+  None\</p\>
+\<p\>\<strong\>returns\</strong\>:
+  None\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void tourEventTargets() {
+void tourEventTargets() \{
   targets.clear();
   targets.add(
     focusTarget(
@@ -69,15 +69,15 @@ void tourEventTargets() {
     ),
   );
   showTutorial(
-    onFinish: () {
+    onFinish: () \{
       onTabTapped(currentPageIndex + 1);
-      if (!tourComplete && !tourSkipped) {
+      if (!tourComplete && !tourSkipped) \{
         tourAddPost();
-      }
-    },
-    onClickTarget: (TargetFocus a) {},
+      \}
+    \},
+    onClickTarget: (TargetFocus a) \{\},
   );
-}
+\}
 ```
 
 

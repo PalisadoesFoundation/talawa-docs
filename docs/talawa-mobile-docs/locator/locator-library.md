@@ -20,12 +20,12 @@
 
 ## Properties
 
-##### [connectivity](../locator/connectivity.md) &#8594; [Connectivity](https://pub.dev/documentation/connectivity_plus/4.0.2/connectivity_plus/Connectivity-class.html)
+##### [connectivity](../locator/connectivity.md) &#8594; [Connectivity](https:pub.dev/documentation/connectivity_plus/4.0.2/connectivity_plus/Connectivity-class.html)
 
 
 
 creating GetIt for Connectivity.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
@@ -34,7 +34,7 @@ _<span class="feature">final</span>_
 
 
 creating GetIt for DataBaseMutationFunctions.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
@@ -43,34 +43,34 @@ _<span class="feature">final</span>_
 
 
 creating GetIt for GraphqlConfig.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-##### [imageCropper](../locator/imageCropper.md) &#8594; [ImageCropper](https://pub.dev/documentation/image_cropper/4.0.1/image_cropper/ImageCropper-class.html)
+##### [imageCropper](../locator/imageCropper.md) &#8594; [ImageCropper](https:pub.dev/documentation/image_cropper/4.0.1/image_cropper/ImageCropper-class.html)
 
 
 
 creating GetIt for ImageCropper.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-##### [imagePicker](../locator/imagePicker.md) &#8594; [ImagePicker](https://pub.dev/documentation/image_picker/1.0.2/image_picker/ImagePicker-class.html)
+##### [imagePicker](../locator/imagePicker.md) &#8594; [ImagePicker](https:pub.dev/documentation/image_picker/1.0.2/image_picker/ImagePicker-class.html)
 
 
 
 creating GetIt for ImagePicker.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-##### [locator](../locator/locator.md) &#8596; [GetIt](https://pub.dev/documentation/get_it/7.6.0/get_it/GetIt-class.html)
+##### [locator](../locator/locator.md) &#8596; [GetIt](https:pub.dev/documentation/get_it/7.6.0/get_it/GetIt-class.html)
 
 
 
 Intializaing the locator.  
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
@@ -79,7 +79,7 @@ _<span class="feature">read / write</span>_
 
 
 creating GetIt for NavigationService.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
@@ -88,7 +88,7 @@ _<span class="feature">final</span>_
 
 
 creating GetIt for OrganizationService.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
@@ -97,7 +97,7 @@ _<span class="feature">final</span>_
 
 
 creating GetIt for Queries.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
@@ -106,7 +106,7 @@ _<span class="feature">final</span>_
 
 
 creating GetIt for SizeConfig.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
@@ -115,7 +115,7 @@ _<span class="feature">final</span>_
 
 
 creating GetIt for UserConfig.  
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

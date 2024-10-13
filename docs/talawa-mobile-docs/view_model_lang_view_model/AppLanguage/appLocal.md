@@ -11,7 +11,7 @@
 
 
 
-[Locale](https://api.flutter.dev/flutter/dart-ui/Locale-class.html) appLocal
+[Locale](https:api.flutter.dev/flutter/dart-ui/Locale-class.html) appLocal
   
 
 
@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-Locale get appLocal => _appLocale;
+Locale get appLocal =\> _appLocale;
 ```
 
 

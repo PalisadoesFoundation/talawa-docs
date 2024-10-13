@@ -11,7 +11,7 @@
 
 [Event](../../models_events_event_model/Event-class.md) event
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

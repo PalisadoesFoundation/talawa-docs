@@ -34,7 +34,7 @@ AddPost returns a widget to add(upload) the post.
 
 
 Add Post View Model.  
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

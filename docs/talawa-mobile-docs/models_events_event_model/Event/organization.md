@@ -11,7 +11,7 @@
 
 [OrgInfo](../../models_organization_org_info/OrgInfo-class.md)? organization
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

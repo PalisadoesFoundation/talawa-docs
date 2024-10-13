@@ -9,9 +9,9 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) chatId
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) chatId
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

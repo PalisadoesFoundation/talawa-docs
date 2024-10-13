@@ -10,8 +10,8 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) newUserLanguage
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) userId)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) newUserLanguage
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) userId)
 
 
 
@@ -23,13 +23,13 @@
 ## Implementation
 
 ```dart
-String newUserLanguage(String userId) {
+String newUserLanguage(String userId) \{
   return '''
-  query{
+  query\{
     userLanguage(userId:"$userId")
-  }
+  \}
 ''';
-}
+\}
 ```
 
 

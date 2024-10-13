@@ -11,10 +11,10 @@
 
 **Annotations**
 
-- @[HiveField](https://pub.dev/documentation/hive/2.2.3/hive/HiveField-class.html)(3)
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? firstName
+- @[HiveField](https:pub.dev/documentation/hive/2.2.3/hive/HiveField-class.html)(3)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? firstName
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

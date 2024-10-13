@@ -9,9 +9,9 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) inView
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) inView
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

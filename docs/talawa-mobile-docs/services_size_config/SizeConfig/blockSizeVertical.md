@@ -9,9 +9,9 @@
 
 
 
-[double](https://api.flutter.dev/flutter/dart-core/double-class.html)? blockSizeVertical
+[double](https:api.flutter.dev/flutter/dart-core/double-class.html)? blockSizeVertical
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

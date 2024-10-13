@@ -9,9 +9,9 @@
 
 
 
-[File](https://api.flutter.dev/flutter/dart-io/File-class.html)? imageFile
+[File](https:api.flutter.dev/flutter/dart-io/File-class.html)? imageFile
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

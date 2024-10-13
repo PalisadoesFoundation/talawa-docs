@@ -17,18 +17,18 @@ void tourHomeTargets
 
 
 
-<p>this functions starts the tour and info to be displayed is mentioned in this functions.</p>
-<p><strong>params</strong>:
-  None</p>
-<p><strong>returns</strong>:
-  None</p>
+\<p\>this functions starts the tour and info to be displayed is mentioned in this functions.\</p\>
+\<p\>\<strong\>params\</strong\>:
+  None\</p\>
+\<p\>\<strong\>returns\</strong\>:
+  None\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void tourHomeTargets() {
+void tourHomeTargets() \{
   targets.clear();
   targets.add(
     focusTarget(
@@ -43,7 +43,7 @@ void tourHomeTargets() {
       'keySHMenuIcon',
       'Click this button to see options related to switching, joining and leaving organization(s)',
       isCircle: true,
-      next: () => scaffoldKey.currentState!.openDrawer(),
+      next: () =\> scaffoldKey.currentState!.openDrawer(),
     ),
   );
   targets.add(
@@ -74,7 +74,7 @@ void tourHomeTargets() {
       'keyDrawerLeaveCurrentOrg',
       "To leave the current organization you can use this option",
       align: ContentAlign.top,
-      next: () => navigationService.pop(),
+      next: () =\> navigationService.pop(),
     ),
   );
   targets.add(
@@ -104,14 +104,14 @@ void tourHomeTargets() {
   );
   showTutorial(
     onClickTarget: showHome,
-    onFinish: () {
+    onFinish: () \{
       onTabTapped(currentPageIndex + 1);
-      if (!tourComplete && !tourSkipped) {
+      if (!tourComplete && !tourSkipped) \{
         tourEventTargets();
-      }
-    },
+      \}
+    \},
   );
-}
+\}
 ```
 
 

@@ -9,13 +9,13 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) const calendar
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) const calendar
   
 
 
 
 
-<p>static variables.</p>
+\<p\>static variables.\</p\>
 
 
 

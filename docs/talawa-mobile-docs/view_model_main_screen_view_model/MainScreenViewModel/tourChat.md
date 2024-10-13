@@ -17,18 +17,18 @@ void tourChat
 
 
 
-<p>This function show the tour of chats.</p>
-<p><strong>params</strong>:
-  None</p>
-<p><strong>returns</strong>:
-  None</p>
+\<p\>This function show the tour of chats.\</p\>
+\<p\>\<strong\>params\</strong\>:
+  None\</p\>
+\<p\>\<strong\>returns\</strong\>:
+  None\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void tourChat() {
+void tourChat() \{
   targets.clear();
   targets.add(
     focusTarget(
@@ -40,15 +40,15 @@ void tourChat() {
     ),
   );
   showTutorial(
-    onFinish: () {
+    onFinish: () \{
       onTabTapped(currentPageIndex + 1);
-      if (!tourComplete && !tourSkipped) {
+      if (!tourComplete && !tourSkipped) \{
         tourProfile();
-      }
-    },
-    onClickTarget: (TargetFocus a) {},
+      \}
+    \},
+    onClickTarget: (TargetFocus a) \{\},
   );
-}
+\}
 ```
 
 

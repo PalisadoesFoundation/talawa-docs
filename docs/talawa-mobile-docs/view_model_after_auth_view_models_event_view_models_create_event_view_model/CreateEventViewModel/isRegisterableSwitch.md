@@ -9,13 +9,13 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isRegisterableSwitch
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) isRegisterableSwitch
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>If event is registerable after creation.</p>
+\<p\>If event is registerable after creation.\</p\>
 
 
 

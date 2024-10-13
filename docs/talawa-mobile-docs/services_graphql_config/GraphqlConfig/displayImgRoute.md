@@ -9,9 +9,9 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? displayImgRoute
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? displayImgRoute
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

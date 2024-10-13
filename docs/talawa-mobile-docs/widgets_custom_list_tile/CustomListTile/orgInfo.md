@@ -11,7 +11,7 @@
 
 [OrgInfo](../../models_organization_org_info/OrgInfo-class.md)? orgInfo
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

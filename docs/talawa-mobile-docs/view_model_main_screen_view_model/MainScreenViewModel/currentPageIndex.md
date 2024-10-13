@@ -9,13 +9,13 @@
 
 
 
-[int](https://api.flutter.dev/flutter/dart-core/int-class.html) currentPageIndex
+[int](https:api.flutter.dev/flutter/dart-core/int-class.html) currentPageIndex
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>var for current page in index.</p>
+\<p\>var for current page in index.\</p\>
 
 
 

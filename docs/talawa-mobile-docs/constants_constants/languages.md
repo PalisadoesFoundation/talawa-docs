@@ -11,20 +11,20 @@
 
 
 
-[List](https://api.flutter.dev/flutter/dart-core/List-class.html)&lt;[Language](../models_language_language_model/Language-class.md)> languages
+[List](https:api.flutter.dev/flutter/dart-core/List-class.html)&lt;[Language](../models_language_language_model/Language-class.md)\> languages
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>This file contains the prototypes of all the languages available and supported currencies.</p>
+\<p\>This file contains the prototypes of all the languages available and supported currencies.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-List<Language> languages = [
+List\<Language\> languages = [
   Language(
     countryCode: 'US',
     langCode: 'en',

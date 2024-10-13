@@ -9,9 +9,9 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? eventTitleHighlightedText
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? eventTitleHighlightedText
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

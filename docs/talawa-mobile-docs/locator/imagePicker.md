@@ -11,20 +11,20 @@
 
 
 
-[ImagePicker](https://pub.dev/documentation/image_picker/1.0.2/image_picker/ImagePicker-class.html) imagePicker
+[ImagePicker](https:pub.dev/documentation/image_picker/1.0.2/image_picker/ImagePicker-class.html) imagePicker
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-<p>creating GetIt for ImagePicker.</p>
+\<p\>creating GetIt for ImagePicker.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-final imagePicker = locator<ImagePicker>();
+final imagePicker = locator\<ImagePicker\>();
 ```
 
 

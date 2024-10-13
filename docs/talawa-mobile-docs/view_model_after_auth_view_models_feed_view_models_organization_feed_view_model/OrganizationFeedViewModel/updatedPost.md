@@ -17,26 +17,26 @@ void updatedPost
 
 
 
-<p>This function updates the post.</p>
-<p>params:</p>
-<ul>
-<li><code>post</code></li>
-</ul>
+\<p\>This function updates the post.\</p\>
+\<p\>params:\</p\>
+\<ul\>
+\<li\>\<code\>post\</code\>\</li\>
+\</ul\>
 
 
 
 ## Implementation
 
 ```dart
-void updatedPost(Post post) {
-  for (int i = 0; i < _posts.length; i++) {
-    if (_posts[i].sId == post.sId) {
+void updatedPost(Post post) \{
+  for (int i = 0; i \< _posts.length; i++) \{
+    if (_posts[i].sId == post.sId) \{
       _posts[i] = post;
       notifyListeners();
       break;
-    }
-  }
-}
+    \}
+  \}
+\}
 ```
 
 

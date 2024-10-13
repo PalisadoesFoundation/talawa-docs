@@ -9,9 +9,9 @@
 
 
 
-[TextEditingController](https://api.flutter.dev/flutter/widgets/TextEditingController-class.html) eventDescriptionTextController
+[TextEditingController](https:api.flutter.dev/flutter/widgets/TextEditingController-class.html) eventDescriptionTextController
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

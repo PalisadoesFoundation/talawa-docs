@@ -9,9 +9,9 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? recurrence
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? recurrence
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

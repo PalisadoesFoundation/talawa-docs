@@ -9,9 +9,9 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) istest
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) istest
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-OrgInfo get currentOrg => _currentOrg!;
+OrgInfo get currentOrg =\> _currentOrg!;
 ```
 
 
@@ -42,7 +42,7 @@ currentOrg=
 ## Implementation
 
 ```dart
-set currentOrg(OrgInfo org) => _currentOrg = org;
+set currentOrg(OrgInfo org) =\> _currentOrg = org;
 ```
 
 

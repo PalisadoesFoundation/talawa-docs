@@ -9,9 +9,9 @@
 
 
 
-[DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) taskEndDate
+[DateTime](https:api.flutter.dev/flutter/dart-core/DateTime-class.html) taskEndDate
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

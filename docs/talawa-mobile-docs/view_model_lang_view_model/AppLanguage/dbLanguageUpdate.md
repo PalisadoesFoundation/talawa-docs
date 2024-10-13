@@ -10,29 +10,29 @@
 
 
 
-[Future](https://api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void> dbLanguageUpdate
+[Future](https:api.flutter.dev/flutter/dart-async/Future-class.html)&lt;void\> dbLanguageUpdate
 ()
 
 
 
 
 
-<p>This function updates the Database Language by running the graphQL <code>mutations</code>.</p>
+\<p\>This function updates the Database Language by running the graphQL \<code\>mutations\</code\>.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-Future<void> dbLanguageUpdate() async {
-  try {
+Future\<void\> dbLanguageUpdate() async \{
+  try \{
     await databaseFunctions
         .gqlAuthMutation(queries.updateLanguage(_appLocale.languageCode));
     print('Language Updated in Database');
-  } catch (e) {
+  \} catch (e) \{
     print(e);
-  }
-}
+  \}
+\}
 ```
 
 

@@ -13,18 +13,18 @@
 
 [SizeConfig](../services_size_config/SizeConfig-class.md) sizeConfig
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-<p>creating GetIt for SizeConfig.</p>
+\<p\>creating GetIt for SizeConfig.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-final sizeConfig = locator<SizeConfig>();
+final sizeConfig = locator\<SizeConfig\>();
 ```
 
 

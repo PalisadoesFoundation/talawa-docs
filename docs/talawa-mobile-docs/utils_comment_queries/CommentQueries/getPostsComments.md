@@ -10,8 +10,8 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) getPostsComments
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) postId)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) getPostsComments
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) postId)
 
 
 
@@ -23,21 +23,21 @@
 ## Implementation
 
 ```dart
-String getPostsComments(String postId) {
+String getPostsComments(String postId) \{
   return """
-  query{
-    commentsByPost(id: "$postId"){
+  query\{
+    commentsByPost(id: "$postId")\{
       _id
       text
       createdAt
-      creator{
+      creator\{
         firstName
         lastName
-      }
-    }
-  }
+      \}
+    \}
+  \}
   """;
-}
+\}
 ```
 
 

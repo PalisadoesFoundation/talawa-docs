@@ -11,7 +11,7 @@
 
 
 void showSnackBar
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) message)
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) message)
 
 
 
@@ -23,9 +23,9 @@ void showSnackBar
 ## Implementation
 
 ```dart
-void showSnackBar(String message) {
+void showSnackBar(String message) \{
   _navigationService.showTalawaErrorDialog(message, MessageType.error);
-}
+\}
 ```
 
 

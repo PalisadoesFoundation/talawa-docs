@@ -9,13 +9,13 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) selectedOrgId
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) selectedOrgId
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-<p>Contains Integer value for selected org id.</p>
+\<p\>Contains Integer value for selected org id.\</p\>
 
 
 

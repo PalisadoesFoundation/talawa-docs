@@ -9,9 +9,9 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) showMoreOptions
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) showMoreOptions
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

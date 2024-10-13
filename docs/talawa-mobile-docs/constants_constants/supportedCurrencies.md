@@ -11,9 +11,9 @@
 
 
 
-[List](https://api.flutter.dev/flutter/dart-core/List-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html)> supportedCurrencies
+[List](https:api.flutter.dev/flutter/dart-core/List-class.html)&lt;[String](https:api.flutter.dev/flutter/dart-core/String-class.html)\> supportedCurrencies
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
@@ -23,7 +23,7 @@ _<span class="feature">read / write</span>_
 ## Implementation
 
 ```dart
-List<String> supportedCurrencies = [
+List\<String\> supportedCurrencies = [
   'AED',
   'ALL',
   'AMD',

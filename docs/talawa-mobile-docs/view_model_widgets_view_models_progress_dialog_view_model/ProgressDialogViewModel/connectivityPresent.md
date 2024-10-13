@@ -9,9 +9,9 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) connectivityPresent
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) connectivityPresent
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

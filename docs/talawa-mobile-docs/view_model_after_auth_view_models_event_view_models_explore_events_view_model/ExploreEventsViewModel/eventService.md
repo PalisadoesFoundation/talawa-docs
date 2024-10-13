@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-EventService get eventService => _eventService;
+EventService get eventService =\> _eventService;
 ```
 
 

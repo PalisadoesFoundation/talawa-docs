@@ -13,18 +13,18 @@
 
 [GraphqlConfig](../services_graphql_config/GraphqlConfig-class.md) graphqlConfig
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
-<p>creating GetIt for GraphqlConfig.</p>
+\<p\>creating GetIt for GraphqlConfig.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-final graphqlConfig = locator<GraphqlConfig>();
+final graphqlConfig = locator\<GraphqlConfig\>();
 ```
 
 

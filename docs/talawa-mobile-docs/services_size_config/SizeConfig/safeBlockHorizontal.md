@@ -9,9 +9,9 @@
 
 
 
-[double](https://api.flutter.dev/flutter/dart-core/double-class.html)? safeBlockHorizontal
+[double](https:api.flutter.dev/flutter/dart-core/double-class.html)? safeBlockHorizontal
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

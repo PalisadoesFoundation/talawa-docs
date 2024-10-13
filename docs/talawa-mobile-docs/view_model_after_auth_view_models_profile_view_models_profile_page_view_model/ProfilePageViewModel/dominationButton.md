@@ -10,19 +10,19 @@
 
 
 
-[Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) dominationButton
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) amount, [BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context, [Function](https://api.flutter.dev/flutter/dart-core/Function-class.html) setter)
+[Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html) dominationButton
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) amount, [BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context, [Function](https:api.flutter.dev/flutter/dart-core/Function-class.html) setter)
 
 
 
 
 
-<p>This widget returns button for domination.</p>
-<p>params:</p>
-<ul>
-<li><code>amount</code> : donation Amount.</li>
-<li><code>setter</code> : <code>Function</code> type, which on tap set the amount to <code>donationAmount</code>.</li>
-</ul>
+\<p\>This widget returns button for domination.\</p\>
+\<p\>params:\</p\>
+\<ul\>
+\<li\>\<code\>amount\</code\> : donation Amount.\</li\>
+\<li\>\<code\>setter\</code\> : \<code\>Function\</code\> type, which on tap set the amount to \<code\>donationAmount\</code\>.\</li\>
+\</ul\>
 
 
 
@@ -33,13 +33,13 @@ Widget dominationButton(
   String amount,
   BuildContext context,
   Function setter,
-) {
+) \{
   return InkWell(
-    onTap: () {
-      setter(() {
+    onTap: () \{
+      setter(() \{
         donationAmount.text = amount;
-      });
-    },
+      \});
+    \},
     child: Container(
       padding: EdgeInsets.symmetric(
         vertical: SizeConfig.screenHeight! * 0.02,
@@ -57,7 +57,7 @@ Widget dominationButton(
       ),
     ),
   );
-}
+\}
 ```
 
 

@@ -9,13 +9,13 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? imageUrl
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? imageUrl
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>imageUrl for post.</p>
+\<p\>imageUrl for post.\</p\>
 
 
 

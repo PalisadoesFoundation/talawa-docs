@@ -11,7 +11,7 @@
 
 (dynamic Function(T)?) onModelReady
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

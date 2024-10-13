@@ -11,7 +11,7 @@
 
 [Comment](../../models_comment_comment_model/Comment-class.md) comment
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

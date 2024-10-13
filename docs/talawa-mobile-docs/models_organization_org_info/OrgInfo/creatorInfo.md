@@ -11,10 +11,10 @@
 
 **Annotations**
 
-- @[HiveField](https://pub.dev/documentation/hive/2.2.3/hive/HiveField-class.html)(7)
+- @[HiveField](https:pub.dev/documentation/hive/2.2.3/hive/HiveField-class.html)(7)
 [User](../../models_user_user_info/User-class.md)? creatorInfo
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

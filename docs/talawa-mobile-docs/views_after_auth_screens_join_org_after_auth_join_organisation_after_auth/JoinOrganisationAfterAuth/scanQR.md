@@ -11,20 +11,20 @@
 
 
 void scanQR
-([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context, [SelectOrganizationViewModel](../../view_model_pre_auth_view_models_select_organization_view_model/SelectOrganizationViewModel-class.md) model)
+([BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context, [SelectOrganizationViewModel](../../view_model_pre_auth_view_models_select_organization_view_model/SelectOrganizationViewModel-class.md) model)
 
 
 
 
 
-<p>scanQR returns a widget that is use in joining the organization via the QR code.</p>
+\<p\>scanQR returns a widget that is use in joining the organization via the QR code.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void scanQR(BuildContext context, SelectOrganizationViewModel model) {
+void scanQR(BuildContext context, SelectOrganizationViewModel model) \{
   showModalBottomSheet(
     context: context,
     barrierColor: Colors.transparent,
@@ -34,7 +34,7 @@ void scanQR(BuildContext context, SelectOrganizationViewModel model) {
         topRight: Radius.circular(30),
       ),
     ),
-    builder: (BuildContext context) {
+    builder: (BuildContext context) \{
       return ClipRRect(
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(30),
@@ -53,7 +53,7 @@ void scanQR(BuildContext context, SelectOrganizationViewModel model) {
                 width: 250,
                 child: QRView(
                   key: model.qrKey,
-                  onQRViewCreated: (controller) =>
+                  onQRViewCreated: (controller) =\>
                       _onQRViewCreated(controller, model),
                   overlay: QrScannerOverlayShape(
                     overlayColor: Theme.of(context).colorScheme.secondary,
@@ -76,9 +76,9 @@ void scanQR(BuildContext context, SelectOrganizationViewModel model) {
           ),
         ),
       );
-    },
+    \},
   );
-}
+\}
 ```
 
 

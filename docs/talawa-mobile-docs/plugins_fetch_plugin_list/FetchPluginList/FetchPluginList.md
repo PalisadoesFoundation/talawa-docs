@@ -12,16 +12,16 @@
 FetchPluginList()
 
 
-<p>Constructor of the class.</p>
+\<p\>Constructor of the class.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-FetchPluginList() {
+FetchPluginList() \{
   fetchList();
-}
+\}
 ```
 
 

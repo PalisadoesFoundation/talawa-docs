@@ -9,9 +9,9 @@
 
 
 
-[double](https://api.flutter.dev/flutter/dart-core/double-class.html)? width
+[double](https:api.flutter.dev/flutter/dart-core/double-class.html)? width
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

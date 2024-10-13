@@ -11,7 +11,7 @@
 
 
 
-[bool](https://api.flutter.dev/flutter/dart-core/bool-class.html) isBusy
+[bool](https:api.flutter.dev/flutter/dart-core/bool-class.html) isBusy
   
 
 
@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-bool get isBusy => _state == ViewState.busy;
+bool get isBusy =\> _state == ViewState.busy;
 ```
 
 

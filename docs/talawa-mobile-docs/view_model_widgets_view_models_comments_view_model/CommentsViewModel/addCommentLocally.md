@@ -11,7 +11,7 @@
 
 
 void addCommentLocally
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) msg)
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) msg)
 
 
 
@@ -23,7 +23,7 @@ void addCommentLocally
 ## Implementation
 
 ```dart
-void addCommentLocally(String msg) {
+void addCommentLocally(String msg) \{
   _postService.addCommentLocally(_postID);
   final creator = _userConfig.currentUser;
   final Comment localComment = Comment(
@@ -33,7 +33,7 @@ void addCommentLocally(String msg) {
   );
   _commentlist.insert(0, localComment);
   notifyListeners();
-}
+\}
 ```
 
 

@@ -11,7 +11,7 @@
 
 
 void updateMemberRequestOrg
-([List](https://api.flutter.dev/flutter/dart-core/List-class.html)&lt;[OrgInfo](../../models_organization_org_info/OrgInfo-class.md)> orgList)
+([List](https:api.flutter.dev/flutter/dart-core/List-class.html)&lt;[OrgInfo](../../models_organization_org_info/OrgInfo-class.md)\> orgList)
 
 
 
@@ -23,9 +23,9 @@ void updateMemberRequestOrg
 ## Implementation
 
 ```dart
-void updateMemberRequestOrg(List<OrgInfo> orgList) {
+void updateMemberRequestOrg(List\<OrgInfo\> orgList) \{
   this.membershipRequests = [...membershipRequests!, ...orgList];
-}
+\}
 ```
 
 

@@ -11,26 +11,26 @@
 
 
 void scanQR
-([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
+([BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
 
 
 
 
 
-<p>This function create a widget which is used to scan the QR-code.</p>
-<p><strong>params</strong>:</p>
-<ul>
-<li><code>context</code>: BuildContext</li>
-</ul>
-<p><strong>returns</strong>:
-  None</p>
+\<p\>This function create a widget which is used to scan the QR-code.\</p\>
+\<p\>\<strong\>params\</strong\>:\</p\>
+\<ul\>
+\<li\>\<code\>context\</code\>: BuildContext\</li\>
+\</ul\>
+\<p\>\<strong\>returns\</strong\>:
+  None\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void scanQR(BuildContext context) {
+void scanQR(BuildContext context) \{
   showModalBottomSheet(
     context: context,
     barrierColor: Colors.transparent,
@@ -40,7 +40,7 @@ void scanQR(BuildContext context) {
         topRight: Radius.circular(30),
       ),
     ),
-    builder: (BuildContext context) {
+    builder: (BuildContext context) \{
       return ClipRRect(
         borderRadius: const BorderRadius.only(
           topLeft: Radius.circular(30),
@@ -80,9 +80,9 @@ void scanQR(BuildContext context) {
           ),
         ),
       );
-    },
+    \},
   );
-}
+\}
 ```
 
 

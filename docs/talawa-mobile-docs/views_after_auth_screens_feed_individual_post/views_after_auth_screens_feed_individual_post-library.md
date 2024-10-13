@@ -51,7 +51,7 @@ IndividualPostView returns a widget that has mutable state _IndividualPostViewSt
 
 ## Functions
 
-##### [buildPadding](../views_after_auth_screens_feed_individual_post/buildPadding.md)([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context, [String](https://api.flutter.dev/flutter/dart-core/String-class.html) text) [Padding](https://api.flutter.dev/flutter/widgets/Padding-class.html)
+##### [buildPadding](../views_after_auth_screens_feed_individual_post/buildPadding.md)([BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context, [String](https:api.flutter.dev/flutter/dart-core/String-class.html) text) [Padding](https:api.flutter.dev/flutter/widgets/Padding-class.html)
 
 
 
@@ -60,7 +60,7 @@ IndividualPostView returns a widget that has mutable state _IndividualPostViewSt
 
 
 
-##### [likedUserCircleAvatar](../views_after_auth_screens_feed_individual_post/likedUserCircleAvatar.md)([LikedBy](../models_post_post_model/LikedBy-class.md) user) [Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html)
+##### [likedUserCircleAvatar](../views_after_auth_screens_feed_individual_post/likedUserCircleAvatar.md)([LikedBy](../models_post_post_model/LikedBy-class.md) user) [Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html)
 
 
 

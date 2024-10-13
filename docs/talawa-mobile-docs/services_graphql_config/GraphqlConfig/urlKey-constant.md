@@ -9,7 +9,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) const urlKey
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) const urlKey
   
 
 

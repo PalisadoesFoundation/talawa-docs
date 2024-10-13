@@ -9,13 +9,13 @@
 
 
 
-[DateTime](https://api.flutter.dev/flutter/dart-core/DateTime-class.html) eventEndDate
+[DateTime](https:api.flutter.dev/flutter/dart-core/DateTime-class.html) eventEndDate
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>Event End Date.</p>
+\<p\>Event End Date.\</p\>
 
 
 

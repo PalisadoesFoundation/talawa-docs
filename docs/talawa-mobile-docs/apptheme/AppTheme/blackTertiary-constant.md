@@ -9,7 +9,7 @@
 
 
 
-[Color](https://api.flutter.dev/flutter/dart-ui/Color-class.html) const blackTertiary
+[Color](https:api.flutter.dev/flutter/dart-ui/Color-class.html) const blackTertiary
   
 
 

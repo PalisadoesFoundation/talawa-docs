@@ -18,9 +18,9 @@ OrganizationService()
 ## Implementation
 
 ```dart
-OrganizationService() {
-  _dbFunctions = locator<DataBaseMutationFunctions>();
-}
+OrganizationService() \{
+  _dbFunctions = locator\<DataBaseMutationFunctions\>();
+\}
 ```
 
 

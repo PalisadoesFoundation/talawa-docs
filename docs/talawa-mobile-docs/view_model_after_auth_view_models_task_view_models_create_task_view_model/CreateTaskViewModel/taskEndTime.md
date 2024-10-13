@@ -9,9 +9,9 @@
 
 
 
-[TimeOfDay](https://api.flutter.dev/flutter/material/TimeOfDay-class.html) taskEndTime
+[TimeOfDay](https:api.flutter.dev/flutter/material/TimeOfDay-class.html) taskEndTime
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

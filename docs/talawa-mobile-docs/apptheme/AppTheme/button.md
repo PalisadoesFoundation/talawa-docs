@@ -9,9 +9,9 @@
 
 
 
-[TextStyle](https://api.flutter.dev/flutter/painting/TextStyle-class.html) button
+[TextStyle](https:api.flutter.dev/flutter/painting/TextStyle-class.html) button
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

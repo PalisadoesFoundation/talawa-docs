@@ -11,13 +11,13 @@
 
 
 
-[GetIt](https://pub.dev/documentation/get_it/7.6.0/get_it/GetIt-class.html) locator
+[GetIt](https:pub.dev/documentation/get_it/7.6.0/get_it/GetIt-class.html) locator
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>Intializaing the locator.</p>
+\<p\>Intializaing the locator.\</p\>
 
 
 

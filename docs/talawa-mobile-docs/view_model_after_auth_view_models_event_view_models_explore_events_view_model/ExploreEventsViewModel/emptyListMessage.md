@@ -11,7 +11,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) emptyListMessage
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) emptyListMessage
   
 
 
@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-String get emptyListMessage => _emptyListMessage;
+String get emptyListMessage =\> _emptyListMessage;
 ```
 
 

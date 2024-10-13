@@ -9,13 +9,13 @@
 
 
 
-[Box](https://pub.dev/documentation/hive/2.2.3/hive/Box-class.html) box
+[Box](https:pub.dev/documentation/hive/2.2.3/hive/Box-class.html) box
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 
-<p>late initialize the box.</p>
+\<p\>late initialize the box.\</p\>
 
 
 

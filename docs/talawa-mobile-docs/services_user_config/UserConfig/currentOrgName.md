@@ -11,7 +11,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) currentOrgName
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) currentOrgName
   
 
 
@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-String get currentOrgName => _currentOrg!.name!;
+String get currentOrgName =\> _currentOrg!.name!;
 ```
 
 

@@ -9,9 +9,9 @@
 
 
 
-[int](https://api.flutter.dev/flutter/dart-core/int-class.html) currentPageIndex
+[int](https:api.flutter.dev/flutter/dart-core/int-class.html) currentPageIndex
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

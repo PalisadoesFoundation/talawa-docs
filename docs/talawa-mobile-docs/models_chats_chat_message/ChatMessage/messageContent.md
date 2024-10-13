@@ -9,9 +9,9 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? messageContent
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? messageContent
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

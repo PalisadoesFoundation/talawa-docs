@@ -9,7 +9,7 @@
 
 
 
-ChatUser.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> json)
+ChatUser.fromJson([Map](https:api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https:api.flutter.dev/flutter/dart-core/String-class.html), dynamic\> json)
 
 
 
@@ -18,7 +18,7 @@ ChatUser.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html
 ## Implementation
 
 ```dart
-factory ChatUser.fromJson(Map<String, dynamic> json) =>
+factory ChatUser.fromJson(Map\<String, dynamic\> json) =\>
     _$ChatUserFromJson(json);
 ```
 

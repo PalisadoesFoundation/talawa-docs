@@ -12,21 +12,21 @@
 
 
 
-[Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) likedUserCircleAvatar
+[Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html) likedUserCircleAvatar
 ([LikedBy](../models_post_post_model/LikedBy-class.md) user)
 
 
 
 
 
-<p>likedUserCircleAvatar returns a widget of the individual user liked the post.</p>
+\<p\>likedUserCircleAvatar returns a widget of the individual user liked the post.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-Widget likedUserCircleAvatar(LikedBy user) {
+Widget likedUserCircleAvatar(LikedBy user) \{
   return Padding(
     padding: const EdgeInsets.only(right: 10.0, bottom: 16.0),
     child: Stack(
@@ -51,7 +51,7 @@ Widget likedUserCircleAvatar(LikedBy user) {
       ],
     ),
   );
-}
+\}
 ```
 
 

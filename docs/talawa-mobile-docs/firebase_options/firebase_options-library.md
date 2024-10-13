@@ -20,7 +20,7 @@
 
 
 
-Default <a href="https://pub.dev/documentation/firebase_core_platform_interface/4.8.0/firebase_core_platform_interface/FirebaseOptions-class.html">FirebaseOptions</a> for use with your Firebase apps.
+Default \<a href="https:pub.dev/documentation/firebase_core_platform_interface/4.8.0/firebase_core_platform_interface/FirebaseOptions-class.html"\>FirebaseOptions\</a\> for use with your Firebase apps.
 
 
 

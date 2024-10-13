@@ -9,13 +9,13 @@
 
 
 
-[int](https://api.flutter.dev/flutter/dart-core/int-class.html) const mediums
+[int](https:api.flutter.dev/flutter/dart-core/int-class.html) const mediums
   
 
 
 
 
-<p>For medium timeout, used for medium data fetch.</p>
+\<p\>For medium timeout, used for medium data fetch.\</p\>
 
 
 

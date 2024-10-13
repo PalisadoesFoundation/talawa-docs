@@ -9,9 +9,9 @@
 
 
 
-[TextStyle](https://api.flutter.dev/flutter/painting/TextStyle-class.html) bodyText1
+[TextStyle](https:api.flutter.dev/flutter/painting/TextStyle-class.html) bodyText1
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

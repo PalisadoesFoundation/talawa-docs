@@ -11,7 +11,7 @@
 
 [ChatState](../../enums_enums/ChatState.md) chatState
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

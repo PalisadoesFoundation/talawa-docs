@@ -9,7 +9,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) const imageUrlKey
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) const imageUrlKey
   
 
 

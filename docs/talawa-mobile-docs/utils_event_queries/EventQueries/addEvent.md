@@ -10,7 +10,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) addEvent
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) addEvent
 ()
 
 
@@ -23,7 +23,7 @@
 ## Implementation
 
 ```dart
-String addEvent() {
+String addEvent() \{
   return """
    mutation createEvent( \$organizationId: ID!,
       \$title:String!,
@@ -37,9 +37,9 @@ String addEvent() {
       \$location: String,
       \$startDate : Date!,
       \$endDate : Date!,
-    ) {
+    ) \{
     createEvent(
-      data:{
+      data:\{
         organizationId: \$organizationId,
          title: \$title,
          description: \$description,
@@ -52,15 +52,15 @@ String addEvent() {
          startDate: \$startDate,
          endDate: \$endDate,
          location: \$location,
-      }
-    ){
+      \}
+    )\{
       _id
       title
       description
-    }
-  }
+    \}
+  \}
 """;
-}
+\}
 ```
 
 

@@ -9,7 +9,7 @@
 
 
 
-ChatListTileDataModel.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> json)
+ChatListTileDataModel.fromJson([Map](https:api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https:api.flutter.dev/flutter/dart-core/String-class.html), dynamic\> json)
 
 
 
@@ -18,7 +18,7 @@ ChatListTileDataModel.fromJson([Map](https://api.flutter.dev/flutter/dart-core/M
 ## Implementation
 
 ```dart
-factory ChatListTileDataModel.fromJson(Map<String, dynamic> json) =>
+factory ChatListTileDataModel.fromJson(Map\<String, dynamic\> json) =\>
     _$ChatListTileDataModelFromJson(json);
 ```
 

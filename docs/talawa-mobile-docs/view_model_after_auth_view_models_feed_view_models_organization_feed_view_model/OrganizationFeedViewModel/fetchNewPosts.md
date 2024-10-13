@@ -17,16 +17,16 @@ void fetchNewPosts
 
 
 
-<p>This function fetches new posts in the organization.</p>
+\<p\>This function fetches new posts in the organization.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void fetchNewPosts() {
+void fetchNewPosts() \{
   _postService.getPosts();
-}
+\}
 ```
 
 

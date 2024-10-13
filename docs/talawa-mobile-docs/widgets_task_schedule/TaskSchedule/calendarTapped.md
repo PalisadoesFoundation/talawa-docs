@@ -11,7 +11,7 @@
 
 
 void calendarTapped
-([CalendarTapDetails](https://pub.dev/documentation/syncfusion_flutter_calendar/20.4.54/calendar/CalendarTapDetails-class.html) details)
+([CalendarTapDetails](https:pub.dev/documentation/syncfusion_flutter_calendar/20.4.54/calendar/CalendarTapDetails-class.html) details)
 
 
 
@@ -23,9 +23,9 @@ void calendarTapped
 ## Implementation
 
 ```dart
-void calendarTapped(CalendarTapDetails details) {
+void calendarTapped(CalendarTapDetails details) \{
   if (details.targetElement == CalendarElement.appointment ||
-      details.targetElement == CalendarElement.agenda) {
+      details.targetElement == CalendarElement.agenda) \{
     final Appointment appointmentDetails =
         details.appointments![0] as Appointment;
     final subjectText = appointmentDetails.subject;
@@ -57,14 +57,14 @@ void calendarTapped(CalendarTapDetails details) {
         ),
         actions: [
           TextButton(
-            onPressed: () => navigationService.pop(),
+            onPressed: () =\> navigationService.pop(),
             child: const Text('Close'),
           )
         ],
       ),
     );
-  }
-}
+  \}
+\}
 ```
 
 

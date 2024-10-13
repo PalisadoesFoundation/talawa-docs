@@ -10,8 +10,8 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) saveFcmToken
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html)? token)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) saveFcmToken
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html)? token)
 
 
 
@@ -23,13 +23,13 @@
 ## Implementation
 
 ```dart
-String saveFcmToken(String? token) {
+String saveFcmToken(String? token) \{
   return """
-      mutation {
+      mutation \{
         saveFcmToken(token: "$token")
-      }
+      \}
   """;
-}
+\}
 ```
 
 

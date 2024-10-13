@@ -17,16 +17,16 @@ void pop
 
 
 
-<p>This function pops the current state.</p>
+\<p\>This function pops the current state.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void pop() {
+void pop() \{
   return navigatorKey.currentState!.pop();
-}
+\}
 ```
 
 

@@ -9,48 +9,48 @@
 
 
 
-- @[override](https://api.flutter.dev/flutter/dart-core/override-constant.html)
+- @[override](https:api.flutter.dev/flutter/dart-core/override-constant.html)
 
-[Widget](https://api.flutter.dev/flutter/widgets/Widget-class.html) build
-([BuildContext](https://api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
+[Widget](https:api.flutter.dev/flutter/widgets/Widget-class.html) build
+([BuildContext](https:api.flutter.dev/flutter/widgets/BuildContext-class.html) context)
 
-_<span class="feature">override</span>_
+_\<span class="feature"\>override\</span\>_
 
 
 
-<p>Describes the part of the user interface represented by this widget.</p>
-<p>The framework calls this method when this widget is inserted into the tree
-in a given <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a> and when the dependencies of this widget change
-(e.g., an <a href="https://api.flutter.dev/flutter/widgets/InheritedWidget-class.html">InheritedWidget</a> referenced by this widget changes). This
+\<p\>Describes the part of the user interface represented by this widget.\</p\>
+\<p\>The framework calls this method when this widget is inserted into the tree
+in a given \<a href="https:api.flutter.dev/flutter/widgets/BuildContext-class.html"\>BuildContext\</a\> and when the dependencies of this widget change
+(e.g., an \<a href="https:api.flutter.dev/flutter/widgets/InheritedWidget-class.html"\>InheritedWidget\</a\> referenced by this widget changes). This
 method can potentially be called in every frame and should not have any side
-effects beyond building a widget.</p>
-<p>The framework replaces the subtree below this widget with the widget
+effects beyond building a widget.\</p\>
+\<p\>The framework replaces the subtree below this widget with the widget
 returned by this method, either by updating the existing subtree or by
 removing the subtree and inflating a new subtree, depending on whether the
 widget returned by this method can update the root of the existing
-subtree, as determined by calling <a href="https://api.flutter.dev/flutter/widgets/Widget/canUpdate.html">Widget.canUpdate</a>.</p>
-<p>Typically implementations return a newly created constellation of widgets
+subtree, as determined by calling \<a href="https:api.flutter.dev/flutter/widgets/Widget/canUpdate.html"\>Widget.canUpdate\</a\>.\</p\>
+\<p\>Typically implementations return a newly created constellation of widgets
 that are configured with information from this widget's constructor and
-from the given <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a>.</p>
-<p>The given <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a> contains information about the location in the
+from the given \<a href="https:api.flutter.dev/flutter/widgets/BuildContext-class.html"\>BuildContext\</a\>.\</p\>
+\<p\>The given \<a href="https:api.flutter.dev/flutter/widgets/BuildContext-class.html"\>BuildContext\</a\> contains information about the location in the
 tree at which this widget is being built. For example, the context
 provides the set of inherited widgets for this location in the tree. A
-given widget might be built with multiple different <a href="https://api.flutter.dev/flutter/widgets/BuildContext-class.html">BuildContext</a>
+given widget might be built with multiple different \<a href="https:api.flutter.dev/flutter/widgets/BuildContext-class.html"\>BuildContext\</a\>
 arguments over time if the widget is moved around the tree or if the
-widget is inserted into the tree in multiple places at once.</p>
-<p>The implementation of this method must only depend on:</p>
-<ul>
-<li>the fields of the widget, which themselves must not change over time,
-and</li>
-<li>any ambient state obtained from the <code>context</code> using
-<a href="https://api.flutter.dev/flutter/widgets/BuildContext/dependOnInheritedWidgetOfExactType.html">BuildContext.dependOnInheritedWidgetOfExactType</a>.</li>
-</ul>
-<p>If a widget's <a href="../../views_after_auth_screens_profile_profile_page/ProfilePage/build.md">build</a> method is to depend on anything else, use a
-<a href="https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html">StatefulWidget</a> instead.</p>
-<p>See also:</p>
-<ul>
-<li><a href="https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html">StatelessWidget</a>, which contains the discussion on performance considerations.</li>
-</ul>
+widget is inserted into the tree in multiple places at once.\</p\>
+\<p\>The implementation of this method must only depend on:\</p\>
+\<ul\>
+\<li\>the fields of the widget, which themselves must not change over time,
+and\</li\>
+\<li\>any ambient state obtained from the \<code\>context\</code\> using
+\<a href="https:api.flutter.dev/flutter/widgets/BuildContext/dependOnInheritedWidgetOfExactType.html"\>BuildContext.dependOnInheritedWidgetOfExactType\</a\>.\</li\>
+\</ul\>
+\<p\>If a widget's \<a href="../../views_after_auth_screens_profile_profile_page/ProfilePage/build.md"\>build\</a\> method is to depend on anything else, use a
+\<a href="https:api.flutter.dev/flutter/widgets/StatefulWidget-class.html"\>StatefulWidget\</a\> instead.\</p\>
+\<p\>See also:\</p\>
+\<ul\>
+\<li\>\<a href="https:api.flutter.dev/flutter/widgets/StatelessWidget-class.html"\>StatelessWidget\</a\>, which contains the discussion on performance considerations.\</li\>
+\</ul\>
 
 
 
@@ -58,10 +58,10 @@ and</li>
 
 ```dart
 @override
-Widget build(BuildContext context) {
-  return BaseView<ProfilePageViewModel>(
-    onModelReady: (model) => model.initialize(),
-    builder: (context, model, child) {
+Widget build(BuildContext context) \{
+  return BaseView\<ProfilePageViewModel\>(
+    onModelReady: (model) =\> model.initialize(),
+    builder: (context, model, child) \{
       return Scaffold(
         key: model.scaffoldKey,
         appBar: AppBar(
@@ -71,7 +71,7 @@ Widget build(BuildContext context) {
           leading: IconButton(
             color: Theme.of(context).iconTheme.color,
             icon: const Icon(Icons.menu),
-            onPressed: () =>
+            onPressed: () =\>
                 MainScreenViewModel.scaffoldKey.currentState!.openDrawer(),
           ),
           key: const Key("ProfilePageAppBar"),
@@ -83,8 +83,8 @@ Widget build(BuildContext context) {
                 ),
           ),
         ),
-        // if data fetching is under process then renders Circular Progress Icon
-        // else renders the widget.
+        if data fetching is under process then renders Circular Progress Icon
+        else renders the widget.
         body: model.isBusy
             ? const CircularProgressIndicator()
             : SingleChildScrollView(
@@ -98,7 +98,7 @@ Widget build(BuildContext context) {
                       index: 0,
                       type: TileType.option,
                       option: Options(
-                        // Avatar
+                        Avatar
                         icon: CustomAvatar(
                           isImageNull: model.currentUser.image == null,
                           firstAlphabet:
@@ -109,34 +109,33 @@ Widget build(BuildContext context) {
                               .titleLarge!
                               .fontSize,
                         ),
-                        // display first and last name.
+                        display first and last name.
                         title:
-                            '${model.currentUser.firstName!} ${model.currentUser.lastName!}',
-                        // display email address
+                            '$\{model.currentUser.firstName!\} $\{model.currentUser.lastName!\}',
+                        display email address
                         subtitle: model.currentUser.email!,
-                        // button to edit the profile which redirects to edit profile page.
+                        button to edit the profile which redirects to edit profile page.
                         trailingIconButton: IconButton(
                           icon: Icon(
                             Icons.drive_file_rename_outline,
                             color: Theme.of(context).colorScheme.secondary,
                           ),
-                          onPressed: () {
+                          onPressed: () \{
                             navigationService.pushScreen("/editProfilePage");
-                          },
+                          \},
                         ),
                       ),
-                      onTapOption: () {},
+                      onTapOption: () \{\},
                     ),
                     const Divider(
-                      thickness: 1, // thickness of the line
+                      thickness: 1, thickness of the line
                       indent:
-                          20, // empty space to the leading edge of divider.
+                          20, empty space to the leading edge of divider.
                       endIndent:
-                          20, // empty space to the trailing edge of the divider.
+                          20, empty space to the trailing edge of the divider.
                       color: Colors
-                          .black26, // The color to use when painting the line.
-                      height: 20, //
-                    ),
+                          .black26, The color to use when painting the line.
+                      height: 20, ),
                     SizedBox(
                       height: SizeConfig.screenHeight! * 0.67,
                       child: Column(
@@ -156,18 +155,18 @@ Widget build(BuildContext context) {
                                     Theme.of(context).colorScheme.secondary,
                                 size: 30,
                               ),
-                              // title for App Settings.
+                              title for App Settings.
                               title: AppLocalizations.of(context)!
                                   .strictTranslate('App Settings'),
-                              // display language of the app.
+                              display language of the app.
                               subtitle:
-                                  '${AppLocalizations.of(context)!.strictTranslate("Language")}, ${AppLocalizations.of(context)!.strictTranslate("dark mode")}, ${AppLocalizations.of(context)!.strictTranslate("font size")}',
+                                  '$\{AppLocalizations.of(context)!.strictTranslate("Language")\}, $\{AppLocalizations.of(context)!.strictTranslate("dark mode")\}, $\{AppLocalizations.of(context)!.strictTranslate("font size")\}',
                             ),
-                            // button for the app setting which redirects to app setting page.
-                            onTapOption: () {
+                            button for the app setting which redirects to app setting page.
+                            onTapOption: () \{
                               navigationService
                                   .pushScreen("/appSettingsPage");
-                            },
+                            \},
                           ),
                           SizedBox(
                             height: SizeConfig.screenHeight! * 0.05,
@@ -183,44 +182,44 @@ Widget build(BuildContext context) {
                                     Theme.of(context).colorScheme.secondary,
                                 size: 30,
                               ),
-                              // title for My Tasks tile
+                              title for My Tasks tile
                               title: AppLocalizations.of(context)!
                                   .strictTranslate('My Tasks'),
-                              // display subtitle
+                              display subtitle
                               subtitle: AppLocalizations.of(context)!
                                   .strictTranslate(
                                 "View and edit all tasks created by you",
                               ),
                             ),
-                            // on tag redirects to the user Tasks page.
-                            onTapOption: () {
+                            on tag redirects to the user Tasks page.
+                            onTapOption: () \{
                               navigationService.pushScreen(Routes.userTasks);
-                            },
+                            \},
                           ),
                           SizedBox(
                             height: SizeConfig.screenHeight! * 0.05,
                           ),
-                          // // Will be added later when we add the Help Section in Documentation.
-                          // CustomListTile(
-                          //   key: homeModel!.keySPHelp,
-                          //   index: 1,
-                          //   type: TileType.option,
-                          //   option: Options(
-                          //     icon: const Icon(
-                          //       Icons.help_outline,
-                          //       size: 30,
-                          //     ),
-                          //     title: AppLocalizations.of(context)!
-                          //         .strictTranslate('Help'),
-                          //     subtitle: AppLocalizations.of(context)!
-                          //         .strictTranslate(
-                          //       'Reach out to us for help',
-                          //     ),
-                          //   ),
-                          //   onTapOption: () {},
-                          // ),
-                          /// `Donation` acts as plugin. If visible is true the it will be always visible.
-                          /// even if it's uninstalled by the admin (for development purposes)
+                          Will be added later when we add the Help Section in Documentation.
+                          CustomListTile(
+                          key: homeModel!.keySPHelp,
+                          index: 1,
+                          type: TileType.option,
+                          option: Options(
+                          icon: const Icon(
+                          Icons.help_outline,
+                          size: 30,
+                          ),
+                          title: AppLocalizations.of(context)!
+                          .strictTranslate('Help'),
+                          subtitle: AppLocalizations.of(context)!
+                          .strictTranslate(
+                          'Reach out to us for help',
+                          ),
+                          ),
+                          onTapOption: () \{\},
+                          ),
+                          `Donation` acts as plugin. If visible is true the it will be always visible.
+                          even if it's uninstalled by the admin (for development purposes)
                           TalawaPluginProvider(
                             pluginName: "Donation",
                             visible: true,
@@ -245,7 +244,7 @@ Widget build(BuildContext context) {
                                       'Help us to develop for you',
                                     ),
                                   ),
-                                  onTapOption: () => donate(context, model),
+                                  onTapOption: () =\> donate(context, model),
                                 ),
                                 SizedBox(
                                   height: SizeConfig.screenHeight! * 0.05,
@@ -253,7 +252,7 @@ Widget build(BuildContext context) {
                               ],
                             ),
                           ),
-                          // custom tile for Invitation.
+                          custom tile for Invitation.
                           CustomListTile(
                             key: homeModel!.keySPInvite,
                             index: 3,
@@ -265,20 +264,20 @@ Widget build(BuildContext context) {
                                     Theme.of(context).colorScheme.secondary,
                                 size: 30,
                               ),
-                              // title
+                              title
                               title: AppLocalizations.of(context)!
                                   .strictTranslate('Invite'),
-                              // subtitle
+                              subtitle
                               subtitle: AppLocalizations.of(context)!
                                   .strictTranslate('Invite to org'),
                             ),
-                            // on tap call the invite function
-                            onTapOption: () => model.invite(context),
+                            on tap call the invite function
+                            onTapOption: () =\> model.invite(context),
                           ),
                           SizedBox(
                             height: SizeConfig.screenHeight! * 0.05,
                           ),
-                          // Custom tile for Logout option.
+                          Custom tile for Logout option.
                           CustomListTile(
                             key: homeModel!.keySPLogout,
                             index: 3,
@@ -295,8 +294,8 @@ Widget build(BuildContext context) {
                               subtitle: AppLocalizations.of(context)!
                                   .strictTranslate('Log out from Talawa'),
                             ),
-                            // on tap calls the logout function
-                            onTapOption: () => model.logout(context),
+                            on tap calls the logout function
+                            onTapOption: () =\> model.logout(context),
                           ),
                           SizedBox(
                             height: SizeConfig.screenHeight! * 0.05,
@@ -309,9 +308,9 @@ Widget build(BuildContext context) {
                 ),
               ),
       );
-    },
+    \},
   );
-}
+\}
 ```
 
 

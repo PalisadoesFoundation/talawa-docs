@@ -9,16 +9,16 @@
 
 
 
-- @[override](https://api.flutter.dev/flutter/dart-core/override-constant.html)
+- @[override](https:api.flutter.dev/flutter/dart-core/override-constant.html)
 
 void write
-([BinaryWriter](https://pub.dev/documentation/hive/2.2.3/hive/BinaryWriter-class.html) writer, [User](../../models_user_user_info/User-class.md) obj)
+([BinaryWriter](https:pub.dev/documentation/hive/2.2.3/hive/BinaryWriter-class.html) writer, [User](../../models_user_user_info/User-class.md) obj)
 
-_<span class="feature">override</span>_
+_\<span class="feature"\>override\</span\>_
 
 
 
-<p>Is called when a value has to be encoded.</p>
+\<p\>Is called when a value has to be encoded.\</p\>
 
 
 
@@ -26,7 +26,7 @@ _<span class="feature">override</span>_
 
 ```dart
 @override
-void write(BinaryWriter writer, User obj) {
+void write(BinaryWriter writer, User obj) \{
   writer
     ..writeByte(11)
     ..writeByte(0)
@@ -51,7 +51,7 @@ void write(BinaryWriter writer, User obj) {
     ..write(obj.adminFor)
     ..writeByte(10)
     ..write(obj.membershipRequests);
-}
+\}
 ```
 
 

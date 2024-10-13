@@ -17,21 +17,21 @@ void updatePost
 
 
 
-<p>This function updates the Post.</p>
-<p>params:
-<code>post</code> : <code>Post</code> type, the post that need to be updated.</p>
+\<p\>This function updates the Post.\</p\>
+\<p\>params:
+\<code\>post\</code\> : \<code\>Post\</code\> type, the post that need to be updated.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void updatePost(Post post) {
-  if (_postID == post.sId) {
+void updatePost(Post post) \{
+  if (_postID == post.sId) \{
     _likedBy = post.likedBy!;
     checkAndSetTheIsLiked();
-  }
-}
+  \}
+\}
 ```
 
 

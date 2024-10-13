@@ -10,33 +10,33 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) getPostsById
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) orgId)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) getPostsById
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) orgId)
 
 
 
 
 
-<p>Getting Posts by Id.</p>
-<p><strong>params</strong>:</p>
-<ul>
-<li><code>orgId</code>: The organisation id</li>
-</ul>
-<p><strong>returns</strong>:</p>
-<ul>
-<li><code>String</code>: The query related to gettingPostsbyId</li>
-</ul>
+\<p\>Getting Posts by Id.\</p\>
+\<p\>\<strong\>params\</strong\>:\</p\>
+\<ul\>
+\<li\>\<code\>orgId\</code\>: The organisation id\</li\>
+\</ul\>
+\<p\>\<strong\>returns\</strong\>:\</p\>
+\<ul\>
+\<li\>\<code\>String\</code\>: The query related to gettingPostsbyId\</li\>
+\</ul\>
 
 
 
 ## Implementation
 
 ```dart
-String getPostsById(String orgId) {
+String getPostsById(String orgId) \{
   return """
-    query {
+    query \{
       postsByOrganization(id: "$orgId",orderBy: createdAt_DESC )
-      {
+      \{
         _id
         text
         createdAt
@@ -45,25 +45,25 @@ String getPostsById(String orgId) {
         title
         commentCount
         likeCount
-        creator{
+        creator\{
           _id
           firstName
           lastName
           image
-        }
-        organization{
+        \}
+        organization\{
           _id
-        }
-        likedBy{
+        \}
+        likedBy\{
           _id
-        }
-        comments{
+        \}
+        comments\{
           _id
-        }
-      }
-    }
+        \}
+      \}
+    \}
 """;
-}
+\}
 ```
 
 

@@ -17,18 +17,18 @@ void tourProfile
 
 
 
-<p>This function show the tutorial for the profile page.</p>
-<p><strong>params</strong>:
-  None</p>
-<p><strong>returns</strong>:
-  None</p>
+\<p\>This function show the tutorial for the profile page.\</p\>
+\<p\>\<strong\>params\</strong\>:
+  None\</p\>
+\<p\>\<strong\>returns\</strong\>:
+  None\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void tourProfile() {
+void tourProfile() \{
   targets.clear();
   targets.add(
     focusTarget(
@@ -77,15 +77,15 @@ void tourProfile() {
     ),
   );
   showTutorial(
-    onFinish: () {
-      if (!tourComplete && !tourSkipped) {
+    onFinish: () \{
+      if (!tourComplete && !tourSkipped) \{
         tourComplete = true;
         onTabTapped(0);
-      }
-    },
-    onClickTarget: (TargetFocus a) {},
+      \}
+    \},
+    onClickTarget: (TargetFocus a) \{\},
   );
-}
+\}
 ```
 
 

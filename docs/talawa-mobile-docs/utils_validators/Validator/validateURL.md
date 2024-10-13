@@ -10,8 +10,8 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html)? validateURL
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) value)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html)? validateURL
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) value)
 
 
 
@@ -25,16 +25,16 @@
 ```dart
 static String? validateURL(
   String value,
-) {
-  if (value.isEmpty) {
+) \{
+  if (value.isEmpty) \{
     return 'Please verify URL first';
-  }
+  \}
   final bool validURL = Uri.parse(value).isAbsolute;
-  if (!validURL) {
+  if (!validURL) \{
     return 'Enter a valid URL';
-  }
+  \}
   return null;
-}
+\}
 ```
 
 

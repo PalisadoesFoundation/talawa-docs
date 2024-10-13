@@ -9,7 +9,7 @@
 
 
 
-Event.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https://api.flutter.dev/flutter/dart-core/String-class.html), dynamic> json)
+Event.fromJson([Map](https:api.flutter.dev/flutter/dart-core/Map-class.html)&lt;[String](https:api.flutter.dev/flutter/dart-core/String-class.html), dynamic\> json)
 
 
 
@@ -19,8 +19,8 @@ Event.fromJson([Map](https://api.flutter.dev/flutter/dart-core/Map-class.html)&l
 
 ```dart
 factory Event.fromJson(
-  Map<String, dynamic> json,
-) {
+  Map\<String, dynamic\> json,
+) \{
   return Event(
     id: json['_id'] as String,
     title: json['title'] as String?,
@@ -41,27 +41,27 @@ factory Event.fromJson(
     isRegisterable: json['isRegisterable'] as bool?,
     creator: json['creator'] == null
         ? null
-        //Creating a new User instance from a map structure.
+        Creating a new User instance from a map structure.
         : User.fromJson(
-            json['creator'] as Map<String, dynamic>,
+            json['creator'] as Map\<String, dynamic\>,
             fromOrg: true,
           ),
     organization: json['organization'] == null
         ? null
-        //Creating a new OrgInfo instance from a map structure.
-        : OrgInfo.fromJson(json['organization'] as Map<String, dynamic>),
+        Creating a new OrgInfo instance from a map structure.
+        : OrgInfo.fromJson(json['organization'] as Map\<String, dynamic\>),
     admins: json['admins'] == null
         ? null
-        : (json['admins'] as List<dynamic>?)
+        : (json['admins'] as List\<dynamic\>?)
             ?.map(
-              (e) => User.fromJson(e as Map<String, dynamic>, fromOrg: true),
+              (e) =\> User.fromJson(e as Map\<String, dynamic\>, fromOrg: true),
             )
             .toList(),
-    registrants: (json['registrants'] as List<dynamic>?)
-        ?.map((e) => User.fromJson(e as Map<String, dynamic>, fromOrg: false))
+    registrants: (json['registrants'] as List\<dynamic\>?)
+        ?.map((e) =\> User.fromJson(e as Map\<String, dynamic\>, fromOrg: false))
         .toList(),
   );
-}
+\}
 ```
 
 

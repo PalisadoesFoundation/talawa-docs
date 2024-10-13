@@ -11,7 +11,7 @@
 
 [User](../../models_user_user_info/User-class.md) currentUser
   
-_<span class="feature">read / write</span>_
+_\<span class="feature"\>read / write\</span\>_
 
 
 

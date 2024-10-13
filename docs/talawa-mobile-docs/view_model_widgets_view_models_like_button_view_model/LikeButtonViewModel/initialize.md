@@ -11,7 +11,7 @@
 
 
 void initialize
-([List](https://api.flutter.dev/flutter/dart-core/List-class.html)&lt;[LikedBy](../../models_post_post_model/LikedBy-class.md)> likedBy, [String](https://api.flutter.dev/flutter/dart-core/String-class.html) postID)
+([List](https:api.flutter.dev/flutter/dart-core/List-class.html)&lt;[LikedBy](../../models_post_post_model/LikedBy-class.md)\> likedBy, [String](https:api.flutter.dev/flutter/dart-core/String-class.html) postID)
 
 
 
@@ -23,15 +23,15 @@ void initialize
 ## Implementation
 
 ```dart
-void initialize(List<LikedBy> likedBy, String postID) {
+void initialize(List\<LikedBy\> likedBy, String postID) \{
   _postID = postID;
   _user = _userConfig.currentUser;
   _likedBy = likedBy;
   notifyListeners();
   checkAndSetTheIsLiked();
   _updatePostSubscription =
-      _postService.updatedPostStream.listen((post) => updatePost(post));
-}
+      _postService.updatedPostStream.listen((post) =\> updatePost(post));
+\}
 ```
 
 

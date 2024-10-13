@@ -9,9 +9,9 @@
 
 
 
-[PageController](https://api.flutter.dev/flutter/widgets/PageController-class.html) controller
+[PageController](https:api.flutter.dev/flutter/widgets/PageController-class.html) controller
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 

@@ -17,14 +17,14 @@ void getOrgUrl
 
 
 
-<p>This function is used to get the organization URL.</p>
+\<p\>This function is used to get the organization URL.\</p\>
 
 
 
 ## Implementation
 
 ```dart
-void getOrgUrl() {
+void getOrgUrl() \{
   final box = Hive.box('url');
   final String? url = box.get(urlKey) as String?;
   final String? imgUrl = box.get(imageUrlKey) as String?;
@@ -33,7 +33,7 @@ void getOrgUrl() {
   httpLink = HttpLink(orgURI!);
   clientToQuery();
   authClient();
-}
+\}
 ```
 
 

@@ -10,8 +10,8 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) userTasks
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) userId)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) userTasks
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) userId)
 
 
 
@@ -23,24 +23,24 @@
 ## Implementation
 
 ```dart
-static String userTasks(String userId) => '''
-  query {
-    tasksByUser(id: "$userId") {
+static String userTasks(String userId) =\> '''
+  query \{
+    tasksByUser(id: "$userId") \{
       _id
       title
       description
       createdAt
       deadline
-      creator {
+      creator \{
         _id
         firstName
-      }
-      event {
+      \}
+      event \{
         _id
         title
-      }
-    }
-  }
+      \}
+    \}
+  \}
 ''';
 ```
 

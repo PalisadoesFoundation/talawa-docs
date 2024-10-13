@@ -10,7 +10,7 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) userLanguage
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) userLanguage
 ()
 
 
@@ -23,13 +23,13 @@
 ## Implementation
 
 ```dart
-String userLanguage() {
+String userLanguage() \{
   return '''
-  query{
+  query\{
     myLanguage
-  }
+  \}
 ''';
-}
+\}
 ```
 
 

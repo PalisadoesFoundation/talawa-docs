@@ -10,8 +10,8 @@
 
 
 
-[String](https://api.flutter.dev/flutter/dart-core/String-class.html) deleteTask
-([String](https://api.flutter.dev/flutter/dart-core/String-class.html) taskId)
+[String](https:api.flutter.dev/flutter/dart-core/String-class.html) deleteTask
+([String](https:api.flutter.dev/flutter/dart-core/String-class.html) taskId)
 
 
 
@@ -23,12 +23,12 @@
 ## Implementation
 
 ```dart
-static String deleteTask(String taskId) => '''
-  mutation {
-    removeTask(id: "$taskId") {
+static String deleteTask(String taskId) =\> '''
+  mutation \{
+    removeTask(id: "$taskId") \{
       _id
-    }
-  }
+    \}
+  \}
 ''';
 ```
 

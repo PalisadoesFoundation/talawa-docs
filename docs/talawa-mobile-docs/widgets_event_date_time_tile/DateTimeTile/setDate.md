@@ -9,9 +9,9 @@
 
 
 
-[Function](https://api.flutter.dev/flutter/dart-core/Function-class.html) setDate
+[Function](https:api.flutter.dev/flutter/dart-core/Function-class.html) setDate
   
-_<span class="feature">final</span>_
+_\<span class="feature"\>final\</span\>_
 
 
 
