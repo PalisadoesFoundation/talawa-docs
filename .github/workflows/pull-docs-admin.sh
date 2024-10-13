@@ -11,7 +11,7 @@ npm install typedoc-plugin-markdown
 npm install --save-dev @types/node
 npx typedoc --entryPoints src/components src/screens --out talawa-admin-docs --plugin typedoc-plugin-markdown --entryPointStrategy expand --exclude "**/*.test.ts" --exclude "**/*.css"
 
-python3 .github/workflows/md_mdx_format_adjuster.py --directory talawa-admin-docs
+python3 .github/workflows/talawa_admin_md_mdx_format_adjuster.py --directory talawa-admin-docs
 
 cd ..
 
