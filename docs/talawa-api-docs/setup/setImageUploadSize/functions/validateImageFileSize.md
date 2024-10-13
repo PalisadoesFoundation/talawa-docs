@@ -22,4 +22,4 @@ a boolean value.
 
 ## Defined in
 
-[src/setup/setImageUploadSize.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/setup/setImageUploadSize.ts#L37)
+[src/setup/setImageUploadSize.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/setup/setImageUploadSize.ts#L37)

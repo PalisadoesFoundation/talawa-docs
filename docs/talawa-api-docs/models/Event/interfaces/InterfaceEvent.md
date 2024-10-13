@@ -16,7 +16,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L14)
+[src/models/Event.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L14)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L15)
+[src/models/Event.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L15)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L41)
+[src/models/Event.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L41)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L16)
+[src/models/Event.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L16)
 
 ***
 
@@ -56,7 +56,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L17)
+[src/models/Event.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L17)
 
 ***
 
@@ -66,7 +66,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L18)
+[src/models/Event.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L18)
 
 ***
 
@@ -76,7 +76,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L19)
+[src/models/Event.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L19)
 
 ***
 
@@ -86,7 +86,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L20)
+[src/models/Event.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L20)
 
 ***
 
@@ -96,7 +96,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L21)
+[src/models/Event.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L21)
 
 ***
 
@@ -106,7 +106,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L22)
+[src/models/Event.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L22)
 
 ***
 
@@ -116,7 +116,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L23)
+[src/models/Event.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L23)
 
 ***
 
@@ -126,7 +126,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L24)
+[src/models/Event.ts:24](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L24)
 
 ***
 
@@ -136,7 +136,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L25)
+[src/models/Event.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L25)
 
 ***
 
@@ -146,7 +146,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L26)
+[src/models/Event.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L26)
 
 ***
 
@@ -156,7 +156,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L27)
+[src/models/Event.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L27)
 
 ***
 
@@ -166,7 +166,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L28)
+[src/models/Event.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L28)
 
 ***
 
@@ -176,7 +176,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L29)
+[src/models/Event.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L29)
 
 ***
 
@@ -186,7 +186,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L30)
+[src/models/Event.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L30)
 
 ***
 
@@ -196,7 +196,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L31)
+[src/models/Event.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L31)
 
 ***
 
@@ -206,7 +206,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L32)
+[src/models/Event.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L32)
 
 ***
 
@@ -216,7 +216,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L33)
+[src/models/Event.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L33)
 
 ***
 
@@ -226,7 +226,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L34)
+[src/models/Event.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L34)
 
 ***
 
@@ -236,7 +236,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L35)
+[src/models/Event.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L35)
 
 ***
 
@@ -246,7 +246,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L36)
+[src/models/Event.ts:36](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L36)
 
 ***
 
@@ -256,7 +256,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L37)
+[src/models/Event.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L37)
 
 ***
 
@@ -266,7 +266,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L38)
+[src/models/Event.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L38)
 
 ***
 
@@ -276,7 +276,7 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L39)
+[src/models/Event.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L39)
 
 ***
 
@@ -286,4 +286,4 @@ Represents a document for an event in the MongoDB database.
 
 #### Defined in
 
-[src/models/Event.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/Event.ts#L40)
+[src/models/Event.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/Event.ts#L40)

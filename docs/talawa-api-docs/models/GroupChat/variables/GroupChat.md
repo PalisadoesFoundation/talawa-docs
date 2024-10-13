@@ -13,4 +13,4 @@ This syntax ensures we don't get an OverwriteModelError while running tests.
 
 ## Defined in
 
-[src/models/GroupChat.ts:95](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/GroupChat.ts#L95)
+[src/models/GroupChat.ts:95](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/GroupChat.ts#L95)

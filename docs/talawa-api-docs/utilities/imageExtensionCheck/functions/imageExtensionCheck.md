@@ -23,4 +23,4 @@ The name of the file to check
 
 ## Defined in
 
-[src/utilities/imageExtensionCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/utilities/imageExtensionCheck.ts#L11)
+[src/utilities/imageExtensionCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/utilities/imageExtensionCheck.ts#L11)

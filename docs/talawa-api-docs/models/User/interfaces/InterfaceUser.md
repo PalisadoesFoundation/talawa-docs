@@ -16,7 +16,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L16)
+[src/models/User.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L16)
 
 ***
 
@@ -58,7 +58,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L19)
+[src/models/User.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L19)
 
 ***
 
@@ -68,7 +68,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L18)
+[src/models/User.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L18)
 
 ***
 
@@ -78,7 +78,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L30)
+[src/models/User.ts:30](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L30)
 
 ***
 
@@ -88,7 +88,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L31)
+[src/models/User.ts:31](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L31)
 
 ***
 
@@ -98,7 +98,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L33)
+[src/models/User.ts:33](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L33)
 
 ***
 
@@ -108,7 +108,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L34)
+[src/models/User.ts:34](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L34)
 
 ***
 
@@ -118,7 +118,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L35)
+[src/models/User.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L35)
 
 ***
 
@@ -128,7 +128,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L37)
+[src/models/User.ts:37](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L37)
 
 ***
 
@@ -138,7 +138,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L38)
+[src/models/User.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L38)
 
 ***
 
@@ -148,7 +148,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L17)
+[src/models/User.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L17)
 
 ***
 
@@ -158,7 +158,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L39)
+[src/models/User.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L39)
 
 ***
 
@@ -168,7 +168,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L40)
+[src/models/User.ts:40](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L40)
 
 ***
 
@@ -178,7 +178,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L41)
+[src/models/User.ts:41](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L41)
 
 ***
 
@@ -188,7 +188,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L42)
+[src/models/User.ts:42](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L42)
 
 ***
 
@@ -198,7 +198,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L43)
+[src/models/User.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L43)
 
 ***
 
@@ -208,7 +208,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L44)
+[src/models/User.ts:44](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L44)
 
 ***
 
@@ -218,7 +218,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L45)
+[src/models/User.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L45)
 
 ***
 
@@ -240,7 +240,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L46)
+[src/models/User.ts:46](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L46)
 
 ***
 
@@ -250,7 +250,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L52)
+[src/models/User.ts:52](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L52)
 
 ***
 
@@ -260,7 +260,7 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L53)
+[src/models/User.ts:53](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L53)
 
 ***
 
@@ -270,4 +270,4 @@ Represents a MongoDB document for User in the database.
 
 #### Defined in
 
-[src/models/User.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/models/User.ts#L55)
+[src/models/User.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/User.ts#L55)

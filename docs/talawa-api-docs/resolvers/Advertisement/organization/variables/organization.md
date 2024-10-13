@@ -24,4 +24,4 @@ A promise that resolves to the organization object found in the database, or `nu
 
 ## Defined in
 
-[src/resolvers/Advertisement/organization.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/resolvers/Advertisement/organization.ts#L15)
+[src/resolvers/Advertisement/organization.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/resolvers/Advertisement/organization.ts#L15)

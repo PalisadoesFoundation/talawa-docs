@@ -16,4 +16,4 @@ This is typescript type of the object returned from callback function `parseSort
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedBy.ts#L15)

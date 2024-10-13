@@ -23,4 +23,4 @@ The user profile of the application.
 
 ## Defined in
 
-[src/utilities/superAdminCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/utilities/superAdminCheck.ts#L11)
+[src/utilities/superAdminCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/utilities/superAdminCheck.ts#L11)

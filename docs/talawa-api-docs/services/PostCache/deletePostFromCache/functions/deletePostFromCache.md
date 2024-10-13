@@ -24,4 +24,4 @@ Promise\<void\>
 
 ## Defined in
 
-[src/services/PostCache/deletePostFromCache.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/5e38dbf44e47f2fc703410fad29ab5c8f7f26c77/src/services/PostCache/deletePostFromCache.ts#L8)
+[src/services/PostCache/deletePostFromCache.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/services/PostCache/deletePostFromCache.ts#L8)
