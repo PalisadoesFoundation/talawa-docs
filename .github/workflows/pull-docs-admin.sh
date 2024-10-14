@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --depth=1 --branch develop https://github.com/adi790uu/talawa-admin.git
+git clone --depth=1 --branch develop https://github.com/PalisadoesFoundation/talawa-admin.git
 
 mkdir -p docs/talawa-admin-docs
 
