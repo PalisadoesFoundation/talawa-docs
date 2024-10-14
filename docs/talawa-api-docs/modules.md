@@ -300,6 +300,7 @@
 - [resolvers/Mutation/updateOrganization](resolvers/Mutation/updateOrganization/README.md)
 - [resolvers/Mutation/updatePluginStatus](resolvers/Mutation/updatePluginStatus/README.md)
 - [resolvers/Mutation/updatePost](resolvers/Mutation/updatePost/README.md)
+- [resolvers/Mutation/updateSessionTimeout](resolvers/Mutation/updateSessionTimeout/README.md)
 - [resolvers/Mutation/updateUserPassword](resolvers/Mutation/updateUserPassword/README.md)
 - [resolvers/Mutation/updateUserProfile](resolvers/Mutation/updateUserProfile/README.md)
 - [resolvers/Mutation/updateUserRoleInOrganization](resolvers/Mutation/updateUserRoleInOrganization/README.md)

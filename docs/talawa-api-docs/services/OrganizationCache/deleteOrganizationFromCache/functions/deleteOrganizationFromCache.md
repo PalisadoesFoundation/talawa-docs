@@ -24,4 +24,4 @@ A promise resolving to void.
 
 ## Defined in
 
-[src/services/OrganizationCache/deleteOrganizationFromCache.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/services/OrganizationCache/deleteOrganizationFromCache.ts#L10)
+[src/services/OrganizationCache/deleteOrganizationFromCache.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/services/OrganizationCache/deleteOrganizationFromCache.ts#L10)

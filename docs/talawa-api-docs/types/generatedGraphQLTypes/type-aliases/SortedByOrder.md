@@ -13,4 +13,4 @@ applied for a connection or other list type data structures.
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:2716](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/types/generatedGraphQLTypes.ts#L2716)
+[src/types/generatedGraphQLTypes.ts:2723](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/types/generatedGraphQLTypes.ts#L2723)

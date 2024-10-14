@@ -44,4 +44,4 @@ This function returns the updated organization and any errors encountered. It en
 
 ## Defined in
 
-[src/resolvers/Mutation/createMember.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/resolvers/Mutation/createMember.ts#L47)
+[src/resolvers/Mutation/createMember.ts:47](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/resolvers/Mutation/createMember.ts#L47)

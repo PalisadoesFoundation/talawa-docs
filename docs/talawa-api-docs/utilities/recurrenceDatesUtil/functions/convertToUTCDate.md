@@ -24,4 +24,4 @@ converted date.
 
 ## Defined in
 
-[src/utilities/recurrenceDatesUtil.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/utilities/recurrenceDatesUtil.ts#L7)
+[src/utilities/recurrenceDatesUtil.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/utilities/recurrenceDatesUtil.ts#L7)

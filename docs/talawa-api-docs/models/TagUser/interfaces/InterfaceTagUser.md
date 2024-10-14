@@ -16,7 +16,7 @@ Represents a MongoDB document for TagUser in the database.
 
 #### Defined in
 
-[src/models/TagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/TagUser.ts#L11)
+[src/models/TagUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/TagUser.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a MongoDB document for TagUser in the database.
 
 #### Defined in
 
-[src/models/TagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/TagUser.ts#L14)
+[src/models/TagUser.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/TagUser.ts#L14)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a MongoDB document for TagUser in the database.
 
 #### Defined in
 
-[src/models/TagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/TagUser.ts#L13)
+[src/models/TagUser.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/TagUser.ts#L13)
 
 ***
 
@@ -46,4 +46,4 @@ Represents a MongoDB document for TagUser in the database.
 
 #### Defined in
 
-[src/models/TagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/TagUser.ts#L12)
+[src/models/TagUser.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/TagUser.ts#L12)

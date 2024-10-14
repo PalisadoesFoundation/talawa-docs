@@ -27,4 +27,4 @@ A promise that resolves to the event document found in the database. This docume
 
 ## Defined in
 
-[src/resolvers/Event/baseRecurringEvent.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/resolvers/Event/baseRecurringEvent.ts#L16)
+[src/resolvers/Event/baseRecurringEvent.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/resolvers/Event/baseRecurringEvent.ts#L16)

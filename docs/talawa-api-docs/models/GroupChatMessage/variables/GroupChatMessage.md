@@ -14,4 +14,4 @@ Otherwise, it creates a new model.
 
 ## Defined in
 
-[src/models/GroupChatMessage.ts:74](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/GroupChatMessage.ts#L74)
+[src/models/GroupChatMessage.ts:74](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/GroupChatMessage.ts#L74)

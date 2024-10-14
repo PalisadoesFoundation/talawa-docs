@@ -16,7 +16,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L11)
+[src/models/DirectChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L17)
+[src/models/DirectChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L17)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L12)
+[src/models/DirectChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L12)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L15)
+[src/models/DirectChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L15)
 
 ***
 
@@ -56,7 +56,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L14)
+[src/models/DirectChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L14)
 
 ***
 
@@ -66,7 +66,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L13)
+[src/models/DirectChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L13)
 
 ***
 
@@ -76,7 +76,7 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L16)
+[src/models/DirectChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L16)
 
 ***
 
@@ -86,4 +86,4 @@ Represents a document for a direct chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/DirectChatMessage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/models/DirectChatMessage.ts#L18)
+[src/models/DirectChatMessage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/models/DirectChatMessage.ts#L18)

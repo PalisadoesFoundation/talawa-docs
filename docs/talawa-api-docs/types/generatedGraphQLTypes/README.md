@@ -325,6 +325,7 @@
 - [MutationUpdateOrganizationArgs](type-aliases/MutationUpdateOrganizationArgs.md)
 - [MutationUpdatePluginStatusArgs](type-aliases/MutationUpdatePluginStatusArgs.md)
 - [MutationUpdatePostArgs](type-aliases/MutationUpdatePostArgs.md)
+- [MutationUpdateSessionTimeoutArgs](type-aliases/MutationUpdateSessionTimeoutArgs.md)
 - [MutationUpdateUserPasswordArgs](type-aliases/MutationUpdateUserPasswordArgs.md)
 - [MutationUpdateUserProfileArgs](type-aliases/MutationUpdateUserProfileArgs.md)
 - [MutationUpdateUserRoleInOrganizationArgs](type-aliases/MutationUpdateUserRoleInOrganizationArgs.md)

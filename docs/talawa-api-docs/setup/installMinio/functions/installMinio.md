@@ -22,4 +22,4 @@ Error If the download or installation fails.
 
 ## Defined in
 
-[src/setup/installMinio.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/setup/installMinio.ts#L19)
+[src/setup/installMinio.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/setup/installMinio.ts#L19)

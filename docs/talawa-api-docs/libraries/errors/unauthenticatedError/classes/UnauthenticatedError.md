@@ -49,7 +49,7 @@ Optional additional metadata associated with the error (default is an empty obje
 
 #### Defined in
 
-[src/libraries/errors/unauthenticatedError.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/libraries/errors/unauthenticatedError.ts#L16)
+[src/libraries/errors/unauthenticatedError.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/libraries/errors/unauthenticatedError.ts#L16)
 
 ## Properties
 
@@ -65,7 +65,7 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -81,7 +81,7 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/libraries/errors/applicationError.ts#L23)
 
 ***
 

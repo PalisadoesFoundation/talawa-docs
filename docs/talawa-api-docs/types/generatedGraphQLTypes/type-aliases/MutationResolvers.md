@@ -500,6 +500,10 @@
 
 \> `optional` **updatePost**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Post"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationUpdatePostArgs`](MutationUpdatePostArgs.md), `"id"`\>\>
 
+### updateSessionTimeout?
+
+\> `optional` **updateSessionTimeout**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Boolean"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationUpdateSessionTimeoutArgs`](MutationUpdateSessionTimeoutArgs.md), `"timeout"`\>\>
+
 ### updateUserPassword?
 
 \> `optional` **updateUserPassword**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"UserData"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`MutationUpdateUserPasswordArgs`](MutationUpdateUserPasswordArgs.md), `"data"`\>\>
@@ -518,4 +522,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4309](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/types/generatedGraphQLTypes.ts#L4309)
+[src/types/generatedGraphQLTypes.ts:4317](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/types/generatedGraphQLTypes.ts#L4317)

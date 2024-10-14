@@ -28,4 +28,4 @@ A boolean value indicating whether the user has submitted feedback for the event
 
 ## Defined in
 
-[src/resolvers/Query/hasSubmittedFeedback.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/790ab2939a7c80eb0ff31afd318f8889a001f225/src/resolvers/Query/hasSubmittedFeedback.ts#L22)
+[src/resolvers/Query/hasSubmittedFeedback.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/f9e8275b1ddff2d3edcec79ee3b37c07998f6cc3/src/resolvers/Query/hasSubmittedFeedback.ts#L22)
