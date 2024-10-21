@@ -18,7 +18,7 @@
     "@docusaurus/core": "3.5.2",
     "@docusaurus/preset-classic": "3.5.2",
     "@graphql-markdown/docusaurus": "^1.17.0",
-    "@graphql-tools/json-file-loader": "^7.4.17",
+    "@graphql-tools/json-file-loader": "^8.0.2",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^1.2.1",
     "graphql": "^16.9.0",
