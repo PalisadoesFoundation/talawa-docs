@@ -3215,9 +3215,9 @@ commander@^10.0.0:
   resolved "https://registry.npmjs.org/commander/-/commander-10.0.1.tgz"
   integrity sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==
 
-commander@^12.0.0:
+commander@^12.1.0:
   version "12.1.0"
-  resolved "https://registry.npmjs.org/commander/-/commander-12.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-12.1.0.tgz#01423b36f501259fdaac4d0e4d60c96c991585d3"
   integrity sha512-Vw8qHK3bZM9y/P10u3Vib8o/DdkvA2OtPtZvD871QKjy74Wj1WSKFILMPRPSdUSx5RFK1arlJzEtA4PkFgnbuA==
 
 commander@^2.11.0, commander@^2.20.0:
@@ -8582,10 +8582,10 @@ yaml@^1.7.2:
   resolved "https://registry.npmjs.org/yaml/-/yaml-1.10.2.tgz"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
-yarn-audit-fix@^10.0.9:
-  version "10.0.9"
-  resolved "https://registry.npmjs.org/yarn-audit-fix/-/yarn-audit-fix-10.0.9.tgz"
-  integrity sha512-YuvTKsgLwZOgBrhAVCG1mzgdkvlLmgncEI1cDWqwCbF1cQ+20YckzwlQpUh/aUwsuqQTvyeYyRiLtiizDk1I2A==
+yarn-audit-fix@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/yarn-audit-fix/-/yarn-audit-fix-10.1.0.tgz#7883639e74e30abc375f68e6dbb48e9af73e437f"
+  integrity sha512-d5Glaqa1PYlzkXgtwznvLf9zjB9WSZkkWDbjdKauSgVWS5PmtHgtJ4xvBSvSRRJb68ksGccjlxFrA0zK0vhp2w==
   dependencies:
     "@types/fs-extra" "^11.0.4"
     "@types/lodash-es" "^4.17.12"
@@ -8593,7 +8593,7 @@ yarn-audit-fix@^10.0.9:
     "@types/yarnpkg__lockfile" "^1.1.9"
     "@yarnpkg/lockfile" "^1.1.0"
     chalk "^5.3.0"
-    commander "^12.0.0"
+    commander "^12.1.0"
     fast-glob "^3.3.2"
     fs-extra "^11.2.0"
     js-yaml "^4.1.0"
