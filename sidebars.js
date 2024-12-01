@@ -26,6 +26,7 @@ const sidebars = {
       items: [
         "developers/technical-introduction",
         "developers/contributing",
+        // "developers/test_system",
         {
           type: "category",
           label: "Talawa",
@@ -110,6 +111,82 @@ const sidebars = {
                 "developers/talawa-admin/plugins/implementing-plugins-example",
               ],
             },
+          ],
+        },
+        {
+          type: "category",
+          label: "Project Dev 2024",
+          link: {
+            type: "generated-index",
+          },
+          collapsed: true,
+          items: [
+            {
+              type: "category",
+              label: "Chat Notification",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/project-dev-2024/chat-notification-system/chat_notification_system",
+              ],
+            },
+            {
+              type: "category",
+              label: "Talawa Event Plugin",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/project-dev-2024/talawa-event-plugin/talawa_event_plugin",
+              ],
+            },
+            {
+              type: "category",
+              label: "Tag Management",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/project-dev-2024/tag-management-system/tag_management_system",
+              ],
+            },
+            {
+              type: "category",
+              label: "Volunteer Management",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/project-dev-2024/volunteer-management/volunteer-management",
+              ],
+            },
+            {
+              type: "category",
+              label: "Improved File Uploads",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/project-dev-2024/improved-file-upload-and-security/improved-file-upload-and-security",
+              ],
+            },
+            {
+              type: "category",
+              label: "Event Attendance",
+              link: {
+                type: "generated-index",
+              },
+              collapsed: true,
+              items: [
+                "developers/project-dev-2024/event-attendance/event-attendance",
+              ],
+            }
           ],
         },
       ],
