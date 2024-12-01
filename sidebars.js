@@ -115,12 +115,13 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Project Dev 2024",
+          label: "Project 2024",
           link: {
             type: "generated-index",
           },
           collapsed: true,
           items: [
+            "developers/project-2024/project-2024",
             {
               type: "category",
               label: "Chat Notification",
@@ -129,7 +130,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                "developers/project-dev-2024/chat-notification-system/chat_notification_system",
+                "developers/project-2024/chat-notification-system/chat_notification_system",
               ],
             },
             {
@@ -140,7 +141,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                "developers/project-dev-2024/talawa-event-plugin/talawa_event_plugin",
+                "developers/project-2024/talawa-event-plugin/talawa_event_plugin",
               ],
             },
             {
@@ -151,7 +152,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                "developers/project-dev-2024/tag-management-system/tag_management_system",
+                "developers/project-2024/tag-management-system/tag_management_system",
               ],
             },
             {
@@ -162,7 +163,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                "developers/project-dev-2024/volunteer-management/volunteer-management",
+                "developers/project-2024/volunteer-management/volunteer-management",
               ],
             },
             {
@@ -173,7 +174,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                "developers/project-dev-2024/improved-file-upload-and-security/improved-file-upload-and-security",
+                "developers/project-2024/improved-file-upload-and-security/improved-file-upload-and-security",
               ],
             },
             {
@@ -184,7 +185,7 @@ const sidebars = {
               },
               collapsed: true,
               items: [
-                "developers/project-dev-2024/event-attendance/event-attendance",
+                "developers/project-2024/event-attendance/event-attendance",
               ],
             }
           ],
