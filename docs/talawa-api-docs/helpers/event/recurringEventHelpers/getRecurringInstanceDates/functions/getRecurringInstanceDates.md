@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,19 +12,25 @@ Generates dates of recurrence for the recurring event based on provided recurren
 
 ## Parameters
 
-• **recurrenceRuleString**: `string`
+### recurrenceRuleString
+
+`string`
 
 The rrule string defining the recurrence rules.
 
-• **recurrenceStartDate**: `Date`
+### recurrenceStartDate
+
+`Date`
 
 The starting date from which to generate instances.
 
-• **recurrenceEndDate**: `null` \| `Date`
+### recurrenceEndDate
 
-The end date of the event.
+`null` | `Date`
 
-• **queryUptoDate**: `Date` = `recurrenceStartDate`
+### queryUptoDate
+
+`Date` = `recurrenceStartDate`
 
 The limit date for querying recurrence rules (used for dynamic instance generation during queries).
 
@@ -42,4 +48,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts#L23)
+[src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/recurringEventHelpers/getRecurringInstanceDates.ts#L23)

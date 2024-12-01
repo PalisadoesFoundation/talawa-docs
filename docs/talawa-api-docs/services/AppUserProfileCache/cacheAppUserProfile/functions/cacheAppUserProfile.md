@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Stores app user profiles in Redis cache with a specified time-to-live (TTL).
 
 ## Parameters
 
-• **appUserProfiles**: [`InterfaceAppUserProfile`](../../../../models/AppUserProfile/interfaces/InterfaceAppUserProfile.md)[]
+### appUserProfiles
+
+[`InterfaceAppUserProfile`](../../../../models/AppUserProfile/interfaces/InterfaceAppUserProfile.md)[]
 
 Array of app user profiles to be cached.
 
@@ -24,4 +26,4 @@ Promise\<void\>
 
 ## Defined in
 
-[src/services/AppUserProfileCache/cacheAppUserProfile.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/services/AppUserProfileCache/cacheAppUserProfile.ts#L10)
+[src/services/AppUserProfileCache/cacheAppUserProfile.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/services/AppUserProfileCache/cacheAppUserProfile.ts#L10)

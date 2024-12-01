@@ -24,4 +24,4 @@ JSX.Element - The rendered component displaying the contribution stats.
 
 ## Defined in
 
-[src/components/ContriStats/ContriStats.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/ContriStats/ContriStats.tsx#L20)
+[src/components/ContriStats/ContriStats.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/ContriStats/ContriStats.tsx#L20)

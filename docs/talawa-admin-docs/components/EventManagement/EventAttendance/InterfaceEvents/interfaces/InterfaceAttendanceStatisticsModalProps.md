@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:3](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L3)
+[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:3](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L3)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:9](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L9)
+[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:9](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L9)
 
 ***
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:2](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L2)
+[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:2](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L2)
 
 ***
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:4](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L4)
+[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:4](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L4)
 
 ***
 
@@ -78,4 +78,4 @@
 
 #### Defined in
 
-[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:10](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L10)
+[src/components/EventManagement/EventAttendance/InterfaceEvents.ts:10](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventManagement/EventAttendance/InterfaceEvents.ts#L10)

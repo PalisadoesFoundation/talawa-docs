@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -13,11 +13,15 @@ to the fields with the specified directive.
 
 ## Parameters
 
-• **schema**: `GraphQLSchema`
+### schema
+
+`GraphQLSchema`
 
 The original GraphQL schema to be transformed.
 
-• **directiveName**: `string`
+### directiveName
+
+`string`
 
 The name of the directive that will trigger the transformation.
 
@@ -40,4 +44,4 @@ Parent File:
 
 ## Defined in
 
-[src/directives/directiveTransformer/authDirectiveTransformer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/directives/directiveTransformer/authDirectiveTransformer.ts#L22)
+[src/directives/directiveTransformer/authDirectiveTransformer.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/directives/directiveTransformer/authDirectiveTransformer.ts#L22)

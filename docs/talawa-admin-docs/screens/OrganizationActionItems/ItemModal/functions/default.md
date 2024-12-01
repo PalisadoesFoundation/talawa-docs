@@ -32,4 +32,4 @@ The `ItemModal` component.
 
 ## Defined in
 
-[src/screens/OrganizationActionItems/ItemModal.tsx:92](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationActionItems/ItemModal.tsx#L92)
+[src/screens/OrganizationActionItems/ItemModal.tsx:92](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationActionItems/ItemModal.tsx#L92)

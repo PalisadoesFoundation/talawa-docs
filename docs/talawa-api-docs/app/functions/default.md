@@ -1,4 +1,4 @@
-[**talawa-api**](../../README.md) • **Docs**
+[**talawa-api**](../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Function: default()
 
-## default(req, res)
+## Call Signature
 
 \> **default**(`req`, `res`): `any`
 
@@ -15,9 +15,13 @@ third argument.
 
 ### Parameters
 
-• **req**: `IncomingMessage` \| `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
+#### req
 
-• **res**: `ServerResponse`\<`IncomingMessage`\> \| `Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
+`IncomingMessage` | `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
+
+#### res
+
+`ServerResponse`\<`IncomingMessage`\> | `Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
 
 ### Returns
 
@@ -25,19 +29,25 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/app.ts#L19)
+[src/app.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/app.ts#L19)
 
-## default(req, res, next)
+## Call Signature
 
 \> **default**(`req`, `res`, `next`): `void`
 
 ### Parameters
 
-• **req**: `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
+#### req
 
-• **res**: `Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
+`Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
 
-• **next**: `NextFunction`
+#### res
+
+`Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
+
+#### next
+
+`NextFunction`
 
 ### Returns
 
@@ -45,4 +55,4 @@ third argument.
 
 ### Defined in
 
-[src/app.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/app.ts#L19)
+[src/app.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/app.ts#L19)

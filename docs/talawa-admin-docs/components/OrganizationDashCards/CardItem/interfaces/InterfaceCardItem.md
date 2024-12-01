@@ -16,7 +16,7 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L20)
+[src/components/OrganizationDashCards/CardItem.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L20)
 
 ***
 
@@ -26,7 +26,7 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:19](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L19)
+[src/components/OrganizationDashCards/CardItem.tsx:19](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L19)
 
 ***
 
@@ -36,7 +36,7 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:21](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L21)
+[src/components/OrganizationDashCards/CardItem.tsx:21](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L21)
 
 ***
 
@@ -46,7 +46,7 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L18)
+[src/components/OrganizationDashCards/CardItem.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L18)
 
 ***
 
@@ -56,7 +56,7 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L17)
+[src/components/OrganizationDashCards/CardItem.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L17)
 
 ***
 
@@ -66,7 +66,7 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:16](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L16)
+[src/components/OrganizationDashCards/CardItem.tsx:16](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L16)
 
 ***
 
@@ -76,4 +76,4 @@ Interface for the CardItem component's props.
 
 #### Defined in
 
-[src/components/OrganizationDashCards/CardItem.tsx:15](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrganizationDashCards/CardItem.tsx#L15)
+[src/components/OrganizationDashCards/CardItem.tsx:15](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrganizationDashCards/CardItem.tsx#L15)

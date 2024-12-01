@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -51,4 +51,4 @@ It then performs the image upload and updates the user's profile image before sa
 
 ## Defined in
 
-[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Mutation/addUserImage.ts#L39)
+[src/resolvers/Mutation/addUserImage.ts:39](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Mutation/addUserImage.ts#L39)

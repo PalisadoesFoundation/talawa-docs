@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,11 +16,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Any**: `object`
 
-### Any.input
+#### Any.input
 
 \> **input**: `any`
 
-### Any.output
+#### Any.output
 
 \> **output**: `any`
 
@@ -28,11 +28,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Boolean**: `object`
 
-### Boolean.input
+#### Boolean.input
 
 \> **input**: `boolean`
 
-### Boolean.output
+#### Boolean.output
 
 \> **output**: `boolean`
 
@@ -40,11 +40,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **CountryCode**: `object`
 
-### CountryCode.input
+#### CountryCode.input
 
 \> **input**: `any`
 
-### CountryCode.output
+#### CountryCode.output
 
 \> **output**: `any`
 
@@ -52,11 +52,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Date**: `object`
 
-### Date.input
+#### Date.input
 
 \> **input**: `any`
 
-### Date.output
+#### Date.output
 
 \> **output**: `any`
 
@@ -64,11 +64,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **DateTime**: `object`
 
-### DateTime.input
+#### DateTime.input
 
 \> **input**: `any`
 
-### DateTime.output
+#### DateTime.output
 
 \> **output**: `any`
 
@@ -76,11 +76,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **EmailAddress**: `object`
 
-### EmailAddress.input
+#### EmailAddress.input
 
 \> **input**: `any`
 
-### EmailAddress.output
+#### EmailAddress.output
 
 \> **output**: `any`
 
@@ -88,11 +88,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Float**: `object`
 
-### Float.input
+#### Float.input
 
 \> **input**: `number`
 
-### Float.output
+#### Float.output
 
 \> **output**: `number`
 
@@ -100,11 +100,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **ID**: `object`
 
-### ID.input
+#### ID.input
 
 \> **input**: `string`
 
-### ID.output
+#### ID.output
 
 \> **output**: `string`
 
@@ -112,11 +112,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Int**: `object`
 
-### Int.input
+#### Int.input
 
 \> **input**: `number`
 
-### Int.output
+#### Int.output
 
 \> **output**: `number`
 
@@ -124,11 +124,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **JSON**: `object`
 
-### JSON.input
+#### JSON.input
 
 \> **input**: `any`
 
-### JSON.output
+#### JSON.output
 
 \> **output**: `any`
 
@@ -136,11 +136,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Latitude**: `object`
 
-### Latitude.input
+#### Latitude.input
 
 \> **input**: `any`
 
-### Latitude.output
+#### Latitude.output
 
 \> **output**: `any`
 
@@ -148,11 +148,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Longitude**: `object`
 
-### Longitude.input
+#### Longitude.input
 
 \> **input**: `any`
 
-### Longitude.output
+#### Longitude.output
 
 \> **output**: `any`
 
@@ -160,11 +160,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **PhoneNumber**: `object`
 
-### PhoneNumber.input
+#### PhoneNumber.input
 
 \> **input**: `any`
 
-### PhoneNumber.output
+#### PhoneNumber.output
 
 \> **output**: `any`
 
@@ -172,11 +172,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **PositiveInt**: `object`
 
-### PositiveInt.input
+#### PositiveInt.input
 
 \> **input**: `any`
 
-### PositiveInt.output
+#### PositiveInt.output
 
 \> **output**: `any`
 
@@ -184,11 +184,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **String**: `object`
 
-### String.input
+#### String.input
 
 \> **input**: `string`
 
-### String.output
+#### String.output
 
 \> **output**: `string`
 
@@ -196,23 +196,11 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Time**: `object`
 
-### Time.input
+#### Time.input
 
 \> **input**: `any`
 
-### Time.output
-
-\> **output**: `any`
-
-### URL
-
-\> **URL**: `object`
-
-### URL.input
-
-\> **input**: `any`
-
-### URL.output
+#### Time.output
 
 \> **output**: `any`
 
@@ -220,14 +208,26 @@ All built-in and custom scalars, mapped to their actual values
 
 \> **Upload**: `object`
 
-### Upload.input
+#### Upload.input
 
 \> **input**: `any`
 
-### Upload.output
+#### Upload.output
+
+\> **output**: `any`
+
+### URL
+
+\> **URL**: `object`
+
+#### URL.input
+
+\> **input**: `any`
+
+#### URL.output
 
 \> **output**: `any`
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L48)
+[src/types/generatedGraphQLTypes.ts:48](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L48)

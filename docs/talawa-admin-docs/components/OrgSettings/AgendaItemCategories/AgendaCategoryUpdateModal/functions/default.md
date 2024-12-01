@@ -30,4 +30,4 @@ returns the AgendaCategoryUpdateModal component
 
 ## Defined in
 
-[src/components/OrgSettings/AgendaItemCategories/AgendaCategoryUpdateModal.tsx:40](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/OrgSettings/AgendaItemCategories/AgendaCategoryUpdateModal.tsx#L40)
+[src/components/OrgSettings/AgendaItemCategories/AgendaCategoryUpdateModal.tsx:40](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/OrgSettings/AgendaItemCategories/AgendaCategoryUpdateModal.tsx#L40)

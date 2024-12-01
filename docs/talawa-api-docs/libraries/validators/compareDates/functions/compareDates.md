@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,11 +12,15 @@ Compares two dates and returns a message if the first date is later than the sec
 
 ## Parameters
 
-• **date1**: `string`
+### date1
+
+`string`
 
 The first date as a string.
 
-• **date2**: `string`
+### date2
+
+`string`
 
 The second date as a string.
 
@@ -28,4 +32,4 @@ A message indicating that the start date must be earlier than the end date, or a
 
 ## Defined in
 
-[src/libraries/validators/compareDates.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/validators/compareDates.ts#L8)
+[src/libraries/validators/compareDates.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/validators/compareDates.ts#L8)

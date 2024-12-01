@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Generates a recurrence rule (RRULE) string based on the provided recurrence rule
 
 ## Parameters
 
-• **recurrenceRuleData**: [`RecurrenceRuleInput`](../../../../../types/generatedGraphQLTypes/type-aliases/RecurrenceRuleInput.md)
+### recurrenceRuleData
+
+[`RecurrenceRuleInput`](../../../../../types/generatedGraphQLTypes/type-aliases/RecurrenceRuleInput.md)
 
 The input data defining the recurrence rule.
 
@@ -31,4 +33,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L15)
+[src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/recurringEventHelpers/generateRecurrenceRuleString.ts#L15)

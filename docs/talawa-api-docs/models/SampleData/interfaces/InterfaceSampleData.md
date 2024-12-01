@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,6 +13,38 @@ Interface representing a document for sample data in the database (MongoDB).
 - `Document`
 
 ## Properties
+
+### \_\_v?
+
+\> `optional` **\_\_v**: `any`
+
+This documents __v.
+
+#### Inherited from
+
+`Document.__v`
+
+#### Defined in
+
+node\_modules/mongoose/types/document.d.ts:26
+
+***
+
+### \_id?
+
+\> `optional` **\_id**: `any`
+
+This documents _id.
+
+#### Inherited from
+
+`Document._id`
+
+#### Defined in
+
+node\_modules/mongoose/types/document.d.ts:23
+
+***
 
 ### $locals
 
@@ -65,38 +97,6 @@ node\_modules/mongoose/types/document.d.ts:99
 
 ***
 
-### \_\_v?
-
-\> `optional` **\_\_v**: `any`
-
-This documents __v.
-
-#### Inherited from
-
-`Document.__v`
-
-#### Defined in
-
-node\_modules/mongoose/types/document.d.ts:26
-
-***
-
-### \_id?
-
-\> `optional` **\_id**: `any`
-
-This documents _id.
-
-#### Inherited from
-
-`Document._id`
-
-#### Defined in
-
-node\_modules/mongoose/types/document.d.ts:23
-
-***
-
 ### baseModelName?
 
 \> `optional` **baseModelName**: `string`
@@ -135,7 +135,7 @@ node\_modules/mongoose/types/document.d.ts:105
 
 #### Defined in
 
-[src/models/SampleData.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/SampleData.ts#L10)
+[src/models/SampleData.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/SampleData.ts#L10)
 
 ***
 
@@ -161,7 +161,7 @@ node\_modules/mongoose/types/document.d.ts:108
 
 #### Defined in
 
-[src/models/SampleData.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/SampleData.ts#L9)
+[src/models/SampleData.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/SampleData.ts#L9)
 
 ***
 
@@ -237,13 +237,17 @@ Assert that a given path or paths is populated. Throws an error if not populated
 
 #### Type Parameters
 
-• **Paths** = `object`
+• **Paths** = \{\}
 
 #### Parameters
 
-• **path**: `string` \| `string`[]
+##### path
 
-• **values?**: `Partial`\<`Paths`\>
+`string` | `string`[]
+
+##### values?
+
+`Partial`\<`Paths`\>
 
 #### Returns
 
@@ -325,7 +329,9 @@ Don't run validation on this path or persist changes to this path.
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -351,9 +357,13 @@ When you call `save()` on this document, Mongoose will send a
 
 #### Parameters
 
-• **path**: `string` \| `string`[]
+##### path
 
-• **val?**: `number`
+`string` | `string`[]
+
+##### val?
+
+`number`
 
 #### Returns
 
@@ -377,7 +387,9 @@ Checks if a path is set to its default.
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -401,7 +413,9 @@ Getter/setter, determines whether the document was removed or not.
 
 #### Parameters
 
-• **val?**: `boolean`
+##### val?
+
+`boolean`
 
 #### Returns
 
@@ -427,7 +441,9 @@ Useful for determining whether this subdoc will get stripped out by the
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -451,7 +467,9 @@ Checks if a path is invalid
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -475,7 +493,9 @@ Marks a path as valid, removing existing validation errors.
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -493,7 +513,7 @@ node\_modules/mongoose/types/document.d.ts:74
 
 ### $model()
 
-#### $model(name)
+#### Call Signature
 
 \> **$model**\<`ModelType`\>(`name`): `ModelType`
 
@@ -505,7 +525,9 @@ Returns the model with the given name on this document's associated connection.
 
 ##### Parameters
 
-• **name**: `string`
+###### name
+
+`string`
 
 ##### Returns
 
@@ -519,9 +541,11 @@ Returns the model with the given name on this document's associated connection.
 
 node\_modules/mongoose/types/document.d.ts:77
 
-#### $model()
+#### Call Signature
 
 \> **$model**\<`ModelType`\>(): `ModelType`
+
+Returns the model with the given name on this document's associated connection.
 
 ##### Type Parameters
 
@@ -572,7 +596,9 @@ query with an associated session.
 
 #### Parameters
 
-• **session?**: `null` \| `ClientSession`
+##### session?
+
+`null` | `ClientSession`
 
 #### Returns
 
@@ -590,7 +616,7 @@ node\_modules/mongoose/types/document.d.ts:91
 
 ### $set()
 
-#### $set(path, val, type, options)
+#### Call Signature
 
 \> **$set**(`path`, `val`, `type`, `options`?): `this`
 
@@ -598,13 +624,21 @@ Alias for `set()`, used internally to avoid conflicts
 
 ##### Parameters
 
-• **path**: `string` \| `Record`\<`string`, `any`\>
+###### path
 
-• **val**: `any`
+`string` | `Record`\<`string`, `any`\>
 
-• **type**: `any`
+###### val
 
-• **options?**: `DocumentSetOptions`
+`any`
+
+###### type
+
+`any`
+
+###### options?
+
+`DocumentSetOptions`
 
 ##### Returns
 
@@ -618,17 +652,25 @@ Alias for `set()`, used internally to avoid conflicts
 
 node\_modules/mongoose/types/document.d.ts:94
 
-#### $set(path, val, options)
+#### Call Signature
 
 \> **$set**(`path`, `val`, `options`?): `this`
 
+Alias for `set()`, used internally to avoid conflicts
+
 ##### Parameters
 
-• **path**: `string` \| `Record`\<`string`, `any`\>
+###### path
 
-• **val**: `any`
+`string` | `Record`\<`string`, `any`\>
 
-• **options?**: `DocumentSetOptions`
+###### val
+
+`any`
+
+###### options?
+
+`DocumentSetOptions`
 
 ##### Returns
 
@@ -642,13 +684,17 @@ node\_modules/mongoose/types/document.d.ts:94
 
 node\_modules/mongoose/types/document.d.ts:95
 
-#### $set(value)
+#### Call Signature
 
 \> **$set**(`value`): `this`
 
+Alias for `set()`, used internally to avoid conflicts
+
 ##### Parameters
 
-• **value**: `string` \| `Record`\<`string`, `any`\>
+###### value
+
+`string` | `Record`\<`string`, `any`\>
 
 ##### Returns
 
@@ -672,7 +718,9 @@ Removes this document from the db.
 
 #### Parameters
 
-• **options?**: `QueryOptions`\<`unknown`\>
+##### options?
+
+`QueryOptions`\<`unknown`\>
 
 #### Returns
 
@@ -697,7 +745,9 @@ no arguments, then all populated fields are returned to their unpopulated state.
 
 #### Parameters
 
-• **path?**: `string` \| `string`[]
+##### path?
+
+`string` | `string`[]
 
 #### Returns
 
@@ -747,7 +797,9 @@ document has an `_id`, in which case this function falls back to using
 
 #### Parameters
 
-• **doc**: `Document`\<`any`, `any`, `any`\>
+##### doc
+
+`Document`\<`any`, `any`, `any`\>
 
 #### Returns
 
@@ -765,7 +817,7 @@ node\_modules/mongoose/types/document.d.ts:139
 
 ### get()
 
-#### get(path, type, options)
+#### Call Signature
 
 \> **get**\<`T`\>(`path`, `type`?, `options`?): `any`
 
@@ -777,11 +829,17 @@ Returns the value of a path.
 
 ##### Parameters
 
-• **path**: `T`
+###### path
 
-• **type?**: `any`
+`T`
 
-• **options?**: `any`
+###### type?
+
+`any`
+
+###### options?
+
+`any`
 
 ##### Returns
 
@@ -795,17 +853,25 @@ Returns the value of a path.
 
 node\_modules/mongoose/types/document.d.ts:145
 
-#### get(path, type, options)
+#### Call Signature
 
 \> **get**(`path`, `type`?, `options`?): `any`
 
+Returns the value of a path.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **type?**: `any`
+`string`
 
-• **options?**: `any`
+###### type?
+
+`any`
+
+###### options?
+
+`any`
 
 ##### Returns
 
@@ -872,9 +938,13 @@ you do **not** need to call this function on your own.
 
 #### Parameters
 
-• **obj**: `AnyObject`
+##### obj
 
-• **opts?**: `AnyObject`
+`AnyObject`
+
+##### opts?
+
+`AnyObject`
 
 #### Returns
 
@@ -892,7 +962,7 @@ node\_modules/mongoose/types/document.d.ts:165
 
 ### invalidate()
 
-#### invalidate(path, errorMsg, value, kind)
+#### Call Signature
 
 \> **invalidate**\<`T`\>(`path`, `errorMsg`, `value`?, `kind`?): `null` \| `NativeError`
 
@@ -904,13 +974,21 @@ Marks a path as invalid, causing validation to fail.
 
 ##### Parameters
 
-• **path**: `T`
+###### path
 
-• **errorMsg**: `string` \| `NativeError`
+`T`
 
-• **value?**: `any`
+###### errorMsg
 
-• **kind?**: `string`
+`string` | `NativeError`
+
+###### value?
+
+`any`
+
+###### kind?
+
+`string`
 
 ##### Returns
 
@@ -924,19 +1002,29 @@ Marks a path as invalid, causing validation to fail.
 
 node\_modules/mongoose/types/document.d.ts:168
 
-#### invalidate(path, errorMsg, value, kind)
+#### Call Signature
 
 \> **invalidate**(`path`, `errorMsg`, `value`?, `kind`?): `null` \| `NativeError`
 
+Marks a path as invalid, causing validation to fail.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **errorMsg**: `string` \| `NativeError`
+`string`
 
-• **value?**: `any`
+###### errorMsg
 
-• **kind?**: `string`
+`string` | `NativeError`
+
+###### value?
+
+`any`
+
+###### kind?
+
+`string`
 
 ##### Returns
 
@@ -954,7 +1042,7 @@ node\_modules/mongoose/types/document.d.ts:169
 
 ### isDirectModified()
 
-#### isDirectModified(path)
+#### Call Signature
 
 \> **isDirectModified**\<`T`\>(`path`): `boolean`
 
@@ -966,7 +1054,9 @@ Returns true if `path` was directly set and modified, else false.
 
 ##### Parameters
 
-• **path**: `T` \| `T`[]
+###### path
+
+`T` | `T`[]
 
 ##### Returns
 
@@ -980,13 +1070,17 @@ Returns true if `path` was directly set and modified, else false.
 
 node\_modules/mongoose/types/document.d.ts:172
 
-#### isDirectModified(path)
+#### Call Signature
 
 \> **isDirectModified**(`path`): `boolean`
 
+Returns true if `path` was directly set and modified, else false.
+
 ##### Parameters
 
-• **path**: `string` \| `string`[]
+###### path
+
+`string` | `string`[]
 
 ##### Returns
 
@@ -1004,7 +1098,7 @@ node\_modules/mongoose/types/document.d.ts:173
 
 ### isDirectSelected()
 
-#### isDirectSelected(path)
+#### Call Signature
 
 \> **isDirectSelected**\<`T`\>(`path`): `boolean`
 
@@ -1016,7 +1110,9 @@ Checks if `path` was explicitly selected. If no projection, always returns true.
 
 ##### Parameters
 
-• **path**: `T`
+###### path
+
+`T`
 
 ##### Returns
 
@@ -1030,13 +1126,17 @@ Checks if `path` was explicitly selected. If no projection, always returns true.
 
 node\_modules/mongoose/types/document.d.ts:176
 
-#### isDirectSelected(path)
+#### Call Signature
 
 \> **isDirectSelected**(`path`): `boolean`
 
+Checks if `path` was explicitly selected. If no projection, always returns true.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
+
+`string`
 
 ##### Returns
 
@@ -1054,7 +1154,7 @@ node\_modules/mongoose/types/document.d.ts:177
 
 ### isInit()
 
-#### isInit(path)
+#### Call Signature
 
 \> **isInit**\<`T`\>(`path`): `boolean`
 
@@ -1066,7 +1166,9 @@ Checks if `path` is in the `init` state, that is, it was set by `Document#init()
 
 ##### Parameters
 
-• **path**: `T`
+###### path
+
+`T`
 
 ##### Returns
 
@@ -1080,13 +1182,17 @@ Checks if `path` is in the `init` state, that is, it was set by `Document#init()
 
 node\_modules/mongoose/types/document.d.ts:180
 
-#### isInit(path)
+#### Call Signature
 
 \> **isInit**(`path`): `boolean`
 
+Checks if `path` is in the `init` state, that is, it was set by `Document#init()` and not modified since.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
+
+`string`
 
 ##### Returns
 
@@ -1104,7 +1210,7 @@ node\_modules/mongoose/types/document.d.ts:181
 
 ### isModified()
 
-#### isModified(path, options)
+#### Call Signature
 
 \> **isModified**\<`T`\>(`path`?, `options`?): `boolean`
 
@@ -1117,9 +1223,19 @@ in this document is modified.
 
 ##### Parameters
 
-• **path?**: `T` \| `T`[]
+###### path?
 
-• **options?**: `null` \| `object`
+`T` | `T`[]
+
+###### options?
+
+`null`
+
+\{`ignoreAtomics`: `boolean`; \}
+
+###### options.ignoreAtomics
+
+`boolean`
 
 ##### Returns
 
@@ -1133,15 +1249,28 @@ in this document is modified.
 
 node\_modules/mongoose/types/document.d.ts:187
 
-#### isModified(path, options)
+#### Call Signature
 
 \> **isModified**(`path`?, `options`?): `boolean`
 
+Returns true if any of the given paths are modified, else false. If no arguments, returns `true` if any path
+in this document is modified.
+
 ##### Parameters
 
-• **path?**: `string` \| `string`[]
+###### path?
 
-• **options?**: `null` \| `object`
+`string` | `string`[]
+
+###### options?
+
+`null`
+
+\{`ignoreAtomics`: `boolean`; \}
+
+###### options.ignoreAtomics
+
+`boolean`
 
 ##### Returns
 
@@ -1159,7 +1288,7 @@ node\_modules/mongoose/types/document.d.ts:188
 
 ### isSelected()
 
-#### isSelected(path)
+#### Call Signature
 
 \> **isSelected**\<`T`\>(`path`): `boolean`
 
@@ -1171,7 +1300,9 @@ Checks if `path` was selected in the source query which initialized this documen
 
 ##### Parameters
 
-• **path**: `T`
+###### path
+
+`T`
 
 ##### Returns
 
@@ -1185,13 +1316,17 @@ Checks if `path` was selected in the source query which initialized this documen
 
 node\_modules/mongoose/types/document.d.ts:194
 
-#### isSelected(path)
+#### Call Signature
 
 \> **isSelected**(`path`): `boolean`
 
+Checks if `path` was selected in the source query which initialized this document.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
+
+`string`
 
 ##### Returns
 
@@ -1209,7 +1344,7 @@ node\_modules/mongoose/types/document.d.ts:195
 
 ### markModified()
 
-#### markModified(path, scope)
+#### Call Signature
 
 \> **markModified**\<`T`\>(`path`, `scope`?): `void`
 
@@ -1221,9 +1356,13 @@ Marks the path as having pending changes to write to the db.
 
 ##### Parameters
 
-• **path**: `T`
+###### path
 
-• **scope?**: `any`
+`T`
+
+###### scope?
+
+`any`
 
 ##### Returns
 
@@ -1237,15 +1376,21 @@ Marks the path as having pending changes to write to the db.
 
 node\_modules/mongoose/types/document.d.ts:198
 
-#### markModified(path, scope)
+#### Call Signature
 
 \> **markModified**(`path`, `scope`?): `void`
 
+Marks the path as having pending changes to write to the db.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **scope?**: `any`
+`string`
+
+###### scope?
+
+`any`
 
 ##### Returns
 
@@ -1263,7 +1408,7 @@ node\_modules/mongoose/types/document.d.ts:199
 
 ### model()
 
-#### model(name)
+#### Call Signature
 
 \> **model**\<`ModelType`\>(`name`): `ModelType`
 
@@ -1275,7 +1420,9 @@ Returns the model with the given name on this document's associated connection.
 
 ##### Parameters
 
-• **name**: `string`
+###### name
+
+`string`
 
 ##### Returns
 
@@ -1289,9 +1436,11 @@ Returns the model with the given name on this document's associated connection.
 
 node\_modules/mongoose/types/document.d.ts:202
 
-#### model()
+#### Call Signature
 
 \> **model**\<`ModelType`\>(): `ModelType`
+
+Returns the model with the given name on this document's associated connection.
 
 ##### Type Parameters
 
@@ -1319,9 +1468,11 @@ Returns the list of paths that have been modified.
 
 #### Parameters
 
-• **options?**
+##### options?
 
-• **options.includeChildren?**: `boolean`
+###### options.includeChildren
+
+`boolean`
 
 #### Returns
 
@@ -1347,7 +1498,9 @@ unsets all properties that aren't in `obj`.
 
 #### Parameters
 
-• **obj**: `AnyObject`
+##### obj
+
+`AnyObject`
 
 #### Returns
 
@@ -1365,7 +1518,7 @@ node\_modules/mongoose/types/document.d.ts:213
 
 ### populate()
 
-#### populate(path)
+#### Call Signature
 
 \> **populate**\<`Paths`\>(`path`): `Promise`\<`MergeType`\<[`InterfaceSampleData`](InterfaceSampleData.md), `Paths`\>\>
 
@@ -1373,11 +1526,13 @@ Populates document references.
 
 ##### Type Parameters
 
-• **Paths** = `object`
+• **Paths** = \{\}
 
 ##### Parameters
 
-• **path**: `string` \| `PopulateOptions` \| (`string` \| `PopulateOptions`)[]
+###### path
+
+`string` | `PopulateOptions` | (`string` \| `PopulateOptions`)[]
 
 ##### Returns
 
@@ -1391,25 +1546,37 @@ Populates document references.
 
 node\_modules/mongoose/types/document.d.ts:222
 
-#### populate(path, select, model, match, options)
+#### Call Signature
 
 \> **populate**\<`Paths`\>(`path`, `select`?, `model`?, `match`?, `options`?): `Promise`\<`MergeType`\<[`InterfaceSampleData`](InterfaceSampleData.md), `Paths`\>\>
 
+Populates document references.
+
 ##### Type Parameters
 
-• **Paths** = `object`
+• **Paths** = \{\}
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **select?**: `string` \| `AnyObject`
+`string`
 
-• **model?**: `Model`\<`any`, `object`, `object`, `object`, `any`, `any`\>
+###### select?
 
-• **match?**: `AnyObject`
+`string` | `AnyObject`
 
-• **options?**: `PopulateOptions`
+###### model?
+
+`Model`\<`any`, `object`, `object`, `object`, `any`, `any`\>
+
+###### match?
+
+`AnyObject`
+
+###### options?
+
+`PopulateOptions`
 
 ##### Returns
 
@@ -1433,7 +1600,9 @@ Gets _id(s) used during population of the given `path`. If the path was not popu
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -1457,9 +1626,13 @@ Sends a replaceOne command with this document `_id` as the query selector.
 
 #### Parameters
 
-• **replacement?**: `AnyObject`
+##### replacement?
 
-• **options?**: `null` \| `QueryOptions`\<`unknown`\>
+`AnyObject`
+
+##### options?
+
+`null` | `QueryOptions`\<`unknown`\>
 
 #### Returns
 
@@ -1483,7 +1656,9 @@ Saves this document by inserting a new document into the database if [document.i
 
 #### Parameters
 
-• **options?**: `SaveOptions`
+##### options?
+
+`SaveOptions`
 
 #### Returns
 
@@ -1501,7 +1676,7 @@ node\_modules/mongoose/types/document.d.ts:232
 
 ### set()
 
-#### set(path, val, type, options)
+#### Call Signature
 
 \> **set**\<`T`\>(`path`, `val`, `type`, `options`?): `this`
 
@@ -1513,13 +1688,21 @@ Sets the value of a path, or many paths.
 
 ##### Parameters
 
-• **path**: `T`
+###### path
 
-• **val**: `any`
+`T`
 
-• **type**: `any`
+###### val
 
-• **options?**: `DocumentSetOptions`
+`any`
+
+###### type
+
+`any`
+
+###### options?
+
+`DocumentSetOptions`
 
 ##### Returns
 
@@ -1533,19 +1716,29 @@ Sets the value of a path, or many paths.
 
 node\_modules/mongoose/types/document.d.ts:238
 
-#### set(path, val, type, options)
+#### Call Signature
 
 \> **set**(`path`, `val`, `type`, `options`?): `this`
 
+Sets the value of a path, or many paths.
+
 ##### Parameters
 
-• **path**: `string` \| `Record`\<`string`, `any`\>
+###### path
 
-• **val**: `any`
+`string` | `Record`\<`string`, `any`\>
 
-• **type**: `any`
+###### val
 
-• **options?**: `DocumentSetOptions`
+`any`
+
+###### type
+
+`any`
+
+###### options?
+
+`DocumentSetOptions`
 
 ##### Returns
 
@@ -1559,17 +1752,25 @@ node\_modules/mongoose/types/document.d.ts:238
 
 node\_modules/mongoose/types/document.d.ts:239
 
-#### set(path, val, options)
+#### Call Signature
 
 \> **set**(`path`, `val`, `options`?): `this`
 
+Sets the value of a path, or many paths.
+
 ##### Parameters
 
-• **path**: `string` \| `Record`\<`string`, `any`\>
+###### path
 
-• **val**: `any`
+`string` | `Record`\<`string`, `any`\>
 
-• **options?**: `DocumentSetOptions`
+###### val
+
+`any`
+
+###### options?
+
+`DocumentSetOptions`
 
 ##### Returns
 
@@ -1583,13 +1784,17 @@ node\_modules/mongoose/types/document.d.ts:239
 
 node\_modules/mongoose/types/document.d.ts:240
 
-#### set(value)
+#### Call Signature
 
 \> **set**(`value`): `this`
 
+Sets the value of a path, or many paths.
+
 ##### Parameters
 
-• **value**: `string` \| `Record`\<`string`, `any`\>
+###### value
+
+`string` | `Record`\<`string`, `any`\>
 
 ##### Returns
 
@@ -1607,7 +1812,7 @@ node\_modules/mongoose/types/document.d.ts:241
 
 ### toJSON()
 
-#### toJSON(options)
+#### Call Signature
 
 \> **toJSON**\<`T`\>(`options`?): `FlattenMaps`\<`T`\>
 
@@ -1619,7 +1824,9 @@ The return value of this method is used in calls to JSON.stringify(doc).
 
 ##### Parameters
 
-• **options?**: `ToObjectOptions`\<`Document`\<`unknown`, `object`, `unknown`\> & `object`\> & `object`
+###### options?
+
+`ToObjectOptions`\<`Document`\<`unknown`, `object`, `unknown`\> & `object`\> & `object`
 
 ##### Returns
 
@@ -1633,9 +1840,11 @@ The return value of this method is used in calls to JSON.stringify(doc).
 
 node\_modules/mongoose/types/document.d.ts:244
 
-#### toJSON(options)
+#### Call Signature
 
 \> **toJSON**\<`T`\>(`options`): `T`
+
+The return value of this method is used in calls to JSON.stringify(doc).
 
 ##### Type Parameters
 
@@ -1643,7 +1852,9 @@ node\_modules/mongoose/types/document.d.ts:244
 
 ##### Parameters
 
-• **options**: `ToObjectOptions`\<`Document`\<`unknown`, `object`, `unknown`\> & `object`\> & `object`
+###### options
+
+`ToObjectOptions`\<`Document`\<`unknown`, `object`, `unknown`\> & `object`\> & `object`
 
 ##### Returns
 
@@ -1671,7 +1882,9 @@ Converts this document into a plain-old JavaScript object ([POJO](https://master
 
 #### Parameters
 
-• **options?**: `ToObjectOptions`\<`Document`\<`unknown`, `object`, `unknown`\> & `object`\>
+##### options?
+
+`ToObjectOptions`\<`Document`\<`unknown`, `object`, `unknown`\> & `object`\>
 
 #### Returns
 
@@ -1689,7 +1902,7 @@ node\_modules/mongoose/types/document.d.ts:248
 
 ### unmarkModified()
 
-#### unmarkModified(path)
+#### Call Signature
 
 \> **unmarkModified**\<`T`\>(`path`): `void`
 
@@ -1701,7 +1914,9 @@ Clears the modified state on the specified path.
 
 ##### Parameters
 
-• **path**: `T`
+###### path
+
+`T`
 
 ##### Returns
 
@@ -1715,13 +1930,17 @@ Clears the modified state on the specified path.
 
 node\_modules/mongoose/types/document.d.ts:251
 
-#### unmarkModified(path)
+#### Call Signature
 
 \> **unmarkModified**(`path`): `void`
 
+Clears the modified state on the specified path.
+
 ##### Parameters
 
-• **path**: `string`
+###### path
+
+`string`
 
 ##### Returns
 
@@ -1745,9 +1964,13 @@ Sends an updateOne command with this document `_id` as the query selector.
 
 #### Parameters
 
-• **update?**: `UpdateWithAggregationPipeline` \| `UpdateQuery`\<[`InterfaceSampleData`](InterfaceSampleData.md)\>
+##### update?
 
-• **options?**: `null` \| `QueryOptions`\<`unknown`\>
+`UpdateWithAggregationPipeline` | `UpdateQuery`\<[`InterfaceSampleData`](InterfaceSampleData.md)\>
+
+##### options?
+
+`null` | `QueryOptions`\<`unknown`\>
 
 #### Returns
 
@@ -1765,7 +1988,7 @@ node\_modules/mongoose/types/document.d.ts:255
 
 ### validate()
 
-#### validate(pathsToValidate, options)
+#### Call Signature
 
 \> **validate**\<`T`\>(`pathsToValidate`?, `options`?): `Promise`\<`void`\>
 
@@ -1777,9 +2000,13 @@ Executes registered validation rules for this document.
 
 ##### Parameters
 
-• **pathsToValidate?**: `T` \| `T`[]
+###### pathsToValidate?
 
-• **options?**: `AnyObject`
+`T` | `T`[]
+
+###### options?
+
+`AnyObject`
 
 ##### Returns
 
@@ -1793,15 +2020,21 @@ Executes registered validation rules for this document.
 
 node\_modules/mongoose/types/document.d.ts:258
 
-#### validate(pathsToValidate, options)
+#### Call Signature
 
 \> **validate**(`pathsToValidate`?, `options`?): `Promise`\<`void`\>
 
+Executes registered validation rules for this document.
+
 ##### Parameters
 
-• **pathsToValidate?**: `PathsToValidate`
+###### pathsToValidate?
 
-• **options?**: `AnyObject`
+`PathsToValidate`
+
+###### options?
+
+`AnyObject`
 
 ##### Returns
 
@@ -1815,15 +2048,19 @@ node\_modules/mongoose/types/document.d.ts:258
 
 node\_modules/mongoose/types/document.d.ts:259
 
-#### validate(options)
+#### Call Signature
 
 \> **validate**(`options`): `Promise`\<`void`\>
 
+Executes registered validation rules for this document.
+
 ##### Parameters
 
-• **options**
+###### options
 
-• **options.pathsToSkip?**: `pathsToSkip`
+###### options.pathsToSkip
+
+`pathsToSkip`
 
 ##### Returns
 
@@ -1841,7 +2078,7 @@ node\_modules/mongoose/types/document.d.ts:260
 
 ### validateSync()
 
-#### validateSync(options)
+#### Call Signature
 
 \> **validateSync**(`options`): `null` \| `ValidationError`
 
@@ -1849,9 +2086,11 @@ Executes registered validation rules (skipping asynchronous validators) for this
 
 ##### Parameters
 
-• **options**
+###### options
 
-• **options.pathsToSkip?**: `pathsToSkip`
+###### options.pathsToSkip
+
+`pathsToSkip`
 
 ##### Returns
 
@@ -1865,9 +2104,11 @@ Executes registered validation rules (skipping asynchronous validators) for this
 
 node\_modules/mongoose/types/document.d.ts:263
 
-#### validateSync(pathsToValidate, options)
+#### Call Signature
 
 \> **validateSync**\<`T`\>(`pathsToValidate`?, `options`?): `null` \| `ValidationError`
+
+Executes registered validation rules (skipping asynchronous validators) for this document.
 
 ##### Type Parameters
 
@@ -1875,9 +2116,13 @@ node\_modules/mongoose/types/document.d.ts:263
 
 ##### Parameters
 
-• **pathsToValidate?**: `T` \| `T`[]
+###### pathsToValidate?
 
-• **options?**: `AnyObject`
+`T` | `T`[]
+
+###### options?
+
+`AnyObject`
 
 ##### Returns
 
@@ -1891,15 +2136,21 @@ node\_modules/mongoose/types/document.d.ts:263
 
 node\_modules/mongoose/types/document.d.ts:264
 
-#### validateSync(pathsToValidate, options)
+#### Call Signature
 
 \> **validateSync**(`pathsToValidate`?, `options`?): `null` \| `ValidationError`
 
+Executes registered validation rules (skipping asynchronous validators) for this document.
+
 ##### Parameters
 
-• **pathsToValidate?**: `PathsToValidate`
+###### pathsToValidate?
 
-• **options?**: `AnyObject`
+`PathsToValidate`
+
+###### options?
+
+`AnyObject`
 
 ##### Returns
 

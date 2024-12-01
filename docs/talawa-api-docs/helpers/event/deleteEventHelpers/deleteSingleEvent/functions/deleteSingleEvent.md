@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,19 +12,27 @@ Deletes a single event.
 
 ## Parameters
 
-• **eventId**: `string`
+### eventId
+
+`string`
 
 The ID of the event to be deleted.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 The MongoDB client session for transactional operations.
 
-• **recurrenceRule?**: `string`
+### recurrenceRule?
+
+`string`
 
 Optional ID of the recurrence rule associated with the event (for recurring events).
 
-• **baseRecurringEvent?**: `string`
+### baseRecurringEvent?
+
+`string`
 
 Optional ID of the base recurring event (for recurring events).
 
@@ -41,4 +49,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts#L25)
+[src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/deleteEventHelpers/deleteSingleEvent.ts#L25)

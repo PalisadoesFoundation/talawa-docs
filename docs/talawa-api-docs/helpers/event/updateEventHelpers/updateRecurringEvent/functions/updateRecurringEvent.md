@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,15 +12,21 @@ This function updates a recurring event based on the provided arguments.
 
 ## Parameters
 
-• **args**: [`MutationUpdateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationUpdateEventArgs.md)
+### args
+
+[`MutationUpdateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationUpdateEventArgs.md)
 
 The arguments containing data for updating the event.
 
-• **event**: [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### event
+
+[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
 The event to be updated.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 The Mongoose client session for database transactions.
 
@@ -32,4 +38,4 @@ The updated event object.
 
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/updateRecurringEvent.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/updateEventHelpers/updateRecurringEvent.ts#L20)
+[src/helpers/event/updateEventHelpers/updateRecurringEvent.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/updateEventHelpers/updateRecurringEvent.ts#L20)

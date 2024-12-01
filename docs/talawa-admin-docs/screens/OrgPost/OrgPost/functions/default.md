@@ -20,4 +20,4 @@ JSX.Element which contains the posts of the organization.
 
 ## Defined in
 
-[src/screens/OrgPost/OrgPost.tsx:52](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrgPost/OrgPost.tsx#L52)
+[src/screens/OrgPost/OrgPost.tsx:52](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrgPost/OrgPost.tsx#L52)

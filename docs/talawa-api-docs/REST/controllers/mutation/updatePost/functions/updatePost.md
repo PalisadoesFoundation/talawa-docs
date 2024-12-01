@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -14,11 +14,15 @@ function - updatePost
 
 ## Parameters
 
-• **req**: [`InterfaceAuthenticatedRequest`](../../../../../middleware/isAuth/interfaces/InterfaceAuthenticatedRequest.md)
+### req
+
+[`InterfaceAuthenticatedRequest`](../../../../../middleware/isAuth/interfaces/InterfaceAuthenticatedRequest.md)
 
 Express request object with authenticated user
 
-• **res**: `Response`\<`any`, `Record`\<`string`, `any`\>\>
+### res
+
+`Response`\<`any`, `Record`\<`string`, `any`\>\>
 
 Express response object
 
@@ -64,4 +68,4 @@ InputValidationError - When title/text validation fails or pinned status require
 
 ## Defined in
 
-[src/REST/controllers/mutation/updatePost.ts:73](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/REST/controllers/mutation/updatePost.ts#L73)
+[src/REST/controllers/mutation/updatePost.ts:73](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/REST/controllers/mutation/updatePost.ts#L73)

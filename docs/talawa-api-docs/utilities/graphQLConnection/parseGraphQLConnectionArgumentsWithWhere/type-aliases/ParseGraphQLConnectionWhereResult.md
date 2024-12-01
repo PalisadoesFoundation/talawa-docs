@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionWhereResult\<T0\>
 
-\> **ParseGraphQLConnectionWhereResult**\<`T0`\>: `object` \| `object`
+\> **ParseGraphQLConnectionWhereResult**\<`T0`\>: \{`errors`: [`DefaultGraphQLArgumentError`](../../type-aliases/DefaultGraphQLArgumentError.md)[];`isSuccessful`: `false`; \} \| \{`isSuccessful`: `true`;`parsedWhere`: `T0`; \}
 
 This is typescript type of the object returned from callback function `parseWhere`.
 
@@ -16,4 +16,4 @@ This is typescript type of the object returned from callback function `parseWher
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithWhere.ts#L15)

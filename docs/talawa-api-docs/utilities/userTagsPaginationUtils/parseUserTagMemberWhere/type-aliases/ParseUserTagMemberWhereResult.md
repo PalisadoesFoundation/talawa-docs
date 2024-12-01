@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -22,4 +22,4 @@ Type of the where object returned if the parsing is successful
 
 ## Defined in
 
-[src/utilities/userTagsPaginationUtils/parseUserTagMemberWhere.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/userTagsPaginationUtils/parseUserTagMemberWhere.ts#L10)
+[src/utilities/userTagsPaginationUtils/parseUserTagMemberWhere.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/userTagsPaginationUtils/parseUserTagMemberWhere.ts#L10)

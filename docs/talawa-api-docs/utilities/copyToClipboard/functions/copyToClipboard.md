@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Copies the given text to the clipboard.
 
 ## Parameters
 
-• **text**: `string`
+### text
+
+`string`
 
 The content that needs to be copied to the clipboard.
 
@@ -26,4 +28,4 @@ This is a utility method and works only in development or test mode.
 
 ## Defined in
 
-[src/utilities/copyToClipboard.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/copyToClipboard.ts#L10)
+[src/utilities/copyToClipboard.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/copyToClipboard.ts#L10)

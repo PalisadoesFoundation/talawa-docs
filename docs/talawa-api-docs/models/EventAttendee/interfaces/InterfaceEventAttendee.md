@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L13)
+[src/models/EventAttendee.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L13)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L16)
+[src/models/EventAttendee.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L16)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L17)
+[src/models/EventAttendee.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L17)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L15)
+[src/models/EventAttendee.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L15)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L20)
+[src/models/EventAttendee.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L20)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L21)
+[src/models/EventAttendee.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L21)
 
 ***
 
@@ -76,7 +76,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L18)
+[src/models/EventAttendee.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L18)
 
 ***
 
@@ -86,7 +86,7 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L19)
+[src/models/EventAttendee.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L19)
 
 ***
 
@@ -96,4 +96,4 @@ Interface representing a document for an event attendee in MongoDB.
 
 #### Defined in
 
-[src/models/EventAttendee.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/EventAttendee.ts#L14)
+[src/models/EventAttendee.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/EventAttendee.ts#L14)

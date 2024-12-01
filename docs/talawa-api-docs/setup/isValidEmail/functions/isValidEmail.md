@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ The function `isValidEmail` checks if a given email address is valid according t
 
 ## Parameters
 
-• **email**: `string`
+### email
+
+`string`
 
 The `email` parameter is a string that represents an email address.
 
@@ -25,4 +27,4 @@ pattern, and false otherwise.
 
 ## Defined in
 
-[src/setup/isValidEmail.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/setup/isValidEmail.ts#L7)
+[src/setup/isValidEmail.ts:7](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/setup/isValidEmail.ts#L7)

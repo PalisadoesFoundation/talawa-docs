@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,13 +12,15 @@ Uploads an encoded video to the server.
 
 ## Parameters
 
-• **encodedVideoURL**: `string`
+### encodedVideoURL
+
+`string`
 
 The URL or content of the encoded video to upload.
 
-• **previousVideoPath?**: `null` \| `string`
+### previousVideoPath?
 
-Optional. The path of the previous video to delete before uploading the new one.
+`null` | `string`
 
 ## Returns
 
@@ -28,4 +30,4 @@ The file name of the uploaded video.
 
 ## Defined in
 
-[src/utilities/encodedVideoStorage/uploadEncodedVideo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/encodedVideoStorage/uploadEncodedVideo.ts#L18)
+[src/utilities/encodedVideoStorage/uploadEncodedVideo.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/encodedVideoStorage/uploadEncodedVideo.ts#L18)

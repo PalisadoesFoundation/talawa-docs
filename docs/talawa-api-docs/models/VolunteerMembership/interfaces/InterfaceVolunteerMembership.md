@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -17,7 +17,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L14)
+[src/models/VolunteerMembership.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L14)
 
 ***
 
@@ -27,7 +27,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L21)
+[src/models/VolunteerMembership.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L21)
 
 ***
 
@@ -37,7 +37,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L19)
+[src/models/VolunteerMembership.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L19)
 
 ***
 
@@ -47,7 +47,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L17)
+[src/models/VolunteerMembership.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L17)
 
 ***
 
@@ -57,7 +57,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L16)
+[src/models/VolunteerMembership.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L16)
 
 ***
 
@@ -67,7 +67,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L18)
+[src/models/VolunteerMembership.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L18)
 
 ***
 
@@ -77,7 +77,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L22)
+[src/models/VolunteerMembership.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L22)
 
 ***
 
@@ -87,7 +87,7 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L20)
+[src/models/VolunteerMembership.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L20)
 
 ***
 
@@ -97,4 +97,4 @@ This interface defines the structure and types of data that a volunteer membersh
 
 #### Defined in
 
-[src/models/VolunteerMembership.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/VolunteerMembership.ts#L15)
+[src/models/VolunteerMembership.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/VolunteerMembership.ts#L15)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,7 +13,9 @@ If the extension is not 'png', 'jpg', or 'jpeg', deletes the file and throws a v
 
 ## Parameters
 
-• **filename**: `string`
+### filename
+
+`string`
 
 The name of the file to check
 
@@ -23,4 +25,4 @@ The name of the file to check
 
 ## Defined in
 
-[src/utilities/imageExtensionCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/imageExtensionCheck.ts#L11)
+[src/utilities/imageExtensionCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/imageExtensionCheck.ts#L11)

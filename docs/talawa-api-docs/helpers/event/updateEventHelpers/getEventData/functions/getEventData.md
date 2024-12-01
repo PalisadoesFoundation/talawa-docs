@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -13,11 +13,13 @@ combining existing event data with new input data.
 
 ## Parameters
 
-• **updateEventInputData**: `undefined` \| `null` \| [`UpdateEventInput`](../../../../../types/generatedGraphQLTypes/type-aliases/UpdateEventInput.md)
+### updateEventInputData
 
-The input data to update the event.
+`undefined` | `null` | [`UpdateEventInput`](../../../../../types/generatedGraphQLTypes/type-aliases/UpdateEventInput.md)
 
-• **event**: [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### event
+
+[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
 The current event data to be updated.
 
@@ -29,4 +31,4 @@ The updated event data.
 
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/getEventData.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/updateEventHelpers/getEventData.ts#L12)
+[src/helpers/event/updateEventHelpers/getEventData.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/updateEventHelpers/getEventData.ts#L12)

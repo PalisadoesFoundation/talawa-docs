@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,11 +16,15 @@ and appends a new entry if it does not already exist.
 
 ## Parameters
 
-• **filePath**: `string`
+### filePath
+
+`string`
 
 The path to the ignore file to be updated.
 
-• **directoryToIgnore**: `string`
+### directoryToIgnore
+
+`string`
 
 The directory path that should be ignored, relative to the project root.
 
@@ -37,4 +41,4 @@ No logging is performed for cases where the ignore pattern already exists in the
 
 ## Defined in
 
-[src/setup/updateIgnoreFile.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/setup/updateIgnoreFile.ts#L20)
+[src/setup/updateIgnoreFile.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/setup/updateIgnoreFile.ts#L20)

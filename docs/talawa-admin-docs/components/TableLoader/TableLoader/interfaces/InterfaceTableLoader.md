@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[src/components/TableLoader/TableLoader.tsx:7](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/TableLoader/TableLoader.tsx#L7)
+[src/components/TableLoader/TableLoader.tsx:7](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/TableLoader/TableLoader.tsx#L7)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[src/components/TableLoader/TableLoader.tsx:8](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/TableLoader/TableLoader.tsx#L8)
+[src/components/TableLoader/TableLoader.tsx:8](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/TableLoader/TableLoader.tsx#L8)
 
 ***
 
@@ -34,4 +34,4 @@
 
 #### Defined in
 
-[src/components/TableLoader/TableLoader.tsx:6](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/TableLoader/TableLoader.tsx#L6)
+[src/components/TableLoader/TableLoader.tsx:6](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/TableLoader/TableLoader.tsx#L6)

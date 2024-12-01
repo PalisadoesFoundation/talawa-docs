@@ -16,7 +16,7 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:33](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L33)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:33](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L33)
 
 ***
 
@@ -26,7 +26,7 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:31](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L31)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:31](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L31)
 
 ***
 
@@ -40,7 +40,7 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:30](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L30)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:30](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L30)
 
 ***
 
@@ -50,7 +50,7 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:29](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L29)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:29](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L29)
 
 ***
 
@@ -60,7 +60,7 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:35](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L35)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:35](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L35)
 
 ***
 
@@ -70,7 +70,7 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:32](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L32)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:32](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L32)
 
 ***
 
@@ -84,4 +84,4 @@ Props for the CampaignModal component.
 
 #### Defined in
 
-[src/screens/OrganizationFundCampaign/CampaignModal.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L34)
+[src/screens/OrganizationFundCampaign/CampaignModal.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrganizationFundCampaign/CampaignModal.tsx#L34)

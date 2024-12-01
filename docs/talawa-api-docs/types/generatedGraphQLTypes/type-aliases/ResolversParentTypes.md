@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -117,6 +117,10 @@ Mapping between all available schema types and the resolvers parents
 ### Chat
 
 \> **Chat**: [`InterfaceChat`](../../../models/Chat/interfaces/InterfaceChat.md)
+
+### chatInput
+
+\> **chatInput**: [`ChatInput`](ChatInput.md)
 
 ### ChatMessage
 
@@ -255,6 +259,10 @@ Mapping between all available schema types and the resolvers parents
 ##### userErrors
 
 \> **userErrors**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"CreateMemberError"`\][]
+
+### createUserFamilyInput
+
+\> **createUserFamilyInput**: [`CreateUserFamilyInput`](CreateUserFamilyInput.md)
 
 ### CreateUserTagInput
 
@@ -402,10 +410,6 @@ Mapping between all available schema types and the resolvers parents
 
 \> **FundInput**: [`FundInput`](FundInput.md)
 
-### FundWhereInput
-
-\> **FundWhereInput**: [`FundWhereInput`](FundWhereInput.md)
-
 ### FundraisingCampaign
 
 \> **FundraisingCampaign**: [`InterfaceFundraisingCampaign`](../../../models/FundraisingCampaign/interfaces/InterfaceFundraisingCampaign.md)
@@ -413,6 +417,10 @@ Mapping between all available schema types and the resolvers parents
 ### FundraisingCampaignPledge
 
 \> **FundraisingCampaignPledge**: [`InterfaceFundraisingCampaignPledges`](../../../models/FundraisingCampaignPledge/interfaces/InterfaceFundraisingCampaignPledges.md)
+
+### FundWhereInput
+
+\> **FundWhereInput**: [`FundWhereInput`](FundWhereInput.md)
 
 ### Group
 
@@ -510,10 +518,6 @@ Mapping between all available schema types and the resolvers parents
 
 \> **NoteInput**: [`NoteInput`](NoteInput.md)
 
-### OTPInput
-
-\> **OTPInput**: [`OtpInput`](OtpInput.md)
-
 ### Organization
 
 \> **Organization**: [`InterfaceOrganization`](../../../models/Organization/interfaces/InterfaceOrganization.md)
@@ -551,6 +555,10 @@ Mapping between all available schema types and the resolvers parents
 ### OtpData
 
 \> **OtpData**: [`OtpData`](OtpData.md)
+
+### OTPInput
+
+\> **OTPInput**: [`OtpInput`](OtpInput.md)
 
 ### PageInfo
 
@@ -606,14 +614,6 @@ Mapping between all available schema types and the resolvers parents
 
 \> **PostNotFoundError**: [`PostNotFoundError`](PostNotFoundError.md)
 
-### PostUpdateInput
-
-\> **PostUpdateInput**: [`PostUpdateInput`](PostUpdateInput.md)
-
-### PostWhereInput
-
-\> **PostWhereInput**: [`PostWhereInput`](PostWhereInput.md)
-
 ### PostsConnection
 
 \> **PostsConnection**: [`Omit`](Omit.md)\<[`PostsConnection`](PostsConnection.md), `"edges"`\> & `object`
@@ -623,6 +623,14 @@ Mapping between all available schema types and the resolvers parents
 ##### edges
 
 \> **edges**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"PostEdge"`\][]
+
+### PostUpdateInput
+
+\> **PostUpdateInput**: [`PostUpdateInput`](PostUpdateInput.md)
+
+### PostWhereInput
+
+\> **PostWhereInput**: [`PostWhereInput`](PostWhereInput.md)
 
 ### Query
 
@@ -671,10 +679,6 @@ Mapping between all available schema types and the resolvers parents
 ### Translation
 
 \> **Translation**: [`Translation`](Translation.md)
-
-### URL
-
-\> **URL**: [`Scalars`](Scalars.md)\[`"URL"`\]\[`"output"`\]
 
 ### UnauthenticatedError
 
@@ -770,6 +774,10 @@ Mapping between all available schema types and the resolvers parents
 
 \> **Upload**: [`Scalars`](Scalars.md)\[`"Upload"`\]\[`"output"`\]
 
+### URL
+
+\> **URL**: [`Scalars`](Scalars.md)\[`"URL"`\]\[`"output"`\]
+
 ### User
 
 \> **User**: [`InterfaceUser`](../../../models/User/interfaces/InterfaceUser.md)
@@ -838,6 +846,26 @@ Mapping between all available schema types and the resolvers parents
 
 \> **UserPhoneInput**: [`UserPhoneInput`](UserPhoneInput.md)
 
+### UsersConnection
+
+\> **UsersConnection**: [`Omit`](Omit.md)\<[`UsersConnection`](UsersConnection.md), `"edges"`\> & `object`
+
+#### Type declaration
+
+##### edges
+
+\> **edges**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"UsersConnectionEdge"`\][]
+
+### UsersConnectionEdge
+
+\> **UsersConnectionEdge**: [`Omit`](Omit.md)\<[`UsersConnectionEdge`](UsersConnectionEdge.md), `"node"`\> & `object`
+
+#### Type declaration
+
+##### node
+
+\> **node**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"User"`\]
+
 ### UserTag
 
 \> **UserTag**: [`InterfaceOrganizationTagUser`](../../../models/OrganizationTagUser/interfaces/InterfaceOrganizationTagUser.md)
@@ -845,26 +873,6 @@ Mapping between all available schema types and the resolvers parents
 ### UserTagNameWhereInput
 
 \> **UserTagNameWhereInput**: [`UserTagNameWhereInput`](UserTagNameWhereInput.md)
-
-### UserTagSortedByInput
-
-\> **UserTagSortedByInput**: [`UserTagSortedByInput`](UserTagSortedByInput.md)
-
-### UserTagUsersAssignedToSortedByInput
-
-\> **UserTagUsersAssignedToSortedByInput**: [`UserTagUsersAssignedToSortedByInput`](UserTagUsersAssignedToSortedByInput.md)
-
-### UserTagUsersAssignedToWhereInput
-
-\> **UserTagUsersAssignedToWhereInput**: [`UserTagUsersAssignedToWhereInput`](UserTagUsersAssignedToWhereInput.md)
-
-### UserTagUsersToAssignToWhereInput
-
-\> **UserTagUsersToAssignToWhereInput**: [`UserTagUsersToAssignToWhereInput`](UserTagUsersToAssignToWhereInput.md)
-
-### UserTagWhereInput
-
-\> **UserTagWhereInput**: [`UserTagWhereInput`](UserTagWhereInput.md)
 
 ### UserTagsConnection
 
@@ -886,29 +894,29 @@ Mapping between all available schema types and the resolvers parents
 
 \> **node**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"UserTag"`\]
 
+### UserTagSortedByInput
+
+\> **UserTagSortedByInput**: [`UserTagSortedByInput`](UserTagSortedByInput.md)
+
+### UserTagUsersAssignedToSortedByInput
+
+\> **UserTagUsersAssignedToSortedByInput**: [`UserTagUsersAssignedToSortedByInput`](UserTagUsersAssignedToSortedByInput.md)
+
+### UserTagUsersAssignedToWhereInput
+
+\> **UserTagUsersAssignedToWhereInput**: [`UserTagUsersAssignedToWhereInput`](UserTagUsersAssignedToWhereInput.md)
+
+### UserTagUsersToAssignToWhereInput
+
+\> **UserTagUsersToAssignToWhereInput**: [`UserTagUsersToAssignToWhereInput`](UserTagUsersToAssignToWhereInput.md)
+
+### UserTagWhereInput
+
+\> **UserTagWhereInput**: [`UserTagWhereInput`](UserTagWhereInput.md)
+
 ### UserWhereInput
 
 \> **UserWhereInput**: [`UserWhereInput`](UserWhereInput.md)
-
-### UsersConnection
-
-\> **UsersConnection**: [`Omit`](Omit.md)\<[`UsersConnection`](UsersConnection.md), `"edges"`\> & `object`
-
-#### Type declaration
-
-##### edges
-
-\> **edges**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"UsersConnectionEdge"`\][]
-
-### UsersConnectionEdge
-
-\> **UsersConnectionEdge**: [`Omit`](Omit.md)\<[`UsersConnectionEdge`](UsersConnectionEdge.md), `"node"`\> & `object`
-
-#### Type declaration
-
-##### node
-
-\> **node**: [`ResolversParentTypes`](ResolversParentTypes.md)\[`"User"`\]
 
 ### Venue
 
@@ -948,14 +956,6 @@ Mapping between all available schema types and the resolvers parents
 
 \> **VolunteerRankWhereInput**: [`VolunteerRankWhereInput`](VolunteerRankWhereInput.md)
 
-### chatInput
-
-\> **chatInput**: [`ChatInput`](ChatInput.md)
-
-### createUserFamilyInput
-
-\> **createUserFamilyInput**: [`CreateUserFamilyInput`](CreateUserFamilyInput.md)
-
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3675](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L3675)
+[src/types/generatedGraphQLTypes.ts:3675](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L3675)

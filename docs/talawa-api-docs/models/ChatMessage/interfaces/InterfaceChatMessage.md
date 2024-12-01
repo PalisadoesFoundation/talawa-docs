@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L11)
+[src/models/ChatMessage.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L12)
+[src/models/ChatMessage.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L12)
 
 ***
 
@@ -36,7 +36,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L18)
+[src/models/ChatMessage.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L17)
+[src/models/ChatMessage.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L17)
 
 ***
 
@@ -56,7 +56,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L15)
+[src/models/ChatMessage.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L15)
 
 ***
 
@@ -66,7 +66,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L14)
+[src/models/ChatMessage.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L14)
 
 ***
 
@@ -76,7 +76,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L13)
+[src/models/ChatMessage.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L13)
 
 ***
 
@@ -86,7 +86,7 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L16)
+[src/models/ChatMessage.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L16)
 
 ***
 
@@ -96,4 +96,4 @@ Represents a document for a chat message in the MongoDB database.
 
 #### Defined in
 
-[src/models/ChatMessage.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/ChatMessage.ts#L19)
+[src/models/ChatMessage.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/ChatMessage.ts#L19)

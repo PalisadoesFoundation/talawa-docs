@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,19 +12,27 @@ Creates instances of a recurring event up to a specified end date.
 
 ## Parameters
 
-• **args**: [`MutationCreateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationCreateEventArgs.md)
+### args
+
+[`MutationCreateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationCreateEventArgs.md)
 
 The payload of the createEvent mutation, including event data and recurrence rule.
 
-• **creatorId**: `string`
+### creatorId
+
+`string`
 
 The ID of the event creator.
 
-• **organizationId**: `string`
+### organizationId
+
+`string`
 
 The ID of the organization to which the event belongs.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 The MongoDB client session for transactional operations.
 
@@ -52,4 +60,4 @@ Steps performed by this function:
 
 ## Defined in
 
-[src/helpers/event/createEventHelpers/createRecurringEvent.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/createEventHelpers/createRecurringEvent.ts#L35)
+[src/helpers/event/createEventHelpers/createRecurringEvent.ts:35](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/createEventHelpers/createRecurringEvent.ts#L35)

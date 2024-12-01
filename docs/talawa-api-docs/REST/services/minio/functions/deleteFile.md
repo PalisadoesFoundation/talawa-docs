@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -15,11 +15,15 @@ If an error occurs during the deletion process, it logs the error and rethrows i
 
 ## Parameters
 
-• **bucketName**: `string`
+### bucketName
+
+`string`
 
 The name of the S3 bucket from which the file will be deleted.
 
-• **objectKey**: `string`
+### objectKey
+
+`string`
 
 The key of the object to be deleted in the S3 bucket.
 
@@ -38,4 +42,4 @@ console.log(response);
 
 ## Defined in
 
-[src/REST/services/minio/index.ts:114](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/REST/services/minio/index.ts#L114)
+[src/REST/services/minio/index.ts:114](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/REST/services/minio/index.ts#L114)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -23,11 +23,15 @@ Creates an instance of ValidationError.
 
 #### Parameters
 
-• **errors**: [`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[] = `[]`
+##### errors
+
+[`InterfaceError`](../../applicationError/interfaces/InterfaceError.md)[] = `[]`
 
 An array of errors conforming to the InterfaceError interface (default is an empty array).
 
-• **message**: `string` = `"Validation error"`
+##### message
+
+`string` = `"Validation error"`
 
 The error message (default is "Validation error").
 
@@ -41,7 +45,7 @@ The error message (default is "Validation error").
 
 #### Defined in
 
-[src/libraries/errors/validationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/errors/validationError.ts#L15)
+[src/libraries/errors/validationError.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/errors/validationError.ts#L15)
 
 ## Properties
 
@@ -57,7 +61,7 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -73,7 +77,7 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/errors/applicationError.ts#L23)
 
 ***
 
@@ -127,9 +131,13 @@ Optional override for formatting stack traces
 
 #### Parameters
 
-• **err**: `Error`
+##### err
 
-• **stackTraces**: `CallSite`[]
+`Error`
+
+##### stackTraces
+
+`CallSite`[]
 
 #### Returns
 
@@ -171,9 +179,13 @@ Create .stack property on a target object
 
 #### Parameters
 
-• **targetObject**: `object`
+##### targetObject
 
-• **constructorOpt?**: `Function`
+`object`
+
+##### constructorOpt?
+
+`Function`
 
 #### Returns
 

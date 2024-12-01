@@ -25,4 +25,4 @@ JSX element representing the average rating card with a star rating.
 
 ## Defined in
 
-[src/components/EventStats/Statistics/AverageRating.tsx:33](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventStats/Statistics/AverageRating.tsx#L33)
+[src/components/EventStats/Statistics/AverageRating.tsx:33](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventStats/Statistics/AverageRating.tsx#L33)

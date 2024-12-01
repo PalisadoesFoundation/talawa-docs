@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,7 +13,9 @@ and returns a success status and error message if applicable.
 
 ## Parameters
 
-• **config**: `Record`\<`string`, `string`\>
+### config
+
+`Record`\<`string`, `string`\>
 
 The `config` parameter is an object that contains the configuration settings for the
 SMTP connection. It should have the following properties:
@@ -29,4 +31,4 @@ be `true` and the `error` property will be `null`. If the SMTP connection verifi
 
 ## Defined in
 
-[src/setup/verifySmtpConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/setup/verifySmtpConnection.ts#L18)
+[src/setup/verifySmtpConnection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/setup/verifySmtpConnection.ts#L18)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -6,16 +6,18 @@
 
 # Function: getSort()
 
-\> **getSort**(`orderBy`): `undefined` \| `null` \| `string` \| [`string`, `SortOrder`][] \| `object`
+\> **getSort**(`orderBy`): `undefined` \| `null` \| `string` \| [`string`, `SortOrder`][] \| \{\}
 
 ## Parameters
 
-• **orderBy**: `undefined` \| [`InputMaybe`](../../../../../types/generatedGraphQLTypes/type-aliases/InputMaybe.md)\<`"createdAt_ASC"` \| `"createdAt_DESC"` \| `"dueDate_ASC"` \| `"dueDate_DESC"` \| `"endDate_ASC"` \| `"endDate_DESC"` \| `"fundingGoal_ASC"` \| `"fundingGoal_DESC"` \| `"startDate_ASC"` \| `"startDate_DESC"` \| `"allDay_ASC"` \| `"allDay_DESC"` \| `"description_ASC"` \| `"description_DESC"` \| `"endTime_ASC"` \| `"endTime_DESC"` \| `"id_ASC"` \| `"id_DESC"` \| `"location_ASC"` \| `"location_DESC"` \| `"recurrance_ASC"` \| `"recurrance_DESC"` \| `"startTime_ASC"` \| `"startTime_DESC"` \| `"title_ASC"` \| `"title_DESC"` \| `"hoursVolunteered_ASC"` \| `"hoursVolunteered_DESC"` \| `"apiUrl_ASC"` \| `"apiUrl_DESC"` \| `"name_ASC"` \| `"name_DESC"` \| `"amount_ASC"` \| `"amount_DESC"` \| `"commentCount_ASC"` \| `"commentCount_DESC"` \| `"imageUrl_ASC"` \| `"imageUrl_DESC"` \| `"likeCount_ASC"` \| `"likeCount_DESC"` \| `"text_ASC"` \| `"text_DESC"` \| `"videoUrl_ASC"` \| `"videoUrl_DESC"` \| `"capacity_ASC"` \| `"capacity_DESC"` \| `"email_ASC"` \| `"email_DESC"` \| `"firstName_ASC"` \| `"firstName_DESC"` \| `"lastName_ASC"` \| `"lastName_DESC"`\>
+### orderBy
+
+`undefined` | [`InputMaybe`](../../../../../types/generatedGraphQLTypes/type-aliases/InputMaybe.md)\<`"createdAt_ASC"` \| `"createdAt_DESC"` \| `"dueDate_ASC"` \| `"dueDate_DESC"` \| `"endDate_ASC"` \| `"endDate_DESC"` \| `"fundingGoal_ASC"` \| `"fundingGoal_DESC"` \| `"startDate_ASC"` \| `"startDate_DESC"` \| `"allDay_ASC"` \| `"allDay_DESC"` \| `"description_ASC"` \| `"description_DESC"` \| `"endTime_ASC"` \| `"endTime_DESC"` \| `"id_ASC"` \| `"id_DESC"` \| `"location_ASC"` \| `"location_DESC"` \| `"recurrance_ASC"` \| `"recurrance_DESC"` \| `"startTime_ASC"` \| `"startTime_DESC"` \| `"title_ASC"` \| `"title_DESC"` \| `"hoursVolunteered_ASC"` \| `"hoursVolunteered_DESC"` \| `"apiUrl_ASC"` \| `"apiUrl_DESC"` \| `"name_ASC"` \| `"name_DESC"` \| `"amount_ASC"` \| `"amount_DESC"` \| `"commentCount_ASC"` \| `"commentCount_DESC"` \| `"imageUrl_ASC"` \| `"imageUrl_DESC"` \| `"likeCount_ASC"` \| `"likeCount_DESC"` \| `"text_ASC"` \| `"text_DESC"` \| `"videoUrl_ASC"` \| `"videoUrl_DESC"` \| `"capacity_ASC"` \| `"capacity_DESC"` \| `"email_ASC"` \| `"email_DESC"` \| `"firstName_ASC"` \| `"firstName_DESC"` \| `"lastName_ASC"` \| `"lastName_DESC"`\>
 
 ## Returns
 
-`undefined` \| `null` \| `string` \| [`string`, `SortOrder`][] \| `object`
+`undefined` \| `null` \| `string` \| [`string`, `SortOrder`][] \| \{\}
 
 ## Defined in
 
-[src/resolvers/Query/helperFunctions/getSort.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Query/helperFunctions/getSort.ts#L17)
+[src/resolvers/Query/helperFunctions/getSort.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Query/helperFunctions/getSort.ts#L17)

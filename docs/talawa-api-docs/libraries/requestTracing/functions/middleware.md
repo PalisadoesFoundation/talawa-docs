@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -19,11 +19,17 @@ A middleware function.
 
 ### Parameters
 
-• **req**: `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
+#### req
 
-• **res**: `Response`\<`any`, `Record`\<`string`, `any`\>\>
+`Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
 
-• **next**: `NextFunction`
+#### res
+
+`Response`\<`any`, `Record`\<`string`, `any`\>\>
+
+#### next
+
+`NextFunction`
 
 ### Returns
 
@@ -31,4 +37,4 @@ A middleware function.
 
 ## Defined in
 
-[src/libraries/requestTracing.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/requestTracing.ts#L57)
+[src/libraries/requestTracing.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/requestTracing.ts#L57)

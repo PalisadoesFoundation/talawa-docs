@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,21 +12,25 @@ Deletes all instances or thisAndFollowingInstances of a recurring event.
 
 ## Parameters
 
-• **event**: `null` \| [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### event
 
-The event instance to be deleted:
-  - For thisAndFollowingInstances, represents the starting instance.
-  - For allInstances, should be null.
+`null` | [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
-• **recurrenceRule**: [`InterfaceRecurrenceRule`](../../../../../models/RecurrenceRule/interfaces/InterfaceRecurrenceRule.md)
+### recurrenceRule
+
+[`InterfaceRecurrenceRule`](../../../../../models/RecurrenceRule/interfaces/InterfaceRecurrenceRule.md)
 
 The recurrence rule associated with the instances.
 
-• **baseRecurringEvent**: [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### baseRecurringEvent
+
+[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
 The base recurring event from which instances are derived.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 ## Returns
 
@@ -43,4 +47,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts#L32)
+[src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/deleteEventHelpers/deleteRecurringEventInstances.ts#L32)

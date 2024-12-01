@@ -18,4 +18,4 @@ Additionally, it shows recent contribution statistics and a list of contribution
 
 ## Defined in
 
-[src/screens/OrgContribution/OrgContribution.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/OrgContribution/OrgContribution.tsx#L17)
+[src/screens/OrgContribution/OrgContribution.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/OrgContribution/OrgContribution.tsx#L17)

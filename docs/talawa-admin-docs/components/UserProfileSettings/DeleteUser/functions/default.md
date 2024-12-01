@@ -31,4 +31,4 @@ The JSX element for the delete user card.
 
 ## Defined in
 
-[src/components/UserProfileSettings/DeleteUser.tsx:12](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/UserProfileSettings/DeleteUser.tsx#L12)
+[src/components/UserProfileSettings/DeleteUser.tsx:12](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/UserProfileSettings/DeleteUser.tsx#L12)

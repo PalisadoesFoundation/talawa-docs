@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,31 +12,43 @@ Creates a recurrence rule document based on the provided parameters.
 
 ## Parameters
 
-• **recurrenceRuleString**: `string`
+### recurrenceRuleString
+
+`string`
 
 The string representation of the recurrence rule (RRULE).
 
-• **recurrenceStartDate**: `Date`
+### recurrenceStartDate
+
+`Date`
 
 The start date of recurrence.
 
-• **recurrenceEndDate**: `null` \| `Date`
+### recurrenceEndDate
 
-The end date of recurrence, if specified.
+`null` | `Date`
 
-• **organizationId**: `string`
+### organizationId
+
+`string`
 
 The unique identifier of the organization to which the recurrence rule belongs.
 
-• **baseRecurringEventId**: `string`
+### baseRecurringEventId
+
+`string`
 
 The ID of the base recurring event this rule is associated with.
 
-• **latestInstanceDate**: `Date`
+### latestInstanceDate
+
+`Date`
 
 The start date of the last instance generated during this operation.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 The MongoDB client session for transactional operations.
 
@@ -55,4 +67,4 @@ This function performs the following steps:
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts#L26)
+[src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts:26](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/recurringEventHelpers/createRecurrenceRule.ts#L26)

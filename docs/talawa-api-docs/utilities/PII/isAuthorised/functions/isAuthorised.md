@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,11 +12,15 @@ Checks if the requesting user is authorized to access or modify the requested us
 
 ## Parameters
 
-• **requestingUser**: [`User`](../../../../types/generatedGraphQLTypes/type-aliases/User.md)
+### requestingUser
+
+[`User`](../../../../types/generatedGraphQLTypes/type-aliases/User.md)
 
 The user making the request.
 
-• **requestedUser**: [`User`](../../../../types/generatedGraphQLTypes/type-aliases/User.md)
+### requestedUser
+
+[`User`](../../../../types/generatedGraphQLTypes/type-aliases/User.md)
 
 The user whose data is being requested or modified.
 
@@ -28,4 +32,4 @@ The user whose data is being requested or modified.
 
 ## Defined in
 
-[src/utilities/PII/isAuthorised.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/PII/isAuthorised.ts#L9)
+[src/utilities/PII/isAuthorised.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/PII/isAuthorised.ts#L9)

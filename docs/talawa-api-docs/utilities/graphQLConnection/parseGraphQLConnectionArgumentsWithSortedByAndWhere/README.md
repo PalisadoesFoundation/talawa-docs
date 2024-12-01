@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -10,8 +10,8 @@
 
 ### Type Aliases
 
-- [ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult](type-aliases/ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult.md)
 - [ParsedGraphQLConnectionArgumentsWithSortedByAndWhere](type-aliases/ParsedGraphQLConnectionArgumentsWithSortedByAndWhere.md)
+- [ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult](type-aliases/ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult.md)
 
 ### Functions
 

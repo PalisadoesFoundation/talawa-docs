@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Represents the structure of an organization custom field in the database.
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/OrganizationCustomField.ts#L9)
+[src/models/OrganizationCustomField.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/OrganizationCustomField.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ Represents the structure of an organization custom field in the database.
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/OrganizationCustomField.ts#L12)
+[src/models/OrganizationCustomField.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/OrganizationCustomField.ts#L12)
 
 ***
 
@@ -36,7 +36,7 @@ Represents the structure of an organization custom field in the database.
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/OrganizationCustomField.ts#L10)
+[src/models/OrganizationCustomField.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/OrganizationCustomField.ts#L10)
 
 ***
 
@@ -46,4 +46,4 @@ Represents the structure of an organization custom field in the database.
 
 #### Defined in
 
-[src/models/OrganizationCustomField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/OrganizationCustomField.ts#L11)
+[src/models/OrganizationCustomField.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/OrganizationCustomField.ts#L11)

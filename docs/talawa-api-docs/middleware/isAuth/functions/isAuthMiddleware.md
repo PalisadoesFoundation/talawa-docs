@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,15 +16,21 @@ route handlers to use.
 
 ## Parameters
 
-• **req**: [`InterfaceAuthenticatedRequest`](../interfaces/InterfaceAuthenticatedRequest.md)
+### req
+
+[`InterfaceAuthenticatedRequest`](../interfaces/InterfaceAuthenticatedRequest.md)
 
 The incoming request object. The JWT token is expected in the `Authorization` header.
 
-• **res**: `Response`\<`any`, `Record`\<`string`, `any`\>\>
+### res
+
+`Response`\<`any`, `Record`\<`string`, `any`\>\>
 
 The response object. If authentication fails, an HTTP 401 response will be sent.
 
-• **next**: `NextFunction`
+### next
+
+`NextFunction`
 
 The next middleware function in the stack. It is called if the user is authenticated.
 
@@ -46,4 +52,4 @@ app.use("/api/protected-route", isAuthMiddleware, (req, res) =\> \{
 
 ## Defined in
 
-[src/middleware/isAuth.ts:110](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/middleware/isAuth.ts#L110)
+[src/middleware/isAuth.ts:110](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/middleware/isAuth.ts#L110)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L11)
+[src/models/Chat.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L19)
+[src/models/Chat.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L19)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L20)
+[src/models/Chat.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L20)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L16)
+[src/models/Chat.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L16)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L12)
+[src/models/Chat.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L12)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L22)
+[src/models/Chat.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L22)
 
 ***
 
@@ -76,7 +76,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L15)
+[src/models/Chat.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L15)
 
 ***
 
@@ -86,7 +86,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L13)
+[src/models/Chat.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L13)
 
 ***
 
@@ -96,7 +96,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L17)
+[src/models/Chat.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L17)
 
 ***
 
@@ -106,7 +106,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L18)
+[src/models/Chat.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L18)
 
 ***
 
@@ -116,7 +116,7 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L21)
+[src/models/Chat.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L21)
 
 ***
 
@@ -126,4 +126,4 @@ Interface representing a document for direct chat in MongoDB.
 
 #### Defined in
 
-[src/models/Chat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Chat.ts#L14)
+[src/models/Chat.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Chat.ts#L14)

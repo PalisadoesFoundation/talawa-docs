@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,15 +13,19 @@ If the user is an admin, the function completes successfully. Otherwise, it thro
 
 ## Parameters
 
-• **userId**: `string` \| `ObjectId`
+### userId
 
-The ID of the current user. It can be a string or a Types.ObjectId.
+`string` | `ObjectId`
 
-• **organization**: [`InterfaceOrganization`](../../../models/Organization/interfaces/InterfaceOrganization.md)
+### organization
+
+[`InterfaceOrganization`](../../../models/Organization/interfaces/InterfaceOrganization.md)
 
 The organization data of `InterfaceOrganization` type.
 
-• **throwError**: `boolean` = `true`
+### throwError
+
+`boolean` = `true`
 
 A boolean value to determine if the function should throw an error. Default is `true`.
 
@@ -37,4 +41,4 @@ This is a utility method.
 
 ## Defined in
 
-[src/utilities/adminCheck.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/adminCheck.ts#L18)
+[src/utilities/adminCheck.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/adminCheck.ts#L18)

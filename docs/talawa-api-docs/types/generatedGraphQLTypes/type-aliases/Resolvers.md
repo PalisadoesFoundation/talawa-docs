@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -374,10 +374,6 @@
 
 \> `optional` **Translation**: [`TranslationResolvers`](TranslationResolvers.md)\<`ContextType`\>
 
-### URL?
-
-\> `optional` **URL**: `GraphQLScalarType`
-
 ### UnauthenticatedError?
 
 \> `optional` **UnauthenticatedError**: [`UnauthenticatedErrorResolvers`](UnauthenticatedErrorResolvers.md)\<`ContextType`\>
@@ -393,6 +389,10 @@
 ### Upload?
 
 \> `optional` **Upload**: `GraphQLScalarType`
+
+### URL?
+
+\> `optional` **URL**: `GraphQLScalarType`
 
 ### User?
 
@@ -430,6 +430,14 @@
 
 \> `optional` **UserPhone**: [`UserPhoneResolvers`](UserPhoneResolvers.md)\<`ContextType`\>
 
+### UsersConnection?
+
+\> `optional` **UsersConnection**: [`UsersConnectionResolvers`](UsersConnectionResolvers.md)\<`ContextType`\>
+
+### UsersConnectionEdge?
+
+\> `optional` **UsersConnectionEdge**: [`UsersConnectionEdgeResolvers`](UsersConnectionEdgeResolvers.md)\<`ContextType`\>
+
 ### UserTag?
 
 \> `optional` **UserTag**: [`UserTagResolvers`](UserTagResolvers.md)\<`ContextType`\>
@@ -441,14 +449,6 @@
 ### UserTagsConnectionEdge?
 
 \> `optional` **UserTagsConnectionEdge**: [`UserTagsConnectionEdgeResolvers`](UserTagsConnectionEdgeResolvers.md)\<`ContextType`\>
-
-### UsersConnection?
-
-\> `optional` **UsersConnection**: [`UsersConnectionResolvers`](UsersConnectionResolvers.md)\<`ContextType`\>
-
-### UsersConnectionEdge?
-
-\> `optional` **UsersConnectionEdge**: [`UsersConnectionEdgeResolvers`](UsersConnectionEdgeResolvers.md)\<`ContextType`\>
 
 ### Venue?
 
@@ -464,4 +464,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:5046](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L5046)
+[src/types/generatedGraphQLTypes.ts:5046](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L5046)

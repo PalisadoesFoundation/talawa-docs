@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,7 +13,9 @@ provided URL.
 
 ## Parameters
 
-• **url**: `string`
+### url
+
+`string`
 
 The `url` parameter is a string that represents the URL of the Redis server.
 It is used to establish a connection to the Redis server.
@@ -26,4 +28,4 @@ a Promise that resolves to a boolean value.
 
 ## Defined in
 
-[src/setup/redisConfiguration.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/setup/redisConfiguration.ts#L12)
+[src/setup/redisConfiguration.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/setup/redisConfiguration.ts#L12)

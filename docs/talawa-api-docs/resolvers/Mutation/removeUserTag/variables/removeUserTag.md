@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -41,4 +41,4 @@ The tag that was deleted.
 
 ## Defined in
 
-[src/resolvers/Mutation/removeUserTag.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Mutation/removeUserTag.ts#L43)
+[src/resolvers/Mutation/removeUserTag.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Mutation/removeUserTag.ts#L43)

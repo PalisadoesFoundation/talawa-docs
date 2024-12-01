@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -6,7 +6,7 @@
 
 # Type Alias: ParseGraphQLConnectionArgumentsResult\<T0\>
 
-\> **ParseGraphQLConnectionArgumentsResult**\<`T0`\>: `object` \| `object`
+\> **ParseGraphQLConnectionArgumentsResult**\<`T0`\>: \{`errors`: [`DefaultGraphQLArgumentError`](../../type-aliases/DefaultGraphQLArgumentError.md)[];`isSuccessful`: `false`; \} \| \{`isSuccessful`: `true`;`parsedArgs`: [`ParsedGraphQLConnectionArguments`](ParsedGraphQLConnectionArguments.md)\<`T0`\>; \}
 
 This is typescript type of the object returned from `parseGraphQLConnectionArguments`
 function.
@@ -17,4 +17,4 @@ function.
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L57)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts:57](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/graphQLConnection/parseGraphQLConnectionArguments.ts#L57)

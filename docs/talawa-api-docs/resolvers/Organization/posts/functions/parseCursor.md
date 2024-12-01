@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -14,7 +14,9 @@ This function is used to parse the cursor value for the `posts` connection resol
 
 ## Parameters
 
-• **\_\_namedParameters**: [`ParseGraphQLConnectionCursorArguments`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorArguments.md) & `object`
+### \_\_namedParameters
+
+[`ParseGraphQLConnectionCursorArguments`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorArguments.md) & `object`
 
 ## Returns
 
@@ -30,4 +32,4 @@ An object containing the parsed cursor value or an array of errors if the cursor
 
 ## Defined in
 
-[src/resolvers/Organization/posts.ts:125](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Organization/posts.ts#L125)
+[src/resolvers/Organization/posts.ts:125](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Organization/posts.ts#L125)

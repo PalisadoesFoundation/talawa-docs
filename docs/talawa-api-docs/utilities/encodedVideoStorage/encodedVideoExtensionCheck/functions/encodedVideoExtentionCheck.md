@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Checks if the provided base64 encoded URL represents a video with the "mp4" exte
 
 ## Parameters
 
-• **encodedUrl**: `string`
+### encodedUrl
+
+`string`
 
 The base64 encoded URL of the video.
 
@@ -24,4 +26,4 @@ The base64 encoded URL of the video.
 
 ## Defined in
 
-[src/utilities/encodedVideoStorage/encodedVideoExtensionCheck.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/encodedVideoStorage/encodedVideoExtensionCheck.ts#L6)
+[src/utilities/encodedVideoStorage/encodedVideoExtensionCheck.ts:6](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/encodedVideoStorage/encodedVideoExtensionCheck.ts#L6)

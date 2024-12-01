@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Deletes the previous image file if its `numberOfUses` is 1 and updates the `numb
 
 ## Parameters
 
-• **imageToBeDeletedPath**: `string`
+### imageToBeDeletedPath
+
+`string`
 
 Path of the image to be deleted.
 
@@ -22,4 +24,4 @@ Path of the image to be deleted.
 
 ## Defined in
 
-[src/utilities/encodedImageStorage/deletePreviousImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/encodedImageStorage/deletePreviousImage.ts#L9)
+[src/utilities/encodedImageStorage/deletePreviousImage.ts:9](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/encodedImageStorage/deletePreviousImage.ts#L9)

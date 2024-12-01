@@ -29,4 +29,4 @@ JSX.Element - The rendered dropdown component.
 
 ## Defined in
 
-[src/components/DynamicDropDown/DynamicDropDown.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/DynamicDropDown/DynamicDropDown.tsx#L34)
+[src/components/DynamicDropDown/DynamicDropDown.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/DynamicDropDown/DynamicDropDown.tsx#L34)

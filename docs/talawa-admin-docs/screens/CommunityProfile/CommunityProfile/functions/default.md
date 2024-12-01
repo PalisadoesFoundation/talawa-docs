@@ -29,4 +29,4 @@ JSX.Element - The `CommunityProfile` component.
 
 ## Defined in
 
-[src/screens/CommunityProfile/CommunityProfile.tsx:40](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/CommunityProfile/CommunityProfile.tsx#L40)
+[src/screens/CommunityProfile/CommunityProfile.tsx:40](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/CommunityProfile/CommunityProfile.tsx#L40)

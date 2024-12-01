@@ -1,4 +1,4 @@
-[**talawa-api**](../README.md) • **Docs**
+[**talawa-api**](../README.md)
 
 ***
 

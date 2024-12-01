@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -23,19 +23,23 @@ Creates an instance of InternalServerError.
 
 #### Parameters
 
-• **message**: `string` = `"Internal Server Error!"`
+##### message
+
+`string` = `"Internal Server Error!"`
 
 The error message (default is "Internal Server Error!").
 
-• **code**: `null` \| `string` = `null`
+##### code
 
-Optional error code (default is null).
+`null` | `string`
 
-• **param**: `null` \| `string` = `null`
+##### param
 
-Optional parameter associated with the error (default is null).
+`null` | `string`
 
-• **metadata**: `Record`\<`any`, `any`\> = `\{\}`
+##### metadata
+
+`Record`\<`any`, `any`\> = `\{\}`
 
 Optional additional metadata associated with the error (default is an empty object).
 
@@ -49,7 +53,7 @@ Optional additional metadata associated with the error (default is an empty obje
 
 #### Defined in
 
-[src/libraries/errors/internalServerError.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/errors/internalServerError.ts#L16)
+[src/libraries/errors/internalServerError.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/errors/internalServerError.ts#L16)
 
 ## Properties
 
@@ -65,7 +69,7 @@ An array of errors conforming to the InterfaceError interface
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/errors/applicationError.ts#L21)
+[src/libraries/errors/applicationError.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/errors/applicationError.ts#L21)
 
 ***
 
@@ -81,7 +85,7 @@ The HTTP status code associated with the error
 
 #### Defined in
 
-[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/errors/applicationError.ts#L23)
+[src/libraries/errors/applicationError.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/errors/applicationError.ts#L23)
 
 ***
 
@@ -135,9 +139,13 @@ Optional override for formatting stack traces
 
 #### Parameters
 
-• **err**: `Error`
+##### err
 
-• **stackTraces**: `CallSite`[]
+`Error`
+
+##### stackTraces
+
+`CallSite`[]
 
 #### Returns
 
@@ -179,9 +187,13 @@ Create .stack property on a target object
 
 #### Parameters
 
-• **targetObject**: `object`
+##### targetObject
 
-• **constructorOpt?**: `Function`
+`object`
+
+##### constructorOpt?
+
+`Function`
 
 #### Returns
 

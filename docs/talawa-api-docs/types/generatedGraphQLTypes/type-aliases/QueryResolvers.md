@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -160,6 +160,10 @@
 
 \> `optional` **getFundraisingCampaigns**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"FundraisingCampaign"`\]\>[], `ParentType`, `ContextType`, `Partial`\<[`QueryGetFundraisingCampaignsArgs`](QueryGetFundraisingCampaignsArgs.md)\>\>
 
+### getlanguage?
+
+\> `optional` **getlanguage**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Translation"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetlanguageArgs`](QueryGetlanguageArgs.md), `"lang_code"`\>\>
+
 ### getNoteById?
 
 \> `optional` **getNoteById**: [`Resolver`](Resolver.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Note"`\], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetNoteByIdArgs`](QueryGetNoteByIdArgs.md), `"id"`\>\>
@@ -191,10 +195,6 @@
 ### getVolunteerRanks?
 
 \> `optional` **getVolunteerRanks**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"VolunteerRank"`\]\>[], `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetVolunteerRanksArgs`](QueryGetVolunteerRanksArgs.md), `"orgId"` \| `"where"`\>\>
-
-### getlanguage?
-
-\> `optional` **getlanguage**: [`Resolver`](Resolver.md)\<[`Maybe`](Maybe.md)\<[`Maybe`](Maybe.md)\<[`ResolversTypes`](ResolversTypes.md)\[`"Translation"`\]\>[]\>, `ParentType`, `ContextType`, [`RequireFields`](RequireFields.md)\<[`QueryGetlanguageArgs`](QueryGetlanguageArgs.md), `"lang_code"`\>\>
 
 ### hasSubmittedFeedback?
 
@@ -266,4 +266,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:4764](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L4764)
+[src/types/generatedGraphQLTypes.ts:4764](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L4764)

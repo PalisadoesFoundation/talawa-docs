@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,9 +12,9 @@ Creates instances of recurring events up to a specified date during queries.
 
 ## Parameters
 
-• **organizationId**: `undefined` \| `null` \| `string`
+### organizationId
 
-The ID of the organization to which the events belong.
+`undefined` | `null` | `string`
 
 ## Returns
 
@@ -39,4 +39,4 @@ This function follows these steps:
 
 ## Defined in
 
-[src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts#L32)
+[src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/createEventHelpers/createRecurringEventInstancesDuringQuery.ts#L32)

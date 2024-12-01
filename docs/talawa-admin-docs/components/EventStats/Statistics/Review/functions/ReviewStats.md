@@ -25,4 +25,4 @@ JSX element representing the reviews card.
 
 ## Defined in
 
-[src/components/EventStats/Statistics/Review.tsx:30](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventStats/Statistics/Review.tsx#L30)
+[src/components/EventStats/Statistics/Review.tsx:30](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventStats/Statistics/Review.tsx#L30)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -16,11 +16,15 @@ If an error occurs during the retrieval, it logs the error and sends a 500 statu
 
 ## Parameters
 
-• **req**: `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
+### req
+
+`Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
 
 The Express request object, containing the key for the file in the parameters.
 
-• **res**: `Response`\<`any`, `Record`\<`string`, `any`\>\>
+### res
+
+`Response`\<`any`, `Record`\<`string`, `any`\>\>
 
 The Express response object used to send the file back to the client.
 
@@ -38,4 +42,4 @@ app.get("/file/:key*", getFile);
 
 ## Defined in
 
-[src/REST/controllers/query/getFile.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/REST/controllers/query/getFile.ts#L23)
+[src/REST/controllers/query/getFile.ts:23](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/REST/controllers/query/getFile.ts#L23)

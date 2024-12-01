@@ -37,7 +37,7 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L20)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L20)
 
 ***
 
@@ -47,7 +47,7 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:22](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L22)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:22](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L22)
 
 ***
 
@@ -57,7 +57,7 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:21](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L21)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:21](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L21)
 
 ***
 
@@ -67,7 +67,7 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:23](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L23)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:23](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L23)
 
 ***
 
@@ -77,7 +77,7 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:19](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L19)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:19](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L19)
 
 ***
 
@@ -87,7 +87,7 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L18)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L18)
 
 ***
 
@@ -97,4 +97,4 @@ Event location
 
 #### Defined in
 
-[src/components/MemberDetail/EventsAttendedCardItem.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/MemberDetail/EventsAttendedCardItem.tsx#L17)
+[src/components/MemberDetail/EventsAttendedCardItem.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/MemberDetail/EventsAttendedCardItem.tsx#L17)

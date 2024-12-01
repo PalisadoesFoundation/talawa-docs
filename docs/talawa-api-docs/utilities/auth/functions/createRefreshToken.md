@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,11 +13,15 @@ The token contains user data and is signed with the refresh token secret.
 
 ## Parameters
 
-• **user**: [`InterfaceUser`](../../../models/User/interfaces/InterfaceUser.md)
+### user
+
+[`InterfaceUser`](../../../models/User/interfaces/InterfaceUser.md)
 
 User data
 
-• **appUserProfile**: [`InterfaceAppUserProfile`](../../../models/AppUserProfile/interfaces/InterfaceAppUserProfile.md)
+### appUserProfile
+
+[`InterfaceAppUserProfile`](../../../models/AppUserProfile/interfaces/InterfaceAppUserProfile.md)
 
 Application user profile data
 
@@ -29,4 +33,4 @@ JSON Web Token string payload
 
 ## Defined in
 
-[src/utilities/auth.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/auth.ts#L60)
+[src/utilities/auth.ts:60](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/auth.ts#L60)

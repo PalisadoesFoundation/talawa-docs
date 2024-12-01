@@ -48,4 +48,4 @@ Success or error messages are displayed using toast notifications based on the r
 
 ## Defined in
 
-[src/screens/FundCampaignPledge/PledgeModal.tsx:72](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/FundCampaignPledge/PledgeModal.tsx#L72)
+[src/screens/FundCampaignPledge/PledgeModal.tsx:72](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/FundCampaignPledge/PledgeModal.tsx#L72)

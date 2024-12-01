@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,13 +12,13 @@ This function checks whether the baseRecurringEvent should be updated.
 
 ## Parameters
 
-• **recurrenceRuleEndDate**: `undefined` \| `null` \| `string`
+### recurrenceRuleEndDate
 
-the end date of the recurrence rule.
+`undefined` | `null` | `string`
 
-• **baseRecurringEventEndDate**: `undefined` \| `null` \| `string`
+### baseRecurringEventEndDate
 
-the end date of the base recurring event.
+`undefined` | `null` | `string`
 
 ## Returns
 
@@ -28,4 +28,4 @@ true if the recurrence rule is the latest rule that the instances were following
 
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/shouldUpdateBaseRecurringEvent.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/updateEventHelpers/shouldUpdateBaseRecurringEvent.ts#L8)
+[src/helpers/event/updateEventHelpers/shouldUpdateBaseRecurringEvent.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/updateEventHelpers/shouldUpdateBaseRecurringEvent.ts#L8)

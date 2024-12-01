@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/CheckOut.ts#L17)
+[src/models/CheckOut.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/CheckOut.ts#L17)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/CheckOut.ts#L20)
+[src/models/CheckOut.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/CheckOut.ts#L20)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/CheckOut.ts#L18)
+[src/models/CheckOut.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/CheckOut.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/CheckOut.ts#L19)
+[src/models/CheckOut.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/CheckOut.ts#L19)
 
 ***
 
@@ -56,4 +56,4 @@ Interface representing a document for a check-out record in MongoDB.
 
 #### Defined in
 
-[src/models/CheckOut.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/CheckOut.ts#L21)
+[src/models/CheckOut.ts:21](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/CheckOut.ts#L21)

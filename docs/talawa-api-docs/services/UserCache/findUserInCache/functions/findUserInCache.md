@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Retrieves user data from cache based on provided IDs.
 
 ## Parameters
 
-• **ids**: `string`[]
+### ids
+
+`string`[]
 
 An array of user IDs to retrieve from cache.
 
@@ -24,4 +26,4 @@ A promise resolving to an array of InterfaceUser objects or null if not found in
 
 ## Defined in
 
-[src/services/UserCache/findUserInCache.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/services/UserCache/findUserInCache.ts#L12)
+[src/services/UserCache/findUserInCache.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/services/UserCache/findUserInCache.ts#L12)

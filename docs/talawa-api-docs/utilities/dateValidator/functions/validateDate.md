@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,13 +12,13 @@ Validates the start and end dates.
 
 ## Parameters
 
-• **startDate**: `undefined` \| `Date`
+### startDate
 
-The starting date.
+`undefined` | `Date`
 
-• **endDate**: `undefined` \| `Date`
+### endDate
 
-The ending date.
+`undefined` | `Date`
 
 ## Returns
 
@@ -26,4 +26,4 @@ The ending date.
 
 ## Defined in
 
-[src/utilities/dateValidator.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/dateValidator.ts#L12)
+[src/utilities/dateValidator.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/dateValidator.ts#L12)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,15 +12,21 @@ Removes dangling recurrence rule and base recurring event documents if they have
 
 ## Parameters
 
-• **recurrenceRuleId**: `string`
+### recurrenceRuleId
+
+`string`
 
 _id of the recurrence rule.
 
-• **baseRecurringEventId**: `string`
+### baseRecurringEventId
+
+`string`
 
 _id of the base recurring event.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 Mongoose client session.
 
@@ -35,4 +41,4 @@ If no associated events are found, it deletes the document from the database.
 
 ## Defined in
 
-[src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts#L13)
+[src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/recurringEventHelpers/removeDanglingDocuments.ts#L13)

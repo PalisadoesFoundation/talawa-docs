@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Caches the provided array of InterfaceUser objects in Redis.
 
 ## Parameters
 
-• **users**: [`InterfaceUser`](../../../../models/User/interfaces/InterfaceUser.md)[]
+### users
+
+[`InterfaceUser`](../../../../models/User/interfaces/InterfaceUser.md)[]
 
 An array of InterfaceUser objects to be cached.
 
@@ -24,4 +26,4 @@ A promise resolving to void.
 
 ## Defined in
 
-[src/services/UserCache/cacheUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/services/UserCache/cacheUser.ts#L11)
+[src/services/UserCache/cacheUser.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/services/UserCache/cacheUser.ts#L11)

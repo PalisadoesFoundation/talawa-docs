@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Sends an email using Nodemailer.
 
 ## Parameters
 
-• **mailFields**: [`InterfaceMailFields`](../interfaces/InterfaceMailFields.md)
+### mailFields
+
+[`InterfaceMailFields`](../interfaces/InterfaceMailFields.md)
 
 An object containing emailTo, subject, and body fields.
 
@@ -28,4 +30,4 @@ This is a utility method for sending emails.
 
 ## Defined in
 
-[src/utilities/mailer.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/mailer.ts#L27)
+[src/utilities/mailer.ts:27](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/mailer.ts#L27)

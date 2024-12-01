@@ -22,4 +22,4 @@ JSX element representing the wrapper with a button to show the modal.
 
 ## Defined in
 
-[src/components/EventRegistrantsModal/EventRegistrantsWrapper.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventRegistrantsModal/EventRegistrantsWrapper.tsx#L20)
+[src/components/EventRegistrantsModal/EventRegistrantsWrapper.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventRegistrantsModal/EventRegistrantsWrapper.tsx#L20)

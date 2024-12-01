@@ -27,4 +27,4 @@ JSX.Element - The rendered sidebar component.
 
 ## Defined in
 
-[src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.tsx:39](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.tsx#L39)
+[src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.tsx:39](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/UserPortal/UserSidebarOrg/UserSidebarOrg.tsx#L39)

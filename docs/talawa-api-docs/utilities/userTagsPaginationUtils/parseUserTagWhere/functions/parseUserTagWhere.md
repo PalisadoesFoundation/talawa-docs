@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ function to parse the args.where for UserTag queries
 
 ## Parameters
 
-• **where**: `undefined` \| `null` \| [`UserTagWhereInput`](../../../../types/generatedGraphQLTypes/type-aliases/UserTagWhereInput.md)
+### where
+
+`undefined` | `null` | [`UserTagWhereInput`](../../../../types/generatedGraphQLTypes/type-aliases/UserTagWhereInput.md)
 
 ## Returns
 
@@ -20,4 +22,4 @@ function to parse the args.where for UserTag queries
 
 ## Defined in
 
-[src/utilities/userTagsPaginationUtils/parseUserTagWhere.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/userTagsPaginationUtils/parseUserTagWhere.ts#L17)
+[src/utilities/userTagsPaginationUtils/parseUserTagWhere.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/userTagsPaginationUtils/parseUserTagWhere.ts#L17)

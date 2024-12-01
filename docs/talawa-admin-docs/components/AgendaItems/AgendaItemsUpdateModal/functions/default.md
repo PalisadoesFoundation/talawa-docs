@@ -30,4 +30,4 @@ Also includes functionality to add, remove URLs and attachments.
 
 ## Defined in
 
-[src/components/AgendaItems/AgendaItemsUpdateModal.tsx:49](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/AgendaItems/AgendaItemsUpdateModal.tsx#L49)
+[src/components/AgendaItems/AgendaItemsUpdateModal.tsx:49](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/AgendaItems/AgendaItemsUpdateModal.tsx#L49)

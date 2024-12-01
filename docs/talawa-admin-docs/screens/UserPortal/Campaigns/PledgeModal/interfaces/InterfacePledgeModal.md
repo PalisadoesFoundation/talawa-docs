@@ -16,7 +16,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:33](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L33)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:33](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L33)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:37](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L37)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:37](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L37)
 
 ***
 
@@ -40,7 +40,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:32](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L32)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:32](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L32)
 
 ***
 
@@ -50,7 +50,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:31](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L31)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:31](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L31)
 
 ***
 
@@ -60,7 +60,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:38](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L38)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:38](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L38)
 
 ***
 
@@ -70,7 +70,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:35](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L35)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:35](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L35)
 
 ***
 
@@ -84,7 +84,7 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:36](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L36)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:36](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L36)
 
 ***
 
@@ -94,4 +94,4 @@ Interface representing the properties for the `PledgeModal` component.
 
 #### Defined in
 
-[src/screens/UserPortal/Campaigns/PledgeModal.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L34)
+[src/screens/UserPortal/Campaigns/PledgeModal.tsx:34](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/UserPortal/Campaigns/PledgeModal.tsx#L34)

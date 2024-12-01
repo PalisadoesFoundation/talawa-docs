@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Caches the provided array of InterfacePost objects in Redis.
 
 ## Parameters
 
-• **posts**: [`InterfacePost`](../../../../models/Post/interfaces/InterfacePost.md)[]
+### posts
+
+[`InterfacePost`](../../../../models/Post/interfaces/InterfacePost.md)[]
 
 An array of InterfacePost objects to be cached.
 
@@ -24,4 +26,4 @@ A promise resolving to void.
 
 ## Defined in
 
-[src/services/PostCache/cachePosts.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/services/PostCache/cachePosts.ts#L11)
+[src/services/PostCache/cachePosts.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/services/PostCache/cachePosts.ts#L11)

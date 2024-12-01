@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,15 +12,21 @@ Decrypts the given encrypted text using AES-256-CBC decryption.
 
 ## Parameters
 
-• **encryptedText**: `string`
+### encryptedText
+
+`string`
 
 The encrypted text to decrypt, encoded as a hexadecimal string.
 
-• **key**: `string`
+### key
+
+`string`
 
 The encryption key used for decryption.
 
-• **iv**: `string`
+### iv
+
+`string`
 
 The initialization vector (IV), used to ensure different ciphertexts encrypt to different ciphertexts even if the plaintexts are identical.
 
@@ -32,4 +38,4 @@ The decrypted plaintext string.
 
 ## Defined in
 
-[src/utilities/PII/decryption.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/PII/decryption.ts#L11)
+[src/utilities/PII/decryption.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/PII/decryption.ts#L11)

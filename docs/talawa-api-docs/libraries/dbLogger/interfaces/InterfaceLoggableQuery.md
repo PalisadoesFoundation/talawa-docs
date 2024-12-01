@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -18,20 +18,6 @@ Interface for a query that can include logging information.
 
 ## Properties
 
-### \[toStringTag\]
-
-\> **\[toStringTag\]**: `string`
-
-#### Inherited from
-
-`Query.[toStringTag]`
-
-#### Defined in
-
-node\_modules/mongoose/types/query.d.ts:269
-
-***
-
 ### \_mongooseOptions
 
 \> **\_mongooseOptions**: `MongooseQueryOptions`\<`T`, `"timestamps"` \| `MongooseBaseQueryOptionKeys` \| `"lean"`\>
@@ -43,6 +29,20 @@ node\_modules/mongoose/types/query.d.ts:269
 #### Defined in
 
 node\_modules/mongoose/types/query.d.ts:209
+
+***
+
+### \[toStringTag\]
+
+\> **\[toStringTag\]**: `string`
+
+#### Inherited from
+
+`Query.[toStringTag]`
+
+#### Defined in
+
+node\_modules/mongoose/types/query.d.ts:269
 
 ***
 
@@ -62,7 +62,11 @@ Attaches a callback for only the rejection of the Promise.
 
 #### Parameters
 
-• **onrejected?**: `null` \| (`reason`) =\> `TResult` \| `PromiseLike`\<`TResult`\>
+##### onrejected?
+
+`null`
+
+(`reason`) =\> `TResult` \| `PromiseLike`\<`TResult`\>
 
 The callback to execute when the Promise is rejected.
 
@@ -94,7 +98,11 @@ resolved value cannot be modified from the callback.
 
 #### Parameters
 
-• **onfinally?**: `null` \| () =\> `void`
+##### onfinally?
+
+`null`
+
+() =\> `void`
 
 The callback to execute when the Promise is settled (fulfilled or rejected).
 
@@ -122,7 +130,7 @@ Information about the transaction log (optional)
 
 #### Defined in
 
-[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/dbLogger.ts#L55)
+[src/libraries/dbLogger.ts:55](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/dbLogger.ts#L55)
 
 ***
 
@@ -159,11 +167,19 @@ Attaches callbacks for the resolution and/or rejection of the Promise.
 
 #### Parameters
 
-• **onfulfilled?**: `null` \| (`value`) =\> `TResult1` \| `PromiseLike`\<`TResult1`\>
+##### onfulfilled?
+
+`null`
+
+(`value`) =\> `TResult1` \| `PromiseLike`\<`TResult1`\>
 
 The callback to execute when the Promise is resolved.
 
-• **onrejected?**: `null` \| (`reason`) =\> `TResult2` \| `PromiseLike`\<`TResult2`\>
+##### onrejected?
+
+`null`
+
+(`reason`) =\> `TResult2` \| `PromiseLike`\<`TResult2`\>
 
 The callback to execute when the Promise is rejected.
 
@@ -182,28 +198,6 @@ A Promise for the completion of which ever callback is executed.
 node\_modules/mongoose/types/query.d.ts:744
 
 ## Methods
-
-### $where()
-
-\> **$where**(`argument`): `Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
-
-#### Parameters
-
-• **argument**: `string` \| `Function`
-
-#### Returns
-
-`Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
-
-#### Inherited from
-
-`Query.$where`
-
-#### Defined in
-
-node\_modules/mongoose/types/query.d.ts:221
-
-***
 
 ### \[asyncIterator\]()
 
@@ -227,9 +221,33 @@ node\_modules/mongoose/types/query.d.ts:216
 
 ***
 
+### $where()
+
+\> **$where**(`argument`): `Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
+
+#### Parameters
+
+##### argument
+
+`string` | `Function`
+
+#### Returns
+
+`Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
+
+#### Inherited from
+
+`Query.$where`
+
+#### Defined in
+
+node\_modules/mongoose/types/query.d.ts:221
+
+***
+
 ### all()
 
-#### all(path, val)
+#### Call Signature
 
 \> **all**(`path`, `val`): `this`
 
@@ -237,9 +255,13 @@ Specifies an `$all` query condition. When called with one argument, the most rec
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **val**: `any`[]
+`string`
+
+###### val
+
+`any`[]
 
 ##### Returns
 
@@ -253,13 +275,17 @@ Specifies an `$all` query condition. When called with one argument, the most rec
 
 node\_modules/mongoose/types/query.d.ts:230
 
-#### all(val)
+#### Call Signature
 
 \> **all**(`val`): `this`
 
+Specifies an `$all` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `any`[]
+###### val
+
+`any`[]
 
 ##### Returns
 
@@ -283,7 +309,9 @@ Sets the allowDiskUse option for the query (ignored for \< 4.4.0)
 
 #### Parameters
 
-• **value**: `boolean`
+##### value
+
+`boolean`
 
 #### Returns
 
@@ -307,7 +335,9 @@ Specifies arguments for an `$and` condition.
 
 #### Parameters
 
-• **array**: `FilterQuery`\<`T`\>[]
+##### array
+
+`FilterQuery`\<`T`\>[]
 
 #### Returns
 
@@ -331,7 +361,9 @@ Specifies the batchSize option.
 
 #### Parameters
 
-• **val**: `number`
+##### val
+
+`number`
 
 #### Returns
 
@@ -349,7 +381,7 @@ node\_modules/mongoose/types/query.d.ts:240
 
 ### box()
 
-#### box(lower, upper)
+#### Call Signature
 
 \> **box**(`lower`, `upper`): `this`
 
@@ -357,9 +389,13 @@ Specifies a `$box` condition
 
 ##### Parameters
 
-• **lower**: `number`[]
+###### lower
 
-• **upper**: `number`[]
+`number`[]
+
+###### upper
+
+`number`[]
 
 ##### Returns
 
@@ -373,13 +409,17 @@ Specifies a `$box` condition
 
 node\_modules/mongoose/types/query.d.ts:243
 
-#### box(val)
+#### Call Signature
 
 \> **box**(`val`): `this`
 
+Specifies a `$box` condition
+
 ##### Parameters
 
-• **val**: `any`
+###### val
+
+`any`
 
 ##### Returns
 
@@ -403,11 +443,13 @@ Casts this query to the schema of `model`.
 
 #### Parameters
 
-• **model?**: `null` \| `Model`\<`any`, `object`, `object`, `object`, `any`, `any`\>
+##### model?
 
-the model to cast to. If not set, defaults to `this.model`
+`null` | `Model`\<`any`, `object`, `object`, `object`, `any`, `any`\>
 
-• **obj?**: `any`
+##### obj?
+
+`any`
 
 If not set, defaults to this query's conditions
 
@@ -429,7 +471,7 @@ node\_modules/mongoose/types/query.d.ts:253
 
 ### circle()
 
-#### circle(path, area)
+#### Call Signature
 
 \> **circle**(`path`, `area`): `this`
 
@@ -437,9 +479,13 @@ Specifies a `$center` or `$centerSphere` condition.
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **area**: `any`
+`string`
+
+###### area
+
+`any`
 
 ##### Returns
 
@@ -453,13 +499,17 @@ Specifies a `$center` or `$centerSphere` condition.
 
 node\_modules/mongoose/types/query.d.ts:272
 
-#### circle(area)
+#### Call Signature
 
 \> **circle**(`area`): `this`
 
+Specifies a `$center` or `$centerSphere` condition.
+
 ##### Parameters
 
-• **area**: `any`
+###### area
+
+`any`
 
 ##### Returns
 
@@ -503,7 +553,9 @@ Adds a collation to this op (MongoDB 3.4 and up)
 
 #### Parameters
 
-• **value**: `CollationOptions`
+##### value
+
+`CollationOptions`
 
 #### Returns
 
@@ -527,7 +579,9 @@ Specifies the `comment` option.
 
 #### Parameters
 
-• **val**: `string`
+##### val
+
+`string`
 
 #### Returns
 
@@ -551,9 +605,13 @@ Specifies this query as a `countDocuments` query.
 
 #### Parameters
 
-• **criteria?**: `FilterQuery`\<`T`\>
+##### criteria?
 
-• **options?**: `QueryOptions`\<`T`\>
+`FilterQuery`\<`T`\>
+
+##### options?
+
+`QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -578,7 +636,9 @@ A QueryCursor exposes a Streams3 interface, as well as a `.next()` function.
 
 #### Parameters
 
-• **options?**: `QueryOptions`\<`T`\>
+##### options?
+
+`QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -596,7 +656,7 @@ node\_modules/mongoose/types/query.d.ts:294
 
 ### deleteMany()
 
-#### deleteMany(filter, options)
+#### Call Signature
 
 \> **deleteMany**(`filter`?, `options`?): `Query`\<`any`, `T`, `object`, `T`, `"deleteMany"`, `Record`\<`string`, `never`\>\>
 
@@ -606,9 +666,13 @@ collection, regardless of the value of `single`.
 
 ##### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+###### filter?
 
-• **options?**: `QueryOptions`\<`T`\>
+`FilterQuery`\<`T`\>
+
+###### options?
+
+`QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -622,13 +686,19 @@ collection, regardless of the value of `single`.
 
 node\_modules/mongoose/types/query.d.ts:301
 
-#### deleteMany(filter)
+#### Call Signature
 
 \> **deleteMany**(`filter`): `Query`\<`any`, `T`, `object`, `T`, `"deleteMany"`, `Record`\<`string`, `never`\>\>
 
+Declare and/or execute this query as a `deleteMany()` operation. Works like
+remove, except it deletes _every_ document that matches `filter` in the
+collection, regardless of the value of `single`.
+
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
+
+`FilterQuery`\<`T`\>
 
 ##### Returns
 
@@ -642,9 +712,13 @@ node\_modules/mongoose/types/query.d.ts:301
 
 node\_modules/mongoose/types/query.d.ts:305
 
-#### deleteMany()
+#### Call Signature
 
 \> **deleteMany**(): `Query`\<`any`, `T`, `object`, `T`, `"deleteMany"`, `Record`\<`string`, `never`\>\>
+
+Declare and/or execute this query as a `deleteMany()` operation. Works like
+remove, except it deletes _every_ document that matches `filter` in the
+collection, regardless of the value of `single`.
 
 ##### Returns
 
@@ -662,7 +736,7 @@ node\_modules/mongoose/types/query.d.ts:312
 
 ### deleteOne()
 
-#### deleteOne(filter, options)
+#### Call Signature
 
 \> **deleteOne**(`filter`?, `options`?): `Query`\<`any`, `T`, `object`, `T`, `"deleteOne"`, `Record`\<`string`, `never`\>\>
 
@@ -672,9 +746,13 @@ option.
 
 ##### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+###### filter?
 
-• **options?**: `QueryOptions`\<`T`\>
+`FilterQuery`\<`T`\>
+
+###### options?
+
+`QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -688,13 +766,19 @@ option.
 
 node\_modules/mongoose/types/query.d.ts:319
 
-#### deleteOne(filter)
+#### Call Signature
 
 \> **deleteOne**(`filter`): `Query`\<`any`, `T`, `object`, `T`, `"deleteOne"`, `Record`\<`string`, `never`\>\>
 
+Declare and/or execute this query as a `deleteOne()` operation. Works like
+remove, except it deletes at most one document regardless of the `single`
+option.
+
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
+
+`FilterQuery`\<`T`\>
 
 ##### Returns
 
@@ -708,9 +792,13 @@ node\_modules/mongoose/types/query.d.ts:319
 
 node\_modules/mongoose/types/query.d.ts:323
 
-#### deleteOne()
+#### Call Signature
 
 \> **deleteOne**(): `Query`\<`any`, `T`, `object`, `T`, `"deleteOne"`, `Record`\<`string`, `never`\>\>
+
+Declare and/or execute this query as a `deleteOne()` operation. Works like
+remove, except it deletes at most one document regardless of the `single`
+option.
 
 ##### Returns
 
@@ -740,9 +828,13 @@ Creates a `distinct` query: returns the distinct values of the given `field` tha
 
 #### Parameters
 
-• **field**: `DocKey`
+##### field
 
-• **filter?**: `FilterQuery`\<`T`\>
+`DocKey`
+
+##### filter?
+
+`FilterQuery`\<`T`\>
 
 #### Returns
 
@@ -760,7 +852,7 @@ node\_modules/mongoose/types/query.d.ts:333
 
 ### elemMatch()
 
-#### elemMatch(path, val)
+#### Call Signature
 
 \> **elemMatch**\<`K`\>(`path`, `val`): `this`
 
@@ -772,9 +864,13 @@ Specifies a `$elemMatch` query condition. When called with one argument, the mos
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -788,13 +884,17 @@ Specifies a `$elemMatch` query condition. When called with one argument, the mos
 
 node\_modules/mongoose/types/query.d.ts:339
 
-#### elemMatch(val)
+#### Call Signature
 
 \> **elemMatch**(`val`): `this`
 
+Specifies a `$elemMatch` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `any`
+###### val
+
+`any`
 
 ##### Returns
 
@@ -818,7 +918,9 @@ Specifies the complementary comparison value for paths specified with `where()`
 
 #### Parameters
 
-• **val**: `any`
+##### val
+
+`any`
 
 #### Returns
 
@@ -836,7 +938,7 @@ node\_modules/mongoose/types/query.d.ts:350
 
 ### error()
 
-#### error()
+#### Call Signature
 
 \> **error**(): `null` \| `NativeError`
 
@@ -855,13 +957,18 @@ undefined, the `exec()` promise will reject without executing.
 
 node\_modules/mongoose/types/query.d.ts:346
 
-#### error(val)
+#### Call Signature
 
 \> **error**(`val`): `this`
 
+Gets/sets the error flag on this query. If this flag is not null or
+undefined, the `exec()` promise will reject without executing.
+
 ##### Parameters
 
-• **val**: `null` \| `NativeError`
+###### val
+
+`null` | `NativeError`
 
 ##### Returns
 
@@ -885,7 +992,9 @@ Creates a `estimatedDocumentCount` query: counts the number of documents in the 
 
 #### Parameters
 
-• **options?**: `QueryOptions`\<`T`\>
+##### options?
+
+`QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -923,7 +1032,7 @@ node\_modules/mongoose/types/query.d.ts:219
 
 ### exists()
 
-#### exists(path, val)
+#### Call Signature
 
 \> **exists**\<`K`\>(`path`, `val`): `this`
 
@@ -935,9 +1044,13 @@ Specifies a `$exists` query condition. When called with one argument, the most r
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `boolean`
+`K`
+
+###### val
+
+`boolean`
 
 ##### Returns
 
@@ -951,13 +1064,17 @@ Specifies a `$exists` query condition. When called with one argument, the most r
 
 node\_modules/mongoose/types/query.d.ts:362
 
-#### exists(val)
+#### Call Signature
 
 \> **exists**(`val`): `this`
 
+Specifies a `$exists` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `boolean`
+###### val
+
+`boolean`
 
 ##### Returns
 
@@ -984,7 +1101,9 @@ use.
 
 #### Parameters
 
-• **verbose?**: `ExplainVerbosityLike`
+##### verbose?
+
+`ExplainVerbosityLike`
 
 #### Returns
 
@@ -1002,7 +1121,7 @@ node\_modules/mongoose/types/query.d.ts:371
 
 ### find()
 
-#### find(filter, projection, options)
+#### Call Signature
 
 \> **find**(`filter`, `projection`?, `options`?): `Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
 
@@ -1010,11 +1129,17 @@ Creates a `find` query: gets a list of documents that match `filter`.
 
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
 
-• **projection?**: `null` \| `ProjectionType`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+###### projection?
+
+`null` | `ProjectionType`\<`T`\>
+
+###### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -1028,15 +1153,21 @@ Creates a `find` query: gets a list of documents that match `filter`.
 
 node\_modules/mongoose/types/query.d.ts:374
 
-#### find(filter, projection)
+#### Call Signature
 
 \> **find**(`filter`, `projection`?): `Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
 
+Creates a `find` query: gets a list of documents that match `filter`.
+
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
 
-• **projection?**: `null` \| `ProjectionType`\<`T`\>
+`FilterQuery`\<`T`\>
+
+###### projection?
+
+`null` | `ProjectionType`\<`T`\>
 
 ##### Returns
 
@@ -1050,13 +1181,17 @@ node\_modules/mongoose/types/query.d.ts:374
 
 node\_modules/mongoose/types/query.d.ts:379
 
-#### find(filter)
+#### Call Signature
 
 \> **find**(`filter`): `Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
 
+Creates a `find` query: gets a list of documents that match `filter`.
+
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
+
+`FilterQuery`\<`T`\>
 
 ##### Returns
 
@@ -1070,9 +1205,11 @@ node\_modules/mongoose/types/query.d.ts:379
 
 node\_modules/mongoose/types/query.d.ts:383
 
-#### find()
+#### Call Signature
 
 \> **find**(): `Query`\<`T`[], `T`, `object`, `T`, `"find"`, `Record`\<`string`, `never`\>\>
+
+Creates a `find` query: gets a list of documents that match `filter`.
 
 ##### Returns
 
@@ -1090,7 +1227,7 @@ node\_modules/mongoose/types/query.d.ts:386
 
 ### findById()
 
-#### findById(id, projection, options)
+#### Call Signature
 
 \> **findById**(`id`, `projection`?, `options`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOne"`, `Record`\<`string`, `never`\>\>
 
@@ -1098,11 +1235,17 @@ Declares the query a findById operation. When executed, returns the document wit
 
 ##### Parameters
 
-• **id**: `any`
+###### id
 
-• **projection?**: `null` \| `ProjectionType`\<`T`\>
+`any`
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+###### projection?
+
+`null` | `ProjectionType`\<`T`\>
+
+###### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -1116,15 +1259,21 @@ Declares the query a findById operation. When executed, returns the document wit
 
 node\_modules/mongoose/types/query.d.ts:426
 
-#### findById(id, projection)
+#### Call Signature
 
 \> **findById**(`id`, `projection`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOne"`, `Record`\<`string`, `never`\>\>
 
+Declares the query a findById operation. When executed, returns the document with the given `_id`.
+
 ##### Parameters
 
-• **id**: `any`
+###### id
 
-• **projection?**: `null` \| `ProjectionType`\<`T`\>
+`any`
+
+###### projection?
+
+`null` | `ProjectionType`\<`T`\>
 
 ##### Returns
 
@@ -1138,13 +1287,17 @@ node\_modules/mongoose/types/query.d.ts:426
 
 node\_modules/mongoose/types/query.d.ts:431
 
-#### findById(id)
+#### Call Signature
 
 \> **findById**(`id`): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOne"`, `Record`\<`string`, `never`\>\>
 
+Declares the query a findById operation. When executed, returns the document with the given `_id`.
+
 ##### Parameters
 
-• **id**: `any`
+###### id
+
+`any`
 
 ##### Returns
 
@@ -1162,7 +1315,7 @@ node\_modules/mongoose/types/query.d.ts:435
 
 ### findByIdAndDelete()
 
-#### findByIdAndDelete(id, options)
+#### Call Signature
 
 \> **findByIdAndDelete**(`id`, `options`): `Query`\<`ModifyResult`\<`T`\>, `T`, `object`, `T`, `"findOneAndDelete"`, `Record`\<`string`, `never`\>\>
 
@@ -1170,9 +1323,13 @@ Creates a `findByIdAndDelete` query, filtering by the given `_id`.
 
 ##### Parameters
 
-• **id**: `any`
+###### id
 
-• **options**: `QueryOptions`\<`T`\> & `object`
+`any`
+
+###### options
+
+`QueryOptions`\<`T`\> & `object`
 
 ##### Returns
 
@@ -1186,15 +1343,21 @@ Creates a `findByIdAndDelete` query, filtering by the given `_id`.
 
 node\_modules/mongoose/types/query.d.ts:440
 
-#### findByIdAndDelete(id, options)
+#### Call Signature
 
 \> **findByIdAndDelete**(`id`?, `options`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOneAndDelete"`, `Record`\<`string`, `never`\>\>
 
+Creates a `findByIdAndDelete` query, filtering by the given `_id`.
+
 ##### Parameters
 
-• **id?**: `any`
+###### id?
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+`any`
+
+###### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -1212,7 +1375,7 @@ node\_modules/mongoose/types/query.d.ts:444
 
 ### findByIdAndUpdate()
 
-#### findByIdAndUpdate(id, update, options)
+#### Call Signature
 
 \> **findByIdAndUpdate**(`id`, `update`, `options`): `Query`\<`any`, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
@@ -1220,11 +1383,17 @@ Creates a `findOneAndUpdate` query, filtering by the given `_id`.
 
 ##### Parameters
 
-• **id**: `any`
+###### id
 
-• **update**: `UpdateQuery`\<`T`\>
+`any`
 
-• **options**: `QueryOptions`\<`T`\> & `object`
+###### update
+
+`UpdateQuery`\<`T`\>
+
+###### options
+
+`QueryOptions`\<`T`\> & `object`
 
 ##### Returns
 
@@ -1238,17 +1407,25 @@ Creates a `findOneAndUpdate` query, filtering by the given `_id`.
 
 node\_modules/mongoose/types/query.d.ts:450
 
-#### findByIdAndUpdate(id, update, options)
+#### Call Signature
 
 \> **findByIdAndUpdate**(`id`, `update`, `options`): `Query`\<`T`, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
+Creates a `findOneAndUpdate` query, filtering by the given `_id`.
+
 ##### Parameters
 
-• **id**: `any`
+###### id
 
-• **update**: `UpdateQuery`\<`T`\>
+`any`
 
-• **options**: `QueryOptions`\<`T`\> & `object` & `ReturnsNewDoc`
+###### update
+
+`UpdateQuery`\<`T`\>
+
+###### options
+
+`QueryOptions`\<`T`\> & `object` & `ReturnsNewDoc`
 
 ##### Returns
 
@@ -1262,17 +1439,25 @@ node\_modules/mongoose/types/query.d.ts:450
 
 node\_modules/mongoose/types/query.d.ts:455
 
-#### findByIdAndUpdate(id, update, options)
+#### Call Signature
 
 \> **findByIdAndUpdate**(`id`?, `update`?, `options`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
+Creates a `findOneAndUpdate` query, filtering by the given `_id`.
+
 ##### Parameters
 
-• **id?**: `any`
+###### id?
 
-• **update?**: `UpdateQuery`\<`T`\>
+`any`
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+###### update?
+
+`UpdateQuery`\<`T`\>
+
+###### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -1286,15 +1471,21 @@ node\_modules/mongoose/types/query.d.ts:455
 
 node\_modules/mongoose/types/query.d.ts:460
 
-#### findByIdAndUpdate(id, update)
+#### Call Signature
 
 \> **findByIdAndUpdate**(`id`, `update`): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
+Creates a `findOneAndUpdate` query, filtering by the given `_id`.
+
 ##### Parameters
 
-• **id**: `any`
+###### id
 
-• **update**: `UpdateQuery`\<`T`\>
+`any`
+
+###### update
+
+`UpdateQuery`\<`T`\>
 
 ##### Returns
 
@@ -1312,7 +1503,7 @@ node\_modules/mongoose/types/query.d.ts:465
 
 ### findOne()
 
-#### findOne(filter, projection, options)
+#### Call Signature
 
 \> **findOne**(`filter`?, `projection`?, `options`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOne"`, `Record`\<`string`, `never`\>\>
 
@@ -1320,11 +1511,17 @@ Declares the query a findOne operation. When executed, returns the first found d
 
 ##### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+###### filter?
 
-• **projection?**: `null` \| `ProjectionType`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+###### projection?
+
+`null` | `ProjectionType`\<`T`\>
+
+###### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -1338,15 +1535,21 @@ Declares the query a findOne operation. When executed, returns the first found d
 
 node\_modules/mongoose/types/query.d.ts:389
 
-#### findOne(filter, projection)
+#### Call Signature
 
 \> **findOne**(`filter`?, `projection`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOne"`, `Record`\<`string`, `never`\>\>
 
+Declares the query a findOne operation. When executed, returns the first found document.
+
 ##### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+###### filter?
 
-• **projection?**: `null` \| `ProjectionType`\<`T`\>
+`FilterQuery`\<`T`\>
+
+###### projection?
+
+`null` | `ProjectionType`\<`T`\>
 
 ##### Returns
 
@@ -1360,13 +1563,17 @@ node\_modules/mongoose/types/query.d.ts:389
 
 node\_modules/mongoose/types/query.d.ts:394
 
-#### findOne(filter)
+#### Call Signature
 
 \> **findOne**(`filter`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOne"`, `Record`\<`string`, `never`\>\>
 
+Declares the query a findOne operation. When executed, returns the first found document.
+
 ##### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+###### filter?
+
+`FilterQuery`\<`T`\>
 
 ##### Returns
 
@@ -1390,9 +1597,13 @@ Creates a `findOneAndDelete` query: atomically finds the given document, deletes
 
 #### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+##### filter?
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+`FilterQuery`\<`T`\>
+
+##### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -1410,7 +1621,7 @@ node\_modules/mongoose/types/query.d.ts:403
 
 ### findOneAndUpdate()
 
-#### findOneAndUpdate(filter, update, options)
+#### Call Signature
 
 \> **findOneAndUpdate**(`filter`, `update`, `options`): `Query`\<`ModifyResult`\<`T`\>, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
@@ -1418,11 +1629,17 @@ Creates a `findOneAndUpdate` query: atomically find the first document that matc
 
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
 
-• **update**: `UpdateQuery`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options**: `QueryOptions`\<`T`\> & `object`
+###### update
+
+`UpdateQuery`\<`T`\>
+
+###### options
+
+`QueryOptions`\<`T`\> & `object`
 
 ##### Returns
 
@@ -1436,17 +1653,25 @@ Creates a `findOneAndUpdate` query: atomically find the first document that matc
 
 node\_modules/mongoose/types/query.d.ts:409
 
-#### findOneAndUpdate(filter, update, options)
+#### Call Signature
 
 \> **findOneAndUpdate**(`filter`, `update`, `options`): `Query`\<`T`, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
+Creates a `findOneAndUpdate` query: atomically find the first document that matches `filter` and apply `update`.
+
 ##### Parameters
 
-• **filter**: `FilterQuery`\<`T`\>
+###### filter
 
-• **update**: `UpdateQuery`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options**: `QueryOptions`\<`T`\> & `object` & `ReturnsNewDoc`
+###### update
+
+`UpdateQuery`\<`T`\>
+
+###### options
+
+`QueryOptions`\<`T`\> & `object` & `ReturnsNewDoc`
 
 ##### Returns
 
@@ -1460,17 +1685,25 @@ node\_modules/mongoose/types/query.d.ts:409
 
 node\_modules/mongoose/types/query.d.ts:414
 
-#### findOneAndUpdate(filter, update, options)
+#### Call Signature
 
 \> **findOneAndUpdate**(`filter`?, `update`?, `options`?): `Query`\<`null` \| `T`, `T`, `object`, `T`, `"findOneAndUpdate"`, `Record`\<`string`, `never`\>\>
 
+Creates a `findOneAndUpdate` query: atomically find the first document that matches `filter` and apply `update`.
+
 ##### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+###### filter?
 
-• **update?**: `UpdateQuery`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+###### update?
+
+`UpdateQuery`\<`T`\>
+
+###### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 ##### Returns
 
@@ -1494,11 +1727,15 @@ Specifies a `$geometry` condition
 
 #### Parameters
 
-• **object**
+##### object
 
-• **object.coordinates**: `any`[]
+###### object.coordinates
 
-• **object.type**: `string`
+`any`[]
+
+###### object.type
+
+`string`
 
 #### Returns
 
@@ -1524,7 +1761,9 @@ and `save()`.
 
 #### Parameters
 
-• **path**: `string`
+##### path
+
+`string`
 
 #### Returns
 
@@ -1642,7 +1881,7 @@ node\_modules/mongoose/types/query.d.ts:493
 
 ### gt()
 
-#### gt(path, val)
+#### Call Signature
 
 \> **gt**\<`K`\>(`path`, `val`): `this`
 
@@ -1654,9 +1893,13 @@ Specifies a `$gt` query condition. When called with one argument, the most recen
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -1670,13 +1913,17 @@ Specifies a `$gt` query condition. When called with one argument, the most recen
 
 node\_modules/mongoose/types/query.d.ts:496
 
-#### gt(val)
+#### Call Signature
 
 \> **gt**(`val`): `this`
 
+Specifies a `$gt` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `number`
+###### val
+
+`number`
 
 ##### Returns
 
@@ -1694,7 +1941,7 @@ node\_modules/mongoose/types/query.d.ts:497
 
 ### gte()
 
-#### gte(path, val)
+#### Call Signature
 
 \> **gte**\<`K`\>(`path`, `val`): `this`
 
@@ -1706,9 +1953,13 @@ Specifies a `$gte` query condition. When called with one argument, the most rece
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -1722,13 +1973,17 @@ Specifies a `$gte` query condition. When called with one argument, the most rece
 
 node\_modules/mongoose/types/query.d.ts:500
 
-#### gte(val)
+#### Call Signature
 
 \> **gte**(`val`): `this`
 
+Specifies a `$gte` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `number`
+###### val
+
+`number`
 
 ##### Returns
 
@@ -1752,7 +2007,9 @@ Sets query hints.
 
 #### Parameters
 
-• **val**: `any`
+##### val
+
+`any`
 
 #### Returns
 
@@ -1770,7 +2027,7 @@ node\_modules/mongoose/types/query.d.ts:504
 
 ### in()
 
-#### in(path, val)
+#### Call Signature
 
 \> **in**\<`K`\>(`path`, `val`): `this`
 
@@ -1782,9 +2039,13 @@ Specifies an `$in` query condition. When called with one argument, the most rece
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`[]
+`K`
+
+###### val
+
+`any`[]
 
 ##### Returns
 
@@ -1798,13 +2059,17 @@ Specifies an `$in` query condition. When called with one argument, the most rece
 
 node\_modules/mongoose/types/query.d.ts:507
 
-#### in(val)
+#### Call Signature
 
 \> **in**(`val`): `this`
 
+Specifies an `$in` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `any`[]
+###### val
+
+`any`[]
 
 ##### Returns
 
@@ -1828,7 +2093,9 @@ Declares an intersects query for `geometry()`.
 
 #### Parameters
 
-• **arg?**: `any`
+##### arg?
+
+`any`
 
 #### Returns
 
@@ -1852,7 +2119,9 @@ Requests acknowledgement that this operation has been persisted to MongoDB's on-
 
 #### Parameters
 
-• **val**: `null` \| `boolean`
+##### val
+
+`null` | `boolean`
 
 #### Returns
 
@@ -1880,7 +2149,9 @@ Sets the lean option.
 
 #### Parameters
 
-• **val?**: `any`
+##### val?
+
+`any`
 
 #### Returns
 
@@ -1904,7 +2175,9 @@ Specifies the maximum number of documents the query will return.
 
 #### Parameters
 
-• **val**: `number`
+##### val
+
+`number`
 
 #### Returns
 
@@ -1922,7 +2195,7 @@ node\_modules/mongoose/types/query.d.ts:532
 
 ### lt()
 
-#### lt(path, val)
+#### Call Signature
 
 \> **lt**\<`K`\>(`path`, `val`): `this`
 
@@ -1934,9 +2207,13 @@ Specifies a `$lt` query condition. When called with one argument, the most recen
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -1950,13 +2227,17 @@ Specifies a `$lt` query condition. When called with one argument, the most recen
 
 node\_modules/mongoose/types/query.d.ts:535
 
-#### lt(val)
+#### Call Signature
 
 \> **lt**(`val`): `this`
 
+Specifies a `$lt` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `number`
+###### val
+
+`number`
 
 ##### Returns
 
@@ -1974,7 +2255,7 @@ node\_modules/mongoose/types/query.d.ts:536
 
 ### lte()
 
-#### lte(path, val)
+#### Call Signature
 
 \> **lte**\<`K`\>(`path`, `val`): `this`
 
@@ -1986,9 +2267,13 @@ Specifies a `$lte` query condition. When called with one argument, the most rece
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -2002,13 +2287,17 @@ Specifies a `$lte` query condition. When called with one argument, the most rece
 
 node\_modules/mongoose/types/query.d.ts:539
 
-#### lte(val)
+#### Call Signature
 
 \> **lte**(`val`): `this`
 
+Specifies a `$lte` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `number`
+###### val
+
+`number`
 
 ##### Returns
 
@@ -2026,7 +2315,7 @@ node\_modules/mongoose/types/query.d.ts:540
 
 ### maxDistance()
 
-#### maxDistance(path, val)
+#### Call Signature
 
 \> **maxDistance**(`path`, `val`): `this`
 
@@ -2034,9 +2323,13 @@ Specifies an `$maxDistance` query condition. When called with one argument, the 
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **val**: `number`
+`string`
+
+###### val
+
+`number`
 
 ##### Returns
 
@@ -2050,13 +2343,17 @@ Specifies an `$maxDistance` query condition. When called with one argument, the 
 
 node\_modules/mongoose/types/query.d.ts:549
 
-#### maxDistance(val)
+#### Call Signature
 
 \> **maxDistance**(`val`): `this`
 
+Specifies an `$maxDistance` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `number`
+###### val
+
+`number`
 
 ##### Returns
 
@@ -2082,7 +2379,9 @@ has been running for more than `ms` milliseconds.
 
 #### Parameters
 
-• **ms**: `number`
+##### ms
+
+`number`
 
 #### Returns
 
@@ -2106,7 +2405,9 @@ Merges another Query or conditions object into this one.
 
 #### Parameters
 
-• **source**: `Query`\<`any`, `any`, `object`, `any`, `"find"`, `Record`\<`string`, `never`\>\> \| `FilterQuery`\<`T`\>
+##### source
+
+`Query`\<`any`, `any`, `object`, `any`, `"find"`, `Record`\<`string`, `never`\>\> | `FilterQuery`\<`T`\>
 
 #### Returns
 
@@ -2124,7 +2425,7 @@ node\_modules/mongoose/types/query.d.ts:560
 
 ### mod()
 
-#### mod(path, val)
+#### Call Signature
 
 \> **mod**\<`K`\>(`path`, `val`): `this`
 
@@ -2136,9 +2437,13 @@ Specifies a `$mod` condition, filters documents for documents whose `path` prope
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `number`
+`K`
+
+###### val
+
+`number`
 
 ##### Returns
 
@@ -2152,13 +2457,17 @@ Specifies a `$mod` condition, filters documents for documents whose `path` prope
 
 node\_modules/mongoose/types/query.d.ts:563
 
-#### mod(val)
+#### Call Signature
 
 \> **mod**(`val`): `this`
 
+Specifies a `$mod` condition, filters documents for documents whose `path` property is a number that is equal to `remainder` modulo `divisor`.
+
 ##### Parameters
 
-• **val**: `number`[]
+###### val
+
+`number`[]
 
 ##### Returns
 
@@ -2183,7 +2492,9 @@ Below are the current Mongoose-specific options.
 
 #### Parameters
 
-• **val?**: `MongooseQueryOptions`\<`unknown`, `"timestamps"` \| `MongooseBaseQueryOptionKeys` \| `"lean"`\>
+##### val?
+
+`MongooseQueryOptions`\<`unknown`, `"timestamps"` \| `MongooseBaseQueryOptionKeys` \| `"lean"`\>
 
 #### Returns
 
@@ -2201,7 +2512,7 @@ node\_modules/mongoose/types/query.d.ts:573
 
 ### ne()
 
-#### ne(path, val)
+#### Call Signature
 
 \> **ne**\<`K`\>(`path`, `val`): `this`
 
@@ -2213,9 +2524,13 @@ Specifies a `$ne` query condition. When called with one argument, the most recen
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -2229,13 +2544,17 @@ Specifies a `$ne` query condition. When called with one argument, the most recen
 
 node\_modules/mongoose/types/query.d.ts:576
 
-#### ne(val)
+#### Call Signature
 
 \> **ne**(`val`): `this`
 
+Specifies a `$ne` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `any`
+###### val
+
+`any`
 
 ##### Returns
 
@@ -2253,7 +2572,7 @@ node\_modules/mongoose/types/query.d.ts:577
 
 ### near()
 
-#### near(path, val)
+#### Call Signature
 
 \> **near**\<`K`\>(`path`, `val`): `this`
 
@@ -2265,9 +2584,13 @@ Specifies a `$near` or `$nearSphere` condition
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`
+`K`
+
+###### val
+
+`any`
 
 ##### Returns
 
@@ -2281,13 +2604,17 @@ Specifies a `$near` or `$nearSphere` condition
 
 node\_modules/mongoose/types/query.d.ts:580
 
-#### near(val)
+#### Call Signature
 
 \> **near**(`val`): `this`
 
+Specifies a `$near` or `$nearSphere` condition
+
 ##### Parameters
 
-• **val**: `any`
+###### val
+
+`any`
 
 ##### Returns
 
@@ -2305,7 +2632,7 @@ node\_modules/mongoose/types/query.d.ts:581
 
 ### nin()
 
-#### nin(path, val)
+#### Call Signature
 
 \> **nin**\<`K`\>(`path`, `val`): `this`
 
@@ -2317,9 +2644,13 @@ Specifies an `$nin` query condition. When called with one argument, the most rec
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `any`[]
+`K`
+
+###### val
+
+`any`[]
 
 ##### Returns
 
@@ -2333,13 +2664,17 @@ Specifies an `$nin` query condition. When called with one argument, the most rec
 
 node\_modules/mongoose/types/query.d.ts:584
 
-#### nin(val)
+#### Call Signature
 
 \> **nin**(`val`): `this`
 
+Specifies an `$nin` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `any`[]
+###### val
+
+`any`[]
 
 ##### Returns
 
@@ -2363,7 +2698,9 @@ Specifies arguments for an `$nor` condition.
 
 #### Parameters
 
-• **array**: `FilterQuery`\<`T`\>[]
+##### array
+
+`FilterQuery`\<`T`\>[]
 
 #### Returns
 
@@ -2387,7 +2724,9 @@ Specifies arguments for an `$or` condition.
 
 #### Parameters
 
-• **array**: `FilterQuery`\<`T`\>[]
+##### array
+
+`FilterQuery`\<`T`\>[]
 
 #### Returns
 
@@ -2413,7 +2752,11 @@ an extra `if` statement to check if no document was found.
 
 #### Parameters
 
-• **err?**: `NativeError` \| () =\> `NativeError`
+##### err?
+
+`NativeError`
+
+() =\> `NativeError`
 
 #### Returns
 
@@ -2431,7 +2774,7 @@ node\_modules/mongoose/types/query.d.ts:598
 
 ### paginate()
 
-#### paginate(options)
+#### Call Signature
 
 \> **paginate**\<`O`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`T`, `any`, `Document`\<`unknown`, `O`, `T`\> & `Require_id`\<`T`\>\>\>\>
 
@@ -2441,7 +2784,9 @@ node\_modules/mongoose/types/query.d.ts:598
 
 ##### Parameters
 
-• **options?**: `O`
+###### options?
+
+`O`
 
 ##### Returns
 
@@ -2455,7 +2800,7 @@ node\_modules/mongoose/types/query.d.ts:598
 
 node\_modules/mongoose-paginate-v2/index.d.ts:146
 
-#### paginate(options)
+#### Call Signature
 
 \> **paginate**\<`UserType`, `O`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, `O`, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
 
@@ -2467,7 +2812,9 @@ node\_modules/mongoose-paginate-v2/index.d.ts:146
 
 ##### Parameters
 
-• **options?**: `O`
+###### options?
+
+`O`
 
 ##### Returns
 
@@ -2481,7 +2828,7 @@ node\_modules/mongoose-paginate-v2/index.d.ts:146
 
 node\_modules/mongoose-paginate-v2/index.d.ts:149
 
-#### paginate(options)
+#### Call Signature
 
 \> **paginate**\<`UserType`\>(`options`?): `Promise`\<`PaginateResult`\<`IfAny`\<`UserType`, `any`, `Document`\<`unknown`, `PaginateOptions`, `UserType`\> & `Require_id`\<`UserType`\>\>\>\>
 
@@ -2491,7 +2838,9 @@ node\_modules/mongoose-paginate-v2/index.d.ts:149
 
 ##### Parameters
 
-• **options?**: `PaginateOptions`
+###### options?
+
+`PaginateOptions`
 
 ##### Returns
 
@@ -2509,7 +2858,7 @@ node\_modules/mongoose-paginate-v2/index.d.ts:152
 
 ### polygon()
 
-#### polygon(path, coordinatePairs)
+#### Call Signature
 
 \> **polygon**(`path`, ...`coordinatePairs`): `this`
 
@@ -2517,9 +2866,13 @@ Specifies a `$polygon` condition
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• ...**coordinatePairs**: `number`[][]
+`string`
+
+###### coordinatePairs
+
+...`number`[][]
 
 ##### Returns
 
@@ -2533,13 +2886,17 @@ Specifies a `$polygon` condition
 
 node\_modules/mongoose/types/query.d.ts:601
 
-#### polygon(coordinatePairs)
+#### Call Signature
 
 \> **polygon**(...`coordinatePairs`): `this`
 
+Specifies a `$polygon` condition
+
 ##### Parameters
 
-• ...**coordinatePairs**: `number`[][]
+###### coordinatePairs
+
+...`number`[][]
 
 ##### Returns
 
@@ -2557,7 +2914,7 @@ node\_modules/mongoose/types/query.d.ts:602
 
 ### populate()
 
-#### populate(path, select, model, match)
+#### Call Signature
 
 \> **populate**\<`Paths`\>(`path`, `select`?, `model`?, `match`?): `Query`\<keyof `Paths` *extends* `never` ? `unknown` : `Omit`\<`unknown`, keyof `Paths`\> & `Paths`, `T`, `object`, `UnpackedIntersection`\<`T`, `Paths`\>, `"find"`, `Record`\<`string`, `never`\>\>
 
@@ -2565,17 +2922,25 @@ Specifies paths which should be populated with other documents.
 
 ##### Type Parameters
 
-• **Paths** = `object`
+• **Paths** = \{\}
 
 ##### Parameters
 
-• **path**: `string` \| `string`[]
+###### path
 
-• **select?**: `any`
+`string` | `string`[]
 
-• **model?**: `string` \| `Model`\<`any`, `object`, `object`, `object`, `any`, `any`\>
+###### select?
 
-• **match?**: `any`
+`any`
+
+###### model?
+
+`string` | `Model`\<`any`, `object`, `object`, `object`, `any`, `any`\>
+
+###### match?
+
+`any`
 
 ##### Returns
 
@@ -2589,17 +2954,21 @@ Specifies paths which should be populated with other documents.
 
 node\_modules/mongoose/types/query.d.ts:605
 
-#### populate(options)
+#### Call Signature
 
 \> **populate**\<`Paths`\>(`options`): `Query`\<keyof `Paths` *extends* `never` ? `unknown` : `Omit`\<`unknown`, keyof `Paths`\> & `Paths`, `T`, `object`, `UnpackedIntersection`\<`T`, `Paths`\>, `"find"`, `Record`\<`string`, `never`\>\>
 
+Specifies paths which should be populated with other documents.
+
 ##### Type Parameters
 
-• **Paths** = `object`
+• **Paths** = \{\}
 
 ##### Parameters
 
-• **options**: `PopulateOptions` \| (`string` \| `PopulateOptions`)[]
+###### options
+
+`PopulateOptions` | (`string` \| `PopulateOptions`)[]
 
 ##### Returns
 
@@ -2623,7 +2992,9 @@ Add post middleware to this query instance. Doesn't affect other queries.
 
 #### Parameters
 
-• **fn**: `Function`
+##### fn
+
+`Function`
 
 #### Returns
 
@@ -2647,7 +3018,9 @@ Add pre middleware to this query instance. Doesn't affect other queries.
 
 #### Parameters
 
-• **fn**: `Function`
+##### fn
+
+`Function`
 
 #### Returns
 
@@ -2665,7 +3038,7 @@ node\_modules/mongoose/types/query.d.ts:628
 
 ### projection()
 
-#### projection(fields)
+#### Call Signature
 
 \> **projection**(`fields`?): `ProjectionFields`\<`T`\>
 
@@ -2673,7 +3046,9 @@ Get/set the current projection (AKA fields). Pass `null` to remove the current p
 
 ##### Parameters
 
-• **fields?**: `string` \| `ProjectionFields`\<`T`\>
+###### fields?
+
+`string` | `ProjectionFields`\<`T`\>
 
 ##### Returns
 
@@ -2687,13 +3062,17 @@ Get/set the current projection (AKA fields). Pass `null` to remove the current p
 
 node\_modules/mongoose/types/query.d.ts:634
 
-#### projection(fields)
+#### Call Signature
 
 \> **projection**(`fields`): `null`
 
+Get/set the current projection (AKA fields). Pass `null` to remove the current projection.
+
 ##### Parameters
 
-• **fields**: `null`
+###### fields
+
+`null`
 
 ##### Returns
 
@@ -2707,9 +3086,11 @@ node\_modules/mongoose/types/query.d.ts:634
 
 node\_modules/mongoose/types/query.d.ts:635
 
-#### projection()
+#### Call Signature
 
 \> **projection**(): `null` \| `ProjectionFields`\<`T`\>
+
+Get/set the current projection (AKA fields). Pass `null` to remove the current projection.
 
 ##### Returns
 
@@ -2733,9 +3114,13 @@ Determines the MongoDB nodes from which to read.
 
 #### Parameters
 
-• **mode**: `string`
+##### mode
 
-• **tags?**: `any`[]
+`string`
+
+##### tags?
+
+`any`[]
 
 #### Returns
 
@@ -2759,7 +3144,9 @@ Sets the readConcern option for the query.
 
 #### Parameters
 
-• **level**: `string`
+##### level
+
+`string`
 
 #### Returns
 
@@ -2777,7 +3164,7 @@ node\_modules/mongoose/types/query.d.ts:642
 
 ### regex()
 
-#### regex(path, val)
+#### Call Signature
 
 \> **regex**\<`K`\>(`path`, `val`): `this`
 
@@ -2789,9 +3176,13 @@ Specifies a `$regex` query condition. When called with one argument, the most re
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `RegExp`
+`K`
+
+###### val
+
+`RegExp`
 
 ##### Returns
 
@@ -2805,13 +3196,17 @@ Specifies a `$regex` query condition. When called with one argument, the most re
 
 node\_modules/mongoose/types/query.d.ts:645
 
-#### regex(val)
+#### Call Signature
 
 \> **regex**(`val`): `this`
 
+Specifies a `$regex` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `string` \| `RegExp`
+###### val
+
+`string` | `RegExp`
 
 ##### Returns
 
@@ -2837,11 +3232,17 @@ not accept any [atomic](https://www.mongodb.com/docs/manual/tutorial/model-data-
 
 #### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+##### filter?
 
-• **replacement?**: `T` \| `AnyObject`
+`FilterQuery`\<`T`\>
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+##### replacement?
+
+`T` | `AnyObject`
+
+##### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -2865,11 +3266,13 @@ Specifies which document fields to include or exclude (also known as the query "
 
 #### Type Parameters
 
-• **RawDocTypeOverride** *extends* \{ \[P in string \| number \| symbol\]?: any \} = `object`
+• **RawDocTypeOverride** *extends* \{ \[P in string \| number \| symbol\]?: any \} = \{\}
 
 #### Parameters
 
-• **arg**: `string` \| `string`[] \| `Record`\<`string`, `string` \| `number` \| `boolean` \| `object`\>
+##### arg
+
+`string` | `string`[] | `Record`\<`string`, `string` \| `number` \| `boolean` \| `object`\>
 
 #### Returns
 
@@ -2955,7 +3358,9 @@ associated with this query. Sessions are how you mark a query as part of a
 
 #### Parameters
 
-• **session**: `null` \| `ClientSession`
+##### session
+
+`null` | `ClientSession`
 
 #### Returns
 
@@ -2981,9 +3386,13 @@ of whether you use `updateOne()`, `updateMany()`, `findOneAndUpdate()`, etc.
 
 #### Parameters
 
-• **path**: `string` \| `Record`\<`string`, `unknown`\>
+##### path
 
-• **value?**: `any`
+`string` | `Record`\<`string`, `unknown`\>
+
+##### value?
+
+`any`
 
 #### Returns
 
@@ -3007,9 +3416,13 @@ Sets query options. Some options only make sense for certain operations.
 
 #### Parameters
 
-• **options**: `QueryOptions`\<`T`\>
+##### options
 
-• **overwrite?**: `boolean`
+`QueryOptions`\<`T`\>
+
+##### overwrite?
+
+`boolean`
 
 #### Returns
 
@@ -3033,7 +3446,9 @@ Sets the query conditions to the provided JSON object.
 
 #### Parameters
 
-• **val**: `null` \| `FilterQuery`\<`T`\>
+##### val
+
+`null` | `FilterQuery`\<`T`\>
 
 #### Returns
 
@@ -3055,7 +3470,9 @@ node\_modules/mongoose/types/query.d.ts:713
 
 #### Parameters
 
-• **update**: `UpdateWithAggregationPipeline` \| `UpdateQuery`\<`T`\>
+##### update
+
+`UpdateWithAggregationPipeline` | `UpdateQuery`\<`T`\>
 
 #### Returns
 
@@ -3073,7 +3490,7 @@ node\_modules/mongoose/types/query.d.ts:715
 
 ### size()
 
-#### size(path, val)
+#### Call Signature
 
 \> **size**\<`K`\>(`path`, `val`): `this`
 
@@ -3085,9 +3502,13 @@ Specifies an `$size` query condition. When called with one argument, the most re
 
 ##### Parameters
 
-• **path**: `K`
+###### path
 
-• **val**: `number`
+`K`
+
+###### val
+
+`number`
 
 ##### Returns
 
@@ -3101,13 +3522,17 @@ Specifies an `$size` query condition. When called with one argument, the most re
 
 node\_modules/mongoose/types/query.d.ts:718
 
-#### size(val)
+#### Call Signature
 
 \> **size**(`val`): `this`
 
+Specifies an `$size` query condition. When called with one argument, the most recent path passed to `where()` is used.
+
 ##### Parameters
 
-• **val**: `number`
+###### val
+
+`number`
 
 ##### Returns
 
@@ -3131,7 +3556,9 @@ Specifies the number of documents to skip.
 
 #### Parameters
 
-• **val**: `number`
+##### val
+
+`number`
 
 #### Returns
 
@@ -3149,7 +3576,7 @@ node\_modules/mongoose/types/query.d.ts:722
 
 ### slice()
 
-#### slice(path, val)
+#### Call Signature
 
 \> **slice**(`path`, `val`): `this`
 
@@ -3157,9 +3584,13 @@ Specifies a `$slice` projection for an array.
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **val**: `number` \| `number`[]
+`string`
+
+###### val
+
+`number` | `number`[]
 
 ##### Returns
 
@@ -3173,13 +3604,17 @@ Specifies a `$slice` projection for an array.
 
 node\_modules/mongoose/types/query.d.ts:725
 
-#### slice(val)
+#### Call Signature
 
 \> **slice**(`val`): `this`
 
+Specifies a `$slice` projection for an array.
+
 ##### Parameters
 
-• **val**: `number` \| `number`[]
+###### val
+
+`number` | `number`[]
 
 ##### Returns
 
@@ -3203,11 +3638,21 @@ Sets the sort order. If an object is passed, values allowed are `asc`, `desc`, `
 
 #### Parameters
 
-• **arg?**: `null` \| `string` \| [`string`, `SortOrder`][] \| `object`
+##### arg?
 
-• **options?**
+`null`
 
-• **options.override?**: `boolean`
+`string`
+
+[`string`, `SortOrder`][]
+
+\{\}
+
+##### options?
+
+###### options.override
+
+`boolean`
 
 #### Returns
 
@@ -3231,13 +3676,19 @@ Sets the tailable option (for use with capped collections).
 
 #### Parameters
 
-• **bool?**: `boolean`
+##### bool?
 
-• **opts?**
+`boolean`
 
-• **opts.numberOfRetries?**: `number`
+##### opts?
 
-• **opts.tailableRetryInterval?**: `number`
+###### opts.numberOfRetries
+
+`number`
+
+###### opts.tailableRetryInterval
+
+`number`
 
 #### Returns
 
@@ -3290,7 +3741,9 @@ for the query to resolve to.
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`doc`) =\> `MappedType`
 
 #### Returns
 
@@ -3317,11 +3770,17 @@ the `multi` option.
 
 #### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+##### filter?
 
-• **update?**: `UpdateWithAggregationPipeline` \| `UpdateQuery`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+##### update?
+
+`UpdateWithAggregationPipeline` | `UpdateQuery`\<`T`\>
+
+##### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -3346,11 +3805,17 @@ Declare and/or execute this query as an updateOne() operation. Same as
 
 #### Parameters
 
-• **filter?**: `FilterQuery`\<`T`\>
+##### filter?
 
-• **update?**: `UpdateWithAggregationPipeline` \| `UpdateQuery`\<`T`\>
+`FilterQuery`\<`T`\>
 
-• **options?**: `null` \| `QueryOptions`\<`T`\>
+##### update?
+
+`UpdateWithAggregationPipeline` | `UpdateQuery`\<`T`\>
+
+##### options?
+
+`null` | `QueryOptions`\<`T`\>
 
 #### Returns
 
@@ -3375,7 +3840,9 @@ that must acknowledge this write before this write is considered successful.
 
 #### Parameters
 
-• **val**: `null` \| `string` \| `number`
+##### val
+
+`null` | `string` | `number`
 
 #### Returns
 
@@ -3393,7 +3860,7 @@ node\_modules/mongoose/types/query.d.ts:775
 
 ### where()
 
-#### where(path, val)
+#### Call Signature
 
 \> **where**(`path`, `val`?): `this`
 
@@ -3401,9 +3868,13 @@ Specifies a path for use with chaining.
 
 ##### Parameters
 
-• **path**: `string`
+###### path
 
-• **val?**: `any`
+`string`
+
+###### val?
+
+`any`
 
 ##### Returns
 
@@ -3417,13 +3888,17 @@ Specifies a path for use with chaining.
 
 node\_modules/mongoose/types/query.d.ts:778
 
-#### where(obj)
+#### Call Signature
 
 \> **where**(`obj`): `this`
 
+Specifies a path for use with chaining.
+
 ##### Parameters
 
-• **obj**: `object`
+###### obj
+
+`object`
 
 ##### Returns
 
@@ -3437,9 +3912,11 @@ node\_modules/mongoose/types/query.d.ts:778
 
 node\_modules/mongoose/types/query.d.ts:779
 
-#### where()
+#### Call Signature
 
 \> **where**(): `this`
+
+Specifies a path for use with chaining.
 
 ##### Returns
 
@@ -3463,7 +3940,9 @@ Defines a `$within` or `$geoWithin` argument for geo-spatial queries.
 
 #### Parameters
 
-• **val?**: `any`
+##### val?
+
+`any`
 
 #### Returns
 
@@ -3489,7 +3968,9 @@ operation fails. The default is `0`, which means no timeout.
 
 #### Parameters
 
-• **ms**: `number`
+##### ms
+
+`number`
 
 #### Returns
 

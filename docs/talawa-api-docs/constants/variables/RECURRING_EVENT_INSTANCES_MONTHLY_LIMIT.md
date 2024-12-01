@@ -1,4 +1,4 @@
-[**talawa-api**](../../README.md) • **Docs**
+[**talawa-api**](../../README.md)
 
 ***
 
@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[src/constants.ts:811](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/constants.ts#L811)
+[src/constants.ts:811](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/constants.ts#L811)

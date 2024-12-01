@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -29,4 +29,4 @@ A list of events matching the query parameters, with related data populated.
 
 ## Defined in
 
-[src/resolvers/Query/eventsByOrganizationConnection.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Query/eventsByOrganizationConnection.ts#L22)
+[src/resolvers/Query/eventsByOrganizationConnection.ts:22](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Query/eventsByOrganizationConnection.ts#L22)

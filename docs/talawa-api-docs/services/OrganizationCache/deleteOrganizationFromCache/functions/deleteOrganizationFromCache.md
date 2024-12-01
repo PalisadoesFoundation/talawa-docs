@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Deletes the specified organization from Redis cache.
 
 ## Parameters
 
-• **organization**: [`InterfaceOrganization`](../../../../models/Organization/interfaces/InterfaceOrganization.md)
+### organization
+
+[`InterfaceOrganization`](../../../../models/Organization/interfaces/InterfaceOrganization.md)
 
 The InterfaceOrganization object representing the organization to delete.
 
@@ -24,4 +26,4 @@ A promise resolving to void.
 
 ## Defined in
 
-[src/services/OrganizationCache/deleteOrganizationFromCache.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/services/OrganizationCache/deleteOrganizationFromCache.ts#L10)
+[src/services/OrganizationCache/deleteOrganizationFromCache.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/services/OrganizationCache/deleteOrganizationFromCache.ts#L10)

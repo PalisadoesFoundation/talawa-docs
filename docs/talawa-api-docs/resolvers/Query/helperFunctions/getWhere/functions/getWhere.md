@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -20,9 +20,9 @@ used to return an object of a generic type `FilterQuery\<T\>`
 
 ## Parameters
 
-• **where**: `undefined` \| [`InputMaybe`](../../../../../types/generatedGraphQLTypes/type-aliases/InputMaybe.md)\<`Partial`\<[`EventWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/EventWhereInput.md) & [`EventVolunteerGroupWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerGroupWhereInput.md) & [`OrganizationWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/OrganizationWhereInput.md) & [`PostWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/PostWhereInput.md) & [`UserWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/UserWhereInput.md) & [`DonationWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/DonationWhereInput.md) & [`ActionItemWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/ActionItemWhereInput.md) & [`ActionItemCategoryWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/ActionItemCategoryWhereInput.md) & [`CampaignWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/CampaignWhereInput.md) & [`FundWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/FundWhereInput.md) & [`PledgeWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/PledgeWhereInput.md) & [`VenueWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/VenueWhereInput.md) & [`EventVolunteerWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerWhereInput.md)\>\>
+### where
 
-an object that contains properties that can be used to filter out documents.
+`undefined` | [`InputMaybe`](../../../../../types/generatedGraphQLTypes/type-aliases/InputMaybe.md)\<`Partial`\<[`EventWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/EventWhereInput.md) & [`EventVolunteerGroupWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerGroupWhereInput.md) & [`OrganizationWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/OrganizationWhereInput.md) & [`PostWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/PostWhereInput.md) & [`UserWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/UserWhereInput.md) & [`DonationWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/DonationWhereInput.md) & [`ActionItemWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/ActionItemWhereInput.md) & [`ActionItemCategoryWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/ActionItemCategoryWhereInput.md) & [`CampaignWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/CampaignWhereInput.md) & [`FundWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/FundWhereInput.md) & [`PledgeWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/PledgeWhereInput.md) & [`VenueWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/VenueWhereInput.md) & [`EventVolunteerWhereInput`](../../../../../types/generatedGraphQLTypes/type-aliases/EventVolunteerWhereInput.md)\>\>
 
 ## Returns
 
@@ -42,4 +42,4 @@ const inputArgs = getWhere\<InterfaceEvent\>(args.where);
 
 ## Defined in
 
-[src/resolvers/Query/helperFunctions/getWhere.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Query/helperFunctions/getWhere.ts#L32)
+[src/resolvers/Query/helperFunctions/getWhere.ts:32](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Query/helperFunctions/getWhere.ts#L32)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -21,17 +21,27 @@ connection that also provides filtering and sorting capabilities.
 
 ## Parameters
 
-• **\_\_namedParameters**
+### \_\_namedParameters
 
-• **\_\_namedParameters.args**: [`DefaultGraphQLConnectionArguments`](../../type-aliases/DefaultGraphQLConnectionArguments.md)
+#### __namedParameters.args
 
-• **\_\_namedParameters.maximumLimit?**: `number` = `MAXIMUM_FETCH_LIMIT`
+[`DefaultGraphQLConnectionArguments`](../../type-aliases/DefaultGraphQLConnectionArguments.md)
 
-• **\_\_namedParameters.parseCursor**: [`ParseGraphQLConnectionCursor`](../../parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursor.md)\<`T0`\>
+#### __namedParameters.maximumLimit
 
-• **\_\_namedParameters.parseSortedByResult**: [`ParseGraphQLConnectionSortedByResult`](../../parseGraphQLConnectionArgumentsWithSortedBy/type-aliases/ParseGraphQLConnectionSortedByResult.md)\<`T2`\>
+`number` = `MAXIMUM_FETCH_LIMIT`
 
-• **\_\_namedParameters.parseWhereResult**: [`ParseGraphQLConnectionWhereResult`](../../parseGraphQLConnectionArgumentsWithWhere/type-aliases/ParseGraphQLConnectionWhereResult.md)\<`T1`\>
+#### __namedParameters.parseCursor
+
+[`ParseGraphQLConnectionCursor`](../../parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursor.md)\<`T0`\>
+
+#### __namedParameters.parseSortedByResult
+
+[`ParseGraphQLConnectionSortedByResult`](../../parseGraphQLConnectionArgumentsWithSortedBy/type-aliases/ParseGraphQLConnectionSortedByResult.md)\<`T2`\>
+
+#### __namedParameters.parseWhereResult
+
+[`ParseGraphQLConnectionWhereResult`](../../parseGraphQLConnectionArgumentsWithWhere/type-aliases/ParseGraphQLConnectionWhereResult.md)\<`T1`\>
 
 ## Returns
 
@@ -63,4 +73,4 @@ const \{ parsedArgs: \{ cursor, direction, filter, limit, sort \} \} = result;
 
 ## Defined in
 
-[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts#L68)
+[src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts:68](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/graphQLConnection/parseGraphQLConnectionArgumentsWithSortedByAndWhere.ts#L68)

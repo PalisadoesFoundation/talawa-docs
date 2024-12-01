@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ This function is used to get an object containing filtering logic.
 
 ## Parameters
 
-• **\_\_namedParameters**: [`ParseSortedByResult`](../../parseUserTagSortedBy/type-aliases/ParseSortedByResult.md) & [`ParseUserTagMemberWhereResult`](../../parseUserTagMemberWhere/type-aliases/ParseUserTagMemberWhereResult.md) & `object`
+### \_\_namedParameters
+
+[`ParseSortedByResult`](../../parseUserTagSortedBy/type-aliases/ParseSortedByResult.md) & [`ParseUserTagMemberWhereResult`](../../parseUserTagMemberWhere/type-aliases/ParseUserTagMemberWhereResult.md) & `object`
 
 ## Returns
 
@@ -20,4 +22,4 @@ This function is used to get an object containing filtering logic.
 
 ## Defined in
 
-[src/utilities/userTagsPaginationUtils/getUserTagMemberGraphQLConnectionFilter.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/userTagsPaginationUtils/getUserTagMemberGraphQLConnectionFilter.ts#L38)
+[src/utilities/userTagsPaginationUtils/getUserTagMemberGraphQLConnectionFilter.ts:38](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/userTagsPaginationUtils/getUserTagMemberGraphQLConnectionFilter.ts#L38)

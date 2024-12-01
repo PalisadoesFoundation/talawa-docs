@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,7 +13,7 @@ configuration object.
 
 ## Parameters
 
-• **config**
+### config
 
 An object that contains key-value pairs where the keys are strings and the values
 can be either strings or numbers. These key-value pairs represent the environment variables that
@@ -25,4 +25,4 @@ need to be updated.
 
 ## Defined in
 
-[src/setup/updateEnvVariable.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/setup/updateEnvVariable.ts#L11)
+[src/setup/updateEnvVariable.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/setup/updateEnvVariable.ts#L11)

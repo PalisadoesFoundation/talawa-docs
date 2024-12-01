@@ -33,4 +33,4 @@ The JSX element for updating user password.
 
 ## Defined in
 
-[src/components/UserPasswordUpdate/UserPasswordUpdate.tsx:23](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/UserPasswordUpdate/UserPasswordUpdate.tsx#L23)
+[src/components/UserPasswordUpdate/UserPasswordUpdate.tsx:23](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/UserPasswordUpdate/UserPasswordUpdate.tsx#L23)

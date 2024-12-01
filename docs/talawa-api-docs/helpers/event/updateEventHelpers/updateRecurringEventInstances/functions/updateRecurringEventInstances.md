@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -12,25 +12,37 @@ This function updates this and the following instances of a recurring event.
 
 ## Parameters
 
-• **args**: [`MutationUpdateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationUpdateEventArgs.md)
+### args
+
+[`MutationUpdateEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationUpdateEventArgs.md)
 
 update event args.
 
-• **event**: [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### event
+
+[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
 the event to be updated.
 
-• **recurrenceRule**: [`InterfaceRecurrenceRule`](../../../../../models/RecurrenceRule/interfaces/InterfaceRecurrenceRule.md)
+### recurrenceRule
+
+[`InterfaceRecurrenceRule`](../../../../../models/RecurrenceRule/interfaces/InterfaceRecurrenceRule.md)
 
 the recurrence rule followed by the instances.
 
-• **baseRecurringEvent**: [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### baseRecurringEvent
+
+[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
 the base recurring event.
 
-• **recurringEventUpdateType**: [`RecurringEventMutationType`](../../../../../types/generatedGraphQLTypes/type-aliases/RecurringEventMutationType.md)
+### recurringEventUpdateType
 
-• **session**: `ClientSession`
+[`RecurringEventMutationType`](../../../../../types/generatedGraphQLTypes/type-aliases/RecurringEventMutationType.md)
+
+### session
+
+`ClientSession`
 
 ## Returns
 
@@ -53,4 +65,4 @@ The following steps are followed:
 
 ## Defined in
 
-[src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts#L45)
+[src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts:45](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/updateEventHelpers/updateRecurringEventInstances.ts#L45)

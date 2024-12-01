@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,7 +13,9 @@ Throws an UnauthorizedError if the user is not a super admin.
 
 ## Parameters
 
-• **appUserProfile**: [`InterfaceAppUserProfile`](../../../models/AppUserProfile/interfaces/InterfaceAppUserProfile.md)
+### appUserProfile
+
+[`InterfaceAppUserProfile`](../../../models/AppUserProfile/interfaces/InterfaceAppUserProfile.md)
 
 The user profile of the application.
 
@@ -23,4 +25,4 @@ The user profile of the application.
 
 ## Defined in
 
-[src/utilities/superAdminCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/superAdminCheck.ts#L11)
+[src/utilities/superAdminCheck.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/superAdminCheck.ts#L11)

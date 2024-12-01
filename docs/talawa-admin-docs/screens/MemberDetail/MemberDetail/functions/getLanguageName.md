@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[src/screens/MemberDetail/MemberDetail.tsx:752](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/screens/MemberDetail/MemberDetail.tsx#L752)
+[src/screens/MemberDetail/MemberDetail.tsx:752](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/screens/MemberDetail/MemberDetail.tsx#L752)

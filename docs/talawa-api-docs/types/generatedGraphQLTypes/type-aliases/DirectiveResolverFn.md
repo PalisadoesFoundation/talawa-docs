@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -10,25 +10,35 @@
 
 ## Type Parameters
 
-• **TResult** = `object`
+• **TResult** = \{\}
 
-• **TParent** = `object`
+• **TParent** = \{\}
 
-• **TContext** = `object`
+• **TContext** = \{\}
 
-• **TArgs** = `object`
+• **TArgs** = \{\}
 
 ## Parameters
 
-• **next**: [`NextResolverFn`](NextResolverFn.md)\<`TResult`\>
+### next
 
-• **parent**: `TParent`
+[`NextResolverFn`](NextResolverFn.md)\<`TResult`\>
 
-• **args**: `TArgs`
+### parent
 
-• **context**: `TContext`
+`TParent`
 
-• **info?**: `GraphQLResolveInfo`
+### args
+
+`TArgs`
+
+### context
+
+`TContext`
+
+### info?
+
+`GraphQLResolveInfo`
 
 ## Returns
 
@@ -36,4 +46,4 @@
 
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3418](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L3418)
+[src/types/generatedGraphQLTypes.ts:3418](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L3418)

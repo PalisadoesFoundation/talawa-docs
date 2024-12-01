@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,11 +12,15 @@ Compares two times and returns a message if the first time is later than the sec
 
 ## Parameters
 
-• **time1**: `string`
+### time1
+
+`string`
 
 The first time as a string.
 
-• **time2**: `string`
+### time2
+
+`string`
 
 The second time as a string.
 
@@ -28,4 +32,4 @@ A message indicating that the start time must be earlier than the end time, or a
 
 ## Defined in
 
-[src/libraries/validators/compareTime.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/validators/compareTime.ts#L8)
+[src/libraries/validators/compareTime.ts:8](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/validators/compareTime.ts#L8)

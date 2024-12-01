@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -24,13 +24,13 @@ Mapping between all available schema types and the resolvers types
 
 \> **ActionItemCategoryWhereInput**: [`ActionItemCategoryWhereInput`](ActionItemCategoryWhereInput.md)
 
-### ActionItemWhereInput
-
-\> **ActionItemWhereInput**: [`ActionItemWhereInput`](ActionItemWhereInput.md)
-
 ### ActionItemsOrderByInput
 
 \> **ActionItemsOrderByInput**: [`ActionItemsOrderByInput`](ActionItemsOrderByInput.md)
+
+### ActionItemWhereInput
+
+\> **ActionItemWhereInput**: [`ActionItemWhereInput`](ActionItemWhereInput.md)
 
 ### AddPeopleToUserTagInput
 
@@ -52,13 +52,13 @@ Mapping between all available schema types and the resolvers types
 
 \> **AdvertisementEdge**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`AdvertisementEdge`](AdvertisementEdge.md), `"node"`\> & `object`\>
 
-### AdvertisementType
-
-\> **AdvertisementType**: [`AdvertisementType`](AdvertisementType.md)
-
 ### AdvertisementsConnection
 
 \> **AdvertisementsConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`AdvertisementsConnection`](AdvertisementsConnection.md), `"edges"`\> & `object`\>
+
+### AdvertisementType
+
+\> **AdvertisementType**: [`AdvertisementType`](AdvertisementType.md)
 
 ### AgendaCategory
 
@@ -107,6 +107,10 @@ Mapping between all available schema types and the resolvers types
 ### Chat
 
 \> **Chat**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfaceChat`](../../../models/Chat/interfaces/InterfaceChat.md)\>
+
+### chatInput
+
+\> **chatInput**: [`ChatInput`](ChatInput.md)
 
 ### ChatMessage
 
@@ -199,6 +203,10 @@ Mapping between all available schema types and the resolvers types
 ### CreateMemberPayload
 
 \> **CreateMemberPayload**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`CreateMemberPayload`](CreateMemberPayload.md), `"organization"` \| `"userErrors"`\> & `object`\>
+
+### createUserFamilyInput
+
+\> **createUserFamilyInput**: [`CreateUserFamilyInput`](CreateUserFamilyInput.md)
 
 ### CreateUserTagInput
 
@@ -308,13 +316,13 @@ Mapping between all available schema types and the resolvers types
 
 \> **EventVolunteerResponse**: [`EventVolunteerResponse`](EventVolunteerResponse.md)
 
-### EventVolunteerWhereInput
-
-\> **EventVolunteerWhereInput**: [`EventVolunteerWhereInput`](EventVolunteerWhereInput.md)
-
 ### EventVolunteersOrderByInput
 
 \> **EventVolunteersOrderByInput**: [`EventVolunteersOrderByInput`](EventVolunteersOrderByInput.md)
+
+### EventVolunteerWhereInput
+
+\> **EventVolunteerWhereInput**: [`EventVolunteerWhereInput`](EventVolunteerWhereInput.md)
 
 ### EventWhereInput
 
@@ -380,10 +388,6 @@ Mapping between all available schema types and the resolvers types
 
 \> **FundOrderByInput**: [`FundOrderByInput`](FundOrderByInput.md)
 
-### FundWhereInput
-
-\> **FundWhereInput**: [`FundWhereInput`](FundWhereInput.md)
-
 ### FundraisingCampaign
 
 \> **FundraisingCampaign**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfaceFundraisingCampaign`](../../../models/FundraisingCampaign/interfaces/InterfaceFundraisingCampaign.md)\>
@@ -391,6 +395,10 @@ Mapping between all available schema types and the resolvers types
 ### FundraisingCampaignPledge
 
 \> **FundraisingCampaignPledge**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfaceFundraisingCampaignPledges`](../../../models/FundraisingCampaignPledge/interfaces/InterfaceFundraisingCampaignPledges.md)\>
+
+### FundWhereInput
+
+\> **FundWhereInput**: [`FundWhereInput`](FundWhereInput.md)
 
 ### Gender
 
@@ -500,10 +508,6 @@ Mapping between all available schema types and the resolvers types
 
 \> **NoteInput**: [`NoteInput`](NoteInput.md)
 
-### OTPInput
-
-\> **OTPInput**: [`OtpInput`](OtpInput.md)
-
 ### Organization
 
 \> **Organization**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfaceOrganization`](../../../models/Organization/interfaces/InterfaceOrganization.md)\>
@@ -539,6 +543,10 @@ Mapping between all available schema types and the resolvers types
 ### OtpData
 
 \> **OtpData**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`OtpData`](OtpData.md)\>
+
+### OTPInput
+
+\> **OTPInput**: [`OtpInput`](OtpInput.md)
 
 ### PageInfo
 
@@ -600,6 +608,10 @@ Mapping between all available schema types and the resolvers types
 
 \> **PostOrderByInput**: [`PostOrderByInput`](PostOrderByInput.md)
 
+### PostsConnection
+
+\> **PostsConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`PostsConnection`](PostsConnection.md), `"edges"`\> & `object`\>
+
 ### PostUpdateInput
 
 \> **PostUpdateInput**: [`PostUpdateInput`](PostUpdateInput.md)
@@ -607,10 +619,6 @@ Mapping between all available schema types and the resolvers types
 ### PostWhereInput
 
 \> **PostWhereInput**: [`PostWhereInput`](PostWhereInput.md)
-
-### PostsConnection
-
-\> **PostsConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`PostsConnection`](PostsConnection.md), `"edges"`\> & `object`\>
 
 ### Query
 
@@ -675,10 +683,6 @@ Mapping between all available schema types and the resolvers types
 ### Type
 
 \> **Type**: [`Type`](Type.md)
-
-### URL
-
-\> **URL**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"output"`\]\>
 
 ### UnauthenticatedError
 
@@ -768,6 +772,10 @@ Mapping between all available schema types and the resolvers types
 
 \> **Upload**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Scalars`](Scalars.md)\[`"Upload"`\]\[`"output"`\]\>
 
+### URL
+
+\> **URL**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Scalars`](Scalars.md)\[`"URL"`\]\[`"output"`\]\>
+
 ### User
 
 \> **User**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfaceUser`](../../../models/User/interfaces/InterfaceUser.md)\>
@@ -824,6 +832,14 @@ Mapping between all available schema types and the resolvers types
 
 \> **UserPhoneInput**: [`UserPhoneInput`](UserPhoneInput.md)
 
+### UsersConnection
+
+\> **UsersConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UsersConnection`](UsersConnection.md), `"edges"`\> & `object`\>
+
+### UsersConnectionEdge
+
+\> **UsersConnectionEdge**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UsersConnectionEdge`](UsersConnectionEdge.md), `"node"`\> & `object`\>
+
 ### UserTag
 
 \> **UserTag**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`InterfaceOrganizationTagUser`](../../../models/OrganizationTagUser/interfaces/InterfaceOrganizationTagUser.md)\>
@@ -831,6 +847,14 @@ Mapping between all available schema types and the resolvers types
 ### UserTagNameWhereInput
 
 \> **UserTagNameWhereInput**: [`UserTagNameWhereInput`](UserTagNameWhereInput.md)
+
+### UserTagsConnection
+
+\> **UserTagsConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UserTagsConnection`](UserTagsConnection.md), `"edges"`\> & `object`\>
+
+### UserTagsConnectionEdge
+
+\> **UserTagsConnectionEdge**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UserTagsConnectionEdge`](UserTagsConnectionEdge.md), `"node"`\> & `object`\>
 
 ### UserTagSortedByInput
 
@@ -852,14 +876,6 @@ Mapping between all available schema types and the resolvers types
 
 \> **UserTagWhereInput**: [`UserTagWhereInput`](UserTagWhereInput.md)
 
-### UserTagsConnection
-
-\> **UserTagsConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UserTagsConnection`](UserTagsConnection.md), `"edges"`\> & `object`\>
-
-### UserTagsConnectionEdge
-
-\> **UserTagsConnectionEdge**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UserTagsConnectionEdge`](UserTagsConnectionEdge.md), `"node"`\> & `object`\>
-
 ### UserType
 
 \> **UserType**: [`UserType`](UserType.md)
@@ -867,14 +883,6 @@ Mapping between all available schema types and the resolvers types
 ### UserWhereInput
 
 \> **UserWhereInput**: [`UserWhereInput`](UserWhereInput.md)
-
-### UsersConnection
-
-\> **UsersConnection**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UsersConnection`](UsersConnection.md), `"edges"`\> & `object`\>
-
-### UsersConnectionEdge
-
-\> **UsersConnectionEdge**: [`ResolverTypeWrapper`](ResolverTypeWrapper.md)\<[`Omit`](Omit.md)\<[`UsersConnectionEdge`](UsersConnectionEdge.md), `"node"`\> & `object`\>
 
 ### Venue
 
@@ -920,14 +928,6 @@ Mapping between all available schema types and the resolvers types
 
 \> **WeekDays**: [`WeekDays`](WeekDays.md)
 
-### chatInput
-
-\> **chatInput**: [`ChatInput`](ChatInput.md)
-
-### createUserFamilyInput
-
-\> **createUserFamilyInput**: [`CreateUserFamilyInput`](CreateUserFamilyInput.md)
-
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:3442](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L3442)
+[src/types/generatedGraphQLTypes.ts:3442](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L3442)

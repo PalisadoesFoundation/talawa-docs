@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -13,15 +13,21 @@ Delete types include: thisInstance, allInstances, thisAndFollowingInstances.
 
 ## Parameters
 
-• **args**: [`MutationRemoveEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationRemoveEventArgs.md)
+### args
+
+[`MutationRemoveEventArgs`](../../../../../types/generatedGraphQLTypes/type-aliases/MutationRemoveEventArgs.md)
 
 Arguments containing details for the event deletion.
 
-• **event**: [`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
+### event
+
+[`InterfaceEvent`](../../../../../models/Event/interfaces/InterfaceEvent.md)
 
 The instance of the recurring event to be deleted.
 
-• **session**: `ClientSession`
+### session
+
+`ClientSession`
 
 The MongoDB client session for transactional operations.
 
@@ -40,4 +46,4 @@ This function follows these steps:
 
 ## Defined in
 
-[src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts#L29)
+[src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts:29](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/helpers/event/deleteEventHelpers/deleteRecurringEvent.ts#L29)

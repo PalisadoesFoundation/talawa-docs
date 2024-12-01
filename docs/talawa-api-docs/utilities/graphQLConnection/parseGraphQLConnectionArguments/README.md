@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -10,11 +10,11 @@
 
 ### Type Aliases
 
+- [ParsedGraphQLConnectionArguments](type-aliases/ParsedGraphQLConnectionArguments.md)
 - [ParseGraphQLConnectionArgumentsResult](type-aliases/ParseGraphQLConnectionArgumentsResult.md)
 - [ParseGraphQLConnectionCursor](type-aliases/ParseGraphQLConnectionCursor.md)
 - [ParseGraphQLConnectionCursorArguments](type-aliases/ParseGraphQLConnectionCursorArguments.md)
 - [ParseGraphQLConnectionCursorResult](type-aliases/ParseGraphQLConnectionCursorResult.md)
-- [ParsedGraphQLConnectionArguments](type-aliases/ParsedGraphQLConnectionArguments.md)
 
 ### Functions
 

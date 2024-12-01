@@ -1,4 +1,4 @@
-[**talawa-api**](../../README.md) • **Docs**
+[**talawa-api**](../../README.md)
 
 ***
 
@@ -7,24 +7,6 @@
 # utilities/userTagsPaginationUtils
 
 ## References
-
-### ParseSortedByResult
-
-Re-exports [ParseSortedByResult](parseUserTagSortedBy/type-aliases/ParseSortedByResult.md)
-
-***
-
-### ParseUserTagMemberWhereResult
-
-Re-exports [ParseUserTagMemberWhereResult](parseUserTagMemberWhere/type-aliases/ParseUserTagMemberWhereResult.md)
-
-***
-
-### ParseUserTagWhereResult
-
-Re-exports [ParseUserTagWhereResult](parseUserTagWhere/type-aliases/ParseUserTagWhereResult.md)
-
-***
 
 ### getUserTagGraphQLConnectionFilter
 
@@ -44,9 +26,21 @@ Re-exports [getUserTagMemberGraphQLConnectionFilter](getUserTagMemberGraphQLConn
 
 ***
 
+### ParseSortedByResult
+
+Re-exports [ParseSortedByResult](parseUserTagSortedBy/type-aliases/ParseSortedByResult.md)
+
+***
+
 ### parseUserTagMemberWhere
 
 Re-exports [parseUserTagMemberWhere](parseUserTagMemberWhere/functions/parseUserTagMemberWhere.md)
+
+***
+
+### ParseUserTagMemberWhereResult
+
+Re-exports [ParseUserTagMemberWhereResult](parseUserTagMemberWhere/type-aliases/ParseUserTagMemberWhereResult.md)
 
 ***
 
@@ -59,3 +53,9 @@ Re-exports [parseUserTagSortedBy](parseUserTagSortedBy/functions/parseUserTagSor
 ### parseUserTagWhere
 
 Re-exports [parseUserTagWhere](parseUserTagWhere/functions/parseUserTagWhere.md)
+
+***
+
+### ParseUserTagWhereResult
+
+Re-exports [ParseUserTagWhereResult](parseUserTagWhere/type-aliases/ParseUserTagWhereResult.md)

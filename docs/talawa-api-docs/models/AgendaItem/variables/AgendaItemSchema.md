@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -76,4 +76,4 @@ Array of notes associated with the agenda item.
 
 ## Defined in
 
-[src/models/AgendaItem.ts:59](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaItem.ts#L59)
+[src/models/AgendaItem.ts:59](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaItem.ts#L59)

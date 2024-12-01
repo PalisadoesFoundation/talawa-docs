@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -22,4 +22,4 @@ An array of `fundraisingCampaignPledge` object.
 
 ## Defined in
 
-[src/resolvers/Query/getPledgesByUserId.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Query/getPledgesByUserId.ts#L15)
+[src/resolvers/Query/getPledgesByUserId.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Query/getPledgesByUserId.ts#L15)

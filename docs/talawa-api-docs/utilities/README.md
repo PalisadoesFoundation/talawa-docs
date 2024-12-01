@@ -1,4 +1,4 @@
-[**talawa-api**](../README.md) • **Docs**
+[**talawa-api**](../README.md)
 
 ***
 
@@ -7,18 +7,6 @@
 # utilities
 
 ## References
-
-### InterfaceJwtTokenPayload
-
-Re-exports [InterfaceJwtTokenPayload](auth/interfaces/InterfaceJwtTokenPayload.md)
-
-***
-
-### InterfaceMailFields
-
-Re-exports [InterfaceMailFields](mailer/interfaces/InterfaceMailFields.md)
-
-***
 
 ### adminCheck
 
@@ -47,6 +35,18 @@ Re-exports [createRefreshToken](auth/functions/createRefreshToken.md)
 ### deleteImage
 
 Re-exports [deleteImage](deleteImage/functions/deleteImage.md)
+
+***
+
+### InterfaceJwtTokenPayload
+
+Re-exports [InterfaceJwtTokenPayload](auth/interfaces/InterfaceJwtTokenPayload.md)
+
+***
+
+### InterfaceMailFields
+
+Re-exports [InterfaceMailFields](mailer/interfaces/InterfaceMailFields.md)
 
 ***
 

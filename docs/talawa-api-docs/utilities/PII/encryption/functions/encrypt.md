@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,15 +12,21 @@ Encrypts plaintext using AES-256-CBC encryption.
 
 ## Parameters
 
-• **text**: `string`
+### text
+
+`string`
 
 The plaintext to encrypt.
 
-• **key**: `string`
+### key
+
+`string`
 
 The encryption key as a string.
 
-• **iv**: `string`
+### iv
+
+`string`
 
 The initialization vector (IV) as a string in hexadecimal format.
 
@@ -32,4 +38,4 @@ The encrypted ciphertext as a hexadecimal string.
 
 ## Defined in
 
-[src/utilities/PII/encryption.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/PII/encryption.ts#L10)
+[src/utilities/PII/encryption.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/PII/encryption.ts#L10)

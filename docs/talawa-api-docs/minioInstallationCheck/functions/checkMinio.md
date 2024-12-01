@@ -1,4 +1,4 @@
-[**talawa-api**](../../README.md) • **Docs**
+[**talawa-api**](../../README.md)
 
 ***
 
@@ -31,4 +31,4 @@ Error If an error occurs during the check or installation process.
 
 ## Defined in
 
-[src/minioInstallationCheck.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/minioInstallationCheck.ts#L25)
+[src/minioInstallationCheck.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/minioInstallationCheck.ts#L25)

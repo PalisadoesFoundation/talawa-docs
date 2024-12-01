@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -13,11 +13,13 @@ Throws an UnauthorizedError if the user is neither an admin nor a super admin.
 
 ## Parameters
 
-• **userId**: `string` \| `ObjectId`
+### userId
 
-The ID of the current user.
+`string` | `ObjectId`
 
-• **userFamily**: [`InterfaceUserFamily`](../../../models/userFamily/interfaces/InterfaceUserFamily.md)
+### userFamily
+
+[`InterfaceUserFamily`](../../../models/userFamily/interfaces/InterfaceUserFamily.md)
 
 The user family data of type `InterfaceUserFamily`.
 
@@ -32,4 +34,4 @@ Additionally, it queries the `AppUserProfile` to check if the `userId` is a supe
 
 ## Defined in
 
-[src/utilities/userFamilyAdminCheck.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/userFamilyAdminCheck.ts#L19)
+[src/utilities/userFamilyAdminCheck.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/userFamilyAdminCheck.ts#L19)

@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -13,9 +13,13 @@ subscribe the `current_user` to get updates for Group chats.
 
 ## Parameters
 
-• **payload**: `any`
+### payload
 
-• **context**: `any`
+`any`
+
+### context
+
+`any`
 
 ## Returns
 
@@ -29,4 +33,4 @@ You can learn about `subscription` [here](https://www.apollographql.com/docs/apo
 
 ## Defined in
 
-[src/resolvers/Subscription/onPluginUpdate.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/Subscription/onPluginUpdate.ts#L20)
+[src/resolvers/Subscription/onPluginUpdate.ts:20](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/Subscription/onPluginUpdate.ts#L20)

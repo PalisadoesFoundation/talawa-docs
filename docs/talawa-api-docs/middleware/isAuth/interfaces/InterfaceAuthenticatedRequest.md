@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -251,7 +251,7 @@ node\_modules/@types/multer/index.d.ts:41
 
 ### files?
 
-\> `optional` **files**: `object` \| `File`[]
+\> `optional` **files**: \{\} \| `File`[]
 
 Array or dictionary of `Multer.File` object populated by `array()`,
 `fields()`, and `any()` middleware.
@@ -491,7 +491,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:588
 
 #### Defined in
 
-[src/middleware/isAuth.ts:83](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/middleware/isAuth.ts#L83)
+[src/middleware/isAuth.ts:83](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/middleware/isAuth.ts#L83)
 
 ***
 
@@ -1055,7 +1055,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:601
 
 #### Defined in
 
-[src/middleware/isAuth.ts:85](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/middleware/isAuth.ts#L85)
+[src/middleware/isAuth.ts:85](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/middleware/isAuth.ts#L85)
 
 ***
 
@@ -1165,7 +1165,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:655
 
 #### Defined in
 
-[src/middleware/isAuth.ts:84](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/middleware/isAuth.ts#L84)
+[src/middleware/isAuth.ts:84](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/middleware/isAuth.ts#L84)
 
 ***
 
@@ -1184,6 +1184,422 @@ Check if the request was an _XMLHttpRequest_.
 node\_modules/@types/express-serve-static-core/index.d.ts:635
 
 ## Methods
+
+### \_\_()
+
+#### Call Signature
+
+\> **\_\_**(`phraseOrOptions`, ...`replace`): `string`
+
+Translate the given phrase using locale configuration
+
+##### Parameters
+
+###### phraseOrOptions
+
+`string` | `TranslateOptions`
+
+###### replace
+
+...`string`[]
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:465
+
+#### Call Signature
+
+\> **\_\_**(`phraseOrOptions`, `replacements`): `string`
+
+Translate the given phrase using locale configuration
+
+##### Parameters
+
+###### phraseOrOptions
+
+`string` | `TranslateOptions`
+
+###### replacements
+
+`Replacements`
+
+An object containing replacements
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:472
+
+***
+
+### \_\_h()
+
+\> **\_\_h**(`phrase`): `HashedList`[]
+
+Returns a hashed list of translations for a given phrase in each language.
+
+#### Parameters
+
+##### phrase
+
+`string`
+
+The phrase to get translations in each language
+
+#### Returns
+
+`HashedList`[]
+
+The phrase in each language
+
+#### Inherited from
+
+`Request.__h`
+
+#### Defined in
+
+node\_modules/@types/i18n/index.d.ts:548
+
+***
+
+### \_\_l()
+
+\> **\_\_l**(`phrase`): `string`[]
+
+Returns a list of translations for a given phrase in each language.
+
+#### Parameters
+
+##### phrase
+
+`string`
+
+The phrase to get translations in each language
+
+#### Returns
+
+`string`[]
+
+The phrase in each language
+
+#### Inherited from
+
+`Request.__l`
+
+#### Defined in
+
+node\_modules/@types/i18n/index.d.ts:537
+
+***
+
+### \_\_mf()
+
+#### Call Signature
+
+\> **\_\_mf**(`phraseOrOptions`, ...`replace`): `string`
+
+Translate the given phrase using locale configuration and MessageFormat
+
+##### Parameters
+
+###### phraseOrOptions
+
+`string` | `TranslateOptions`
+
+###### replace
+
+...`any`[]
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__mf`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:519
+
+#### Call Signature
+
+\> **\_\_mf**(`phraseOrOptions`, `replacements`): `string`
+
+Translate the given phrase using locale configuration and MessageFormat
+
+##### Parameters
+
+###### phraseOrOptions
+
+`string` | `TranslateOptions`
+
+###### replacements
+
+`Replacements`
+
+An object containing replacements
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__mf`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:526
+
+***
+
+### \_\_n()
+
+#### Call Signature
+
+\> **\_\_n**(`phrase`, `count`): `string`
+
+Translate with plural condition the given phrase and count using locale configuration
+
+##### Parameters
+
+###### phrase
+
+`string`
+
+Short phrase to be translated. All plural options ("one", "few", other", ...) have to be provided by your translation file
+
+###### count
+
+`number`
+
+The number which allow to select from plural to singular
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__n`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:484
+
+#### Call Signature
+
+\> **\_\_n**(`options`, `count`?): `string`
+
+Translate with plural condition the given phrase and count using locale configuration
+
+##### Parameters
+
+###### options
+
+`PluralOptions`
+
+Options for plural translate
+
+###### count?
+
+`number`
+
+The number which allow to select from plural to singular
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__n`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:492
+
+#### Call Signature
+
+\> **\_\_n**(`singular`, `plural`, `count`): `string`
+
+Translate with plural condition the given phrase and count using locale configuration
+
+##### Parameters
+
+###### singular
+
+`string`
+
+The singular phrase to translate if count is \<= 1
+
+###### plural
+
+`string`
+
+The plural phrase to translate if count is \> 1
+
+###### count
+
+`string` | `number`
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__n`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:500
+
+#### Call Signature
+
+\> **\_\_n**(`phrase`, `count`, `replacements`): `string`
+
+Translate with plural condition the given phrase and count using locale configuration
+
+##### Parameters
+
+###### phrase
+
+`string`
+
+The phrase to translate or a flattened key path in locale json file
+
+###### count
+
+`string` | `number`
+
+###### replacements
+
+`Replacements`
+
+An object containing replacements
+
+##### Returns
+
+`string`
+
+The translated phrase
+
+##### Inherited from
+
+`Request.__n`
+
+##### Defined in
+
+node\_modules/@types/i18n/index.d.ts:508
+
+***
+
+### \_construct()?
+
+\> `optional` **\_construct**(`callback`): `void`
+
+#### Parameters
+
+##### callback
+
+(`error`?) =\> `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+`Request._construct`
+
+#### Defined in
+
+node\_modules/@types/node/stream.d.ts:133
+
+***
+
+### \_destroy()
+
+\> **\_destroy**(`error`, `callback`): `void`
+
+#### Parameters
+
+##### error
+
+`null` | `Error`
+
+##### callback
+
+(`error`?) =\> `void`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+`Request._destroy`
+
+#### Defined in
+
+node\_modules/@types/node/stream.d.ts:574
+
+***
+
+### \_read()
+
+\> **\_read**(`size`): `void`
+
+#### Parameters
+
+##### size
+
+`number`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+`Request._read`
+
+#### Defined in
+
+node\_modules/@types/node/stream.d.ts:134
+
+***
 
 ### \[asyncDispose\]()
 
@@ -1237,11 +1653,17 @@ node\_modules/@types/node/stream.d.ts:654
 
 #### Parameters
 
-• **error**: `Error`
+##### error
 
-• **event**: `string` \| `symbol`
+`Error`
 
-• ...**args**: `AnyRest`
+##### event
+
+`string` | `symbol`
+
+##### args
+
+...`AnyRest`
 
 #### Returns
 
@@ -1257,389 +1679,9 @@ node\_modules/@types/node/events.d.ts:136
 
 ***
 
-### \_\_()
-
-#### \_\_(phraseOrOptions, replace)
-
-\> **\_\_**(`phraseOrOptions`, ...`replace`): `string`
-
-Translate the given phrase using locale configuration
-
-##### Parameters
-
-• **phraseOrOptions**: `string` \| `TranslateOptions`
-
-The phrase to translate or options for translation
-
-• ...**replace**: `string`[]
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:465
-
-#### \_\_(phraseOrOptions, replacements)
-
-\> **\_\_**(`phraseOrOptions`, `replacements`): `string`
-
-Translate the given phrase using locale configuration
-
-##### Parameters
-
-• **phraseOrOptions**: `string` \| `TranslateOptions`
-
-The phrase to translate or options for translation
-
-• **replacements**: `Replacements`
-
-An object containing replacements
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:472
-
-***
-
-### \_\_h()
-
-\> **\_\_h**(`phrase`): `HashedList`[]
-
-Returns a hashed list of translations for a given phrase in each language.
-
-#### Parameters
-
-• **phrase**: `string`
-
-The phrase to get translations in each language
-
-#### Returns
-
-`HashedList`[]
-
-The phrase in each language
-
-#### Inherited from
-
-`Request.__h`
-
-#### Defined in
-
-node\_modules/@types/i18n/index.d.ts:548
-
-***
-
-### \_\_l()
-
-\> **\_\_l**(`phrase`): `string`[]
-
-Returns a list of translations for a given phrase in each language.
-
-#### Parameters
-
-• **phrase**: `string`
-
-The phrase to get translations in each language
-
-#### Returns
-
-`string`[]
-
-The phrase in each language
-
-#### Inherited from
-
-`Request.__l`
-
-#### Defined in
-
-node\_modules/@types/i18n/index.d.ts:537
-
-***
-
-### \_\_mf()
-
-#### \_\_mf(phraseOrOptions, replace)
-
-\> **\_\_mf**(`phraseOrOptions`, ...`replace`): `string`
-
-Translate the given phrase using locale configuration and MessageFormat
-
-##### Parameters
-
-• **phraseOrOptions**: `string` \| `TranslateOptions`
-
-The phrase to translate or options for translation
-
-• ...**replace**: `any`[]
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__mf`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:519
-
-#### \_\_mf(phraseOrOptions, replacements)
-
-\> **\_\_mf**(`phraseOrOptions`, `replacements`): `string`
-
-Translate the given phrase using locale configuration and MessageFormat
-
-##### Parameters
-
-• **phraseOrOptions**: `string` \| `TranslateOptions`
-
-The phrase to translate or options for translation
-
-• **replacements**: `Replacements`
-
-An object containing replacements
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__mf`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:526
-
-***
-
-### \_\_n()
-
-#### \_\_n(phrase, count)
-
-\> **\_\_n**(`phrase`, `count`): `string`
-
-Translate with plural condition the given phrase and count using locale configuration
-
-##### Parameters
-
-• **phrase**: `string`
-
-Short phrase to be translated. All plural options ("one", "few", other", ...) have to be provided by your translation file
-
-• **count**: `number`
-
-The number which allow to select from plural to singular
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__n`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:484
-
-#### \_\_n(options, count)
-
-\> **\_\_n**(`options`, `count`?): `string`
-
-Translate with plural condition the given phrase and count using locale configuration
-
-##### Parameters
-
-• **options**: `PluralOptions`
-
-Options for plural translate
-
-• **count?**: `number`
-
-The number which allow to select from plural to singular
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__n`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:492
-
-#### \_\_n(singular, plural, count)
-
-\> **\_\_n**(`singular`, `plural`, `count`): `string`
-
-Translate with plural condition the given phrase and count using locale configuration
-
-##### Parameters
-
-• **singular**: `string`
-
-The singular phrase to translate if count is \<= 1
-
-• **plural**: `string`
-
-The plural phrase to translate if count is \> 1
-
-• **count**: `string` \| `number`
-
-The number which allow to select from plural to singular
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__n`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:500
-
-#### \_\_n(phrase, count, replacements)
-
-\> **\_\_n**(`phrase`, `count`, `replacements`): `string`
-
-Translate with plural condition the given phrase and count using locale configuration
-
-##### Parameters
-
-• **phrase**: `string`
-
-The phrase to translate or a flattened key path in locale json file
-
-• **count**: `string` \| `number`
-
-The number which allow to select from plural to singular
-
-• **replacements**: `Replacements`
-
-An object containing replacements
-
-##### Returns
-
-`string`
-
-The translated phrase
-
-##### Inherited from
-
-`Request.__n`
-
-##### Defined in
-
-node\_modules/@types/i18n/index.d.ts:508
-
-***
-
-### \_construct()?
-
-\> `optional` **\_construct**(`callback`): `void`
-
-#### Parameters
-
-• **callback**
-
-#### Returns
-
-`void`
-
-#### Inherited from
-
-`Request._construct`
-
-#### Defined in
-
-node\_modules/@types/node/stream.d.ts:133
-
-***
-
-### \_destroy()
-
-\> **\_destroy**(`error`, `callback`): `void`
-
-#### Parameters
-
-• **error**: `null` \| `Error`
-
-• **callback**
-
-#### Returns
-
-`void`
-
-#### Inherited from
-
-`Request._destroy`
-
-#### Defined in
-
-node\_modules/@types/node/stream.d.ts:574
-
-***
-
-### \_read()
-
-\> **\_read**(`size`): `void`
-
-#### Parameters
-
-• **size**: `number`
-
-#### Returns
-
-`void`
-
-#### Inherited from
-
-`Request._read`
-
-#### Defined in
-
-node\_modules/@types/node/stream.d.ts:134
-
-***
-
 ### accepts()
 
-#### accepts()
+#### Call Signature
 
 \> **accepts**(): `string`[]
 
@@ -1691,13 +1733,15 @@ Examples:
 
 node\_modules/@types/express-serve-static-core/index.d.ts:454
 
-#### accepts(type)
+#### Call Signature
 
 \> **accepts**(`type`): `string` \| `false`
 
 ##### Parameters
 
-• **type**: `string`
+###### type
+
+`string`
 
 ##### Returns
 
@@ -1711,13 +1755,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:454
 
 node\_modules/@types/express-serve-static-core/index.d.ts:455
 
-#### accepts(type)
+#### Call Signature
 
 \> **accepts**(`type`): `string` \| `false`
 
 ##### Parameters
 
-• **type**: `string`[]
+###### type
+
+`string`[]
 
 ##### Returns
 
@@ -1731,13 +1777,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:455
 
 node\_modules/@types/express-serve-static-core/index.d.ts:456
 
-#### accepts(type)
+#### Call Signature
 
 \> **accepts**(...`type`): `string` \| `false`
 
 ##### Parameters
 
-• ...**type**: `string`[]
+###### type
+
+...`string`[]
 
 ##### Returns
 
@@ -1755,7 +1803,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:457
 
 ### acceptsCharsets()
 
-#### acceptsCharsets()
+#### Call Signature
 
 \> **acceptsCharsets**(): `string`[]
 
@@ -1777,13 +1825,15 @@ For more information, or if you have issues or concerns, see accepts.
 
 node\_modules/@types/express-serve-static-core/index.d.ts:466
 
-#### acceptsCharsets(charset)
+#### Call Signature
 
 \> **acceptsCharsets**(`charset`): `string` \| `false`
 
 ##### Parameters
 
-• **charset**: `string`
+###### charset
+
+`string`
 
 ##### Returns
 
@@ -1797,13 +1847,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:466
 
 node\_modules/@types/express-serve-static-core/index.d.ts:467
 
-#### acceptsCharsets(charset)
+#### Call Signature
 
 \> **acceptsCharsets**(`charset`): `string` \| `false`
 
 ##### Parameters
 
-• **charset**: `string`[]
+###### charset
+
+`string`[]
 
 ##### Returns
 
@@ -1817,13 +1869,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:467
 
 node\_modules/@types/express-serve-static-core/index.d.ts:468
 
-#### acceptsCharsets(charset)
+#### Call Signature
 
 \> **acceptsCharsets**(...`charset`): `string` \| `false`
 
 ##### Parameters
 
-• ...**charset**: `string`[]
+###### charset
+
+...`string`[]
 
 ##### Returns
 
@@ -1841,7 +1895,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:469
 
 ### acceptsEncodings()
 
-#### acceptsEncodings()
+#### Call Signature
 
 \> **acceptsEncodings**(): `string`[]
 
@@ -1863,13 +1917,15 @@ For more information, or if you have issues or concerns, see accepts.
 
 node\_modules/@types/express-serve-static-core/index.d.ts:478
 
-#### acceptsEncodings(encoding)
+#### Call Signature
 
 \> **acceptsEncodings**(`encoding`): `string` \| `false`
 
 ##### Parameters
 
-• **encoding**: `string`
+###### encoding
+
+`string`
 
 ##### Returns
 
@@ -1883,13 +1939,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:478
 
 node\_modules/@types/express-serve-static-core/index.d.ts:479
 
-#### acceptsEncodings(encoding)
+#### Call Signature
 
 \> **acceptsEncodings**(`encoding`): `string` \| `false`
 
 ##### Parameters
 
-• **encoding**: `string`[]
+###### encoding
+
+`string`[]
 
 ##### Returns
 
@@ -1903,13 +1961,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:479
 
 node\_modules/@types/express-serve-static-core/index.d.ts:480
 
-#### acceptsEncodings(encoding)
+#### Call Signature
 
 \> **acceptsEncodings**(...`encoding`): `string` \| `false`
 
 ##### Parameters
 
-• ...**encoding**: `string`[]
+###### encoding
+
+...`string`[]
 
 ##### Returns
 
@@ -1927,7 +1987,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:481
 
 ### acceptsLanguages()
 
-#### acceptsLanguages()
+#### Call Signature
 
 \> **acceptsLanguages**(): `string`[]
 
@@ -1949,13 +2009,15 @@ For more information, or if you have issues or concerns, see accepts.
 
 node\_modules/@types/express-serve-static-core/index.d.ts:490
 
-#### acceptsLanguages(lang)
+#### Call Signature
 
 \> **acceptsLanguages**(`lang`): `string` \| `false`
 
 ##### Parameters
 
-• **lang**: `string`
+###### lang
+
+`string`
 
 ##### Returns
 
@@ -1969,13 +2031,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:490
 
 node\_modules/@types/express-serve-static-core/index.d.ts:491
 
-#### acceptsLanguages(lang)
+#### Call Signature
 
 \> **acceptsLanguages**(`lang`): `string` \| `false`
 
 ##### Parameters
 
-• **lang**: `string`[]
+###### lang
+
+`string`[]
 
 ##### Returns
 
@@ -1989,13 +2053,15 @@ node\_modules/@types/express-serve-static-core/index.d.ts:491
 
 node\_modules/@types/express-serve-static-core/index.d.ts:492
 
-#### acceptsLanguages(lang)
+#### Call Signature
 
 \> **acceptsLanguages**(...`lang`): `string` \| `false`
 
 ##### Parameters
 
-• ...**lang**: `string`[]
+###### lang
+
+...`string`[]
 
 ##### Returns
 
@@ -2013,7 +2079,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:493
 
 ### addListener()
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
@@ -2029,9 +2095,13 @@ The defined events on documents including:
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
 
-• **listener**
+`"close"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
@@ -2045,25 +2115,33 @@ The defined events on documents including:
 
 node\_modules/@types/node/stream.d.ts:598
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **listener**
+`"data"`
+
+###### listener
+
+(`chunk`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2073,25 +2151,33 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:599
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `"end"`
+###### event
 
-• **listener**
+`"end"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2101,25 +2187,33 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:600
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **listener**
+`"error"`
+
+###### listener
+
+(`err`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2129,25 +2223,33 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:601
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
 
-• **listener**
+`"pause"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2157,25 +2259,33 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:602
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
 
-• **listener**
+`"readable"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2185,25 +2295,33 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:603
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
 
-• **listener**
+`"resume"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2213,25 +2331,33 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:604
 
-#### addListener(event, listener)
+#### Call Signature
 
 \> **addListener**(`event`, `listener`): `this`
 
-Alias for `emitter.on(eventName, listener)`.
+Event emitter
+The defined events on documents including:
+1. close
+2. data
+3. end
+4. error
+5. pause
+6. readable
+7. resume
 
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• **listener**
+`string` | `symbol`
+
+###### listener
+
+(...`args`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2252,7 +2378,9 @@ in the form `[index, chunk]`. The first index value is `0` and it increases by 1
 
 #### Parameters
 
-• **options?**: `Pick`\<`ArrayOptions`, `"signal"`\>
+##### options?
+
+`Pick`\<`ArrayOptions`, `"signal"`\>
 
 #### Returns
 
@@ -2284,11 +2412,15 @@ node\_modules/@types/node/stream.d.ts:549
 
 #### Parameters
 
-• **stream**: `ComposeFnParam` \| `T` \| `Iterable`\<`T`\> \| `AsyncIterable`\<`T`\>
+##### stream
 
-• **options?**
+`ComposeFnParam` | `T` | `Iterable`\<`T`\> | `AsyncIterable`\<`T`\>
 
-• **options.signal?**: `AbortSignal`
+##### options?
+
+###### options.signal
+
+`AbortSignal`
 
 #### Returns
 
@@ -2313,7 +2445,9 @@ as an argument to any listeners on the event.
 
 #### Parameters
 
-• **error?**: `Error`
+##### error?
+
+`Error`
 
 #### Returns
 
@@ -2341,11 +2475,15 @@ This method returns a new stream with the first *limit* chunks dropped from the 
 
 #### Parameters
 
-• **limit**: `number`
+##### limit
+
+`number`
 
 the number of chunks to drop from the readable.
 
-• **options?**: `Pick`\<`ArrayOptions`, `"signal"`\>
+##### options?
+
+`Pick`\<`ArrayOptions`, `"signal"`\>
 
 #### Returns
 
@@ -2369,7 +2507,7 @@ node\_modules/@types/node/stream.d.ts:535
 
 ### emit()
 
-#### emit(event)
+#### Call Signature
 
 \> **emit**(`event`): `boolean`
 
@@ -2413,7 +2551,9 @@ myEmitter.emit('event', 1, 2, 3, 4, 5);
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
+
+`"close"`
 
 ##### Returns
 
@@ -2431,61 +2571,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:606
 
-#### emit(event, chunk)
+#### Call Signature
 
 \> **emit**(`event`, `chunk`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **chunk**: `any`
+`"data"`
+
+###### chunk
+
+`any`
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2495,59 +2597,19 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:607
 
-#### emit(event)
+#### Call Signature
 
 \> **emit**(`event`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `"end"`
+###### event
+
+`"end"`
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2557,61 +2619,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:608
 
-#### emit(event, err)
+#### Call Signature
 
 \> **emit**(`event`, `err`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **err**: `Error`
+`"error"`
+
+###### err
+
+`Error`
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2621,59 +2645,19 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:609
 
-#### emit(event)
+#### Call Signature
 
 \> **emit**(`event`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
+
+`"pause"`
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2683,59 +2667,19 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:610
 
-#### emit(event)
+#### Call Signature
 
 \> **emit**(`event`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
+
+`"readable"`
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2745,59 +2689,19 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:611
 
-#### emit(event)
+#### Call Signature
 
 \> **emit**(`event`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
+
+`"resume"`
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2807,61 +2711,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:612
 
-#### emit(event, args)
+#### Call Signature
 
 \> **emit**(`event`, ...`args`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
-to each.
-
-Returns `true` if the event had listeners, `false` otherwise.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEmitter = new EventEmitter();
-
-// First listener
-myEmitter.on('event', function firstListener() \{
-  console.log('Helloooo! first listener');
-\});
-// Second listener
-myEmitter.on('event', function secondListener(arg1, arg2) \{
-  console.log(`event with parameters $\{arg1\}, $\{arg2\} in second listener`);
-\});
-// Third listener
-myEmitter.on('event', function thirdListener(...args) \{
-  const parameters = args.join(', ');
-  console.log(`event with parameters $\{parameters\} in third listener`);
-\});
-
-console.log(myEmitter.listeners('event'));
-
-myEmitter.emit('event', 1, 2, 3, 4, 5);
-
-// Prints:
-// [
-//   [Function: firstListener],
-//   [Function: secondListener],
-//   [Function: thirdListener]
-// ]
-// Helloooo! first listener
-// event with parameters 1, 2 in second listener
-// event with parameters 1, 2, 3, 4, 5 in third listener
-```
-
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• ...**args**: `any`[]
+`string` | `symbol`
+
+###### args
+
+...`any`[]
 
 ##### Returns
 
 `boolean`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -2923,11 +2789,15 @@ If all of the *fn* calls on the chunks return a truthy value, the promise is ful
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`data`, `options`?) =\> `boolean` \| `Promise`\<`boolean`\>
 
 a function to call on each chunk of the stream. Async or not.
 
-• **options?**: `ArrayOptions`
+##### options?
+
+`ArrayOptions`
 
 #### Returns
 
@@ -2959,11 +2829,15 @@ If the *fn* function returns a promise - that promise will be `await`ed.
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`data`, `options`?) =\> `boolean` \| `Promise`\<`boolean`\>
 
 a function to filter chunks from the stream. Async or not.
 
-• **options?**: `ArrayOptions`
+##### options?
+
+`ArrayOptions`
 
 #### Returns
 
@@ -2987,7 +2861,7 @@ node\_modules/@types/node/stream.d.ts:442
 
 ### find()
 
-#### find(fn, options)
+#### Call Signature
 
 \> **find**\<`T`\>(`fn`, `options`?): `Promise`\<`undefined` \| `T`\>
 
@@ -3002,11 +2876,15 @@ If all of the *fn* calls on the chunks return a falsy value, the promise is fulf
 
 ##### Parameters
 
-• **fn**
+###### fn
+
+(`data`, `options`?) =\> `data is T`
 
 a function to call on each chunk of the stream. Async or not.
 
-• **options?**: `ArrayOptions`
+###### options?
+
+`ArrayOptions`
 
 ##### Returns
 
@@ -3027,19 +2905,37 @@ v17.5.0
 
 node\_modules/@types/node/stream.d.ts:497
 
-#### find(fn, options)
+#### Call Signature
 
 \> **find**(`fn`, `options`?): `Promise`\<`any`\>
 
+This method is similar to `Array.prototype.find` and calls *fn* on each chunk in the stream
+to find a chunk with a truthy value for *fn*. Once an *fn* call's awaited return value is truthy,
+the stream is destroyed and the promise is fulfilled with value for which *fn* returned a truthy value.
+If all of the *fn* calls on the chunks return a falsy value, the promise is fulfilled with `undefined`.
+
 ##### Parameters
 
-• **fn**
+###### fn
 
-• **options?**: `ArrayOptions`
+(`data`, `options`?) =\> `boolean` \| `Promise`\<`boolean`\>
+
+a function to call on each chunk of the stream. Async or not.
+
+###### options?
+
+`ArrayOptions`
 
 ##### Returns
 
 `Promise`\<`any`\>
+
+a promise evaluating to the first chunk for which *fn* evaluated with a truthy value,
+or `undefined` if no element was found.
+
+##### Since
+
+v17.5.0
 
 ##### Inherited from
 
@@ -3063,11 +2959,15 @@ will be merged (flattened) into the returned stream.
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`data`, `options`?) =\> `any`
 
 a function to map over every chunk in the stream. May be async. May be a stream or generator.
 
-• **options?**: `ArrayOptions`
+##### options?
+
+`ArrayOptions`
 
 #### Returns
 
@@ -3106,11 +3006,15 @@ in the underlying machinary and can limit the number of concurrent *fn* calls.
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`data`, `options`?) =\> `void` \| `Promise`\<`void`\>
 
 a function to call on each chunk of the stream. Async or not.
 
-• **options?**: `ArrayOptions`
+##### options?
+
+`ArrayOptions`
 
 #### Returns
 
@@ -3134,7 +3038,7 @@ node\_modules/@types/node/stream.d.ts:461
 
 ### get()
 
-#### get(name)
+#### Call Signature
 
 \> **get**(`name`): `undefined` \| `string`[]
 
@@ -3158,7 +3062,9 @@ Aliased as `req.header()`.
 
 ##### Parameters
 
-• **name**: `"set-cookie"`
+###### name
+
+`"set-cookie"`
 
 ##### Returns
 
@@ -3172,13 +3078,15 @@ Aliased as `req.header()`.
 
 node\_modules/@types/express-serve-static-core/index.d.ts:411
 
-#### get(name)
+#### Call Signature
 
 \> **get**(`name`): `undefined` \| `string`
 
 ##### Parameters
 
-• **name**: `string`
+###### name
+
+`string`
 
 ##### Returns
 
@@ -3196,7 +3104,7 @@ node\_modules/@types/express-serve-static-core/index.d.ts:412
 
 ### getCatalog()
 
-#### getCatalog()
+#### Call Signature
 
 \> **getCatalog**(): `GlobalCatalog`
 
@@ -3216,7 +3124,7 @@ The current global catalog
 
 node\_modules/@types/i18n/index.d.ts:568
 
-#### getCatalog(locale)
+#### Call Signature
 
 \> **getCatalog**(`locale`?): `LocaleCatalog`
 
@@ -3224,7 +3132,9 @@ Get the catalog for the given locale
 
 ##### Parameters
 
-• **locale?**: `string`
+###### locale?
+
+`string`
 
 The locale to get catalog for
 
@@ -3293,13 +3203,15 @@ node\_modules/@types/node/events.d.ts:774
 
 ### header()
 
-#### header(name)
+#### Call Signature
 
 \> **header**(`name`): `undefined` \| `string`[]
 
 ##### Parameters
 
-• **name**: `"set-cookie"`
+###### name
+
+`"set-cookie"`
 
 ##### Returns
 
@@ -3313,13 +3225,15 @@ node\_modules/@types/node/events.d.ts:774
 
 node\_modules/@types/express-serve-static-core/index.d.ts:414
 
-#### header(name)
+#### Call Signature
 
 \> **header**(`name`): `undefined` \| `string`
 
 ##### Parameters
 
-• **name**: `string`
+###### name
+
+`string`
 
 ##### Returns
 
@@ -3361,7 +3275,9 @@ Examples:
 
 #### Parameters
 
-• **type**: `string` \| `string`[]
+##### type
+
+`string` | `string`[]
 
 #### Returns
 
@@ -3423,9 +3339,11 @@ or if the iterator should destroy the stream if the stream emitted an error duri
 
 #### Parameters
 
-• **options?**
+##### options?
 
-• **options.destroyOnReturn?**: `boolean`
+###### options.destroyOnReturn
+
+`boolean`
 
 When set to `false`, calling `return` on the async iterator,
 or exiting a `for await...of` iteration using a `break`, `return`, or `throw` will not destroy the stream.
@@ -3463,11 +3381,13 @@ in the list of the listeners of the event.
 
 #### Parameters
 
-• **eventName**: `string` \| `symbol`
+##### eventName
 
-The name of the event being listened for
+`string` | `symbol`
 
-• **listener?**: `Function`
+##### listener?
+
+`Function`
 
 The event handler function
 
@@ -3509,7 +3429,9 @@ console.log(util.inspect(server.listeners('connection')));
 
 #### Parameters
 
-• **eventName**: `string` \| `symbol`
+##### eventName
+
+`string` | `symbol`
 
 #### Returns
 
@@ -3538,11 +3460,15 @@ If the *fn* function returns a promise - that promise will be `await`ed before b
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`data`, `options`?) =\> `any`
 
 a function to map over every chunk in the stream. Async or not.
 
-• **options?**: `ArrayOptions`
+##### options?
+
+`ArrayOptions`
 
 #### Returns
 
@@ -3576,9 +3502,13 @@ Alias for `emitter.removeListener()`.
 
 #### Parameters
 
-• **eventName**: `string` \| `symbol`
+##### eventName
 
-• **listener**
+`string` | `symbol`
+
+##### listener
+
+(...`args`) =\> `void`
 
 #### Returns
 
@@ -3600,7 +3530,7 @@ node\_modules/@types/node/events.d.ts:747
 
 ### on()
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
@@ -3633,9 +3563,13 @@ myEE.emit('foo');
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
 
-• **listener**
+`"close"`
+
+###### listener
+
+() =\> `void`
 
 The callback function
 
@@ -3655,52 +3589,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:614
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **listener**
+`"data"`
 
-The callback function
+###### listener
+
+(`chunk`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -3710,52 +3615,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:615
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"end"`
+###### event
 
-• **listener**
+`"end"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -3765,52 +3641,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:616
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **listener**
+`"error"`
 
-The callback function
+###### listener
+
+(`err`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -3820,52 +3667,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:617
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
 
-• **listener**
+`"pause"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -3875,52 +3693,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:618
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
 
-• **listener**
+`"readable"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -3930,52 +3719,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:619
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
 
-• **listener**
+`"resume"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -3985,52 +3745,23 @@ v0.1.101
 
 node\_modules/@types/node/stream.d.ts:620
 
-#### on(event, listener)
+#### Call Signature
 
 \> **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.on('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.on('foo', () =\> console.log('a'));
-myEE.prependListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• **listener**
+`string` | `symbol`
 
-The callback function
+###### listener
+
+(...`args`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.101
 
 ##### Inherited from
 
@@ -4044,7 +3775,7 @@ node\_modules/@types/node/stream.d.ts:621
 
 ### once()
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
@@ -4075,9 +3806,13 @@ myEE.emit('foo');
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
 
-• **listener**
+`"close"`
+
+###### listener
+
+() =\> `void`
 
 The callback function
 
@@ -4097,50 +3832,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:622
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **listener**
+`"data"`
 
-The callback function
+###### listener
+
+(`chunk`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4150,50 +3858,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:623
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"end"`
+###### event
 
-• **listener**
+`"end"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4203,50 +3884,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:624
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **listener**
+`"error"`
 
-The callback function
+###### listener
+
+(`err`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4256,50 +3910,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:625
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
 
-• **listener**
+`"pause"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4309,50 +3936,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:626
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
 
-• **listener**
+`"readable"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4362,50 +3962,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:627
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
 
-• **listener**
+`"resume"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4415,50 +3988,23 @@ v0.3.0
 
 node\_modules/@types/node/stream.d.ts:628
 
-#### once(event, listener)
+#### Call Signature
 
 \> **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
-next time `eventName` is triggered, this listener is removed and then invoked.
-
-```js
-server.once('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
-event listener to the beginning of the listeners array.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const myEE = new EventEmitter();
-myEE.once('foo', () =\> console.log('a'));
-myEE.prependOnceListener('foo', () =\> console.log('b'));
-myEE.emit('foo');
-// Prints:
-//   b
-//   a
-```
-
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• **listener**
+`string` | `symbol`
 
-The callback function
+###### listener
+
+(...`args`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.3.0
 
 ##### Inherited from
 
@@ -4476,9 +4022,13 @@ node\_modules/@types/node/stream.d.ts:629
 
 #### Parameters
 
-• **name**: `string`
+##### name
 
-• **defaultValue?**: `any`
+`string`
+
+##### defaultValue?
+
+`any`
 
 #### Returns
 
@@ -4559,11 +4109,15 @@ node\_modules/@types/node/stream.d.ts:259
 
 #### Parameters
 
-• **destination**: `T`
+##### destination
 
-• **options?**
+`T`
 
-• **options.end?**: `boolean`
+##### options?
+
+###### options.end
+
+`boolean`
 
 #### Returns
 
@@ -4581,7 +4135,7 @@ node\_modules/@types/node/stream.d.ts:30
 
 ### prependListener()
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
@@ -4600,9 +4154,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
 
-• **listener**
+`"close"`
+
+###### listener
+
+() =\> `void`
 
 The callback function
 
@@ -4622,38 +4180,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:630
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **listener**
+`"data"`
 
-The callback function
+###### listener
+
+(`chunk`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4663,38 +4206,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:631
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"end"`
+###### event
 
-• **listener**
+`"end"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4704,38 +4232,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:632
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **listener**
+`"error"`
 
-The callback function
+###### listener
+
+(`err`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4745,38 +4258,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:633
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
 
-• **listener**
+`"pause"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4786,38 +4284,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:634
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
 
-• **listener**
+`"readable"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4827,38 +4310,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:635
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
 
-• **listener**
+`"resume"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4868,38 +4336,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:636
 
-#### prependListener(event, listener)
+#### Call Signature
 
 \> **prependListener**(`event`, `listener`): `this`
 
-Adds the `listener` function to the _beginning_ of the listeners array for the
-event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
-
-```js
-server.prependListener('connection', (stream) =\> \{
-  console.log('someone connected!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• **listener**
+`string` | `symbol`
 
-The callback function
+###### listener
+
+(...`args`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4913,7 +4366,7 @@ node\_modules/@types/node/stream.d.ts:637
 
 ### prependOnceListener()
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
@@ -4930,9 +4383,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
 
-• **listener**
+`"close"`
+
+###### listener
+
+() =\> `void`
 
 The callback function
 
@@ -4952,36 +4409,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:638
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **listener**
+`"data"`
 
-The callback function
+###### listener
+
+(`chunk`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -4991,36 +4435,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:639
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"end"`
+###### event
 
-• **listener**
+`"end"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -5030,36 +4461,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:640
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **listener**
+`"error"`
 
-The callback function
+###### listener
+
+(`err`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -5069,36 +4487,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:641
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
 
-• **listener**
+`"pause"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -5108,36 +4513,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:642
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
 
-• **listener**
+`"readable"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -5147,36 +4539,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:643
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
 
-• **listener**
+`"resume"`
 
-The callback function
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -5186,36 +4565,23 @@ v6.0.0
 
 node\_modules/@types/node/stream.d.ts:644
 
-#### prependOnceListener(event, listener)
+#### Call Signature
 
 \> **prependOnceListener**(`event`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
-listener is removed, and then invoked.
-
-```js
-server.prependOnceListener('connection', (stream) =\> \{
-  console.log('Ah, we have our first user!');
-\});
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• **listener**
+`string` | `symbol`
 
-The callback function
+###### listener
+
+(...`args`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v6.0.0
 
 ##### Inherited from
 
@@ -5233,9 +4599,13 @@ node\_modules/@types/node/stream.d.ts:645
 
 #### Parameters
 
-• **chunk**: `any`
+##### chunk
 
-• **encoding?**: `BufferEncoding`
+`any`
+
+##### encoding?
+
+`BufferEncoding`
 
 #### Returns
 
@@ -5268,9 +4638,13 @@ should respond with 4 users when available, not 3.
 
 #### Parameters
 
-• **size**: `number`
+##### size
 
-• **options?**: `Options`
+`number`
+
+##### options?
+
+`Options`
 
 #### Returns
 
@@ -5324,7 +4698,9 @@ emitter.emit('log');
 
 #### Parameters
 
-• **eventName**: `string` \| `symbol`
+##### eventName
+
+`string` | `symbol`
 
 #### Returns
 
@@ -5424,7 +4800,9 @@ been emitted will return `null`. No runtime error will be raised.
 
 #### Parameters
 
-• **size?**: `number`
+##### size?
+
+`number`
 
 Optional argument to specify how much data to read.
 
@@ -5448,7 +4826,7 @@ node\_modules/@types/node/stream.d.ts:212
 
 ### reduce()
 
-#### reduce(fn, initial, options)
+#### Call Signature
 
 \> **reduce**\<`T`\>(`fn`, `initial`?, `options`?): `Promise`\<`T`\>
 
@@ -5467,15 +4845,21 @@ or parallelism. To perform a reduce concurrently, you can extract the async func
 
 ##### Parameters
 
-• **fn**
+###### fn
+
+(`previous`, `data`, `options`?) =\> `T`
 
 a reducer function to call over every chunk in the stream. Async or not.
 
-• **initial?**: `undefined`
+###### initial?
+
+`undefined`
 
 the initial value to use in the reduction.
 
-• **options?**: `Pick`\<`ArrayOptions`, `"signal"`\>
+###### options?
+
+`Pick`\<`ArrayOptions`, `"signal"`\>
 
 ##### Returns
 
@@ -5495,9 +4879,18 @@ v17.5.0
 
 node\_modules/@types/node/stream.d.ts:564
 
-#### reduce(fn, initial, options)
+#### Call Signature
 
 \> **reduce**\<`T`\>(`fn`, `initial`, `options`?): `Promise`\<`T`\>
+
+This method calls *fn* on each chunk of the stream in order, passing it the result from the calculation
+on the previous element. It returns a promise for the final value of the reduction.
+
+If no *initial* value is supplied the first chunk of the stream is used as the initial value.
+If the stream is empty, the promise is rejected with a `TypeError` with the `ERR_INVALID_ARGS` code property.
+
+The reducer function iterates the stream element-by-element which means that there is no *concurrency* parameter
+or parallelism. To perform a reduce concurrently, you can extract the async function to `readable.map` method.
 
 ##### Type Parameters
 
@@ -5505,15 +4898,31 @@ node\_modules/@types/node/stream.d.ts:564
 
 ##### Parameters
 
-• **fn**
+###### fn
 
-• **initial**: `T`
+(`previous`, `data`, `options`?) =\> `T`
 
-• **options?**: `Pick`\<`ArrayOptions`, `"signal"`\>
+a reducer function to call over every chunk in the stream. Async or not.
+
+###### initial
+
+`T`
+
+the initial value to use in the reduction.
+
+###### options?
+
+`Pick`\<`ArrayOptions`, `"signal"`\>
 
 ##### Returns
 
 `Promise`\<`T`\>
+
+a promise for the final value of the reduction.
+
+##### Since
+
+v17.5.0
 
 ##### Inherited from
 
@@ -5539,7 +4948,9 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Parameters
 
-• **eventName?**: `string` \| `symbol`
+##### eventName?
+
+`string` | `symbol`
 
 #### Returns
 
@@ -5561,7 +4972,7 @@ node\_modules/@types/node/events.d.ts:758
 
 ### removeListener()
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
@@ -5647,9 +5058,13 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 ##### Parameters
 
-• **event**: `"close"`
+###### event
 
-• **listener**
+`"close"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
@@ -5667,103 +5082,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:646
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"data"`
+###### event
 
-• **listener**
+`"data"`
+
+###### listener
+
+(`chunk`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -5773,103 +5108,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:647
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"end"`
+###### event
 
-• **listener**
+`"end"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -5879,103 +5134,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:648
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"error"`
+###### event
 
-• **listener**
+`"error"`
+
+###### listener
+
+(`err`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -5985,103 +5160,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:649
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"pause"`
+###### event
 
-• **listener**
+`"pause"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -6091,103 +5186,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:650
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"readable"`
+###### event
 
-• **listener**
+`"readable"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -6197,103 +5212,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:651
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `"resume"`
+###### event
 
-• **listener**
+`"resume"`
+
+###### listener
+
+() =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -6303,103 +5238,23 @@ v0.1.26
 
 node\_modules/@types/node/stream.d.ts:652
 
-#### removeListener(event, listener)
+#### Call Signature
 
 \> **removeListener**(`event`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
-
-```js
-const callback = (stream) =\> \{
-  console.log('someone connected!');
-\};
-server.on('connection', callback);
-// ...
-server.removeListener('connection', callback);
-```
-
-`removeListener()` will remove, at most, one instance of a listener from the
-listener array. If any single listener has been added multiple times to the
-listener array for the specified `eventName`, then `removeListener()` must be
-called multiple times to remove each instance.
-
-Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
-
-```js
-import \{ EventEmitter \} from 'node:events';
-class MyEmitter extends EventEmitter \{\}
-const myEmitter = new MyEmitter();
-
-const callbackA = () =\> \{
-  console.log('A');
-  myEmitter.removeListener('event', callbackB);
-\};
-
-const callbackB = () =\> \{
-  console.log('B');
-\};
-
-myEmitter.on('event', callbackA);
-
-myEmitter.on('event', callbackB);
-
-// callbackA removes listener callbackB but it will still be called.
-// Internal listener array at time of emit [callbackA, callbackB]
-myEmitter.emit('event');
-// Prints:
-//   A
-//   B
-
-// callbackB is now removed.
-// Internal listener array [callbackA]
-myEmitter.emit('event');
-// Prints:
-//   A
-```
-
-Because listeners are managed using an internal array, calling this will
-change the position indices of any listener registered _after_ the listener
-being removed. This will not impact the order in which listeners are called,
-but it means that any copies of the listener array as returned by
-the `emitter.listeners()` method will need to be recreated.
-
-When a single function has been added as a handler multiple times for a single
-event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
-
-```js
-import \{ EventEmitter \} from 'node:events';
-const ee = new EventEmitter();
-
-function pong() \{
-  console.log('pong');
-\}
-
-ee.on('ping', pong);
-ee.once('ping', pong);
-ee.removeListener('ping', pong);
-
-ee.emit('ping');
-ee.emit('ping');
-```
-
-Returns a reference to the `EventEmitter`, so that calls can be chained.
-
 ##### Parameters
 
-• **event**: `string` \| `symbol`
+###### event
 
-• **listener**
+`string` | `symbol`
+
+###### listener
+
+(...`args`) =\> `void`
 
 ##### Returns
 
 `this`
-
-##### Since
-
-v0.1.26
 
 ##### Inherited from
 
@@ -6476,7 +5331,9 @@ readable.on('data', (chunk) =\> \{
 
 #### Parameters
 
-• **encoding**: `BufferEncoding`
+##### encoding
+
+`BufferEncoding`
 
 The encoding to use.
 
@@ -6506,7 +5363,9 @@ Change the current active locale
 
 #### Parameters
 
-• **locale**: `string`
+##### locale
+
+`string`
 
 The locale to set as default
 
@@ -6537,7 +5396,9 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Parameters
 
-• **n**: `number`
+##### n
+
+`number`
 
 #### Returns
 
@@ -6565,9 +5426,13 @@ Calls `message.socket.setTimeout(msecs, callback)`.
 
 #### Parameters
 
-• **msecs**: `number`
+##### msecs
 
-• **callback?**
+`number`
+
+##### callback?
+
+() =\> `void`
 
 #### Returns
 
@@ -6598,11 +5463,15 @@ If none of the *fn* calls on the chunks return a truthy value, the promise is fu
 
 #### Parameters
 
-• **fn**
+##### fn
+
+(`data`, `options`?) =\> `boolean` \| `Promise`\<`boolean`\>
 
 a function to call on each chunk of the stream. Async or not.
 
-• **options?**: `ArrayOptions`
+##### options?
+
+`ArrayOptions`
 
 #### Returns
 
@@ -6632,11 +5501,15 @@ This method returns a new stream with the first *limit* chunks.
 
 #### Parameters
 
-• **limit**: `number`
+##### limit
+
+`number`
 
 the number of chunks to take from the readable.
 
-• **options?**: `Pick`\<`ArrayOptions`, `"signal"`\>
+##### options?
+
+`Pick`\<`ArrayOptions`, `"signal"`\>
 
 #### Returns
 
@@ -6669,7 +5542,9 @@ for interoperability and convenience, not as the primary way to consume streams.
 
 #### Parameters
 
-• **options?**: `Pick`\<`ArrayOptions`, `"signal"`\>
+##### options?
+
+`Pick`\<`ArrayOptions`, `"signal"`\>
 
 #### Returns
 
@@ -6720,7 +5595,9 @@ setTimeout(() =\> \{
 
 #### Parameters
 
-• **destination?**: `WritableStream`
+##### destination?
+
+`WritableStream`
 
 Optional specific stream to unpipe
 
@@ -6808,12 +5685,16 @@ process of performing a read.
 
 #### Parameters
 
-• **chunk**: `any`
+##### chunk
+
+`any`
 
 Chunk of data to unshift onto the read queue. For streams not operating in object mode, `chunk` must
 be a \{string\}, \{Buffer\}, \{TypedArray\}, \{DataView\} or `null`. For object mode streams, `chunk` may be any JavaScript value.
 
-• **encoding?**: `BufferEncoding`
+##### encoding?
+
+`BufferEncoding`
 
 Encoding of string chunks. Must be a valid `Buffer` encoding, such as `'utf8'` or `'ascii'`.
 
@@ -6863,7 +5744,9 @@ myReader.on('readable', () =\> \{
 
 #### Parameters
 
-• **stream**: `ReadableStream`
+##### stream
+
+`ReadableStream`
 
 An "old style" readable stream
 

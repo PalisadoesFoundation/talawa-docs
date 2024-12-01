@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ This function is used to validate and transform the cursor passed to the `posts`
 
 ## Parameters
 
-• **args**: [`ParseGraphQLConnectionCursorArguments`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorArguments.md) & `object`
+### args
+
+[`ParseGraphQLConnectionCursorArguments`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorArguments.md) & `object`
 
 An object that includes the cursor value, cursor name, cursor path, and the ID of the creator.
 
@@ -28,4 +30,4 @@ Error Throws an error if the provided cursor is invalid.
 
 ## Defined in
 
-[src/resolvers/User/posts.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/User/posts.ts#L102)
+[src/resolvers/User/posts.ts:102](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/User/posts.ts#L102)

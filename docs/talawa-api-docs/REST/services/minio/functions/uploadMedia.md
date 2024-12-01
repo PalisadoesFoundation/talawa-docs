@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -17,23 +17,31 @@ by assigning appropriate prefixes to the object key.
 
 ## Parameters
 
-• **bucketName**: `string`
+### bucketName
+
+`string`
 
 The name of the S3 bucket where the file will be uploaded.
 
-• **buffer**: `Buffer`
+### buffer
+
+`Buffer`
 
 The file content as a buffer.
 
-• **originalname**: `string`
+### originalname
+
+`string`
 
 The original file name, used to determine the file extension.
 
-• **contentType**
+### contentType
 
 An object specifying the content type of the file.
 
-• **contentType.ContentType**: `string`
+#### contentType.ContentType
+
+`string`
 
 ## Returns
 
@@ -50,4 +58,4 @@ console.log(result);
 
 ## Defined in
 
-[src/REST/services/minio/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/REST/services/minio/index.ts#L43)
+[src/REST/services/minio/index.ts:43](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/REST/services/minio/index.ts#L43)

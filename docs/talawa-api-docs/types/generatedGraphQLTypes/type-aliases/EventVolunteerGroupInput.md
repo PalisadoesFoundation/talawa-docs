@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -26,14 +26,14 @@
 
 \> **name**: [`Scalars`](Scalars.md)\[`"String"`\]\[`"input"`\]
 
-### volunteerUserIds
-
-\> **volunteerUserIds**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]
-
 ### volunteersRequired?
 
 \> `optional` **volunteersRequired**: [`InputMaybe`](InputMaybe.md)\<[`Scalars`](Scalars.md)\[`"Int"`\]\[`"input"`\]\>
 
+### volunteerUserIds
+
+\> **volunteerUserIds**: [`Scalars`](Scalars.md)\[`"ID"`\]\[`"input"`\][]
+
 ## Defined in
 
-[src/types/generatedGraphQLTypes.ts:857](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/types/generatedGraphQLTypes.ts#L857)
+[src/types/generatedGraphQLTypes.ts:857](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/types/generatedGraphQLTypes.ts#L857)

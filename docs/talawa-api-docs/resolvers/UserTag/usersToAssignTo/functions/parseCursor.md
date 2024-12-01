@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../README.md) • **Docs**
+[**talawa-api**](../../../../README.md)
 
 ***
 
@@ -14,7 +14,9 @@ This function is used to parse the cursor value provided to the `usersToAssignTo
 
 ## Parameters
 
-• **\_\_namedParameters**: [`ParseGraphQLConnectionCursorArguments`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorArguments.md)
+### \_\_namedParameters
+
+[`ParseGraphQLConnectionCursorArguments`](../../../../utilities/graphQLConnection/parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionCursorArguments.md)
 
 ## Returns
 
@@ -31,4 +33,4 @@ An object containing the parsed cursor value or an array of errors if the cursor
 
 ## Defined in
 
-[src/resolvers/UserTag/usersToAssignTo.ts:171](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/resolvers/UserTag/usersToAssignTo.ts#L171)
+[src/resolvers/UserTag/usersToAssignTo.ts:171](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/resolvers/UserTag/usersToAssignTo.ts#L171)

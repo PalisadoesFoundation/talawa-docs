@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ This function checks if the volunteerMembership exists.
 
 ## Parameters
 
-• **membershipId**: `string`
+### membershipId
+
+`string`
 
 id
 
@@ -24,4 +26,4 @@ VolunteerMembership
 
 ## Defined in
 
-[src/utilities/checks.ts:136](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/checks.ts#L136)
+[src/utilities/checks.ts:136](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/checks.ts#L136)

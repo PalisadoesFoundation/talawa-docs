@@ -1,4 +1,4 @@
-[**talawa-api**](../../README.md) • **Docs**
+[**talawa-api**](../../README.md)
 
 ***
 
@@ -44,9 +44,69 @@ Re-exports [DefaultGraphQLConnectionEdge](generateDefaultGraphQLConnection/type-
 
 ***
 
+### generateDefaultGraphQLConnection
+
+Re-exports [generateDefaultGraphQLConnection](generateDefaultGraphQLConnection/functions/generateDefaultGraphQLConnection.md)
+
+***
+
+### getCommonGraphQLConnectionFilter
+
+Re-exports [getCommonGraphQLConnectionFilter](getCommonGraphQLConnectionFilter/functions/getCommonGraphQLConnectionFilter.md)
+
+***
+
+### getCommonGraphQLConnectionSort
+
+Re-exports [getCommonGraphQLConnectionSort](getCommonGraphQLConnectionSort/functions/getCommonGraphQLConnectionSort.md)
+
+***
+
+### ParsedGraphQLConnectionArguments
+
+Re-exports [ParsedGraphQLConnectionArguments](parseGraphQLConnectionArguments/type-aliases/ParsedGraphQLConnectionArguments.md)
+
+***
+
+### ParsedGraphQLConnectionArgumentsWithSortedBy
+
+Re-exports [ParsedGraphQLConnectionArgumentsWithSortedBy](parseGraphQLConnectionArgumentsWithSortedBy/type-aliases/ParsedGraphQLConnectionArgumentsWithSortedBy.md)
+
+***
+
+### ParsedGraphQLConnectionArgumentsWithSortedByAndWhere
+
+Re-exports [ParsedGraphQLConnectionArgumentsWithSortedByAndWhere](parseGraphQLConnectionArgumentsWithSortedByAndWhere/type-aliases/ParsedGraphQLConnectionArgumentsWithSortedByAndWhere.md)
+
+***
+
+### ParsedGraphQLConnectionArgumentsWithWhere
+
+Re-exports [ParsedGraphQLConnectionArgumentsWithWhere](parseGraphQLConnectionArgumentsWithWhere/type-aliases/ParsedGraphQLConnectionArgumentsWithWhere.md)
+
+***
+
+### parseGraphQLConnectionArguments
+
+Re-exports [parseGraphQLConnectionArguments](parseGraphQLConnectionArguments/functions/parseGraphQLConnectionArguments.md)
+
+***
+
 ### ParseGraphQLConnectionArgumentsResult
 
 Re-exports [ParseGraphQLConnectionArgumentsResult](parseGraphQLConnectionArguments/type-aliases/ParseGraphQLConnectionArgumentsResult.md)
+
+***
+
+### parseGraphQLConnectionArgumentsWithSortedBy
+
+Re-exports [parseGraphQLConnectionArgumentsWithSortedBy](parseGraphQLConnectionArgumentsWithSortedBy/functions/parseGraphQLConnectionArgumentsWithSortedBy.md)
+
+***
+
+### parseGraphQLConnectionArgumentsWithSortedByAndWhere
+
+Re-exports [parseGraphQLConnectionArgumentsWithSortedByAndWhere](parseGraphQLConnectionArgumentsWithSortedByAndWhere/functions/parseGraphQLConnectionArgumentsWithSortedByAndWhere.md)
 
 ***
 
@@ -59,6 +119,12 @@ Re-exports [ParseGraphQLConnectionArgumentsWithSortedByAndWhereResult](parseGrap
 ### ParseGraphQLConnectionArgumentsWithSortedByResult
 
 Re-exports [ParseGraphQLConnectionArgumentsWithSortedByResult](parseGraphQLConnectionArgumentsWithSortedBy/type-aliases/ParseGraphQLConnectionArgumentsWithSortedByResult.md)
+
+***
+
+### parseGraphQLConnectionArgumentsWithWhere
+
+Re-exports [parseGraphQLConnectionArgumentsWithWhere](parseGraphQLConnectionArgumentsWithWhere/functions/parseGraphQLConnectionArgumentsWithWhere.md)
 
 ***
 
@@ -98,78 +164,12 @@ Re-exports [ParseGraphQLConnectionWhereResult](parseGraphQLConnectionArgumentsWi
 
 ***
 
-### ParsedGraphQLConnectionArguments
+### transformToDefaultGraphQLConnection
 
-Re-exports [ParsedGraphQLConnectionArguments](parseGraphQLConnectionArguments/type-aliases/ParsedGraphQLConnectionArguments.md)
-
-***
-
-### ParsedGraphQLConnectionArgumentsWithSortedBy
-
-Re-exports [ParsedGraphQLConnectionArgumentsWithSortedBy](parseGraphQLConnectionArgumentsWithSortedBy/type-aliases/ParsedGraphQLConnectionArgumentsWithSortedBy.md)
-
-***
-
-### ParsedGraphQLConnectionArgumentsWithSortedByAndWhere
-
-Re-exports [ParsedGraphQLConnectionArgumentsWithSortedByAndWhere](parseGraphQLConnectionArgumentsWithSortedByAndWhere/type-aliases/ParsedGraphQLConnectionArgumentsWithSortedByAndWhere.md)
-
-***
-
-### ParsedGraphQLConnectionArgumentsWithWhere
-
-Re-exports [ParsedGraphQLConnectionArgumentsWithWhere](parseGraphQLConnectionArgumentsWithWhere/type-aliases/ParsedGraphQLConnectionArgumentsWithWhere.md)
+Re-exports [transformToDefaultGraphQLConnection](transformToDefaultGraphQLConnection/functions/transformToDefaultGraphQLConnection.md)
 
 ***
 
 ### TransformToDefaultGraphQLConnectionArguments
 
 Re-exports [TransformToDefaultGraphQLConnectionArguments](transformToDefaultGraphQLConnection/type-aliases/TransformToDefaultGraphQLConnectionArguments.md)
-
-***
-
-### generateDefaultGraphQLConnection
-
-Re-exports [generateDefaultGraphQLConnection](generateDefaultGraphQLConnection/functions/generateDefaultGraphQLConnection.md)
-
-***
-
-### getCommonGraphQLConnectionFilter
-
-Re-exports [getCommonGraphQLConnectionFilter](getCommonGraphQLConnectionFilter/functions/getCommonGraphQLConnectionFilter.md)
-
-***
-
-### getCommonGraphQLConnectionSort
-
-Re-exports [getCommonGraphQLConnectionSort](getCommonGraphQLConnectionSort/functions/getCommonGraphQLConnectionSort.md)
-
-***
-
-### parseGraphQLConnectionArguments
-
-Re-exports [parseGraphQLConnectionArguments](parseGraphQLConnectionArguments/functions/parseGraphQLConnectionArguments.md)
-
-***
-
-### parseGraphQLConnectionArgumentsWithSortedBy
-
-Re-exports [parseGraphQLConnectionArgumentsWithSortedBy](parseGraphQLConnectionArgumentsWithSortedBy/functions/parseGraphQLConnectionArgumentsWithSortedBy.md)
-
-***
-
-### parseGraphQLConnectionArgumentsWithSortedByAndWhere
-
-Re-exports [parseGraphQLConnectionArgumentsWithSortedByAndWhere](parseGraphQLConnectionArgumentsWithSortedByAndWhere/functions/parseGraphQLConnectionArgumentsWithSortedByAndWhere.md)
-
-***
-
-### parseGraphQLConnectionArgumentsWithWhere
-
-Re-exports [parseGraphQLConnectionArgumentsWithWhere](parseGraphQLConnectionArgumentsWithWhere/functions/parseGraphQLConnectionArgumentsWithWhere.md)
-
-***
-
-### transformToDefaultGraphQLConnection
-
-Re-exports [transformToDefaultGraphQLConnection](transformToDefaultGraphQLConnection/functions/transformToDefaultGraphQLConnection.md)

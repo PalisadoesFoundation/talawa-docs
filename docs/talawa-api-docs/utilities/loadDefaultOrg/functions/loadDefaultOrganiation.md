@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,7 +12,9 @@ Loads default organization data into the database.
 
 ## Parameters
 
-• **dbName?**: `string`
+### dbName?
+
+`string`
 
 Optional name of the database to connect to.
 
@@ -24,4 +26,4 @@ Promise\<void\>
 
 ## Defined in
 
-[src/utilities/loadDefaultOrg.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/loadDefaultOrg.ts#L11)
+[src/utilities/loadDefaultOrg.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/loadDefaultOrg.ts#L11)

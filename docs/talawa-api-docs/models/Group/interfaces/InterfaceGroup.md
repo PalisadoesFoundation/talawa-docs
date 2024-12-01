@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L10)
+[src/models/Group.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L10)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L15)
+[src/models/Group.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L15)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L16)
+[src/models/Group.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L16)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L12)
+[src/models/Group.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L12)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L13)
+[src/models/Group.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L13)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L14)
+[src/models/Group.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L14)
 
 ***
 
@@ -76,7 +76,7 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L11)
+[src/models/Group.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L11)
 
 ***
 
@@ -86,4 +86,4 @@ Interface representing a document for a group in the database (MongoDB).
 
 #### Defined in
 
-[src/models/Group.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/Group.ts#L17)
+[src/models/Group.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/Group.ts#L17)

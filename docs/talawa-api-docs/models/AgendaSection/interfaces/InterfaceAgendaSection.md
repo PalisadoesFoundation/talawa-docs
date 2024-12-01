@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -16,7 +16,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L11)
+[src/models/AgendaSection.ts:11](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L11)
 
 ***
 
@@ -26,7 +26,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L16)
+[src/models/AgendaSection.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L16)
 
 ***
 
@@ -36,7 +36,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L18)
+[src/models/AgendaSection.ts:18](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L13)
+[src/models/AgendaSection.ts:13](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L13)
 
 ***
 
@@ -56,7 +56,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L14)
+[src/models/AgendaSection.ts:14](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L14)
 
 ***
 
@@ -66,7 +66,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L12)
+[src/models/AgendaSection.ts:12](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L12)
 
 ***
 
@@ -76,7 +76,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L15)
+[src/models/AgendaSection.ts:15](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L15)
 
 ***
 
@@ -86,7 +86,7 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L17)
+[src/models/AgendaSection.ts:17](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L17)
 
 ***
 
@@ -96,4 +96,4 @@ Interface representing a document for an agenda section in MongoDB.
 
 #### Defined in
 
-[src/models/AgendaSection.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/models/AgendaSection.ts#L19)
+[src/models/AgendaSection.ts:19](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/models/AgendaSection.ts#L19)

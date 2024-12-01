@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -12,4 +12,4 @@ Name of the header where the tracing ID will be stored.
 
 ## Defined in
 
-[src/libraries/requestTracing.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/libraries/requestTracing.ts#L28)
+[src/libraries/requestTracing.ts:28](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/libraries/requestTracing.ts#L28)

@@ -16,7 +16,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:23](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L23)
+[src/components/EventListCard/EventListCard.tsx:23](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L23)
 
 ***
 
@@ -38,7 +38,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:32](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L32)
+[src/components/EventListCard/EventListCard.tsx:32](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L32)
 
 ***
 
@@ -48,7 +48,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L20)
+[src/components/EventListCard/EventListCard.tsx:20](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L20)
 
 ***
 
@@ -58,7 +58,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:22](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L22)
+[src/components/EventListCard/EventListCard.tsx:22](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L22)
 
 ***
 
@@ -68,7 +68,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L18)
+[src/components/EventListCard/EventListCard.tsx:18](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L18)
 
 ***
 
@@ -78,7 +78,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:16](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L16)
+[src/components/EventListCard/EventListCard.tsx:16](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L16)
 
 ***
 
@@ -88,7 +88,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L17)
+[src/components/EventListCard/EventListCard.tsx:17](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L17)
 
 ***
 
@@ -98,7 +98,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:15](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L15)
+[src/components/EventListCard/EventListCard.tsx:15](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L15)
 
 ***
 
@@ -108,7 +108,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:27](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L27)
+[src/components/EventListCard/EventListCard.tsx:27](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L27)
 
 ***
 
@@ -118,7 +118,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:26](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L26)
+[src/components/EventListCard/EventListCard.tsx:26](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L26)
 
 ***
 
@@ -128,7 +128,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:28](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L28)
+[src/components/EventListCard/EventListCard.tsx:28](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L28)
 
 ***
 
@@ -138,7 +138,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:14](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L14)
+[src/components/EventListCard/EventListCard.tsx:14](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L14)
 
 ***
 
@@ -148,7 +148,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:25](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L25)
+[src/components/EventListCard/EventListCard.tsx:25](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L25)
 
 ***
 
@@ -158,7 +158,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:24](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L24)
+[src/components/EventListCard/EventListCard.tsx:24](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L24)
 
 ***
 
@@ -172,7 +172,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:12](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L12)
+[src/components/EventListCard/EventListCard.tsx:12](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L12)
 
 ***
 
@@ -182,7 +182,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:29](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L29)
+[src/components/EventListCard/EventListCard.tsx:29](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L29)
 
 ***
 
@@ -192,7 +192,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:19](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L19)
+[src/components/EventListCard/EventListCard.tsx:19](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L19)
 
 ***
 
@@ -202,7 +202,7 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:21](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L21)
+[src/components/EventListCard/EventListCard.tsx:21](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L21)
 
 ***
 
@@ -212,4 +212,4 @@ Props for the EventListCard component.
 
 #### Defined in
 
-[src/components/EventListCard/EventListCard.tsx:13](https://github.com/PalisadoesFoundation/talawa-admin/blob/084ac7e92dede9766b77e75cf296f40165965140/src/components/EventListCard/EventListCard.tsx#L13)
+[src/components/EventListCard/EventListCard.tsx:13](https://github.com/PalisadoesFoundation/talawa-admin/blob/7a991b3aa824070bd53d6367f1ce7f072321af88/src/components/EventListCard/EventListCard.tsx#L13)

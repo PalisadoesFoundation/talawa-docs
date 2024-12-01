@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -10,11 +10,17 @@
 
 ## Parameters
 
-• **req**: `Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
+### req
 
-• **res**: `Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
+`Request`\<`ParamsDictionary`, `any`, `any`, `ParsedQs`, `Record`\<`string`, `any`\>\>
 
-• **next**: `NextFunction`
+### res
+
+`Response`\<`any`, `Record`\<`string`, `any`\>, `number`\>
+
+### next
+
+`NextFunction`
 
 ## Returns
 
@@ -22,4 +28,4 @@
 
 ## Defined in
 
-[src/REST/routes/index.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/REST/routes/index.ts#L10)
+[src/REST/routes/index.ts:10](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/REST/routes/index.ts#L10)

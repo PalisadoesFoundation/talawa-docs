@@ -1,4 +1,4 @@
-[**talawa-api**](../../../README.md) • **Docs**
+[**talawa-api**](../../../README.md)
 
 ***
 
@@ -14,11 +14,13 @@ If the image does not exist, it saves the image hash in the database.
 
 ## Parameters
 
-• **oldImagePath**: `null` \| `string`
+### oldImagePath
 
-Path of the old image that might be replaced.
+`null` | `string`
 
-• **newImagePath**: `string`
+### newImagePath
+
+`string`
 
 Path of the newly uploaded image.
 
@@ -30,4 +32,4 @@ The file name of the existing image if found; otherwise, undefined.
 
 ## Defined in
 
-[src/utilities/imageAlreadyInDbCheck.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/utilities/imageAlreadyInDbCheck.ts#L16)
+[src/utilities/imageAlreadyInDbCheck.ts:16](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/utilities/imageAlreadyInDbCheck.ts#L16)

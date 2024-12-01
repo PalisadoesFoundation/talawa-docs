@@ -1,4 +1,4 @@
-[**talawa-api**](../../../../../README.md) • **Docs**
+[**talawa-api**](../../../../../README.md)
 
 ***
 
@@ -15,19 +15,27 @@ If not, a new file document is created and saved to the database.
 
 ## Parameters
 
-• **uploadResult**: [`InterfaceUploadResult`](../../../minio/interfaces/InterfaceUploadResult.md)
+### uploadResult
+
+[`InterfaceUploadResult`](../../../minio/interfaces/InterfaceUploadResult.md)
 
 The result from the file upload containing the hash, object key, and hash algorithm.
 
-• **originalname**: `string`
+### originalname
+
+`string`
 
 The original name of the uploaded file.
 
-• **mimetype**: `string`
+### mimetype
+
+`string`
 
 The MIME type of the uploaded file.
 
-• **size**: `number`
+### size
+
+`number`
 
 The size of the uploaded file in bytes.
 
@@ -46,4 +54,4 @@ console.log(file);
 
 ## Defined in
 
-[src/REST/services/file/createFile.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/92443bb6a5ff3ed66457149a509401986a82e570/src/REST/services/file/createFile.ts#L25)
+[src/REST/services/file/createFile.ts:25](https://github.com/PalisadoesFoundation/talawa-api/blob/832d310bae30bd8cb45fb1b44f62dd776dccc52f/src/REST/services/file/createFile.ts#L25)

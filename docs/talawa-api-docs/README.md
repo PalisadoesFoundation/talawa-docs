@@ -1,4 +1,4 @@
-**talawa-api** • [**Docs**](modules.md)
+**talawa-api**
 
 ***
 
