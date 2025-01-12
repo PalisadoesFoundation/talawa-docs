@@ -109,7 +109,7 @@ const config = {
         },
         items: [
           {
-            to: "/",
+            to: "/docs",
             activeBasePath: "docs",
             label: "General",
             position: "left",
