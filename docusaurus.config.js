@@ -117,19 +117,19 @@ const config = {
           {
 			label: "Mobile Guide",
 			position: "left",
-			href: "https://docs-mobile.talawa.io/",
+			href: "https://docs-mobile.talawa.io/docs",
 			target: "_self",
 		  },
 		  {
 			label: "Admin Guide",
 			position: "left",
-			href: "https://docs-admin.talawa.io/",
+			href: "https://docs-admin.talawa.io/docs",
 			target: "_self",
 		  },
 		  {
 			label: "API Guide",
 			position: "left",
-			href: "https://docs-api.talawa.io/",
+			href: "https://docs-api.talawa.io/docs",
 			target: "_self", 
 		  },
 		  
