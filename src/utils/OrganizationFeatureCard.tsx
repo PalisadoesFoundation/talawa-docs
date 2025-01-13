@@ -2,7 +2,7 @@ import React from "react";
 
 const OrganizationFeatureCard = () => {
   return (
-    <div className="card__container">
+    <div className="card__container card__wide">
       <h2 className="Heading">Easy Community Organization Management</h2>
       <div className="organization-feature-cards">
         <div className="organization-feature-card card__general">
