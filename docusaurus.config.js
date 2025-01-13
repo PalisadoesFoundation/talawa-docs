@@ -15,6 +15,7 @@ const config = {
   favicon: "img/favicon.ico",
   deploymentBranch: "gh-pages",
   organizationName: "PalisadoesFoundation",
+  trailingSlash: true,
   projectName: "talawa-docs",
   i18n: {
     defaultLocale: "en",
