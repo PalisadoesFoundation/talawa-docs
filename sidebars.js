@@ -63,11 +63,11 @@ const sidebars = {
           items: [
             "developers/talawa-api/api-overview",
             "developers/talawa-api/api-design-guide",
-            {
-              type: "link",
-              label: "Schema Documentation",
-              href: "/docs/schema",
-            },
+            // {
+            //   type: "link",
+            //   label: "Schema Documentation",
+            //   href: "/docs/schema",
+            // },
             {
               type: "category",
               label: "Base Constraints",

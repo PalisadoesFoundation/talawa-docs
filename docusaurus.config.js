@@ -19,25 +19,25 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: [
-    [
-      "@graphql-markdown/docusaurus",
-      {
-        schema: "docs/github-actions/schema.json",
-        rootPath: "docs",
-        baseURL: "schema",
-        linkRoot: "../../../docs",
-        pretty: true,
-        docOptions: {
-          pagination: true,
-          toc: true,
-          index: true,
-        },
-        loaders: {
-          JsonFileLoader: "@graphql-tools/json-file-loader",
-        },
-      },
-    ],
+  // plugins: [
+  //   [
+  //     "@graphql-markdown/docusaurus",
+  //     {
+  //       schema: "docs/github-actions/schema.json",
+  //       rootPath: "docs",
+  //       baseURL: "schema",
+  //       linkRoot: "../../../docs",
+  //       pretty: true,
+  //       docOptions: {
+  //         pagination: true,
+  //         toc: true,
+  //         index: true,
+  //       },
+  //       loaders: {
+  //         JsonFileLoader: "@graphql-tools/json-file-loader",
+  //       },
+  //     },
+  //   ],
     // [
     //   "@docusaurus/plugin-content-docs",
     //   {
@@ -65,7 +65,7 @@ const config = {
     //     sidebarPath: require.resolve("./sidebar-admin.js"),
     //   },
     // ],
-  ],
+  // ],
   presets: [
     [
       "classic",
