@@ -2,7 +2,7 @@ import React from "react";
 
 const OrganizationFeatureCard = () => {
   return (
-    <div className="card__container card__wide">
+    <div className="card__container">
       <h2 className="Heading">Easy Community Organization Management</h2>
       <div className="organization-feature-cards">
         <div className="organization-feature-card card__general">
@@ -35,13 +35,10 @@ const OrganizationFeatureCard = () => {
             </p>
           </div>
           <div className="organization-feature-card__footer">
-            <a
-              href="https://docs-mobile.talawa.io/docs-talawa-apk/"
-              rel="noopener noreferrer"
-            >
-              <button className="organization-feature-card__button">
-                Get the App
-              </button>
+          <a href="https://docs-mobile.talawa.io/docs-talawa-apk/" rel="noopener noreferrer">
+            <button className="organization-feature-card__button">
+              Get the App
+            </button>
             </a>
           </div>
         </div>
