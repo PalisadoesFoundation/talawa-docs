@@ -13,9 +13,6 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.29);
-
-  /* New */
-
   --secondary-blue-900: #001c63;
   --sidebar-bg-color: #f3f4f6;
   --secondary-blue-500: #3970fd;
@@ -33,7 +30,6 @@
   --next-prev-border-color: #e5e7eb;
   --ifm-color-emphasis-100: #f4f8fb;
   --ifm-color-emphasis-0: #fff;
-  /* New */
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -110,9 +106,6 @@ html[data-theme="dark"] {
   --ifm-table-stripe-background: #001242;
   --ifm-navbar-search-input-placeholder-color: var(--ifm-color-gray-200);
   --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23C9C9CC" alt="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
-
-  /* New */
-
   --ifm-hover-overlay: rgba(0, 0, 0, 0);
   --ifm-color-primary: #1e56e3;
   --secondary-blue-900: #c6d6ff;
@@ -146,20 +139,13 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   font-size: var(--ifm-h1-font-size);
   margin-bottom: 1.5rem;
 }
-
-/* New */
-
 .menu {
   background-color: var(--sidebar-bg-color);
 }
-
-/* New */
-
 .menu__link,
 .menu * {
   line-height: 1.5;
   font-size: 0.7rem;
-  padding-left: 0.5rem;
   padding-bottom: 0;
   text-transform: uppercase;
   font-weight: 700;
@@ -175,6 +161,13 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   margin-right: 15px;
 }
 
+@media (min-width: 997px) {
+  .menu_SIkG {
+    flex-grow: 1;
+    padding: 1rem !important;
+  }
+}
+
 .markdown > h2 {
   --ifm-h2-font-size: 1.875rem;
   margin-bottom: 0.8rem;
@@ -186,9 +179,6 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   margin-bottom: 0.8rem;
   margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * 0rem);
 }
-
-/* New */
-
 .navbar {
   background-color: var(--sidebar-bg-color);
   box-shadow: var(--ifm-navbar-shadow);
@@ -205,24 +195,15 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   color: var(--primary-blue-600);
   text-decoration: none;
 }
-
-/* New */
-
 .navbar__items--right > .navbar__item:not(:first-of-type) {
   margin-left: 0.25px;
 }
-
-/* New */
-
 .dropdown__link:hover {
   color: #2563eb;
 }
-
 .dropdown__link--active {
   background-color: transparent;
 }
-
-/* New */
 
 .dropdown__link {
   color: var(--ifm-navbar-link-color);
@@ -266,7 +247,6 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   display: inline-flex;
   margin-right: 2.75rem;
 }
-
 .github-button:hover {
   color: #fff;
   text-decoration: none;
@@ -305,26 +285,18 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   right: 8px;
   top: 4.5px;
 }
-
-/* New */
-
 .footer--dark {
   --ifm-footer-background-color: #111927;
 }
-
 .footer--dark li {
   margin-bottom: 0;
   line-height: normal;
 }
-
-/* New */
-
 .footer__icon {
   margin: 0;
   padding: 2px;
   color: #fff;
 }
-
 .footer__icon:before {
   content: "";
   display: inline-flex;
@@ -464,8 +436,6 @@ html[data-theme="dark"] .header-youtube-link:before {
   }
 }
 
-/* New */
-
 h1 {
   font-size: 1.75rem;
   font-weight: 700;
@@ -505,15 +475,11 @@ a:hover {
   color: #86a7ef;
 }
 
-/* Image */
 .custom-image {
   width: 140%;
   padding: 10px;
-  right: -130px;
   opacity: 2;
 }
-
-/* New for Cards */
 
 .my-svg-icon path {
   fill: var(--secondary-blue-900);
@@ -523,7 +489,7 @@ a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 0 3rem;
+  margin: auto;
   gap: 2rem;
 }
 
@@ -546,13 +512,11 @@ a:hover {
   padding-left: 1rem;
 }
 
-/* Wide Card */
-
 .card__wide {
   display: flex;
   gap: calc(2rem + 2px);
   padding: 1.5rem 0;
-  margin: 0 10rem;
+  margin: auto;
 }
 
 .card__wide ul {
@@ -617,11 +581,13 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .organization-feature-card {
   max-width: 320px;
+  gap: auto;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -707,7 +673,6 @@ a:hover {
 /* Section 4 - native development */
 
 .fourth-panel > .card__wide {
-  height: 75vh;
   align-items: center;
 }
 
@@ -723,9 +688,6 @@ a:hover {
 .app-feature-card {
   display: flex;
   flex-direction: row;
-  padding: 4rem;
-  gap: 5rem;
-  height: 60vh;
 }
 .app-feature-card__image {
   flex: 1;
@@ -746,7 +708,6 @@ a:hover {
   padding: 3rem;
   align-items: center;
 }
-
 
 @media only screen and (max-width: 1199px) {
   .app-feature-card {
@@ -779,7 +740,8 @@ a:hover {
 /* Section - 6 */
 
 .SixthPanel .TwoColumns {
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 4fr 7fr;
+  align-items: center;
 }
 
 .SixthPanel .left div {
@@ -950,6 +912,10 @@ a:hover {
     padding-left: 0 !important;
   }
 
+  .SixthPanel .column.right .prism-code{
+    margin-right: 0px !important;
+  }
+
   /* Section 7 - Participation-feature-card */
   .participation-feature-card__image img {
     width: 50vw;
@@ -970,8 +936,7 @@ a:hover {
 
 @media only screen and (min-width: 1200px) {
   .custom-image {
-    max-width: 20vw;
-    margin-left: 5rem;
+    max-width: 100%;
   }
 
   /* Section 1 Hero */
@@ -980,6 +945,14 @@ a:hover {
     height: 50vh;
     overflow: hidden;
   }
+
+  .app-feature-card__image {
+    justify-content: end;
+  }
+
+  .fourth-panel > .card__wide {
+    padding: 4rem;
+  }
 }
 
 /* Styles for screens larger than 1440px */
@@ -987,11 +960,11 @@ a:hover {
 @media (min-width: 1920px) {
   .card__description,
   .SixthPanel .left div,
-  .EightPanel p {
+  .EightPanel p,
+  .card__wide li {
     font-size: 1rem;
   }
-  li {
-    font-size: 1.5rem;
+  .card__wide li {
     padding-left: 3rem !important;
   }
 }
@@ -1007,5 +980,23 @@ a:hover {
 
   .SixthPanel {
     align-items: center;
+  }
+
+  /* Section - 2  */
+  
+  .organization-feature-cards {
+    height: 290px;
+  }
+}
+
+@media only screen and (min-width: 961px) {
+  .TwoColumns,
+  .card__container,
+  .card__wide {
+    width: 70vw;
+    max-width: 1280px !important;
+  }
+  .EightPanel .column {
+    padding-right: 0 !important;
   }
 }
