@@ -63,6 +63,7 @@ const sidebars = {
           items: [
             "developers/talawa-api/api-overview",
             "developers/talawa-api/api-design-guide",
+            "developers/talawa-api/api-error-handling-guide",
             // {
             //   type: "link",
             //   label: "Schema Documentation",

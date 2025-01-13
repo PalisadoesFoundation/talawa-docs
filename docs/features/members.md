@@ -302,7 +302,7 @@ N/A
 
 ### User Experience
 
-See [Pre-Approvals UX Section](#_1jkn6vnliixl) (Solution 1)
+N/A
 
 ### Important Details To Capture
 
