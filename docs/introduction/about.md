@@ -23,4 +23,4 @@ There are many software applications that exist for these types of organizations
 
 Eventually we want to launch Talawa as a hosted cloud service as many of these  types of organizations don’t have sufficient IT skills to do so independently.
 
-Welcome to Talawa!!
+Welcome to Talawa!
