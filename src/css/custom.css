@@ -6,6 +6,7 @@
 
 /* You can override the default Infima variables here. */
 
+
 :root {
   --ifm-color-primary: #1e56e3;
   --ifm-color-primary-light: #33925d;
@@ -13,13 +14,13 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.29);
-  --secondary-blue-900: #001c63;
+  --title-color: #413D65;
   --sidebar-bg-color: #f3f4f6;
-  --secondary-blue-500: #3970fd;
-  --primary-blue-600: #1e56e3;
+  --secondary-bg-btn: #21c49c;
+  --primary-btn-bg: #1e56e3;
   --base-neutral-0: #ffffff;
   --primary-neutral-800: #1f2a37;
-  --ifm-menu-color-active: #1e56e3;
+  --ifm-menu-color-active: #21c49c;
   --primary-neutral-600: #4d5761;
   --ifm-breadcrumb-color-active: var(--primary-neutral-600);
   --ifm-link-color: #1e56e3;
@@ -31,7 +32,6 @@
   --ifm-color-emphasis-100: #f4f8fb;
   --ifm-color-emphasis-0: #fff;
 }
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 
 [data-theme="dark"] {
@@ -61,7 +61,7 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #1e56e3;
+  /* --ifm-color-primary: #1e56e3; */
   --ifm-color-gray-100: #e3e3e6;
   --ifm-color-gray-200: #c9c9cc;
   --ifm-color-gray-300: #b0b0b3;
@@ -92,7 +92,37 @@
   --ifm-font-family-monospace: "IBM Plex Mono", SFMono-Regular, Menlo, Monaco,
     Consolas, "Liberation Mono", "Courier New", monospace;
 }
-
+/* 
+main colors
+#21c49c
+#413D65
+#C4D9FF
+*/
+:root {
+  --ifm-color-primary:#21c49c;
+  --ifm-color-primary-light: #21c49c;
+  --ifm-color-primary-lighter: #6d6d6d;
+  --ifm-color-primary-lightest: #e25c1e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.29);
+  --title-color: #413D65;
+  --sidebar-bg-color: #f3f4f6;
+  --secondary-bg-btn: #21c49c;
+  --primary-btn-bg: #21c49c;
+  --base-neutral-0: #ffffff;
+  --primary-neutral-800: #1f2a37;
+  --ifm-menu-color-active: #21c49c;
+  --primary-neutral-600: #4d5761;
+  --ifm-breadcrumb-color-active: var(--primary-neutral-600);
+  --ifm-link-color: #1e56e3;
+  --ifm-button-background-color: #21c49c;
+  --ifm-button-background-color-dark: #21c49c;
+  --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
+  --brand-color: black;
+  --next-prev-border-color: #e5e7eb;
+  --ifm-color-emphasis-100: #f4f8fb;
+  --ifm-color-emphasis-0: #fff;
+}
 /* Dak mode css */
 
 html[data-theme="dark"] {
@@ -100,25 +130,26 @@ html[data-theme="dark"] {
   --ifm-background-surface-color: var(--ifm-background-color);
   --ifm-menu-color: var(--ifm-color-gray-200);
   --ifm-toc-link-color: var(--ifm-color-gray-200);
-  --ifm-code-background: #001b66;
+  --ifm-code-background: #413D65;
   --ifm-color-content: var(--ifm-color-white);
-  --ifm-navbar-search-input-background-color: #001b66;
-  --ifm-table-stripe-background: #001242;
+  --ifm-navbar-search-input-background-color: #413D65;
+  --ifm-table-stripe-background: #413D65;
   --ifm-navbar-search-input-placeholder-color: var(--ifm-color-gray-200);
   --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23C9C9CC" alt="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
   --ifm-hover-overlay: rgba(0, 0, 0, 0);
-  --ifm-color-primary: #1e56e3;
-  --secondary-blue-900: #c6d6ff;
+  --ifm-color-primary: #21c49c;
+  --title-color: #c6d6ff;
   --sidebar-bg-color: #161f36;
   --primary-neutral-800: #c9c9cc;
-  --ifm-button-background-color: #25c2a0;
-  --ifm-button-background-color-dark: #2e8555;
+  --ifm-button-background-color: #21c49c;
+  --ifm-button-background-color-dark: #21c49c;
   --ifm-navbar-link-color: #9da4ae;
   --brand-color: white;
   --primary-neutral-600: #c4c4c4;
   --next-prev-border-color: #293441;
   --ifm-color-emphasis-100: #1d1e30;
   --ifm-color-emphasis-0: #111f3b;
+  --ifm-table-head-color: #C4D9FF;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -151,7 +182,13 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   font-weight: 700;
   background: transparent !important;
 }
-
+.menu__link--active{
+  border-left: 4px solid #21c49c;
+  border-radius: 0;
+  padding: 0.5rem 0 0.5rem 1.5rem ;
+  padding-left: 1rem;
+  height: 100%;
+}
 .menu__list {
   border-bottom: 1px solid var(--next-prev-border-color);
 }
@@ -192,14 +229,14 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
 
 .navbar__link:hover,
 .navbar__link--active {
-  color: var(--primary-blue-600);
+  color: var(--primary-btn-bg);
   text-decoration: none;
 }
 .navbar__items--right > .navbar__item:not(:first-of-type) {
   margin-left: 0.25px;
 }
 .dropdown__link:hover {
-  color: #2563eb;
+  color: var(--secondary-bg-btn)
 }
 .dropdown__link--active {
   background-color: transparent;
@@ -452,7 +489,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--secondary-blue-900);
+  color: var(--title-color);
   margin: 20px 0 !important;
 }
 
@@ -467,12 +504,13 @@ li,
 }
 
 a {
-  color: #2563eb;
+  color: var(--ifm-color-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: #86a7ef;
+  color: #21c49c;
+  opacity: 0.6;
 }
 
 .custom-image {
@@ -482,7 +520,7 @@ a:hover {
 }
 
 .my-svg-icon path {
-  fill: var(--secondary-blue-900);
+  fill: var(--title-color);
 }
 
 .card__container {
@@ -535,7 +573,7 @@ a:hover {
 .card__wide ul > li::before {
   content: "✦";
   font-size: 1 rem;
-  background: linear-gradient(45deg, #97aaff, #8dbaff, #004c8c, #00bfff);
+  background: linear-gradient(45deg, #E8F9FF, #C4D9FF, #5FB9B0, #21c49c);
   background-size: 400% 400%;
   color: transparent;
   -webkit-background-clip: text;
@@ -606,18 +644,19 @@ a:hover {
 }
 
 .organization-feature-card__footer .organization-feature-card__button {
-  background: var(--secondary-blue-500);
+  background: var(--secondary-bg-btn);
   color: #ffffff;
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease-in-out;
 }
 
 .organization-feature-card__footer .organization-feature-card__button:hover {
-  background: #0056b3;
+  background: var(--secondary-bg-btn);
+  opacity: 0.8; 
 }
 
 @media (max-width: 768px) {
