@@ -6,7 +6,6 @@
 
 /* You can override the default Infima variables here. */
 
-
 :root {
   --ifm-color-primary: #1e56e3;
   --ifm-color-primary-light: #33925d;
@@ -14,7 +13,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.29);
-  --title-color: #413D65;
+  --title-color: #413d65;
   --sidebar-bg-color: #f3f4f6;
   --secondary-bg-btn: #21c49c;
   --primary-btn-bg: #1e56e3;
@@ -99,13 +98,13 @@ main colors
 #C4D9FF
 */
 :root {
-  --ifm-color-primary:#21c49c;
+  --ifm-color-primary: #21c49c;
   --ifm-color-primary-light: #21c49c;
   --ifm-color-primary-lighter: #6d6d6d;
   --ifm-color-primary-lightest: #e25c1e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.29);
-  --title-color: #413D65;
+  --title-color: #413d65;
   --sidebar-bg-color: #f3f4f6;
   --secondary-bg-btn: #21c49c;
   --primary-btn-bg: #21c49c;
@@ -130,10 +129,10 @@ html[data-theme="dark"] {
   --ifm-background-surface-color: var(--ifm-background-color);
   --ifm-menu-color: var(--ifm-color-gray-200);
   --ifm-toc-link-color: var(--ifm-color-gray-200);
-  --ifm-code-background: #413D65;
+  --ifm-code-background: #413d65;
   --ifm-color-content: var(--ifm-color-white);
-  --ifm-navbar-search-input-background-color: #413D65;
-  --ifm-table-stripe-background: #413D65;
+  --ifm-navbar-search-input-background-color: #413d65;
+  --ifm-table-stripe-background: #413d65;
   --ifm-navbar-search-input-placeholder-color: var(--ifm-color-gray-200);
   --ifm-navbar-search-input-icon: url('data:image/svg+xml;utf8,<svg fill="%23C9C9CC" alt="Search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="16px" width="16px"><path d="M6.02945,10.20327a4.17382,4.17382,0,1,1,4.17382-4.17382A4.15609,4.15609,0,0,1,6.02945,10.20327Zm9.69195,4.2199L10.8989,9.59979A5.88021,5.88021,0,0,0,12.058,6.02856,6.00467,6.00467,0,1,0,9.59979,10.8989l4.82338,4.82338a.89729.89729,0,0,0,1.29912,0,.89749.89749,0,0,0-.00087-1.29909Z" /></svg>');
   --ifm-hover-overlay: rgba(0, 0, 0, 0);
@@ -149,7 +148,7 @@ html[data-theme="dark"] {
   --next-prev-border-color: #293441;
   --ifm-color-emphasis-100: #1d1e30;
   --ifm-color-emphasis-0: #111f3b;
-  --ifm-table-head-color: #C4D9FF;
+  --ifm-table-head-color: #c4d9ff;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -182,10 +181,10 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   font-weight: 700;
   background: transparent !important;
 }
-.menu__link--active{
+.menu__link--active {
   border-left: 4px solid #21c49c;
   border-radius: 0;
-  padding: 0.5rem 0 0.5rem 1.5rem ;
+  padding: 0.5rem 0 0.5rem 1.5rem;
   padding-left: 1rem;
   height: 100%;
 }
@@ -236,7 +235,7 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem- {
   margin-left: 0.25px;
 }
 .dropdown__link:hover {
-  color: var(--secondary-bg-btn)
+  color: var(--secondary-bg-btn);
 }
 .dropdown__link--active {
   background-color: transparent;
@@ -573,7 +572,7 @@ a:hover {
 .card__wide ul > li::before {
   content: "✦";
   font-size: 1 rem;
-  background: linear-gradient(45deg, #E8F9FF, #C4D9FF, #5FB9B0, #21c49c);
+  background: linear-gradient(45deg, #e8f9ff, #c4d9ff, #5fb9b0, #21c49c);
   background-size: 400% 400%;
   color: transparent;
   -webkit-background-clip: text;
@@ -656,7 +655,7 @@ a:hover {
 
 .organization-feature-card__footer .organization-feature-card__button:hover {
   background: var(--secondary-bg-btn);
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 @media (max-width: 768px) {
@@ -951,7 +950,7 @@ a:hover {
     padding-left: 0 !important;
   }
 
-  .SixthPanel .column.right .prism-code{
+  .SixthPanel .column.right .prism-code {
     margin-right: 0px !important;
   }
 
@@ -1022,7 +1021,7 @@ a:hover {
   }
 
   /* Section - 2  */
-  
+
   .organization-feature-cards {
     height: 290px;
   }
