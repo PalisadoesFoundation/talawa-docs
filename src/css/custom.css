@@ -539,7 +539,7 @@ html[data-theme="dark"] .header-youtube-link:before {
 .Heading {
   font-size: 1.5rem;
   font-weight: 700;
-  text-align: center !important;
+  text-align: left !important;
 }
 
 h1,
@@ -559,6 +559,7 @@ textarea,
   color: var(--primary-neutral-800);
   font-size: 0.9375rem;
   line-height: 1.625rem;
+  text-align: left;
 }
 
 a {
@@ -702,8 +703,13 @@ a:hover {
   border: 1px solid rgb(200, 200, 200);
 }
 
+/* text-align: left; */
 .organization-feature-card:hover {
   transform: translateY(-5px);
+}
+
+.organization-feature-card__body .card__description {
+  text-align: center;
 }
 
 .organization-feature-card__footer .organization-feature-card__button {
