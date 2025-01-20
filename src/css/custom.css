@@ -819,7 +819,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   padding: 3rem;
-  align-items: center;
+  align-items: start;
+  background-color: var(--ifm-background-surface-color);
+  box-shadow: none;
+}
+
+.app-feature-card__body .Heading {
+  padding-left: 1rem;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -863,7 +869,7 @@ a:hover {
   font-size: 0.8rem;
   margin: 0;
   padding-bottom: 1rem;
-  text-align: justify;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
@@ -878,8 +884,7 @@ a:hover {
 
 .participation-feature-card {
   display: flex;
-  flex-direction: column;
-  padding: 3rem 4rem;
+  padding: 2rem 3rem;
   gap: 2rem;
 }
 
@@ -887,12 +892,16 @@ a:hover {
   flex: 1;
 }
 
+.participation-feature-card__body .Heading {
+  padding-left: 1rem;
+}
+
 .participation-feature-card__image {
   flex: 1;
 }
 
 .participation-feature-card__image img {
-  width: 40vw;
+  width: 35vw;
   max-width: 500px;
 }
 
@@ -1123,6 +1132,10 @@ a:hover {
   .card__wide {
     width: 70vw;
     max-width: 1280px !important;
+  }
+
+  .seventh-panel .card__container {
+    width: 80vw;
   }
 
   .EightPanel .column {

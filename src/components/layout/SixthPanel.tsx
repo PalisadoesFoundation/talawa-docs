@@ -16,7 +16,7 @@ const SixthPanel: React.FC<SixthPanelProps> = () => {
 			<TwoColumns
 				columnOne={
 					<TextColumn
-						title="Open Source Software: Created by Global Volunteers"
+						title="Open Source Software: Global Volunteers"
 						text={sixthPanel}
 					/>
 				}
