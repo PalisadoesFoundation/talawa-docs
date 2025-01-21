@@ -26,33 +26,6 @@ const sidebars = {
       items: [
         "developers/technical-introduction",
         "developers/contributing",
-        // "developers/test_system",
-        {
-          type: "category",
-          label: "Talawa",
-          link: {
-            type: "generated-index",
-          },
-          collapsed: true,
-          items: [
-            "developers/talawa/talawa-introduction",
-            "developers/talawa/talawa-lint",
-            "developers/talawa/flutter-testing",
-            {
-              type: "category",
-              label: "Offline First Features",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "developers/talawa/offline-first-features/offline-user-actions",
-                "developers/talawa/offline-first-features/action-handler-service",
-                "developers/talawa/offline-first-features/feed-caching"
-              ]
-            }
-          ],
-        },
         {
           type: "category",
           label: "Talawa API",
