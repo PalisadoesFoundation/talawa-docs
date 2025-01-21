@@ -7,6 +7,13 @@
 /* You can override the default Infima variables here. */
 
 :root {
+  --h1-markdown: #021526;
+  --h2-markdown: #3A6D8C;
+  --h3-markdown: #474E93;
+  --h4-markdown: #508C9B;
+  --h5-markdown: #6A9AB0;
+  --h6-markdown: #888888;
+  --hx-markdown-underline: #eeeeee;
   --ifm-color-primary: #1e56e3;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
@@ -225,12 +232,32 @@ h1 {
   --ifm-h2-font-size: 1.875rem;
   margin-bottom: 0.8rem;
   margin-top: calc(var(--ifm-h2-vertical-rhythm-top) * 0rem);
+  color: var(--h2-markdown);
+  border-bottom: 1px solid var(--hx-markdown-underline);
+  padding-bottom: 5px;
 }
 
 .markdown>h3 {
   --ifm-h3-font-size: 1.5rem;
   margin-bottom: 0.8rem;
   margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * 0rem);
+  color: var(--h3-markdown);
+  border-bottom: 1px solid var(--hx-markdown-underline);
+  padding-bottom: 5px;
+}
+
+.markdown>h4 {
+  color: var(--h4-markdown);
+  border-bottom: 1px solid var(--hx-markdown-underline);
+  padding-bottom: 5px;
+}
+
+.markdown>h5 {
+  color: var(--h5-markdown);
+}
+
+.markdown>h6 {
+  color: var(--h6-markdown);
 }
 
 .navbar {
@@ -551,6 +578,7 @@ h6 {
   color: var(--secondary-blue-900);
   margin: 20px 0 !important;
 }
+
 
 p,
 textarea,

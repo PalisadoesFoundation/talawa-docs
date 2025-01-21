@@ -92,30 +92,6 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Talawa Admin",
-          link: {
-            type: "generated-index",
-          },
-          collapsed: true,
-          items: [
-            "developers/talawa-admin/talawa-admin-introduction",
-            {
-              type: "category",
-              label: "Plugins",
-              link: {
-                type: "generated-index",
-              },
-              collapsed: true,
-              items: [
-                "developers/talawa-admin/plugins/plugin-architecture",
-                "developers/talawa-admin/plugins/implementing-plugins",
-                "developers/talawa-admin/plugins/implementing-plugins-example",
-              ],
-            },
-          ],
-        },
-        {
-          type: "category",
           label: "Project 2024",
           link: {
             type: "generated-index",
