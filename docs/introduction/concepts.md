@@ -5,6 +5,8 @@ title: Core Concepts
 
 To use and contribute to Talawa effectively, you'll need to understand these important concepts.
 
+## Introduction
+
 Use this diagram as a reference in the sections below.
 
 ![image](../../static/img/markdown/introduction/api-community.png)
