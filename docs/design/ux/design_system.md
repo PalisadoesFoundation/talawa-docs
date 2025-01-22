@@ -30,6 +30,35 @@ We follow a single Figma file for the designing of the Talawa admin and user por
 You can find our most current Figma designs here
 1. [Link to Figma for Talawa Designs](https://www.figma.com/file/WksD4uIa5sQJMIk3pR4l0c/Talawa-Design-System-(Official)?type=design&node-id=307%3A212&mode=dev)
 
+## CSS Methodology
+ To ensure consistency across the application and reduce duplication, common styles
+ (such as button styles) have been moved to the global CSS file. Instead of using
+ component-specific classes (e.g., `.greenregbtnOrganizationFundCampaign`, `.greenregbtnPledge`), a single reusable
+ class (e.g., .addButton) is now applied.
+
+### Benefits:
+- Reduces redundant CSS code.
+- Improves maintainability by centralizing common styles.
+- Ensures consistent styling across components.
+
+### Components:
+This structre of styling can be followed accross all the components/screens for consistent design.
+
+#### Search Bar:
+- (example: src/screens/OrganizationPeople.OrganizationPeopl.tsx)
+- ![searchBarDesign](/img/searchBarDesign.png)
+
+#### Modal:
+- ![Modal](/img/modal.png)
+
+#### Tabs:
+- (example: src/screens/Volunteer.VolunteerManagement.tsx)
+- ![Tabs](/img/tabs.png)
+
+#### Table:
+- (example: src/screens/OrganizationActionItems/OrganizationActionItems.tsx)
+- ![Table](/img/table.png)
+
 ## Other
 Feel free to contribute your suggestions!
 
