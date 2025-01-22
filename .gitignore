@@ -50,6 +50,7 @@ venv.bak/
 
 # Dependencies
 /node_modules
+.node-version
 
 # Production
 /build

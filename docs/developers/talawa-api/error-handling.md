@@ -5,18 +5,6 @@ title: API Error Handling Guide
 
 This page outlines the core design principles for handling errors within the GraphQl Layer in Talawa-API code base and relaying said errors back to the client apps.
 
-- [Introduction](#Introduction)
-- [Problem with default Graphql Errors](#Problem-with-default-Graphql-Errors)
-- [User Errors vs Developer Errors](#User-Errors-vs-Developer-Errors)
-   - [When To Model Errors In Schema And When Not To](#When-To-Model-Errors-In-Schema-And-When-Not-To)
-- [Cases Where Errors in Schema Is Recommended](#Cases-Where-Errors-in-Schema-Is-Recommended)
-  - [Multiple Field Level Validation Errors](#Multiple-Field-Level-Validation-Errors)
-  - [Atomic Errors](#Atomic-Errors)
-  - [Nested Resolver Errors. (Complex Objects)](#Nested-Resolver-Errors-(Complex-Objects))
-  - [Nested Resolvers Errors (Scalar Fields)](#Nested-Resolvers-Errors-(Scalar-Fields))
-- [Errors Defined in Schema Approach vs Default GraphQL Errors](#Errors-Defined-in-Schema-Approach-vs-Default-GraphQL-Errors)
-
-
 ## Introduction
 
 GraphQL is an excellent tool for building APIs, especially when there is a need to provide clients with more control over the data they receive from the server. With GraphQL, clients can fetch only the specific data they require in the payload returned by the server, resulting in a more efficient data exchange. The data is presented in a form that closely resembles a graph, which means that all data exchanged between the client and API should be thought of in terms of graphs (learn more at [this link](https://graphql.org/learn/thinking-in-graphs/)).
