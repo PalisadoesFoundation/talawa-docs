@@ -46,18 +46,18 @@ This structre of styling can be followed accross all the components/screens for 
 
 #### Search Bar:
 - (example: src/screens/OrganizationPeople.OrganizationPeopl.tsx)
-- ![searchBarDesign](/img/searchBarDesign.png)
+- ![searchBarDesign](/img/markdown/ui-ux/searchBarDesign.png)
 
 #### Modal:
-- ![Modal](/img/modal.png)
+- ![Modal](/img/markdown/ui-ux/modal.png)
 
 #### Tabs:
 - (example: src/screens/Volunteer.VolunteerManagement.tsx)
-- ![Tabs](/img/tabs.png)
+- ![Tabs](/img/markdown/ui-ux/tabs.png)
 
 #### Table:
 - (example: src/screens/OrganizationActionItems/OrganizationActionItems.tsx)
-- ![Table](/img/table.png)
+- ![Table](/img/markdown/ui-ux/table.png)
 
 ## Other
 Feel free to contribute your suggestions!
