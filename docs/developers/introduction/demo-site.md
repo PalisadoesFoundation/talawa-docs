@@ -4,9 +4,11 @@ title: Demonstration Site
 sidebar_position: 3
 ---
 
+We now have a demonstration site that showcases the features of the applications.
+
 ## Introduction
 
-We have a demonstration site that can be accessed at this URL:
+The site that can be accessed at this URL:
 
 ```
 https://demo.talawa.io/
