@@ -2,9 +2,10 @@
 title: Introduction
 id: introduction
 slug: /
+sidebar_position: 1
 ---
 
-Talawa helps community based organizations collaborate with their membership. 
+Talawa helps community based organizations collaborate with their membership.
 
 ## Community Based Organizations
 
@@ -19,7 +20,7 @@ If your organization is making a meaningful difference to your community then Ta
 
 ## Talawa Features
 
-Talawa is in a pre-release state. We plan to create a demonstrable minimally viable product (MVP) in 2023 for alpha testing. 
+Talawa is in a pre-release state. We plan to create a demonstrable minimally viable product (MVP) in 2023 for alpha testing.
 
 Key features include:
 ​
@@ -36,11 +37,11 @@ Key features include:
 
 We are always thinking of adding more features. Let us know what you'd like to see.
 
-
 Talawa has three main components. A mobile application with social media features, a web based portal to be used by the organization’s administrative team, and finally an API providing access to data and features.
 ​​
 The Palisadoes Foundation wants to eventually host Talawa as a cloud service to help finance its education outreach.
 ​
+
 ## Talawa Applications
 
 Talawa works well because of the various software applications we have developed.
@@ -50,6 +51,5 @@ Talawa works well because of the various software applications we have developed
 | Talawa Mobile App | Our mobile phone application that makes communication with and between your members even easier.                                      |
 | Talawa Admin      | The administrative portal for managing not only the members using the mobile app but the volunteer operations of your organization.   |
 | Talawa API        | The magic that makes it all happen. Our API is the glue between the Talawa mobile app and Talawa Admin to make the two work together. |
-
 
 Further information on the technologies behind the these applications in the technical sections of this site.

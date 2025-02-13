@@ -1,6 +1,7 @@
 ---
 id: ux-talawa
 title: UI/UX Guidelines
+sidebar_position: 2
 ---
 
 ## Introduction

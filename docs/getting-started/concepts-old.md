@@ -1,6 +1,7 @@
 ---
 id: core-concepts-legacy
 title: Core Concepts (Legacy)
+sidebar_position: 4
 ---
 
 We have started migration from a MongoDB API database to PostgreSQL.

@@ -1,6 +1,7 @@
 ---
 id: branding
 title: Branding
+sidebar_position: 1
 ---
 
 Our brand uses the guidelines in this section to create a consistent user experience.

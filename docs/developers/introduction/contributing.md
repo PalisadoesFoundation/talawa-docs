@@ -1,6 +1,7 @@
 ---
 id: contributing
 title: Contributing
+sidebar_position: 2
 ---
 
 Each GitHub repository contains important files in their topmost, or root, directories that you should know about. These include:

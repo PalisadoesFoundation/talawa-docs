@@ -1,7 +1,9 @@
 ---
 id: roadmap
 title: Roadmap
+sidebar_position: 5
 ---
+
 ## Introduction
 
 Welcome to our roadmap ideas page! Get familiar with our definitions and general philosophy by reading this section. The ideas follow afterwards.
@@ -17,7 +19,7 @@ We have categorized the various ideas according to the degree of impact they wil
 
 ### Difficulty
 
-Most of our project ideas require knowledge of two or more programming languages. 
+Most of our project ideas require knowledge of two or more programming languages.
 
 1. **Hard:** Requires dominion of the language used by the repo most affected by the project. A good working knowledge of the languages used by other affected repositories will be needed.
 1. **Medium:** A good working knowledge of the languages used by affected repositories will be needed.
@@ -92,6 +94,7 @@ There are some fundamental features that the Talawa suite of applications needs 
       1. We need an automated end-to-end testing regime for all three Talawa code repositories.
    1. _Timeliness_: The changes will need to be done on a weekly basis. The rest of the community will need to be made aware of changes so that they can add functionality.
 1. **Expected Outcomes:**
+
    1. We have documented many other areas of potential improvements in the reference links below. After reviewing the videos there, we decided to create issues to rectify some of our concerns, but soon realized that this warrants a GSoC idea of its own as some solutions to the issues will require great coordination and time.
    2. In addition to fixing the bugs above, consider any other ways of making the obviously desired functionality of Talawa and Talawa Admin work!
       1. This document highlights many sites and videos to aid your research.
