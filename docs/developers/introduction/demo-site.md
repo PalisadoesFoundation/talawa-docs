@@ -1,6 +1,6 @@
 ---
 id: demo-site
-title: Demonstration Site
+title: Demonstration Sites
 sidebar_position: 3
 ---
 ## Introduction
