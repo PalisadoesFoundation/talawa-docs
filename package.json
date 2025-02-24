@@ -23,7 +23,7 @@
     "clsx": "^1.2.1",
     "docusaurus": "^1.14.7",
     "graphql": "^16.10.0",
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "prism-react-renderer": "^2.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
