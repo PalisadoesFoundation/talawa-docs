@@ -226,23 +226,6 @@ The server is configured to operate like this:
          ErrorLog /var/log/apache2/test.talawa.io_error.log
          CustomLog /var/log/apache2/test.talawa.io_access.log combined
 
-         ##############################################################################
-         # Locations (Talawa-API)
-         ##############################################################################
-
-         <Location "/graphql">
-
-            ###########################################################################
-            # CORS Headers (Requires command "a2enmod headers" to activate)
-            ###########################################################################
-
-            # Enable Cross Origin Resource Sharing (CORS)
-            # Set Access-Control-Allow-Origin (CORS) Header
-
-            Header set Access-Control-Allow-Origin "*"
-
-         </Location>
-
       </VirtualHost>
    ```
 
