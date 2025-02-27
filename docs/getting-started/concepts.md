@@ -64,25 +64,11 @@ This approach was taken because MongoDB had limited RDBMS capabilities and this 
 
 ### Administrators
 
-Say for example that a chain of non-profit community centers with branches in multiple neighborhoods decides to use Talawa. They have a large membership across the region but, each member tends to use only their local community center. From time to time members move into new neighborhoods where they decide to switch their membership to their new local branch.
-
-The VP of community relations would want to be the API Administrator as they would be able to add new branches as they were established. The VP would then delegate the management of community relations to each branch manager who would then become an Administrator for their local membership.
-
-The VP doesn’t want the branch managers to manage the members who have joined other branches, just the branch they are running.
-
-It is for this reason that we have two types of Administrators. Administrators and API Administrators.
-
-1. **Administrator**: These are members who use Talawa-Admin to manage the people in an organization. This would also include organization calendars and the organization's news feed. Administrators can:
+These are members who use Talawa-Admin to manage the people in an organization. This would also include organization calendars and the organization's news feed. Administrators can:
 
    1. Manage all organizations.
       1. It is a universal privilege. Administrators cannot be selectively assigned to organizations at this time.
    2. Promote users to Administrator status
-
-2. **API Administrator**: There is only one API Administrator to manage all organizations in a community. API Administrators:
-   1. Can promote App User Members to Administrator status.
-   2. Have access to all the privileges of an Administrator.
-
-Like other people, an Administrator may or may not have joined an organization in the mobile app.
 
 ## Talawa Application Users
 
