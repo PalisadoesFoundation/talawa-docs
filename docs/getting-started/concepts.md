@@ -30,25 +30,44 @@ Organizations act as hubs of volunteer activity.
 
 ## People in Communities
 
-There are many types of people who use Talawa either directly, or indirectly:
+There are two broad categories of people in communities.
 
-### General Users
+1. **Users**: These are people who are in the Talawa database.
+2. **Members**: These are people in the database who are registered with an organization.
 
-The main purpose of Talawa is to foster closer cooperation between communities of people working together for a common social cause. In Talawa, most would be either users or members.
+### Community Roles
 
-1. **Users**: These are people who indirectly use Talawa.
-   1. For example: People who may attend an event tracked in Talawa and have their information entered into the system as part of the attendance process.
-   1. **Types of Users**: We have two types of users.
-      1. **App Users**: These are users who have registered themselves in Talawa using either the mobile or the web app.
-      1. **Non App Users**: These are users manually added to Talawa by App Users with Administrator privileges. This is to help provide Talawa services to anyone that is a community participant who may or not be willing or able to use the application.
-1. **Members**: These are people who are registered with an organization.
-   1. App Users can become members of an organization after following the registration process via either the mobile or the web app by themselves.
-      1. App Users can be promoted to the role of Administrators. Details of these capabilities will be explained later.
-   2. Non App Users become members of an organization after they are manually added by the organization's Administrator Portal provided by the web app.
+People in communities have roles.
 
-Talawa users and members are managed by Administrators.
+1. There are two user roles: administrator & regular
+1. There are two organization member roles for now: administrator and regular
 
-#### PostgreSQL Changes
+There are very important differences between a user and an organization member:
+
+1. A user with `administrator` role is the highest privileged entity in the application:
+   1. they can view any user or organization data,
+   2. they don't need to join any organization to moderate them, but they can if they want to,
+   3. they can also choose whatever member role they want in an organization,
+   4. they can be a `regular` member of an organization. This doesn't change their highest privilege in the application and their ability to moderate that organization.
+2. A user with `regular` role has the lowest privileged in the application:
+   1. they can join organizations and by default they'll be assigned a `regular` member role within those organizations until a user with `administrator` role elevates their privileges to an `administrator` member role within that organization.
+3. A user with an `administrator` member role within organizations:
+   1. is the highest privilege member within those organizations,
+   2. they have most privileges that users with `administrator` roles have within the context of a particular organization, but there are some privileges exclusive to users with `administrator` roles
+4. A user with a `regular` member role within organizations are members of the lowest privilege within those organizations
+
+In summary: Users with cases 1, 2 and 3 have the same privileges; users with cases 4, 5 and 6 have differing privileges
+
+1. `administrator` user role, member of none of the organizations
+2. `administrator` user role, `administrator` member role in 1 or more organizations
+3. `administrator` user role, `regular` member role in 1 or more organizations
+4. `regular` user role, member of none of the organizations
+5. `regular` user role, `administrator` member role in 1 or more organizations
+6. `regular` user role, `regular` member role in 1 or more organizations
+
+**Note**: Support for users who don't use either the mobile or web apps is a feature that needs to be added.
+
+### PostgreSQL Changes
 
 In the MongoDB implementation, each user would have an `AppUserProfile`.
 
@@ -62,21 +81,13 @@ In the MongoDB implementation, each user would have an `AppUserProfile`.
 
 This approach was taken because MongoDB had limited RDBMS capabilities and this solution was used to mimic them. PostgreSQL tracks this information in its tables where the creator of each table row is tracked.
 
-### Administrators
-
-These are members who use Talawa-Admin to manage the people in an organization. This would also include organization calendars and the organization's news feed. Administrators can:
-
-   1. Manage all organizations.
-      1. It is a universal privilege. Administrators cannot be selectively assigned to organizations at this time.
-   2. Promote users to Administrator status
-
 ## Talawa Application Users
 
 The Talawa applications are used by different groups of people.
 
 1. **Talawa**: All people associated with an organization. There are no administrative functions incorporated in the mobile app.
 2. **Talawa-Admin**: This repository combines two separate and partially overlapping portals
-   1. The Administrator Portal: Only Administrators and API Administrators use this web portal. It is used to manage the Community users and Organization members. No other users have access.
+   1. The Administrator Portal: Only Administrators use this web portal. It is used to manage the Community users and Organization members. No other users have access.
    2. The User Portal: All users have access to this portal that lacks administrative features.
 
 Talawa-API supports the users of Talawa and Talawa-Admin.
