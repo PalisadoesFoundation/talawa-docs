@@ -150,13 +150,16 @@ We can run the test.talawa.io site either using devcontainers or the production 
 
 2. Login credentials can be found in the [INSTALLATION.md](https://github.com/PalisadoesFoundation/talawa-api/blob/develop-postgres/INSTALLATION.md#user-accounts-and-organizations) guide in the `develop-postgres` branch.
 
-3. In either scenario the Admin web app:
-   1. runs as the `talawa-admin` user.
-   2. was originally configured using the setup script using default values in the `.env` file except for these parameters:
-      ```
-      REACT_APP_TALAWA_URL=https://test.talawa.io/graphql
-      REACT_APP_BACKEND_WEBSOCKET_URL=ws://test.talawa.io/graphql
-      ```
+3. In either scenario the:
+   1. Admin web app:
+      1. runs as the `talawa-admin` user.
+      2. was originally configured using the setup script using default values in the `.env` file except for these parameters:
+         ```
+         REACT_APP_TALAWA_URL=https://test.talawa.io/graphql
+         REACT_APP_BACKEND_WEBSOCKET_URL=ws://test.talawa.io/graphql
+         ```
+   1. The API app:
+      1. is configured to run caddy on port 8080 and 8443 instead of 80 and 443. This is because with caddy running on these ports, we couldn't set up an internet facing webserver on port 80 and 443 that would service both Admin and the API. In the current implementation (March 2025), both apps need to run on the same port to avoid CORS errors.
 
 The following sections provide further clarifications.
 
