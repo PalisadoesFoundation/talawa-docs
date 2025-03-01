@@ -160,7 +160,7 @@ We can run the test.talawa.io site either using devcontainers or the production 
 
 The following sections provide further clarifications.
 
-### Devcontainer
+### Devcontainer Configuration
 
 This section explains how the site is configured to use devcontainers. This is the current mode of operation.
 
