@@ -1974,12 +1974,12 @@
   dependencies:
     "@graphql-tools/load" "^7.8.13"
 
-"@graphql-tools/json-file-loader@^8.0.14":
-  version "8.0.14"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/json-file-loader/-/json-file-loader-8.0.14.tgz#52fac6cbe38c5544c85bce9917b964b535892d23"
-  integrity sha512-b8rmNdr5l2IXPDxAGT3kNIg3fM0HEZsmKwFcfoOTzfz7XZECN+mnQBkxbZ7hwCPjVDnhtVR20z2Ic1dQ44mACw==
+"@graphql-tools/json-file-loader@^8.0.15":
+  version "8.0.15"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/json-file-loader/-/json-file-loader-8.0.15.tgz#2dc768c724292586d3da90b299b2954f7ccd2717"
+  integrity sha512-e9ehBKNa6LKKqGYjq23qOIbvaYwKsVMRO8p9q1qzdF1izWVIHN9fE9dRb6y78rCwMu/tq1a0bq1KpAH5W6Sz0w==
   dependencies:
-    "@graphql-tools/utils" "^10.8.2"
+    "@graphql-tools/utils" "^10.8.3"
     globby "^11.0.3"
     tslib "^2.4.0"
     unixify "^1.0.0"
@@ -2020,12 +2020,13 @@
     "@graphql-typed-document-node/core" "^3.1.1"
     tslib "^2.4.0"
 
-"@graphql-tools/utils@^10.8.2":
-  version "10.8.2"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-10.8.2.tgz#8f1238f2efba0861ce192220c7258beeeb927172"
-  integrity sha512-JjWpf9Dj2LXFccAB7CON6jUcXduJlE5XcJfLmKTWBk46Ei2dhDntVAmvIa97YPdLanrgFN5SRt3hSAe3qo/FYg==
+"@graphql-tools/utils@^10.8.3":
+  version "10.8.3"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-10.8.3.tgz#bbe80a7bee4255e5188d6dee6e23c5f4399c571c"
+  integrity sha512-4QCvx3SWRsbH7wnktl51mBek+zE9hsjsv796XVlJlOUdWpAghJmA3ID2P7/Vwuy7BivVNfuAKe4ucUdE1fG7vA==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
+    "@whatwg-node/promise-helpers" "^1.0.0"
     cross-inspect "1.0.1"
     dset "^3.1.4"
     tslib "^2.4.0"
@@ -2874,6 +2875,13 @@
   dependencies:
     "@webassemblyjs/ast" "1.14.1"
     "@xtuc/long" "4.2.2"
+
+"@whatwg-node/promise-helpers@^1.0.0":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@whatwg-node/promise-helpers/-/promise-helpers-1.2.2.tgz#9e26073385086975e65609d6c9b27f9d7f92280d"
+  integrity sha512-aPVTGCs/QEYkSTnYcLKE1wyYZykbGjaXsEwXHc0FKbSlojIpdw72BQMJx9aJXzkCs6qy9WfDV0jhV9C2qIYYOA==
+  dependencies:
+    tslib "^2.6.3"
 
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
@@ -13239,10 +13247,10 @@ truncate-html@^1.0.3:
   dependencies:
     cheerio "1.0.0-rc.12"
 
-tslib@^2.0.3, tslib@^2.3.0, tslib@^2.4.0, tslib@^2.6.0:
-  version "2.6.2"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
-  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+tslib@^2.0.3, tslib@^2.3.0, tslib@^2.4.0, tslib@^2.6.0, tslib@^2.6.3:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
+  integrity sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
