@@ -1,12 +1,12 @@
 ---
 id: demo-site
-title: Demonstration Sites
+title: Demonstration Site Setup
 sidebar_position: 3
 ---
 
-## Introduction
-
 The Talawa API and Admin apps are expected to be installed in a web hosting environment.
+
+## Introduction
 
 We now have two hosted demonstration sites that showcases the features of the applications. They are:
 

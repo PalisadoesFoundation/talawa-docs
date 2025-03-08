@@ -1,6 +1,6 @@
 ---
 id: setting-up
-title: Comprehensive Guide
+title: Installation & Setup
 sidebar_position: 2
 ---
 
@@ -10,15 +10,81 @@ Welcome to our comprehensive guide on how to get started with Talawa Admin and t
 
 Whether you are a community leader looking to efficiently manage memberships, curate content, and organize events with Talawa Admin, or an enthusiast eager to embark on a personalized journey of celebration and connection with the Talawa App, this guide will equip you with the knowledge and tools to begin your enriching experience.
 
-## Configuring the Talawa app
+## Talawa API
+
+The first thing to install is the API. It stores all the Talawa information in a database.
+
+### Installation
+
+**Note:** This will require someone with technical expertise in database setup.
+
+- Install the application as outlined in the [API Guide](https://docs-api.talawa.io/docs/installation)
+
+After installation, you'll need to set things up as an Administrator. This is covered next.
+
+## Talawa Admin
+
+Talawa Admin is a powerful platform designed to empower community leaders with a comprehensive set of tools to efficiently manage memberships, curate engaging content, and seamlessly organize a diverse array of events. It streamlines the administrative tasks, allowing community leaders to focus on fostering a vibrant and inclusive cultural space.
+
+### Installation
+
+**Note:** This may require someone with technical expertise in setting up web applications.
+
+1. Install the application as outlined in the [Admin Guide](https://docs-admin.talawa.io/docs/installation)
+2. As an administrator, join the organization of your choice
+
+Now you are ready to manage your community!
+
+### Organization Handling
+
+Once registered, you'll be directed to your dashboard. From here, you can create a new organization by clicking on "Create Organization" or access previously created ones. Simply enter the organization's name, location, description, and display picture, and select its visibility in search and whether it should be public.
+
+Explore the latest events and popular posts using tags, and find detailed information about your organization, including the number of posts, events, members, and requests.
+
+### Functionalities
+
+1. **Manage Joining Requests**:
+
+   1. Utilize advanced search functionalities for quick and efficient handling of joining requests, streamlining the onboarding process.
+   2. Approve new member requests promptly, fostering a welcoming and inclusive community environment.
+
+2. **Roles Management**:
+
+   1. Adminstrators can oversee and manage community members, users, posts, events and more ensuring a well-structured and active community.
+   2. Promote active members to administrator roles, empowering them to contribute to community leadership and engagement.
+
+3. **Feature and Create Posts**:
+
+   1. Highlight exceptional posts and stories on the community's news feed, amplifying cultural experiences and encouraging community interaction.
+   2. Craft new engaging posts, sharing captivating content that resonates with the community's diverse interests and passions.
+
+4. **Calendar Event Functionality**:
+
+   1. Effortlessly organize and schedule a diverse range of cultural events, setting accessibility, descriptions, timings, venues, and event modes.
+   2. Create both public and invite-only events, catering to various community preferences and enhancing event engagement.
+
+5. **Block or Remove Unwanted Members**:
+
+   1. Effectively manage community dynamics by promptly blocking or removing members who violate community guidelines or disrupt the positive atmosphere, ensuring a safe and respectful environment for all.
+
+6. **Edit Profile and Organization Info**:
+
+   1. Personalize profile by selecting preferred languages, creating a more immersive and personalized community experience.
+   2. Administrators can manage organizational information, enabling or disabling plugin creation, and seamlessly coordinating event volunteers for successful event execution.
+
+## Talawa Mobile
 
 The Talawa App offers a personalized journey, enabling seamless connections with like-minded individuals, opportunities to share experiences, and engaging in diverse community activities with your organization.
 
-### Step 1: Installation
+### Installation
 
-Get started, by installing Talawa on your **Android** device from the Google Play Store or on your **iOS** device from the App Store. Simply head to the respective store, search for "Talawa," and with a quick tap on "Install" or "Get," and you'll be ready to begin your journey with us.
+End users can use the mobile app to experience convenient interaction with your Talawa community.
 
-### Step 2: Account Setup
+- Install the application as outlined in the [Mobile Guide](https://docs-mobile.talawa.io/docs/installation)
+
+After installation, setup your account, and explore!
+
+### Account Setup
 
 1. **Choose Your Language**: After successfully installing the Talawa app, you'll be greeted with a language selection prompt, allowing you to choose your preferred language for a personalized experience.
 
@@ -35,9 +101,9 @@ If you find a private organization you like, send a membership request to join.
 
 4. **Await Approval**: The app will guide you to a waiting screen while the organization's administrators review and approve your membership request. This brief waiting period ensures that each community member feels welcomed and engaged.
 
-5. **Redirecting to Newsfeed**: With your membership approved, you'll have access to the organization's vibrant newsfeed. Here, you can stay updated and engage with the latest events, discussions, announcements, and unique insights shared by the community.
+5. **Redirecting to News Feed**: With your membership approved, you'll have access to the organization's vibrant news feed. Here, you can stay updated and engage with the latest events, discussions, announcements, and unique insights shared by the community.
 
-### Step 3: Explore Community Activities
+### Explore Community Activities
 
 1. **Volunteer at Events**: Play an active role in setting up and organizing cultural events, making a positive impact on the community.
 
@@ -46,47 +112,3 @@ If you find a private organization you like, send a membership request to join.
 3. **Connect through Interactive Chats** : Engage in vibrant conversations with fellow community members through our chat feature. Share insights, exchange knowledge, and foster meaningful connections.
 
 4. **Personalize your Profile**: Curate a profile that resonates most with you. Your personalized showcase will not only enhance your exploration, but also captivate and inspire others to explore and connect with your shared interests.
-
-## Starting with Talawa Admin
-
-Talawa Admin is a powerful platform designed to empower community leaders with a comprehensive set of tools to efficiently manage memberships, curate engaging content, and seamlessly organize a diverse array of events. It streamlines the administrative tasks, allowing community leaders to focus on fostering a vibrant and inclusive cultural space.
-
-### Step 1: Setting up
-
-To get started, visit https://talawa.app/ and complete the registration process. The Talawa Admin Portal offers a smooth onboarding experience with support for multiple languages, including English, French, Hindi, Spanish, and Chinese.
-
-### Step 2: Organization Handling
-
-Once registered, you'll be directed to your dashboard. From here, you can create a new organization by clicking on "Create Organization" or access previously created ones. Simply enter the organization's name, location, description, and display picture, and select its visibility in search and whether it should be public.
-
-Explore the latest events and popular posts using tags, and find detailed information about your organization, including the number of posts, events, members, and requests.
-
-### Step 3: Functionalities
-
-1. **Manage Joining Requests**:
-
-- Utilize advanced search functionalities for quick and efficient handling of joining requests, streamlining the onboarding process.
-- Approve new member requests promptly, fostering a welcoming and inclusive community environment.
-
-2. **Roles Management**:
-
-- Superadmins can oversee and manage community members, users, and admins with ease, ensuring a well-structured and active community.
-- Promote active members to admin roles, empowering them to contribute to community leadership and engagement.
-
-3. **Feature and Create Posts**:
-
-- Highlight exceptional posts and stories on the community's newsfeed, amplifying cultural experiences and encouraging community interaction.
-- Craft new engaging posts, sharing captivating content that resonates with the community's diverse interests and passions.
-
-4. **Calendar Event Functionality**:
-
-- Effortlessly organize and schedule a diverse range of cultural events, setting accessibility, descriptions, timings, venues, and event modes.
-- Create both public and invite-only events, catering to various community preferences and enhancing event engagement.
-
-5. **Block or Remove Unwanted Members**:
-   Effectively manage community dynamics by promptly blocking or removing members who violate community guidelines or disrupt the positive atmosphere, ensuring a safe and respectful environment for all.
-
-6. **Edit Profile and Organization Info**:
-
-- Personalize profile by selecting preferred languages, creating a more immersive and personalized community experience.
-- Admins can manage organizational information, enabling or disabling plugin creation, and seamlessly coordinating event volunteers for successful event execution.
