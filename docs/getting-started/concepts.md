@@ -10,7 +10,7 @@ To use and contribute to Talawa effectively, you'll need to understand these imp
 
 Use this diagram as a reference in the sections below.
 
-![image](../../static/img/markdown/introduction/api-community.png)
+![image](../../static/img/markdown/getting-started/concepts/api-community.png)
 
 ## Community​
 
