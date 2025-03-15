@@ -62,7 +62,7 @@ jobs:
             CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
             DELETED_FILES=$(git diff --name-only --diff-filter=D ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
             SENSITIVE_CHANGED=false
-            ALL_CHANGED_FILES=""\
+            ALL_CHANGED_FILES=""
             for FILE in $CHANGED_FILES $DELETED_FILES; do
               for PATTERN in "${SENSITIVE_FILES[@]}"; do
                 if [[ "$FILE" == "$PATTERN" || "$FILE" == "$PATTERN"* || "$FILE" == *"$PATTERN"* ]]; then
