@@ -36,29 +36,44 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get Changed Unauthorized files
         id: changed-unauth-files
-        uses: tj-actions/changed-files@v45
-        with:
-          files: |
-            .github/**
-            CNAME
-            static/CNAME
-            package.json
-            sidebar*.js
-            docusaurus.config.js
-            babel.config.js
-            CODEOWNERS
-            LICENSE 
-            ./*md
-            package-lock.json
-            tsconfig.json
-            yarn.lock
-            static/.nojekyll
-            tsconfig.json
-            .gitignore
-            babel.config.js
+        run: |
+          SENSITIVE_FILES=(
+            ".github/"
+            "CNAME"
+            "static/CNAME"
+            "package.json"
+            "sidebar"
+            "docusaurus.config.js"
+            "babel.config.js"
+            "CODEOWNERS"
+            "LICENSE" 
+            ".md"
+            "package-lock.json"
+            "tsconfig.json"
+            "yarn.lock"
+            "static/.nojekyll"
+            ".gitignore"
+            )
+            CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
+            DELETED_FILES=$(git diff --name-only --diff-filter=D ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
+            SENSITIVE_CHANGED=false
+            ALL_CHANGED_FILES=""\
+            for FILE in $CHANGED_FILES $DELETED_FILES; do
+              for PATTERN in "${SENSITIVE_FILES[@]}"; do
+                if [[ "$FILE" == "$PATTERN" || "$FILE" == "$PATTERN"* || "$FILE" == *"$PATTERN"* ]]; then
+                  ALL_CHANGED_FILES+="$FILE "
+                  SENSITIVE_CHANGED=true
+                fi
+              done
+            done
+            echo "all_changed_files=$ALL_CHANGED_FILES" >> $GITHUB_OUTPUT
+            echo "any_changed=$SENSITIVE_CHANGED" >> $GITHUB_OUTPUT
+            echo "any_deleted=$([ -n "$DELETED_FILES" ] && echo "true" || echo "false")" >> $GITHUB_OUTPUT
 
       - name: List all changed unauthorized files
         if: steps.changed-unauth-files.outputs.any_changed == 'true' || steps.changed-unauth-files.outputs.any_deleted == 'true'
@@ -78,10 +93,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Get changed files
         id: changed-files
-        uses: tj-actions/changed-files@v45
+        run: |
+          FILES_COUNT=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | wc -l)
+          echo "all_changed_files_count=$FILES_COUNT" >> $GITHUB_OUTPUT
 
       - name: Echo number of changed files
         env:
@@ -90,7 +109,7 @@ jobs:
           echo "Number of files changed: $CHANGED_FILES_COUNT"
 
       - name: Check if the number of changed files is less than 100
-        if: steps.changed-files.outputs.all_changed_files_count > 100
+        if: ${{ steps.changed-files.outputs.all_changed_files_count > 100 }}
         env:
           CHANGED_FILES_COUNT: ${{ steps.changed-files.outputs.all_changed_files_count }}
         run: |
