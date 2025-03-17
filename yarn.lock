@@ -1974,12 +1974,12 @@
   dependencies:
     "@graphql-tools/load" "^7.8.13"
 
-"@graphql-tools/json-file-loader@^8.0.16":
-  version "8.0.16"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/json-file-loader/-/json-file-loader-8.0.16.tgz#413ce7eec07325cd1de44b3a79b50440e88940f8"
-  integrity sha512-l7LVJMdsphmRcjEx7SezEXg1E24eyjQwQHn04uk41WbvhNfbB3X2fUdDsHzH8dbRXUp+wWABoAIgVOiE1qXpSw==
+"@graphql-tools/json-file-loader@^8.0.18":
+  version "8.0.18"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/json-file-loader/-/json-file-loader-8.0.18.tgz#f89438c1463db75f97f419c17be234d9525bef5d"
+  integrity sha512-JjjIxxewgk8HeMR3npR3YbOkB7fxmdgmqB9kZLWdkRKBxrRXVzhryyq+mhmI0Evzt6pNoHIc3vqwmSctG2sddg==
   dependencies:
-    "@graphql-tools/utils" "^10.8.4"
+    "@graphql-tools/utils" "^10.8.6"
     globby "^11.0.3"
     tslib "^2.4.0"
     unixify "^1.0.0"
@@ -2020,10 +2020,10 @@
     "@graphql-typed-document-node/core" "^3.1.1"
     tslib "^2.4.0"
 
-"@graphql-tools/utils@^10.8.4":
-  version "10.8.4"
-  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-10.8.4.tgz#59dc5ea949e26c6bae28b91ad9f5c00e992de072"
-  integrity sha512-HpHBgcmLIE79jWk1v5Bm0Eb8MaPiwSJT/Iy5xIJ+GMe7yAKpCYrbjf7wb+UMDMkLkfEryvo3syCx8k+TMAZ9bA==
+"@graphql-tools/utils@^10.8.6":
+  version "10.8.6"
+  resolved "https://registry.yarnpkg.com/@graphql-tools/utils/-/utils-10.8.6.tgz#69ef29e408a27919108b2b2227fe8b465acf9e5c"
+  integrity sha512-Alc9Vyg0oOsGhRapfL3xvqh1zV8nKoFUdtLhXX7Ki4nClaIJXckrA86j+uxEuG3ic6j4jlM1nvcWXRn/71AVLQ==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.1"
     "@whatwg-node/promise-helpers" "^1.0.0"
