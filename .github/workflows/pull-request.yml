@@ -19,7 +19,37 @@ jobs:
   Code-Quality-Checks:
     name: Performs linting, formatting, type-checking, checking for different source and target branch
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: ['24.x']
     steps:
+      - name: Checkout the Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for all branches and tags
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check formatting
+        if: steps.changed-files.outputs.only_changed != 'true'
+        run: pnpm run format:check
+        
+      - name: Run formatting if check fails
+        if: failure()
+        run: pnpm run format:fix
+
       - name: Check if the source and target branches are different
         if: ${{ github.event.pull_request.base.ref == github.event.pull_request.head.ref }}
         run: |
