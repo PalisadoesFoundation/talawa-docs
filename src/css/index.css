@@ -21,8 +21,8 @@
   /* UI and components */
   --tintColor: #f7f7f7;
   --rn-note-background: rgba(255, 229, 100, 0.25);
-  --ifm-font-family-base: "Optimistic Display", system-ui, -apple-system,
-    sans-serif;
+  --ifm-font-family-base:
+    "Optimistic Display", system-ui, -apple-system, sans-serif;
   --ifm-font-size-base: 17px;
   --ifm-spacing-horizontal: 16px;
   --ifm-menu-link-padding-horizontal: 0;
