@@ -1,14 +1,29 @@
-name: Deploy to GitHub Pages
+##############################################################################
+##############################################################################
+#
+# NOTE!
+#
+# Please read the README.md file in this directory that defines what should 
+# be placed in this file
+#
+##############################################################################
+##############################################################################
+
+name: PUSH Workflow - Website Deployment
 
 on:
   push:
     branches:
-      - 'develop'   
+      - 'develop'
 
+env:
+  CODECOV_UNIQUE_NAME: CODECOV_UNIQUE_NAME-${{ github.run_id }}-${{ github.run_number }}
+  
 jobs:
   Deploy-Docusaurus:
     name: Deploy https://docs.talawa.io website
     runs-on: ubuntu-latest
+    # Run only if the develop branch and not dependabot
     if: ${{ github.actor != 'dependabot[bot]' }}
     environment:
       # This "name" has to be the repos' branch that contains 
@@ -20,20 +35,31 @@ jobs:
       name: develop
       url: https://docs.talawa.io
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/cache@v3
         with:
-          node-version: '22.x'
-          cache: yarn
+          path: .docusaurus
+          key: docusaurus-${{ hashFiles('docs/**') }}
+          restore-keys: |
+            docusaurus-
       - uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
+          ssh-private-key: ${{ secrets.DEPLOY_GITHUB_PAGES }}
       - name: Deploy to GitHub Pages
         env:
           USE_SSH: true
           GIT_USER: git
+        working-directory: .
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
-          yarn install --frozen-lockfile
-          yarn deploy
+          if ! pnpm install --frozen-lockfile; then
+            echo "Failed to install dependencies"
+            exit 1
+          fi
+          if ! pnpm run deploy; then
+            echo "Deployment failed"
+            exit 1
+          fi
+ 
