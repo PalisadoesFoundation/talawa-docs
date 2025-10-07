@@ -60,6 +60,7 @@ venv.bak/
 .cache-loader
 .package-lock.json
 package-lock.json
+yarn.lock
 
 # Misc
 .DS_Store

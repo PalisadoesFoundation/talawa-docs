@@ -1,5 +1,5 @@
 import React from "react";
-import  Section  from "../../utils/Section";
+import Section from "../../utils/Section";
 // import  TwoColumns  from "../../utils/TwoColumns";
 // import  TextColumn  from "../../utils/TextColumn";
 // import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -8,11 +8,11 @@ import OrganizationFeatureCard from "../../utils/OrganizationFeatureCard";
 
 interface SecondPanelProps {}
 
- const SecondPanel: React.FC<SecondPanelProps> = () => {
+const SecondPanel: React.FC<SecondPanelProps> = () => {
   return (
     <Section className="SecondPanel">
       {/* background-tint removed */}
-      <OrganizationFeatureCard/>
+      <OrganizationFeatureCard />
       {/* <TwoColumns
         reverse
         columnOne={
@@ -33,4 +33,4 @@ interface SecondPanelProps {}
   );
 };
 
-export default SecondPanel
+export default SecondPanel;

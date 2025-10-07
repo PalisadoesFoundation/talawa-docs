@@ -7,7 +7,7 @@ interface SectionProps {
   background?: "light" | "dark" | "tint";
 }
 
- function Section({
+function Section({
   element = "section",
   children,
   className,
@@ -27,4 +27,4 @@ interface SectionProps {
   );
 }
 
-export default Section
+export default Section;

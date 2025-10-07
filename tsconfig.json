@@ -21,15 +21,13 @@
     "target": "esnext",
     "strict": true
   },
-  "exclude": [
-    "node_modules"
-  ],
+  "exclude": ["node_modules"],
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.js",
     "src/**/*.css",
     "sidebars.js",
-    "docusaurus.config.js",
+    "docusaurus.config.js"
   ]
 }

@@ -35,10 +35,13 @@ const OrganizationFeatureCard = () => {
             </p>
           </div>
           <div className="organization-feature-card__footer">
-          <a href="https://docs-mobile.talawa.io/docs-talawa-apk/" rel="noopener noreferrer">
-            <button className="organization-feature-card__button">
-              Get the App
-            </button>
+            <a
+              href="https://docs-mobile.talawa.io/docs-talawa-apk/"
+              rel="noopener noreferrer"
+            >
+              <button className="organization-feature-card__button">
+                Get the App
+              </button>
             </a>
           </div>
         </div>

@@ -8,7 +8,7 @@ interface ActionButtonProps {
   buttonClassName?: string;
 }
 
- function ActionButton({
+function ActionButton({
   href,
   type = "primary",
   target,
@@ -27,4 +27,4 @@ interface ActionButtonProps {
   );
 }
 
-export default ActionButton
+export default ActionButton;
