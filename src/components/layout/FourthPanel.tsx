@@ -1,8 +1,8 @@
-import React from "react";
-import Section from "../../utils/Section";
-import TwoColumns from "../../utils/TwoColumns";
-import TextColumn from "../../utils/TextColumn";
-import textcontent from "../../utils/textcontent";
+import React from 'react';
+import Section from '../../utils/Section';
+import TwoColumns from '../../utils/TwoColumns';
+import TextColumn from '../../utils/TextColumn';
+import textcontent from '../../utils/textcontent';
 
 interface FourthPanelProps {
   className?: string;

@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 interface ActionButtonProps {
   href: string;
-  type?: "primary" | "secondary";
+  type?: 'primary' | 'secondary';
   target?: string;
   children: React.ReactNode;
   buttonClassName?: string;
@@ -10,7 +10,7 @@ interface ActionButtonProps {
 
 function ActionButton({
   href,
-  type = "primary",
+  type = 'primary',
   target,
   children,
   buttonClassName,

@@ -1,6 +1,6 @@
-import React from "react";
-import Section from "../../utils/Section";
-import ParticipationFeaturesCard from "../../utils/ParticipationFeatureCard";
+import React from 'react';
+import Section from '../../utils/Section';
+import ParticipationFeaturesCard from '../../utils/ParticipationFeatureCard';
 
 const SeventhPanel: React.FC = () => {
   return (
