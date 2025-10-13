@@ -88,6 +88,8 @@ jobs:
             "yarn.lock"
             "static/.nojekyll"
             ".gitignore"
+            ".prettierignore"
+            ".prettierrc"
             )
             CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
             DELETED_FILES=$(git diff --name-only --diff-filter=D ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})

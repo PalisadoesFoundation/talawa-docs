@@ -1,10 +1,10 @@
-import React from "react";
-import Section from "../../utils/Section";
+import React from 'react';
+import Section from '../../utils/Section';
 // import  TwoColumns  from "../../utils/TwoColumns";
 // import  TextColumn  from "../../utils/TextColumn";
 // import useBaseUrl from "@docusaurus/useBaseUrl";
 // import textcontent  from "../../utils/textcontent";
-import OrganizationFeatureCard from "../../utils/OrganizationFeatureCard";
+import OrganizationFeatureCard from '../../utils/OrganizationFeatureCard';
 
 interface SecondPanelProps {}
 

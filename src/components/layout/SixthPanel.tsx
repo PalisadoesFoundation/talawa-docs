@@ -1,9 +1,9 @@
-import React from "react";
-import Section from "../../utils/Section";
-import TwoColumns from "../../utils/TwoColumns";
-import TextColumn from "../../utils/TextColumn";
-import textcontent from "../../utils/textcontent";
-import CodeBlock from "@theme/CodeBlock";
+import React from 'react';
+import Section from '../../utils/Section';
+import TwoColumns from '../../utils/TwoColumns';
+import TextColumn from '../../utils/TextColumn';
+import textcontent from '../../utils/textcontent';
+import CodeBlock from '@theme/CodeBlock';
 
 interface SixthPanelProps {}
 
@@ -21,7 +21,7 @@ const SixthPanel: React.FC<SixthPanelProps> = () => {
           />
         }
         columnTwo={
-          typeof window !== "undefined" ? (
+          typeof window !== 'undefined' ? (
             <CodeBlock language="jsx">{codeExample}</CodeBlock>
           ) : (
             <pre>{codeExample}</pre>
