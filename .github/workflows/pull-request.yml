@@ -85,7 +85,7 @@ jobs:
             ".md"
             "package-lock.json"
             "tsconfig.json"
-            "yarn.lock"
+            "pnpm.lock"
             "static/.nojekyll"
             ".gitignore"
             ".prettierignore"
