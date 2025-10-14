@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && node scripts/talawa-docs-css.js",
     "swizzle": "docusaurus swizzle",
     "deploy": "export NODE_OPTIONS=--max-old-space-size=4096 && docusaurus deploy",
     "clear": "docusaurus clear",
