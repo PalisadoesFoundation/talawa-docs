@@ -40,6 +40,7 @@ jobs:
 
       - name: Copy hashed CSS to static folder
         run: |
+          mkdir -p static/css
           HASHED_CSS=$(ls build/assets/css/styles.*.css | head -n 1)
           echo "Found hashed CSS: $HASHED_CSS"
           cp "$HASHED_CSS" static/css/styles-latest.css
