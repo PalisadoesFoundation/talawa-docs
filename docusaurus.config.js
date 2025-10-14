@@ -21,15 +21,6 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  headTags: [
-    {
-      tagName: "link",
-      attributes: {
-        rel: "stylesheet",
-        href: "/assets/css/styles-latest.css",
-      },
-    },
-  ],
   // plugins: [
   //   [
   //     "@graphql-markdown/docusaurus",
