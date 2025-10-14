@@ -1,3 +1,8 @@
 node_modules
 # Contains the PDF file of the Tag as JSON string, thus does not need to be formatted
 src/components/CheckIn/tagTemplate.ts
+
+# Ignore custom CSS files
+src/css/custom.css
+src/css/index.css
+static/css/styles-latest.css
