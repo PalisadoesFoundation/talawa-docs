@@ -14,7 +14,10 @@ name: Update Stable CSS
 on:
   push:
     branches:
-      - develop 
+      - develop
+  pull-request:
+    branches:
+      - develop  
 
 jobs:
   update-css:
