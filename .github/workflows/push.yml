@@ -15,7 +15,7 @@ on:
   push:
     branches:
       - develop
-  pull-request:
+  pull_request:
     branches:
       - develop  
 
