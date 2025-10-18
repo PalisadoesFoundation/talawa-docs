@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build && npm run copy-stable-css",
+    "build": "docusaurus build && pnpm run copy-stable-css",
     "swizzle": "docusaurus swizzle",
     "deploy": "export NODE_OPTIONS=--max-old-space-size=4096 && docusaurus deploy",
     "clear": "docusaurus clear",
