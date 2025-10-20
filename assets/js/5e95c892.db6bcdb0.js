@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktalawa_docs=self.webpackChunktalawa_docs||[]).push([[9647],{3130:(e,a,s)=>{s.r(a),s.d(a,{default:()=>n});s(6363);var r=s(3526),c=s(8539),t=s(4032),u=s(2073),l=s(9439),d=s(7259);function n(e){return(0,d.jsx)(t.e3,{className:(0,r.A)(c.G.wrapper.docsPages),children:(0,d.jsx)(l.A,{children:(0,u.v)(e.route.routes)})})}}}]);
