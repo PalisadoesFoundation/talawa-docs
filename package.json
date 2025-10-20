@@ -18,7 +18,7 @@
     "copy-stable-css": "node scripts/talawa-docs-css.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.9.1",
+    "@docusaurus/core": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.1",
     "@docusaurus/types": "^3.9.1",
     "@graphql-markdown/docusaurus": "^1.19.0",
