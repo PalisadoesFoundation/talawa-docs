@@ -1279,6 +1279,7 @@ a:hover {
   font-weight: 500;
   left: -250px;
   opacity: 1.3;
+  text-align: center;
 }
 
 .HeaderHero .tagline {
@@ -1288,6 +1289,7 @@ a:hover {
   margin-top: -7px;
   opacity: 1.1;
   left: -250px;
+  text-align: center;
 }
 
 .HeaderHero .description {
@@ -1296,10 +1298,14 @@ a:hover {
   color: var(--primary-neutral-800);
   opacity: 1.1;
   left: -250px;
+  text-align: center;
 }
 
 .HeaderHero .buttons {
   margin-top: 40px;
+  text-align: center;
+  margin-right: 9rem;
+  margin-bottom: 1rem;
 }
 
 .HeaderHero .image {
