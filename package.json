@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build && npm run copy-stable-css",
+    "build": "docusaurus build && pnpm run copy-stable-css",
     "swizzle": "docusaurus swizzle",
     "deploy": "export NODE_OPTIONS=--max-old-space-size=4096 && docusaurus deploy",
     "clear": "docusaurus clear",
@@ -18,9 +18,9 @@
     "copy-stable-css": "node scripts/talawa-docs-css.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.9.1",
-    "@docusaurus/preset-classic": "^3.9.1",
-    "@docusaurus/types": "^3.9.1",
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@docusaurus/types": "^3.9.2",
     "@graphql-markdown/docusaurus": "^1.19.0",
     "@graphql-tools/json-file-loader": "^8.0.20",
     "@mdx-js/react": "^3.1.1",
@@ -46,8 +46,8 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.9.1",
-    "@docusaurus/tsconfig": "^3.9.1",
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/tsconfig": "^3.9.2",
     "typescript": "~5.9.3",
     "yarn-audit-fix": "^10.1.1"
   },

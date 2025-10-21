@@ -1,0 +1,68 @@
+{
+  "version": "v1.0.0",
+
+  "entity": {
+    "type": "organization",
+    "role": "owner",
+    "name": "Palisadoes Foundation",
+    "email": "info@palisadoes.org",
+    "phone": "",
+    "description": "Non-profit organization",
+    "webpageUrl": {
+      "url": "https://www.palisadoes.org",
+      "wellKnown": ""
+    }
+  },
+
+  "projects": [
+    {
+      "guid": "Talawa",
+      "name": "Talawa",
+      "description": "community management open-source software",
+      "webpageUrl": {
+        "url": "https://docs.talawa.io/",
+        "wellKnown": ""
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/PalisadoesFoundation/talawa",
+        "wellKnown": ""
+      },
+      "licenses": ["GPL-3.0"],
+      "tags": ["programming", "open-source", "community management", "database"]
+    }
+  ],
+
+  "funding": {
+    "channels": [
+      {
+        "guid": "non-profit bank",
+        "type": "bank",
+        "address": "",
+        "description": "Please contact us for details."
+      }
+    ],
+
+    "plans": [
+      {
+        "guid": "hostingplan",
+        "status": "inactive",
+        "name": "Monthly Support Plan",
+        "description": "Once Talawa is being used, Palisadoes will offer support and hosting plans for further funding.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["non-profit bank"]
+      },
+      {
+        "guid": "Donations",
+        "status": "active",
+        "name": "Yearly Donations to Palisadoes",
+        "description": "These donations would fund internships for underserved students to learn open-source coding through work on Talawa",
+        "amount": 20000,
+        "currency": "USD",
+        "frequency": "Yearly",
+        "channels": ["non-profit bank"]
+      }
+    ]
+  }
+}
