@@ -1279,17 +1279,17 @@ a:hover {
   font-weight: 500;
   left: -250px;
   opacity: 1.3;
-  text-align: center;
+  text-align: center !important; 
 }
 
 .HeaderHero .tagline {
   font-size: 1.5rem;
   line-height: 1.3;
   font-weight: 500;
-  margin-top: -7px;
+  margin-top: -7px; 
   opacity: 1.1;
   left: -250px;
-  text-align: center;
+  text-align: center !important; 
 }
 
 .HeaderHero .description {
@@ -1298,14 +1298,14 @@ a:hover {
   color: var(--primary-neutral-800);
   opacity: 1.1;
   left: -250px;
-  text-align: center;
+  text-align: center !important; 
 }
 
 .HeaderHero .buttons {
   margin-top: 40px;
-  text-align: center;
-  margin-right: 9rem;
-  margin-bottom: 1rem;
+  text-align: center !important; 
+  margin-right: 9rem !important; 
+  margin-bottom: 1rem !important; 
 }
 
 .HeaderHero .image {
