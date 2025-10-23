@@ -29,6 +29,7 @@ function HeaderHero() {
             </div>
           </>
         }
+        align="left"
       />
     </Section>
   );
