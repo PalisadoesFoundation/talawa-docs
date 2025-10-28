@@ -14,6 +14,7 @@ on:
   pull_request:
     branches:
       - '**'
+    types: [opened, synchronize, reopened]
 
 jobs:
   Code-Quality-Checks:
@@ -67,52 +68,62 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch all history for all branches and tags
+          fetch-depth: 0
 
       - name: Get Changed Unauthorized files
         id: changed-unauth-files
+        env:
+          SENSITIVE_PATTERNS: |
+            [
+              ".github/",
+              "CNAME",
+              "static/CNAME",
+              "package.json",
+              "sidebar",
+              "docusaurus.config.js",
+              "babel.config.js",
+              "CODEOWNERS",
+              "LICENSE",
+              ".md",
+              "package-lock.json",
+              "tsconfig.json",
+              "pnpm.lock",
+              "static/.nojekyll",
+              ".gitignore",
+              ".prettierignore",
+              ".prettierrc"
+            ]
         run: |
-          # Get the base branch ref
-          BASE_SHA=$(git merge-base ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
-
-          # Define sensitive files patterns for talawa-docs
-          SENSITIVE_FILES=".github/** .env* CNAME static/CNAME package.json package-lock.json pnpm-lock.yaml tsconfig.json docusaurus.config.js babel.config.js sidebars.js CODEOWNERS LICENSE *.md .gitignore .prettierrc .prettierignore static/.nojekyll"
-
-          # Check for changes in sensitive files
-          CHANGED_UNAUTH_FILES=""
-          for pattern in $SENSITIVE_FILES; do
-            FILES=$(git diff --name-only --diff-filter=ACMRD $BASE_SHA ${{ github.event.pull_request.head.sha }} | grep -E "$pattern" || true)
-            if [ ! -z "$FILES" ]; then
-              CHANGED_UNAUTH_FILES="$CHANGED_UNAUTH_FILES $FILES"
-            fi
+          CHANGED_FILES=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
+          DELETED_FILES=$(git diff --name-only --diff-filter=D ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
+          SENSITIVE_CHANGED=false
+          ALL_CHANGED_FILES=""
+          
+          # Parse the JSON array of sensitive patterns
+          SENSITIVE_PATTERNS_ARRAY=$(echo "$SENSITIVE_PATTERNS" | jq -r '.[]')
+          
+          for FILE in $CHANGED_FILES $DELETED_FILES; do
+            for PATTERN in $SENSITIVE_PATTERNS_ARRAY; do
+              if [[ "$FILE" == "$PATTERN" || "$FILE" == "$PATTERN"* || "$FILE" == *"$PATTERN"* ]]; then
+                ALL_CHANGED_FILES+="$FILE "
+                SENSITIVE_CHANGED=true
+              fi
+            done
           done
-
-          # Trim and format output
-          CHANGED_UNAUTH_FILES=$(echo "$CHANGED_UNAUTH_FILES" | xargs)
-          echo "all_changed_files=$CHANGED_UNAUTH_FILES" >> $GITHUB_OUTPUT
-
-          # Check if any unauthorized files changed
-          if [ ! -z "$CHANGED_UNAUTH_FILES" ]; then
-            echo "any_changed=true" >> $GITHUB_OUTPUT
-            echo "any_deleted=true" >> $GITHUB_OUTPUT
-          else
-            echo "any_changed=false" >> $GITHUB_OUTPUT
-            echo "any_deleted=false" >> $GITHUB_OUTPUT
-          fi
+          
+          echo "all_changed_files=$ALL_CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "any_changed=$SENSITIVE_CHANGED" >> $GITHUB_OUTPUT
+          echo "any_deleted=$([ -n "$DELETED_FILES" ] && echo "true" || echo "false")" >> $GITHUB_OUTPUT
 
       - name: List all changed unauthorized files
         if: steps.changed-unauth-files.outputs.any_changed == 'true' || steps.changed-unauth-files.outputs.any_deleted == 'true'
-        env: 
+        env:
           CHANGED_UNAUTH_FILES: ${{ steps.changed-unauth-files.outputs.all_changed_files }}
         run: |
-          echo "::error::Unauthorized changes detected in sensitive files:"
-          echo ""
-          for file in $CHANGED_UNAUTH_FILES; do
-            echo "- $file"
+          for file in ${CHANGED_UNAUTH_FILES}; do
+            echo "$file is unauthorized to change/delete"
           done
-          echo ""
-          echo "To override:"
-          echo "Add the 'ignore-sensitive-files-pr' label to this PR."
+          echo "To override this, apply the 'ignore-sensitive-files-pr' label"          
           exit 1
 
   Count-Changed-Files:
@@ -128,10 +139,7 @@ jobs:
       - name: Get changed files
         id: changed-files
         run: |
-          # Get the base branch ref
-          BASE_SHA=$(git merge-base ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }})
-          
-          FILES_COUNT=$(git diff --name-only --diff-filter=ACMRT $BASE_SHA ${{ github.event.pull_request.head.sha }} | wc -l)
+          FILES_COUNT=$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | wc -l)
           echo "all_changed_files_count=$FILES_COUNT" >> $GITHUB_OUTPUT
 
       - name: Echo number of changed files
