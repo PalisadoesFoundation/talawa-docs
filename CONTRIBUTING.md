@@ -8,13 +8,16 @@ We know you are ready to start contributing code right away! Hers is a list of [
 
 ## Quicklinks
 
-* [Our Development Process](#Our-development-process)
-    * [Issues](#issues)
-    * [Pull Requests](#pull-requests)
-    * [Git Flow](#git-flow)
-* [Contributing Code](#contributing-code)
-* [Internshhips](#internships)
-* [Community](#community)
+- [Contributing to Talawa Docs](#contributing-to-talawa-docs)
+  - [Ways to Contribute](#ways-to-contribute)
+  - [Quicklinks](#quicklinks)
+    - [Our Development Process](#our-development-process)
+      - [Issues](#issues)
+      - [Pull Requests](#pull-requests)
+      - [Git Flow](#git-flow)
+    - [Contributing Code](#contributing-code)
+    - [Internships](#internships)
+  - [Community](#community)
 
 
 
@@ -62,5 +65,5 @@ If you are participating in any of the various internship programs we ar members
 ## Community
 There are many ways to communicate with the community.
 
-1. The Palisadoes Foundation has a Slack channel where members can assist with support and clarification. Visit the [Talawa GitHub repository home page](https://github.com/PalisadoesFoundation/talawa) for the link to join our slack channel.
-1. We also have a technical email list run by [freelists.org](https://www.freelists.org/). Search for "palisadoes" and join. Members on this list are also periodically added to our marketing email list that focuses on less technical aspects of our work.
+1. The Palisadoes Foundation has an [online community](https://community.talawa.io/) where members can assist with support and clarification. 
+2. We also have a technical email list run by [freelists.org](https://www.freelists.org/). Search for "palisadoes" and join. Members on this list are also periodically added to our marketing email list that focuses on less technical aspects of our work.
