@@ -127,9 +127,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: ' Slack',
-                to: 'https://github.com/PalisadoesFoundation',
-                className: 'footer__icon footer__slack',
+                label: ' Community Forum',
+                to: 'https://community.talawa.io/',
+                className: 'footer__icon footer__news',
               },
               {
                 label: ' News',

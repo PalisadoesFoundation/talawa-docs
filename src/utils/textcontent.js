@@ -74,7 +74,7 @@
     <ul>
       <li><a href="/docs/">Explore this site</a></li>
       <li><a href="https://github.com/PalisadoesFoundation" target="_self">Visit our GitHub pages</a></li>
-      <li><a href="https://github.com/PalisadoesFoundation/talawa#readme" target="_self">Join our Slack channel</a></li>
+      <li><a href="https://community.talawa.io/" target="_self">Visit our Community Forum</a></li>
     </ul>
     <br/>
     <strong>Jump in and get started!</strong>
