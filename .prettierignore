@@ -1,4 +1,6 @@
 node_modules
+pnpm-lock.yaml
+
 # Contains the PDF file of the Tag as JSON string, thus does not need to be formatted
 src/components/CheckIn/tagTemplate.ts
 
