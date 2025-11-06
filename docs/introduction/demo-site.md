@@ -21,7 +21,7 @@ This is what the login page looks like.
 
 Use these credentials to get access to the web portal for evaluation purposes.
 
-| Email                  | Password | User Type     | Joined Organization |
-| ---------------------- | -------- | ------------- | ------------------- |
-| testadmin1@example.com | Pass@123 | Administrator | N/A                 |
-| testuser1@example.com  | Pass@123 | Regular       | N/A                 |
+| Email                  | Password | User Type     | URL                          |
+| ---------------------- | -------- | ------------- | ---------------------------- |
+| testadmin1@example.com | Pass@123 | Administrator | https://test.talawa.io/admin |
+| testuser1@example.com  | Pass@123 | Regular       | https://test.talawa.io       |

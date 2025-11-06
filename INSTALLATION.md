@@ -8,11 +8,11 @@ This document provides instructions on how to set up and start a running instanc
 
 - [Talawa-Docs Installation](#talawa-docs-installation)
 - [Table of Contents](#table-of-contents)
-    - [Prerequisites for Developers](#prerequisites-for-developers)
-        - [Install the Required PNPM Package Manager](#install-the-required-pnpm-package-manager)
-        - [Install the Required Packages](#install-the-required-packages)
-    - [Running tshe Development Server](#running-tshe-development-server)
-    - [Building Static HTML Pages](#building-static-html-pages)
+  - [Prerequisites for Developers](#prerequisites-for-developers)
+    - [Install the Required PNPM Package Manager](#install-the-required-pnpm-package-manager)
+    - [Install the Required Packages](#install-the-required-packages)
+  - [Running tshe Development Server](#running-tshe-development-server)
+  - [Building Static HTML Pages](#building-static-html-pages)
 
 <!-- /TOC -->
 
