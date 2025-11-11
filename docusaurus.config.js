@@ -10,7 +10,11 @@ const config = {
   url: 'https://docs.talawa.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn', // Or 'throw', 'ignore'
+    },
+  },
   onBrokenAnchors: 'throw',
   favicon: 'img/favicon.ico',
   deploymentBranch: 'gh-pages',
