@@ -130,13 +130,25 @@ jobs:
                   owner,
                   repo,
                   issue_number: issueNumber,
-                  body: `❌ @${user} First time contributors cannot use auto assignment. Please ask to be assigned instead.`,
+                  body: `❌ @${user} First time contributors cannot use auto assignment. You have not successfully merged code into the repository. Please ask to be assigned instead.`,
                 });
                 return;
               }    
             }
 
             if (isUnassign) {
+
+              if (body.trim() !== "/unassign") {
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: issueNumber,
+                  body: `❌ @${user} This workflow only supports \`/unassign\` without additional text.`,
+                });
+                console.log("Invalid /unassign command (must be exact)");
+                return;
+              }
+
               const currentAssignees = issue.assignees.map(a => a.login);
               if (!currentAssignees.includes(user)) {
                 console.log(`${user} is not assigned, skipping unassign`);
