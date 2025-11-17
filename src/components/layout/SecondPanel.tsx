@@ -6,9 +6,7 @@ import Section from '../../utils/Section';
 // import textcontent  from "../../utils/textcontent";
 import OrganizationFeatureCard from '../../utils/OrganizationFeatureCard';
 
-interface SecondPanelProps {}
-
-const SecondPanel: React.FC<SecondPanelProps> = () => {
+const SecondPanel = () => {
   return (
     <Section className="SecondPanel">
       {/* background-tint removed */}

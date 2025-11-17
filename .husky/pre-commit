@@ -1,0 +1,11 @@
+
+
+pnpm run format:fix
+
+pnpm run lint-staged
+
+pnpm run typecheck
+
+
+git add .
+

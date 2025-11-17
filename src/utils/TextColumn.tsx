@@ -1,13 +1,13 @@
 import React from 'react';
 import Heading from './Heading';
 
-interface TextColumnProps {
+interface ITextColumnProps {
   title: string;
   text: string;
   moreContent?: React.ReactNode;
 }
 
-function TextColumn({ title, text, moreContent }: TextColumnProps) {
+function TextColumn({ title, text, moreContent }: ITextColumnProps) {
   return (
     <>
       <Heading text={title} />

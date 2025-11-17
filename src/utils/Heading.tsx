@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface HeadingProps {
+interface IHeadingProps {
   text: string;
 }
 
-const Heading: React.FC<HeadingProps> = ({ text }) => {
+const Heading: React.FC<IHeadingProps> = ({ text }) => {
   return <h2 className="Heading">{text}</h2>;
 };
 

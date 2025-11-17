@@ -4,11 +4,11 @@ import TwoColumns from '../../utils/TwoColumns';
 import TextColumn from '../../utils/TextColumn';
 import textcontent from '../../utils/textcontent';
 
-interface FourthPanelProps {
+interface IFourthPanelProps {
   className?: string;
 }
 
-function FourthPanelProps({ className }: FourthPanelProps) {
+function FourthPanelProps({ className }: IFourthPanelProps) {
   return (
     // background="tint" removed
 

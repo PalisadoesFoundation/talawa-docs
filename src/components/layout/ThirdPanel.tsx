@@ -6,9 +6,7 @@ import Section from '../../utils/Section';
 // import useBaseUrl from "@docusaurus/useBaseUrl";
 import AboutCards from '../../utils/ManagementFeaturesCard';
 
-interface ThirdPanelProps {}
-
-const ThirdPanel: React.FC<ThirdPanelProps> = () => {
+const ThirdPanel = () => {
   // const imgUrl = useBaseUrl("img/image-03.png");
 
   return (
