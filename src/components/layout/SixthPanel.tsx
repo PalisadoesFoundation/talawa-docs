@@ -5,9 +5,7 @@ import TextColumn from '../../utils/TextColumn';
 import textcontent from '../../utils/textcontent';
 import CodeBlock from '@theme/CodeBlock';
 
-interface SixthPanelProps {}
-
-const SixthPanel: React.FC<SixthPanelProps> = () => {
+const SixthPanel = () => {
   const { sixthPanel, codeExample } = textcontent;
 
   return (
