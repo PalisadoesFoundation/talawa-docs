@@ -1,7 +1,7 @@
 ---
 title: Demonstration Site
 id: demo-site
-sidebar_position: 3
+sidebar_position: 30
 ---
 
 Talawa was created through the philanthropic work of the Palisadoes Foundation.
