@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktalawa_docs=globalThis.webpackChunktalawa_docs||[]).push([[742],{7093:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
