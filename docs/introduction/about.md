@@ -1,7 +1,7 @@
 ---
 title: About Us
 id: about
-sidebar_position: 4
+sidebar_position: 40
 ---
 
 Talawa was created through the philanthropic work of the Palisadoes Foundation.

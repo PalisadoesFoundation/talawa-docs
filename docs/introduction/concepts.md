@@ -1,7 +1,7 @@
 ---
 id: core-concepts
 title: Core Concepts
-sidebar_position: 3
+sidebar_position: 21
 ---
 
 To use and contribute to Talawa effectively, you'll need to understand these important concepts.
