@@ -2,21 +2,21 @@
 title: What is Talawa?
 id: introduction
 slug: /
-sidebar_position: 1
+sidebar_position: 10
 ---
 
-Talawa helps community based organizations collaborate with their membership.
+Talawa helps multi-organizational communities collaborate with their membership.
 
-## Community Based Organizations
+## Commuity Based Organizations
 
-What do we mean by community based organizations? These are groups of people participating in a common social cause for the benefit of their local communities mostly through volunteers. These include:
+What do we mean by Commuity Based Organizations? These are groups of people participating in a common social cause for the benefit of their local communities mostly through volunteers. They can often be multi-organizational. These include:
 
 1. open source software projects;
 2. non-profit charities;
 3. social groups;
 4. and in limited cases, businesses.
 
-If your organization is making a meaningful difference to your community then Talawa could be for you.
+If your community is making a meaningful difference then Talawa could be for you.
 
 ## Talawa Features
 
