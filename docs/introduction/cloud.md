@@ -16,15 +16,15 @@ Talawa is meant to liberate the management of the operations of multi-organizati
 
 ### Any Server Anywhere
 
-Talawa is designed to be run by any community that wants to manage its membership data on:
+The Talawa API and Talawa Admin applications are designed to be run by any community that wants to manage its membership data on:
 
 1. The physical computer server of their choice or,
 2. The virtual machine of their choice or
 3. A web hosting provider that may have decided to offer Talawa as a cloud service
 
-The web and mobile app software is designed to:
+The web and mobile app client software applications are designed to:
 
-1. work in `ANY` of these scenarios,
+1. work in `ANY` of these previous scenarios,
 2. be easily configurable by the end user to adjust their operation to communicate with the provider of their choice.
 
 The software is free to be used by anyone, anywhere on any system. 
