@@ -1,7 +1,7 @@
 ---
 title: Screen Shots
 id: screenshots
-sidebar_position: 2
+sidebar_position: 20
 ---
 
 Here are some screen shots to give you an idea of the extensive features Talawa offers
