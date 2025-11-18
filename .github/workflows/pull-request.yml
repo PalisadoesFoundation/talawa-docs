@@ -153,6 +153,7 @@ jobs:
             '.*.credentials$'
             '.nojekyll$'
             'knip.json$'
+            'knip.deps.json$'
             'CNAME$'
           )
 
