@@ -56,6 +56,9 @@ jobs:
       - name: checking linting
         run: pnpm run lint:check
 
+      - name: check for unused files,exports and dependencies
+        run: pnpm run knip:check
+
       - name: Check if the source and target branches are different
         if: ${{ github.event.pull_request.base.ref == github.event.pull_request.head.ref }}
         run: |
@@ -64,7 +67,6 @@ jobs:
           echo "Error: Source and Target Branches are the same. Please ensure they are different."
           echo "Error: Close this PR and try again."                    
           exit 1
-
 
   Check-Sensitive-Files:
     if: ${{ github.actor != 'dependabot[bot]' }}
@@ -151,6 +153,7 @@ jobs:
             '.*.credentials$'
             '.nojekyll$'
             'knip.json$'
+            'knip.deps.json$'
             'CNAME$'
           )
 
@@ -188,7 +191,6 @@ jobs:
           echo "To override:"
           echo "Add the 'ignore-sensitive-files-pr' label to this PR."
           exit 1
-
 
   Count-Changed-Files:
     if: ${{ github.actor != 'dependabot[bot]' }}

@@ -19,22 +19,21 @@
     "lint:check": "eslint \"**/*.{ts,tsx,graphql}\" --max-warnings=0",
     "lint:fix": "eslint --fix \"**/*.{ts,tsx,graphql}\"",
     "lint-staged": "lint-staged --concurrent false",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "knip:files-exports": "pnpm dlx knip --include files,exports",
+    "knip:deps": "pnpm dlx knip --config knip.deps.json --include dependencies",
+    "knip:check": "pnpm run knip:files-exports && pnpm run knip:deps"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
     "@docusaurus/preset-classic": "^3.9.2",
     "@docusaurus/types": "^3.9.2",
-    "@graphql-markdown/docusaurus": "^1.19.0",
-    "@graphql-tools/json-file-loader": "^8.0.24",
     "@mdx-js/react": "^3.1.1",
-    "clsx": "^1.2.1",
     "docusaurus": "^1.14.7",
     "graphql": "^16.12.0",
     "prism-react-renderer": "^2.4.0",
     "react": "^19.2.0",
-    "react-dom": "^19.1.1",
-    "yarn": "^1.22.22"
+    "react-dom": "^19.1.1"
   },
   "browserslist": {
     "production": [
@@ -66,8 +65,7 @@
     "husky": "^8.0.0",
     "lint-staged": "^16.2.6",
     "prettier": "^3.6.2",
-    "typescript": "~5.9.3",
-    "yarn-audit-fix": "^10.1.1"
+    "typescript": "~5.9.3"
   },
   "engines": {
     "node": ">=18.0"

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["./src/**/*.{ts,tsx,js}"],
+  "project": ["./src/**/*.{ts,tsx,js,jsx,md,mdx}", "./scripts/**/*.js"],
+  "ignore": [
+    "*.config.{js,ts,mjs}",
+    "docusaurus.config.js",
+    "babel.config.js",
+    "eslint.config.mjs",
+    "sidebars.js",
+    "src/**/*.config.{ts,js}",
+    "src/**/*.d.ts",
+    "src/vite-env.d.ts",
+    "src/**/*.test.{ts,tsx,js}",
+    "src/**/*.spec.{ts,tsx,js}",
+    "src/test-utils/**"
+  ],
+  "ignoreDependencies": [],
+  "ignoreExportsUsedInFile": true
+}
