@@ -647,7 +647,7 @@ a {
 }
 
 a:hover {
-  color: var(--secondary-blue-400);
+  color: var(--primary-blue-600);
 }
 
 .custom-image {
