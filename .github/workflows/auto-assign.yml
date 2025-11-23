@@ -119,6 +119,7 @@ jobs:
               return;
             }            
 
+            /*
             # // Prevent issue creator from self-assigning
             # if (isAssign) {
             #   const issueCreator = issue.user.login;
@@ -133,6 +134,7 @@ jobs:
             #     return;
             #   }
             # }
+            */
 
             // Restrict /assign based on issue creator's permissions
             if (isAssign) {
