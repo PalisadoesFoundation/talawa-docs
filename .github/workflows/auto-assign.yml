@@ -119,24 +119,9 @@ jobs:
               return;
             }            
 
-            /*
-            # // Prevent issue creator from self-assigning
-            # if (isAssign) {
-            #   const issueCreator = issue.user.login;
-            #   if (user === issueCreator) {
-            #     await github.rest.issues.createComment({
-            #       owner,
-            #       repo,
-            #       issue_number: issueNumber,
-            #       body: `❌ @${user} Issue creators cannot auto-assign themselves. Please allow others to volunteer for this issue.`,
-            #     });
-            #     console.log(`Prevented issue creator ${user} from self-assigning issue #${issueNumber}`);
-            #     return;
-            #   }
-            # }
-            */
-
             // Restrict /assign based on issue creator's permissions
+            // We don't want non repo members using the feature to 
+            // grab assignments from issues created by other non-members
             if (isAssign) {
               const issueCreator = issue.user.login;
               
@@ -168,7 +153,7 @@ jobs:
                   return;
                 }
                 
-                console.log(`Issue creator ${issueCreator} has sufficient permissions (${permission}), allowing /assign`);
+                console.log(`Issue created by ${issueCreator} who has sufficient repo permission (${permission}), to allowing the use of /assign for others.`);
               } catch (error) {
                 console.error(`Error checking issue creator permissions for ${issueCreator}:`, error);
                 
