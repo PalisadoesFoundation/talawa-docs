@@ -154,7 +154,15 @@ jobs:
             // grab assignments from issues created by other non-members
             if (isAssign) {
               const issueCreator = issue.user.login;
-              const issueCreatorAssociation = issue.author_association;
+              
+              // Fetch author_association via REST API since it's no longer in event payload
+              const issueDetails = await github.rest.issues.get({
+                owner,
+                repo,
+                issue_number: issueNumber
+              });
+              
+              const issueCreatorAssociation = issueDetails.data.author_association;
               
               console.log(`Issue #${issueNumber} creator ${issueCreator} has association: ${issueCreatorAssociation}`);
               
