@@ -149,9 +149,7 @@ jobs:
             * Author is the owner of the repository.
             */
 
-            // Restrict /assign based on issue creator's permissions
-            // We don't want non repo members using the feature to 
-            // grab assignments from issues created by other non-members
+            // Issues created by non-members require manual intervention by members for auto-assignment.
             if (isAssign) {
               const issueCreator = issue.user.login;
               let issueCreatorAssociation;
