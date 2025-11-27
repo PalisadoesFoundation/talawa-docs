@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   PR-Greeting:
-    name: Pull Request Target
+    name: Pull Request Greeting
     runs-on: ubuntu-latest
     steps:
       - name: Add the PR Review Policy
