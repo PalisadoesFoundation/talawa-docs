@@ -40,6 +40,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr_message: 'Congratulations on making your first PR!'
+          issue_message: 'N/A'
 
   Check-PR-Issue:
     name: Check PR Issue Assignment
