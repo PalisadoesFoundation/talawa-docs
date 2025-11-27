@@ -35,13 +35,6 @@ jobs:
 
             Thanks for contributing!
 
-      - name: Greeting Message to User
-        uses: actions/first-interaction@v1
-        with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          pr_message: Congratulations on making your first PR
-          issue_message: Ignore this message
-
   Check-PR-Issue:
     name: Check PR Issue Assignment
     runs-on: ubuntu-latest
