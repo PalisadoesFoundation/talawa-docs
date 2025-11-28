@@ -14,6 +14,13 @@ on:
   pull_request:
     branches:
       - '**'
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  checks: read
+  pull-requests: write
+  issues: write
 
 jobs:
   Code-Quality-Checks:
@@ -274,3 +281,46 @@ jobs:
         run: |
           echo "Error: Pull request target branch must be 'develop'. Please refer PR_GUIDELINES.md"
           exit 1
+
+  Remove-LGTM-Label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove LGTM label unconditionally
+        uses: actions/github-script@v8
+        with:
+          script: |
+            try {
+              await github.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'LGTM'
+              });
+              console.log("Removed 'lgtm' label");
+            } catch (error) {
+                console.log("LGTM not present, skipping removal.")
+            }
+
+  Add-LGTM-Label:
+    runs-on: ubuntu-latest
+    needs: [Test-Docusaurus-Deployment, Remove-LGTM-Label]
+    if: always()
+    steps:
+      - name: Add LGTM label on success
+        id: check
+        uses: wechuli/allcheckspassed@v2
+        with:
+          poll: false
+
+      - name: Add LGTM label if CI passed
+        if: steps.check.outputs.allChecksPassed == 'true'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            await github.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['LGTM']
+            });
+            console.log("Added 'LGTM' label");
