@@ -14,7 +14,6 @@ on:
   pull_request:
     branches:
       - '**'
-    types: [opened, synchronize, reopened]
 
 permissions:
   contents: read
@@ -297,9 +296,9 @@ jobs:
                 issue_number: context.issue.number,
                 name: 'LGTM'
               });
-              console.log("Removed 'LGTM' label");
+              console.log(`PR# ${context.issue.number} | Run ${context.runId} | Removed 'LGTM' label`);
             } catch (error) {
-                console.log("LGTM not present, skipping removal.")
+              console.log(`PR# ${context.issue.number} | Run ${context.runId} | LGTM not present, skipping removal.`);
             }
 
   Add-LGTM-Label:
@@ -317,4 +316,4 @@ jobs:
               issue_number: context.issue.number,
               labels: ['LGTM']
             });
-            console.log("Added 'LGTM' label");
+            console.log(`PR# ${context.issue.number} | Run ${context.runId} | Added 'LGTM' label`);
