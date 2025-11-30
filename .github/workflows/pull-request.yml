@@ -311,13 +311,17 @@ jobs:
         uses: actions/github-script@v8
         with:
           script: |
-            await github.rest.issues.addLabels({
+            try {
+             await github.rest.issues.addLabels({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               labels: ['LGTM']
-            });
-            console.log('LGTM label added to PR #' + context.issue.number);
+             });          
+            } catch (error) {
+            console.error('Failed to add LGTM label to PR' + context.issue.number + ':', error.message);
+            throw error;
+            }
 
   Check-Target-Branch:
     if: ${{ github.actor != 'dependabot[bot]' }}
