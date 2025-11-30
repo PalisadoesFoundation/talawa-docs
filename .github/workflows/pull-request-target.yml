@@ -16,7 +16,7 @@ on:
 # Required for arkid15r/check-pr-issue-action
 permissions:
   contents: read
-  issues: write
+  issues: read
   pull-requests: write
 
 jobs:
@@ -34,47 +34,6 @@ jobs:
             This PR will be reviewed according to the [Palisadoes Contributing Guidelines](https://developer.palisadoes.org/docs/contributor-guide/contributing) 
 
             Thanks for contributing!
-
-  Remove-LGTM-Label:
-    runs-on: ubuntu-latest
-    if: always()   # always remove label first for every PR update
-    steps:
-      - name: Remove LGTM label immediately
-        uses: actions/github-script@v8
-        with:
-          script: |
-            try {
-              await github.issues.removeLabel({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                name: 'LGTM'
-              });
-              console.log(`PR# ${context.issue.number} | Run ${context.runId} | Removed 'LGTM' label`);
-            } catch (error) {
-              console.log(`PR# ${context.issue.number} | Run ${context.runId} | LGTM not present, skipping removal.`);
-            }
-
-  Add-LGTM-Label:
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-      - name: Add LGTM label
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const prNumber = github.event.workflow_run.pull_requests[0]?.number;
-            if (!prNumber) {
-              console.log("No PR associated, skipping LGTM label.");
-              return;
-            }
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: prNumber,
-              labels: ['LGTM']
-            });
-            console.log(`PR#${prNumber} | LGTM label added`);
 
   # Check-PR-Issue:
   #   name: Check Correct PR Issue Assignment
