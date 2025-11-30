@@ -15,6 +15,11 @@ on:
     branches:
       - '**'
 
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
 jobs:
   Code-Quality-Checks:
     name: Performs linting, formatting, type-checking, checking for different source and target branch
@@ -264,6 +269,60 @@ jobs:
         working-directory: ./
         run: pnpm build
 
+  Remove-LGTM-Label:
+    name: Remove LGTM Label
+    runs-on: ubuntu-latest
+    if: always()
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Remove LGTM label
+        uses: actions/github-script@v8
+        with:
+          script: |
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                name: 'LGTM'
+              });
+              console.log('LGTM label removed from PR #' + context.payload.pull_request.number);
+            } catch (error) {
+              // Check for 404 status in different possible locations
+              const status = error.status || error.response?.status;
+              if (status === 404) {
+                console.log('LGTM label not found, skipping removal.');
+              } else {
+                console.log('Error removing label:', error.message);
+                // Don't throw the error - we want this job to always succeed
+              }
+            }
+
+  Add-LGTM-Label:
+    name: Add LGTM Label on Success
+    runs-on: ubuntu-latest
+    needs: [Test-Docusaurus-Deployment]
+    if: success()
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Add LGTM label
+        uses: actions/github-script@v8
+        with:
+          script: |
+            try {
+             await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['LGTM']
+             });          
+            } catch (error) {
+            console.error('Failed to add LGTM label to PR' + context.issue.number + ':', error.message);
+            throw error;
+            }
+
   Check-Target-Branch:
     if: ${{ github.actor != 'dependabot[bot]' }}
     name: Check Target Branch
@@ -274,3 +333,4 @@ jobs:
         run: |
           echo "Error: Pull request target branch must be 'develop'. Please refer PR_GUIDELINES.md"
           exit 1
+          
