@@ -16,7 +16,7 @@ on:
 # Required for arkid15r/check-pr-issue-action
 permissions:
   contents: read
-  issues: read
+  issues: write
   pull-requests: write
 
 jobs:
@@ -34,25 +34,6 @@ jobs:
             This PR will be reviewed according to the [Palisadoes Contributing Guidelines](https://developer.palisadoes.org/docs/contributor-guide/contributing) 
 
             Thanks for contributing!
-
-  # Check-PR-Issue:
-  #   name: Check Correct PR Issue Assignment
-  #   runs-on: ubuntu-latest
-  #   needs: [PR-Greeting]
-  #   steps:
-  #     - uses: actions/checkout@v4
-  #     - name: Check PR linked issue and assignee
-  #       uses: arkid15r/check-pr-issue-action@v0.1.2
-  #       with:
-  #         close_pr_on_failure: 'true'
-  #         github_token: ${{ secrets.GITHUB_TOKEN }}
-  #         no_assignee_message: 'The linked issue must be assigned to the PR author.'
-  #         no_issue_message: 'The PR must be linked to an issue assigned to the PR author.'
-  #         check_issue_reference: 'true'
-  #         require_assignee: 'true'
-  #         # List of usernames who can create PRs without having an assigned issue
-  #         skip_users_file_path: '.github/workflows/config/check-pr-issue-skip-usernames.txt'
-
 
   Remove-LGTM-Label:
     runs-on: ubuntu-latest
@@ -76,37 +57,39 @@ jobs:
 
   Add-LGTM-Label:
     runs-on: ubuntu-latest
-    needs: [Remove-LGTM-Label, Test-Docusaurus-Deployment]
-    if: ${{ github.event.pull_request.merged != true }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Check CI results and add LGTM label only if all checks passed
+      - name: Add LGTM label
         uses: actions/github-script@v8
         with:
           script: |
-            const { owner, repo } = context.repo;
-            const pr = context.issue.number;
-            const sha = context.payload.pull_request.head.sha;
-
-            // Get commit status
-            const status = await github.rest.repos.getCombinedStatusForRef({ owner, repo, ref: sha });
-            const statusesPassed = status.data.state === 'success';
-
-            // Get check runs
-            const checks = await github.rest.checks.listForRef({ owner, repo, ref: sha });
-            const checkRunsPassed =
-              checks.data.total_count > 0 &&
-              checks.data.check_runs.every(run => run.conclusion === 'success');
-
-            if (!statusesPassed || !checkRunsPassed) {
-              console.log(`Tests not finished or failing — Skipping LGTM for PR#${pr}`);
+            const prNumber = github.event.workflow_run.pull_requests[0]?.number;
+            if (!prNumber) {
+              console.log("No PR associated, skipping LGTM label.");
               return;
             }
-
             await github.rest.issues.addLabels({
-              owner,
-              repo,
-              issue_number: pr,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
               labels: ['LGTM']
             });
+            console.log(`PR#${prNumber} | LGTM label added`);
 
-            console.log(`PR#${pr} | All tests passed | LGTM label added`);
+  # Check-PR-Issue:
+  #   name: Check Correct PR Issue Assignment
+  #   runs-on: ubuntu-latest
+  #   needs: [PR-Greeting]
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Check PR linked issue and assignee
+  #       uses: arkid15r/check-pr-issue-action@v0.1.2
+  #       with:
+  #         close_pr_on_failure: 'true'
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         no_assignee_message: 'The linked issue must be assigned to the PR author.'
+  #         no_issue_message: 'The PR must be linked to an issue assigned to the PR author.'
+  #         check_issue_reference: 'true'
+  #         require_assignee: 'true'
+  #         # List of usernames who can create PRs without having an assigned issue
+  #         skip_users_file_path: '.github/workflows/config/check-pr-issue-skip-usernames.txt'
