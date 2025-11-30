@@ -14,9 +14,6 @@ on:
   pull_request:
     branches:
       - '**'
-  pull_request_target:
-  workflow_run:
-    types: [completed]
 
 permissions:
   contents: read
