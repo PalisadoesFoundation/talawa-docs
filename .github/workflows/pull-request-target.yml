@@ -76,7 +76,7 @@ jobs:
 
   Add-LGTM-Label:
     runs-on: ubuntu-latest
-    needs: [Remove-LGTM-Label]
+    needs: [Remove-LGTM-Label, Test-Docusaurus-Deployment]
     if: ${{ github.event.pull_request.merged != true }}
     steps:
       - name: Check CI results and add LGTM label only if all checks passed
