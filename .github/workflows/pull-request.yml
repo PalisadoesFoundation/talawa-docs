@@ -283,15 +283,18 @@ jobs:
               await github.rest.issues.removeLabel({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: context.payload.pull_request.number,
                 name: 'LGTM'
               });
-              console.log('LGTM label removed from PR #' + context.issue.number);
+              console.log('LGTM label removed from PR #' + context.payload.pull_request.number);
             } catch (error) {
-              if (error.status === 404) {
+              // Check for 404 status in different possible locations
+              const status = error.status || error.response?.status;
+              if (status === 404) {
                 console.log('LGTM label not found, skipping removal.');
               } else {
-                throw error;
+                console.log('Error removing label:', error.message);
+                // Don't throw the error - we want this job to always succeed
               }
             }
 
