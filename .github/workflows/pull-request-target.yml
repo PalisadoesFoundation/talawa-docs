@@ -42,7 +42,7 @@ jobs:
 Add-LGTM-Label:
   name: Add LGTM Label on Success
   runs-on: ubuntu-latest
-  needs: [Test-Docusaurus-Deployment]
+  needs: [PR-Greeting]
   if: success()
   permissions:
     issues: write
