@@ -268,45 +268,52 @@ jobs:
         working-directory: ./
         run: pnpm build
 
-  Auto-LGTM:
-    name: Auto LGTM on Test Success
-    # Run only when triggered by a successful workflow_run for the test workflow
-    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.name == 'Checking workflow files' }}
+  Remove-LGTM-Label:
+    name: Remove LGTM Label
     runs-on: ubuntu-latest
+    if: always()
+    permissions:
+      pull-requests: write
     steps:
-      - name: Comment LGTM and add label to associated PRs
+      - name: Remove LGTM label
         uses: actions/github-script@v8
         with:
           script: |
-            const prs = github.event.workflow_run.pull_requests || [];
-            if (prs.length === 0) {
-              console.log('No PRs associated with this workflow run.');
-              return;
-            }
-            for (const pr of prs) {
-              const prNumber = pr.number;
-              // Post a comment on the PR
-              await github.rest.issues.createComment({
+            try {
+              await github.rest.issues.removeLabel({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: prNumber,
-                body: 'LGTM — All tests passed ✅\n\nThis comment was posted automatically by the CI.'
+                issue_number: context.issue.number,
+                name: 'LGTM'
               });
-
-              // Add the LGTM label
-              try {
-                await github.rest.issues.addLabels({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: prNumber,
-                  labels: ['LGTM']
-                });
-              } catch (err) {
-                console.log(`Failed to add LGTM label to PR#${prNumber}: ${err}`);
+              console.log('LGTM label removed from PR #' + context.issue.number);
+            } catch (error) {
+              if (error.status === 404) {
+                console.log('LGTM label not found, skipping removal.');
+              } else {
+                throw error;
               }
-
-              console.log(`PR#${prNumber} | Commented and labeled LGTM.`);
             }
+
+  Add-LGTM-Label:
+    name: Add LGTM Label on Success
+    runs-on: ubuntu-latest
+    needs: [Test-Docusaurus-Deployment]
+    if: success()
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Add LGTM label
+        uses: actions/github-script@v8
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['LGTM']
+            });
+            console.log('LGTM label added to PR #' + context.issue.number);
 
   Check-Target-Branch:
     if: ${{ github.actor != 'dependabot[bot]' }}
