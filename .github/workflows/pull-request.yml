@@ -297,27 +297,6 @@ jobs:
               }
             }
 
-  Add-LGTM-Label:
-    name: Add LGTM Label on Success
-    runs-on: ubuntu-latest
-    needs: [Test-Docusaurus-Deployment]
-    if: success()
-    permissions:
-      pull-requests: write
-    steps:
-      - name: Add LGTM label
-        uses: actions/github-script@v8
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            await github.rest.issues.addLabels({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.payload.pull_request.number,
-              labels: ['LGTM']
-            });
-            console.log('LGTM label added to PR #' + context.payload.pull_request.number);
-
   Check-Target-Branch:
     if: ${{ github.actor != 'dependabot[bot]' }}
     name: Check Target Branch

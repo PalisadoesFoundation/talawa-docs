@@ -51,6 +51,7 @@ venv.bak/
 # Dependencies
 /node_modules
 .node-version
+.github/actions/*/node_modules/
 
 # Production
 /build

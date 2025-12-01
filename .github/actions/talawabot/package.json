@@ -1,0 +1,10 @@
+{
+  "name": "talawabot",
+  "version": "1.0.0",
+  "description": "GitHub automation bot for Talawa",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "probot": "^13.0.0"
+  }
+}

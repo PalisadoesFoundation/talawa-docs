@@ -1,0 +1,23 @@
+name: Talawabot
+
+on:
+  pull_request_review:
+  issue_comment:
+  pull_request:
+
+permissions:
+  issues: write
+  pull-requests: write
+  checks: write
+  statuses: write
+
+jobs:
+  run-talawabot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Talawabot
+        uses: ./.github/actions/talawabot
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,8 @@
+name: Talawabot
+description: Auto PR management bot for Talawa
+runs:
+  using: "node20"
+  main: "index.js"
+inputs:
+  repo-token:
+    required: true
