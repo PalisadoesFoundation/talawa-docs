@@ -4,14 +4,14 @@ on:
   pull_request_review:
   issue_comment:
   pull_request:
+  check_suite:
+    types: [completed]  
 
 permissions:
   issues: write
   pull-requests: write
   checks: write
   statuses: write
-  check_suite:
-    types: [completed]
 
 jobs:
   run-talawabot:
