@@ -1,0 +1,56 @@
+name: Add LGTM Label
+
+on:
+  workflow_run:
+    workflows: ["Checking workflow files"]
+    types:
+      - completed
+    branches:
+      - '**'
+
+permissions:
+  pull-requests: write
+  actions: read
+
+jobs:
+  add-lgtm-label:
+    name: Add LGTM Label on Test Success
+    runs-on: ubuntu-latest
+    if: >
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'pull_request'
+    steps:
+      - name: Get PR number
+        id: pr
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const response = await github.rest.repos.listPullRequestsAssociatedWithCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.payload.workflow_run.head_sha
+            });
+            
+            if (response.data.length > 0) {
+              return response.data[0].number;
+            }
+            return null;
+
+      - name: Add LGTM label
+        if: steps.pr.outputs.result != 'null'
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const prNumber = ${{ steps.pr.outputs.result }};
+            
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                labels: ['LGTM']
+              });
+              console.log('✅ LGTM label added to PR #' + prNumber);
+            } catch (error) {
+              console.log('❌ Error adding LGTM label:', error.message);
+            }
