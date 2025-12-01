@@ -55,5 +55,5 @@ jobs:
           check_issue_reference: 'true'
           require_assignee: 'true'
           # List of usernames who can create PRs without having an assigned issue
-  #         skip_users_file_path: '.github/workflows/config/check-pr-issue-skip-usernames.txt'
+          skip_users_file_path: '.github/workflows/config/check-pr-issue-skip-usernames.txt'
   
