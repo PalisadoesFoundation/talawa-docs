@@ -10,6 +10,8 @@ permissions:
   pull-requests: write
   checks: write
   statuses: write
+  check_suite:
+    types: [completed]
 
 jobs:
   run-talawabot:
