@@ -52,11 +52,11 @@
     "@docusaurus/tsconfig": "^3.9.2",
     "@eslint/js": "^9.39.1",
     "@graphql-eslint/eslint-plugin": "^4.4.0",
-    "@types/react": "^19.2.5",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "@typescript-eslint/eslint-plugin": "^8.46.4",
-    "@typescript-eslint/parser": "^8.46.4",
-    "@vitest/eslint-plugin": "^1.4.3",
+    "@typescript-eslint/parser": "^8.48.0",
+    "@vitest/eslint-plugin": "^1.5.1",
     "eslint": "^9.39.1",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.4",
@@ -64,7 +64,7 @@
     "eslint-plugin-tsdoc": "^0.5.0",
     "husky": "^8.0.0",
     "lint-staged": "^16.2.7",
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.3",
     "typescript": "~5.9.3"
   },
   "engines": {
