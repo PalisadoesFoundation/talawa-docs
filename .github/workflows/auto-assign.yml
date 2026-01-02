@@ -1,0 +1,11 @@
+name: Auto Assign & Unassign (Org-wide Limit)
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  handle-comment:
+    uses: PalisadoesFoundation/.github/.github/workflows/auto-assign.yml@main
+    secrets:
+      ORG_ACCESS_TOKEN: ${{ secrets.ORG_ACCESS_TOKEN }}
