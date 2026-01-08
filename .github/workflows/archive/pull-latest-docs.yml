@@ -2,7 +2,7 @@ name: Pull Talawa Changes
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # Runs every Sunday at 1:00AM UTC
+    - cron: '0 1 * * *' # Runs every Sunday at 1:00AM UTC
   workflow_dispatch:
 
 jobs:
