@@ -87,7 +87,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: PalisadoesFoundation/.github
-          ref: main
+          ref: f65fe24208c75419454c9944b1ddaa94dfc747ee # Pin to a specific, reviewed commit
           path: .github-central
 
       - name: Get PR labels
@@ -133,8 +133,7 @@ jobs:
 
           # Check for sensitive files using the python script
           if [ ${#ALL_CHANGED_FILES[@]} -gt 0 ]; then
-             chmod +x .github-central/.github/workflows/scripts/sensitive_file_check.py
-             .github-central/.github/workflows/scripts/sensitive_file_check.py --config .github/workflows/config/sensitive_files.txt --files "${ALL_CHANGED_FILES[@]}"
+            python .github-central/.github/workflows/scripts/sensitive_file_check.py --config .github/workflows/config/sensitive_files.txt --files "${ALL_CHANGED_FILES[@]}"
           fi
 
   Count-Changed-Files:
