@@ -115,9 +115,8 @@ jobs:
         with:
           python-version: 3.11
 
-      - name: Get Changed Unauthorized files
+      - name: Check for sensitive file changes
         if: steps.check-labels.outputs.skip != 'true'
-        id: changed-unauth-files
         run: |
           # Skip if not in PR context
           if [ -z "${{ github.event.pull_request.base.sha }}" ]; then
@@ -133,7 +132,7 @@ jobs:
 
           # Check for sensitive files using the python script
           if [ ${#ALL_CHANGED_FILES[@]} -gt 0 ]; then
-            python .github-central/.github/workflows/scripts/sensitive_file_check.py --config .github/workflows/config/sensitive_files.txt --files "${ALL_CHANGED_FILES[@]}"
+            python3 .github-central/.github/workflows/scripts/sensitive_file_check.py --config .github/workflows/config/sensitive_files.txt --files "${ALL_CHANGED_FILES[@]}"
           fi
 
   Count-Changed-Files:
