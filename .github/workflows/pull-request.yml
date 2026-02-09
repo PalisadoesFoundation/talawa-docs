@@ -129,7 +129,12 @@ jobs:
 
           # Get all changed files between base and head
           DIFF_OUTPUT=$(git diff --name-only -z --diff-filter=ACMR "$BASE_SHA" "$HEAD_SHA") || exit 1
-          mapfile -d '' ALL_CHANGED_FILES <<< "$DIFF_OUTPUT"
+          if [ -z "$DIFF_OUTPUT" ]; then
+            echo "No changed files detected."
+            exit 0  
+          fi
+
+          mapfile -d '' ALL_CHANGED_FILES < <(printf '%s' "$DIFF_OUTPUT")
 
           # Check for sensitive files using the python script
           if [ ${#ALL_CHANGED_FILES[@]} -gt 0 ]; then
