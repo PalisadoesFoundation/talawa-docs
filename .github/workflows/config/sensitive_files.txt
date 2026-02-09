@@ -2,3 +2,10 @@
 ^babel\.config\.js$
 ^CODEOWNERS$
 ^LICENSE$
+^\.github/
+^package\.json$
+^sidebar\.js$
+^\.gitignore$
+^\.prettierignore$
+^\.prettierrc$
+^CNAME$
