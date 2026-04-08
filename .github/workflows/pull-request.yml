@@ -250,8 +250,8 @@ jobs:
         name: Install pnpm
         with:
           run_install: false
-          cache: pnpm
-          cache-dependency-path: |
+          cache: true
+          cache_dependency_path: |
             pnpm-lock.yaml
             package.json
 
