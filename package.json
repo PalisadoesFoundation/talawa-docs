@@ -25,9 +25,9 @@
     "knip:check": "pnpm run knip:files-exports && pnpm run knip:deps"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.9.2",
-    "@docusaurus/preset-classic": "^3.9.2",
-    "@docusaurus/types": "^3.9.2",
+    "@docusaurus/core": "^3.10.0",
+    "@docusaurus/preset-classic": "^3.10.0",
+    "@docusaurus/types": "^3.10.0",
     "@mdx-js/react": "^3.1.1",
     "docusaurus": "^1.14.7",
     "graphql": "^16.13.2",
@@ -48,8 +48,8 @@
     ]
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.9.2",
-    "@docusaurus/tsconfig": "^3.9.2",
+    "@docusaurus/module-type-aliases": "^3.10.0",
+    "@docusaurus/tsconfig": "^3.10.0",
     "@eslint/js": "^9.39.2",
     "@graphql-eslint/eslint-plugin": "^4.4.0",
     "@types/react": "^19.2.7",
