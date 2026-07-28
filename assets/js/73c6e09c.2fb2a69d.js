@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunktalawa_docs=globalThis.webpackChunktalawa_docs||[]).push([[93],{6067:a=>{a.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Introduction","slug":"/category/introduction","permalink":"/docs/category/introduction","sidebar":"docs","navigation":{"next":{"title":"What is Talawa?","permalink":"/docs/"}}}}')}}]);
