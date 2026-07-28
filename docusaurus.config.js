@@ -15,6 +15,20 @@ const config = {
       onBrokenMarkdownLinks: 'warn', // Or 'throw', 'ignore'
     },
   },
+  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  future: {
+    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    faster: {
+      swcJsLoader: true,
+      swcJsMinimizer: true,
+      swcHtmlMinimizer: true,
+      lightningCssMinimizer: true,
+      rspackBundler: true,
+      rspackPersistentCache: true,
+      ssgWorkerThreads: true,
+      mdxCrossCompilerCache: true,
+    },
+  },
   onBrokenAnchors: 'throw',
   favicon: 'img/favicon.ico',
   deploymentBranch: 'gh-pages',
@@ -179,7 +193,7 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} The Palisadoes Foundation, LLC. Built with Docusaurus.`,
-      },     
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
