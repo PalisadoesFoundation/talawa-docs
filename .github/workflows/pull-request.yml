@@ -83,6 +83,13 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all history for all branches and tags
 
+      - name: Checkout centralized CI/CD scripts
+        uses: actions/checkout@v4
+        with:
+          repository: PalisadoesFoundation/.github
+          ref: main
+          path: .github-central
+
       - name: Get PR labels
         id: check-labels
         env:
@@ -102,11 +109,15 @@ jobs:
             echo "skip=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Get Changed Unauthorized files
+      - name: Set up Python
         if: steps.check-labels.outputs.skip != 'true'
-        id: changed-unauth-files
-        run: |
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
 
+      - name: Check for sensitive file changes
+        if: steps.check-labels.outputs.skip != 'true'
+        run: |
           # Skip if not in PR context
           if [ -z "${{ github.event.pull_request.base.sha }}" ]; then
             echo "any_changed=false" >> $GITHUB_OUTPUT
@@ -117,85 +128,19 @@ jobs:
           HEAD_SHA="${{ github.event.pull_request.head.sha || github.sha }}"
           BASE_SHA=$(git merge-base "${{ github.event.pull_request.base.sha }}" "$HEAD_SHA")
 
-          # Define sensitive files patterns as a bash array
-          SENSITIVE_PATTERNS=(
-           ".github/"
-            "package.json"
-            "sidebar.js$"
-            "docusaurus.config.js"
-            "babel.config.js"
-            "CODEOWNERS"
-            "LICENSE" 
-            ".md"
-            "package-lock.json"
-            "tsconfig.json"
-            "pnpm.lock"
-            "static/.nojekyll"
-            ".gitignore"
-            ".prettierignore"
-            ".prettierrc"
-            '^.husky/.*'
-            '^scripts/.*'
-            'tsconfig.json$'
-            '.eslintrc.json$'
-            '.eslintignore$'
-            'CODEOWNERS$'
-            'LICENSE$'
-            '.coderabbit.yaml$'
-            'CODE_OF_CONDUCT.md$'
-            'CODE_STYLE.md$'
-            'CONTRIBUTING.md$'
-            'DOCUMENTATION.md$'
-            'INSTALLATION.md$'
-            'ISSUE_GUIDELINES.md$'
-            'PR_GUIDELINES.md$'
-            'README.md$'
-            '.*.pem$'
-            '.*.key$'
-            '.*.cert$'
-            '.*.password$'
-            '.*.secret$'
-            '.*.credentials$'
-            '.nojekyll$'
-            'knip.json$'
-            'knip.deps.json$'
-            'CNAME$'
-          )
-
-          # Check for changes in sensitive files
-          CHANGED_UNAUTH_FILES=""
-          for pattern in "${SENSITIVE_PATTERNS[@]}"; do
-            FILES=$(git diff --name-only --diff-filter=ACMRD "$BASE_SHA" "$HEAD_SHA" | grep -E "$pattern" || true)
-            if [ ! -z "$FILES" ]; then
-              CHANGED_UNAUTH_FILES="$CHANGED_UNAUTH_FILES $FILES"
-            fi
-          done
-
-          # Trim and format output
-          CHANGED_UNAUTH_FILES=$(echo "$CHANGED_UNAUTH_FILES" | xargs)
-          echo "all_changed_files=$CHANGED_UNAUTH_FILES" >> $GITHUB_OUTPUT
-
-          # Check if any unauthorized files changed
-          if [ ! -z "$CHANGED_UNAUTH_FILES" ]; then
-            echo "any_changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "any_changed=false" >> $GITHUB_OUTPUT
+          # Get all changed files between base and head
+          DIFF_OUTPUT=$(git diff --name-only -z --diff-filter=ACMR "$BASE_SHA" "$HEAD_SHA") || exit 1
+          if [ -z "$DIFF_OUTPUT" ]; then
+            echo "No changed files detected."
+            exit 0  
           fi
 
-      - name: List all changed unauthorized files
-        if: steps.changed-unauth-files.outputs.any_changed == 'true'
-        env:
-          CHANGED_UNAUTH_FILES: ${{ steps.changed-unauth-files.outputs.all_changed_files }}
-        run: |
-          echo "::error::Unauthorized changes detected in sensitive files:"
-          echo ""
-          for file in $CHANGED_UNAUTH_FILES; do
-            echo "- $file"
-          done
-          echo ""
-          echo "To override:"
-          echo "Add the 'ignore-sensitive-files-pr' label to this PR."
-          exit 1
+          mapfile -d '' ALL_CHANGED_FILES < <(printf '%s' "$DIFF_OUTPUT")
+
+          # Check for sensitive files using the python script
+          if [ ${#ALL_CHANGED_FILES[@]} -gt 0 ]; then
+            python3 .github-central/.github/workflows/scripts/sensitive_file_check.py --config .github/workflows/config/sensitive_files.txt --files "${ALL_CHANGED_FILES[@]}"
+          fi
 
   Count-Changed-Files:
     if: ${{ github.actor != 'dependabot[bot]' }}

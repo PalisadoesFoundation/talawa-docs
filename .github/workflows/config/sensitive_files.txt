@@ -1,0 +1,13 @@
+^\.github/
+^package\.json$
+^sidebars\.js$
+^docusaurus\.config\.js$
+^babel\.config\.js$
+^CODEOWNERS$
+^LICENSE$
+^\.gitignore$
+^\.prettierignore$
+^\.prettierrc$
+^CNAME$
+^pnpm-lock\.yaml$
+^eslint\.config\.mjs$
